@@ -1,0 +1,27 @@
+name: Update JSON from API
+
+on:
+  schedule:
+    - cron: '12 0 * * *' # Runs every day at 00:12 UTC
+  workflow_dispatch:
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Curl API and save response
+        run: |
+          curl -X 'GET' \
+            'https://openrouter.ai/api/v1/models' \
+            -H 'accept: application/json' | jq '.data | sort_by(.id)' > models.json
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data.json
+          timestamp=$(date -u)
+          git commit -m "${timestamp}" || exit 0
+          git push
