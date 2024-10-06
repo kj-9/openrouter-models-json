@@ -2873,7 +2873,7 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 8192,
+      "context_length": 18000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
