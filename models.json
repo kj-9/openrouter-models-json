@@ -1464,6 +1464,54 @@
     "per_request_limits": null
   },
   {
+    "id": "inflection/inflection-3-pi",
+    "name": "Inflection: Inflection 3 Pi",
+    "created": 1728604800,
+    "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It excels in scenarios like customer support, roleplay, and emotional intelligence.",
+    "context_length": 8000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000025",
+      "completion": "0.00001",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 8000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "inflection/inflection-3-productivity",
+    "name": "Inflection: Inflection 3 Productivity",
+    "created": 1728604800,
+    "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines\n\nFor emotional intelligence similar to Pi, see [Inflect 3 Pi](/inflection/inflection-3-pi)\n\nSee [Inflection's announcement](https://inflection.ai/blog/enterprise) for more details.",
+    "context_length": 8000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000025",
+      "completion": "0.00001",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 8000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "jondurbin/airoboros-l2-70b",
     "name": "Airoboros 70B",
     "created": 1698537600,
@@ -4458,6 +4506,54 @@
     },
     "top_provider": {
       "context_length": 4096,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "x-ai/grok-2",
+    "name": "xAI: Grok 2",
+    "created": 1728691200,
+    "description": "Grok-2 is xAI's frontier language model with state-of-the-art reasoning capabilities, best for complex and multi-step use cases.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Grok",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000042",
+      "completion": "0.0000069",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "x-ai/grok-2-mini",
+    "name": "xAI: Grok 2 mini",
+    "created": 1728691200,
+    "description": "Grok-2 mini is xAI's more lightweight and affordable language model that offers a balance between speed and answer quality.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Grok",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000042",
+      "completion": "0.0000069",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
