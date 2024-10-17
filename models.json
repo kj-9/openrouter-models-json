@@ -1069,7 +1069,7 @@
     "pricing": {
       "prompt": "0.00000125",
       "completion": "0.000005",
-      "image": "0.00263",
+      "image": "0.0006575",
       "request": "0"
     },
     "top_provider": {
@@ -1883,13 +1883,13 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.0000003",
-      "completion": "0.0000003",
+      "prompt": "0.00000035",
+      "completion": "0.0000004",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 100000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -3072,6 +3072,30 @@
     "per_request_limits": null
   },
   {
+    "id": "nvidia/llama-3.1-nemotron-70b-instruct",
+    "name": "Nvidia: Llama 3.1 Nemotron 70B Instruct",
+    "created": 1728950400,
+    "description": "NVIDIA's Llama 3.1 Nemotron 70B is a language model designed for generating precise and useful responses. Leveraging [Llama 3.1 70B](/models/meta-llama/llama-3.1-70b-instruct) architecture and Reinforcement Learning from Human Feedback (RLHF), it excels in automatic alignment benchmarks. This model is tailored for applications requiring high accuracy in helpfulness and response generation, suitable for diverse user queries across multiple domains.\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama3",
+      "instruct_type": "llama3"
+    },
+    "pricing": {
+      "prompt": "0.00000035",
+      "completion": "0.0000004",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "openai/chatgpt-4o-latest",
     "name": "OpenAI: ChatGPT-4o",
     "created": 1723593600,
@@ -3138,30 +3162,6 @@
     },
     "top_provider": {
       "context_length": 16385,
-      "max_completion_tokens": 4096,
-      "is_moderated": true
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "openai/gpt-3.5-turbo-0301",
-    "name": "OpenAI: GPT-3.5 Turbo (older v0301)",
-    "created": 1685232000,
-    "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
-    "context_length": 4095,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "GPT",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000002",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 4095,
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
