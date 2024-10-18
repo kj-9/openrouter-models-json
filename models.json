@@ -1467,7 +1467,7 @@
     "id": "inflection/inflection-3-pi",
     "name": "Inflection: Inflection 3 Pi",
     "created": 1728604800,
-    "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It excels in scenarios like customer support, roleplay, and emotional intelligence.",
+    "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay.\n\nPi has been trained to mirror your tone and style, if you use more emojis, so will Pi! Try experimenting with various prompts and conversation styles.",
     "context_length": 8000,
     "architecture": {
       "modality": "text->text",
@@ -1491,7 +1491,7 @@
     "id": "inflection/inflection-3-productivity",
     "name": "Inflection: Inflection 3 Productivity",
     "created": 1728604800,
-    "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines\n\nFor emotional intelligence similar to Pi, see [Inflect 3 Pi](/inflection/inflection-3-pi)\n\nSee [Inflection's announcement](https://inflection.ai/blog/enterprise) for more details.",
+    "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news.\n\nFor emotional intelligence similar to Pi, see [Inflect 3 Pi](/inflection/inflection-3-pi)\n\nSee [Inflection's announcement](https://inflection.ai/blog/enterprise) for more details.",
     "context_length": 8000,
     "architecture": {
       "modality": "text->text",
@@ -2346,6 +2346,54 @@
     },
     "top_provider": {
       "context_length": 256000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "mistralai/ministral-3b",
+    "name": "Ministral 3B",
+    "created": 1729123200,
+    "description": "Ministral 3B is a 3B parameter model optimized for on-device and edge computing. It excels in knowledge, commonsense reasoning, and function-calling, outperforming larger models like Mistral 7B on most benchmarks. Supporting up to 128k context length, it’s ideal for orchestrating agentic workflows and specialist tasks with efficient inference.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Mistral",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000004",
+      "completion": "0.00000004",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "mistralai/ministral-8b",
+    "name": "Ministral 8B",
+    "created": 1729123200,
+    "description": "Ministral 8B is an 8B parameter model featuring a unique interleaved sliding-window attention pattern for faster, memory-efficient inference. Designed for edge use cases, it supports up to 128k context length and excels in knowledge and reasoning tasks. It outperforms peers in the sub-10B category, making it perfect for low-latency, privacy-first applications.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Mistral",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000001",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -4499,32 +4547,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000042",
-      "completion": "0.0000069",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "x-ai/grok-2-mini",
-    "name": "xAI: Grok 2 mini",
-    "created": 1728691200,
-    "description": "Grok 2 Mini is xAI's fast, lightweight language model that offers a balance between speed and answer quality.\n\nTo use the stronger model, see [Grok 2](/x-ai/grok-2).\n\nFor more information, see the [launch announcement](https://x.ai/blog/grok-2).",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Grok",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000042",
-      "completion": "0.0000069",
+      "prompt": "0.000005",
+      "completion": "0.00001",
       "image": "0",
       "request": "0"
     },
