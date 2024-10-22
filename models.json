@@ -4536,11 +4536,11 @@
     "per_request_limits": null
   },
   {
-    "id": "x-ai/grok-2",
-    "name": "xAI: Grok 2",
-    "created": 1728691200,
-    "description": "Grok 2 is xAI's frontier language model with state-of-the-art reasoning capabilities, best for complex and multi-step use cases.\n\nTo use a faster version, see [Grok 2 Mini](/x-ai/grok-2-mini).\n\nFor more information, see the [launch announcement](https://x.ai/blog/grok-2).",
-    "context_length": 32768,
+    "id": "x-ai/grok-beta",
+    "name": "xAI: Grok Beta",
+    "created": 1729382400,
+    "description": "Grok Beta is xAI's experimental language model with state-of-the-art reasoning capabilities, best for complex and multi-step use cases.\n\nIt is the successor of [Grok 2](https://x.ai/blog/grok-2) with enhanced context length.",
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Grok",
@@ -4548,12 +4548,12 @@
     },
     "pricing": {
       "prompt": "0.000005",
-      "completion": "0.00001",
+      "completion": "0.000015",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 32768,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
