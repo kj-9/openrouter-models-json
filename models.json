@@ -3155,8 +3155,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.0000045",
-      "completion": "0.0000045",
+      "prompt": "0.00000179",
+      "completion": "0.00000249",
       "image": "0",
       "request": "0"
     },
