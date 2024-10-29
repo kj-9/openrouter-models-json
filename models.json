@@ -1379,8 +1379,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.0000001",
-      "completion": "0.0000001",
+      "prompt": "0.00000009",
+      "completion": "0.00000009",
       "image": "0",
       "request": "0"
     },
@@ -1787,14 +1787,14 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.000000055",
-      "completion": "0.000000055",
+      "prompt": "0.00000004",
+      "completion": "0.00000004",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
       "context_length": 8192,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2051,14 +2051,14 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.000000055",
-      "completion": "0.000000055",
+      "prompt": "0.00000005",
+      "completion": "0.00000005",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 100000,
-      "max_completion_tokens": null,
+      "context_length": 8192,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
