@@ -192,54 +192,6 @@
     "per_request_limits": null
   },
   {
-    "id": "anthropic/claude-1",
-    "name": "Anthropic: Claude v1",
-    "created": 1690502400,
-    "description": "Anthropic's model for low-latency, high throughput text generation. Supports hundreds of pages of text.",
-    "context_length": 100000,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Claude",
-      "instruct_type": "claude"
-    },
-    "pricing": {
-      "prompt": "0.000008",
-      "completion": "0.000024",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 100000,
-      "max_completion_tokens": 4096,
-      "is_moderated": true
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "anthropic/claude-1.2",
-    "name": "Anthropic: Claude v1.2",
-    "created": 1690502400,
-    "description": "Anthropic's model for low-latency, high throughput text generation. Supports hundreds of pages of text.",
-    "context_length": 100000,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Claude",
-      "instruct_type": "claude"
-    },
-    "pricing": {
-      "prompt": "0.000008",
-      "completion": "0.000024",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 100000,
-      "max_completion_tokens": 4096,
-      "is_moderated": true
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "anthropic/claude-2",
     "name": "Anthropic: Claude v2",
     "created": 1700611200,
@@ -720,102 +672,6 @@
     "per_request_limits": null
   },
   {
-    "id": "anthropic/claude-instant-1",
-    "name": "Anthropic: Claude Instant v1",
-    "created": 1690502400,
-    "description": "Anthropic's model for low-latency, high throughput text generation. Supports hundreds of pages of text.",
-    "context_length": 100000,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Claude",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000024",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 100000,
-      "max_completion_tokens": 4096,
-      "is_moderated": true
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "anthropic/claude-instant-1.0",
-    "name": "Anthropic: Claude Instant v1.0",
-    "created": 1690502400,
-    "description": "Anthropic's model for low-latency, high throughput text generation. Supports hundreds of pages of text.",
-    "context_length": 100000,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Claude",
-      "instruct_type": "claude"
-    },
-    "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000024",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 100000,
-      "max_completion_tokens": 4096,
-      "is_moderated": true
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "anthropic/claude-instant-1.1",
-    "name": "Anthropic: Claude Instant v1.1",
-    "created": 1700611200,
-    "description": "Anthropic's model for low-latency, high throughput text generation. Supports hundreds of pages of text.",
-    "context_length": 100000,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Claude",
-      "instruct_type": "claude"
-    },
-    "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000024",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 100000,
-      "max_completion_tokens": 2048,
-      "is_moderated": true
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "anthropic/claude-instant-1:beta",
-    "name": "Anthropic: Claude Instant v1 (self-moderated)",
-    "created": 1690502400,
-    "description": "Anthropic's model for low-latency, high throughput text generation. Supports hundreds of pages of text.\n\n_This is a faster endpoint, made available in collaboration with Anthropic, that is self-moderated: response moderation happens on the provider's side instead of OpenRouter's. For requests that pass moderation, it's identical to the [Standard](/anthropic/claude-instant-1) variant._",
-    "context_length": 100000,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Claude",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000024",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 100000,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "cognitivecomputations/dolphin-mixtral-8x22b",
     "name": "Dolphin 2.9.2 Mixtral 8x22B 🐬",
     "created": 1717804800,
@@ -1074,7 +930,7 @@
     },
     "top_provider": {
       "context_length": 128000,
-      "max_completion_tokens": 4096,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1955,8 +1811,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.000000162",
-      "completion": "0.000000162",
+      "prompt": "0.0000002",
+      "completion": "0.0000002",
       "image": "0",
       "request": "0"
     },
