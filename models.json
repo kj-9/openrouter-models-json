@@ -144,30 +144,6 @@
     "per_request_limits": null
   },
   {
-    "id": "anthracite-org/magnum-v2-72b",
-    "name": "Magnum v2 72B",
-    "created": 1727654400,
-    "description": "From the maker of [Goliath](https://openrouter.ai/models/alpindale/goliath-120b), Magnum 72B is the seventh in a family of models designed to achieve the prose quality of the Claude 3 models, notably Opus & Sonnet.\n\nThe model is based on [Qwen2 72B](https://openrouter.ai/models/qwen/qwen-2-72b-instruct) and trained with 55 million tokens of highly curated roleplay (RP) data.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Qwen",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0.00000375",
-      "completion": "0.0000045",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "anthracite-org/magnum-v4-72b",
     "name": "Magnum v4 72B",
     "created": 1729555200,
@@ -954,6 +930,30 @@
     },
     "top_provider": {
       "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "eva-unit-01/eva-qwen-2.5-32b",
+    "name": "Eva Qwen2.5 32B",
+    "created": 1731104847,
+    "description": "A roleplaying/storywriting specialist model, full-parameter finetune of Qwen2.5-32B on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model.",
+    "context_length": 0,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Qwen",
+      "instruct_type": "chatml"
+    },
+    "pricing": {
+      "prompt": "0.0000005",
+      "completion": "0.0000005",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 0,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -1924,21 +1924,21 @@
     "name": "Meta: Llama 3.1 70B Instruct",
     "created": 1721692800,
     "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 70B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 100000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000035",
-      "completion": "0.0000004",
+      "prompt": "0.00000034",
+      "completion": "0.00000039",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 100000,
-      "max_completion_tokens": 4096,
+      "context_length": 32768,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4290,6 +4290,30 @@
     },
     "top_provider": {
       "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "raifle/sorcererlm-8x22b",
+    "name": "Sorcererlm 8x22b",
+    "created": 1731105083,
+    "description": "SorcererLM is an advanced RP and storytelling model, built as a Low-rank 16-bit LoRA fine-tuned on WizardLM-2-8x22B.\n\n- Advanced reasoning and emotional intelligence for engaging and immersive interactions\n- Vivid writing capabilities enriched with spatial and contextual awareness\n- Enhanced narrative depth, promoting creative and dynamic storytelling",
+    "context_length": 16000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Mistral",
+      "instruct_type": "vicuna"
+    },
+    "pricing": {
+      "prompt": "0.0000045",
+      "completion": "0.0000045",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 16000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
