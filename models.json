@@ -144,30 +144,6 @@
     "per_request_limits": null
   },
   {
-    "id": "anthracite-org/magnum-v2-72b",
-    "name": "Magnum v2 72B",
-    "created": 1727654400,
-    "description": "From the maker of [Goliath](https://openrouter.ai/alpindale/goliath-120b), Magnum 72B is the seventh in a family of models designed to achieve the prose quality of the Claude 3 models, notably Opus & Sonnet.\n\nThe model is based on [Qwen2 72B](https://openrouter.ai/qwen/qwen-2-72b-instruct) and trained with 55 million tokens of highly curated roleplay (RP) data.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Qwen",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0.00000375",
-      "completion": "0.0000045",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "anthracite-org/magnum-v4-72b",
     "name": "Magnum v4 72B",
     "created": 1729555200,
@@ -961,7 +937,7 @@
   },
   {
     "id": "eva-unit-01/eva-qwen-2.5-32b",
-    "name": "Eva Qwen2.5 32B",
+    "name": "EVA Qwen2.5 32B",
     "created": 1731104847,
     "description": "A roleplaying/storywriting specialist model, full-parameter finetune of Qwen2.5-32B on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model.",
     "context_length": 32000,
@@ -4324,20 +4300,20 @@
     "name": "Qwen2.5 Coder 32B Instruct",
     "created": 1731368400,
     "description": "Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5:\n\n- Significantly improvements in **code generation**, **code reasoning** and **code fixing**. \n- A more comprehensive foundation for real-world applications such as **Code Agents**. Not only enhancing coding capabilities but also maintaining its strengths in mathematics and general competencies.\n\nTo read more about its evaluation results, check out [Qwen 2.5 Coder's blog](https://qwenlm.github.io/blog/qwen2.5-coder-family/).\n\n## Citation\n\n```\n@article{hui2024qwen2,\n      title={Qwen2. 5-Coder Technical Report},\n      author={Hui, Binyuan and Yang, Jian and Cui, Zeyu and Yang, Jiaxi and Liu, Dayiheng and Zhang, Lei and Liu, Tianyu and Zhang, Jiajun and Yu, Bowen and Dang, Kai and others},\n      journal={arXiv preprint arXiv:2409.12186},\n      year={2024}\n}\n@article{qwen2,\n      title={Qwen2 Technical Report}, \n      author={An Yang and Baosong Yang and Binyuan Hui and Bo Zheng and Bowen Yu and Chang Zhou and Chengpeng Li and Chengyuan Li and Dayiheng Liu and Fei Huang and Guanting Dong and Haoran Wei and Huan Lin and Jialong Tang and Jialin Wang and Jian Yang and Jianhong Tu and Jianwei Zhang and Jianxin Ma and Jin Xu and Jingren Zhou and Jinze Bai and Jinzheng He and Junyang Lin and Kai Dang and Keming Lu and Keqin Chen and Kexin Yang and Mei Li and Mingfeng Xue and Na Ni and Pei Zhang and Peng Wang and Ru Peng and Rui Men and Ruize Gao and Runji Lin and Shijie Wang and Shuai Bai and Sinan Tan and Tianhang Zhu and Tianhao Li and Tianyu Liu and Wenbin Ge and Xiaodong Deng and Xiaohuan Zhou and Xingzhang Ren and Xinyu Zhang and Xipin Wei and Xuancheng Ren and Yang Fan and Yang Yao and Yichang Zhang and Yu Wan and Yunfei Chu and Yuqiong Liu and Zeyu Cui and Zhenru Zhang and Zhihao Fan},\n      journal={arXiv preprint arXiv:2407.10671},\n      year={2024}\n}\n```\n",
-    "context_length": 128000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Qwen",
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000002",
+      "prompt": "0.00000018",
+      "completion": "0.00000018",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -4345,9 +4321,9 @@
   },
   {
     "id": "raifle/sorcererlm-8x22b",
-    "name": "Sorcererlm 8x22b",
+    "name": "SorcererLM 8x22B",
     "created": 1731105083,
-    "description": "SorcererLM is an advanced RP and storytelling model, built as a Low-rank 16-bit LoRA fine-tuned on WizardLM-2-8x22B.\n\n- Advanced reasoning and emotional intelligence for engaging and immersive interactions\n- Vivid writing capabilities enriched with spatial and contextual awareness\n- Enhanced narrative depth, promoting creative and dynamic storytelling",
+    "description": "SorcererLM is an advanced RP and storytelling model, built as a Low-rank 16-bit LoRA fine-tuned on [WizardLM-2 8x22B](/microsoft/wizardlm-2-8x22b).\n\n- Advanced reasoning and emotional intelligence for engaging and immersive interactions\n- Vivid writing capabilities enriched with spatial and contextual awareness\n- Enhanced narrative depth, promoting creative and dynamic storytelling",
     "context_length": 16000,
     "architecture": {
       "modality": "text->text",
@@ -4531,6 +4507,54 @@
     "top_provider": {
       "context_length": 32768,
       "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "thedrummer/unslopnemo-12b",
+    "name": "Unslopnemo 12b",
+    "created": 1731103448,
+    "description": "UnslopNemo v4.1 is the latest addition from the creator of Rocinante, designed for adventure writing and role-play scenarios.",
+    "context_length": 32000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Mistral",
+      "instruct_type": "mistral"
+    },
+    "pricing": {
+      "prompt": "0.0000005",
+      "completion": "0.0000005",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "thedrummer/unslopnemo-12b:free",
+    "name": "Unslopnemo 12b (free)",
+    "created": 1731103448,
+    "description": "UnslopNemo v4.1 is the latest addition from the creator of Rocinante, designed for adventure writing and role-play scenarios.",
+    "context_length": 8192,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Mistral",
+      "instruct_type": "mistral"
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 8192,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
