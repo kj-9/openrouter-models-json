@@ -1488,6 +1488,30 @@
     "per_request_limits": null
   },
   {
+    "id": "infermatic/mn-inferor-12b",
+    "name": "Mistral Nemo Inferor 12B",
+    "created": 1731464428,
+    "description": "Inferor is a merge of top roleplay models, expert on immersive narratives and storytelling.\n\nThis model was merged using the [Model Stock](https://arxiv.org/abs/2403.19522) merge method using [anthracite-org/magnum-v4-12b](https://openrouter.ai/anthracite-org/magnum-v4-72b) as a base.\n",
+    "context_length": 32000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Mistral",
+      "instruct_type": "mistral"
+    },
+    "pricing": {
+      "prompt": "0.00000025",
+      "completion": "0.0000005",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "inflection/inflection-3-pi",
     "name": "Inflection: Inflection 3 Pi",
     "created": 1728604800,
@@ -2715,7 +2739,7 @@
     "id": "mistralai/mistral-small",
     "name": "Mistral Small",
     "created": 1704844800,
-    "description": "This model is currently powered by Mixtral-8X7B-v0.1, a sparse mixture of experts model with 12B active parameters. It has better reasoning, exhibits more capabilities, can produce and reason about code, and is multiligual, supporting English, French, German, Italian, and Spanish.\n#moe",
+    "description": "With 22 billion parameters, Mistral Small v24.09 offers a convenient mid-point between (Mistral NeMo 12B)[/mistralai/mistral-nemo] and (Mistral Large 2)[/mistralai/mistral-large], providing a cost-effective solution that can be deployed across various platforms and environments. It has better reasoning, exhibits more capabilities, can produce and reason about code, and is multiligual, supporting English, French, German, Italian, and Spanish.",
     "context_length": 32000,
     "architecture": {
       "modality": "text->text",
