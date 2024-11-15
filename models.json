@@ -892,7 +892,7 @@
     "name": "DeepSeek V2.5",
     "created": 1715644800,
     "description": "DeepSeek-V2.5 is an upgraded version that combines DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct. The new model integrates the general and coding abilities of the two previous versions. For model details, please visit [DeepSeek-V2 page](https://github.com/deepseek-ai/DeepSeek-V2) for more information.",
-    "context_length": 128000,
+    "context_length": 65536,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Other",
@@ -905,7 +905,7 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 65536,
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
@@ -4338,7 +4338,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
