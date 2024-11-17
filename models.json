@@ -1331,14 +1331,14 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.00000009",
-      "completion": "0.00000009",
+      "prompt": "0.00000008",
+      "completion": "0.00000008",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
       "context_length": 4096,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1362,7 +1362,7 @@
     },
     "top_provider": {
       "context_length": 8192,
-      "max_completion_tokens": 400,
+      "max_completion_tokens": 512,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1411,54 +1411,6 @@
     "top_provider": {
       "context_length": 4096,
       "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "gryphe/mythomist-7b",
-    "name": "MythoMist 7B",
-    "created": 1701907200,
-    "description": "From the creator of [MythoMax](/models/gryphe/mythomax-l2-13b), merges a suite of models to reduce word anticipation, ministrations, and other undesirable words in ChatGPT roleplaying data.\n\nIt combines [Neural Chat 7B](/models/intel/neural-chat-7b), Airoboros 7b, [Toppy M 7B](/models/undi95/toppy-m-7b), [Zepher 7b beta](/models/huggingfaceh4/zephyr-7b-beta), [Nous Capybara 34B](/models/nousresearch/nous-capybara-34b), [OpenHeremes 2.5](/models/teknium/openhermes-2.5-mistral-7b), and many others.\n\n#merge",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Mistral",
-      "instruct_type": "alpaca"
-    },
-    "pricing": {
-      "prompt": "0.000000375",
-      "completion": "0.000000375",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": 2048,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "gryphe/mythomist-7b:free",
-    "name": "MythoMist 7B (free)",
-    "created": 1701907200,
-    "description": "From the creator of [MythoMax](/models/gryphe/mythomax-l2-13b), merges a suite of models to reduce word anticipation, ministrations, and other undesirable words in ChatGPT roleplaying data.\n\nIt combines [Neural Chat 7B](/models/intel/neural-chat-7b), Airoboros 7b, [Toppy M 7B](/models/undi95/toppy-m-7b), [Zepher 7b beta](/models/huggingfaceh4/zephyr-7b-beta), [Nous Capybara 34B](/models/nousresearch/nous-capybara-34b), [OpenHeremes 2.5](/models/teknium/openhermes-2.5-mistral-7b), and many others.\n\n#merge",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Mistral",
-      "instruct_type": "alpaca"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3072,30 +3024,6 @@
     "per_request_limits": null
   },
   {
-    "id": "nousresearch/hermes-2-theta-llama-3-8b",
-    "name": "Nous: Hermes 2 Theta 8B",
-    "created": 1720656000,
-    "description": "An experimental merge model based on Llama 3, exhibiting a very distinctive style of writing. It combines the the best of [Meta's Llama 3 8B](https://openrouter.ai/models/meta-llama/llama-3-8b-instruct) and Nous Research's [Hermes 2 Pro](https://openrouter.ai/models/nousresearch/hermes-2-pro-llama-3-8b).\n\nHermes-2 Θ (theta) was specifically designed with a few capabilities in mind: executing function calls, generating JSON output, and most remarkably, demonstrating metacognitive abilities (contemplating the nature of thought and recognizing the diversity of cognitive processes among individuals).",
-    "context_length": 16384,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Llama3",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0.0000001875",
-      "completion": "0.000001125",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 16384,
-      "max_completion_tokens": 2048,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "nousresearch/hermes-3-llama-3.1-405b",
     "name": "Nous: Hermes 3 405B Instruct",
     "created": 1723766400,
@@ -4339,30 +4267,6 @@
     "top_provider": {
       "context_length": 16000,
       "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "sao10k/fimbulvetr-11b-v2",
-    "name": "Fimbulvetr 11B v2",
-    "created": 1713657600,
-    "description": "Creative writing model, routed with permission. It's fast, it keeps the conversation going, and it stays in character.\n\nIf you submit a raw prompt, you can use Alpaca or Vicuna formats.",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Llama2",
-      "instruct_type": "alpaca"
-    },
-    "pricing": {
-      "prompt": "0.000000375",
-      "completion": "0.0000015",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null
