@@ -2640,6 +2640,54 @@
     "per_request_limits": null
   },
   {
+    "id": "mistralai/mistral-large-2407",
+    "name": "Mistral Large 2407",
+    "created": 1731978415,
+    "description": "This is Mistral AI's flagship model, Mistral Large 2 (version mistral-large-2407). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](https://mistral.ai/news/mistral-large-2407/).\n\nIt is fluent in English, French, Spanish, German, and Italian, with high grammatical accuracy, and its long context window allows precise information recall from large documents.\n",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Mistral",
+      "instruct_type": "none"
+    },
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000006",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "mistralai/mistral-large-2411",
+    "name": "Mistral Large 2411",
+    "created": 1731978685,
+    "description": "Mistral Large 2 2411 is an update of [Mistral Large 2](/mistralai/mistral-large) released together with [Pixtral Large 2411](mistralai/pixtral-large-2411)\n\nIt is fluent in English, French, Spanish, German, and Italian, with high grammatical accuracy, and its long context window allows precise information recall from large documents.\n",
+    "context_length": 0,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Mistral",
+      "instruct_type": "mistral"
+    },
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000006",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 0,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "mistralai/mistral-medium",
     "name": "Mistral Medium",
     "created": 1704844800,
@@ -2850,6 +2898,30 @@
     },
     "top_provider": {
       "context_length": 4096,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "mistralai/pixtral-large-2411",
+    "name": "Mistral: Pixtral Large 2411",
+    "created": 1731977388,
+    "description": "Pixtral Large is a 124B open-weights multimodal model built on top of [Mistral Large 2](/mistralai/mistral-large-2411). The model is able to understand documents, charts and natural images.\n\nThe model is available under the Mistral Research License (MRL) for research and educational use; and the Mistral Commercial License for experimentation, testing, and production for commercial purposes.\n\n",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Mistral",
+      "instruct_type": "none"
+    },
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000006",
+      "image": "0.002888",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
