@@ -1,5 +1,29 @@
 [
   {
+    "id": "01-ai/yi-large",
+    "name": "01.AI: Yi Large",
+    "created": 1719273600,
+    "description": "The Yi Large model was designed by 01.AI with the following usecases in mind: knowledge search, data classification, human-like chat bots, and customer service.\n\nIt stands out for its multilingual proficiency, particularly in Spanish, Chinese, Japanese, German, and French.\n\nCheck out the [launch announcement](https://01-ai.github.io/blog/01.ai-yi-large-llm-launch) to learn more.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Yi",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000003",
+      "completion": "0.000003",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": 4096,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "ai21/jamba-1-5-large",
     "name": "AI21: Jamba 1.5 Large",
     "created": 1724371200,
@@ -90,7 +114,7 @@
     },
     "top_provider": {
       "context_length": 6144,
-      "max_completion_tokens": 400,
+      "max_completion_tokens": 512,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1595,7 +1619,7 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.000001875",
+      "prompt": "0.0000015",
       "completion": "0.00000225",
       "image": "0",
       "request": "0"
@@ -3648,6 +3672,30 @@
     "per_request_limits": null
   },
   {
+    "id": "openai/gpt-4o-2024-11-20",
+    "name": "OpenAI: GPT-4o (2024-11-20)",
+    "created": 1732127594,
+    "description": "The 2024-11-20 version of GPT-4o offers a leveled-up creative writing ability with more natural, engaging, and tailored writing to improve relevance & readability. It’s also better at working with uploaded files, providing deeper insights & more thorough responses.\n\nGPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as fast and 50% more cost-effective. GPT-4o also offers improved performance in processing non-English languages and enhanced visual capabilities.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "GPT",
+      "instruct_type": "none"
+    },
+    "pricing": {
+      "prompt": "0.0000025",
+      "completion": "0.00001",
+      "image": "0.003613",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 16384,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "openai/gpt-4o-mini",
     "name": "OpenAI: GPT-4o-mini",
     "created": 1721260800,
@@ -4098,7 +4146,7 @@
     },
     "top_provider": {
       "context_length": 8192,
-      "max_completion_tokens": 400,
+      "max_completion_tokens": 512,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4482,7 +4530,7 @@
     },
     "top_provider": {
       "context_length": 6144,
-      "max_completion_tokens": 400,
+      "max_completion_tokens": 512,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4506,7 +4554,7 @@
     },
     "top_provider": {
       "context_length": 6144,
-      "max_completion_tokens": 400,
+      "max_completion_tokens": 512,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4650,7 +4698,7 @@
     },
     "top_provider": {
       "context_length": 8192,
-      "max_completion_tokens": 400,
+      "max_completion_tokens": 512,
       "is_moderated": false
     },
     "per_request_limits": null
