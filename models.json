@@ -312,102 +312,6 @@
     "per_request_limits": null
   },
   {
-    "id": "anthropic/claude-3-5-haiku",
-    "name": "Anthropic: Claude 3.5 Haiku",
-    "created": 1730678400,
-    "description": "Claude 3.5 Haiku features offers enhanced capabilities in speed, coding accuracy, and tool use. Engineered to excel in real-time applications, it delivers quick response times that are essential for dynamic tasks such as chat interactions and immediate coding suggestions.\n\nThis makes it highly suitable for environments that demand both speed and precision, such as software development, customer service bots, and data management systems.\n\nThis model is currently pointing to [Claude 3.5 Haiku (2024-10-22)](/anthropic/claude-3-5-haiku-20241022).",
-    "context_length": 200000,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Claude",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000005",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 200000,
-      "max_completion_tokens": 8192,
-      "is_moderated": true
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "anthropic/claude-3-5-haiku-20241022",
-    "name": "Anthropic: Claude 3.5 Haiku (2024-10-22)",
-    "created": 1730678400,
-    "description": "Claude 3.5 Haiku features enhancements across all skill sets including coding, tool use, and reasoning. As the fastest model in the Anthropic lineup, it offers rapid response times suitable for applications that require high interactivity and low latency, such as user-facing chatbots and on-the-fly code completions. It also excels in specialized tasks like data extraction and real-time content moderation, making it a versatile tool for a broad range of industries.\n\nIt does not support image inputs.\n\nSee the launch announcement and benchmark results [here](https://www.anthropic.com/news/3-5-models-and-computer-use)",
-    "context_length": 200000,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Claude",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000005",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 200000,
-      "max_completion_tokens": 8192,
-      "is_moderated": true
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "anthropic/claude-3-5-haiku-20241022:beta",
-    "name": "Anthropic: Claude 3.5 Haiku (2024-10-22) (self-moderated)",
-    "created": 1730678400,
-    "description": "Claude 3.5 Haiku features enhancements across all skill sets including coding, tool use, and reasoning. As the fastest model in the Anthropic lineup, it offers rapid response times suitable for applications that require high interactivity and low latency, such as user-facing chatbots and on-the-fly code completions. It also excels in specialized tasks like data extraction and real-time content moderation, making it a versatile tool for a broad range of industries.\n\nIt does not support image inputs.\n\nSee the launch announcement and benchmark results [here](https://www.anthropic.com/news/3-5-models-and-computer-use)",
-    "context_length": 200000,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Claude",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000005",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 200000,
-      "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "anthropic/claude-3-5-haiku:beta",
-    "name": "Anthropic: Claude 3.5 Haiku (self-moderated)",
-    "created": 1730678400,
-    "description": "Claude 3.5 Haiku features offers enhanced capabilities in speed, coding accuracy, and tool use. Engineered to excel in real-time applications, it delivers quick response times that are essential for dynamic tasks such as chat interactions and immediate coding suggestions.\n\nThis makes it highly suitable for environments that demand both speed and precision, such as software development, customer service bots, and data management systems.\n\nThis model is currently pointing to [Claude 3.5 Haiku (2024-10-22)](/anthropic/claude-3-5-haiku-20241022).",
-    "context_length": 200000,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Claude",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000005",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 200000,
-      "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "anthropic/claude-3-haiku",
     "name": "Anthropic: Claude 3 Haiku",
     "created": 1710288000,
@@ -547,6 +451,102 @@
     "top_provider": {
       "context_length": 200000,
       "max_completion_tokens": 4096,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "anthropic/claude-3.5-haiku",
+    "name": "Anthropic: Claude 3.5 Haiku",
+    "created": 1730678400,
+    "description": "Claude 3.5 Haiku features offers enhanced capabilities in speed, coding accuracy, and tool use. Engineered to excel in real-time applications, it delivers quick response times that are essential for dynamic tasks such as chat interactions and immediate coding suggestions.\n\nThis makes it highly suitable for environments that demand both speed and precision, such as software development, customer service bots, and data management systems.\n\nThis model is currently pointing to [Claude 3.5 Haiku (2024-10-22)](/anthropic/claude-3-5-haiku-20241022).",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000005",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 8192,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "anthropic/claude-3.5-haiku-20241022",
+    "name": "Anthropic: Claude 3.5 Haiku (2024-10-22)",
+    "created": 1730678400,
+    "description": "Claude 3.5 Haiku features enhancements across all skill sets including coding, tool use, and reasoning. As the fastest model in the Anthropic lineup, it offers rapid response times suitable for applications that require high interactivity and low latency, such as user-facing chatbots and on-the-fly code completions. It also excels in specialized tasks like data extraction and real-time content moderation, making it a versatile tool for a broad range of industries.\n\nIt does not support image inputs.\n\nSee the launch announcement and benchmark results [here](https://www.anthropic.com/news/3-5-models-and-computer-use)",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000005",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 8192,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "anthropic/claude-3.5-haiku-20241022:beta",
+    "name": "Anthropic: Claude 3.5 Haiku (2024-10-22) (self-moderated)",
+    "created": 1730678400,
+    "description": "Claude 3.5 Haiku features enhancements across all skill sets including coding, tool use, and reasoning. As the fastest model in the Anthropic lineup, it offers rapid response times suitable for applications that require high interactivity and low latency, such as user-facing chatbots and on-the-fly code completions. It also excels in specialized tasks like data extraction and real-time content moderation, making it a versatile tool for a broad range of industries.\n\nIt does not support image inputs.\n\nSee the launch announcement and benchmark results [here](https://www.anthropic.com/news/3-5-models-and-computer-use)",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000005",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 8192,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "anthropic/claude-3.5-haiku:beta",
+    "name": "Anthropic: Claude 3.5 Haiku (self-moderated)",
+    "created": 1730678400,
+    "description": "Claude 3.5 Haiku features offers enhanced capabilities in speed, coding accuracy, and tool use. Engineered to excel in real-time applications, it delivers quick response times that are essential for dynamic tasks such as chat interactions and immediate coding suggestions.\n\nThis makes it highly suitable for environments that demand both speed and precision, such as software development, customer service bots, and data management systems.\n\nThis model is currently pointing to [Claude 3.5 Haiku (2024-10-22)](/anthropic/claude-3-5-haiku-20241022).",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000005",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2730,6 +2730,30 @@
     },
     "top_provider": {
       "context_length": 128000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "mistralai/mistral-medium",
+    "name": "Mistral Medium",
+    "created": 1704844800,
+    "description": "This is Mistral AI's closed-source, medium-sided model. It's powered by a closed-source prototype and excels at reasoning, code, JSON, chat, and more. In benchmarks, it compares with many of the flagship models of other companies.",
+    "context_length": 32000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Mistral",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000275",
+      "completion": "0.0000081",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
