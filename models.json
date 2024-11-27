@@ -923,8 +923,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.000002",
-      "completion": "0.000002",
+      "prompt": "0.000004",
+      "completion": "0.000004",
       "image": "0",
       "request": "0"
     },
@@ -1876,21 +1876,21 @@
     "name": "Meta: Llama 3.1 405B Instruct",
     "created": 1721692800,
     "description": "The highly anticipated 400B class of Llama3 is here! Clocking in at 128k context with impressive eval scores, the Meta AI team continues to push the frontier of open-source LLMs.\n\nMeta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 405B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models including GPT-4o and Claude 3.5 Sonnet in evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 32000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000179",
-      "completion": "0.00000179",
+      "prompt": "0.0000028",
+      "completion": "0.0000028",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 32000,
-      "max_completion_tokens": 4096,
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2212,21 +2212,21 @@
     "name": "Meta: Llama 3.2 90B Vision Instruct",
     "created": 1727222400,
     "description": "The Llama 90B Vision model is a top-tier, 90-billion-parameter multimodal model designed for the most challenging visual reasoning and language tasks. It offers unparalleled accuracy in image captioning, visual question answering, and advanced image-text comprehension. Pre-trained on vast multimodal datasets and fine-tuned with human feedback, the Llama 90B Vision is engineered to handle the most demanding image-based AI tasks.\n\nThis model is perfect for industries requiring cutting-edge multimodal AI capabilities, particularly those dealing with complex, real-time visual and textual analysis.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
-    "context_length": 8192,
+    "context_length": 131072,
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Llama3",
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000035",
-      "completion": "0.0000004",
-      "image": "0.00050575",
+      "prompt": "0.0000009",
+      "completion": "0.0000009",
+      "image": "0.0013005",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2715,7 +2715,7 @@
     "id": "mistralai/mistral-large-2411",
     "name": "Mistral Large 2411",
     "created": 1731978685,
-    "description": "Mistral Large 2 2411 is an update of [Mistral Large 2](/mistralai/mistral-large) released together with [Pixtral Large 2411](mistralai/pixtral-large-2411)\n\nIt is fluent in English, French, Spanish, German, and Italian, with high grammatical accuracy, and its long context window allows precise information recall from large documents.\n",
+    "description": "Mistral Large 2 2411 is an update of [Mistral Large 2](/mistralai/mistral-large) released together with [Pixtral Large 2411](/mistralai/pixtral-large-2411)\n\nIt provides a significant upgrade on the previous [Mistral Large 24.07](/mistralai/mistral-large-2407), with notable improvements in long context understanding, a new system prompt, and more accurate function calling.",
     "context_length": 128000,
     "architecture": {
       "modality": "text->text",
@@ -3291,7 +3291,7 @@
     "id": "openai/chatgpt-4o-latest",
     "name": "OpenAI: ChatGPT-4o",
     "created": 1723593600,
-    "description": "Dynamic model continuously updated to the current version of [GPT-4o](/models/openai/gpt-4o) in ChatGPT. Intended for research and evaluation.\n\nNote: This model is experimental and not suited for production use-cases. It may be removed or redirected to another model in the future.",
+    "description": "OpenAI ChatGPT 4o is continually updated by OpenAI to point to the current version of GPT-4o used by ChatGPT. It therefore differs slightly from the API version of [GPT-4o](/models/openai/gpt-4o) in that it has additional RLHF. It is intended for research and evaluation.\n\nOpenAI notes that this model is not suited for production use-cases as it may be removed or redirected to another model in the future.",
     "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
