@@ -944,7 +944,7 @@
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Gemini",
-      "instruct_type": "none"
+      "instruct_type": null
     },
     "pricing": {
       "prompt": "0",
@@ -968,7 +968,7 @@
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Gemini",
-      "instruct_type": "none"
+      "instruct_type": null
     },
     "pricing": {
       "prompt": "0",
@@ -1256,7 +1256,7 @@
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Gemini",
-      "instruct_type": "none"
+      "instruct_type": null
     },
     "pricing": {
       "prompt": "0",
@@ -3728,7 +3728,7 @@
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "GPT",
-      "instruct_type": "none"
+      "instruct_type": null
     },
     "pricing": {
       "prompt": "0.0000025",
@@ -4392,6 +4392,30 @@
     "per_request_limits": null
   },
   {
+    "id": "qwen/qwq-32b-preview",
+    "name": "Qwen: QwQ 32B Preview",
+    "created": 1732754541,
+    "description": "QwQ-32B-Preview is an experimental research model developed by the Qwen Team, focused on advancing AI reasoning capabilities. As a preview release, it demonstrates promising analytical abilities while having several important limitations:\n\n1. **Language Mixing and Code-Switching**: The model may mix languages or switch between them unexpectedly, affecting response clarity.\n2. **Recursive Reasoning Loops**: The model may enter circular reasoning patterns, leading to lengthy responses without a conclusive answer.\n3. **Safety and Ethical Considerations**: The model requires enhanced safety measures to ensure reliable and secure performance, and users should exercise caution when deploying it.\n4. **Performance and Benchmark Limitations**: The model excels in math and coding but has room for improvement in other areas, such as common sense reasoning and nuanced language understanding.\n\n",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Qwen",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.0000002",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "raifle/sorcererlm-8x22b",
     "name": "SorcererLM 8x22B",
     "created": 1731105083,
@@ -4448,7 +4472,7 @@
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
-      "instruct_type": "llama3"
+      "instruct_type": null
     },
     "pricing": {
       "prompt": "0.00000035",
@@ -4712,7 +4736,7 @@
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Grok",
-      "instruct_type": "none"
+      "instruct_type": null
     },
     "pricing": {
       "prompt": "0.000005",
