@@ -4395,7 +4395,7 @@
     "id": "qwen/qwq-32b-preview",
     "name": "Qwen: QwQ 32B Preview",
     "created": 1732754541,
-    "description": "QwQ-32B-Preview is an experimental research model developed by the Qwen Team, focused on advancing AI reasoning capabilities. As a preview release, it demonstrates promising analytical abilities while having several important limitations:\n\n1. **Language Mixing and Code-Switching**: The model may mix languages or switch between them unexpectedly, affecting response clarity.\n2. **Recursive Reasoning Loops**: The model may enter circular reasoning patterns, leading to lengthy responses without a conclusive answer.\n3. **Safety and Ethical Considerations**: The model requires enhanced safety measures to ensure reliable and secure performance, and users should exercise caution when deploying it.\n4. **Performance and Benchmark Limitations**: The model excels in math and coding but has room for improvement in other areas, such as common sense reasoning and nuanced language understanding.\n\n",
+    "description": "QwQ-32B-Preview is an experimental research model focused on AI reasoning capabilities developed by the Qwen Team. As a preview release, it demonstrates promising analytical abilities while having several important limitations:\n\n1. **Language Mixing and Code-Switching**: The model may mix languages or switch between them unexpectedly, affecting response clarity.\n2. **Recursive Reasoning Loops**: The model may enter circular reasoning patterns, leading to lengthy responses without a conclusive answer.\n3. **Safety and Ethical Considerations**: The model requires enhanced safety measures to ensure reliable and secure performance, and users should exercise caution when deploying it.\n4. **Performance and Benchmark Limitations**: The model excels in math and coding but has room for improvement in other areas, such as common sense reasoning and nuanced language understanding.\n\n",
     "context_length": 32768,
     "architecture": {
       "modality": "text->text",
@@ -4403,8 +4403,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000002",
+      "prompt": "0.00000015",
+      "completion": "0.0000006",
       "image": "0",
       "request": "0"
     },
