@@ -2931,7 +2931,7 @@
     "id": "mistralai/pixtral-12b",
     "name": "Mistral: Pixtral 12B",
     "created": 1725926400,
-    "description": "The first image to text model from Mistral AI. Its weight was launched via torrent per their tradition: https://x.com/mistralai/status/1833758285167722836",
+    "description": "The first multi-modal, text+image-to-text model from Mistral AI. Its weights were launched via torrent: https://x.com/mistralai/status/1833758285167722836.",
     "context_length": 4096,
     "architecture": {
       "modality": "text+image->text",
@@ -2955,7 +2955,7 @@
     "id": "mistralai/pixtral-large-2411",
     "name": "Mistral: Pixtral Large 2411",
     "created": 1731977388,
-    "description": "Pixtral Large is a 124B open-weights multimodal model built on top of [Mistral Large 2](/mistralai/mistral-large-2411). The model is able to understand documents, charts and natural images.\n\nThe model is available under the Mistral Research License (MRL) for research and educational use; and the Mistral Commercial License for experimentation, testing, and production for commercial purposes.\n\n",
+    "description": "Pixtral Large is a 124B parameter, open-weight, multimodal model built on top of [Mistral Large 2](/mistralai/mistral-large-2411). The model is able to understand documents, charts and natural images.\n\nThe model is available under the Mistral Research License (MRL) for research and educational use, and the Mistral Commercial License for experimentation, testing, and production for commercial purposes.\n\n",
     "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
