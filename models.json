@@ -4280,7 +4280,7 @@
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Qwen",
-      "instruct_type": "chatml"
+      "instruct_type": null
     },
     "pricing": {
       "prompt": "0.0000004",
@@ -4304,7 +4304,7 @@
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Qwen",
-      "instruct_type": "chatml"
+      "instruct_type": null
     },
     "pricing": {
       "prompt": "0.0000001",
@@ -4472,7 +4472,7 @@
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
-      "instruct_type": null
+      "instruct_type": "llama3"
     },
     "pricing": {
       "prompt": "0.00000035",
