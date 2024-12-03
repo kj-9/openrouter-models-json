@@ -1595,38 +1595,14 @@
       "instruct_type": "vicuna"
     },
     "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000002",
+      "prompt": "0.00000015",
+      "completion": "0.00000015",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
       "context_length": 32768,
       "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "liquid/lfm-40b:free",
-    "name": "Liquid: LFM 40B MoE (free)",
-    "created": 1727654400,
-    "description": "Liquid's 40.3B Mixture of Experts (MoE) model. Liquid Foundation Models (LFMs) are large neural networks built with computational units rooted in dynamic systems.\n\nLFMs are general-purpose AI models that can be used to model any kind of sequential data, including video, audio, text, time series, and signals.\n\nSee the [launch announcement](https://www.liquid.ai/liquid-foundation-models) for benchmarks and more info.",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Other",
-      "instruct_type": "vicuna"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3148,45 +3124,21 @@
     "name": "Nous: Hermes 3 405B Instruct",
     "created": 1723766400,
     "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.\n\nHermes 3 405B is a frontier-level, full-parameter finetune of the Llama-3.1 405B foundation model, focused on aligning LLMs to the user, with powerful steering capabilities and control given to the end user.\n\nThe Hermes 3 series builds and expands on the Hermes 2 set of capabilities, including more powerful and reliable function calling and structured output capabilities, generalist assistant capabilities, and improved code generation skills.\n\nHermes 3 is competitive, if not superior, to Llama-3.1 Instruct models at general capabilities, with varying strengths and weaknesses attributable between the two.",
-    "context_length": 131072,
+    "context_length": 12000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.00000179",
-      "completion": "0.00000249",
+      "prompt": "0.0000009",
+      "completion": "0.0000009",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "nousresearch/hermes-3-llama-3.1-405b:free",
-    "name": "Nous: Hermes 3 405B Instruct (free)",
-    "created": 1723766400,
-    "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.\n\nHermes 3 405B is a frontier-level, full-parameter finetune of the Llama-3.1 405B foundation model, focused on aligning LLMs to the user, with powerful steering capabilities and control given to the end user.\n\nThe Hermes 3 series builds and expands on the Hermes 2 set of capabilities, including more powerful and reliable function calling and structured output capabilities, generalist assistant capabilities, and improved code generation skills.\n\nHermes 3 is competitive, if not superior, to Llama-3.1 Instruct models at general capabilities, with varying strengths and weaknesses attributable between the two.",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Llama3",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
+      "context_length": 12000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
