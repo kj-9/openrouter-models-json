@@ -467,8 +467,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000005",
+      "prompt": "0.0000008",
+      "completion": "0.000004",
       "image": "0",
       "request": "0"
     },
@@ -491,8 +491,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000005",
+      "prompt": "0.0000008",
+      "completion": "0.000004",
       "image": "0",
       "request": "0"
     },
@@ -515,8 +515,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000005",
+      "prompt": "0.0000008",
+      "completion": "0.000004",
       "image": "0",
       "request": "0"
     },
@@ -539,8 +539,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000005",
+      "prompt": "0.0000008",
+      "completion": "0.000004",
       "image": "0",
       "request": "0"
     },
@@ -916,21 +916,21 @@
     "name": "EVA Qwen2.5 72B",
     "created": 1732210606,
     "description": "A roleplay and storywriting specialist model, full-parameter finetune of Qwen2.5-72B on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model.",
-    "context_length": 32000,
+    "context_length": 16384,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Qwen",
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.000004",
-      "completion": "0.000004",
+      "prompt": "0.000005",
+      "completion": "0.000005",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 32000,
-      "max_completion_tokens": null,
+      "context_length": 16384,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1739,14 +1739,14 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000004",
-      "completion": "0.00000004",
+      "prompt": "0.00000003",
+      "completion": "0.00000005",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
       "context_length": 8192,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1996,21 +1996,21 @@
     "name": "Meta: Llama 3.1 8B Instruct",
     "created": 1721692800,
     "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 16000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000005",
-      "completion": "0.00000005",
+      "prompt": "0.00000003",
+      "completion": "0.00000006",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 16000,
-      "max_completion_tokens": 8192,
+      "context_length": 131072,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2148,13 +2148,13 @@
     },
     "pricing": {
       "prompt": "0.00000003",
-      "completion": "0.00000005",
+      "completion": "0.00000003",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 4096,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
