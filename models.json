@@ -144,6 +144,78 @@
     "per_request_limits": null
   },
   {
+    "id": "amazon/nova-lite-v1",
+    "name": "Amazon: Nova Lite 1.0",
+    "created": 1733437363,
+    "description": "Amazon Nova Lite 1.0 is a very low-cost multimodal model from Amazon that focused on fast processing of image, video, and text inputs to generate text output. Amazon Nova Lite can handle real-time customer interactions, document analysis, and visual question-answering tasks with high accuracy.\n\nWith an input context of 300K tokens, it can analyze multiple images or up to 30 minutes of video in a single input.",
+    "context_length": 300000,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Nova",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000006",
+      "completion": "0.00000024",
+      "image": "0.00009",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 300000,
+      "max_completion_tokens": 5120,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "amazon/nova-micro-v1",
+    "name": "Amazon: Nova Micro 1.0",
+    "created": 1733437237,
+    "description": "Amazon Nova Micro 1.0 is a text-only model that delivers the lowest latency responses in the Amazon Nova family of models at a very low cost. With a context length of 128K tokens and optimized for speed and cost, Amazon Nova Micro excels at tasks such as text summarization, translation, content classification, interactive chat, and brainstorming. It has  simple mathematical reasoning and coding abilities.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Nova",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000000035",
+      "completion": "0.00000014",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 5120,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "amazon/nova-pro-v1",
+    "name": "Amazon: Nova Pro 1.0",
+    "created": 1733436303,
+    "description": "Amazon Nova Pro 1.0 is a capable multimodal model from Amazon focused on providing a combination of accuracy, speed, and cost for a wide range of tasks. As of December 2024, it achieves state-of-the-art performance on key benchmarks including visual question answering (TextVQA) and video understanding (VATEX).\n\nAmazon Nova Pro demonstrates strong capabilities in processing both visual and textual information and at analyzing financial documents.\n\n**NOTE**: Video input and tool calling is not supported at this time.",
+    "context_length": 300000,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Nova",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000008",
+      "completion": "0.0000032",
+      "image": "0.0012",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 300000,
+      "max_completion_tokens": 5120,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "anthracite-org/magnum-v4-72b",
     "name": "Magnum v4 72B",
     "created": 1729555200,
@@ -1211,7 +1283,7 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.00000006",
+      "prompt": "0.00000003",
       "completion": "0.00000006",
       "image": "0",
       "request": "0"
@@ -1588,7 +1660,7 @@
     "name": "Liquid: LFM 40B MoE",
     "created": 1727654400,
     "description": "Liquid's 40.3B Mixture of Experts (MoE) model. Liquid Foundation Models (LFMs) are large neural networks built with computational units rooted in dynamic systems.\n\nLFMs are general-purpose AI models that can be used to model any kind of sequential data, including video, audio, text, time series, and signals.\n\nSee the [launch announcement](https://www.liquid.ai/liquid-foundation-models) for benchmarks and more info.",
-    "context_length": 32768,
+    "context_length": 66000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Other",
@@ -1601,8 +1673,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
+      "context_length": 66000,
+      "max_completion_tokens": 3000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1852,7 +1924,7 @@
     "name": "Meta: Llama 3.1 405B Instruct",
     "created": 1721692800,
     "description": "The highly anticipated 400B class of Llama3 is here! Clocking in at 128k context with impressive eval scores, the Meta AI team continues to push the frontier of open-source LLMs.\n\nMeta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 405B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models including GPT-4o and Claude 3.5 Sonnet in evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 131072,
+    "context_length": 12000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
@@ -1865,8 +1937,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
+      "context_length": 12000,
+      "max_completion_tokens": 3000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1931,14 +2003,14 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000002",
+      "prompt": "0.00000013",
+      "completion": "0.0000004",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2003,14 +2075,14 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000003",
-      "completion": "0.00000003",
+      "prompt": "0.00000002",
+      "completion": "0.00000005",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2147,14 +2219,14 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000003",
+      "prompt": "0.000000018",
       "completion": "0.00000003",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2507,7 +2579,7 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.000000055",
+      "prompt": "0.00000003",
       "completion": "0.000000055",
       "image": "0",
       "request": "0"
@@ -2579,7 +2651,7 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.000000055",
+      "prompt": "0.00000003",
       "completion": "0.000000055",
       "image": "0",
       "request": "0"
@@ -2747,8 +2819,8 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.00000013",
-      "completion": "0.00000013",
+      "prompt": "0.00000004",
+      "completion": "0.0000001",
       "image": "0",
       "request": "0"
     },
@@ -3100,7 +3172,7 @@
     "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
     "created": 1716768000,
     "description": "Hermes 2 Pro is an upgraded, retrained version of Nous Hermes 2, consisting of an updated and cleaned version of the OpenHermes 2.5 Dataset, as well as a newly introduced Function Calling and JSON Mode dataset developed in-house.",
-    "context_length": 8192,
+    "context_length": 10000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
@@ -3113,8 +3185,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": null,
+      "context_length": 10000,
+      "max_completion_tokens": 3000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3124,7 +3196,7 @@
     "name": "Nous: Hermes 3 405B Instruct",
     "created": 1723766400,
     "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.\n\nHermes 3 405B is a frontier-level, full-parameter finetune of the Llama-3.1 405B foundation model, focused on aligning LLMs to the user, with powerful steering capabilities and control given to the end user.\n\nThe Hermes 3 series builds and expands on the Hermes 2 set of capabilities, including more powerful and reliable function calling and structured output capabilities, generalist assistant capabilities, and improved code generation skills.\n\nHermes 3 is competitive, if not superior, to Llama-3.1 Instruct models at general capabilities, with varying strengths and weaknesses attributable between the two.",
-    "context_length": 12000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
@@ -3137,8 +3209,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 12000,
-      "max_completion_tokens": null,
+      "context_length": 131072,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3148,7 +3220,7 @@
     "name": "Nous: Hermes 3 70B Instruct",
     "created": 1723939200,
     "description": "Hermes 3 is a generalist language model with many improvements over [Hermes 2](/models/nousresearch/nous-hermes-2-mistral-7b-dpo), including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.\n\nHermes 3 70B is a competitive, if not superior finetune of the [Llama-3.1 70B foundation model](/models/meta-llama/llama-3.1-70b-instruct), focused on aligning LLMs to the user, with powerful steering capabilities and control given to the end user.\n\nThe Hermes 3 series builds and expands on the Hermes 2 set of capabilities, including more powerful and reliable function calling and structured output capabilities, generalist assistant capabilities, and improved code generation skills.",
-    "context_length": 131072,
+    "context_length": 16000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
@@ -3161,8 +3233,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
+      "context_length": 16000,
+      "max_completion_tokens": 3000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3220,7 +3292,7 @@
     "name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
     "created": 1728950400,
     "description": "NVIDIA's Llama 3.1 Nemotron 70B is a language model designed for generating precise and useful responses. Leveraging [Llama 3.1 70B](/models/meta-llama/llama-3.1-70b-instruct) architecture and Reinforcement Learning from Human Feedback (RLHF), it excels in automatic alignment benchmarks. This model is tailored for applications requiring high accuracy in helpfulness and response generation, suitable for diverse user queries across multiple domains.\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
-    "context_length": 131072,
+    "context_length": 16000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
@@ -3233,8 +3305,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
+      "context_length": 16000,
+      "max_completion_tokens": 3000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4283,7 +4355,7 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.00000035",
+      "prompt": "0.00000023",
       "completion": "0.0000004",
       "image": "0",
       "request": "0"
@@ -4331,7 +4403,7 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.00000018",
+      "prompt": "0.00000008",
       "completion": "0.00000018",
       "image": "0",
       "request": "0"
@@ -4411,6 +4483,30 @@
     "top_provider": {
       "context_length": 8192,
       "max_completion_tokens": 4096,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "sao10k/l3-lunaris-8b",
+    "name": "Llama 3 8B Lunaris",
+    "created": 1723507200,
+    "description": "Lunaris 8B is a versatile generalist and roleplaying model based on Llama 3. It's a strategic merge of multiple models, designed to balance creativity with improved logic and general knowledge.\n\nCreated by [Sao10k](https://huggingface.co/Sao10k), this model aims to offer an improved experience over Stheno v3.2, with enhanced creativity and logical reasoning.\n\nFor best results, use with Llama 3 Instruct context template, temperature 1.4, and min_p 0.1.",
+    "context_length": 8192,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama3",
+      "instruct_type": "llama3"
+    },
+    "pricing": {
+      "prompt": "0.00000003",
+      "completion": "0.00000006",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 8192,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
