@@ -216,6 +216,30 @@
     "per_request_limits": null
   },
   {
+    "id": "anthracite-org/magnum-v2-72b",
+    "name": "Magnum v2 72B",
+    "created": 1727654400,
+    "description": "From the maker of [Goliath](https://openrouter.ai/models/alpindale/goliath-120b), Magnum 72B is the seventh in a family of models designed to achieve the prose quality of the Claude 3 models, notably Opus & Sonnet.\n\nThe model is based on [Qwen2 72B](https://openrouter.ai/models/qwen/qwen-2-72b-instruct) and trained with 55 million tokens of highly curated roleplay (RP) data.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Qwen",
+      "instruct_type": "chatml"
+    },
+    "pricing": {
+      "prompt": "0.000003",
+      "completion": "0.000003",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "anthracite-org/magnum-v4-72b",
     "name": "Magnum v4 72B",
     "created": 1729555200,
@@ -1036,6 +1060,30 @@
     "name": "Google: Gemini Experimental 1121 (free)",
     "created": 1732216725,
     "description": "Experimental release (November 21st, 2024) of Gemini.",
+    "context_length": 8192,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 8192,
+      "max_completion_tokens": 4096,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "google/gemini-exp-1206:free",
+    "name": "Google: Gemini Experimental 1206 (free)",
+    "created": 1733507713,
+    "description": "Experimental release (December 6, 2024) of Gemini.",
     "context_length": 8192,
     "architecture": {
       "modality": "text+image->text",
@@ -1924,7 +1972,7 @@
     "name": "Meta: Llama 3.1 405B Instruct",
     "created": 1721692800,
     "description": "The highly anticipated 400B class of Llama3 is here! Clocking in at 128k context with impressive eval scores, the Meta AI team continues to push the frontier of open-source LLMs.\n\nMeta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 405B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models including GPT-4o and Claude 3.5 Sonnet in evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 12000,
+    "context_length": 32000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
@@ -1937,8 +1985,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 12000,
-      "max_completion_tokens": 3000,
+      "context_length": 32000,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2299,6 +2347,30 @@
     "top_provider": {
       "context_length": 4096,
       "max_completion_tokens": 2048,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "created": 1733506137,
+    "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperforms many of the available open source and closed chat models on common industry benchmarks.\n\nSupported languages: English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.\n\n[Model Card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md)",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama3",
+      "instruct_type": "llama3"
+    },
+    "pricing": {
+      "prompt": "0.00000013",
+      "completion": "0.0000004",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3427,7 +3499,7 @@
     "top_provider": {
       "context_length": 16385,
       "max_completion_tokens": 4096,
-      "is_moderated": false
+      "is_moderated": true
     },
     "per_request_limits": null
   },
@@ -3523,7 +3595,7 @@
     "top_provider": {
       "context_length": 8191,
       "max_completion_tokens": 4096,
-      "is_moderated": false
+      "is_moderated": true
     },
     "per_request_limits": null
   },
@@ -3547,7 +3619,7 @@
     "top_provider": {
       "context_length": 128000,
       "max_completion_tokens": 4096,
-      "is_moderated": false
+      "is_moderated": true
     },
     "per_request_limits": null
   },
@@ -3595,7 +3667,7 @@
     "top_provider": {
       "context_length": 32767,
       "max_completion_tokens": 4096,
-      "is_moderated": false
+      "is_moderated": true
     },
     "per_request_limits": null
   },
@@ -3643,7 +3715,7 @@
     "top_provider": {
       "context_length": 128000,
       "max_completion_tokens": 4096,
-      "is_moderated": false
+      "is_moderated": true
     },
     "per_request_limits": null
   },
@@ -3667,7 +3739,7 @@
     "top_provider": {
       "context_length": 128000,
       "max_completion_tokens": 4096,
-      "is_moderated": false
+      "is_moderated": true
     },
     "per_request_limits": null
   },
@@ -4427,8 +4499,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.0000006",
+      "prompt": "0.0000002",
+      "completion": "0.0000002",
       "image": "0",
       "request": "0"
     },
