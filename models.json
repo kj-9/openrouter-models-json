@@ -2173,7 +2173,7 @@
     "pricing": {
       "prompt": "0.000000055",
       "completion": "0.000000055",
-      "image": "0.000079475",
+      "image": "0.00007948",
       "request": "0"
     },
     "top_provider": {
@@ -2317,7 +2317,7 @@
     "pricing": {
       "prompt": "0.0000009",
       "completion": "0.0000009",
-      "image": "0.0013005",
+      "image": "0.001301",
       "request": "0"
     },
     "top_provider": {
@@ -3757,7 +3757,7 @@
     "pricing": {
       "prompt": "0.0000025",
       "completion": "0.00001",
-      "image": "0.0036125",
+      "image": "0.003613",
       "request": "0"
     },
     "top_provider": {
@@ -3805,7 +3805,7 @@
     "pricing": {
       "prompt": "0.0000025",
       "completion": "0.00001",
-      "image": "0.0036125",
+      "image": "0.003613",
       "request": "0"
     },
     "top_provider": {
