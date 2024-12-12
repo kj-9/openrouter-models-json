@@ -1080,11 +1080,11 @@
     "per_request_limits": null
   },
   {
-    "id": "google/gemini-exp-1114:free",
-    "name": "Google: Gemini Experimental 1114 (free)",
-    "created": 1731714740,
-    "description": "Gemini 11-14 (2024) experimental model features \"quality\" improvements.",
-    "context_length": 8192,
+    "id": "google/gemini-2.0-flash-exp:free",
+    "name": "Google: Gemini 2.0 Flash Experimental (free)",
+    "created": 1733937523,
+    "description": "Gemini 2.0 Flash offers a significantly faster time to first token (TTFT) compared to [Gemini 1.5 Flash](google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini 1.5 Pro](google/gemini-pro-1.5). It introduces notable enhancements in multimodal understanding, coding capabilities, complex instruction following, and function calling. These advancements come together to deliver more seamless and robust agentic experiences.",
+    "context_length": 1048576,
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Gemini",
@@ -1097,8 +1097,32 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
+      "context_length": 1048576,
+      "max_completion_tokens": 8192,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "google/gemini-exp-1114:free",
+    "name": "Google: Gemini Experimental 1114 (free)",
+    "created": 1731714740,
+    "description": "Gemini 11-14 (2024) experimental model features \"quality\" improvements.",
+    "context_length": 40960,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 40960,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1108,7 +1132,7 @@
     "name": "Google: Gemini Experimental 1121 (free)",
     "created": 1732216725,
     "description": "Experimental release (November 21st, 2024) of Gemini.",
-    "context_length": 8192,
+    "context_length": 40960,
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Gemini",
@@ -1121,8 +1145,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
+      "context_length": 40960,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1132,7 +1156,7 @@
     "name": "Google: Gemini Experimental 1206 (free)",
     "created": 1733507713,
     "description": "Experimental release (December 6, 2024) of Gemini.",
-    "context_length": 8192,
+    "context_length": 2097152,
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Gemini",
@@ -1145,8 +1169,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
+      "context_length": 2097152,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1420,7 +1444,7 @@
     "name": "Google: LearnLM 1.5 Pro Experimental (free)",
     "created": 1732216551,
     "description": "An experimental version of [Gemini 1.5 Pro](/google/gemini-pro-1.5) from Google.",
-    "context_length": 8192,
+    "context_length": 40960,
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Gemini",
@@ -1433,8 +1457,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
+      "context_length": 40960,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
