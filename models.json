@@ -187,7 +187,7 @@
     "top_provider": {
       "context_length": 300000,
       "max_completion_tokens": 5120,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null
   },
@@ -211,7 +211,7 @@
     "top_provider": {
       "context_length": 128000,
       "max_completion_tokens": 5120,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null
   },
@@ -235,7 +235,7 @@
     "top_provider": {
       "context_length": 300000,
       "max_completion_tokens": 5120,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null
   },
