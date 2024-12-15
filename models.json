@@ -984,6 +984,30 @@
     "per_request_limits": null
   },
   {
+    "id": "cohere/command-r7b-12-2024",
+    "name": "Cohere: Command R7B (12-2024)",
+    "created": 1734158152,
+    "description": "Command R7B (12-2024) is a small, fast update of the Command R+ model, delivered in December 2024. It excels at RAG, tool use, agents, and similar tasks requiring complex reasoning and multiple steps.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Cohere",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000000375",
+      "completion": "0.00000015",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 4000,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "databricks/dbrx-instruct",
     "name": "Databricks: DBRX 132B Instruct",
     "created": 1711670400,
@@ -1420,7 +1444,7 @@
     "name": "Google: Gemma 2 9B (free)",
     "created": 1719532800,
     "description": "Gemma 2 9B by Google is an advanced, open-source language model that sets a new standard for efficiency and performance in its size class.\n\nDesigned for a wide variety of tasks, it empowers developers and researchers to build innovative applications, while maintaining accessibility, safety, and cost-effectiveness.\n\nSee the [launch announcement](https://blog.google/technology/developers/google-gemma-2/) for more details. Usage of Gemma is subject to Google's [Gemma Terms of Use](https://ai.google.dev/gemma/terms).",
-    "context_length": 4096,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Gemini",
@@ -1433,8 +1457,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 2048,
+      "context_length": 8192,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
