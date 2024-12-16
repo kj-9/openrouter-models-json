@@ -1444,7 +1444,7 @@
     "name": "Google: Gemma 2 9B (free)",
     "created": 1719532800,
     "description": "Gemma 2 9B by Google is an advanced, open-source language model that sets a new standard for efficiency and performance in its size class.\n\nDesigned for a wide variety of tasks, it empowers developers and researchers to build innovative applications, while maintaining accessibility, safety, and cost-effectiveness.\n\nSee the [launch announcement](https://blog.google/technology/developers/google-gemma-2/) for more details. Usage of Gemma is subject to Google's [Gemma Terms of Use](https://ai.google.dev/gemma/terms).",
-    "context_length": 8192,
+    "context_length": 4096,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Gemini",
@@ -1457,8 +1457,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
+      "context_length": 4096,
+      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4619,8 +4619,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.0000006",
+      "prompt": "0.00000013",
+      "completion": "0.0000002",
       "image": "0",
       "request": "0"
     },
@@ -4944,6 +4944,54 @@
     "per_request_limits": null
   },
   {
+    "id": "x-ai/grok-2-1212",
+    "name": "xAI: Grok 2 1212",
+    "created": 1734232814,
+    "description": "Grok 2 1212 introduces significant enhancements to accuracy, instruction adherence, and multilingual support, making it a powerful and flexible choice for developers seeking a highly steerable, intelligent model.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Grok",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.00001",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "x-ai/grok-2-vision-1212",
+    "name": "xAI: Grok 2 Vision 1212",
+    "created": 1734237338,
+    "description": "Grok 2 Vision 1212 advances image-based AI with stronger visual comprehension, refined instruction-following, and multilingual support. From object recognition to style analysis, it empowers developers to build more intuitive, visually aware applications. Its enhanced steerability and reasoning establish a robust foundation for next-generation image solutions.\n\nTo read more about this model, check out [xAI's announcement](https://x.ai/blog/grok-1212).",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Grok",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.00001",
+      "image": "0.0036",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "x-ai/grok-beta",
     "name": "xAI: Grok Beta",
     "created": 1729382400,
@@ -4981,7 +5029,7 @@
     "pricing": {
       "prompt": "0.000005",
       "completion": "0.000015",
-      "image": "0.0018",
+      "image": "0.009",
       "request": "0"
     },
     "top_provider": {
