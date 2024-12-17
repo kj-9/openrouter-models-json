@@ -1056,6 +1056,30 @@
     "per_request_limits": null
   },
   {
+    "id": "eva-unit-01/eva-llama-3.33-70b",
+    "name": "Eva Llama 3.33 70b",
+    "created": 1734377303,
+    "description": "A roleplay and storywriting specialist model. It is a full-parameter finetune of [Llama-3.3-70B-Instruct](https://openrouter.ai/meta-llama/llama-3.3-70b-instruct) on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model\n\nThis model was built with Llama by Meta.\n",
+    "context_length": 16384,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama3",
+      "instruct_type": "llama3"
+    },
+    "pricing": {
+      "prompt": "0.000004",
+      "completion": "0.000006",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 16384,
+      "max_completion_tokens": 4096,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "eva-unit-01/eva-qwen-2.5-32b",
     "name": "EVA Qwen2.5 32B",
     "created": 1731104847,
@@ -1105,9 +1129,9 @@
   },
   {
     "id": "google/gemini-2.0-flash-exp:free",
-    "name": "Google: Gemini 2.0 Flash Experimental (free)",
+    "name": "Google: Gemini Flash 2.0 Experimental (free)",
     "created": 1733937523,
-    "description": "Gemini 2.0 Flash offers a significantly faster time to first token (TTFT) compared to [Gemini 1.5 Flash](google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini 1.5 Pro](google/gemini-pro-1.5). It introduces notable enhancements in multimodal understanding, coding capabilities, complex instruction following, and function calling. These advancements come together to deliver more seamless and robust agentic experiences.",
+    "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](google/gemini-pro-1.5). It introduces notable enhancements in multimodal understanding, coding capabilities, complex instruction following, and function calling. These advancements come together to deliver more seamless and robust agentic experiences.",
     "context_length": 1048576,
     "architecture": {
       "modality": "text+image->text",
@@ -1225,9 +1249,9 @@
   },
   {
     "id": "google/gemini-flash-1.5-8b",
-    "name": "Google: Gemini 1.5 Flash-8B",
+    "name": "Google: Gemini Flash 1.5 8B",
     "created": 1727913600,
-    "description": "Gemini 1.5 Flash-8B is optimized for speed and efficiency, offering enhanced performance in small prompt tasks like chat, transcription, and translation. With reduced latency, it is highly effective for real-time and large-scale operations. This model focuses on cost-effective solutions while maintaining high-quality results.\n\n[Click here to learn more about this model](https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/).\n\nUsage of Gemini is subject to Google's [Gemini Terms of Use](https://ai.google.dev/terms).",
+    "description": "Gemini Flash 1.5 8B is optimized for speed and efficiency, offering enhanced performance in small prompt tasks like chat, transcription, and translation. With reduced latency, it is highly effective for real-time and large-scale operations. This model focuses on cost-effective solutions while maintaining high-quality results.\n\n[Click here to learn more about this model](https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/).\n\nUsage of Gemini is subject to Google's [Gemini Terms of Use](https://ai.google.dev/terms).",
     "context_length": 1000000,
     "architecture": {
       "modality": "text+image->text",
@@ -1249,9 +1273,9 @@
   },
   {
     "id": "google/gemini-flash-1.5-8b-exp",
-    "name": "Google: Gemini Flash 8B 1.5 Experimental",
+    "name": "Google: Gemini Flash 1.5 8B Experimental",
     "created": 1724803200,
-    "description": "Gemini 1.5 Flash 8B Experimental is an experimental, 8B parameter version of the [Gemini 1.5 Flash](/models/google/gemini-flash-1.5) model.\n\nUsage of Gemini is subject to Google's [Gemini Terms of Use](https://ai.google.dev/terms).\n\n#multimodal\n\nNote: This model is currently experimental and not suitable for production use-cases, and may be heavily rate-limited.",
+    "description": "Gemini Flash 1.5 8B Experimental is an experimental, 8B parameter version of the [Gemini Flash 1.5](/models/google/gemini-flash-1.5) model.\n\nUsage of Gemini is subject to Google's [Gemini Terms of Use](https://ai.google.dev/terms).\n\n#multimodal\n\nNote: This model is currently experimental and not suitable for production use-cases, and may be heavily rate-limited.",
     "context_length": 1000000,
     "architecture": {
       "modality": "text+image->text",
