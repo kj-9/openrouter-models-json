@@ -25,9 +25,9 @@
   },
   {
     "id": "aetherwiing/mn-starcannon-12b",
-    "name": "Mistral Nemo 12B Starcannon",
+    "name": "Aetherwiing: Starcannon 12B",
     "created": 1723507200,
-    "description": "Starcannon 12B is a creative roleplay and story writing model, using [nothingiisreal/mn-celeste-12b](https://openrouter.ai/models/nothingiisreal/mn-celeste-12b) as a base and [intervitens/mini-magnum-12b-v1.1](https://huggingface.co/intervitens/mini-magnum-12b-v1.1) merged in using the [TIES](https://arxiv.org/abs/2306.01708) method.\n\nAlthough more similar to Magnum overall, the model remains very creative, with a pleasant writing style. It is recommended for people wanting more variety than Magnum, and yet more verbose prose than Celeste.",
+    "description": "Starcannon 12B v2 is a creative roleplay and story writing model, based on Mistral Nemo, using [nothingiisreal/mn-celeste-12b](/nothingiisreal/mn-celeste-12b) as a base, with [intervitens/mini-magnum-12b-v1.1](https://huggingface.co/intervitens/mini-magnum-12b-v1.1) merged in using the [TIES](https://arxiv.org/abs/2306.01708) method.\n\nAlthough more similar to Magnum overall, the model remains very creative, with a pleasant writing style. It is recommended for people wanting more variety than Magnum, and yet more verbose prose than Celeste.",
     "context_length": 16384,
     "architecture": {
       "modality": "text->text",
@@ -1057,9 +1057,9 @@
   },
   {
     "id": "eva-unit-01/eva-llama-3.33-70b",
-    "name": "Eva Llama 3.33 70b",
+    "name": "EVA Llama 3.33 70b",
     "created": 1734377303,
-    "description": "A roleplay and storywriting specialist model. It is a full-parameter finetune of [Llama-3.3-70B-Instruct](https://openrouter.ai/meta-llama/llama-3.3-70b-instruct) on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model\n\nThis model was built with Llama by Meta.\n",
+    "description": "EVA Llama 3.33 70b is a roleplay and storywriting specialist model. It is a full-parameter finetune of [Llama-3.3-70B-Instruct](https://openrouter.ai/meta-llama/llama-3.3-70b-instruct) on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model\n\nThis model was built with Llama by Meta.\n",
     "context_length": 16384,
     "architecture": {
       "modality": "text->text",
@@ -1083,7 +1083,7 @@
     "id": "eva-unit-01/eva-qwen-2.5-32b",
     "name": "EVA Qwen2.5 32B",
     "created": 1731104847,
-    "description": "A roleplaying/storywriting specialist model, full-parameter finetune of Qwen2.5-32B on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model.",
+    "description": "EVA Qwen2.5 32B is a roleplaying/storywriting specialist model. It's a full-parameter finetune of Qwen2.5-32B on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model.",
     "context_length": 16384,
     "architecture": {
       "modality": "text->text",
@@ -1107,7 +1107,7 @@
     "id": "eva-unit-01/eva-qwen-2.5-72b",
     "name": "EVA Qwen2.5 72B",
     "created": 1732210606,
-    "description": "A roleplay and storywriting specialist model, full-parameter finetune of Qwen2.5-72B on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model.",
+    "description": "EVA Qwen2.5 72B is a roleplay and storywriting specialist model. It's a full-parameter finetune of Qwen2.5-72B on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model.",
     "context_length": 16384,
     "architecture": {
       "modality": "text->text",
@@ -1468,7 +1468,7 @@
     "name": "Google: Gemma 2 9B (free)",
     "created": 1719532800,
     "description": "Gemma 2 9B by Google is an advanced, open-source language model that sets a new standard for efficiency and performance in its size class.\n\nDesigned for a wide variety of tasks, it empowers developers and researchers to build innovative applications, while maintaining accessibility, safety, and cost-effectiveness.\n\nSee the [launch announcement](https://blog.google/technology/developers/google-gemma-2/) for more details. Usage of Gemma is subject to Google's [Gemma Terms of Use](https://ai.google.dev/gemma/terms).",
-    "context_length": 4096,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Gemini",
@@ -1481,8 +1481,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 2048,
+      "context_length": 8192,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1619,14 +1619,14 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.00000008",
-      "completion": "0.00000008",
+      "prompt": "0.00000007",
+      "completion": "0.00000007",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
       "context_length": 4096,
-      "max_completion_tokens": 4096,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1729,9 +1729,9 @@
   },
   {
     "id": "infermatic/mn-inferor-12b",
-    "name": "Mistral Nemo Inferor 12B",
+    "name": "Infermatic: Mistral Nemo Inferor 12B",
     "created": 1731464428,
-    "description": "Inferor is a merge of top roleplay models, expert on immersive narratives and storytelling.\n\nThis model was merged using the [Model Stock](https://arxiv.org/abs/2403.19522) merge method using [anthracite-org/magnum-v4-12b](https://openrouter.ai/anthracite-org/magnum-v4-72b) as a base.\n",
+    "description": "Inferor 12B is a merge of top roleplay models, expert on immersive narratives and storytelling.\n\nThis model was merged using the [Model Stock](https://arxiv.org/abs/2403.19522) merge method using [anthracite-org/magnum-v4-12b](https://openrouter.ai/anthracite-org/magnum-v4-72b) as a base.\n",
     "context_length": 32000,
     "architecture": {
       "modality": "text->text",
@@ -2521,7 +2521,7 @@
   },
   {
     "id": "microsoft/phi-3-medium-128k-instruct",
-    "name": "Phi-3 Medium 128K Instruct",
+    "name": "Microsoft: Phi-3 Medium 128K Instruct",
     "created": 1716508800,
     "description": "Phi-3 128K Medium is a powerful 14-billion parameter model designed for advanced language understanding, reasoning, and instruction following. Optimized through supervised fine-tuning and preference adjustments, it excels in tasks involving common sense, mathematics, logical reasoning, and code processing.\n\nAt time of release, Phi-3 Medium demonstrated state-of-the-art performance among lightweight models. In the MMLU-Pro eval, the model even comes close to a Llama3 70B level of performance.\n\nFor 4k context length, try [Phi-3 Medium 4K](/models/microsoft/phi-3-medium-4k-instruct).",
     "context_length": 128000,
@@ -2545,7 +2545,7 @@
   },
   {
     "id": "microsoft/phi-3-medium-128k-instruct:free",
-    "name": "Phi-3 Medium 128K Instruct (free)",
+    "name": "Microsoft: Phi-3 Medium 128K Instruct (free)",
     "created": 1716508800,
     "description": "Phi-3 128K Medium is a powerful 14-billion parameter model designed for advanced language understanding, reasoning, and instruction following. Optimized through supervised fine-tuning and preference adjustments, it excels in tasks involving common sense, mathematics, logical reasoning, and code processing.\n\nAt time of release, Phi-3 Medium demonstrated state-of-the-art performance among lightweight models. In the MMLU-Pro eval, the model even comes close to a Llama3 70B level of performance.\n\nFor 4k context length, try [Phi-3 Medium 4K](/models/microsoft/phi-3-medium-4k-instruct).",
     "context_length": 8192,
@@ -2569,7 +2569,7 @@
   },
   {
     "id": "microsoft/phi-3-mini-128k-instruct",
-    "name": "Phi-3 Mini 128K Instruct",
+    "name": "Microsoft: Phi-3 Mini 128K Instruct",
     "created": 1716681600,
     "description": "Phi-3 Mini is a powerful 3.8B parameter model designed for advanced language understanding, reasoning, and instruction following. Optimized through supervised fine-tuning and preference adjustments, it excels in tasks involving common sense, mathematics, logical reasoning, and code processing.\n\nAt time of release, Phi-3 Medium demonstrated state-of-the-art performance among lightweight models. This model is static, trained on an offline dataset with an October 2023 cutoff date.",
     "context_length": 128000,
@@ -2593,7 +2593,7 @@
   },
   {
     "id": "microsoft/phi-3-mini-128k-instruct:free",
-    "name": "Phi-3 Mini 128K Instruct (free)",
+    "name": "Microsoft: Phi-3 Mini 128K Instruct (free)",
     "created": 1716681600,
     "description": "Phi-3 Mini is a powerful 3.8B parameter model designed for advanced language understanding, reasoning, and instruction following. Optimized through supervised fine-tuning and preference adjustments, it excels in tasks involving common sense, mathematics, logical reasoning, and code processing.\n\nAt time of release, Phi-3 Medium demonstrated state-of-the-art performance among lightweight models. This model is static, trained on an offline dataset with an October 2023 cutoff date.",
     "context_length": 8192,
@@ -2617,7 +2617,7 @@
   },
   {
     "id": "microsoft/phi-3.5-mini-128k-instruct",
-    "name": "Phi-3.5 Mini 128K Instruct",
+    "name": "Microsoft: Phi-3.5 Mini 128K Instruct",
     "created": 1724198400,
     "description": "Phi-3.5 models are lightweight, state-of-the-art open models. These models were trained with Phi-3 datasets that include both synthetic data and the filtered, publicly available websites data, with a focus on high quality and reasoning-dense properties. Phi-3.5 Mini uses 3.8B parameters, and is a dense decoder-only transformer model using the same tokenizer as [Phi-3 Mini](/models/microsoft/phi-3-mini-128k-instruct).\n\nThe models underwent a rigorous enhancement process, incorporating both supervised fine-tuning, proximal policy optimization, and direct preference optimization to ensure precise instruction adherence and robust safety measures. When assessed against benchmarks that test common sense, language understanding, math, code, long context and logical reasoning, Phi-3.5 models showcased robust and state-of-the-art performance among models with less than 13 billion parameters.",
     "context_length": 128000,
@@ -2713,7 +2713,7 @@
   },
   {
     "id": "mistralai/ministral-3b",
-    "name": "Ministral 3B",
+    "name": "Mistral: Ministral 3B",
     "created": 1729123200,
     "description": "Ministral 3B is a 3B parameter model optimized for on-device and edge computing. It excels in knowledge, commonsense reasoning, and function-calling, outperforming larger models like Mistral 7B on most benchmarks. Supporting up to 128k context length, it’s ideal for orchestrating agentic workflows and specialist tasks with efficient inference.",
     "context_length": 128000,
@@ -2737,7 +2737,7 @@
   },
   {
     "id": "mistralai/ministral-8b",
-    "name": "Ministral 8B",
+    "name": "Mistral: Ministral 8B",
     "created": 1729123200,
     "description": "Ministral 8B is an 8B parameter model featuring a unique interleaved sliding-window attention pattern for faster, memory-efficient inference. Designed for edge use cases, it supports up to 128k context length and excels in knowledge and reasoning tasks. It outperforms peers in the sub-10B category, making it perfect for low-latency, privacy-first applications.",
     "context_length": 128000,
@@ -3012,13 +3012,13 @@
     },
     "pricing": {
       "prompt": "0.00000004",
-      "completion": "0.0000001",
+      "completion": "0.00000009",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
       "context_length": 128000,
-      "max_completion_tokens": 4096,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3097,9 +3097,9 @@
   },
   {
     "id": "mistralai/mixtral-8x7b",
-    "name": "Mixtral 8x7B (base)",
+    "name": "Mistral: Mixtral 8x7B (base)",
     "created": 1702166400,
-    "description": "A pretrained generative Sparse Mixture of Experts, by Mistral AI. Incorporates 8 experts (feed-forward networks) for a total of 47B parameters. Base model (not fine-tuned for instructions) - see [Mixtral 8x7B Instruct](/models/mistralai/mixtral-8x7b-instruct) for an instruct-tuned model.\n\n#moe",
+    "description": "Mixtral 8x7B is a pretrained generative Sparse Mixture of Experts, by Mistral AI. Incorporates 8 experts (feed-forward networks) for a total of 47B parameters. Base model (not fine-tuned for instructions) - see [Mixtral 8x7B Instruct](/models/mistralai/mixtral-8x7b-instruct) for an instruct-tuned model.\n\n#moe",
     "context_length": 32768,
     "architecture": {
       "modality": "text->text",
@@ -3121,9 +3121,9 @@
   },
   {
     "id": "mistralai/mixtral-8x7b-instruct",
-    "name": "Mixtral 8x7B Instruct",
+    "name": "Mistral: Mixtral 8x7B Instruct",
     "created": 1702166400,
-    "description": "A pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use. Incorporates 8 experts (feed-forward networks) for a total of 47 billion parameters.\n\nInstruct model fine-tuned by Mistral. #moe",
+    "description": "Mixtral 8x7B Instruct is a pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use. Incorporates 8 experts (feed-forward networks) for a total of 47 billion parameters.\n\nInstruct model fine-tuned by Mistral. #moe",
     "context_length": 32768,
     "architecture": {
       "modality": "text->text",
@@ -3145,9 +3145,9 @@
   },
   {
     "id": "mistralai/mixtral-8x7b-instruct:nitro",
-    "name": "Mixtral 8x7B Instruct (nitro)",
+    "name": "Mistral: Mixtral 8x7B Instruct (nitro)",
     "created": 1702166400,
-    "description": "A pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use. Incorporates 8 experts (feed-forward networks) for a total of 47 billion parameters.\n\nInstruct model fine-tuned by Mistral. #moe",
+    "description": "Mixtral 8x7B Instruct is a pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use. Incorporates 8 experts (feed-forward networks) for a total of 47 billion parameters.\n\nInstruct model fine-tuned by Mistral. #moe",
     "context_length": 32768,
     "architecture": {
       "modality": "text->text",
@@ -3217,7 +3217,7 @@
   },
   {
     "id": "neversleep/llama-3-lumimaid-70b",
-    "name": "Llama 3 Lumimaid 70B",
+    "name": "NeverSleep: Llama 3 Lumimaid 70B",
     "created": 1715817600,
     "description": "The NeverSleep team is back, with a Llama 3 70B finetune trained on their curated roleplay data. Striking a balance between eRP and RP, Lumimaid was designed to be serious, yet uncensored when necessary.\n\nTo enhance it's overall intelligence and chat capability, roughly 40% of the training data was not roleplay. This provides a breadth of knowledge to access, while still keeping roleplay as the primary strength.\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
     "context_length": 8192,
@@ -3241,7 +3241,7 @@
   },
   {
     "id": "neversleep/llama-3-lumimaid-8b",
-    "name": "Llama 3 Lumimaid 8B",
+    "name": "NeverSleep: Llama 3 Lumimaid 8B",
     "created": 1714780800,
     "description": "The NeverSleep team is back, with a Llama 3 8B finetune trained on their curated roleplay data. Striking a balance between eRP and RP, Lumimaid was designed to be serious, yet uncensored when necessary.\n\nTo enhance it's overall intelligence and chat capability, roughly 40% of the training data was not roleplay. This provides a breadth of knowledge to access, while still keeping roleplay as the primary strength.\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
     "context_length": 24576,
@@ -3265,7 +3265,7 @@
   },
   {
     "id": "neversleep/llama-3-lumimaid-8b:extended",
-    "name": "Llama 3 Lumimaid 8B (extended)",
+    "name": "NeverSleep: Llama 3 Lumimaid 8B (extended)",
     "created": 1714780800,
     "description": "The NeverSleep team is back, with a Llama 3 8B finetune trained on their curated roleplay data. Striking a balance between eRP and RP, Lumimaid was designed to be serious, yet uncensored when necessary.\n\nTo enhance it's overall intelligence and chat capability, roughly 40% of the training data was not roleplay. This provides a breadth of knowledge to access, while still keeping roleplay as the primary strength.\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
     "context_length": 24576,
@@ -3289,7 +3289,7 @@
   },
   {
     "id": "neversleep/llama-3.1-lumimaid-70b",
-    "name": "Lumimaid v0.2 70B",
+    "name": "NeverSleep: Lumimaid v0.2 70B",
     "created": 1729555200,
     "description": "Lumimaid v0.2 70B is a finetune of [Llama 3.1 70B](/meta-llama/llama-3.1-70b-instruct) with a \"HUGE step up dataset wise\" compared to Lumimaid v0.1. Sloppy chats output were purged.\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
     "context_length": 16384,
@@ -3313,7 +3313,7 @@
   },
   {
     "id": "neversleep/llama-3.1-lumimaid-8b",
-    "name": "Lumimaid v0.2 8B",
+    "name": "NeverSleep: Lumimaid v0.2 8B",
     "created": 1726358400,
     "description": "Lumimaid v0.2 8B is a finetune of [Llama 3.1 8B](/models/meta-llama/llama-3.1-8b-instruct) with a \"HUGE step up dataset wise\" compared to Lumimaid v0.1. Sloppy chats output were purged.\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
     "context_length": 32768,
@@ -4056,6 +4056,30 @@
     "per_request_limits": null
   },
   {
+    "id": "openai/o1",
+    "name": "OpenAI: o1",
+    "created": 1734459999,
+    "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding. The o1 model series is trained with large-scale reinforcement learning to reason using chain of thought. \n\nThe o1 models are optimized for math, science, programming, and other STEM-related tasks. They consistently exhibit PhD-level accuracy on benchmarks in physics, chemistry, and biology. Learn more in the [launch announcement](https://openai.com/o1).\n",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "GPT",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000015",
+      "completion": "0.00006",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 100000,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "openai/o1-mini",
     "name": "OpenAI: o1-mini",
     "created": 1726099200,
@@ -4681,7 +4705,7 @@
   },
   {
     "id": "sao10k/l3-euryale-70b",
-    "name": "Llama 3 Euryale 70B v2.1",
+    "name": "Sao10k: Llama 3 Euryale 70B v2.1",
     "created": 1718668800,
     "description": "Euryale 70B v2.1 is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k).\n\n- Better prompt adherence.\n- Better anatomy / spatial awareness.\n- Adapts much better to unique and custom formatting / reply formats.\n- Very creative, lots of unique swipes.\n- Is not restrictive during roleplays.",
     "context_length": 8192,
@@ -4705,7 +4729,7 @@
   },
   {
     "id": "sao10k/l3-lunaris-8b",
-    "name": "Llama 3 8B Lunaris",
+    "name": "Sao10K: Llama 3 8B Lunaris",
     "created": 1723507200,
     "description": "Lunaris 8B is a versatile generalist and roleplaying model based on Llama 3. It's a strategic merge of multiple models, designed to balance creativity with improved logic and general knowledge.\n\nCreated by [Sao10k](https://huggingface.co/Sao10k), this model aims to offer an improved experience over Stheno v3.2, with enhanced creativity and logical reasoning.\n\nFor best results, use with Llama 3 Instruct context template, temperature 1.4, and min_p 0.1.",
     "context_length": 8192,
@@ -4729,7 +4753,7 @@
   },
   {
     "id": "sao10k/l3.1-euryale-70b",
-    "name": "Llama 3.1 Euryale 70B v2.2",
+    "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
     "created": 1724803200,
     "description": "Euryale L3.1 70B v2.2 is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). It is the successor of [Euryale L3 70B v2.1](/models/sao10k/l3-euryale-70b).",
     "context_length": 128000,
