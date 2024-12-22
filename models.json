@@ -1492,7 +1492,7 @@
     "name": "Google: Gemma 2 9B (free)",
     "created": 1719532800,
     "description": "Gemma 2 9B by Google is an advanced, open-source language model that sets a new standard for efficiency and performance in its size class.\n\nDesigned for a wide variety of tasks, it empowers developers and researchers to build innovative applications, while maintaining accessibility, safety, and cost-effectiveness.\n\nSee the [launch announcement](https://blog.google/technology/developers/google-gemma-2/) for more details. Usage of Gemma is subject to Google's [Gemma Terms of Use](https://ai.google.dev/gemma/terms).",
-    "context_length": 4096,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Gemini",
@@ -1505,8 +1505,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 2048,
+      "context_length": 8192,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1818,7 +1818,7 @@
     },
     "top_provider": {
       "context_length": 8000,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 1024,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2140,21 +2140,21 @@
     "name": "Meta: Llama 3.1 405B Instruct",
     "created": 1721692800,
     "description": "The highly anticipated 400B class of Llama3 is here! Clocking in at 128k context with impressive eval scores, the Meta AI team continues to push the frontier of open-source LLMs.\n\nMeta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 405B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models including GPT-4o and Claude 3.5 Sonnet in evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 32000,
+    "context_length": 131000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.0000009",
-      "completion": "0.0000009",
+      "prompt": "0.0000008",
+      "completion": "0.0000008",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 32000,
-      "max_completion_tokens": 4096,
+      "context_length": 131000,
+      "max_completion_tokens": 131000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2212,21 +2212,21 @@
     "name": "Meta: Llama 3.1 70B Instruct",
     "created": 1721692800,
     "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 70B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 131072,
+    "context_length": 131000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000013",
-      "completion": "0.0000004",
+      "prompt": "0.00000012",
+      "completion": "0.0000003",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 4096,
+      "context_length": 131000,
+      "max_completion_tokens": 131000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2428,21 +2428,21 @@
     "name": "Meta: Llama 3.2 3B Instruct",
     "created": 1727222400,
     "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it supports eight languages, including English, Spanish, and Hindi, and is adaptable for additional languages.\n\nTrained on 9 trillion tokens, the Llama 3.2 3B model excels in instruction-following, complex reasoning, and tool use. Its balanced performance makes it ideal for applications needing accuracy and efficiency in text generation across multilingual settings.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
-    "context_length": 131072,
+    "context_length": 131000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.000000018",
-      "completion": "0.00000003",
+      "prompt": "0.000000015",
+      "completion": "0.000000025",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 4096,
+      "context_length": 131000,
+      "max_completion_tokens": 131000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2531,8 +2531,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000013",
-      "completion": "0.0000004",
+      "prompt": "0.00000012",
+      "completion": "0.0000003",
       "image": "0",
       "request": "0"
     },
@@ -3443,8 +3443,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.00000003",
-      "completion": "0.00000003",
+      "prompt": "0.000000025",
+      "completion": "0.00000004",
       "image": "0",
       "request": "0"
     },
@@ -3460,21 +3460,21 @@
     "name": "Nous: Hermes 3 405B Instruct",
     "created": 1723766400,
     "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.\n\nHermes 3 405B is a frontier-level, full-parameter finetune of the Llama-3.1 405B foundation model, focused on aligning LLMs to the user, with powerful steering capabilities and control given to the end user.\n\nThe Hermes 3 series builds and expands on the Hermes 2 set of capabilities, including more powerful and reliable function calling and structured output capabilities, generalist assistant capabilities, and improved code generation skills.\n\nHermes 3 is competitive, if not superior, to Llama-3.1 Instruct models at general capabilities, with varying strengths and weaknesses attributable between the two.",
-    "context_length": 131072,
+    "context_length": 131000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.0000009",
-      "completion": "0.0000009",
+      "prompt": "0.0000008",
+      "completion": "0.0000008",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 4096,
+      "context_length": 131000,
+      "max_completion_tokens": 131000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3491,8 +3491,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000002",
+      "prompt": "0.00000012",
+      "completion": "0.0000003",
       "image": "0",
       "request": "0"
     },
@@ -3563,8 +3563,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000002",
+      "prompt": "0.00000012",
+      "completion": "0.0000003",
       "image": "0",
       "request": "0"
     },
@@ -4660,21 +4660,21 @@
     "name": "Qwen2.5 Coder 32B Instruct",
     "created": 1731368400,
     "description": "Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5:\n\n- Significantly improvements in **code generation**, **code reasoning** and **code fixing**. \n- A more comprehensive foundation for real-world applications such as **Code Agents**. Not only enhancing coding capabilities but also maintaining its strengths in mathematics and general competencies.\n\nTo read more about its evaluation results, check out [Qwen 2.5 Coder's blog](https://qwenlm.github.io/blog/qwen2.5-coder-family/).",
-    "context_length": 32768,
+    "context_length": 33000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Qwen",
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.00000008",
-      "completion": "0.00000018",
+      "prompt": "0.00000007",
+      "completion": "0.00000016",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": 4096,
+      "context_length": 33000,
+      "max_completion_tokens": 3000,
       "is_moderated": false
     },
     "per_request_limits": null
