@@ -4763,8 +4763,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000035",
-      "completion": "0.0000004",
+      "prompt": "0.0000007",
+      "completion": "0.0000008",
       "image": "0",
       "request": "0"
     },
@@ -4800,6 +4800,30 @@
     "per_request_limits": null
   },
   {
+    "id": "sao10k/l3.1-70b-hanami-x1",
+    "name": "Sao10K: Llama 3.1 70B Hanami x1",
+    "created": 1736302854,
+    "description": "This is [Sao10K](/sao10k)'s experiment over [Euryale v2.2](/sao10k/l3.1-euryale-70b).",
+    "context_length": 16000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000003",
+      "completion": "0.000003",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 16000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "sao10k/l3.1-euryale-70b",
     "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
     "created": 1724803200,
@@ -4811,8 +4835,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000035",
-      "completion": "0.0000004",
+      "prompt": "0.0000007",
+      "completion": "0.0000008",
       "image": "0",
       "request": "0"
     },
