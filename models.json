@@ -1492,7 +1492,7 @@
     "name": "Google: Gemma 2 9B",
     "created": 1719532800,
     "description": "Gemma 2 9B by Google is an advanced, open-source language model that sets a new standard for efficiency and performance in its size class.\n\nDesigned for a wide variety of tasks, it empowers developers and researchers to build innovative applications, while maintaining accessibility, safety, and cost-effectiveness.\n\nSee the [launch announcement](https://blog.google/technology/developers/google-gemma-2/) for more details. Usage of Gemma is subject to Google's [Gemma Terms of Use](https://ai.google.dev/gemma/terms).",
-    "context_length": 4096,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Gemini",
@@ -1505,7 +1505,7 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 4096,
+      "context_length": 8192,
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
@@ -1516,7 +1516,7 @@
     "name": "Google: Gemma 2 9B (free)",
     "created": 1719532800,
     "description": "Gemma 2 9B by Google is an advanced, open-source language model that sets a new standard for efficiency and performance in its size class.\n\nDesigned for a wide variety of tasks, it empowers developers and researchers to build innovative applications, while maintaining accessibility, safety, and cost-effectiveness.\n\nSee the [launch announcement](https://blog.google/technology/developers/google-gemma-2/) for more details. Usage of Gemma is subject to Google's [Gemma Terms of Use](https://ai.google.dev/gemma/terms).",
-    "context_length": 4096,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Gemini",
@@ -1529,8 +1529,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 2048,
+      "context_length": 8192,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2164,7 +2164,7 @@
     "name": "Meta: Llama 3.1 405B Instruct",
     "created": 1721692800,
     "description": "The highly anticipated 400B class of Llama3 is here! Clocking in at 128k context with impressive eval scores, the Meta AI team continues to push the frontier of open-source LLMs.\n\nMeta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 405B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models including GPT-4o and Claude 3.5 Sonnet in evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 32000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
@@ -2177,7 +2177,7 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 32000,
+      "context_length": 32768,
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
@@ -2740,7 +2740,7 @@
     "name": "WizardLM-2 7B",
     "created": 1713225600,
     "description": "WizardLM-2 7B is the smaller variant of Microsoft AI's latest Wizard model. It is the fastest and achieves comparable performance with existing 10x larger opensource leading models\n\nIt is a finetune of [Mistral 7B Instruct](/models/mistralai/mistral-7b-instruct), using the same technique as [WizardLM-2 8x22B](/models/microsoft/wizardlm-2-8x22b).\n\nTo read more about the model release, [click here](https://wizardlm.github.io/WizardLM2/).\n\n#moe",
-    "context_length": 32000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Mistral",
@@ -2753,7 +2753,7 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 32000,
+      "context_length": 32768,
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
@@ -2898,6 +2898,30 @@
     },
     "top_provider": {
       "context_length": 4096,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "mistralai/mistral-7b-instruct-v0.2",
+    "name": "Mistral: Mistral 7B Instruct v0.2",
+    "created": 1703721600,
+    "description": "A high-performing, industry-standard 7.3B parameter model, with optimizations for speed and context length.\n\nAn improved version of [Mistral 7B Instruct](/modelsmistralai/mistral-7b-instruct-v0.1), with the following changes:\n\n- 32k context window (vs 8k context in v0.1)\n- Rope-theta = 1e6\n- No Sliding-Window Attention",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Mistral",
+      "instruct_type": "mistral"
+    },
+    "pricing": {
+      "prompt": "0.00000018",
+      "completion": "0.00000018",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -3076,7 +3100,7 @@
     "name": "Mistral: Mistral Nemo",
     "created": 1721347200,
     "description": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.\n\nThe model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi.\n\nIt supports function calling and is released under the Apache 2.0 license.",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Mistral",
@@ -3089,7 +3113,7 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 131072,
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
@@ -4660,7 +4684,7 @@
     "name": "Qwen2.5 72B Instruct",
     "created": 1726704000,
     "description": "Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:\n\n- Significantly more knowledge and has greatly improved capabilities in coding and mathematics, thanks to our specialized expert models in these domains.\n\n- Significant improvements in instruction following, generating long texts (over 8K tokens), understanding structured data (e.g, tables), and generating structured outputs especially JSON. More resilient to the diversity of system prompts, enhancing role-play implementation and condition-setting for chatbots.\n\n- Long-context Support up to 128K tokens and can generate up to 8K tokens.\n\n- Multilingual support for over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
-    "context_length": 32000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Qwen",
@@ -4673,7 +4697,7 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 32000,
+      "context_length": 32768,
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
@@ -4852,7 +4876,7 @@
     "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
     "created": 1724803200,
     "description": "Euryale L3.1 70B v2.2 is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). It is the successor of [Euryale L3 70B v2.1](/models/sao10k/l3-euryale-70b).",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
@@ -4865,7 +4889,7 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 131072,
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
