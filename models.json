@@ -1920,30 +1920,6 @@
     "per_request_limits": null
   },
   {
-    "id": "lizpreciatior/lzlv-70b-fp16-hf",
-    "name": "lzlv 70B",
-    "created": 1699747200,
-    "description": "A Mythomax/MLewd_13B-style merge of selected 70B models.\nA multi-model merge of several LLaMA2 70B finetunes for roleplaying and creative work. The goal was to create a model that combines creativity with intelligence for an enhanced experience.\n\n#merge #uncensored",
-    "context_length": 4096,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Llama2",
-      "instruct_type": "airoboros"
-    },
-    "pricing": {
-      "prompt": "0.00000035",
-      "completion": "0.0000004",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "mancer/weaver",
     "name": "Mancer: Weaver (alpha)",
     "created": 1690934400,
@@ -2740,21 +2716,21 @@
     "name": "WizardLM-2 7B",
     "created": 1713225600,
     "description": "WizardLM-2 7B is the smaller variant of Microsoft AI's latest Wizard model. It is the fastest and achieves comparable performance with existing 10x larger opensource leading models\n\nIt is a finetune of [Mistral 7B Instruct](/models/mistralai/mistral-7b-instruct), using the same technique as [WizardLM-2 8x22B](/models/microsoft/wizardlm-2-8x22b).\n\nTo read more about the model release, [click here](https://wizardlm.github.io/WizardLM2/).\n\n#moe",
-    "context_length": 32768,
+    "context_length": 32000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Mistral",
       "instruct_type": "vicuna"
     },
     "pricing": {
-      "prompt": "0.000000055",
-      "completion": "0.000000055",
+      "prompt": "0.00000006",
+      "completion": "0.00000006",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": 4096,
+      "context_length": 32000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2779,6 +2755,30 @@
     "top_provider": {
       "context_length": 65536,
       "max_completion_tokens": 4096,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "minimax/minimax-01",
+    "name": "MiniMax: MiniMax-01",
+    "created": 1736915462,
+    "description": "MiniMax-01 combines MiniMax-Text-01 for text generation and MiniMax-VL-01 for image understanding. It is a language model that can handle a context of up to 4 million tokens. The text model adopts a hybrid architecture that combines Lightning Attention, Softmax Attention, and Mixture-of-Experts (MoE). The image model adopts the “ViT-MLP-LLM” framework and is trained on top of the text model.\n\nTo read more about the release, see: https://www.minimaxi.com/en/news/minimax-01-series-2",
+    "context_length": 1000192,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.0000011",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 1000192,
+      "max_completion_tokens": 1000192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2908,7 +2908,7 @@
     "name": "Mistral: Mistral 7B Instruct v0.1",
     "created": 1695859200,
     "description": "A 7.3B parameter model that outperforms Llama 2 13B on all benchmarks, with optimizations for speed and context length.",
-    "context_length": 4096,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Mistral",
@@ -2921,7 +2921,7 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 4096,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -4924,20 +4924,20 @@
     "name": "Sao10K: Llama 3.3 Euryale 70B",
     "created": 1734535928,
     "description": "Euryale L3.3 70B is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). It is the successor of [Euryale L3 70B v2.2](/models/sao10k/l3-euryale-70b).",
-    "context_length": 16384,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.0000015",
-      "completion": "0.0000015",
+      "prompt": "0.0000007",
+      "completion": "0.0000008",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 16384,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
