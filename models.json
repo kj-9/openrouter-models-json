@@ -1800,30 +1800,6 @@
     "per_request_limits": null
   },
   {
-    "id": "inflatebot/mn-mag-mell-r1",
-    "name": "Inflatebot: Mag Mell R1 12B",
-    "created": 1734535439,
-    "description": "Mag Mell is a merge of pre-trained language models created using mergekit, based on [Mistral Nemo](/mistralai/mistral-nemo). It is a great roleplay and storytelling model which combines the best parts of many other models to be a general purpose solution for many usecases.\n\nIntended to be a general purpose \"Best of Nemo\" model for any fictional, creative use case. \n\nMag Mell is composed of 3 intermediate parts:\n- Hero (RP, trope coverage)\n- Monk (Intelligence, groundedness)\n- Deity (Prose, flair)",
-    "context_length": 16000,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Mistral",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0.0000009",
-      "completion": "0.0000009",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 16000,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "inflection/inflection-3-pi",
     "name": "Inflection: Inflection 3 Pi",
     "created": 1728604800,
@@ -2763,7 +2739,7 @@
     "id": "minimax/minimax-01",
     "name": "MiniMax: MiniMax-01",
     "created": 1736915462,
-    "description": "MiniMax-01 combines MiniMax-Text-01 for text generation and MiniMax-VL-01 for image understanding. It is a language model that can handle a context of up to 4 million tokens. The text model adopts a hybrid architecture that combines Lightning Attention, Softmax Attention, and Mixture-of-Experts (MoE). The image model adopts the “ViT-MLP-LLM” framework and is trained on top of the text model.\n\nTo read more about the release, see: https://www.minimaxi.com/en/news/minimax-01-series-2",
+    "description": "MiniMax-01 is a combines MiniMax-Text-01 for text generation and MiniMax-VL-01 for image understanding. It has 456 billion parameters, with 45.9 billion parameters activated per inference, and can handle a context of up to 4 million tokens.\n\nThe text model adopts a hybrid architecture that combines Lightning Attention, Softmax Attention, and Mixture-of-Experts (MoE). The image model adopts the “ViT-MLP-LLM” framework and is trained on top of the text model.\n\nTo read more about the release, see: https://www.minimaxi.com/en/news/minimax-01-series-2",
     "context_length": 1000192,
     "architecture": {
       "modality": "text+image->text",
