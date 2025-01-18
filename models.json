@@ -2699,8 +2699,8 @@
       "instruct_type": "vicuna"
     },
     "pricing": {
-      "prompt": "0.00000006",
-      "completion": "0.00000006",
+      "prompt": "0.00000007",
+      "completion": "0.00000007",
       "image": "0",
       "request": "0"
     },
