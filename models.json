@@ -1080,6 +1080,30 @@
     "per_request_limits": null
   },
   {
+    "id": "deepseek/deepseek-r1",
+    "name": "DeepSeek R1",
+    "created": 1737381095,
+    "description": "DeepSeek-R1 is here!\n\n⚡ Performance on par with OpenAI-o1\n📖 Fully open-source model & technical report\n🏆 MIT licensed: Distill & commercialize freely!",
+    "context_length": 64000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000055",
+      "completion": "0.00000219",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 64000,
+      "max_completion_tokens": 8000,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "eva-unit-01/eva-llama-3.33-70b",
     "name": "EVA Llama 3.33 70b",
     "created": 1734377303,
