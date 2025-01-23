@@ -1026,7 +1026,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1200,7 +1200,7 @@
     "per_request_limits": null
   },
   {
-    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "id": "google/gemini-2.0-flash-thinking-exp-1219:free",
     "name": "Google: Gemini 2.0 Flash Thinking Experimental (free)",
     "created": 1734650026,
     "description": "Gemini 2.0 Flash Thinking Mode is an experimental model that's trained to generate the \"thinking process\" the model goes through as part of its response. As a result, Thinking Mode is capable of stronger reasoning capabilities in its responses than the [base Gemini 2.0 Flash model](/google/gemini-2.0-flash-exp).",
@@ -1957,6 +1957,30 @@
     "pricing": {
       "prompt": "0.000000198",
       "completion": "0.000000198",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 4096,
+      "max_completion_tokens": 2048,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "meta-llama/llama-2-70b-chat",
+    "name": "Meta: Llama 2 70B Chat",
+    "created": 1687219200,
+    "description": "The flagship, 70 billion parameter language model from Meta, fine tuned for chat completions. Llama 2 is an auto-regressive language model that uses an optimized transformer architecture. The tuned versions use supervised fine-tuning (SFT) and reinforcement learning with human feedback (RLHF) to align to human preferences for helpfulness and safety.",
+    "context_length": 4096,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama2",
+      "instruct_type": "llama2"
+    },
+    "pricing": {
+      "prompt": "0.0000009",
+      "completion": "0.0000009",
       "image": "0",
       "request": "0"
     },
@@ -2922,7 +2946,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3234,7 +3258,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3275,8 +3299,8 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.00000054",
-      "completion": "0.00000054",
+      "prompt": "0.0000005",
+      "completion": "0.0000005",
       "image": "0",
       "request": "0"
     },
@@ -3532,7 +3556,7 @@
     "name": "Nous: Hermes 3 405B Instruct",
     "created": 1723766400,
     "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.\n\nHermes 3 405B is a frontier-level, full-parameter finetune of the Llama-3.1 405B foundation model, focused on aligning LLMs to the user, with powerful steering capabilities and control given to the end user.\n\nThe Hermes 3 series builds and expands on the Hermes 2 set of capabilities, including more powerful and reliable function calling and structured output capabilities, generalist assistant capabilities, and improved code generation skills.\n\nHermes 3 is competitive, if not superior, to Llama-3.1 Instruct models at general capabilities, with varying strengths and weaknesses attributable between the two.",
-    "context_length": 131072,
+    "context_length": 131000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
@@ -3545,8 +3569,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 4096,
+      "context_length": 131000,
+      "max_completion_tokens": 131000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3594,7 +3618,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4321,7 +4345,7 @@
   },
   {
     "id": "openrouter/auto",
-    "name": "Auto Router (best for prompt)",
+    "name": "Auto Router",
     "created": 1699401600,
     "description": "Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.\n\nTo see which model was used, visit [Activity](/activity), or read the `model` attribute of the response. Your response will be priced at the same rate as the routed model.\n\nThe meta-model is powered by [Not Diamond](https://docs.notdiamond.ai/docs/how-not-diamond-works). Learn more in our [docs](/docs/model-routing).\n\nRequests will be routed to the following models:\n- [openai/gpt-4o-2024-08-06](/openai/gpt-4o-2024-08-06)\n- [openai/gpt-4o-2024-05-13](/openai/gpt-4o-2024-05-13)\n- [openai/gpt-4o-mini-2024-07-18](/openai/gpt-4o-mini-2024-07-18)\n- [openai/chatgpt-4o-latest](/openai/chatgpt-4o-latest)\n- [openai/o1-preview-2024-09-12](/openai/o1-preview-2024-09-12)\n- [openai/o1-mini-2024-09-12](/openai/o1-mini-2024-09-12)\n- [anthropic/claude-3.5-sonnet](/anthropic/claude-3.5-sonnet)\n- [anthropic/claude-3.5-haiku](/anthropic/claude-3.5-haiku)\n- [anthropic/claude-3-opus](/anthropic/claude-3-opus)\n- [anthropic/claude-2.1](/anthropic/claude-2.1)\n- [google/gemini-pro-1.5](/google/gemini-pro-1.5)\n- [google/gemini-flash-1.5](/google/gemini-flash-1.5)\n- [mistralai/mistral-large-2407](/mistralai/mistral-large-2407)\n- [mistralai/mistral-nemo](/mistralai/mistral-nemo)\n- [meta-llama/llama-3.1-70b-instruct](/meta-llama/llama-3.1-70b-instruct)\n- [meta-llama/llama-3.1-405b-instruct](/meta-llama/llama-3.1-405b-instruct)\n- [mistralai/mixtral-8x22b-instruct](/mistralai/mixtral-8x22b-instruct)\n- [cohere/command-r-plus](/cohere/command-r-plus)\n- [cohere/command-r](/cohere/command-r)",
     "context_length": 2000000,
@@ -4957,6 +4981,30 @@
     "pricing": {
       "prompt": "0.0000008",
       "completion": "0.0000008",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 4096,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "sophosympatheia/rogue-rose-103b-v0.2:free",
+    "name": "Rogue Rose 103B v0.2 (free)",
+    "created": 1737195189,
+    "description": "Rogue Rose demonstrates strong capabilities in roleplaying and storytelling applications, potentially surpassing other models in the 103-120B parameter range. While it occasionally exhibits inconsistencies with scene logic, the overall interaction quality represents an advancement in natural language processing for creative applications.\n\nIt is a 120-layer frankenmerge model combining two custom 70B architectures from November 2023, derived from the [xwin-stellarbright-erp-70b-v2](https://huggingface.co/sophosympatheia/xwin-stellarbright-erp-70b-v2) base.\n",
+    "context_length": 4096,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama2",
+      "instruct_type": "vicuna"
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
       "image": "0",
       "request": "0"
     },
