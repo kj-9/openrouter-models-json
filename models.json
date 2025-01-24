@@ -1033,9 +1033,9 @@
   },
   {
     "id": "deepseek/deepseek-chat",
-    "name": "DeepSeek V3",
+    "name": "DeepSeek: DeepSeek V3",
     "created": 1735241320,
-    "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations reveal that the model outperforms other open-source models and rivals leading closed-source models. For model details, please visit [the DeepSeek-V3 repo](https://github.com/deepseek-ai/DeepSeek-V3) for more information.",
+    "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations reveal that the model outperforms other open-source models and rivals leading closed-source models.\n\nFor model details, please visit [the DeepSeek-V3 repo](https://github.com/deepseek-ai/DeepSeek-V3) for more information, or see the [launch announcement](https://api-docs.deepseek.com/news/news1226).",
     "context_length": 64000,
     "architecture": {
       "modality": "text->text",
@@ -1081,9 +1081,9 @@
   },
   {
     "id": "deepseek/deepseek-r1",
-    "name": "DeepSeek R1",
+    "name": "DeepSeek: DeepSeek R1",
     "created": 1737381095,
-    "description": "DeepSeek-R1 is here!\n\n⚡ Performance on par with OpenAI-o1\n📖 Fully open-source model & technical report\n🏆 MIT licensed: Distill & commercialize freely!",
+    "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens\n\n📖 Fully open-source model & [technical report](https://api-docs.deepseek.com/news/news250120).\n🏆 MIT licensed: Distill & commercialize freely!",
     "context_length": 64000,
     "architecture": {
       "modality": "text->text",
@@ -1099,6 +1099,30 @@
     "top_provider": {
       "context_length": 64000,
       "max_completion_tokens": 8000,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "deepseek/deepseek-r1-distill-llama-70b",
+    "name": "DeepSeek: DeepSeek R1 Distill Llama 70B",
+    "created": 1737663169,
+    "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](https://openrouter.ai/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](https://openrouter.ai/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across multiple benchmarks, including:\n\n- AIME 2024 pass@1: 70.0\n- MATH-500 pass@1: 94.5\n- CodeForces Rating: 1633\n\nThe model leverages fine-tuning from DeepSeek R1's outputs, enabling competitive performance comparable to larger frontier models.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama3",
+      "instruct_type": "llama3"
+    },
+    "pricing": {
+      "prompt": "0.00000023",
+      "completion": "0.00000069",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1219,6 +1243,30 @@
     "top_provider": {
       "context_length": 40000,
       "max_completion_tokens": 8000,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "name": "Google: Gemini 2.0 Flash Thinking Experimental 01-21 (free)",
+    "created": 1737547899,
+    "description": "Gemini 2.0 Flash Thinking Experimental (01-21) is a snapshot of Gemini 2.0 Flash Thinking Experimental.\n\nGemini 2.0 Flash Thinking Mode is an experimental model that's trained to generate the \"thinking process\" the model goes through as part of its response. As a result, Thinking Mode is capable of stronger reasoning capabilities in its responses than the [base Gemini 2.0 Flash model](/google/gemini-2.0-flash-exp).",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2947,30 +2995,6 @@
     "top_provider": {
       "context_length": 32768,
       "max_completion_tokens": 2048,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "mistralai/mistral-7b-instruct-v0.2",
-    "name": "Mistral: Mistral 7B Instruct v0.2",
-    "created": 1703721600,
-    "description": "A high-performing, industry-standard 7.3B parameter model, with optimizations for speed and context length.\n\nAn improved version of [Mistral 7B Instruct](/modelsmistralai/mistral-7b-instruct-v0.1), with the following changes:\n\n- 32k context window (vs 8k context in v0.1)\n- Rope-theta = 1e6\n- No Sliding-Window Attention",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Mistral",
-      "instruct_type": "mistral"
-    },
-    "pricing": {
-      "prompt": "0.00000018",
-      "completion": "0.00000018",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
