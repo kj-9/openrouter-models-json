@@ -1083,7 +1083,7 @@
     "id": "deepseek/deepseek-r1",
     "name": "DeepSeek: DeepSeek R1",
     "created": 1737381095,
-    "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens\n\n📖 Fully open-source model & [technical report](https://api-docs.deepseek.com/news/news250120).\n🏆 MIT licensed: Distill & commercialize freely!",
+    "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model & [technical report](https://api-docs.deepseek.com/news/news250120).\n\nMIT licensed: Distill & commercialize freely!",
     "context_length": 64000,
     "architecture": {
       "modality": "text->text",
@@ -1107,7 +1107,7 @@
     "id": "deepseek/deepseek-r1-distill-llama-70b",
     "name": "DeepSeek: DeepSeek R1 Distill Llama 70B",
     "created": 1737663169,
-    "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](https://openrouter.ai/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](https://openrouter.ai/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across multiple benchmarks, including:\n\n- AIME 2024 pass@1: 70.0\n- MATH-500 pass@1: 94.5\n- CodeForces Rating: 1633\n\nThe model leverages fine-tuning from DeepSeek R1's outputs, enabling competitive performance comparable to larger frontier models.",
+    "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across multiple benchmarks, including:\n\n- AIME 2024 pass@1: 70.0\n- MATH-500 pass@1: 94.5\n- CodeForces Rating: 1633\n\nThe model leverages fine-tuning from DeepSeek R1's outputs, enabling competitive performance comparable to larger frontier models.",
     "context_length": 131072,
     "architecture": {
       "modality": "text->text",
@@ -4386,78 +4386,6 @@
     },
     "top_provider": {
       "context_length": null,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "perplexity/llama-3-sonar-large-32k-chat",
-    "name": "Perplexity: Llama3 Sonar 70B",
-    "created": 1715644800,
-    "description": "Llama3 Sonar is Perplexity's latest model family. It surpasses their earlier Sonar models in cost-efficiency, speed, and performance.\n\nThis is a normal offline LLM, but the [online version](/models/perplexity/llama-3-sonar-large-32k-online) of this model has Internet access.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Llama3",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000001",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "perplexity/llama-3-sonar-large-32k-online",
-    "name": "Perplexity: Llama3 Sonar 70B Online",
-    "created": 1715644800,
-    "description": "Llama3 Sonar is Perplexity's latest model family. It surpasses their earlier Sonar models in cost-efficiency, speed, and performance.\n\nThis is the online version of the [offline chat model](/models/perplexity/llama-3-sonar-large-32k-chat). It is focused on delivering helpful, up-to-date, and factual responses. #online",
-    "context_length": 28000,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Llama3",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000001",
-      "image": "0",
-      "request": "0.005"
-    },
-    "top_provider": {
-      "context_length": 28000,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "perplexity/llama-3-sonar-small-32k-chat",
-    "name": "Perplexity: Llama3 Sonar 8B",
-    "created": 1715644800,
-    "description": "Llama3 Sonar is Perplexity's latest model family. It surpasses their earlier Sonar models in cost-efficiency, speed, and performance.\n\nThis is a normal offline LLM, but the [online version](/models/perplexity/llama-3-sonar-small-32k-online) of this model has Internet access.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Llama3",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000002",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
