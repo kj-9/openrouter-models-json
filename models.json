@@ -1944,15 +1944,39 @@
     "per_request_limits": null
   },
   {
+    "id": "liquid/lfm-3b",
+    "name": "Liquid: LFM 3B",
+    "created": 1737806501,
+    "description": "Liquid's LFM 3B delivers incredible performance for its size. It positions itself as first place among 3B parameter transformers, hybrids, and RNN models It is also on par with Phi-3.5-mini on multiple benchmarks, while being 18.4% smaller.\n\nLFM-3B is the ideal choice for mobile and other edge text-based applications.\n\nSee the [launch announcement](https://www.liquid.ai/liquid-foundation-models) for benchmarks and more info.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": "chatml"
+    },
+    "pricing": {
+      "prompt": "0.00000002",
+      "completion": "0.00000002",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "liquid/lfm-40b",
     "name": "Liquid: LFM 40B MoE",
     "created": 1727654400,
     "description": "Liquid's 40.3B Mixture of Experts (MoE) model. Liquid Foundation Models (LFMs) are large neural networks built with computational units rooted in dynamic systems.\n\nLFMs are general-purpose AI models that can be used to model any kind of sequential data, including video, audio, text, time series, and signals.\n\nSee the [launch announcement](https://www.liquid.ai/liquid-foundation-models) for benchmarks and more info.",
-    "context_length": 66000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Other",
-      "instruct_type": "vicuna"
+      "instruct_type": "chatml"
     },
     "pricing": {
       "prompt": "0.00000015",
@@ -1961,8 +1985,32 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 66000,
-      "max_completion_tokens": 66000,
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "liquid/lfm-7b",
+    "name": "Liquid: LFM 7B",
+    "created": 1737806883,
+    "description": "LFM-7B, a new best-in-class language model. LFM-7B is designed for exceptional chat capabilities, including languages like Arabic and Japanese. Powered by the Liquid Foundation Model (LFM) architecture, it exhibits unique features like low memory footprint and fast inference speed. \n\nLFM-7B is the world’s best-in-class multilingual language model in English, Arabic, and Japanese.\n\nSee the [launch announcement](https://www.liquid.ai/lfm-7b) for benchmarks and more info.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": "chatml"
+    },
+    "pricing": {
+      "prompt": "0.00000001",
+      "completion": "0.00000001",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
