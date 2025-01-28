@@ -1084,21 +1084,21 @@
     "name": "DeepSeek: DeepSeek R1",
     "created": 1737381095,
     "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model & [technical report](https://api-docs.deepseek.com/news/news250120).\n\nMIT licensed: Distill & commercialize freely!",
-    "context_length": 64000,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Other",
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000055",
-      "completion": "0.00000219",
+      "prompt": "0.000007",
+      "completion": "0.000007",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 64000,
-      "max_completion_tokens": 8000,
+      "context_length": 163840,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1122,6 +1122,30 @@
     },
     "top_provider": {
       "context_length": 131072,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "deepseek/deepseek-r1:nitro",
+    "name": "DeepSeek: DeepSeek R1 (nitro)",
+    "created": 1737381095,
+    "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model & [technical report](https://api-docs.deepseek.com/news/news250120).\n\nMIT licensed: Distill & commercialize freely!",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000008",
+      "completion": "0.000008",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
       "max_completion_tokens": null,
       "is_moderated": false
     },
