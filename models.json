@@ -1560,6 +1560,30 @@
     "per_request_limits": null
   },
   {
+    "id": "google/gemini-flash-1.5-exp:free",
+    "name": "Google: Gemini Flash 1.5 Experimental (free)",
+    "created": 1724803200,
+    "description": "Gemini 1.5 Flash Experimental is an experimental version of the [Gemini 1.5 Flash](/models/google/gemini-flash-1.5) model.\n\nUsage of Gemini is subject to Google's [Gemini Terms of Use](https://ai.google.dev/terms).\n\n#multimodal\n\nNote: This model is experimental and not suited for production use-cases. It may be removed or redirected to another model in the future.",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 8192,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "google/gemini-pro",
     "name": "Google: Gemini Pro 1.0",
     "created": 1702425600,
@@ -2587,6 +2611,30 @@
     "top_provider": {
       "context_length": 8192,
       "max_completion_tokens": 4096,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "meta-llama/llama-3.1-8b-instruct:nitro",
+    "name": "Meta: Llama 3.1 8B Instruct (nitro)",
+    "created": 1721692800,
+    "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama3",
+      "instruct_type": "llama3"
+    },
+    "pricing": {
+      "prompt": "0.00000018",
+      "completion": "0.00000018",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5088,7 +5136,7 @@
     "per_request_limits": null
   },
   {
-    "id": "qwen/qwen-turbo-2024-11-01",
+    "id": "qwen/qwen-turbo",
     "name": "Qwen: Qwen-Turbo",
     "created": 1738410974,
     "description": "Qwen-Turbo, based on Qwen2.5, is a 1M context model that provides fast speed and low cost, suitable for simple tasks.",
