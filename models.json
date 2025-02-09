@@ -192,6 +192,30 @@
     "per_request_limits": null
   },
   {
+    "id": "allenai/llama-3.1-tulu-3-405b",
+    "name": "Llama 3.1 Tulu 3 405b",
+    "created": 1739053421,
+    "description": "Tülu 3 405B is the largest model in the Tülu 3 family, applying fully open post-training recipes at a 405B parameter scale. Built on the Llama 3.1 405B base, it leverages Reinforcement Learning with Verifiable Rewards (RLVR) to enhance instruction following, MATH, GSM8K, and IFEval performance. As part of Tülu 3’s fully open-source approach, it offers state-of-the-art capabilities while surpassing prior open-weight models like Llama 3.1 405B Instruct and Nous Hermes 3 405B on multiple benchmarks. To read more, [click here.](https://allenai.org/blog/tulu-3-405B)",
+    "context_length": 16000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000005",
+      "completion": "0.00001",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 16000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "alpindale/goliath-120b",
     "name": "Goliath 120B",
     "created": 1699574400,
@@ -2400,30 +2424,6 @@
     "per_request_limits": null
   },
   {
-    "id": "meta-llama/llama-3.1-405b-instruct:free",
-    "name": "Meta: Llama 3.1 405B Instruct (free)",
-    "created": 1721692800,
-    "description": "The highly anticipated 400B class of Llama3 is here! Clocking in at 128k context with impressive eval scores, the Meta AI team continues to push the frontier of open-source LLMs.\n\nMeta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 405B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models including GPT-4o and Claude 3.5 Sonnet in evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 8000,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 8000,
-      "max_completion_tokens": 4000,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "meta-llama/llama-3.1-70b-instruct",
     "name": "Meta: Llama 3.1 70B Instruct",
     "created": 1721692800,
@@ -2448,30 +2448,6 @@
     "per_request_limits": null
   },
   {
-    "id": "meta-llama/llama-3.1-70b-instruct:free",
-    "name": "Meta: Llama 3.1 70B Instruct (free)",
-    "created": 1721692800,
-    "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 70B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "meta-llama/llama-3.1-8b-instruct",
     "name": "Meta: Llama 3.1 8B Instruct",
     "created": 1721692800,
@@ -2490,30 +2466,6 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "meta-llama/llama-3.1-8b-instruct:free",
-    "name": "Meta: Llama 3.1 8B Instruct (free)",
-    "created": 1721692800,
-    "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
@@ -2592,30 +2544,6 @@
     "per_request_limits": null
   },
   {
-    "id": "meta-llama/llama-3.2-1b-instruct:free",
-    "name": "Meta: Llama 3.2 1B Instruct (free)",
-    "created": 1727222400,
-    "description": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate efficiently in low-resource environments while maintaining strong task performance.\n\nSupporting eight core languages and fine-tunable for more, Llama 1.3B is ideal for businesses or developers seeking lightweight yet powerful AI solutions that can operate in diverse multilingual settings without the high computational demand of larger models.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
-    "context_length": 4096,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 2048,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "meta-llama/llama-3.2-3b-instruct",
     "name": "Meta: Llama 3.2 3B Instruct",
     "created": 1727222400,
@@ -2640,58 +2568,10 @@
     "per_request_limits": null
   },
   {
-    "id": "meta-llama/llama-3.2-3b-instruct:free",
-    "name": "Meta: Llama 3.2 3B Instruct (free)",
-    "created": 1727222400,
-    "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it supports eight languages, including English, Spanish, and Hindi, and is adaptable for additional languages.\n\nTrained on 9 trillion tokens, the Llama 3.2 3B model excels in instruction-following, complex reasoning, and tool use. Its balanced performance makes it ideal for applications needing accuracy and efficiency in text generation across multilingual settings.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
-    "context_length": 4096,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 2048,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "meta-llama/llama-3.2-90b-vision-instruct",
     "name": "Meta: Llama 3.2 90B Vision Instruct",
     "created": 1727222400,
     "description": "The Llama 90B Vision model is a top-tier, 90-billion-parameter multimodal model designed for the most challenging visual reasoning and language tasks. It offers unparalleled accuracy in image captioning, visual question answering, and advanced image-text comprehension. Pre-trained on vast multimodal datasets and fine-tuned with human feedback, the Llama 90B Vision is engineered to handle the most demanding image-based AI tasks.\n\nThis model is perfect for industries requiring cutting-edge multimodal AI capabilities, particularly those dealing with complex, real-time visual and textual analysis.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text+image->text",
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0.0000009",
-      "completion": "0.0000009",
-      "image": "0.001301",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "meta-llama/llama-3.2-90b-vision-instruct:free",
-    "name": "Meta: Llama 3.2 90B Vision Instruct (free)",
-    "created": 1727222400,
-    "description": "The Llama 90B Vision model is a top-tier, 90-billion-parameter multimodal model designed for the most challenging visual reasoning and language tasks. It offers unparalleled accuracy in image captioning, visual question answering, and advanced image-text comprehension. Pre-trained on vast multimodal datasets and fine-tuned with human feedback, the Llama 90B Vision is engineered to handle the most demanding image-based AI tasks.\n\nThis model is perfect for industries requiring cutting-edge multimodal AI capabilities, particularly those dealing with complex, real-time visual and textual analysis.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
     "context_length": 4096,
     "architecture": {
       "modality": "text+image->text",
@@ -2699,9 +2579,9 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "image": "0",
+      "prompt": "0.0000008",
+      "completion": "0.0000016",
+      "image": "0.00128",
       "request": "0"
     },
     "top_provider": {
