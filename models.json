@@ -131,8 +131,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000008",
-      "completion": "0.000024",
+      "prompt": "0.000004",
+      "completion": "0.000012",
       "image": "0",
       "request": "0"
     },
@@ -1204,20 +1204,20 @@
     "name": "DeepSeek: R1",
     "created": 1737381095,
     "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model & [technical report](https://api-docs.deepseek.com/news/news250120).\n\nMIT licensed: Distill & commercialize freely!",
-    "context_length": 163840,
+    "context_length": 128000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "DeepSeek",
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000003",
-      "completion": "0.000008",
+      "prompt": "0.0000008",
+      "completion": "0.0000024",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 163840,
+      "context_length": 128000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
