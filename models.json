@@ -1132,7 +1132,7 @@
     "name": "DeepSeek: DeepSeek V3",
     "created": 1735241320,
     "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations reveal that the model outperforms other open-source models and rivals leading closed-source models.\n\nFor model details, please visit [the DeepSeek-V3 repo](https://github.com/deepseek-ai/DeepSeek-V3) for more information, or see the [launch announcement](https://api-docs.deepseek.com/news/news1226).",
-    "context_length": 32768,
+    "context_length": 65536,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "DeepSeek",
@@ -1145,7 +1145,7 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 32768,
+      "context_length": 65536,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -1180,7 +1180,7 @@
     "name": "DeepSeek: DeepSeek V3 (free)",
     "created": 1735241320,
     "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations reveal that the model outperforms other open-source models and rivals leading closed-source models.\n\nFor model details, please visit [the DeepSeek-V3 repo](https://github.com/deepseek-ai/DeepSeek-V3) for more information, or see the [launch announcement](https://api-docs.deepseek.com/news/news1226).",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "DeepSeek",
@@ -1193,7 +1193,7 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -1252,7 +1252,7 @@
     "name": "DeepSeek: R1 Distill Llama 70B (free)",
     "created": 1737663169,
     "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across multiple benchmarks, including:\n\n- AIME 2024 pass@1: 70.0\n- MATH-500 pass@1: 94.5\n- CodeForces Rating: 1633\n\nThe model leverages fine-tuning from DeepSeek R1's outputs, enabling competitive performance comparable to larger frontier models.",
-    "context_length": 8192,
+    "context_length": 128000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
@@ -1265,8 +1265,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 32768,
+      "context_length": 128000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1362,7 +1362,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 8000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2634,7 +2634,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 2048,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2658,6 +2658,30 @@
     },
     "top_provider": {
       "context_length": 8192,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "meta-llama/llama-guard-3-8b",
+    "name": "Llama Guard 3 8b",
+    "created": 1739401318,
+    "description": "Llama Guard 3 is a Llama-3.1-8B pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM inputs (prompt classification) and in LLM responses (response classification). It acts as an LLM – it generates text in its output that indicates whether a given prompt or response is safe or unsafe, and if unsafe, it also lists the content categories violated.\n\nLlama Guard 3 was aligned to safeguard against the MLCommons standardized hazards taxonomy and designed to support Llama 3.1 capabilities. Specifically, it provides content moderation in 8 languages, and was optimized to support safety and security for search and code interpreter tool calls.\n",
+    "context_length": 16384,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama3",
+      "instruct_type": "none"
+    },
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000003",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 16384,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -4395,7 +4419,31 @@
     "id": "openai/o3-mini",
     "name": "OpenAI: o3 Mini",
     "created": 1738351721,
-    "description": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding. The model features three adjustable reasoning effort levels and supports key developer capabilities including function calling, structured outputs, and streaming, though it does not include vision processing capabilities.\n\nThe model demonstrates significant improvements over its predecessor, with expert testers preferring its responses 56% of the time and noting a 39% reduction in major errors on complex questions. With medium reasoning effort settings, o3-mini matches the performance of the larger o1 model on challenging reasoning evaluations like AIME and GPQA, while maintaining lower latency and cost.",
+    "description": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding.\n\nThis model supports the `reasoning_effort` parameter, which can be set to \"high\", \"medium\", or \"low\" to control the thinking time of the model. The default is \"medium\". OpenRouter also offers the model slug `openai/o3-mini-high` to default the parameter to \"high\".\n\nThe model features three adjustable reasoning effort levels and supports key developer capabilities including function calling, structured outputs, and streaming, though it does not include vision processing capabilities.\n\nThe model demonstrates significant improvements over its predecessor, with expert testers preferring its responses 56% of the time and noting a 39% reduction in major errors on complex questions. With medium reasoning effort settings, o3-mini matches the performance of the larger o1 model on challenging reasoning evaluations like AIME and GPQA, while maintaining lower latency and cost.",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000011",
+      "completion": "0.0000044",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 100000,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "openai/o3-mini-high",
+    "name": "OpenAI: o3 Mini High",
+    "created": 1739372611,
+    "description": "OpenAI o3-mini-high is the same model as [o3-mini](/openai/o3-mini) with reasoning_effort set to high. \n\no3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding. The model features three adjustable reasoning effort levels and supports key developer capabilities including function calling, structured outputs, and streaming, though it does not include vision processing capabilities.\n\nThe model demonstrates significant improvements over its predecessor, with expert testers preferring its responses 56% of the time and noting a 39% reduction in major errors on complex questions. With medium reasoning effort settings, o3-mini matches the performance of the larger o1 model on challenging reasoning evaluations like AIME and GPQA, while maintaining lower latency and cost.",
     "context_length": 200000,
     "architecture": {
       "modality": "text->text",
