@@ -155,8 +155,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000016",
+      "prompt": "0.0000007",
+      "completion": "0.0000014",
       "image": "0",
       "request": "0"
     },
