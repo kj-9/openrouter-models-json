@@ -193,7 +193,7 @@
   },
   {
     "id": "allenai/llama-3.1-tulu-3-405b",
-    "name": "Llama 3.1 Tulu 3 405b",
+    "name": "Llama 3.1 Tulu 3 405B",
     "created": 1739053421,
     "description": "Tülu 3 405B is the largest model in the Tülu 3 family, applying fully open post-training recipes at a 405B parameter scale. Built on the Llama 3.1 405B base, it leverages Reinforcement Learning with Verifiable Rewards (RLVR) to enhance instruction following, MATH, GSM8K, and IFEval performance. As part of Tülu 3’s fully open-source approach, it offers state-of-the-art capabilities while surpassing prior open-weight models like Llama 3.1 405B Instruct and Nous Hermes 3 405B on multiple benchmarks. To read more, [click here.](https://allenai.org/blog/tulu-3-405B)",
     "context_length": 16000,
@@ -787,7 +787,7 @@
     "top_provider": {
       "context_length": 200000,
       "max_completion_tokens": 8192,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null
   },
@@ -889,7 +889,7 @@
   },
   {
     "id": "cognitivecomputations/dolphin3.0-mistral-24b:free",
-    "name": "Dolphin3.0 Mistral 24b (free)",
+    "name": "Dolphin3.0 Mistral 24B (free)",
     "created": 1739462019,
     "description": "Dolphin 3.0 is the next generation of the Dolphin series of instruct-tuned models.  Designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.\n\nDolphin aims to be a general purpose instruct model, similar to the models behind ChatGPT, Claude, Gemini. \n\nPart of the [Dolphin 3.0 Collection](https://huggingface.co/collections/cognitivecomputations/dolphin-30-677ab47f73d7ff66743979a3) Curated and trained by [Eric Hartford](https://huggingface.co/ehartford), [Ben Gitter](https://huggingface.co/bigstorm), [BlouseJury](https://huggingface.co/BlouseJury) and [Cognitive Computations](https://huggingface.co/cognitivecomputations)",
     "context_length": 32768,
@@ -913,7 +913,7 @@
   },
   {
     "id": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
-    "name": "Dolphin3.0 R1 Mistral 24b (free)",
+    "name": "Dolphin3.0 R1 Mistral 24B (free)",
     "created": 1739462498,
     "description": "Dolphin 3.0 R1 is the next generation of the Dolphin series of instruct-tuned models.  Designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.\n\nThe R1 version has been trained for 3 epochs to reason using 800k reasoning traces from the Dolphin-R1 dataset.\n\nDolphin aims to be a general purpose reasoning instruct model, similar to the models behind ChatGPT, Claude, Gemini.\n\nPart of the [Dolphin 3.0 Collection](https://huggingface.co/collections/cognitivecomputations/dolphin-30-677ab47f73d7ff66743979a3) Curated and trained by [Eric Hartford](https://huggingface.co/ehartford), [Ben Gitter](https://huggingface.co/bigstorm), [BlouseJury](https://huggingface.co/BlouseJury) and [Cognitive Computations](https://huggingface.co/cognitivecomputations)",
     "context_length": 32768,
@@ -1393,7 +1393,7 @@
   },
   {
     "id": "eva-unit-01/eva-llama-3.33-70b",
-    "name": "EVA Llama 3.33 70b",
+    "name": "EVA Llama 3.33 70B",
     "created": 1734377303,
     "description": "EVA Llama 3.33 70b is a roleplay and storywriting specialist model. It is a full-parameter finetune of [Llama-3.3-70B-Instruct](https://openrouter.ai/meta-llama/llama-3.3-70b-instruct) on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model\n\nThis model was built with Llama by Meta.\n",
     "context_length": 16384,
@@ -2641,7 +2641,7 @@
   },
   {
     "id": "meta-llama/llama-guard-3-8b",
-    "name": "Llama Guard 3 8b",
+    "name": "Llama Guard 3 8B",
     "created": 1739401318,
     "description": "Llama Guard 3 is a Llama-3.1-8B pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM inputs (prompt classification) and in LLM responses (response classification). It acts as an LLM – it generates text in its output that indicates whether a given prompt or response is safe or unsafe, and if unsafe, it also lists the content categories violated.\n\nLlama Guard 3 was aligned to safeguard against the MLCommons standardized hazards taxonomy and designed to support Llama 3.1 capabilities. Specifically, it provides content moderation in 8 languages, and was optimized to support safety and security for search and code interpreter tool calls.\n",
     "context_length": 16384,
