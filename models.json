@@ -787,7 +787,7 @@
     "top_provider": {
       "context_length": 200000,
       "max_completion_tokens": 8192,
-      "is_moderated": false
+      "is_moderated": true
     },
     "per_request_limits": null
   },
@@ -859,6 +859,30 @@
     "top_provider": {
       "context_length": 200000,
       "max_completion_tokens": 8192,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "cognitivecomputations/dolphin-mixtral-8x22b",
+    "name": "Dolphin 2.9.2 Mixtral 8x22B 🐬",
+    "created": 1717804800,
+    "description": "Dolphin 2.9 is designed for instruction following, conversational, and coding. This model is a finetune of [Mixtral 8x22B Instruct](/models/mistralai/mixtral-8x22b-instruct). It features a 64k context length and was fine-tuned with a 16k sequence length using ChatML templates.\n\nThis model is a successor to [Dolphin Mixtral 8x7B](/models/cognitivecomputations/dolphin-mixtral-8x7b).\n\nThe model is uncensored and is stripped of alignment and bias. It requires an external alignment layer for ethical use. Users are cautioned to use this highly compliant model responsibly, as detailed in a blog post about uncensored models at [erichartford.com/uncensored-models](https://erichartford.com/uncensored-models).\n\n#moe #uncensored",
+    "context_length": 16000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Mistral",
+      "instruct_type": "chatml"
+    },
+    "pricing": {
+      "prompt": "0.0000009",
+      "completion": "0.0000009",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 16000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1156,21 +1180,21 @@
     "name": "DeepSeek: DeepSeek V3",
     "created": 1735241320,
     "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations reveal that the model outperforms other open-source models and rivals leading closed-source models.\n\nFor model details, please visit [the DeepSeek-V3 repo](https://github.com/deepseek-ai/DeepSeek-V3) for more information, or see the [launch announcement](https://api-docs.deepseek.com/news/news1226).",
-    "context_length": 65536,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "DeepSeek",
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000049",
-      "completion": "0.00000089",
+      "prompt": "0.0000009",
+      "completion": "0.0000009",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 65536,
-      "max_completion_tokens": 8192,
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1291,6 +1315,30 @@
     "top_provider": {
       "context_length": 128000,
       "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "deepseek/deepseek-r1-distill-llama-8b",
+    "name": "DeepSeek: R1 Distill Llama 8B",
+    "created": 1738937718,
+    "description": "DeepSeek R1 Distill Llama 8B is a distilled large language model based on [Llama-3.1-8B-Instruct](/meta-llama/llama-3.1-8b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across multiple benchmarks, including:\n\n- AIME 2024 pass@1: 50.4\n- MATH-500 pass@1: 89.1\n- CodeForces Rating: 1205\n\nThe model leverages fine-tuning from DeepSeek R1's outputs, enabling competitive performance comparable to larger frontier models.\n\nHugging Face: \n- [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) \n- [DeepSeek-R1-Distill-Llama-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B)   |",
+    "context_length": 32000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000004",
+      "completion": "0.00000004",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32000,
+      "max_completion_tokens": 32000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2136,6 +2184,30 @@
     "per_request_limits": null
   },
   {
+    "id": "jondurbin/airoboros-l2-70b",
+    "name": "Airoboros 70B",
+    "created": 1698537600,
+    "description": "A Llama 2 70B fine-tune using synthetic data (the Airoboros dataset).\n\nCurrently based on [jondurbin/airoboros-l2-70b](https://huggingface.co/jondurbin/airoboros-l2-70b-2.2.1), but might get updated in the future.",
+    "context_length": 4000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama2",
+      "instruct_type": "airoboros"
+    },
+    "pricing": {
+      "prompt": "0.0000005",
+      "completion": "0.0000005",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 4000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "liquid/lfm-3b",
     "name": "Liquid: LFM 3B",
     "created": 1737806501,
@@ -2557,7 +2629,7 @@
     "pricing": {
       "prompt": "0.0000008",
       "completion": "0.0000016",
-      "image": "0.00128",
+      "image": "0.0051456",
       "request": "0"
     },
     "top_provider": {
@@ -4656,6 +4728,30 @@
     "per_request_limits": null
   },
   {
+    "id": "perplexity/r1-1776",
+    "name": "Perplexity: R1 1776",
+    "created": 1740004929,
+    "description": "Note: As this model does not return <think> tags, thoughts will be streamed by default directly to the `content` field.\n\nR1 1776 is a version of DeepSeek-R1 that has been post-trained to remove censorship constraints related to topics restricted by the Chinese government. The model retains its original reasoning capabilities while providing direct responses to a wider range of queries. R1 1776 is an offline chat model that does not use the perplexity search subsystem.\n\nThe model was tested on a multilingual dataset of over 1,000 examples covering sensitive topics to measure its likelihood of refusal or overly filtered responses. [Evaluation Results](https://cdn-uploads.huggingface.co/production/uploads/675c8332d01f593dc90817f5/GiN2VqC5hawUgAGJ6oHla.png) Its performance on math and reasoning benchmarks remains similar to the base R1 model. [Reasoning Performance](https://cdn-uploads.huggingface.co/production/uploads/675c8332d01f593dc90817f5/n4Z9Byqp2S7sKUvCvI40R.png)\n\nRead more on the [Blog Post](https://perplexity.ai/hub/blog/open-sourcing-r1-1776)",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "DeepSeek",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000008",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "perplexity/sonar",
     "name": "Perplexity: Sonar",
     "created": 1738013808,
@@ -5208,6 +5304,30 @@
     "per_request_limits": null
   },
   {
+    "id": "sophosympatheia/midnight-rose-70b",
+    "name": "Midnight Rose 70B",
+    "created": 1711065600,
+    "description": "A merge with a complex family tree, this model was crafted for roleplaying and storytelling. Midnight Rose is a successor to Rogue Rose and Aurora Nights and improves upon them both. It wants to produce lengthy output by default and is the best creative writing merge produced so far by sophosympatheia.\n\nDescending from earlier versions of Midnight Rose and [Wizard Tulu Dolphin 70B](https://huggingface.co/sophosympatheia/Wizard-Tulu-Dolphin-70B-v1.0), it inherits the best qualities of each.",
+    "context_length": 4096,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama2",
+      "instruct_type": "airoboros"
+    },
+    "pricing": {
+      "prompt": "0.0000008",
+      "completion": "0.0000008",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 4096,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "sophosympatheia/rogue-rose-103b-v0.2:free",
     "name": "Rogue Rose 103B v0.2 (free)",
     "created": 1737195189,
@@ -5227,6 +5347,30 @@
     "top_provider": {
       "context_length": 4096,
       "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "teknium/openhermes-2.5-mistral-7b",
+    "name": "OpenHermes 2.5 Mistral 7B",
+    "created": 1700438400,
+    "description": "A continuation of [OpenHermes 2 model](/models/teknium/openhermes-2-mistral-7b), trained on additional code datasets.\nPotentially the most interesting finding from training on a good ratio (est. of around 7-14% of the total dataset) of code instruction was that it has boosted several non-code benchmarks, including TruthfulQA, AGIEval, and GPT4All suite. It did however reduce BigBench benchmark score, but the net gain overall is significant.",
+    "context_length": 4096,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Mistral",
+      "instruct_type": "chatml"
+    },
+    "pricing": {
+      "prompt": "0.00000017",
+      "completion": "0.00000017",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 4096,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5257,7 +5401,7 @@
   },
   {
     "id": "thedrummer/unslopnemo-12b",
-    "name": "Unslopnemo 12b",
+    "name": "Unslopnemo 12B",
     "created": 1731103448,
     "description": "UnslopNemo v4.1 is the latest addition from the creator of Rocinante, designed for adventure writing and role-play scenarios.",
     "context_length": 32000,
