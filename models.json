@@ -912,6 +912,30 @@
     "per_request_limits": null
   },
   {
+    "id": "anthropic/claude-3.7-sonnet:thinking",
+    "name": "Anthropic: Claude 3.7 Sonnet (thinking)",
+    "created": 1740422110,
+    "description": "Claude 3.7 Sonnet is an advanced large language model with improved reasoning, coding, and problem-solving capabilities. It introduces a hybrid reasoning approach, allowing users to choose between rapid responses and extended, step-by-step processing for complex tasks. The model demonstrates notable improvements in coding, particularly in front-end development and full-stack updates, and excels in agentic workflows, where it can autonomously navigate multi-step processes. \n\nClaude 3.7 Sonnet maintains performance parity with its predecessor in standard mode while offering an extended reasoning mode for enhanced accuracy in math, coding, and instruction-following tasks.\n\nRead more at the [blog post here](https://www.anthropic.com/news/claude-3-7-sonnet)",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000003",
+      "completion": "0.000015",
+      "image": "0.0048",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "cognitivecomputations/dolphin-mixtral-8x22b",
     "name": "Dolphin 2.9.2 Mixtral 8x22B 🐬",
     "created": 1717804800,
@@ -1235,14 +1259,14 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000009",
-      "completion": "0.0000009",
+      "prompt": "0.00000125",
+      "completion": "0.00000125",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 12288,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1608,10 +1632,34 @@
     "per_request_limits": null
   },
   {
+    "id": "google/gemini-2.0-flash-lite-001",
+    "name": "Google: Gemini 2.0 Flash Lite",
+    "created": 1740506212,
+    "description": "Gemini 2.0 Flash Lite offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5), all at extremely economical token prices.",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000000075",
+      "completion": "0.0000003",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 8192,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "google/gemini-2.0-flash-lite-preview-02-05:free",
     "name": "Google: Gemini Flash Lite 2.0 Preview (free)",
     "created": 1738768262,
-    "description": "Gemini Flash Lite 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](google/gemini-pro-1.5). Because it's currently in preview, it will be **heavily rate-limited** by Google. This model will move from free to paid pending a general rollout on February 24th, at $0.075 / $0.30 per million input / ouput tokens respectively.",
+    "description": "Gemini Flash Lite 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). Because it's currently in preview, it will be **heavily rate-limited** by Google. This model will move from free to paid pending a general rollout on February 24th, at $0.075 / $0.30 per million input / ouput tokens respectively.",
     "context_length": 1000000,
     "architecture": {
       "modality": "text+image->text",
