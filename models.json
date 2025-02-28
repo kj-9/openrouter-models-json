@@ -1564,21 +1564,21 @@
     "name": "EVA Qwen2.5 72B",
     "created": 1732210606,
     "description": "EVA Qwen2.5 72B is a roleplay and storywriting specialist model. It's a full-parameter finetune of Qwen2.5-72B on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model.",
-    "context_length": 16384,
+    "context_length": 32000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Qwen",
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.000004",
-      "completion": "0.000006",
+      "prompt": "0.0000007",
+      "completion": "0.0000007",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 16384,
-      "max_completion_tokens": 4096,
+      "context_length": 32000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4344,6 +4344,30 @@
     "per_request_limits": null
   },
   {
+    "id": "openai/gpt-4.5-preview",
+    "name": "OpenAI: GPT-4.5 (Preview)",
+    "created": 1740687810,
+    "description": "GPT-4.5 (Preview) is a research preview of OpenAI’s latest language model, designed to advance capabilities in reasoning, creativity, and multi-turn conversation. It builds on previous iterations with improvements in world knowledge, contextual coherence, and the ability to follow user intent more effectively.\n\nThe model demonstrates enhanced performance in tasks that require open-ended thinking, problem-solving, and communication. Early testing suggests it is better at generating nuanced responses, maintaining long-context coherence, and reducing hallucinations compared to earlier versions.\n\nThis research preview is intended to help evaluate GPT-4.5’s strengths and limitations in real-world use cases as OpenAI continues to refine and develop future models. Read more at the [blog post here.](https://openai.com/index/introducing-gpt-4-5/)",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "GPT",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000075",
+      "completion": "0.00015",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 16384,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "openai/gpt-4o",
     "name": "OpenAI: GPT-4o",
     "created": 1715558400,
@@ -5016,6 +5040,54 @@
     "per_request_limits": null
   },
   {
+    "id": "qwen/qwen-2-7b-instruct",
+    "name": "Qwen 2 7B Instruct",
+    "created": 1721088000,
+    "description": "Qwen2 7B is a transformer-based model that excels in language understanding, multilingual capabilities, coding, mathematics, and reasoning.\n\nIt features SwiGLU activation, attention QKV bias, and group query attention. It is pretrained on extensive data with supervised finetuning and direct preference optimization.\n\nFor more details, see this [blog post](https://qwenlm.github.io/blog/qwen2/) and [GitHub repo](https://github.com/QwenLM/Qwen2).\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Qwen",
+      "instruct_type": "chatml"
+    },
+    "pricing": {
+      "prompt": "0.000000054",
+      "completion": "0.000000054",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "qwen/qwen-2-7b-instruct:free",
+    "name": "Qwen 2 7B Instruct (free)",
+    "created": 1721088000,
+    "description": "Qwen2 7B is a transformer-based model that excels in language understanding, multilingual capabilities, coding, mathematics, and reasoning.\n\nIt features SwiGLU activation, attention QKV bias, and group query attention. It is pretrained on extensive data with supervised finetuning and direct preference optimization.\n\nFor more details, see this [blog post](https://qwenlm.github.io/blog/qwen2/) and [GitHub repo](https://github.com/QwenLM/Qwen2).\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
+    "context_length": 8192,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Qwen",
+      "instruct_type": "chatml"
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 8192,
+      "max_completion_tokens": 4096,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "qwen/qwen-2-vl-72b-instruct",
     "name": "Qwen2-VL 72B Instruct",
     "created": 1726617600,
@@ -5227,6 +5299,30 @@
     "top_provider": {
       "context_length": 7500,
       "max_completion_tokens": 1500,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "qwen/qwen2.5-vl-72b-instruct",
+    "name": "Qwen: Qwen2.5 VL 72B Instruct",
+    "created": 1738410311,
+    "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
+    "context_length": 32000,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Qwen",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000007",
+      "completion": "0.0000007",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 32000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
