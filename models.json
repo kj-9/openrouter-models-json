@@ -2448,6 +2448,30 @@
     "per_request_limits": null
   },
   {
+    "id": "meta-llama/llama-3-70b",
+    "name": "Meta: Llama 3 70B (Base)",
+    "created": 1715558400,
+    "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This is the base 70B pre-trained version.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
+    "context_length": 8192,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama3",
+      "instruct_type": "chatml"
+    },
+    "pricing": {
+      "prompt": "0.00000059",
+      "completion": "0.00000079",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 8192,
+      "max_completion_tokens": 8192,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "meta-llama/llama-3-70b-instruct",
     "name": "Meta: Llama 3 70B Instruct",
     "created": 1713398400,
@@ -2467,6 +2491,30 @@
     "top_provider": {
       "context_length": 8192,
       "max_completion_tokens": 8192,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "meta-llama/llama-3-8b",
+    "name": "Meta: Llama 3 8B (Base)",
+    "created": 1715558400,
+    "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This is the base 8B pre-trained version.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
+    "context_length": 8192,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama3",
+      "instruct_type": "chatml"
+    },
+    "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.00000008",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 8192,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2658,7 +2706,7 @@
     },
     "top_provider": {
       "context_length": 16384,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2860,20 +2908,20 @@
     "name": "Llama Guard 3 8B",
     "created": 1739401318,
     "description": "Llama Guard 3 is a Llama-3.1-8B pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM inputs (prompt classification) and in LLM responses (response classification). It acts as an LLM – it generates text in its output that indicates whether a given prompt or response is safe or unsafe, and if unsafe, it also lists the content categories violated.\n\nLlama Guard 3 was aligned to safeguard against the MLCommons standardized hazards taxonomy and designed to support Llama 3.1 capabilities. Specifically, it provides content moderation in 8 languages, and was optimized to support safety and security for search and code interpreter tool calls.\n",
-    "context_length": 16384,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
       "instruct_type": "none"
     },
     "pricing": {
-      "prompt": "0.0000003",
-      "completion": "0.0000003",
+      "prompt": "0.0000002",
+      "completion": "0.0000002",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 16384,
+      "context_length": 8192,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -3672,6 +3720,30 @@
     "per_request_limits": null
   },
   {
+    "id": "moonshotai/moonlight-16b-a3b-instruct:free",
+    "name": " Moonshot AI: Moonlight 16b A3b Instruct (free)",
+    "created": 1740719801,
+    "description": "Moonlight-16B-A3B-Instruct is a 16B-parameter Mixture-of-Experts (MoE) language model developed by Moonshot AI. It is optimized for instruction-following tasks with 3B activated parameters per inference. The model advances the Pareto frontier in performance per FLOP across English, coding, math, and Chinese benchmarks. It outperforms comparable models like Llama3-3B and Deepseek-v2-Lite while maintaining efficient deployment capabilities through Hugging Face integration and compatibility with popular inference engines like vLLM12.",
+    "context_length": 8192,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 8192,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "neversleep/llama-3-lumimaid-70b",
     "name": "NeverSleep: Llama 3 Lumimaid 70B",
     "created": 1715817600,
@@ -3835,6 +3907,30 @@
     "top_provider": {
       "context_length": 16384,
       "max_completion_tokens": 4096,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "nousresearch/deephermes-3-llama-3-8b-preview:free",
+    "name": "Nous: DeepHermes 3 Llama 3 8B Preview (free)",
+    "created": 1740719372,
+    "description": "DeepHermes 3 Preview is the latest version of our flagship Hermes series of LLMs by Nous Research, and one of the first models in the world to unify Reasoning (long chains of thought that improve answer accuracy) and normal LLM response modes into one model. We have also improved LLM annotation, judgement, and function calling.\n\nDeepHermes 3 Preview is one of the first LLM models to unify both \"intuitive\", traditional mode responses and long chain of thought reasoning responses into a single model, toggled by a system prompt.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4357,7 +4453,7 @@
     "pricing": {
       "prompt": "0.000075",
       "completion": "0.00015",
-      "image": "0",
+      "image": "0.108375",
       "request": "0"
     },
     "top_provider": {
@@ -4477,7 +4573,7 @@
     "pricing": {
       "prompt": "0.00000015",
       "completion": "0.0000006",
-      "image": "0.007225",
+      "image": "0.000217",
       "request": "0"
     },
     "top_provider": {
@@ -4770,30 +4866,6 @@
     },
     "top_provider": {
       "context_length": null,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "perplexity/llama-3.1-sonar-huge-128k-online",
-    "name": "Perplexity: Llama 3.1 Sonar 405B Online",
-    "created": 1723593600,
-    "description": "Llama 3.1 Sonar is Perplexity's latest model family. It surpasses their earlier Sonar models in cost-efficiency, speed, and performance. The model is built upon the Llama 3.1 405B and has internet access.",
-    "context_length": 127072,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Llama3",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000005",
-      "completion": "0.000005",
-      "image": "0",
-      "request": "0.005"
-    },
-    "top_provider": {
-      "context_length": 127072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -5203,6 +5275,30 @@
     "top_provider": {
       "context_length": 33000,
       "max_completion_tokens": 3000,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "qwen/qwen-2.5-coder-32b-instruct:free",
+    "name": "Qwen2.5 Coder 32B Instruct (free)",
+    "created": 1731368400,
+    "description": "Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5:\n\n- Significantly improvements in **code generation**, **code reasoning** and **code fixing**. \n- A more comprehensive foundation for real-world applications such as **Code Agents**. Not only enhancing coding capabilities but also maintaining its strengths in mathematics and general competencies.\n\nTo read more about its evaluation results, check out [Qwen 2.5 Coder's blog](https://qwenlm.github.io/blog/qwen2.5-coder-family/).",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Qwen",
+      "instruct_type": "chatml"
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
