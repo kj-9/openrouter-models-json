@@ -1324,21 +1324,21 @@
     "name": "DeepSeek: R1",
     "created": 1737381095,
     "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model & [technical report](https://api-docs.deepseek.com/news/news250120).\n\nMIT licensed: Distill & commercialize freely!",
-    "context_length": 128000,
+    "context_length": 64000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "DeepSeek",
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000024",
+      "prompt": "0.00000055",
+      "completion": "0.00000219",
       "image": "0",
       "request": "0"
     },
     "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": null,
+      "context_length": 64000,
+      "max_completion_tokens": 64000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3721,7 +3721,7 @@
   },
   {
     "id": "moonshotai/moonlight-16b-a3b-instruct:free",
-    "name": " Moonshot AI: Moonlight 16b A3b Instruct (free)",
+    "name": "Moonshot AI: Moonlight 16B A3B Instruct (free)",
     "created": 1740719801,
     "description": "Moonlight-16B-A3B-Instruct is a 16B-parameter Mixture-of-Experts (MoE) language model developed by Moonshot AI. It is optimized for instruction-following tasks with 3B activated parameters per inference. The model advances the Pareto frontier in performance per FLOP across English, coding, math, and Chinese benchmarks. It outperforms comparable models like Llama3-3B and Deepseek-v2-Lite while maintaining efficient deployment capabilities through Hugging Face integration and compatibility with popular inference engines like vLLM12.",
     "context_length": 8192,
@@ -3964,7 +3964,7 @@
     "name": "Nous: Hermes 3 405B Instruct",
     "created": 1723766400,
     "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.\n\nHermes 3 405B is a frontier-level, full-parameter finetune of the Llama-3.1 405B foundation model, focused on aligning LLMs to the user, with powerful steering capabilities and control given to the end user.\n\nThe Hermes 3 series builds and expands on the Hermes 2 set of capabilities, including more powerful and reliable function calling and structured output capabilities, generalist assistant capabilities, and improved code generation skills.\n\nHermes 3 is competitive, if not superior, to Llama-3.1 Instruct models at general capabilities, with varying strengths and weaknesses attributable between the two.",
-    "context_length": 131072,
+    "context_length": 131000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
@@ -3977,8 +3977,8 @@
       "request": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 8192,
+      "context_length": 131000,
+      "max_completion_tokens": 131000,
       "is_moderated": false
     },
     "per_request_limits": null
