@@ -14,7 +14,11 @@
       "prompt": "0.000003",
       "completion": "0.000003",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -38,7 +42,11 @@
       "prompt": "0.0000008",
       "completion": "0.0000012",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16384,
@@ -62,7 +70,11 @@
       "prompt": "0.000002",
       "completion": "0.000008",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 256000,
@@ -86,7 +98,11 @@
       "prompt": "0.0000002",
       "completion": "0.0000004",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 256000,
@@ -110,7 +126,11 @@
       "prompt": "0.0000005",
       "completion": "0.0000007",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 256000,
@@ -134,7 +154,11 @@
       "prompt": "0.000004",
       "completion": "0.000008",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -158,7 +182,11 @@
       "prompt": "0.0000007",
       "completion": "0.0000014",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -182,7 +210,11 @@
       "prompt": "0.0000002",
       "completion": "0.0000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -206,7 +238,11 @@
       "prompt": "0.000005",
       "completion": "0.00001",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16000,
@@ -230,7 +266,11 @@
       "prompt": "0.000009375",
       "completion": "0.000009375",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 6144,
@@ -254,7 +294,11 @@
       "prompt": "0.000001875",
       "completion": "0.00000225",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16384,
@@ -278,7 +322,11 @@
       "prompt": "0.00000006",
       "completion": "0.00000024",
       "image": "0.00009",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 300000,
@@ -302,7 +350,11 @@
       "prompt": "0.000000035",
       "completion": "0.00000014",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -326,7 +378,11 @@
       "prompt": "0.0000008",
       "completion": "0.0000032",
       "image": "0.0012",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 300000,
@@ -350,7 +406,11 @@
       "prompt": "0.000003",
       "completion": "0.000003",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -374,7 +434,11 @@
       "prompt": "0.000001875",
       "completion": "0.00000225",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16384,
@@ -398,7 +462,11 @@
       "prompt": "0.000008",
       "completion": "0.000024",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -422,7 +490,11 @@
       "prompt": "0.000008",
       "completion": "0.000024",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 100000,
@@ -446,7 +518,11 @@
       "prompt": "0.000008",
       "completion": "0.000024",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 100000,
@@ -470,7 +546,11 @@
       "prompt": "0.000008",
       "completion": "0.000024",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -494,7 +574,11 @@
       "prompt": "0.000008",
       "completion": "0.000024",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -518,7 +602,11 @@
       "prompt": "0.000008",
       "completion": "0.000024",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -542,7 +630,11 @@
       "prompt": "0.00000025",
       "completion": "0.00000125",
       "image": "0.0004",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -566,7 +658,11 @@
       "prompt": "0.00000025",
       "completion": "0.00000125",
       "image": "0.0004",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -590,7 +686,11 @@
       "prompt": "0.000015",
       "completion": "0.000075",
       "image": "0.024",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -614,7 +714,11 @@
       "prompt": "0.000015",
       "completion": "0.000075",
       "image": "0.024",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -638,7 +742,11 @@
       "prompt": "0.000003",
       "completion": "0.000015",
       "image": "0.0048",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -662,7 +770,11 @@
       "prompt": "0.000003",
       "completion": "0.000015",
       "image": "0.0048",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -686,7 +798,11 @@
       "prompt": "0.0000008",
       "completion": "0.000004",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -710,7 +826,11 @@
       "prompt": "0.0000008",
       "completion": "0.000004",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -734,7 +854,11 @@
       "prompt": "0.0000008",
       "completion": "0.000004",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -758,7 +882,11 @@
       "prompt": "0.0000008",
       "completion": "0.000004",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -782,7 +910,11 @@
       "prompt": "0.000003",
       "completion": "0.000015",
       "image": "0.0048",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -806,7 +938,11 @@
       "prompt": "0.000003",
       "completion": "0.000015",
       "image": "0.0048",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -830,7 +966,11 @@
       "prompt": "0.000003",
       "completion": "0.000015",
       "image": "0.0048",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -854,7 +994,11 @@
       "prompt": "0.000003",
       "completion": "0.000015",
       "image": "0.0048",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -878,7 +1022,11 @@
       "prompt": "0.000003",
       "completion": "0.000015",
       "image": "0.0048",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -902,7 +1050,11 @@
       "prompt": "0.000003",
       "completion": "0.000015",
       "image": "0.0048",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -926,7 +1078,11 @@
       "prompt": "0.000003",
       "completion": "0.000015",
       "image": "0.0048",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -950,7 +1106,11 @@
       "prompt": "0.0000009",
       "completion": "0.0000009",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16000,
@@ -974,7 +1134,11 @@
       "prompt": "0.0000005",
       "completion": "0.0000005",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -998,7 +1162,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -1022,7 +1190,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -1046,7 +1218,11 @@
       "prompt": "0.00000095",
       "completion": "0.0000019",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -1070,7 +1246,11 @@
       "prompt": "0.000000475",
       "completion": "0.000001425",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -1094,7 +1274,11 @@
       "prompt": "0.000000475",
       "completion": "0.000001425",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -1118,7 +1302,11 @@
       "prompt": "0.0000001425",
       "completion": "0.00000057",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -1142,7 +1330,11 @@
       "prompt": "0.00000285",
       "completion": "0.00001425",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -1166,7 +1358,11 @@
       "prompt": "0.00000285",
       "completion": "0.00001425",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -1190,7 +1386,11 @@
       "prompt": "0.000002375",
       "completion": "0.0000095",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -1214,7 +1414,11 @@
       "prompt": "0.0000000375",
       "completion": "0.00000015",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -1238,7 +1442,11 @@
       "prompt": "0.0000012",
       "completion": "0.0000012",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -1262,7 +1470,11 @@
       "prompt": "0.0000012",
       "completion": "0.0000012",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -1286,7 +1498,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -1310,7 +1526,11 @@
       "prompt": "0.00000055",
       "completion": "0.00000219",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 64000,
@@ -1334,7 +1554,11 @@
       "prompt": "0.00000023",
       "completion": "0.00000069",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -1358,7 +1582,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -1382,7 +1610,11 @@
       "prompt": "0.00000004",
       "completion": "0.00000004",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32000,
@@ -1406,7 +1638,11 @@
       "prompt": "0.00000018",
       "completion": "0.00000018",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -1430,7 +1666,11 @@
       "prompt": "0.0000016",
       "completion": "0.0000016",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -1454,11 +1694,43 @@
       "prompt": "0.00000012",
       "completion": "0.00000018",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
       "max_completion_tokens": 8192,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "deepseek/deepseek-r1-zero:free",
+    "name": "DeepSeek: DeepSeek R1 Zero (free)",
+    "created": 1741297434,
+    "description": "DeepSeek-R1-Zero is a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step. It's 671B parameters in size, with 37B active in an inference pass.\n\nIt demonstrates remarkable performance on reasoning. With RL, DeepSeek-R1-Zero naturally emerged with numerous powerful and interesting reasoning behaviors.\n\nDeepSeek-R1-Zero encounters challenges such as endless repetition, poor readability, and language mixing. See [DeepSeek R1](/deepseek/deekseek-r1) for the SFT model.\n\n",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": "deepseek-r1"
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1478,7 +1750,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 163840,
@@ -1502,7 +1778,11 @@
       "prompt": "0.000004",
       "completion": "0.000006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16384,
@@ -1526,7 +1806,11 @@
       "prompt": "0.0000026",
       "completion": "0.0000034",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16384,
@@ -1550,7 +1834,11 @@
       "prompt": "0.0000007",
       "completion": "0.0000007",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32000,
@@ -1574,7 +1862,11 @@
       "prompt": "0.0000001",
       "completion": "0.0000004",
       "image": "0.0000258",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 1000000,
@@ -1598,7 +1890,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -1622,7 +1918,11 @@
       "prompt": "0.000000075",
       "completion": "0.0000003",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -1646,7 +1946,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 1000000,
@@ -1670,7 +1974,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 40000,
@@ -1694,7 +2002,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -1718,7 +2030,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 2000000,
@@ -1742,7 +2058,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 2097152,
@@ -1766,7 +2086,11 @@
       "prompt": "0.000000075",
       "completion": "0.0000003",
       "image": "0.00004",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 1000000,
@@ -1790,7 +2114,11 @@
       "prompt": "0.0000000375",
       "completion": "0.00000015",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 1000000,
@@ -1814,7 +2142,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 1000000,
@@ -1838,7 +2170,11 @@
       "prompt": "0.0000005",
       "completion": "0.0000015",
       "image": "0.0025",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32760,
@@ -1862,7 +2198,11 @@
       "prompt": "0.00000125",
       "completion": "0.000005",
       "image": "0.0006575",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 2000000,
@@ -1886,7 +2226,11 @@
       "prompt": "0.0000005",
       "completion": "0.0000015",
       "image": "0.0025",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16384,
@@ -1910,7 +2254,11 @@
       "prompt": "0.00000027",
       "completion": "0.00000027",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -1934,7 +2282,11 @@
       "prompt": "0.00000003",
       "completion": "0.00000006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -1958,7 +2310,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -1982,7 +2338,11 @@
       "prompt": "0.00000015",
       "completion": "0.00000015",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -2006,7 +2366,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 40960,
@@ -2030,7 +2394,11 @@
       "prompt": "0.000001",
       "completion": "0.000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 9216,
@@ -2054,7 +2422,11 @@
       "prompt": "0.000001",
       "completion": "0.000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -2078,7 +2450,11 @@
       "prompt": "0.000001",
       "completion": "0.000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 7168,
@@ -2102,7 +2478,11 @@
       "prompt": "0.000001",
       "completion": "0.000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -2126,7 +2506,11 @@
       "prompt": "0.000000065",
       "completion": "0.000000065",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -2150,7 +2534,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -2174,7 +2562,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -2198,7 +2590,11 @@
       "prompt": "0.0000008",
       "completion": "0.0000012",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16384,
@@ -2222,7 +2618,11 @@
       "prompt": "0.0000025",
       "completion": "0.00001",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8000,
@@ -2246,7 +2646,11 @@
       "prompt": "0.0000025",
       "completion": "0.00001",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8000,
@@ -2270,7 +2674,11 @@
       "prompt": "0.0000005",
       "completion": "0.0000005",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4000,
@@ -2294,7 +2702,11 @@
       "prompt": "0.00000002",
       "completion": "0.00000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -2318,7 +2730,11 @@
       "prompt": "0.00000015",
       "completion": "0.00000015",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -2342,7 +2758,11 @@
       "prompt": "0.00000001",
       "completion": "0.00000001",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -2366,7 +2786,11 @@
       "prompt": "0.0000015",
       "completion": "0.00000225",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8000,
@@ -2390,7 +2814,11 @@
       "prompt": "0.00000022",
       "completion": "0.00000022",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -2414,7 +2842,11 @@
       "prompt": "0.0000009",
       "completion": "0.0000009",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -2438,35 +2870,15 @@
       "prompt": "0.00000023",
       "completion": "0.0000004",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
       "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "meta-llama/llama-3-8b",
-    "name": "Meta: Llama 3 8B (Base)",
-    "created": 1715558400,
-    "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This is the base 8B pre-trained version.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "tokenizer": "Llama3",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0.00000005",
-      "completion": "0.00000008",
-      "image": "0",
-      "request": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2486,7 +2898,11 @@
       "prompt": "0.00000003",
       "completion": "0.00000006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -2510,7 +2926,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -2534,7 +2954,11 @@
       "prompt": "0.000002",
       "completion": "0.000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -2558,7 +2982,11 @@
       "prompt": "0.0000008",
       "completion": "0.0000008",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -2582,7 +3010,11 @@
       "prompt": "0.00000012",
       "completion": "0.0000003",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -2606,7 +3038,11 @@
       "prompt": "0.00000002",
       "completion": "0.00000005",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -2630,7 +3066,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -2654,7 +3094,11 @@
       "prompt": "0.000000055",
       "completion": "0.000000055",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16384,
@@ -2678,7 +3122,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -2702,7 +3150,11 @@
       "prompt": "0.00000001",
       "completion": "0.00000001",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -2726,7 +3178,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -2750,7 +3206,11 @@
       "prompt": "0.000000015",
       "completion": "0.000000025",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131000,
@@ -2774,7 +3234,11 @@
       "prompt": "0.0000008",
       "completion": "0.0000016",
       "image": "0.0051456",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -2798,7 +3262,11 @@
       "prompt": "0.00000012",
       "completion": "0.0000003",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -2822,7 +3290,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -2846,7 +3318,11 @@
       "prompt": "0.0000002",
       "completion": "0.0000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -2870,7 +3346,11 @@
       "prompt": "0.0000002",
       "completion": "0.0000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -2894,7 +3374,11 @@
       "prompt": "0.000001",
       "completion": "0.000001",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -2918,7 +3402,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -2942,7 +3430,11 @@
       "prompt": "0.0000001",
       "completion": "0.0000001",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -2966,7 +3458,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -2990,7 +3486,11 @@
       "prompt": "0.0000001",
       "completion": "0.0000001",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -3014,7 +3514,11 @@
       "prompt": "0.00000007",
       "completion": "0.00000014",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16384,
@@ -3038,7 +3542,11 @@
       "prompt": "0.00000007",
       "completion": "0.00000007",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32000,
@@ -3062,7 +3570,11 @@
       "prompt": "0.0000005",
       "completion": "0.0000005",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 65536,
@@ -3086,7 +3598,11 @@
       "prompt": "0.0000002",
       "completion": "0.0000011",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 1000192,
@@ -3110,7 +3626,11 @@
       "prompt": "0.0000003",
       "completion": "0.0000009",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 256000,
@@ -3134,7 +3654,11 @@
       "prompt": "0.00000025",
       "completion": "0.00000025",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 256000,
@@ -3158,7 +3682,11 @@
       "prompt": "0.00000004",
       "completion": "0.00000004",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -3182,7 +3710,11 @@
       "prompt": "0.0000001",
       "completion": "0.0000001",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -3206,7 +3738,11 @@
       "prompt": "0.00000003",
       "completion": "0.000000055",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -3230,7 +3766,11 @@
       "prompt": "0.0000002",
       "completion": "0.0000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -3254,7 +3794,11 @@
       "prompt": "0.00000003",
       "completion": "0.000000055",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -3278,7 +3822,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -3302,7 +3850,11 @@
       "prompt": "0.000002",
       "completion": "0.000006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -3326,7 +3878,11 @@
       "prompt": "0.000002",
       "completion": "0.000006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -3350,7 +3906,11 @@
       "prompt": "0.000002",
       "completion": "0.000006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -3374,7 +3934,11 @@
       "prompt": "0.00000275",
       "completion": "0.0000081",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32000,
@@ -3398,7 +3962,11 @@
       "prompt": "0.000000035",
       "completion": "0.00000008",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -3422,7 +3990,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -3446,7 +4018,11 @@
       "prompt": "0.0000002",
       "completion": "0.0000006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32000,
@@ -3470,7 +4046,11 @@
       "prompt": "0.0000002",
       "completion": "0.0000006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32000,
@@ -3494,7 +4074,11 @@
       "prompt": "0.00000007",
       "completion": "0.00000014",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -3518,7 +4102,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32000,
@@ -3542,7 +4130,11 @@
       "prompt": "0.00000025",
       "completion": "0.00000025",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32000,
@@ -3566,7 +4158,11 @@
       "prompt": "0.0000009",
       "completion": "0.0000009",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 65536,
@@ -3590,7 +4186,11 @@
       "prompt": "0.0000006",
       "completion": "0.0000006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -3614,7 +4214,11 @@
       "prompt": "0.00000024",
       "completion": "0.00000024",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -3638,7 +4242,11 @@
       "prompt": "0.0000001",
       "completion": "0.0000001",
       "image": "0.0001445",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -3662,7 +4270,11 @@
       "prompt": "0.000002",
       "completion": "0.000006",
       "image": "0.002888",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -3686,7 +4298,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -3710,7 +4326,11 @@
       "prompt": "0.000003375",
       "completion": "0.0000045",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -3734,7 +4354,11 @@
       "prompt": "0.0000001875",
       "completion": "0.000001125",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 24576,
@@ -3758,7 +4382,11 @@
       "prompt": "0.0000001875",
       "completion": "0.000001125",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 24576,
@@ -3782,7 +4410,11 @@
       "prompt": "0.000003375",
       "completion": "0.0000045",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16384,
@@ -3806,7 +4438,11 @@
       "prompt": "0.0000001875",
       "completion": "0.000001125",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -3830,7 +4466,11 @@
       "prompt": "0.0000015",
       "completion": "0.00000225",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -3854,7 +4494,11 @@
       "prompt": "0.0000008",
       "completion": "0.0000012",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16384,
@@ -3878,7 +4522,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -3902,7 +4550,11 @@
       "prompt": "0.000000025",
       "completion": "0.00000004",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131000,
@@ -3926,7 +4578,11 @@
       "prompt": "0.0000008",
       "completion": "0.0000008",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131000,
@@ -3950,7 +4606,11 @@
       "prompt": "0.00000012",
       "completion": "0.0000003",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131000,
@@ -3974,7 +4634,11 @@
       "prompt": "0.0000006",
       "completion": "0.0000006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -3998,7 +4662,11 @@
       "prompt": "0.00000018",
       "completion": "0.00000018",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -4022,7 +4690,11 @@
       "prompt": "0.00000012",
       "completion": "0.0000003",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131000,
@@ -4046,7 +4718,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -4070,7 +4746,11 @@
       "prompt": "0.000005",
       "completion": "0.000015",
       "image": "0.007225",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4094,7 +4774,11 @@
       "prompt": "0.0000005",
       "completion": "0.0000015",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16385,
@@ -4118,7 +4802,11 @@
       "prompt": "0.0000005",
       "completion": "0.0000015",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16385,
@@ -4142,7 +4830,11 @@
       "prompt": "0.000001",
       "completion": "0.000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4095,
@@ -4166,7 +4858,11 @@
       "prompt": "0.000001",
       "completion": "0.000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16385,
@@ -4190,7 +4886,11 @@
       "prompt": "0.000003",
       "completion": "0.000004",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16385,
@@ -4214,7 +4914,11 @@
       "prompt": "0.0000015",
       "completion": "0.000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4095,
@@ -4238,7 +4942,11 @@
       "prompt": "0.00003",
       "completion": "0.00006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8191,
@@ -4262,7 +4970,11 @@
       "prompt": "0.00003",
       "completion": "0.00006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8191,
@@ -4286,7 +4998,11 @@
       "prompt": "0.00001",
       "completion": "0.00003",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4310,7 +5026,11 @@
       "prompt": "0.00006",
       "completion": "0.00012",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32767,
@@ -4334,7 +5054,11 @@
       "prompt": "0.00006",
       "completion": "0.00012",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32767,
@@ -4358,7 +5082,11 @@
       "prompt": "0.00001",
       "completion": "0.00003",
       "image": "0.01445",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4382,7 +5110,11 @@
       "prompt": "0.00001",
       "completion": "0.00003",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4406,7 +5138,11 @@
       "prompt": "0.000075",
       "completion": "0.00015",
       "image": "0.108375",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4430,7 +5166,11 @@
       "prompt": "0.0000025",
       "completion": "0.00001",
       "image": "0.003613",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4454,7 +5194,11 @@
       "prompt": "0.000005",
       "completion": "0.000015",
       "image": "0.007225",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4478,7 +5222,11 @@
       "prompt": "0.0000025",
       "completion": "0.00001",
       "image": "0.003613",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4502,7 +5250,11 @@
       "prompt": "0.0000025",
       "completion": "0.00001",
       "image": "0.003613",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4526,7 +5278,11 @@
       "prompt": "0.00000015",
       "completion": "0.0000006",
       "image": "0.000217",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4550,7 +5306,11 @@
       "prompt": "0.00000015",
       "completion": "0.0000006",
       "image": "0.007225",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4574,7 +5334,11 @@
       "prompt": "0.000006",
       "completion": "0.000018",
       "image": "0.007225",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4598,7 +5362,11 @@
       "prompt": "0.000015",
       "completion": "0.00006",
       "image": "0.021675",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -4622,7 +5390,11 @@
       "prompt": "0.0000011",
       "completion": "0.0000044",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4646,7 +5418,11 @@
       "prompt": "0.0000011",
       "completion": "0.0000044",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4670,7 +5446,11 @@
       "prompt": "0.000015",
       "completion": "0.00006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4694,7 +5474,11 @@
       "prompt": "0.000015",
       "completion": "0.00006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4718,7 +5502,11 @@
       "prompt": "0.0000011",
       "completion": "0.0000044",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -4742,7 +5530,11 @@
       "prompt": "0.0000011",
       "completion": "0.0000044",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -4766,7 +5558,11 @@
       "prompt": "0.000000055",
       "completion": "0.000000055",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -4790,7 +5586,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -4814,7 +5614,11 @@
       "prompt": "-1",
       "completion": "-1",
       "request": "-1",
-      "image": "-1"
+      "image": "-1",
+      "web_search": "-1",
+      "input_cache_read": "-1",
+      "input_cache_write": "-1",
+      "internal_reasoning": "-1"
     },
     "top_provider": {
       "context_length": null,
@@ -4838,7 +5642,11 @@
       "prompt": "0.000001",
       "completion": "0.000001",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -4862,7 +5670,11 @@
       "prompt": "0.000001",
       "completion": "0.000001",
       "image": "0",
-      "request": "0.005"
+      "request": "0.005",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 127072,
@@ -4886,7 +5698,11 @@
       "prompt": "0.0000002",
       "completion": "0.0000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -4910,7 +5726,11 @@
       "prompt": "0.0000002",
       "completion": "0.0000002",
       "image": "0",
-      "request": "0.005"
+      "request": "0.005",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 127072,
@@ -4934,7 +5754,11 @@
       "prompt": "0.000002",
       "completion": "0.000008",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -4958,11 +5782,71 @@
       "prompt": "0.000001",
       "completion": "0.000001",
       "image": "0",
-      "request": "0.005"
+      "request": "0.005",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 127072,
       "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "perplexity/sonar-deep-research",
+    "name": "Perplexity: Sonar Deep Research",
+    "created": 1741311246,
+    "description": "Please see notes on pricing at the end of the description. This model has extra pricing based on searches used and an internal reasoning step.\n\nSonar Deep Research is a research-focused model designed for multi-step retrieval, synthesis, and reasoning across complex topics. It autonomously searches, reads, and evaluates sources, refining its approach as it gathers information. This enables comprehensive report generation across domains like finance, technology, health, and current events.\n\nNotes on Pricing ([Source](https://docs.perplexity.ai/guides/pricing#detailed-pricing-breakdown-for-sonar-deep-research)) \n- Input tokens comprise of Prompt tokens (user prompt) + Citation tokens (these are processed tokens from running searches)\n- Deep Research runs multiple searches to conduct exhaustive research. Searches are priced at $5/1000 searches. A request that does 30 searches will cost $0.15 in this step.\n- Reasoning is a distinct step in Deep Research since it does extensive automated reasoning through all the material it gathers during its research phase. Reasoning tokens here are a bit different than the CoTs in the answer - these are tokens that we use to reason through the research material prior to generating the outputs via the CoTs. Reasoning tokens are priced at $3/1M tokens",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": "deepseek-r1"
+    },
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000008",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "perplexity/sonar-pro",
+    "name": "Perplexity: Sonar Pro",
+    "created": 1741312423,
+    "description": "For enterprises seeking more advanced capabilities, the Sonar Pro API can handle in-depth, multi-step queries with added extensibility, like double the number of citations per search as Sonar on average. Plus, with a larger context window, it can handle longer and more nuanced searches and follow-up questions. ",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000003",
+      "completion": "0.000015",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 8000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4982,7 +5866,11 @@
       "prompt": "0.000001",
       "completion": "0.000005",
       "image": "0",
-      "request": "0.005"
+      "request": "0.005",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 127000,
@@ -5006,7 +5894,11 @@
       "prompt": "0.0000008",
       "completion": "0.0000012",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -5030,7 +5922,11 @@
       "prompt": "0.00000025",
       "completion": "0.0000005",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32000,
@@ -5054,7 +5950,11 @@
       "prompt": "0.0000009",
       "completion": "0.0000009",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -5078,7 +5978,11 @@
       "prompt": "0.000000054",
       "completion": "0.000000054",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -5102,7 +6006,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -5126,7 +6034,11 @@
       "prompt": "0.0000004",
       "completion": "0.0000004",
       "image": "0.000578",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -5150,7 +6062,11 @@
       "prompt": "0.0000001",
       "completion": "0.0000001",
       "image": "0.0001445",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -5174,7 +6090,11 @@
       "prompt": "0.00000013",
       "completion": "0.0000004",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -5198,7 +6118,11 @@
       "prompt": "0.000000025",
       "completion": "0.00000005",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -5222,7 +6146,11 @@
       "prompt": "0.00000007",
       "completion": "0.00000016",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 33000,
@@ -5246,7 +6174,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
@@ -5270,7 +6202,11 @@
       "prompt": "0.0000016",
       "completion": "0.0000064",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -5294,7 +6230,11 @@
       "prompt": "0.0000004",
       "completion": "0.0000012",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -5318,7 +6258,11 @@
       "prompt": "0.00000005",
       "completion": "0.0000002",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 1000000,
@@ -5342,7 +6286,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 7500,
@@ -5366,7 +6314,11 @@
       "prompt": "0.00000079",
       "completion": "0.00000079",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -5390,7 +6342,11 @@
       "prompt": "0.0000007",
       "completion": "0.0000007",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32000,
@@ -5414,11 +6370,43 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
       "max_completion_tokens": 2048,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "qwen/qwq-32b",
+    "name": "Qwen: QwQ 32B",
+    "created": 1741208814,
+    "description": "QwQ is the reasoning model of the Qwen series. Compared with conventional instruction-tuned models, QwQ, which is capable of thinking and reasoning, can achieve significantly enhanced performance in downstream tasks, especially hard problems. QwQ-32B is the medium-sized reasoning model, which is capable of achieving competitive performance against state-of-the-art reasoning models, e.g., DeepSeek-R1, o1-mini.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Qwen",
+      "instruct_type": "qwq"
+    },
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.00000045",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5438,7 +6426,11 @@
       "prompt": "0.00000012",
       "completion": "0.00000018",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -5452,7 +6444,7 @@
     "name": "Qwen: QwQ 32B (free)",
     "created": 1741208814,
     "description": "QwQ is the reasoning model of the Qwen series. Compared with conventional instruction-tuned models, QwQ, which is capable of thinking and reasoning, can achieve significantly enhanced performance in downstream tasks, especially hard problems. QwQ-32B is the medium-sized reasoning model, which is capable of achieving competitive performance against state-of-the-art reasoning models, e.g., DeepSeek-R1, o1-mini.",
-    "context_length": 131000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Qwen",
@@ -5462,10 +6454,14 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131000,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -5486,7 +6482,11 @@
       "prompt": "0.0000045",
       "completion": "0.0000045",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16000,
@@ -5510,7 +6510,11 @@
       "prompt": "0.0000008",
       "completion": "0.0000012",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -5534,7 +6538,11 @@
       "prompt": "0.0000007",
       "completion": "0.0000008",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -5558,7 +6566,11 @@
       "prompt": "0.00000003",
       "completion": "0.00000006",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -5582,7 +6594,11 @@
       "prompt": "0.000003",
       "completion": "0.000003",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 16000,
@@ -5606,7 +6622,11 @@
       "prompt": "0.0000007",
       "completion": "0.0000008",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -5630,7 +6650,11 @@
       "prompt": "0.0000007",
       "completion": "0.0000008",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -5654,7 +6678,11 @@
       "prompt": "0.0000008",
       "completion": "0.0000008",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -5678,7 +6706,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -5702,7 +6734,11 @@
       "prompt": "0.00000017",
       "completion": "0.00000017",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -5726,7 +6762,11 @@
       "prompt": "0.00000025",
       "completion": "0.0000005",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -5750,7 +6790,11 @@
       "prompt": "0.0000005",
       "completion": "0.0000005",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32000,
@@ -5774,7 +6818,11 @@
       "prompt": "0.0000008",
       "completion": "0.0000012",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -5798,7 +6846,11 @@
       "prompt": "0.00000007",
       "completion": "0.00000007",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -5822,7 +6874,11 @@
       "prompt": "0",
       "completion": "0",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
@@ -5846,7 +6902,11 @@
       "prompt": "0.000002",
       "completion": "0.00001",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -5870,7 +6930,11 @@
       "prompt": "0.000002",
       "completion": "0.00001",
       "image": "0.0036",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 32768,
@@ -5894,7 +6958,11 @@
       "prompt": "0.000005",
       "completion": "0.000015",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
@@ -5918,7 +6986,11 @@
       "prompt": "0.000005",
       "completion": "0.000015",
       "image": "0.009",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
@@ -5942,7 +7014,11 @@
       "prompt": "0.00000375",
       "completion": "0.00000375",
       "image": "0",
-      "request": "0"
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 8192,
