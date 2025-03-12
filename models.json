@@ -2717,7 +2717,7 @@
   },
   {
     "id": "latitudegames/wayfarer-large-70b-llama-3.3",
-    "name": "LatitueGames: Wayfarer Large 70B Llama 3.3",
+    "name": "LatitudeGames: Wayfarer Large 70B Llama 3.3",
     "created": 1741636885,
     "description": "Wayfarer Large 70B is a roleplay and text-adventure model fine-tuned from Meta’s Llama-3.3-70B-Instruct. Specifically optimized for narrative-driven, challenging scenarios, it introduces realistic stakes, conflicts, and consequences often avoided by standard RLHF-aligned models. Trained using a curated blend of adventure, roleplay, and instructive fiction datasets, Wayfarer emphasizes tense storytelling, authentic player failure scenarios, and robust narrative immersion, making it uniquely suited for interactive fiction and gaming experiences.",
     "context_length": 128000,
@@ -6255,8 +6255,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000004",
-      "completion": "0.0000004",
+      "prompt": "0.0000006",
+      "completion": "0.0000005999",
       "image": "0.000578",
       "request": "0",
       "input_cache_read": "0",
@@ -6283,8 +6283,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000001",
-      "completion": "0.0000001",
+      "prompt": "0.0000002",
+      "completion": "0.0000002",
       "image": "0.0001445",
       "request": "0",
       "input_cache_read": "0",
