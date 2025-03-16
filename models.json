@@ -330,7 +330,7 @@
     },
     "top_provider": {
       "context_length": 4096,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5124,6 +5124,62 @@
     "per_request_limits": null
   },
   {
+    "id": "open-r1/olympiccoder-32b:free",
+    "name": "OlympicCoder 32B (free)",
+    "created": 1742077228,
+    "description": "OlympicCoder-32B is a high-performing open-source model fine-tuned using the CodeForces-CoTs dataset, containing approximately 100,000 chain-of-thought programming samples. It excels at complex competitive programming benchmarks, such as IOI 2024 and Codeforces-style challenges, frequently surpassing state-of-the-art closed-source models. OlympicCoder-32B provides advanced reasoning, coherent multi-step problem-solving, and robust code generation capabilities, demonstrating significant potential for olympiad-level competitive programming applications.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": "deepseek-r1"
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "open-r1/olympiccoder-7b:free",
+    "name": "OlympicCoder 7B (free)",
+    "created": 1742078265,
+    "description": "OlympicCoder-7B is an open-source language model fine-tuned on the CodeForces-CoTs dataset, consisting of nearly 100,000 high-quality chain-of-thought examples from competitive programming contexts. Optimized specifically for olympiad-level coding problems, this model demonstrates strong chain-of-thought reasoning and competitive code generation capabilities, achieving performance competitive with frontier closed-source models on tasks from the IOI 2024 and similar coding contests.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": "deepseek-r1"
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "openai/chatgpt-4o-latest",
     "name": "OpenAI: ChatGPT-4o",
     "created": 1723593600,
@@ -7274,6 +7330,34 @@
     },
     "top_provider": {
       "context_length": 4096,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "steelskull/l3.3-electra-r1-70b",
+    "name": "SteelSkull: L3.3 Electra R1 70B",
+    "created": 1742067611,
+    "description": "L3.3-Electra-R1-70 is the newest release of the Unnamed series. Built on a DeepSeek R1 Distill base, Electra-R1 integrates various models together to provide an intelligent and coherent model capable of providing deep character insights. Through proper prompting, the model demonstrates advanced reasoning capabilities and unprompted exploration of character inner thoughts and motivations. Read more about the model and [prompting here](https://huggingface.co/Steelskull/L3.3-Electra-R1-70b)",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": "deepseek-r1"
+    },
+    "pricing": {
+      "prompt": "0.0000007",
+      "completion": "0.0000007",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
