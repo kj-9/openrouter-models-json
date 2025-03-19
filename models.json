@@ -3868,16 +3868,16 @@
     "name": "Microsoft: Phi 4 Multimodal Instruct",
     "created": 1741396284,
     "description": "Phi-4 Multimodal Instruct is a versatile 5.6B parameter foundation model that combines advanced reasoning and instruction-following capabilities across both text and visual inputs, providing accurate text outputs. The unified architecture enables efficient, low-latency inference, suitable for edge and mobile deployments. Phi-4 Multimodal Instruct supports text inputs in multiple languages including Arabic, Chinese, English, French, German, Japanese, Spanish, and more, with visual input optimized primarily for English. It delivers impressive performance on multimodal tasks involving mathematical, scientific, and document reasoning, providing developers and enterprises a powerful yet compact model for sophisticated interactive applications. For more information, see the [Phi-4 Multimodal blog post](https://azure.microsoft.com/en-us/blog/empowering-innovation-the-next-generation-of-the-phi-family/).\n",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Other",
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000007",
-      "completion": "0.00000011",
-      "image": "0",
+      "prompt": "0.00000005",
+      "completion": "0.0000001",
+      "image": "0.00017685",
       "request": "0",
       "input_cache_read": "0",
       "input_cache_write": "0",
@@ -3885,7 +3885,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -4508,7 +4508,7 @@
     "per_request_limits": null
   },
   {
-    "id": "mistralai/mistral-small-3.1-24b-instruct-2503",
+    "id": "mistralai/mistral-small-3.1-24b-instruct",
     "name": "Mistral: Mistral Small 3.1 24B",
     "created": 1742238937,
     "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and vision tasks, including image analysis, programming, mathematical reasoning, and multilingual support across dozens of languages. Equipped with an extensive 128k token context window and optimized for efficient local inference, it supports use cases such as conversational agents, function calling, long-document comprehension, and privacy-sensitive deployments.",
