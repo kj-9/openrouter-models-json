@@ -1600,15 +1600,15 @@
     "name": "DeepSeek: R1",
     "created": 1737381095,
     "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model & [technical report](https://api-docs.deepseek.com/news/news250120).\n\nMIT licensed: Distill & commercialize freely!",
-    "context_length": 64000,
+    "context_length": 65536,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "DeepSeek",
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.0000007",
-      "completion": "0.0000025",
+      "prompt": "0.00000055",
+      "completion": "0.00000219",
       "image": "0",
       "request": "0",
       "input_cache_read": "0",
@@ -1617,8 +1617,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 64000,
-      "max_completion_tokens": 16000,
+      "context_length": 65536,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4531,6 +4531,34 @@
     "top_provider": {
       "context_length": 128000,
       "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "mistralai/mistral-small-3.1-24b-instruct:free",
+    "name": "Mistral: Mistral Small 3.1 24B (free)",
+    "created": 1742238937,
+    "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and vision tasks, including image analysis, programming, mathematical reasoning, and multilingual support across dozens of languages. Equipped with an extensive 128k token context window and optimized for efficient local inference, it supports use cases such as conversational agents, function calling, long-document comprehension, and privacy-sensitive deployments.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Mistral",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 128000,
       "is_moderated": false
     },
     "per_request_limits": null
