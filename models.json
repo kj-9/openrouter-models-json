@@ -3616,7 +3616,7 @@
     "name": "Meta: Llama 3.3 70B Instruct (free)",
     "created": 1733506137,
     "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperforms many of the available open source and closed chat models on common industry benchmarks.\n\nSupported languages: English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.\n\n[Model Card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md)",
-    "context_length": 131072,
+    "context_length": 8000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
@@ -3633,8 +3633,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
+      "context_length": 8000,
+      "max_completion_tokens": 8000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -6043,6 +6043,34 @@
     "top_provider": {
       "context_length": 128000,
       "max_completion_tokens": 32768,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "openai/o1-pro",
+    "name": "OpenAI: o1-pro",
+    "created": 1742423211,
+    "description": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o1-pro model uses more compute to think harder and provide consistently better answers.",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "GPT",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00015",
+      "completion": "0.0006",
+      "image": "0.21675",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 100000,
       "is_moderated": true
     },
     "per_request_limits": null
