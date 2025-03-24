@@ -874,7 +874,7 @@
     "description": "Claude 3.5 Haiku features offers enhanced capabilities in speed, coding accuracy, and tool use. Engineered to excel in real-time applications, it delivers quick response times that are essential for dynamic tasks such as chat interactions and immediate coding suggestions.\n\nThis makes it highly suitable for environments that demand both speed and precision, such as software development, customer service bots, and data management systems.\n\nThis model is currently pointing to [Claude 3.5 Haiku (2024-10-22)](/anthropic/claude-3-5-haiku-20241022).",
     "context_length": 200000,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+image->text",
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -902,7 +902,7 @@
     "description": "Claude 3.5 Haiku features enhancements across all skill sets including coding, tool use, and reasoning. As the fastest model in the Anthropic lineup, it offers rapid response times suitable for applications that require high interactivity and low latency, such as user-facing chatbots and on-the-fly code completions. It also excels in specialized tasks like data extraction and real-time content moderation, making it a versatile tool for a broad range of industries.\n\nIt does not support image inputs.\n\nSee the launch announcement and benchmark results [here](https://www.anthropic.com/news/3-5-models-and-computer-use)",
     "context_length": 200000,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+image->text",
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -930,7 +930,7 @@
     "description": "Claude 3.5 Haiku features enhancements across all skill sets including coding, tool use, and reasoning. As the fastest model in the Anthropic lineup, it offers rapid response times suitable for applications that require high interactivity and low latency, such as user-facing chatbots and on-the-fly code completions. It also excels in specialized tasks like data extraction and real-time content moderation, making it a versatile tool for a broad range of industries.\n\nIt does not support image inputs.\n\nSee the launch announcement and benchmark results [here](https://www.anthropic.com/news/3-5-models-and-computer-use)",
     "context_length": 200000,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+image->text",
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -958,7 +958,7 @@
     "description": "Claude 3.5 Haiku features offers enhanced capabilities in speed, coding accuracy, and tool use. Engineered to excel in real-time applications, it delivers quick response times that are essential for dynamic tasks such as chat interactions and immediate coding suggestions.\n\nThis makes it highly suitable for environments that demand both speed and precision, such as software development, customer service bots, and data management systems.\n\nThis model is currently pointing to [Claude 3.5 Haiku (2024-10-22)](/anthropic/claude-3-5-haiku-20241022).",
     "context_length": 200000,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+image->text",
       "tokenizer": "Claude",
       "instruct_type": null
     },
@@ -7060,7 +7060,7 @@
     "name": "Qwen: QwQ 32B (free)",
     "created": 1741208814,
     "description": "QwQ is the reasoning model of the Qwen series. Compared with conventional instruction-tuned models, QwQ, which is capable of thinking and reasoning, can achieve significantly enhanced performance in downstream tasks, especially hard problems. QwQ-32B is the medium-sized reasoning model, which is capable of achieving competitive performance against state-of-the-art reasoning models, e.g., DeepSeek-R1, o1-mini.",
-    "context_length": 131072,
+    "context_length": 40000,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Qwen",
@@ -7077,8 +7077,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "context_length": 40000,
+      "max_completion_tokens": 40000,
       "is_moderated": false
     },
     "per_request_limits": null
