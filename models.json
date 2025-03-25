@@ -1544,7 +1544,7 @@
     "name": "DeepSeek: DeepSeek V3",
     "created": 1735241320,
     "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations reveal that the model outperforms other open-source models and rivals leading closed-source models.\n\nFor model details, please visit [the DeepSeek-V3 repo](https://github.com/deepseek-ai/DeepSeek-V3) for more information, or see the [launch announcement](https://api-docs.deepseek.com/news/news1226).",
-    "context_length": 64000,
+    "context_length": 65536,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "DeepSeek",
@@ -1552,7 +1552,35 @@
     },
     "pricing": {
       "prompt": "0.0000004",
-      "completion": "0.0000013",
+      "completion": "0.00000089",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 65536,
+      "max_completion_tokens": 8192,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "deepseek/deepseek-chat-v3-0324",
+    "name": "DeepSeek: DeepSeek V3 0324",
+    "created": 1742824755,
+    "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.\n\nIt succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well on a variety of tasks.",
+    "context_length": 64000,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "DeepSeek",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000027",
+      "completion": "0.0000011",
       "image": "0",
       "request": "0",
       "input_cache_read": "0",
@@ -1562,7 +1590,35 @@
     },
     "top_provider": {
       "context_length": 64000,
-      "max_completion_tokens": 16000,
+      "max_completion_tokens": 8192,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "deepseek/deepseek-chat-v3-0324:free",
+    "name": "DeepSeek: DeepSeek V3 0324 (free)",
+    "created": 1742824755,
+    "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.\n\nIt succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well on a variety of tasks.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "DeepSeek",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1964,7 +2020,7 @@
     "name": "EVA Qwen2.5 72B",
     "created": 1732210606,
     "description": "EVA Qwen2.5 72B is a roleplay and storywriting specialist model. It's a full-parameter finetune of Qwen2.5-72B on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model.",
-    "context_length": 32000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Qwen",
@@ -1981,8 +2037,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32000,
-      "max_completion_tokens": null,
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2524,7 +2580,7 @@
     "name": "Google: Gemma 3 27B",
     "created": 1741756359,
     "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3 27B is Google's latest open source model, successor to [Gemma 2](google/gemma-2-27b-it)",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Gemini",
@@ -2541,7 +2597,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 131072,
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
@@ -2972,7 +3028,7 @@
     "name": "LatitudeGames: Wayfarer Large 70B Llama 3.3",
     "created": 1741636885,
     "description": "Wayfarer Large 70B is a roleplay and text-adventure model fine-tuned from Meta’s Llama-3.3-70B-Instruct. Specifically optimized for narrative-driven, challenging scenarios, it introduces realistic stakes, conflicts, and consequences often avoided by standard RLHF-aligned models. Trained using a curated blend of adventure, roleplay, and instructive fiction datasets, Wayfarer emphasizes tense storytelling, authentic player failure scenarios, and robust narrative immersion, making it uniquely suited for interactive fiction and gaming experiences.",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
@@ -2989,8 +3045,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 128000,
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4512,7 +4568,7 @@
     "name": "Mistral: Mistral Small 3.1 24B",
     "created": 1742238937,
     "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and vision tasks, including image analysis, programming, mathematical reasoning, and multilingual support across dozens of languages. Equipped with an extensive 128k token context window and optimized for efficient local inference, it supports use cases such as conversational agents, function calling, long-document comprehension, and privacy-sensitive deployments.",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Mistral",
@@ -4529,8 +4585,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": null,
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -6916,11 +6972,39 @@
     "per_request_limits": null
   },
   {
+    "id": "qwen/qwen2.5-vl-32b-instruct:free",
+    "name": "Qwen: Qwen2.5 VL 32B Instruct (free)",
+    "created": 1742839838,
+    "description": "Qwen2.5-VL-32B is a multimodal vision-language model fine-tuned through reinforcement learning for enhanced mathematical reasoning, structured outputs, and visual problem-solving capabilities. It excels at visual analysis tasks, including object recognition, textual interpretation within images, and precise event localization in extended videos. Qwen2.5-VL-32B demonstrates state-of-the-art performance across multimodal benchmarks such as MMMU, MathVista, and VideoMME, while maintaining strong reasoning and clarity in text-based tasks like MMLU, mathematical problem-solving, and code generation.",
+    "context_length": 8192,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Qwen",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 8192,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "qwen/qwen2.5-vl-72b-instruct",
     "name": "Qwen: Qwen2.5 VL 72B Instruct",
     "created": 1738410311,
     "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
-    "context_length": 32000,
+    "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Qwen",
@@ -6937,8 +7021,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32000,
-      "max_completion_tokens": null,
+      "context_length": 128000,
+      "max_completion_tokens": 128000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -7368,7 +7452,7 @@
     "name": "SteelSkull: L3.3 Electra R1 70B",
     "created": 1742067611,
     "description": "L3.3-Electra-R1-70 is the newest release of the Unnamed series. Built on a DeepSeek R1 Distill base, Electra-R1 integrates various models together to provide an intelligent and coherent model capable of providing deep character insights. Through proper prompting, the model demonstrates advanced reasoning capabilities and unprompted exploration of character inner thoughts and motivations. Read more about the model and [prompting here](https://huggingface.co/Steelskull/L3.3-Electra-R1-70b)",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Other",
@@ -7385,8 +7469,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": null,
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -7424,7 +7508,7 @@
     "name": "TheDrummer: Anubis Pro 105B V1",
     "created": 1741642290,
     "description": "Anubis Pro 105B v1 is an expanded and refined variant of Meta’s Llama 3.3 70B, featuring 50% additional layers and further fine-tuning to leverage its increased capacity. Designed for advanced narrative, roleplay, and instructional tasks, it demonstrates enhanced emotional intelligence, creativity, nuanced character portrayal, and superior prompt adherence compared to smaller models. Its larger parameter count allows for deeper contextual understanding and extended reasoning capabilities, optimized for engaging, intelligent, and coherent interactions.",
-    "context_length": 64000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Other",
@@ -7441,8 +7525,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 64000,
-      "max_completion_tokens": 64000,
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null
