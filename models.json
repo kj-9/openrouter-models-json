@@ -1544,7 +1544,7 @@
     "name": "DeepSeek: DeepSeek V3",
     "created": 1735241320,
     "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations reveal that the model outperforms other open-source models and rivals leading closed-source models.\n\nFor model details, please visit [the DeepSeek-V3 repo](https://github.com/deepseek-ai/DeepSeek-V3) for more information, or see the [launch announcement](https://api-docs.deepseek.com/news/news1226).",
-    "context_length": 65536,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "DeepSeek",
@@ -1561,8 +1561,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 65536,
-      "max_completion_tokens": 8192,
+      "context_length": 163840,
+      "max_completion_tokens": 163840,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1656,7 +1656,7 @@
     "name": "DeepSeek: R1",
     "created": 1737381095,
     "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model & [technical report](https://api-docs.deepseek.com/news/news250120).\n\nMIT licensed: Distill & commercialize freely!",
-    "context_length": 65536,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "DeepSeek",
@@ -1673,8 +1673,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 65536,
-      "max_completion_tokens": 8192,
+      "context_length": 163840,
+      "max_completion_tokens": 163840,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -1712,7 +1712,7 @@
     "name": "DeepSeek: R1 Distill Llama 70B (free)",
     "created": 1737663169,
     "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across multiple benchmarks, including:\n\n- AIME 2024 pass@1: 70.0\n- MATH-500 pass@1: 94.5\n- CodeForces Rating: 1633\n\nThe model leverages fine-tuning from DeepSeek R1's outputs, enabling competitive performance comparable to larger frontier models.",
-    "context_length": 128000,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Llama3",
@@ -1729,8 +1729,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": null,
+      "context_length": 8192,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2044,6 +2044,34 @@
     "per_request_limits": null
   },
   {
+    "id": "featherless/qwerky-72b:free",
+    "name": "Qwerky 72b (free)",
+    "created": 1742481597,
+    "description": "Qwerky-72B is a linear-attention RWKV variant of the Qwen 2.5 72B model, optimized to significantly reduce computational cost at scale. Leveraging linear attention, it achieves substantial inference speedups (>1000x) while retaining competitive accuracy on common benchmarks like ARC, HellaSwag, Lambada, and MMLU. It inherits knowledge and language support from Qwen 2.5, supporting approximately 30 languages, making it suitable for efficient inference in large-context applications.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": 4096,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "google/gemini-2.0-flash-001",
     "name": "Google: Gemini Flash 2.0",
     "created": 1738769413,
@@ -2240,11 +2268,11 @@
     "per_request_limits": null
   },
   {
-    "id": "google/gemini-exp-1206:free",
-    "name": "Google: Gemini Experimental 1206 (free)",
-    "created": 1733507713,
-    "description": "Experimental release (December 6, 2024) of Gemini.",
-    "context_length": 2097152,
+    "id": "google/gemini-2.5-pro-exp-03-25:free",
+    "name": "Google: Gemini Pro 2.5 Experimental (free)",
+    "created": 1742922099,
+    "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
+    "context_length": 1000000,
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Gemini",
@@ -2261,8 +2289,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 2097152,
-      "max_completion_tokens": 8192,
+      "context_length": 1000000,
+      "max_completion_tokens": 65536,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2552,7 +2580,7 @@
     "name": "Google: Gemma 3 1B (free)",
     "created": 1741963556,
     "description": "Gemma 3 1B is the smallest of the new Gemma 3 family. It handles context windows up to 32k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Note: Gemma 3 1B is not multimodal. For the smallest multimodal Gemma 3 model, please see [Gemma 3 4B](google/gemma-3-4b-it)",
-    "context_length": 32000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Gemini",
@@ -2569,7 +2597,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32000,
+      "context_length": 32768,
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
@@ -2587,9 +2615,9 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.0000003",
-      "completion": "0.0000005",
-      "image": "0",
+      "prompt": "0.0000001",
+      "completion": "0.0000002",
+      "image": "0.0000256",
       "request": "0",
       "input_cache_read": "0",
       "input_cache_write": "0",
@@ -4596,7 +4624,7 @@
     "name": "Mistral: Mistral Small 3.1 24B (free)",
     "created": 1742238937,
     "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and vision tasks, including image analysis, programming, mathematical reasoning, and multilingual support across dozens of languages. Equipped with an extensive 128k token context window and optimized for efficient local inference, it supports use cases such as conversational agents, function calling, long-document comprehension, and privacy-sensitive deployments.",
-    "context_length": 128000,
+    "context_length": 96000,
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Mistral",
@@ -4613,8 +4641,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 128000,
+      "context_length": 96000,
+      "max_completion_tokens": 96000,
       "is_moderated": false
     },
     "per_request_limits": null
