@@ -308,6 +308,34 @@
     "per_request_limits": null
   },
   {
+    "id": "allenai/molmo-7b-d:free",
+    "name": "AllenAI: Molmo 7B D (free)",
+    "created": 1743023247,
+    "description": "Molmo is a family of open vision-language models developed by the Allen Institute for AI. Molmo models are trained on PixMo, a dataset of 1 million, highly-curated image-text pairs. It has state-of-the-art performance among multimodal models with a similar size while being fully open-source. You can find all models in the Molmo family [here](https://huggingface.co/collections/allenai/molmo-66f379e6fe3b8ef090a8ca19). Learn more about the Molmo family [in the announcement blog post](https://molmo.allenai.org/blog) or the [paper](https://huggingface.co/papers/2409.17146).\n\nMolmo 7B-D is based on [Qwen2-7B](https://huggingface.co/Qwen/Qwen2-7B) and uses [OpenAI CLIP](https://huggingface.co/openai/clip-vit-large-patch14-336) as vision backbone. It performs comfortably between GPT-4V and GPT-4o on both academic benchmarks and human evaluation.\n\nThis checkpoint is a preview of the Molmo release. All artifacts used in creating Molmo (PixMo dataset, training code, evaluations, intermediate checkpoints) will be made available at a later date, furthering our commitment to open-source AI development and reproducibility.",
+    "context_length": 4096,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 4096,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "allenai/olmo-2-0325-32b-instruct",
     "name": "AllenAI: Olmo 2 32B Instruct",
     "created": 1741988556,
@@ -1172,6 +1200,34 @@
       "context_length": 200000,
       "max_completion_tokens": 128000,
       "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "bytedance-research/ui-tars-72b:free",
+    "name": "Bytedance: UI-TARS 72B  (free)",
+    "created": 1743020065,
+    "description": "UI-TARS 72B is an open-source multimodal AI model designed specifically for automating browser and desktop tasks through visual interaction and control. The model is built with a specialized vision architecture enabling accurate interpretation and manipulation of on-screen visual data. It supports automation tasks within web browsers as well as desktop applications, including Microsoft Office and VS Code.\n\nCore capabilities include intelligent screen detection, predictive action modeling, and efficient handling of repetitive interactions. UI-TARS employs supervised fine-tuning (SFT) tailored explicitly for computer control scenarios. It can be deployed locally or accessed via Hugging Face for demonstration purposes. Intended use cases encompass workflow automation, task scripting, and interactive desktop control applications.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
     },
     "per_request_limits": null
   },
@@ -6832,6 +6888,34 @@
     "per_request_limits": null
   },
   {
+    "id": "qwen/qwen-2.5-vl-7b-instruct:free",
+    "name": "Qwen: Qwen2.5-VL 7B Instruct (free)",
+    "created": 1724803200,
+    "description": "Qwen2.5 VL 7B is a multimodal LLM from the Qwen Team with the following key enhancements:\n\n- SoTA understanding of images of various resolution & ratio: Qwen2.5-VL achieves state-of-the-art performance on visual understanding benchmarks, including MathVista, DocVQA, RealWorldQA, MTVQA, etc.\n\n- Understanding videos of 20min+: Qwen2.5-VL can understand videos over 20 minutes for high-quality video-based question answering, dialog, content creation, etc.\n\n- Agent that can operate your mobiles, robots, etc.: with the abilities of complex reasoning and decision making, Qwen2.5-VL can be integrated with devices like mobile phones, robots, etc., for automatic operation based on visual environment and text instructions.\n\n- Multilingual Support: to serve global users, besides English and Chinese, Qwen2.5-VL now supports the understanding of texts in different languages inside images, including most European languages, Japanese, Korean, Arabic, Vietnamese, etc.\n\nFor more details, see this [blog post](https://qwenlm.github.io/blog/qwen2-vl/) and [GitHub repo](https://github.com/QwenLM/Qwen2-VL).\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
+    "context_length": 64000,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Qwen",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 64000,
+      "max_completion_tokens": 64000,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "qwen/qwen-max",
     "name": "Qwen: Qwen-Max ",
     "created": 1738402289,
@@ -6975,7 +7059,7 @@
     "id": "qwen/qwen2.5-32b-instruct",
     "name": "Qwen: Qwen2.5 32B Instruct",
     "created": 1741042744,
-    "description": "Qwen2.5 32B Instruct is the instruction-tuned variant of the latest Qwen large language model series. It provides enhanced instruction-following capabilities, improved proficiency in coding and mathematical reasoning, and robust handling of structured data and outputs such as JSON. It supports long-context processing up to 128K tokens and multilingual tasks across 29+ languages. The model has 32.5 billion parameters, 64 layers, and utilizes an advanced transformer architecture with RoPE, SwiGLU, RMSNorm, and Attention QKV bias.\n\nFor details, please refer to the [Qwen2.5 Blog](https://qwenlm.github.io/blog/qwen2.5/).",
+    "description": "Qwen2.5 32B Instruct is the instruction-tuned variant of the latest Qwen large language model series. It provides enhanced instruction-following capabilities, improved proficiency in coding and mathematical reasoning, and robust handling of structured data and outputs such as JSON. It supports long-context processing up to 128K tokens and multilingual tasks across 29+ languages. The model has 32.5 billion parameters, 64 layers, and utilizes an advanced transformer architecture with RoPE, SwiGLU, RMSNorm, and Attention QKV bias.\n\nFor more details, please refer to the [Qwen2.5 Blog](https://qwenlm.github.io/blog/qwen2.5/) .",
     "context_length": 131072,
     "architecture": {
       "modality": "text->text",
@@ -6994,7 +7078,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -7028,6 +7112,34 @@
     "per_request_limits": null
   },
   {
+    "id": "qwen/qwen2.5-vl-3b-instruct:free",
+    "name": "Qwen: Qwen2.5 VL 3B Instruct (free)",
+    "created": 1743014573,
+    "description": "Qwen2.5 VL 3B is a multimodal LLM from the Qwen Team with the following key enhancements:\n\n- SoTA understanding of images of various resolution & ratio: Qwen2.5-VL achieves state-of-the-art performance on visual understanding benchmarks, including MathVista, DocVQA, RealWorldQA, MTVQA, etc.\n\n- Agent that can operate your mobiles, robots, etc.: with the abilities of complex reasoning and decision making, Qwen2.5-VL can be integrated with devices like mobile phones, robots, etc., for automatic operation based on visual environment and text instructions.\n\n- Multilingual Support: to serve global users, besides English and Chinese, Qwen2.5-VL now supports the understanding of texts in different languages inside images, including most European languages, Japanese, Korean, Arabic, Vietnamese, etc.\n\nFor more details, see this [blog post](https://qwenlm.github.io/blog/qwen2-vl/) and [GitHub repo](https://github.com/QwenLM/Qwen2-VL).\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
+    "context_length": 64000,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Qwen",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 64000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "qwen/qwen2.5-vl-72b-instruct",
     "name": "Qwen: Qwen2.5 VL 72B Instruct",
     "created": 1738410311,
@@ -7050,7 +7162,7 @@
     },
     "top_provider": {
       "context_length": 128000,
-      "max_completion_tokens": 128000,
+      "max_completion_tokens": 32000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -7544,7 +7656,7 @@
     },
     "pricing": {
       "prompt": "0.0000008",
-      "completion": "0.0000008",
+      "completion": "0.000001",
       "image": "0",
       "request": "0",
       "input_cache_read": "0",
