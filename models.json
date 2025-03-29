@@ -200,7 +200,7 @@
     "name": "AionLabs: Aion-1.0",
     "created": 1738697557,
     "description": "Aion-1.0 is a multi-model system designed for high performance across various tasks, including reasoning and coding. It is built on DeepSeek-R1, augmented with additional models and techniques such as Tree of Thoughts (ToT) and Mixture of Experts (MoE). It is Aion Lab's most powerful reasoning model.",
-    "context_length": 32768,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Other",
@@ -217,7 +217,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
+      "context_length": 131072,
       "max_completion_tokens": 32768,
       "is_moderated": false
     },
@@ -228,7 +228,7 @@
     "name": "AionLabs: Aion-1.0-Mini",
     "created": 1738697107,
     "description": "Aion-1.0-Mini 32B parameter model is a distilled version of the DeepSeek-R1 model, designed for strong performance in reasoning domains such as mathematics, coding, and logic. It is a modified variant of a FuseAI model that outperforms R1-Distill-Qwen-32B and R1-Distill-Llama-70B, with benchmark results available on its [Hugging Face page](https://huggingface.co/FuseAI/FuseO1-DeepSeekR1-QwQ-SkyT1-32B-Preview), independently replicated for verification.",
-    "context_length": 32768,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "tokenizer": "Other",
@@ -245,7 +245,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
+      "context_length": 131072,
       "max_completion_tokens": 32768,
       "is_moderated": false
     },
@@ -2604,6 +2604,34 @@
     "per_request_limits": null
   },
   {
+    "id": "google/gemma-3-12b-it",
+    "name": "Google: Gemma 3 12B",
+    "created": 1741902625,
+    "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3 12B is the second largest in the family of Gemma 3 models after [Gemma 3 27B](google/gemma-3-27b-it)",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Gemini",
+      "instruct_type": "gemma"
+    },
+    "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.0000001",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "google/gemma-3-12b-it:free",
     "name": "Google: Gemma 3 12B (free)",
     "created": 1741902625,
@@ -2711,6 +2739,34 @@
     "top_provider": {
       "context_length": 96000,
       "max_completion_tokens": 8192,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "google/gemma-3-4b-it",
+    "name": "Google: Gemma 3 4B",
+    "created": 1741905510,
+    "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text+image->text",
+      "tokenizer": "Gemini",
+      "instruct_type": "gemma"
+    },
+    "pricing": {
+      "prompt": "0.00000002",
+      "completion": "0.00000004",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -7144,16 +7200,16 @@
     "name": "Qwen: Qwen2.5 VL 72B Instruct",
     "created": 1738410311,
     "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
-    "context_length": 32768,
+    "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Qwen",
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "image": "0.00000195",
+      "prompt": "0.0000007",
+      "completion": "0.0000007",
+      "image": "0",
       "request": "0",
       "input_cache_read": "0",
       "input_cache_write": "0",
@@ -7161,8 +7217,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
+      "context_length": 128000,
+      "max_completion_tokens": 128000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -7527,6 +7583,62 @@
     "top_provider": {
       "context_length": 131072,
       "max_completion_tokens": 8192,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "scb10x/llama3.1-typhoon2-70b-instruct",
+    "name": "Typhoon2 70B Instruct",
+    "created": 1743196170,
+    "description": "Llama3.1-Typhoon2-70B-Instruct is a Thai-English instruction-tuned language model with 70 billion parameters, built on Llama 3.1. It demonstrates strong performance across general instruction-following, math, coding, and tool-use tasks, with state-of-the-art results in Thai-specific benchmarks such as IFEval, MT-Bench, and Thai-English code-switching.\n\nThe model excels in bilingual reasoning and function-calling scenarios, offering high accuracy across diverse domains. Comparative evaluations show consistent improvements over prior Thai LLMs and other Llama-based baselines. Full results and methodology are available in the [technical report.](https://arxiv.org/abs/2412.13702)",
+    "context_length": 8192,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama3",
+      "instruct_type": "llama3"
+    },
+    "pricing": {
+      "prompt": "0.00000088",
+      "completion": "0.00000088",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 8192,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "scb10x/llama3.1-typhoon2-8b-instruct",
+    "name": "Typhoon2 8B Instruct",
+    "created": 1743196511,
+    "description": "Llama3.1-Typhoon2-8B-Instruct is a Thai-English instruction-tuned model with 8 billion parameters, built on Llama 3.1. It significantly improves over its base model in Thai reasoning, instruction-following, and function-calling tasks, while maintaining competitive English performance. The model is optimized for bilingual interaction and performs well on Thai-English code-switching, MT-Bench, IFEval, and tool-use benchmarks.\n\nDespite its smaller size, it demonstrates strong generalization across math, coding, and multilingual benchmarks, outperforming comparable 8B models across most Thai-specific tasks. Full benchmark results and methodology are available in the [technical report.](https://arxiv.org/abs/2412.13702)",
+    "context_length": 8192,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "Llama3",
+      "instruct_type": "llama3"
+    },
+    "pricing": {
+      "prompt": "0.00000018",
+      "completion": "0.00000018",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 8192,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
