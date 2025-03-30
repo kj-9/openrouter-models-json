@@ -2016,6 +2016,34 @@
     "per_request_limits": null
   },
   {
+    "id": "deepseek/deepseek-v3-base:free",
+    "name": "DeepSeek: DeepSeek V3 Base (free)",
+    "created": 1743272023,
+    "description": "Note that this is a base model mostly meant for testing, you need to provide detailed prompts for the model to return useful responses. \n\nDeepSeek-V3 Base is a 671B parameter open Mixture-of-Experts (MoE) language model with 37B active parameters per forward pass and a context length of 128K tokens. Trained on 14.8T tokens using FP8 mixed precision, it achieves high training efficiency and stability, with strong performance across language, reasoning, math, and coding tasks. \n\nDeepSeek-V3 Base is the pre-trained model behind [DeepSeek V3](/deepseek/deepseek-chat-v3)",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "tokenizer": "DeepSeek",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "image": "0",
+      "request": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "eva-unit-01/eva-llama-3.33-70b",
     "name": "EVA Llama 3.33 70B",
     "created": 1734377303,
@@ -2212,34 +2240,6 @@
     "per_request_limits": null
   },
   {
-    "id": "google/gemini-2.0-flash-lite-preview-02-05:free",
-    "name": "Google: Gemini Flash Lite 2.0 Preview (free)",
-    "created": 1738768262,
-    "description": "Gemini Flash Lite 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). Because it's currently in preview, it will be **heavily rate-limited** by Google. This model will move from free to paid pending a general rollout on February 24th, at $0.075 / $0.30 per million input / ouput tokens respectively.",
-    "context_length": 1000000,
-    "architecture": {
-      "modality": "text+image->text",
-      "tokenizer": "Gemini",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "image": "0",
-      "request": "0",
-      "input_cache_read": "0",
-      "input_cache_write": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 1000000,
-      "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "google/gemini-2.0-flash-thinking-exp-1219:free",
     "name": "Google: Gemini 2.0 Flash Thinking Experimental (free)",
     "created": 1734650026,
@@ -2346,7 +2346,7 @@
     },
     "top_provider": {
       "context_length": 1000000,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 65535,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -7200,7 +7200,7 @@
     "name": "Qwen: Qwen2.5 VL 72B Instruct",
     "created": 1738410311,
     "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
-    "context_length": 128000,
+    "context_length": 32000,
     "architecture": {
       "modality": "text+image->text",
       "tokenizer": "Qwen",
@@ -7217,8 +7217,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 128000,
+      "context_length": 32000,
+      "max_completion_tokens": 32000,
       "is_moderated": false
     },
     "per_request_limits": null
