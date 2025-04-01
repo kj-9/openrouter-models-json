@@ -4387,7 +4387,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4525,7 +4525,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5112,11 +5112,45 @@
     "per_request_limits": null
   },
   {
+    "id": "mistral/ministral-8b",
+    "name": "Mistral: Ministral 8b",
+    "created": 1743430021,
+    "description": "Ministral 8B is a state-of-the-art language model optimized for on-device and edge computing. Designed for efficiency in knowledge-intensive tasks, commonsense reasoning, and function-calling, it features a specialized interleaved sliding-window attention mechanism, enabling faster and more memory-efficient inference. Ministral 8B excels in local, low-latency applications such as offline translation, smart assistants, autonomous robotics, and local analytics.\n\nThe model supports up to 128k context length and can function as a performant intermediary in multi-step agentic workflows, efficiently handling tasks like input parsing, API calls, and task routing. It consistently outperforms comparable models like Mistral 7B across benchmarks, making it particularly suitable for compute-efficient, privacy-focused scenarios.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Mistral",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000001",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "mistralai/codestral-2501",
     "name": "Mistral: Codestral 2501",
     "created": 1736895522,
     "description": "[Mistral](/mistralai)'s cutting-edge language model for coding. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation. \n\nLearn more on their blog post: https://mistral.ai/news/codestral-2501/",
-    "context_length": 256000,
+    "context_length": 262144,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5139,7 +5173,7 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 256000,
+      "context_length": 262144,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -5150,7 +5184,7 @@
     "name": "Mistral: Codestral Mamba",
     "created": 1721347200,
     "description": "A 7.3B parameter Mamba-based model designed for code and reasoning tasks.\n\n- Linear time inference, allowing for theoretically infinite sequence lengths\n- 256k token context window\n- Optimized for quick responses, especially beneficial for code productivity\n- Performs comparably to state-of-the-art transformer models in code and reasoning tasks\n- Available under the Apache 2.0 license for free use, modification, and distribution",
-    "context_length": 256000,
+    "context_length": 262144,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5173,7 +5207,7 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 256000,
+      "context_length": 262144,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -5184,7 +5218,7 @@
     "name": "Mistral: Ministral 3B",
     "created": 1729123200,
     "description": "Ministral 3B is a 3B parameter model optimized for on-device and edge computing. It excels in knowledge, commonsense reasoning, and function-calling, outperforming larger models like Mistral 7B on most benchmarks. Supporting up to 128k context length, it’s ideal for orchestrating agentic workflows and specialist tasks with efficient inference.",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5207,7 +5241,7 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -5456,7 +5490,7 @@
     "name": "Mistral Large 2407",
     "created": 1731978415,
     "description": "This is Mistral AI's flagship model, Mistral Large 2 (version mistral-large-2407). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](https://mistral.ai/news/mistral-large-2407/).\n\nIt supports dozens of languages including French, German, Spanish, Italian, Portuguese, Arabic, Hindi, Russian, Chinese, Japanese, and Korean, along with 80+ coding languages including Python, Java, C, C++, JavaScript, and Bash. Its long context window allows precise information recall from large documents.\n",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5479,7 +5513,7 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -5490,7 +5524,7 @@
     "name": "Mistral Large 2411",
     "created": 1731978685,
     "description": "Mistral Large 2 2411 is an update of [Mistral Large 2](/mistralai/mistral-large) released together with [Pixtral Large 2411](/mistralai/pixtral-large-2411)\n\nIt provides a significant upgrade on the previous [Mistral Large 24.07](/mistralai/mistral-large-2407), with notable improvements in long context understanding, a new system prompt, and more accurate function calling.",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5513,7 +5547,7 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -5524,7 +5558,7 @@
     "name": "Mistral Medium",
     "created": 1704844800,
     "description": "This is Mistral AI's closed-source, medium-sided model. It's powered by a closed-source prototype and excels at reasoning, code, JSON, chat, and more. In benchmarks, it compares with many of the flagship models of other companies.",
-    "context_length": 32000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5547,7 +5581,7 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 32000,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -5626,7 +5660,7 @@
     "name": "Mistral: Saba",
     "created": 1739803239,
     "description": "Mistral Saba is a 24B-parameter language model specifically designed for the Middle East and South Asia, delivering accurate and contextually relevant responses while maintaining efficient performance. Trained on curated regional datasets, it supports multiple Indian-origin languages—including Tamil and Malayalam—alongside Arabic. This makes it a versatile option for a range of regional and multilingual applications. Read more at the blog post [here](https://mistral.ai/en/news/mistral-saba)",
-    "context_length": 32000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5649,7 +5683,7 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 32000,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -5660,7 +5694,7 @@
     "name": "Mistral Small",
     "created": 1704844800,
     "description": "With 22 billion parameters, Mistral Small v24.09 offers a convenient mid-point between (Mistral NeMo 12B)[/mistralai/mistral-nemo] and (Mistral Large 2)[/mistralai/mistral-large], providing a cost-effective solution that can be deployed across various platforms and environments. It has better reasoning, exhibits more capabilities, can produce and reason about code, and is multiligual, supporting English, French, German, Italian, and Spanish.",
-    "context_length": 32000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5683,7 +5717,7 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 32000,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -5762,7 +5796,7 @@
     "name": "Mistral: Mistral Small 3.1 24B",
     "created": 1742238937,
     "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and vision tasks, including image analysis, programming, mathematical reasoning, and multilingual support across dozens of languages. Equipped with an extensive 128k token context window and optimized for efficient local inference, it supports use cases such as conversational agents, function calling, long-document comprehension, and privacy-sensitive deployments.",
-    "context_length": 131072,
+    "context_length": 32768,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -5779,15 +5813,15 @@
       "prompt": "0.0000001",
       "completion": "0.0000003",
       "request": "0",
-      "image": "0.000926",
+      "image": "0.0009264",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0",
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "context_length": 32768,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5831,8 +5865,8 @@
     "id": "mistralai/mistral-tiny",
     "name": "Mistral Tiny",
     "created": 1704844800,
-    "description": "This model is currently powered by Mistral-7B-v0.2, and incorporates a \"better\" fine-tuning than [Mistral 7B](/models/mistralai/mistral-7b-instruct-v0.1), inspired by community work. It's best used for large batch processing tasks where cost is a significant factor but reasoning capabilities are not crucial.",
-    "context_length": 32000,
+    "description": "Note: This model is being deprecated. Recommended replacement is the newer [Ministral 8B](/mistral/ministral-8b)\n\nThis model is currently powered by Mistral-7B-v0.2, and incorporates a \"better\" fine-tuning than [Mistral 7B](/models/mistralai/mistral-7b-instruct-v0.1), inspired by community work. It's best used for large batch processing tasks where cost is a significant factor but reasoning capabilities are not crucial.",
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5855,7 +5889,7 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 32000,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -5968,7 +6002,7 @@
     "name": "Mistral: Pixtral 12B",
     "created": 1725926400,
     "description": "The first multi-modal, text+image-to-text model from Mistral AI. Its weights were launched via torrent: https://x.com/mistralai/status/1833758285167722836.",
-    "context_length": 4096,
+    "context_length": 32768,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -5992,7 +6026,7 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 4096,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -6003,7 +6037,7 @@
     "name": "Mistral: Pixtral Large 2411",
     "created": 1731977388,
     "description": "Pixtral Large is a 124B parameter, open-weight, multimodal model built on top of [Mistral Large 2](/mistralai/mistral-large-2411). The model is able to understand documents, charts and natural images.\n\nThe model is available under the Mistral Research License (MRL) for research and educational use, and the Mistral Commercial License for experimentation, testing, and production for commercial purposes.\n\n",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -6027,7 +6061,7 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -8432,7 +8466,7 @@
     "name": "Qwen: Qwen2.5-VL 72B Instruct",
     "created": 1726617600,
     "description": "Qwen2.5 VL 72B is a multimodal LLM from the Qwen Team with the following key enhancements:\n\n- SoTA understanding of images of various resolution & ratio: Qwen2.5-VL achieves state-of-the-art performance on visual understanding benchmarks, including MathVista, DocVQA, RealWorldQA, MTVQA, etc.\n\n- Understanding videos of 20min+: Qwen2.5-VL can understand videos over 20 minutes for high-quality video-based question answering, dialog, content creation, etc.\n\n- Agent that can operate your mobiles, robots, etc.: with the abilities of complex reasoning and decision making, Qwen2.5-VL can be integrated with devices like mobile phones, robots, etc., for automatic operation based on visual environment and text instructions.\n\n- Multilingual Support: to serve global users, besides English and Chinese, Qwen2.5-VL now supports the understanding of texts in different languages inside images, including most European languages, Japanese, Korean, Arabic, Vietnamese, etc.\n\nFor more details, see this [blog post](https://qwenlm.github.io/blog/qwen2-vl/) and [GitHub repo](https://github.com/QwenLM/Qwen2-VL).\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
-    "context_length": 4096,
+    "context_length": 32768,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -8456,7 +8490,7 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 4096,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -8467,7 +8501,7 @@
     "name": "Qwen: Qwen2.5-VL 7B Instruct",
     "created": 1724803200,
     "description": "Qwen2.5 VL 7B is a multimodal LLM from the Qwen Team with the following key enhancements:\n\n- SoTA understanding of images of various resolution & ratio: Qwen2.5-VL achieves state-of-the-art performance on visual understanding benchmarks, including MathVista, DocVQA, RealWorldQA, MTVQA, etc.\n\n- Understanding videos of 20min+: Qwen2.5-VL can understand videos over 20 minutes for high-quality video-based question answering, dialog, content creation, etc.\n\n- Agent that can operate your mobiles, robots, etc.: with the abilities of complex reasoning and decision making, Qwen2.5-VL can be integrated with devices like mobile phones, robots, etc., for automatic operation based on visual environment and text instructions.\n\n- Multilingual Support: to serve global users, besides English and Chinese, Qwen2.5-VL now supports the understanding of texts in different languages inside images, including most European languages, Japanese, Korean, Arabic, Vietnamese, etc.\n\nFor more details, see this [blog post](https://qwenlm.github.io/blog/qwen2-vl/) and [GitHub repo](https://github.com/QwenLM/Qwen2-VL).\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
-    "context_length": 4096,
+    "context_length": 32768,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -8491,7 +8525,7 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 4096,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -8813,7 +8847,7 @@
     "name": "Qwen: Qwen2.5 VL 72B Instruct",
     "created": 1738410311,
     "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
-    "context_length": 32000,
+    "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -8837,8 +8871,8 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 32000,
-      "max_completion_tokens": 32000,
+      "context_length": 128000,
+      "max_completion_tokens": 128000,
       "is_moderated": false
     },
     "per_request_limits": null
