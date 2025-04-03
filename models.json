@@ -340,6 +340,40 @@
     "per_request_limits": null
   },
   {
+    "id": "all-hands/openhands-lm-32b-v0.1",
+    "name": "OpenHands LM 32B V0.1",
+    "created": 1743613013,
+    "description": "OpenHands LM v0.1 is a 32B open-source coding model fine-tuned from Qwen2.5-Coder-32B-Instruct using reinforcement learning techniques outlined in SWE-Gym. It is optimized for autonomous software development agents and achieves strong performance on SWE-Bench Verified, with a 37.2% resolve rate. The model supports a 128K token context window, making it well-suited for long-horizon code reasoning and large codebase tasks.\n\nOpenHands LM is designed for local deployment and runs on consumer-grade GPUs such as a single 3090. It enables fully offline agent workflows without dependency on proprietary APIs. This release is intended as a research preview, and future updates aim to improve generalizability, reduce repetition, and offer smaller variants.",
+    "context_length": 16384,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000024",
+      "completion": "0.0000036",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0"
+    },
+    "top_provider": {
+      "context_length": 16384,
+      "max_completion_tokens": 4095,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "allenai/molmo-7b-d:free",
     "name": "AllenAI: Molmo 7B D (free)",
     "created": 1743023247,
@@ -1372,8 +1406,8 @@
     },
     "top_provider": {
       "context_length": 200000,
-      "max_completion_tokens": 128000,
-      "is_moderated": true
+      "max_completion_tokens": 64000,
+      "is_moderated": false
     },
     "per_request_limits": null
   },
@@ -1442,8 +1476,8 @@
     },
     "top_provider": {
       "context_length": 200000,
-      "max_completion_tokens": 128000,
-      "is_moderated": true
+      "max_completion_tokens": 64000,
+      "is_moderated": false
     },
     "per_request_limits": null
   },
@@ -1636,8 +1670,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000095",
-      "completion": "0.0000019",
+      "prompt": "0.000001",
+      "completion": "0.000002",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -1704,8 +1738,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000475",
-      "completion": "0.000001425",
+      "prompt": "0.0000005",
+      "completion": "0.0000015",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -1738,8 +1772,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000475",
-      "completion": "0.000001425",
+      "prompt": "0.0000005",
+      "completion": "0.0000015",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -1772,8 +1806,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000001425",
-      "completion": "0.00000057",
+      "prompt": "0.00000015",
+      "completion": "0.0000006",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -1806,8 +1840,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000285",
-      "completion": "0.00001425",
+      "prompt": "0.000003",
+      "completion": "0.000015",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -1840,8 +1874,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000285",
-      "completion": "0.00001425",
+      "prompt": "0.000003",
+      "completion": "0.000015",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -1874,8 +1908,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000002375",
-      "completion": "0.0000095",
+      "prompt": "0.0000025",
+      "completion": "0.00001",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -2133,7 +2167,7 @@
     "name": "DeepSeek: R1 Distill Llama 70B (free)",
     "created": 1737663169,
     "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across multiple benchmarks, including:\n\n- AIME 2024 pass@1: 70.0\n- MATH-500 pass@1: 94.5\n- CodeForces Rating: 1633\n\nThe model leverages fine-tuning from DeepSeek R1's outputs, enabling competitive performance comparable to larger frontier models.",
-    "context_length": 8192,
+    "context_length": 128000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2156,8 +2190,8 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
+      "context_length": 128000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3076,8 +3110,8 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.00000027",
-      "completion": "0.00000027",
+      "prompt": "0.0000008",
+      "completion": "0.0000008",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3087,7 +3121,7 @@
     },
     "top_provider": {
       "context_length": 8192,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3110,8 +3144,8 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.00000003",
-      "completion": "0.00000006",
+      "prompt": "0.00000007",
+      "completion": "0.00000007",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3121,7 +3155,7 @@
     },
     "top_provider": {
       "context_length": 8192,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3406,40 +3440,6 @@
     "per_request_limits": null
   },
   {
-    "id": "google/gemma-7b-it",
-    "name": "Google: Gemma 7B",
-    "created": 1708560000,
-    "description": "Gemma by Google is an advanced, open-source language model family, leveraging the latest in decoder-only, text-to-text technology. It offers English language capabilities across text generation tasks like question answering, summarization, and reasoning. The Gemma 7B variant is comparable in performance to leading open source models.\n\nUsage of Gemma is subject to Google's [Gemma Terms of Use](https://ai.google.dev/gemma/terms).",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Gemini",
-      "instruct_type": "gemma"
-    },
-    "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.00000015",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0",
-      "input_cache_write": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "google/learnlm-1.5-pro-experimental:free",
     "name": "Google: LearnLM 1.5 Pro Experimental (free)",
     "created": 1732216551,
@@ -3640,40 +3640,6 @@
     "top_provider": {
       "context_length": 4096,
       "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "gryphe/mythomax-l2-13b:free",
-    "name": "MythoMax 13B (free)",
-    "created": 1688256000,
-    "description": "One of the highest performing and most popular fine-tunes of Llama 2 13B, with rich descriptions and roleplay. #merge",
-    "context_length": 4096,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama2",
-      "instruct_type": "alpaca"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0",
-      "input_cache_write": "0"
-    },
-    "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4150,40 +4116,6 @@
     "top_provider": {
       "context_length": 8192,
       "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "meta-llama/llama-3-8b-instruct:free",
-    "name": "Meta: Llama 3 8B Instruct (free)",
-    "created": 1713398400,
-    "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 8B instruct-tuned version was optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0",
-      "input_cache_write": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -7752,7 +7684,7 @@
     "name": "OpenChat 3.5 7B",
     "created": 1701129600,
     "description": "OpenChat 7B is a library of open-source language models, fine-tuned with \"C-RLFT (Conditioned Reinforcement Learning Fine-Tuning)\" - a strategy inspired by offline reinforcement learning. It has been trained on mixed-quality data without preference labels.\n\n- For OpenChat fine-tuned on Mistral 7B, check out [OpenChat 7B](/models/openchat/openchat-7b).\n- For OpenChat fine-tuned on Llama 8B, check out [OpenChat 8B](/models/openchat/openchat-8b).\n\n#open-source",
-    "context_length": 8192,
+    "context_length": 4096,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -7765,8 +7697,8 @@
       "instruct_type": "openchat"
     },
     "pricing": {
-      "prompt": "0.000000055",
-      "completion": "0.000000055",
+      "prompt": "0.00000006",
+      "completion": "0.00000006",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -7775,8 +7707,8 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 8192,
+      "context_length": 4096,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -9134,8 +9066,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.0000007",
-      "completion": "0.0000008",
+      "prompt": "0.00000148",
+      "completion": "0.00000148",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9168,8 +9100,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000003",
-      "completion": "0.00000006",
+      "prompt": "0.00000005",
+      "completion": "0.00000005",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9179,7 +9111,7 @@
     },
     "top_provider": {
       "context_length": 8192,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
