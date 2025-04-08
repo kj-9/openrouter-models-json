@@ -2685,39 +2685,6 @@
     "per_request_limits": null
   },
   {
-    "id": "google/gemini-2.0-pro-exp-02-05:free",
-    "name": "Google: Gemini 2.0 Pro Experimental (free)",
-    "created": 1738768044,
-    "description": "Gemini 2.0 Pro Experimental is a bleeding-edge version of the Gemini 2.0 Pro model. Because it's currently experimental, it will be **heavily rate-limited** by Google.\n\nUsage of Gemini is subject to Google's [Gemini Terms of Use](https://ai.google.dev/terms).\n\n#multimodal",
-    "context_length": 2000000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Gemini",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 2000000,
-      "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "google/gemini-2.5-pro-exp-03-25:free",
     "name": "Google: Gemini 2.5 Pro Experimental (free)",
     "created": 1742922099,
@@ -3074,7 +3041,7 @@
     },
     "top_provider": {
       "context_length": 8192,
-      "max_completion_tokens": 4096,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -3809,7 +3776,7 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.00000084375",
+      "prompt": "0.000001125",
       "completion": "0.000001125",
       "request": "0",
       "image": "0",
@@ -4473,7 +4440,7 @@
     "name": "Meta: Llama 4 Scout",
     "created": 1743881519,
     "description": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input (text and image) and multilingual output (text and code) across 12 supported languages. Designed for assistant-style interaction and visual reasoning, Scout uses 16 experts per forward pass and features a context length of 10 million tokens, with a training corpus of ~40 trillion tokens.\n\nBuilt for high efficiency and local or commercial deployment, Llama 4 Scout incorporates early fusion for seamless modality integration. It is instruction-tuned for use in multilingual chat, captioning, and image understanding tasks. Released under the Llama 4 Community License, it was last trained on data up to August 2024 and launched publicly on April 5, 2025.",
-    "context_length": 172000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -4487,16 +4454,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000009",
-      "completion": "0.00000048",
+      "prompt": "0.00000008",
+      "completion": "0.00000045",
       "request": "0",
-      "image": "0.00046788",
+      "image": "0.0005013",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 172000,
-      "max_completion_tokens": null,
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4631,38 +4598,6 @@
     "per_request_limits": null
   },
   {
-    "id": "microsoft/phi-3-medium-128k-instruct:free",
-    "name": "Microsoft: Phi-3 Medium 128K Instruct (free)",
-    "created": 1716508800,
-    "description": "Phi-3 128K Medium is a powerful 14-billion parameter model designed for advanced language understanding, reasoning, and instruction following. Optimized through supervised fine-tuning and preference adjustments, it excels in tasks involving common sense, mathematics, logical reasoning, and code processing.\n\nAt time of release, Phi-3 Medium demonstrated state-of-the-art performance among lightweight models. In the MMLU-Pro eval, the model even comes close to a Llama3 70B level of performance.\n\nFor 4k context length, try [Phi-3 Medium 4K](/models/microsoft/phi-3-medium-4k-instruct).",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": "phi3"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "microsoft/phi-3-mini-128k-instruct",
     "name": "Microsoft: Phi-3 Mini 128K Instruct",
     "created": 1716681600,
@@ -4690,38 +4625,6 @@
     "top_provider": {
       "context_length": 128000,
       "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "microsoft/phi-3-mini-128k-instruct:free",
-    "name": "Microsoft: Phi-3 Mini 128K Instruct (free)",
-    "created": 1716681600,
-    "description": "Phi-3 Mini is a powerful 3.8B parameter model designed for advanced language understanding, reasoning, and instruction following. Optimized through supervised fine-tuning and preference adjustments, it excels in tasks involving common sense, mathematics, logical reasoning, and code processing.\n\nAt time of release, Phi-3 Medium demonstrated state-of-the-art performance among lightweight models. This model is static, trained on an offline dataset with an October 2023 cutoff date.",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": "phi3"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -7480,38 +7383,6 @@
     "per_request_limits": null
   },
   {
-    "id": "openchat/openchat-7b:free",
-    "name": "OpenChat 3.5 7B (free)",
-    "created": 1701129600,
-    "description": "OpenChat 7B is a library of open-source language models, fine-tuned with \"C-RLFT (Conditioned Reinforcement Learning Fine-Tuning)\" - a strategy inspired by offline reinforcement learning. It has been trained on mixed-quality data without preference labels.\n\n- For OpenChat fine-tuned on Mistral 7B, check out [OpenChat 7B](/models/openchat/openchat-7b).\n- For OpenChat fine-tuned on Llama 8B, check out [OpenChat 8B](/models/openchat/openchat-8b).\n\n#open-source",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": "openchat"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "openrouter/auto",
     "name": "Auto Router",
     "created": 1699401600,
@@ -7974,8 +7845,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.000000025",
-      "completion": "0.00000005",
+      "prompt": "0.00000005",
+      "completion": "0.0000001",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9338,38 +9209,6 @@
     "top_provider": {
       "context_length": 4096,
       "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "undi95/toppy-m-7b:free",
-    "name": "Toppy M 7B (free)",
-    "created": 1699574400,
-    "description": "A wild 7B parameter model that merges several models using the new task_arithmetic merge method from mergekit.\nList of merged models:\n- NousResearch/Nous-Capybara-7B-V1.9\n- [HuggingFaceH4/zephyr-7b-beta](/models/huggingfaceh4/zephyr-7b-beta)\n- lemonilia/AshhLimaRP-Mistral-7B\n- Vulkane/120-Days-of-Sodom-LoRA-Mistral-7b\n- Undi95/Mistral-pippa-sharegpt-7b-qlora\n\n#merge #uncensored",
-    "context_length": 4096,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": "alpaca"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null
