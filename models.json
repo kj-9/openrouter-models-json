@@ -5595,38 +5595,6 @@
     "per_request_limits": null
   },
   {
-    "id": "mistralai/mixtral-8x7b",
-    "name": "Mistral: Mixtral 8x7B (base)",
-    "created": 1702166400,
-    "description": "Mixtral 8x7B is a pretrained generative Sparse Mixture of Experts, by Mistral AI. Incorporates 8 experts (feed-forward networks) for a total of 47B parameters. Base model (not fine-tuned for instructions) - see [Mixtral 8x7B Instruct](/models/mistralai/mixtral-8x7b-instruct) for an instruct-tuned model.\n\n#moe",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": "none"
-    },
-    "pricing": {
-      "prompt": "0.0000006",
-      "completion": "0.0000006",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": 2048,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "mistralai/mixtral-8x7b-instruct",
     "name": "Mistral: Mixtral 8x7B Instruct",
     "created": 1702166400,
@@ -5714,6 +5682,39 @@
       "completion": "0.000006",
       "request": "0",
       "image": "0.002888",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "moonshotai/kimi-vl-a3b-thinking:free",
+    "name": "Moonshot AI: Kimi VL A3B Thinking (free)",
+    "created": 1744304841,
+    "description": "Kimi-VL is a lightweight Mixture-of-Experts vision-language model that activates only 2.8B parameters per step while delivering strong performance on multimodal reasoning and long-context tasks. The Kimi-VL-A3B-Thinking variant, fine-tuned with chain-of-thought and reinforcement learning, excels in math and visual reasoning benchmarks like MathVision, MMMU, and MathVista, rivaling much larger models such as Qwen2.5-VL-7B and Gemma-3-12B. It supports 128K context and high-resolution input via its MoonViT encoder.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7508,10 +7509,43 @@
     "per_request_limits": null
   },
   {
+    "id": "openrouter/optimus-alpha",
+    "name": "Optimus Alpha",
+    "created": 1744291819,
+    "description": "This is a cloaked model provided to the community to gather feedback. It's geared toward real world use cases, including programming.\n\n**Note:** All prompts and completions for this model are logged by the provider and may be used to improve the model.",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 32000,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "openrouter/quasar-alpha",
     "name": "Quasar Alpha",
     "created": 1743626809,
-    "description": "This is a cloaked model provided to the community to gather feedback. It’s a powerful, all-purpose model supporting long-context tasks, including code generation. All prompts and completions for this model are logged by the provider as well as OpenRouter.",
+    "description": "This is a cloaked model provided to the community to gather feedback. It’s a powerful, all-purpose model supporting long-context tasks, including code generation.\n\n**Note:** All prompts and completions for this model are logged by the provider  and may be used to improve the model.",
     "context_length": 1000000,
     "architecture": {
       "modality": "text+image->text",
