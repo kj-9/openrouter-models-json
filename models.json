@@ -1948,7 +1948,7 @@
     "name": "DeepSeek: DeepSeek V3 0324 (free)",
     "created": 1742824755,
     "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.\n\nIt succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well on a variety of tasks.",
-    "context_length": 131072,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -1969,7 +1969,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 163840,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -1980,7 +1980,7 @@
     "name": "DeepSeek: DeepSeek V3 (free)",
     "created": 1735241320,
     "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations reveal that the model outperforms other open-source models and rivals leading closed-source models.\n\nFor model details, please visit [the DeepSeek-V3 repo](https://github.com/deepseek-ai/DeepSeek-V3) for more information, or see the [launch announcement](https://api-docs.deepseek.com/news/news1226).",
-    "context_length": 131072,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2001,7 +2001,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 163840,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -2044,7 +2044,7 @@
     "name": "DeepSeek: R1 Distill Llama 70B",
     "created": 1737663169,
     "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across multiple benchmarks, including:\n\n- AIME 2024 pass@1: 70.0\n- MATH-500 pass@1: 94.5\n- CodeForces Rating: 1633\n\nThe model leverages fine-tuning from DeepSeek R1's outputs, enabling competitive performance comparable to larger frontier models.",
-    "context_length": 131072,
+    "context_length": 128000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2057,16 +2057,16 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000006",
+      "prompt": "0.00000017",
+      "completion": "0.0000004",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "context_length": 128000,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2364,7 +2364,7 @@
     "name": "DeepSeek: DeepSeek V3 Base (free)",
     "created": 1743272023,
     "description": "Note that this is a base model mostly meant for testing, you need to provide detailed prompts for the model to return useful responses. \n\nDeepSeek-V3 Base is a 671B parameter open Mixture-of-Experts (MoE) language model with 37B active parameters per forward pass and a context length of 128K tokens. Trained on 14.8T tokens using FP8 mixed precision, it achieves high training efficiency and stability, with strong performance across language, reasoning, math, and coding tasks. \n\nDeepSeek-V3 Base is the pre-trained model behind [DeepSeek V3](/deepseek/deepseek-chat-v3)",
-    "context_length": 131072,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2385,7 +2385,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 163840,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -3873,7 +3873,7 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000023",
+      "prompt": "0.0000003",
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
@@ -4002,7 +4002,7 @@
     },
     "pricing": {
       "prompt": "0.00000012",
-      "completion": "0.0000003",
+      "completion": "0.00000028",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -4034,7 +4034,7 @@
     },
     "pricing": {
       "prompt": "0.00000002",
-      "completion": "0.00000005",
+      "completion": "0.000000045",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -4098,16 +4098,16 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000005",
-      "completion": "0.00000005",
+      "prompt": "0.000000049",
+      "completion": "0.000000049",
       "request": "0",
-      "image": "0",
+      "image": "0.00007948",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4325,7 +4325,7 @@
     },
     "pricing": {
       "prompt": "0.00000012",
-      "completion": "0.0000003",
+      "completion": "0.00000028",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -4333,7 +4333,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4389,16 +4389,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000019",
-      "completion": "0.00000085",
+      "prompt": "0.00000018",
+      "completion": "0.0000006",
       "request": "0",
-      "image": "0.00070182",
+      "image": "0.0006684",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 1048576,
-      "max_completion_tokens": 1048576,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4441,7 +4441,7 @@
     "name": "Meta: Llama 4 Scout",
     "created": 1743881519,
     "description": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input (text and image) and multilingual output (text and code) across 12 supported languages. Designed for assistant-style interaction and visual reasoning, Scout uses 16 experts per forward pass and features a context length of 10 million tokens, with a training corpus of ~40 trillion tokens.\n\nBuilt for high efficiency and local or commercial deployment, Llama 4 Scout incorporates early fusion for seamless modality integration. It is instruction-tuned for use in multilingual chat, captioning, and image understanding tasks. Released under the Llama 4 Community License, it was last trained on data up to August 2024 and launched publicly on April 5, 2025.",
-    "context_length": 131072,
+    "context_length": 327680,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -4456,15 +4456,15 @@
     },
     "pricing": {
       "prompt": "0.00000008",
-      "completion": "0.00000045",
+      "completion": "0.0000003",
       "request": "0",
-      "image": "0.0005013",
+      "image": "0.0003342",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "context_length": 327680,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5098,7 +5098,7 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.00000003",
+      "prompt": "0.00000004",
       "completion": "0.000000055",
       "request": "0",
       "image": "0",
@@ -5117,7 +5117,7 @@
     "name": "Mistral: Mistral 7B Instruct (free)",
     "created": 1716768000,
     "description": "A high-performing, industry-standard 7.3B parameter model, with optimizations for speed and context length.\n\n*Mistral 7B Instruct has multiple version variants, and this is intended to be the latest version.*",
-    "context_length": 8192,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5138,8 +5138,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
+      "context_length": 32768,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -7542,39 +7542,6 @@
     "per_request_limits": null
   },
   {
-    "id": "openrouter/quasar-alpha",
-    "name": "Quasar Alpha",
-    "created": 1743626809,
-    "description": "This is a cloaked model provided to the community to gather feedback. It’s a powerful, all-purpose model supporting long-context tasks, including code generation.\n\n**Note:** All prompts and completions for this model are logged by the provider  and may be used to improve the model.",
-    "context_length": 1000000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 1000000,
-      "max_completion_tokens": 32000,
-      "is_moderated": true
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "perplexity/llama-3.1-sonar-large-128k-online",
     "name": "Perplexity: Llama 3.1 Sonar 70B Online",
     "created": 1722470400,
@@ -7899,7 +7866,7 @@
     "name": "Qwen2.5 72B Instruct",
     "created": 1726704000,
     "description": "Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:\n\n- Significantly more knowledge and has greatly improved capabilities in coding and mathematics, thanks to our specialized expert models in these domains.\n\n- Significant improvements in instruction following, generating long texts (over 8K tokens), understanding structured data (e.g, tables), and generating structured outputs especially JSON. More resilient to the diversity of system prompts, enhancing role-play implementation and condition-setting for chatbots.\n\n- Long-context Support up to 128K tokens and can generate up to 8K tokens.\n\n- Multilingual support for over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
-    "context_length": 131072,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -7912,16 +7879,16 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.00000013",
-      "completion": "0.0000004",
+      "prompt": "0.00000012",
+      "completion": "0.00000039",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
+      "context_length": 32768,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -8027,7 +7994,7 @@
     "name": "Qwen2.5 Coder 32B Instruct",
     "created": 1731368400,
     "description": "Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5:\n\n- Significantly improvements in **code generation**, **code reasoning** and **code fixing**. \n- A more comprehensive foundation for real-world applications such as **Code Agents**. Not only enhancing coding capabilities but also maintaining its strengths in mathematics and general competencies.\n\nTo read more about its evaluation results, check out [Qwen 2.5 Coder's blog](https://qwenlm.github.io/blog/qwen2.5-coder-family/).",
-    "context_length": 33000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8041,15 +8008,15 @@
     },
     "pricing": {
       "prompt": "0.00000007",
-      "completion": "0.00000016",
+      "completion": "0.00000015",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 33000,
-      "max_completion_tokens": 3000,
+      "context_length": 32768,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -8818,7 +8785,7 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000005",
+      "prompt": "0.00000002",
       "completion": "0.00000005",
       "request": "0",
       "image": "0",
