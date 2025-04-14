@@ -64,6 +64,38 @@
     "per_request_limits": null
   },
   {
+    "id": "agentica-org/deepcoder-14b-preview:free",
+    "name": "Agentica: Deepcoder 14B Preview (free)",
+    "created": 1744555395,
+    "description": "DeepCoder-14B-Preview is a 14B parameter code generation model fine-tuned from DeepSeek-R1-Distill-Qwen-14B using reinforcement learning with GRPO+ and iterative context lengthening. It is optimized for long-context program synthesis and achieves strong performance across coding benchmarks, including 60.6% on LiveCodeBench v5, competitive with models like o3-Mini",
+    "context_length": 96000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": "deepseek-r1"
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 96000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "ai21/jamba-1-5-large",
     "name": "AI21: Jamba 1.5 Large",
     "created": 1724371200,
@@ -1398,6 +1430,38 @@
     "per_request_limits": null
   },
   {
+    "id": "arliai/qwq-32b-arliai-rpr-v1:free",
+    "name": "ArliAI: QwQ 32B RpR v1 (free)",
+    "created": 1744555982,
+    "description": "QwQ-32B-ArliAI-RpR-v1 is a 32B parameter model fine-tuned from Qwen/QwQ-32B using a curated creative writing and roleplay dataset originally developed for the RPMax series. It is designed to maintain coherence and reasoning across long multi-turn conversations by introducing explicit reasoning steps per dialogue turn, generated and refined using the base model itself.\n\nThe model was trained using RS-QLORA+ on 8K sequence lengths and supports up to 128K context windows (with practical performance around 32K). It is optimized for creative roleplay and dialogue generation, with an emphasis on minimizing cross-context repetition while preserving stylistic diversity.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": "deepseek-r1"
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "bytedance-research/ui-tars-72b:free",
     "name": "Bytedance: UI-TARS 72B  (free)",
     "created": 1743020065,
@@ -2025,7 +2089,7 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000017",
+      "prompt": "0.0000001",
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
