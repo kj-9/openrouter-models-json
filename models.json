@@ -352,6 +352,38 @@
     "per_request_limits": null
   },
   {
+    "id": "alfredpros/codellama-7b-instruct-solidity",
+    "name": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
+    "created": 1744641874,
+    "description": "A finetuned 7 billion parameters Code LLaMA - Instruct model to generate Solidity smart contract using 4-bit QLoRA finetuning provided by PEFT library.",
+    "context_length": 4096,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000008",
+      "completion": "0.0000012",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 4096,
+      "max_completion_tokens": 4096,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "all-hands/openhands-lm-32b-v0.1",
     "name": "OpenHands LM 32B V0.1",
     "created": 1743613013,
@@ -2424,6 +2456,38 @@
     "per_request_limits": null
   },
   {
+    "id": "eleutherai/llemma_7b",
+    "name": "EleutherAI: Llemma 7b",
+    "created": 1744643225,
+    "description": "Llemma 7B is a language model for mathematics. It was initialized with Code Llama 7B weights, and trained on the Proof-Pile-2 for 200B tokens. Llemma models are particularly strong at chain-of-thought mathematical reasoning and using computational tools for mathematics, such as Python and formal theorem provers.",
+    "context_length": 4096,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000008",
+      "completion": "0.0000012",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 4096,
+      "max_completion_tokens": 4096,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "eva-unit-01/eva-llama-3.33-70b",
     "name": "EVA Llama 3.33 70B",
     "created": 1734377303,
@@ -2771,7 +2835,7 @@
       "prompt": "0.00000125",
       "completion": "0.00001",
       "request": "0",
-      "image": "0",
+      "image": "0.00516",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4343,7 +4407,7 @@
     "name": "Meta: Llama 3.3 70B Instruct",
     "created": 1733506137,
     "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperforms many of the available open source and closed chat models on common industry benchmarks.\n\nSupported languages: English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.\n\n[Model Card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md)",
-    "context_length": 131072,
+    "context_length": 128000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -4356,16 +4420,16 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000012",
-      "completion": "0.00000028",
+      "prompt": "0.0000001",
+      "completion": "0.00000025",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 8192,
+      "context_length": 128000,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -6880,6 +6944,111 @@
     "per_request_limits": null
   },
   {
+    "id": "openai/gpt-4.1",
+    "name": "OpenAI: GPT-4.1",
+    "created": 1744651385,
+    "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and GPT-4.5 across coding (54.6% SWE-bench Verified), instruction compliance (87.4% IFEval), and multimodal understanding benchmarks. It is tuned for precise code diffs, agent reliability, and high recall in large document contexts, making it ideal for agents, IDE tooling, and enterprise knowledge retrieval.",
+    "context_length": 1047576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "GPT",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000008",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.0000005",
+      "input_cache_write": "0.0000005"
+    },
+    "top_provider": {
+      "context_length": 1047576,
+      "max_completion_tokens": 32768,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "openai/gpt-4.1-mini",
+    "name": "OpenAI: GPT-4.1 Mini",
+    "created": 1744651381,
+    "description": "GPT-4.1 Mini is a mid-sized model delivering performance competitive with GPT-4o at substantially lower latency and cost. It retains a 1 million token context window and scores 45.1% on hard instruction evals, 35.8% on MultiChallenge, and 84.1% on IFEval. Mini also shows strong coding ability (e.g., 31.6% on Aider’s polyglot diff benchmark) and vision understanding, making it suitable for interactive applications with tight performance constraints.",
+    "context_length": 1047576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "GPT",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000004",
+      "completion": "0.0000016",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.0000001"
+    },
+    "top_provider": {
+      "context_length": 1047576,
+      "max_completion_tokens": 32768,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "openai/gpt-4.1-nano",
+    "name": "OpenAI: GPT-4.1 Nano",
+    "created": 1744651369,
+    "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
+    "context_length": 1047576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "GPT",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000004",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.000000025",
+      "input_cache_write": "0.000000025"
+    },
+    "top_provider": {
+      "context_length": 1047576,
+      "max_completion_tokens": 32768,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "openai/gpt-4.5-preview",
     "name": "OpenAI: GPT-4.5 (Preview)",
     "created": 1740687810,
@@ -7537,39 +7706,6 @@
       "context_length": null,
       "max_completion_tokens": null,
       "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "openrouter/optimus-alpha",
-    "name": "Optimus Alpha",
-    "created": 1744291819,
-    "description": "This is a cloaked model provided to the community to gather feedback. It's geared toward real world use cases, including programming.\n\n**Note:** All prompts and completions for this model are logged by the provider and may be used to improve the model.",
-    "context_length": 1000000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 1000000,
-      "max_completion_tokens": 32000,
-      "is_moderated": true
     },
     "per_request_limits": null
   },
@@ -8342,38 +8478,6 @@
     "top_provider": {
       "context_length": 7500,
       "max_completion_tokens": 1500,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "qwen/qwen2.5-32b-instruct",
-    "name": "Qwen: Qwen2.5 32B Instruct",
-    "created": 1741042744,
-    "description": "Qwen2.5 32B Instruct is the instruction-tuned variant of the latest Qwen large language model series. It provides enhanced instruction-following capabilities, improved proficiency in coding and mathematical reasoning, and robust handling of structured data and outputs such as JSON. It supports long-context processing up to 128K tokens and multilingual tasks across 29+ languages. The model has 32.5 billion parameters, 64 layers, and utilizes an advanced transformer architecture with RoPE, SwiGLU, RMSNorm, and Attention QKV bias.\n\nFor more details, please refer to the [Qwen2.5 Blog](https://qwenlm.github.io/blog/qwen2.5/) .",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000079",
-      "completion": "0.00000079",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null
