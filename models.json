@@ -2076,7 +2076,7 @@
     "name": "DeepSeek: R1",
     "created": 1737381095,
     "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model & [technical report](https://api-docs.deepseek.com/news/news250120).\n\nMIT licensed: Distill & commercialize freely!",
-    "context_length": 163840,
+    "context_length": 128000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2089,16 +2089,16 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000054",
-      "completion": "0.00000218",
+      "prompt": "0.0000005",
+      "completion": "0.000003",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 163840,
-      "max_completion_tokens": 163840,
+      "context_length": 128000,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2838,7 +2838,8 @@
       "image": "0.00516",
       "web_search": "0",
       "internal_reasoning": "0",
-      "input_cache_read": "0.0000003125"
+      "input_cache_read": "0.0000003125",
+      "input_cache_write": "0"
     },
     "top_provider": {
       "context_length": 1000000,
@@ -4311,7 +4312,7 @@
     "name": "Meta: Llama 3.2 3B Instruct",
     "created": 1727222400,
     "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it supports eight languages, including English, Spanish, and Hindi, and is adaptable for additional languages.\n\nTrained on 9 trillion tokens, the Llama 3.2 3B model excels in instruction-following, complex reasoning, and tool use. Its balanced performance makes it ideal for applications needing accuracy and efficiency in text generation across multilingual settings.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
-    "context_length": 131000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -4332,8 +4333,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131000,
-      "max_completion_tokens": 131000,
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -7582,6 +7583,40 @@
     "per_request_limits": null
   },
   {
+    "id": "openai/o3",
+    "name": "OpenAI: o3",
+    "created": 1744823457,
+    "description": "o3 is a well-rounded and powerful model across domains. It sets a new standard for math, science, coding, and visual reasoning tasks. It also excels at technical writing and instruction-following. Use it to think through multi-step problems that involve analysis across text, code, and images. Note that BYOK is required for this model. Set up here: https://openrouter.ai/settings/integrations",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00001",
+      "completion": "0.00004",
+      "request": "0",
+      "image": "0.00765",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.0000025"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 100000,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "openai/o3-mini",
     "name": "OpenAI: o3 Mini",
     "created": 1738351721,
@@ -7639,6 +7674,74 @@
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000055"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 100000,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "openai/o4-mini",
+    "name": "OpenAI: o4 Mini",
+    "created": 1744820942,
+    "description": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities. It supports tool use and demonstrates competitive reasoning and coding performance across benchmarks like AIME (99.5% with Python) and SWE-bench, outperforming its predecessor o3-mini and even approaching o3 in some domains.\n\nDespite its smaller size, o4-mini exhibits high accuracy in STEM tasks, visual problem solving (e.g., MathVista, MMMU), and code editing. It is especially well-suited for high-throughput scenarios where latency or cost is critical. Thanks to its efficient architecture and refined reinforcement learning training, o4-mini can chain tools, generate structured outputs, and solve multi-step tasks with minimal delay—often in under a minute.",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000011",
+      "completion": "0.0000044",
+      "request": "0",
+      "image": "0.0008415",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.000000275"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 100000,
+      "is_moderated": true
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "openai/o4-mini-high",
+    "name": "OpenAI: o4 Mini High",
+    "created": 1744824212,
+    "description": "OpenAI o4-mini-high is the same model as [o4-mini](/openai/o4-mini) with reasoning_effort set to high. \n\nOpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities. It supports tool use and demonstrates competitive reasoning and coding performance across benchmarks like AIME (99.5% with Python) and SWE-bench, outperforming its predecessor o3-mini and even approaching o3 in some domains.\n\nDespite its smaller size, o4-mini exhibits high accuracy in STEM tasks, visual problem solving (e.g., MathVista, MMMU), and code editing. It is especially well-suited for high-throughput scenarios where latency or cost is critical. Thanks to its efficient architecture and refined reinforcement learning training, o4-mini can chain tools, generate structured outputs, and solve multi-step tasks with minimal delay—often in under a minute.",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000011",
+      "completion": "0.0000044",
+      "request": "0",
+      "image": "0.0008415",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.000000275"
     },
     "top_provider": {
       "context_length": 200000,
