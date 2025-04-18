@@ -2781,6 +2781,72 @@
     "per_request_limits": null
   },
   {
+    "id": "google/gemini-2.5-flash-preview",
+    "name": "Google: Gemini 2.5 Flash Preview",
+    "created": 1744914667,
+    "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater accuracy and nuanced context handling. \n\nNote: This model is available in two variants: thinking and non-thinking. The output pricing varies significantly depending on whether the thinking capability is active. If you select the standard variant (without the \":thinking\" suffix), the model will explicitly avoid generating thinking tokens. \n\nTo utilize the thinking capability and receive thinking tokens, you must choose the \":thinking\" variant, which will then incur the higher thinking-output pricing. \n\nAdditionally, Gemini 2.5 Flash is configurable through the \"max tokens for reasoning\" parameter, as described in the documentation (https://openrouter.ai/docs/use-cases/reasoning-tokens#max-tokens-for-reasoning).",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.0000006",
+      "request": "0",
+      "image": "0.0006192",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65535,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "google/gemini-2.5-flash-preview:thinking",
+    "name": "Google: Gemini 2.5 Flash Preview (thinking)",
+    "created": 1744914667,
+    "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater accuracy and nuanced context handling. \n\nNote: This model is available in two variants: thinking and non-thinking. The output pricing varies significantly depending on whether the thinking capability is active. If you select the standard variant (without the \":thinking\" suffix), the model will explicitly avoid generating thinking tokens. \n\nTo utilize the thinking capability and receive thinking tokens, you must choose the \":thinking\" variant, which will then incur the higher thinking-output pricing. \n\nAdditionally, Gemini 2.5 Flash is configurable through the \"max tokens for reasoning\" parameter, as described in the documentation (https://openrouter.ai/docs/use-cases/reasoning-tokens#max-tokens-for-reasoning).",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.0000035",
+      "request": "0",
+      "image": "0.0006192",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65535,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "google/gemini-2.5-pro-exp-03-25:free",
     "name": "Google: Gemini 2.5 Pro Experimental (free)",
     "created": 1742922099,
@@ -2816,9 +2882,9 @@
   {
     "id": "google/gemini-2.5-pro-preview-03-25",
     "name": "Google: Gemini 2.5 Pro Preview",
-    "created": 1743780493,
+    "created": 1744924206,
     "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
-    "context_length": 1000000,
+    "context_length": 1048576,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -2842,7 +2908,7 @@
       "input_cache_write": "0"
     },
     "top_provider": {
-      "context_length": 1000000,
+      "context_length": 1048576,
       "max_completion_tokens": 65535,
       "is_moderated": false
     },
@@ -4086,7 +4152,7 @@
     "name": "Meta: Llama 3.1 70B Instruct",
     "created": 1721692800,
     "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 70B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 131072,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -4099,16 +4165,16 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000012",
-      "completion": "0.00000028",
+      "prompt": "0.000000119",
+      "completion": "0.00000039",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 8192,
+      "context_length": 32768,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4487,8 +4553,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000018",
-      "completion": "0.0000006",
+      "prompt": "0.00000017",
+      "completion": "0.00000085",
       "request": "0",
       "image": "0.0006684",
       "web_search": "0",
@@ -4496,7 +4562,7 @@
     },
     "top_provider": {
       "context_length": 1048576,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 1048576,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5100,8 +5166,8 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.00000003",
-      "completion": "0.000000055",
+      "prompt": "0.000000029",
+      "completion": "0.000000059",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -5109,7 +5175,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5196,8 +5262,8 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.00000004",
-      "completion": "0.000000055",
+      "prompt": "0.000000029",
+      "completion": "0.000000059",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -5205,7 +5271,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -9479,6 +9545,70 @@
     },
     "top_provider": {
       "context_length": 32000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "thudm/glm-4-32b:free",
+    "name": "THUDM: GLM 4 32B (free)",
+    "created": 1744920915,
+    "description": "GLM-4-32B-0414 is a 32B bilingual (Chinese-English) open-weight language model optimized for code generation, function calling, and agent-style tasks. Pretrained on 15T of high-quality and reasoning-heavy data, it was further refined using human preference alignment, rejection sampling, and reinforcement learning. The model excels in complex reasoning, artifact generation, and structured output tasks, achieving performance comparable to GPT-4o and DeepSeek-V3-0324 across several benchmarks.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "thudm/glm-z1-32b:free",
+    "name": "THUDM: GLM Z1 32B (free)",
+    "created": 1744924148,
+    "description": "GLM-Z1-32B-0414 is an enhanced reasoning variant of GLM-4-32B, built for deep mathematical, logical, and code-oriented problem solving. It applies extended reinforcement learning—both task-specific and general pairwise preference-based—to improve performance on complex multi-step tasks. Compared to the base GLM-4-32B model, Z1 significantly boosts capabilities in structured reasoning and formal domains.\n\nThe model supports enforced “thinking” steps via prompt engineering and offers improved coherence for long-form outputs. It’s optimized for use in agentic workflows, and includes support for long context (via YaRN), JSON tool calling, and fine-grained sampling configuration for stable inference. Ideal for use cases requiring deliberate, multi-step reasoning or formal derivations.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": "deepseek-r1"
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
