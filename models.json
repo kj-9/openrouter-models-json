@@ -2076,7 +2076,7 @@
     "name": "DeepSeek: R1",
     "created": 1737381095,
     "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model & [technical report](https://api-docs.deepseek.com/news/news250120).\n\nMIT licensed: Distill & commercialize freely!",
-    "context_length": 128000,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2090,15 +2090,15 @@
     },
     "pricing": {
       "prompt": "0.0000005",
-      "completion": "0.000003",
+      "completion": "0.00000218",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 32768,
+      "context_length": 163840,
+      "max_completion_tokens": 163840,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2322,7 +2322,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -2639,7 +2639,9 @@
       "request": "0",
       "image": "0.0000258",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.000000025",
+      "input_cache_write": "0.0000001833"
     },
     "top_provider": {
       "context_length": 1000000,
@@ -2904,7 +2906,7 @@
       "image": "0.00516",
       "web_search": "0",
       "internal_reasoning": "0",
-      "input_cache_read": "0.0000003125",
+      "input_cache_read": "0.000000625",
       "input_cache_write": "0"
     },
     "top_provider": {
@@ -3338,7 +3340,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4046,7 +4048,7 @@
     },
     "top_provider": {
       "context_length": 8192,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4078,7 +4080,7 @@
     },
     "top_provider": {
       "context_length": 8192,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4142,7 +4144,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4303,7 +4305,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4586,7 +4588,7 @@
     },
     "pricing": {
       "prompt": "0.00000017",
-      "completion": "0.00000085",
+      "completion": "0.0000006",
       "request": "0",
       "image": "0.0006684",
       "web_search": "0",
@@ -4594,7 +4596,7 @@
     },
     "top_provider": {
       "context_length": 1048576,
-      "max_completion_tokens": 1048576,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4637,7 +4639,7 @@
     "name": "Meta: Llama 4 Scout",
     "created": 1743881519,
     "description": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input (text and image) and multilingual output (text and code) across 12 supported languages. Designed for assistant-style interaction and visual reasoning, Scout uses 16 experts per forward pass and features a context length of 10 million tokens, with a training corpus of ~40 trillion tokens.\n\nBuilt for high efficiency and local or commercial deployment, Llama 4 Scout incorporates early fusion for seamless modality integration. It is instruction-tuned for use in multilingual chat, captioning, and image understanding tasks. Released under the Llama 4 Community License, it was last trained on data up to August 2024 and launched publicly on April 5, 2025.",
-    "context_length": 327680,
+    "context_length": 1048576,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -4654,13 +4656,13 @@
       "prompt": "0.00000008",
       "completion": "0.0000003",
       "request": "0",
-      "image": "0.0003342",
+      "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 327680,
-      "max_completion_tokens": 8192,
+      "context_length": 1048576,
+      "max_completion_tokens": 1048576,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4748,8 +4750,8 @@
       "instruct_type": "none"
     },
     "pricing": {
-      "prompt": "0.0000001",
-      "completion": "0.0000001",
+      "prompt": "0.000000055",
+      "completion": "0.000000055",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -4757,6 +4759,38 @@
     },
     "top_provider": {
       "context_length": 131072,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "microsoft/mai-ds-r1:free",
+    "name": "Microsoft: MAI DS R1 (free)",
+    "created": 1745194100,
+    "description": "MAI-DS-R1 is a post-trained variant of DeepSeek-R1 developed by the Microsoft AI team to improve the model’s responsiveness on previously blocked topics while enhancing its safety profile. Built on top of DeepSeek-R1’s reasoning foundation, it integrates 110k examples from the Tulu-3 SFT dataset and 350k internally curated multilingual safety-alignment samples. The model retains strong reasoning, coding, and problem-solving capabilities, while unblocking a wide range of prompts previously restricted in R1.\n\nMAI-DS-R1 demonstrates improved performance on harm mitigation benchmarks and maintains competitive results across general reasoning tasks. It surpasses R1-1776 in satisfaction metrics for blocked queries and reduces leakage in harmful content categories. The model is based on a transformer MoE architecture and is suitable for general-purpose use cases, excluding high-stakes domains such as legal, medical, or autonomous systems.",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "DeepSeek",
+      "instruct_type": "deepseek-r1"
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -4885,7 +4919,7 @@
     },
     "top_provider": {
       "context_length": 16384,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4982,7 +5016,7 @@
     },
     "top_provider": {
       "context_length": 65536,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5335,7 +5369,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5495,7 +5529,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5623,7 +5657,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5817,7 +5851,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -8255,7 +8289,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -8319,7 +8353,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -8383,7 +8417,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -9193,7 +9227,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -9225,7 +9259,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 8192,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
