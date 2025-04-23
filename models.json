@@ -2108,7 +2108,7 @@
     "name": "DeepSeek: R1 Distill Llama 70B",
     "created": 1737663169,
     "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across multiple benchmarks, including:\n\n- AIME 2024 pass@1: 70.0\n- MATH-500 pass@1: 94.5\n- CodeForces Rating: 1633\n\nThe model leverages fine-tuning from DeepSeek R1's outputs, enabling competitive performance comparable to larger frontier models.",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2129,7 +2129,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 131072,
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
@@ -2717,72 +2717,6 @@
     "per_request_limits": null
   },
   {
-    "id": "google/gemini-2.0-flash-thinking-exp-1219:free",
-    "name": "Google: Gemini 2.0 Flash Thinking Experimental (free)",
-    "created": 1734650026,
-    "description": "Gemini 2.0 Flash Thinking Mode is an experimental model that's trained to generate the \"thinking process\" the model goes through as part of its response. As a result, Thinking Mode is capable of stronger reasoning capabilities in its responses than the [base Gemini 2.0 Flash model](/google/gemini-2.0-flash-exp).",
-    "context_length": 40000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Gemini",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 40000,
-      "max_completion_tokens": 8000,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "google/gemini-2.0-flash-thinking-exp:free",
-    "name": "Google: Gemini 2.0 Flash Thinking Experimental 01-21 (free)",
-    "created": 1737547899,
-    "description": "Gemini 2.0 Flash Thinking Experimental (01-21) is a snapshot of Gemini 2.0 Flash Thinking Experimental.\n\nGemini 2.0 Flash Thinking Mode is an experimental model that's trained to generate the \"thinking process\" the model goes through as part of its response. As a result, Thinking Mode is capable of stronger reasoning capabilities in its responses than the [base Gemini 2.0 Flash model](/google/gemini-2.0-flash-exp).",
-    "context_length": 1048576,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Gemini",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 1048576,
-      "max_completion_tokens": 65536,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "google/gemini-2.5-flash-preview",
     "name": "Google: Gemini 2.5 Flash Preview",
     "created": 1744914667,
@@ -3014,38 +2948,6 @@
     },
     "top_provider": {
       "context_length": 1000000,
-      "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "google/gemini-pro",
-    "name": "Google: Gemini Pro 1.0",
-    "created": 1702425600,
-    "description": "Google's flagship text generation model. Designed to handle natural language tasks, multiturn text and code chat, and code generation.\n\nSee the benchmarks and prompting guidelines from [Deepmind](https://deepmind.google/technologies/gemini/).\n\nUsage of Gemini is subject to Google's [Gemini Terms of Use](https://ai.google.dev/terms).",
-    "context_length": 32760,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Gemini",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.0000015",
-      "request": "0",
-      "image": "0.0025",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32760,
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
@@ -4186,7 +4088,7 @@
     "name": "Meta: Llama 3.1 70B Instruct",
     "created": 1721692800,
     "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 70B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 32768,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -4199,16 +4101,16 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.000000119",
-      "completion": "0.00000039",
+      "prompt": "0.0000001",
+      "completion": "0.00000028",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": 32768,
+      "context_length": 131072,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5233,7 +5135,7 @@
     },
     "pricing": {
       "prompt": "0.000000029",
-      "completion": "0.000000059",
+      "completion": "0.000000055",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -5241,7 +5143,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5329,7 +5231,7 @@
     },
     "pricing": {
       "prompt": "0.000000029",
-      "completion": "0.000000059",
+      "completion": "0.000000055",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -5337,7 +5239,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5699,7 +5601,7 @@
     "name": "Mistral: Mistral Small 3.1 24B",
     "created": 1742238937,
     "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and vision tasks, including image analysis, programming, mathematical reasoning, and multilingual support across dozens of languages. Equipped with an extensive 128k token context window and optimized for efficient local inference, it supports use cases such as conversational agents, function calling, long-document comprehension, and privacy-sensitive deployments.",
-    "context_length": 32768,
+    "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -5716,13 +5618,13 @@
       "prompt": "0.0000001",
       "completion": "0.0000003",
       "request": "0",
-      "image": "0.0009264",
+      "image": "0.000926",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
+      "context_length": 128000,
+      "max_completion_tokens": 128000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -7423,10 +7325,9 @@
     "description": "GPT-4o mini Search Preview is a specialized model for web search in Chat Completions. It is trained to understand and execute web search queries.",
     "context_length": 128000,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text->text",
       "input_modalities": [
-        "text",
-        "image"
+        "text"
       ],
       "output_modalities": [
         "text"
@@ -7456,10 +7357,9 @@
     "description": "GPT-4o Search Previewis a specialized model for web search in Chat Completions. It is trained to understand and execute web search queries.",
     "context_length": 128000,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text->text",
       "input_modalities": [
-        "text",
-        "image"
+        "text"
       ],
       "output_modalities": [
         "text"
