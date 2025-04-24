@@ -2625,7 +2625,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -2693,7 +2694,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -2726,7 +2728,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "image",
-        "text"
+        "text",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -2759,7 +2762,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "image",
-        "text"
+        "text",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -2825,7 +2829,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -5409,7 +5414,7 @@
     "name": "Mistral: Mistral Nemo",
     "created": 1721347200,
     "description": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.\n\nThe model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi.\n\nIt supports function calling and is released under the Apache 2.0 license.",
-    "context_length": 131072,
+    "context_length": 98304,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5422,16 +5427,16 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.000000035",
-      "completion": "0.00000008",
+      "prompt": "0.00000003",
+      "completion": "0.00000007",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 16384,
+      "context_length": 98304,
+      "max_completion_tokens": 49152,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -6498,38 +6503,6 @@
     "per_request_limits": null
   },
   {
-    "id": "open-r1/olympiccoder-7b:free",
-    "name": "OlympicCoder 7B (free)",
-    "created": 1742078265,
-    "description": "OlympicCoder-7B is an open-source language model fine-tuned on the CodeForces-CoTs dataset, consisting of nearly 100,000 high-quality chain-of-thought examples from competitive programming contexts. Optimized specifically for olympiad-level coding problems, this model demonstrates strong chain-of-thought reasoning and competitive code generation capabilities, achieving performance competitive with frontier closed-source models on tasks from the IOI 2024 and similar coding contests.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": "deepseek-r1"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "openai/chatgpt-4o-latest",
     "name": "OpenAI: ChatGPT-4o",
     "created": 1723593600,
@@ -7125,7 +7098,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -7159,7 +7133,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -7192,7 +7167,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -7226,7 +7202,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -7260,7 +7237,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -7294,7 +7272,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -7392,7 +7371,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -7624,7 +7604,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "image",
-        "text"
+        "text",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -7758,7 +7739,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "image",
-        "text"
+        "text",
+        "file"
       ],
       "output_modalities": [
         "text"
