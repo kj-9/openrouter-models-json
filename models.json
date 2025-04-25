@@ -2982,7 +2982,9 @@
       "request": "0",
       "image": "0.0006575",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.0000003125",
+      "input_cache_write": "0.000001625"
     },
     "top_provider": {
       "context_length": 2000000,
@@ -3882,8 +3884,8 @@
       "instruct_type": "llama2"
     },
     "pricing": {
-      "prompt": "0.00000022",
-      "completion": "0.00000022",
+      "prompt": "0.0000003",
+      "completion": "0.0000003",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3891,7 +3893,7 @@
     },
     "top_provider": {
       "context_length": 4096,
-      "max_completion_tokens": 2048,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
