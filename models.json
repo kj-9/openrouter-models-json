@@ -2796,7 +2796,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -5139,8 +5140,8 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.000000029",
-      "completion": "0.000000055",
+      "prompt": "0.000000028",
+      "completion": "0.000000054",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -5213,38 +5214,6 @@
     "top_provider": {
       "context_length": 32768,
       "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "mistralai/mistral-7b-instruct-v0.3",
-    "name": "Mistral: Mistral 7B Instruct v0.3",
-    "created": 1716768000,
-    "description": "A high-performing, industry-standard 7.3B parameter model, with optimizations for speed and context length.\n\nAn improved version of [Mistral 7B Instruct v0.2](/models/mistralai/mistral-7b-instruct-v0.2), with the following changes:\n\n- Extended vocabulary to 32768\n- Supports v3 Tokenizer\n- Supports function calling\n\nNOTE: Support for function calling depends on the provider.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": "mistral"
-    },
-    "pricing": {
-      "prompt": "0.000000029",
-      "completion": "0.000000055",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -5542,7 +5511,7 @@
     "name": "Mistral: Mistral Small 3",
     "created": 1738255409,
     "description": "Mistral Small 3 is a 24B-parameter language model optimized for low-latency performance across common AI tasks. Released under the Apache 2.0 license, it features both pre-trained and instruction-tuned versions designed for efficient local deployment.\n\nThe model achieves 81% accuracy on the MMLU benchmark and performs competitively with larger models like Llama 3.3 70B and Qwen 32B, while operating at three times the speed on equivalent hardware. [Read the blog post about the model here.](https://mistral.ai/news/mistral-small-3/)",
-    "context_length": 12288,
+    "context_length": 28000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5563,8 +5532,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 12288,
-      "max_completion_tokens": 6144,
+      "context_length": 28000,
+      "max_completion_tokens": 14000,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -6338,38 +6307,6 @@
     "top_provider": {
       "context_length": 131072,
       "max_completion_tokens": 131072,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "nvidia/llama-3.1-nemotron-nano-8b-v1:free",
-    "name": "NVIDIA: Llama 3.1 Nemotron Nano 8B v1 (free)",
-    "created": 1744123873,
-    "description": "Llama-3.1-Nemotron-Nano-8B-v1 is a compact large language model (LLM) derived from Meta's Llama-3.1-8B-Instruct, specifically optimized for reasoning tasks, conversational interactions, retrieval-augmented generation (RAG), and tool-calling applications. It balances accuracy and efficiency, fitting comfortably onto a single consumer-grade RTX GPU for local deployment. The model supports extended context lengths of up to 128K tokens.\n\nNote: you must include `detailed thinking on` in the system prompt to enable reasoning. Please see [Usage Recommendations](https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1#quick-start-and-usage-recommendations) for more.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -9621,6 +9558,38 @@
     },
     "top_provider": {
       "context_length": 32000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "tngtech/deepseek-r1t-chimera:free",
+    "name": "TNG: DeepSeek R1T Chimera (free)",
+    "created": 1745760875,
+    "description": "DeepSeek-R1T-Chimera is created by merging DeepSeek-R1 and DeepSeek-V3 (0324), combining the reasoning capabilities of R1 with the token efficiency improvements of V3. It is based on a DeepSeek-MoE Transformer architecture and is optimized for general text generation tasks.\n\nThe model merges pretrained weights from both source models to balance performance across reasoning, efficiency, and instruction-following tasks. It is released under the MIT license and intended for research and commercial use.",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "DeepSeek",
+      "instruct_type": "deepseek-r1"
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
       "max_completion_tokens": null,
       "is_moderated": false
     },
