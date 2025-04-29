@@ -1559,38 +1559,6 @@
     "per_request_limits": null
   },
   {
-    "id": "cognitivecomputations/dolphin-mixtral-8x7b",
-    "name": "Dolphin 2.6 Mixtral 8x7B 🐬",
-    "created": 1703116800,
-    "description": "This is a 16k context fine-tune of [Mixtral-8x7b](/models/mistralai/mixtral-8x7b). It excels in coding tasks due to extensive training with coding data and is known for its obedience, although it lacks DPO tuning.\n\nThe model is uncensored and is stripped of alignment and bias. It requires an external alignment layer for ethical use. Users are cautioned to use this highly compliant model responsibly, as detailed in a blog post about uncensored models at [erichartford.com/uncensored-models](https://erichartford.com/uncensored-models).\n\n#moe #uncensored",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.0000005",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "cognitivecomputations/dolphin3.0-mistral-24b:free",
     "name": "Dolphin3.0 Mistral 24B (free)",
     "created": 1739462019,
@@ -3075,8 +3043,8 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.00000007",
-      "completion": "0.00000007",
+      "prompt": "0.00000008",
+      "completion": "0.00000008",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3866,38 +3834,6 @@
     "per_request_limits": null
   },
   {
-    "id": "meta-llama/llama-2-13b-chat",
-    "name": "Meta: Llama 2 13B Chat",
-    "created": 1687219200,
-    "description": "A 13 billion parameter language model from Meta, fine tuned for chat completions",
-    "context_length": 4096,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama2",
-      "instruct_type": "llama2"
-    },
-    "pricing": {
-      "prompt": "0.0000003",
-      "completion": "0.0000003",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "meta-llama/llama-2-70b-chat",
     "name": "Meta: Llama 2 70B Chat",
     "created": 1687219200,
@@ -4278,7 +4214,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -4866,38 +4802,6 @@
     "per_request_limits": null
   },
   {
-    "id": "microsoft/wizardlm-2-7b",
-    "name": "WizardLM-2 7B",
-    "created": 1713225600,
-    "description": "WizardLM-2 7B is the smaller variant of Microsoft AI's latest Wizard model. It is the fastest and achieves comparable performance with existing 10x larger opensource leading models\n\nIt is a finetune of [Mistral 7B Instruct](/models/mistralai/mistral-7b-instruct), using the same technique as [WizardLM-2 8x22B](/models/microsoft/wizardlm-2-8x22b).\n\nTo read more about the model release, [click here](https://wizardlm.github.io/WizardLM2/).\n\n#moe",
-    "context_length": 32000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": "vicuna"
-    },
-    "pricing": {
-      "prompt": "0.00000007",
-      "completion": "0.00000007",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32000,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "microsoft/wizardlm-2-8x22b",
     "name": "WizardLM-2 8x22B",
     "created": 1713225600,
@@ -5214,6 +5118,38 @@
     "top_provider": {
       "context_length": 32768,
       "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "mistralai/mistral-7b-instruct-v0.3",
+    "name": "Mistral: Mistral 7B Instruct v0.3",
+    "created": 1716768000,
+    "description": "A high-performing, industry-standard 7.3B parameter model, with optimizations for speed and context length.\n\nAn improved version of [Mistral 7B Instruct v0.2](/models/mistralai/mistral-7b-instruct-v0.2), with the following changes:\n\n- Extended vocabulary to 32768\n- Supports v3 Tokenizer\n- Supports function calling\n\nNOTE: Support for function calling depends on the provider.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Mistral",
+      "instruct_type": "mistral"
+    },
+    "pricing": {
+      "prompt": "0.000000028",
+      "completion": "0.000000054",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -6243,38 +6179,6 @@
     "top_provider": {
       "context_length": 32768,
       "max_completion_tokens": 2048,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "nousresearch/nous-hermes-llama2-13b",
-    "name": "Nous: Hermes 13B",
-    "created": 1692489600,
-    "description": "A state-of-the-art language model fine-tuned on over 300k instructions by Nous Research, with Teknium and Emozilla leading the fine tuning process.",
-    "context_length": 4096,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama2",
-      "instruct_type": "alpaca"
-    },
-    "pricing": {
-      "prompt": "0.00000018",
-      "completion": "0.00000018",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
@@ -7670,38 +7574,6 @@
     "per_request_limits": null
   },
   {
-    "id": "openchat/openchat-7b",
-    "name": "OpenChat 3.5 7B",
-    "created": 1701129600,
-    "description": "OpenChat 7B is a library of open-source language models, fine-tuned with \"C-RLFT (Conditioned Reinforcement Learning Fine-Tuning)\" - a strategy inspired by offline reinforcement learning. It has been trained on mixed-quality data without preference labels.\n\n- For OpenChat fine-tuned on Mistral 7B, check out [OpenChat 7B](/models/openchat/openchat-7b).\n- For OpenChat fine-tuned on Llama 8B, check out [OpenChat 8B](/models/openchat/openchat-8b).\n\n#open-source",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": "openchat"
-    },
-    "pricing": {
-      "prompt": "0.00000007",
-      "completion": "0.00000007",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
     "id": "openrouter/auto",
     "name": "Auto Router",
     "created": 1699401600,
@@ -8668,6 +8540,294 @@
     "per_request_limits": null
   },
   {
+    "id": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B",
+    "created": 1745876478,
+    "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for tasks like math, programming, and logical inference, and a \"non-thinking\" mode for general-purpose conversation. The model is fine-tuned for instruction-following, agent tool use, creative writing, and multilingual tasks across 100+ languages and dialects. It natively handles 32K token contexts and can extend to 131K tokens using YaRN-based scaling.",
+    "context_length": 40960,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000008",
+      "completion": "0.00000024",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 40960,
+      "max_completion_tokens": 40960,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "qwen/qwen3-14b:free",
+    "name": "Qwen: Qwen3 14B (free)",
+    "created": 1745876478,
+    "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for tasks like math, programming, and logical inference, and a \"non-thinking\" mode for general-purpose conversation. The model is fine-tuned for instruction-following, agent tool use, creative writing, and multilingual tasks across 100+ languages and dialects. It natively handles 32K token contexts and can extend to 131K tokens using YaRN-based scaling.",
+    "context_length": 40960,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 40960,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "qwen/qwen3-235b-a22b",
+    "name": "Qwen: Qwen3 235B A22B",
+    "created": 1745875757,
+    "description": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass. It supports seamless switching between a \"thinking\" mode for complex reasoning, math, and code tasks, and a \"non-thinking\" mode for general conversational efficiency. The model demonstrates strong reasoning ability, multilingual support (100+ languages and dialects), advanced instruction-following, and agent tool-calling capabilities. It natively handles a 32K token context window and extends up to 131K tokens using YaRN-based scaling.",
+    "context_length": 40960,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.0000006",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 40960,
+      "max_completion_tokens": 40960,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "qwen/qwen3-235b-a22b:free",
+    "name": "Qwen: Qwen3 235B A22B (free)",
+    "created": 1745875757,
+    "description": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass. It supports seamless switching between a \"thinking\" mode for complex reasoning, math, and code tasks, and a \"non-thinking\" mode for general conversational efficiency. The model demonstrates strong reasoning ability, multilingual support (100+ languages and dialects), advanced instruction-following, and agent tool-calling capabilities. It natively handles a 32K token context window and extends up to 131K tokens using YaRN-based scaling.",
+    "context_length": 40960,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 40960,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "qwen/qwen3-30b-a3b",
+    "name": "Qwen: Qwen3 30B A3B",
+    "created": 1745878604,
+    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique ability to switch seamlessly between a thinking mode for complex reasoning and a non-thinking mode for efficient dialogue ensures versatile, high-quality performance.\n\nSignificantly outperforming prior models like QwQ and Qwen2.5, Qwen3 delivers superior mathematics, coding, commonsense reasoning, creative writing, and interactive dialogue capabilities. The Qwen3-30B-A3B variant includes 30.5 billion parameters (3.3 billion activated), 48 layers, 128 experts (8 activated per task), and supports up to 131K token contexts with YaRN, setting a new standard among open-source models.",
+    "context_length": 40960,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000003",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 40960,
+      "max_completion_tokens": 40960,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "qwen/qwen3-30b-a3b:free",
+    "name": "Qwen: Qwen3 30B A3B (free)",
+    "created": 1745878604,
+    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique ability to switch seamlessly between a thinking mode for complex reasoning and a non-thinking mode for efficient dialogue ensures versatile, high-quality performance.\n\nSignificantly outperforming prior models like QwQ and Qwen2.5, Qwen3 delivers superior mathematics, coding, commonsense reasoning, creative writing, and interactive dialogue capabilities. The Qwen3-30B-A3B variant includes 30.5 billion parameters (3.3 billion activated), 48 layers, 128 experts (8 activated per task), and supports up to 131K token contexts with YaRN, setting a new standard among open-source models.",
+    "context_length": 40960,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 40960,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "qwen/qwen3-32b",
+    "name": "Qwen: Qwen3 32B",
+    "created": 1745875945,
+    "description": "Qwen3-32B is a dense 32.8B parameter causal language model from the Qwen3 series, optimized for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for tasks like math, coding, and logical inference, and a \"non-thinking\" mode for faster, general-purpose conversation. The model demonstrates strong performance in instruction-following, agent tool use, creative writing, and multilingual tasks across 100+ languages and dialects. It natively handles 32K token contexts and can extend to 131K tokens using YaRN-based scaling. ",
+    "context_length": 40960,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000003",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 40960,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "qwen/qwen3-32b:free",
+    "name": "Qwen: Qwen3 32B (free)",
+    "created": 1745875945,
+    "description": "Qwen3-32B is a dense 32.8B parameter causal language model from the Qwen3 series, optimized for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for tasks like math, coding, and logical inference, and a \"non-thinking\" mode for faster, general-purpose conversation. The model demonstrates strong performance in instruction-following, agent tool use, creative writing, and multilingual tasks across 100+ languages and dialects. It natively handles 32K token contexts and can extend to 131K tokens using YaRN-based scaling. ",
+    "context_length": 40960,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 40960,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
+    "id": "qwen/qwen3-8b:free",
+    "name": "Qwen: Qwen3 8B (free)",
+    "created": 1745876632,
+    "description": "Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue. It supports seamless switching between \"thinking\" mode for math, coding, and logical inference, and \"non-thinking\" mode for general conversation. The model is fine-tuned for instruction-following, agent integration, creative writing, and multilingual use across 100+ languages and dialects. It natively supports a 32K token context window and can extend to 131K tokens with YaRN scaling.",
+    "context_length": 40960,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 40960,
+      "max_completion_tokens": 40960,
+      "is_moderated": false
+    },
+    "per_request_limits": null
+  },
+  {
     "id": "qwen/qwq-32b",
     "name": "Qwen: QwQ 32B",
     "created": 1741208814,
@@ -9623,38 +9783,6 @@
     "top_provider": {
       "context_length": 6144,
       "max_completion_tokens": 1024,
-      "is_moderated": false
-    },
-    "per_request_limits": null
-  },
-  {
-    "id": "undi95/toppy-m-7b",
-    "name": "Toppy M 7B",
-    "created": 1699574400,
-    "description": "A wild 7B parameter model that merges several models using the new task_arithmetic merge method from mergekit.\nList of merged models:\n- NousResearch/Nous-Capybara-7B-V1.9\n- [HuggingFaceH4/zephyr-7b-beta](/models/huggingfaceh4/zephyr-7b-beta)\n- lemonilia/AshhLimaRP-Mistral-7B\n- Vulkane/120-Days-of-Sodom-LoRA-Mistral-7b\n- Undi95/Mistral-pippa-sharegpt-7b-qlora\n\n#merge #uncensored",
-    "context_length": 4096,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": "alpaca"
-    },
-    "pricing": {
-      "prompt": "0.00000007",
-      "completion": "0.00000007",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null
