@@ -29,7 +29,22 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "response_format",
+      "structured_outputs",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs"
+    ]
   },
   {
     "id": "aetherwiing/mn-starcannon-12b",
@@ -61,7 +76,19 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "agentica-org/deepcoder-14b-preview:free",
@@ -93,7 +120,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "ai21/jamba-1-5-large",
@@ -125,7 +169,15 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop"
+    ]
   },
   {
     "id": "ai21/jamba-1-5-mini",
@@ -157,7 +209,15 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop"
+    ]
   },
   {
     "id": "ai21/jamba-1.6-large",
@@ -189,7 +249,15 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop"
+    ]
   },
   {
     "id": "ai21/jamba-1.6-mini",
@@ -221,7 +289,15 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop"
+    ]
   },
   {
     "id": "ai21/jamba-instruct",
@@ -253,7 +329,13 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop"
+    ]
   },
   {
     "id": "aion-labs/aion-1.0",
@@ -285,7 +367,14 @@
       "max_completion_tokens": 32768,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning"
+    ]
   },
   {
     "id": "aion-labs/aion-1.0-mini",
@@ -317,7 +406,14 @@
       "max_completion_tokens": 32768,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning"
+    ]
   },
   {
     "id": "aion-labs/aion-rp-llama-3.1-8b",
@@ -349,7 +445,12 @@
       "max_completion_tokens": 32768,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p"
+    ]
   },
   {
     "id": "alfredpros/codellama-7b-instruct-solidity",
@@ -381,7 +482,19 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "all-hands/openhands-lm-32b-v0.1",
@@ -413,7 +526,21 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "allenai/molmo-7b-d:free",
@@ -446,7 +573,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "alpindale/goliath-120b",
@@ -478,7 +620,21 @@
       "max_completion_tokens": 512,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "seed",
+      "top_a"
+    ]
   },
   {
     "id": "alpindale/magnum-72b",
@@ -510,7 +666,19 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "amazon/nova-lite-v1",
@@ -541,9 +709,17 @@
     "top_provider": {
       "context_length": 300000,
       "max_completion_tokens": 5120,
-      "is_moderated": false
+      "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "amazon/nova-micro-v1",
@@ -573,9 +749,17 @@
     "top_provider": {
       "context_length": 128000,
       "max_completion_tokens": 5120,
-      "is_moderated": false
+      "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "amazon/nova-pro-v1",
@@ -606,9 +790,17 @@
     "top_provider": {
       "context_length": 300000,
       "max_completion_tokens": 5120,
-      "is_moderated": false
+      "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthracite-org/magnum-v2-72b",
@@ -640,7 +832,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "anthracite-org/magnum-v4-72b",
@@ -672,7 +877,21 @@
       "max_completion_tokens": 1024,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed",
+      "logit_bias",
+      "top_a"
+    ]
   },
   {
     "id": "anthropic/claude-2",
@@ -704,7 +923,14 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-2.0",
@@ -736,7 +962,14 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-2.0:beta",
@@ -768,7 +1001,14 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-2.1",
@@ -800,7 +1040,14 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-2.1:beta",
@@ -832,7 +1079,14 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-2:beta",
@@ -864,7 +1118,14 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3-haiku",
@@ -899,7 +1160,16 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3-haiku:beta",
@@ -934,7 +1204,16 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3-opus",
@@ -969,7 +1248,16 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3-opus:beta",
@@ -1004,7 +1292,16 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3-sonnet",
@@ -1039,7 +1336,16 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3-sonnet:beta",
@@ -1074,7 +1380,16 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3.5-haiku",
@@ -1109,7 +1424,16 @@
       "max_completion_tokens": 8192,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3.5-haiku-20241022",
@@ -1144,7 +1468,16 @@
       "max_completion_tokens": 8192,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3.5-haiku-20241022:beta",
@@ -1179,7 +1512,16 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3.5-haiku:beta",
@@ -1214,7 +1556,16 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3.5-sonnet",
@@ -1249,7 +1600,16 @@
       "max_completion_tokens": 8192,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3.5-sonnet-20240620",
@@ -1284,7 +1644,16 @@
       "max_completion_tokens": 8192,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3.5-sonnet-20240620:beta",
@@ -1319,7 +1688,16 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3.5-sonnet:beta",
@@ -1354,7 +1732,16 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3.7-sonnet",
@@ -1389,7 +1776,18 @@
       "max_completion_tokens": 64000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "anthropic/claude-3.7-sonnet:beta",
@@ -1424,7 +1822,16 @@
       "max_completion_tokens": 128000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "stop",
+      "reasoning",
+      "include_reasoning",
+      "tools",
+      "tool_choice"
+    ]
   },
   {
     "id": "anthropic/claude-3.7-sonnet:thinking",
@@ -1459,7 +1866,18 @@
       "max_completion_tokens": 64000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "arliai/qwq-32b-arliai-rpr-v1:free",
@@ -1491,7 +1909,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "bytedance-research/ui-tars-72b:free",
@@ -1524,7 +1959,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "cognitivecomputations/dolphin-mixtral-8x22b",
@@ -1556,7 +2006,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
+    ]
   },
   {
     "id": "cognitivecomputations/dolphin3.0-mistral-24b:free",
@@ -1588,7 +2051,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
@@ -1620,7 +2098,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "cohere/command",
@@ -1652,7 +2147,19 @@
       "max_completion_tokens": 4000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "cohere/command-a",
@@ -1684,7 +2191,19 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "cohere/command-r",
@@ -1716,7 +2235,20 @@
       "max_completion_tokens": 4000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "cohere/command-r-03-2024",
@@ -1748,7 +2280,20 @@
       "max_completion_tokens": 4000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "cohere/command-r-08-2024",
@@ -1780,7 +2325,20 @@
       "max_completion_tokens": 4000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "cohere/command-r-plus",
@@ -1812,7 +2370,20 @@
       "max_completion_tokens": 4000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "cohere/command-r-plus-04-2024",
@@ -1844,7 +2415,20 @@
       "max_completion_tokens": 4000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "cohere/command-r-plus-08-2024",
@@ -1876,7 +2460,20 @@
       "max_completion_tokens": 4000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "cohere/command-r7b-12-2024",
@@ -1908,7 +2505,19 @@
       "max_completion_tokens": 4000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "deepseek/deepseek-chat",
@@ -1940,7 +2549,26 @@
       "max_completion_tokens": 163840,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format",
+      "seed",
+      "logprobs",
+      "top_logprobs",
+      "tools",
+      "tool_choice",
+      "structured_outputs"
+    ]
   },
   {
     "id": "deepseek/deepseek-chat-v3-0324",
@@ -1973,7 +2601,25 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k",
+      "stop",
+      "tools",
+      "tool_choice",
+      "seed",
+      "min_p",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "deepseek/deepseek-chat-v3-0324:free",
@@ -2005,7 +2651,23 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs",
+      "top_a"
+    ]
   },
   {
     "id": "deepseek/deepseek-chat:free",
@@ -2037,7 +2699,23 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs",
+      "top_a"
+    ]
   },
   {
     "id": "deepseek/deepseek-r1",
@@ -2069,7 +2747,28 @@
       "max_completion_tokens": 163840,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "repetition_penalty",
+      "response_format",
+      "structured_outputs",
+      "min_p",
+      "tools",
+      "tool_choice"
+    ]
   },
   {
     "id": "deepseek/deepseek-r1-distill-llama-70b",
@@ -2101,7 +2800,28 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "top_k",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "min_p",
+      "repetition_penalty",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "deepseek/deepseek-r1-distill-llama-70b:free",
@@ -2133,7 +2853,25 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format",
+      "seed",
+      "logprobs",
+      "top_logprobs"
+    ]
   },
   {
     "id": "deepseek/deepseek-r1-distill-llama-8b",
@@ -2165,7 +2903,22 @@
       "max_completion_tokens": 32000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
+    ]
   },
   {
     "id": "deepseek/deepseek-r1-distill-qwen-1.5b",
@@ -2197,7 +2950,22 @@
       "max_completion_tokens": 32768,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format"
+    ]
   },
   {
     "id": "deepseek/deepseek-r1-distill-qwen-14b",
@@ -2229,7 +2997,23 @@
       "max_completion_tokens": 64000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format",
+      "seed"
+    ]
   },
   {
     "id": "deepseek/deepseek-r1-distill-qwen-14b:free",
@@ -2261,7 +3045,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "deepseek/deepseek-r1-distill-qwen-32b",
@@ -2293,7 +3094,23 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "top_k",
+      "seed",
+      "min_p",
+      "logit_bias"
+    ]
   },
   {
     "id": "deepseek/deepseek-r1-distill-qwen-32b:free",
@@ -2325,7 +3142,14 @@
       "max_completion_tokens": 16000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning"
+    ]
   },
   {
     "id": "deepseek/deepseek-r1-zero:free",
@@ -2357,7 +3181,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "deepseek/deepseek-r1:free",
@@ -2389,7 +3230,21 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "reasoning",
+      "include_reasoning",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "top_a",
+      "logprobs"
+    ]
   },
   {
     "id": "deepseek/deepseek-v3-base:free",
@@ -2421,7 +3276,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "eleutherai/llemma_7b",
@@ -2453,7 +3323,19 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "eva-unit-01/eva-llama-3.33-70b",
@@ -2485,7 +3367,19 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "eva-unit-01/eva-qwen-2.5-32b",
@@ -2517,7 +3411,19 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "eva-unit-01/eva-qwen-2.5-72b",
@@ -2549,7 +3455,19 @@
       "max_completion_tokens": 131072,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k",
+      "stop",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "featherless/qwerky-72b:free",
@@ -2581,7 +3499,19 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "google/gemini-2.0-flash-001",
@@ -2617,7 +3547,20 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "google/gemini-2.0-flash-exp:free",
@@ -2650,7 +3593,20 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "google/gemini-2.0-flash-lite-001",
@@ -2684,7 +3640,20 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "google/gemini-2.5-flash-preview",
@@ -2718,7 +3687,22 @@
       "max_completion_tokens": 65535,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "google/gemini-2.5-flash-preview:thinking",
@@ -2752,7 +3736,22 @@
       "max_completion_tokens": 65535,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "google/gemini-2.5-pro-exp-03-25",
@@ -2786,7 +3785,18 @@
       "max_completion_tokens": 65535,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "tools",
+      "tool_choice",
+      "stop",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "google/gemini-2.5-pro-preview-03-25",
@@ -2822,7 +3832,18 @@
       "max_completion_tokens": 65535,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "tools",
+      "tool_choice",
+      "stop",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "google/gemini-flash-1.5",
@@ -2857,7 +3878,20 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "tools",
+      "tool_choice",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "google/gemini-flash-1.5-8b",
@@ -2892,7 +3926,20 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "tools",
+      "tool_choice",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "google/gemini-flash-1.5-8b-exp",
@@ -2925,7 +3972,20 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "google/gemini-pro-1.5",
@@ -2958,7 +4018,20 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "tools",
+      "tool_choice",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "google/gemini-pro-vision",
@@ -2991,7 +4064,14 @@
       "max_completion_tokens": 2048,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop"
+    ]
   },
   {
     "id": "google/gemma-2-27b-it",
@@ -3023,7 +4103,20 @@
       "max_completion_tokens": 2048,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format"
+    ]
   },
   {
     "id": "google/gemma-2-9b-it",
@@ -3055,7 +4148,23 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias",
+      "response_format",
+      "top_logprobs",
+      "logprobs"
+    ]
   },
   {
     "id": "google/gemma-2-9b-it:free",
@@ -3087,7 +4196,22 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "google/gemma-3-12b-it",
@@ -3120,7 +4244,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "top_k",
+      "seed",
+      "min_p"
+    ]
   },
   {
     "id": "google/gemma-3-12b-it:free",
@@ -3153,7 +4290,22 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "google/gemma-3-1b-it:free",
@@ -3186,7 +4338,22 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "google/gemma-3-27b-it",
@@ -3219,7 +4386,22 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "top_k",
+      "seed",
+      "min_p",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "google/gemma-3-27b-it:free",
@@ -3252,7 +4434,24 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "google/gemma-3-4b-it",
@@ -3285,7 +4484,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "top_k",
+      "seed",
+      "min_p"
+    ]
   },
   {
     "id": "google/gemma-3-4b-it:free",
@@ -3318,7 +4530,22 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "google/learnlm-1.5-pro-experimental:free",
@@ -3351,7 +4578,18 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "google/palm-2-chat-bison",
@@ -3383,7 +4621,17 @@
       "max_completion_tokens": 1024,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "response_format"
+    ]
   },
   {
     "id": "google/palm-2-chat-bison-32k",
@@ -3415,7 +4663,17 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "response_format"
+    ]
   },
   {
     "id": "google/palm-2-codechat-bison",
@@ -3447,7 +4705,17 @@
       "max_completion_tokens": 1024,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "response_format"
+    ]
   },
   {
     "id": "google/palm-2-codechat-bison-32k",
@@ -3479,7 +4747,17 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "response_format"
+    ]
   },
   {
     "id": "gryphe/mythomax-l2-13b",
@@ -3511,7 +4789,22 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "seed",
+      "top_a",
+      "response_format"
+    ]
   },
   {
     "id": "huggingfaceh4/zephyr-7b-beta:free",
@@ -3543,7 +4836,15 @@
       "max_completion_tokens": 2048,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "repetition_penalty",
+      "stop"
+    ]
   },
   {
     "id": "infermatic/mn-inferor-12b",
@@ -3575,7 +4876,19 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "inflection/inflection-3-pi",
@@ -3607,7 +4920,13 @@
       "max_completion_tokens": 1024,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop"
+    ]
   },
   {
     "id": "inflection/inflection-3-productivity",
@@ -3639,7 +4958,13 @@
       "max_completion_tokens": 1024,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop"
+    ]
   },
   {
     "id": "jondurbin/airoboros-l2-70b",
@@ -3671,7 +4996,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
+    ]
   },
   {
     "id": "latitudegames/wayfarer-large-70b-llama-3.3",
@@ -3703,7 +5041,16 @@
       "max_completion_tokens": 131072,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k"
+    ]
   },
   {
     "id": "liquid/lfm-3b",
@@ -3735,7 +5082,19 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty"
+    ]
   },
   {
     "id": "liquid/lfm-40b",
@@ -3767,7 +5126,23 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "liquid/lfm-7b",
@@ -3799,7 +5174,19 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty"
+    ]
   },
   {
     "id": "mancer/weaver",
@@ -3831,7 +5218,21 @@
       "max_completion_tokens": 1000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "seed",
+      "top_a"
+    ]
   },
   {
     "id": "meta-llama/llama-2-70b-chat",
@@ -3863,7 +5264,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format"
+    ]
   },
   {
     "id": "meta-llama/llama-3-70b-instruct",
@@ -3895,7 +5309,26 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "response_format",
+      "structured_outputs",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "min_p",
+      "seed",
+      "tools",
+      "tool_choice"
+    ]
   },
   {
     "id": "meta-llama/llama-3-8b-instruct",
@@ -3927,7 +5360,26 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "top_logprobs",
+      "logprobs",
+      "top_a"
+    ]
   },
   {
     "id": "meta-llama/llama-3.1-405b",
@@ -3959,7 +5411,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "logprobs",
+      "top_logprobs",
+      "seed",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "repetition_penalty"
+    ]
   },
   {
     "id": "meta-llama/llama-3.1-405b-instruct",
@@ -3991,7 +5458,26 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "response_format",
+      "structured_outputs",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "meta-llama/llama-3.1-405b:free",
@@ -4023,7 +5509,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "meta-llama/llama-3.1-70b-instruct",
@@ -4055,7 +5556,26 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format",
+      "seed",
+      "logprobs",
+      "top_logprobs",
+      "structured_outputs"
+    ]
   },
   {
     "id": "meta-llama/llama-3.1-8b-instruct",
@@ -4087,7 +5607,26 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "top_k",
+      "repetition_penalty",
+      "structured_outputs",
+      "min_p",
+      "tools",
+      "tool_choice"
+    ]
   },
   {
     "id": "meta-llama/llama-3.1-8b-instruct:free",
@@ -4119,7 +5658,16 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed"
+    ]
   },
   {
     "id": "meta-llama/llama-3.2-11b-vision-instruct",
@@ -4152,7 +5700,23 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias",
+      "response_format",
+      "top_logprobs",
+      "logprobs"
+    ]
   },
   {
     "id": "meta-llama/llama-3.2-11b-vision-instruct:free",
@@ -4185,7 +5749,20 @@
       "max_completion_tokens": 2048,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format"
+    ]
   },
   {
     "id": "meta-llama/llama-3.2-1b-instruct",
@@ -4217,7 +5794,22 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "min_p",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "meta-llama/llama-3.2-1b-instruct:free",
@@ -4249,7 +5841,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
+    ]
   },
   {
     "id": "meta-llama/llama-3.2-3b-instruct",
@@ -4281,7 +5886,25 @@
       "max_completion_tokens": 131072,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "tools",
+      "tool_choice"
+    ]
   },
   {
     "id": "meta-llama/llama-3.2-3b-instruct:free",
@@ -4313,7 +5936,12 @@
       "max_completion_tokens": 20000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p"
+    ]
   },
   {
     "id": "meta-llama/llama-3.2-90b-vision-instruct",
@@ -4346,7 +5974,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "response_format",
+      "structured_outputs",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "meta-llama/llama-3.3-70b-instruct",
@@ -4378,7 +6023,26 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "meta-llama/llama-3.3-70b-instruct:free",
@@ -4410,7 +6074,21 @@
       "max_completion_tokens": 8000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format"
+    ]
   },
   {
     "id": "meta-llama/llama-4-maverick",
@@ -4443,7 +6121,26 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "logprobs",
+      "top_logprobs",
+      "structured_outputs"
+    ]
   },
   {
     "id": "meta-llama/llama-4-maverick:free",
@@ -4476,7 +6173,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "meta-llama/llama-4-scout",
@@ -4509,7 +6221,26 @@
       "max_completion_tokens": 1048576,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k",
+      "tools",
+      "tool_choice",
+      "stop",
+      "response_format",
+      "top_logprobs",
+      "logprobs",
+      "logit_bias",
+      "seed",
+      "min_p",
+      "structured_outputs"
+    ]
   },
   {
     "id": "meta-llama/llama-4-scout:free",
@@ -4542,7 +6273,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "meta-llama/llama-guard-2-8b",
@@ -4574,7 +6320,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format"
+    ]
   },
   {
     "id": "meta-llama/llama-guard-3-8b",
@@ -4606,7 +6365,69 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format",
+      "top_logprobs",
+      "logprobs",
+      "seed"
+    ]
+  },
+  {
+    "id": "meta-llama/llama-guard-4-12b",
+    "name": "Llama Guard 4 12B",
+    "created": 1745975193,
+    "description": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM inputs (prompt classification) and in LLM responses (response classification). It acts as an LLM—generating text in its output that indicates whether a given prompt or response is safe or unsafe, and if unsafe, it also lists the content categories violated.\n\nLlama Guard 4 was aligned to safeguard against the standardized MLCommons hazards taxonomy and designed to support multimodal Llama 4 capabilities. Specifically, it combines features from previous Llama Guard models, providing content moderation for English and multiple supported languages, along with enhanced capabilities to handle mixed text-and-image prompts, including multiple images. Additionally, Llama Guard 4 is integrated into the Llama Moderations API, extending robust safety classification to text and images.",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.00000005",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "top_k",
+      "seed",
+      "min_p"
+    ]
   },
   {
     "id": "microsoft/mai-ds-r1:free",
@@ -4638,7 +6459,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "microsoft/phi-3-medium-128k-instruct",
@@ -4670,7 +6508,14 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p"
+    ]
   },
   {
     "id": "microsoft/phi-3-mini-128k-instruct",
@@ -4702,7 +6547,14 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p"
+    ]
   },
   {
     "id": "microsoft/phi-3.5-mini-128k-instruct",
@@ -4734,7 +6586,14 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p"
+    ]
   },
   {
     "id": "microsoft/phi-4",
@@ -4766,7 +6625,23 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "repetition_penalty",
+      "response_format",
+      "min_p"
+    ]
   },
   {
     "id": "microsoft/phi-4-multimodal-instruct",
@@ -4799,7 +6674,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k",
+      "stop",
+      "response_format",
+      "seed",
+      "min_p"
+    ]
   },
   {
     "id": "microsoft/wizardlm-2-8x22b",
@@ -4831,7 +6719,21 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k",
+      "stop",
+      "seed",
+      "min_p",
+      "logit_bias",
+      "response_format"
+    ]
   },
   {
     "id": "minimax/minimax-01",
@@ -4864,7 +6766,12 @@
       "max_completion_tokens": 1000192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p"
+    ]
   },
   {
     "id": "mistral/ministral-8b",
@@ -4896,7 +6803,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "seed"
+    ]
   },
   {
     "id": "mistralai/codestral-2501",
@@ -4928,7 +6848,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "seed"
+    ]
   },
   {
     "id": "mistralai/codestral-mamba",
@@ -4960,7 +6893,19 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "seed"
+    ]
   },
   {
     "id": "mistralai/ministral-3b",
@@ -4992,7 +6937,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "seed"
+    ]
   },
   {
     "id": "mistralai/ministral-8b",
@@ -5024,7 +6982,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "seed"
+    ]
   },
   {
     "id": "mistralai/mistral-7b-instruct",
@@ -5056,7 +7027,24 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format",
+      "seed",
+      "logprobs",
+      "tools",
+      "tool_choice"
+    ]
   },
   {
     "id": "mistralai/mistral-7b-instruct-v0.1",
@@ -5088,7 +7076,22 @@
       "max_completion_tokens": 2048,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format"
+    ]
   },
   {
     "id": "mistralai/mistral-7b-instruct-v0.2",
@@ -5120,7 +7123,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format"
+    ]
   },
   {
     "id": "mistralai/mistral-7b-instruct-v0.3",
@@ -5152,7 +7168,24 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format",
+      "seed",
+      "tools",
+      "tool_choice",
+      "logprobs"
+    ]
   },
   {
     "id": "mistralai/mistral-7b-instruct:free",
@@ -5184,7 +7217,22 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "top_k",
+      "seed",
+      "min_p"
+    ]
   },
   {
     "id": "mistralai/mistral-large",
@@ -5216,7 +7264,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "response_format",
+      "stop",
+      "seed",
+      "frequency_penalty",
+      "presence_penalty",
+      "structured_outputs"
+    ]
   },
   {
     "id": "mistralai/mistral-large-2407",
@@ -5248,7 +7309,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "seed"
+    ]
   },
   {
     "id": "mistralai/mistral-large-2411",
@@ -5280,7 +7354,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "seed"
+    ]
   },
   {
     "id": "mistralai/mistral-medium",
@@ -5312,7 +7399,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "seed"
+    ]
   },
   {
     "id": "mistralai/mistral-nemo",
@@ -5344,7 +7444,26 @@
       "max_completion_tokens": 49152,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "structured_outputs",
+      "repetition_penalty",
+      "min_p"
+    ]
   },
   {
     "id": "mistralai/mistral-nemo:free",
@@ -5376,7 +7495,22 @@
       "max_completion_tokens": 128000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "mistralai/mistral-saba",
@@ -5408,7 +7542,23 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "seed",
+      "top_logprobs",
+      "logprobs",
+      "logit_bias"
+    ]
   },
   {
     "id": "mistralai/mistral-small",
@@ -5440,7 +7590,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "seed"
+    ]
   },
   {
     "id": "mistralai/mistral-small-24b-instruct-2501",
@@ -5472,7 +7635,25 @@
       "max_completion_tokens": 14000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "top_k",
+      "seed",
+      "min_p",
+      "tools",
+      "tool_choice",
+      "structured_outputs",
+      "logit_bias",
+      "logprobs"
+    ]
   },
   {
     "id": "mistralai/mistral-small-24b-instruct-2501:free",
@@ -5504,7 +7685,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "mistralai/mistral-small-3.1-24b-instruct",
@@ -5537,7 +7733,22 @@
       "max_completion_tokens": 128000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k",
+      "tools",
+      "tool_choice",
+      "stop",
+      "response_format",
+      "structured_outputs",
+      "seed"
+    ]
   },
   {
     "id": "mistralai/mistral-small-3.1-24b-instruct:free",
@@ -5570,7 +7781,24 @@
       "max_completion_tokens": 96000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "mistralai/mistral-tiny",
@@ -5602,7 +7830,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "seed"
+    ]
   },
   {
     "id": "mistralai/mixtral-8x22b-instruct",
@@ -5634,7 +7875,25 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "seed",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs"
+    ]
   },
   {
     "id": "mistralai/mixtral-8x7b-instruct",
@@ -5666,7 +7925,23 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format",
+      "seed"
+    ]
   },
   {
     "id": "mistralai/pixtral-12b",
@@ -5699,7 +7974,26 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "logprobs",
+      "top_logprobs",
+      "seed",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "mistralai/pixtral-large-2411",
@@ -5732,7 +8026,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "seed"
+    ]
   },
   {
     "id": "moonshotai/kimi-vl-a3b-thinking:free",
@@ -5765,7 +8072,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "moonshotai/moonlight-16b-a3b-instruct:free",
@@ -5797,7 +8121,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "neversleep/llama-3-lumimaid-70b",
@@ -5829,7 +8168,19 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "neversleep/llama-3-lumimaid-8b",
@@ -5861,7 +8212,21 @@
       "max_completion_tokens": 2048,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed",
+      "logit_bias",
+      "top_a"
+    ]
   },
   {
     "id": "neversleep/llama-3-lumimaid-8b:extended",
@@ -5893,7 +8258,21 @@
       "max_completion_tokens": 2048,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "seed",
+      "top_a"
+    ]
   },
   {
     "id": "neversleep/llama-3.1-lumimaid-70b",
@@ -5925,7 +8304,21 @@
       "max_completion_tokens": 2048,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "seed",
+      "top_a"
+    ]
   },
   {
     "id": "neversleep/llama-3.1-lumimaid-8b",
@@ -5957,7 +8350,21 @@
       "max_completion_tokens": 2048,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed",
+      "logit_bias",
+      "top_a"
+    ]
   },
   {
     "id": "neversleep/noromaid-20b",
@@ -5989,7 +8396,21 @@
       "max_completion_tokens": 2048,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "seed",
+      "top_a"
+    ]
   },
   {
     "id": "nothingiisreal/mn-celeste-12b",
@@ -6021,7 +8442,19 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "nousresearch/deephermes-3-llama-3-8b-preview:free",
@@ -6053,7 +8486,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "nousresearch/hermes-2-pro-llama-3-8b",
@@ -6085,7 +8533,23 @@
       "max_completion_tokens": 131072,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "top_k",
+      "min_p",
+      "repetition_penalty"
+    ]
   },
   {
     "id": "nousresearch/hermes-3-llama-3.1-405b",
@@ -6117,7 +8581,23 @@
       "max_completion_tokens": 131072,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "top_k",
+      "repetition_penalty",
+      "min_p"
+    ]
   },
   {
     "id": "nousresearch/hermes-3-llama-3.1-70b",
@@ -6149,7 +8629,25 @@
       "max_completion_tokens": 131072,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "tools",
+      "tool_choice",
+      "top_k",
+      "min_p",
+      "repetition_penalty"
+    ]
   },
   {
     "id": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
@@ -6181,7 +8679,20 @@
       "max_completion_tokens": 2048,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format"
+    ]
   },
   {
     "id": "nvidia/llama-3.1-nemotron-70b-instruct",
@@ -6213,7 +8724,25 @@
       "max_completion_tokens": 131072,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "top_k",
+      "repetition_penalty",
+      "min_p",
+      "tools",
+      "tool_choice"
+    ]
   },
   {
     "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
@@ -6245,7 +8774,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "nvidia/llama-3.3-nemotron-super-49b-v1:free",
@@ -6277,7 +8821,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "open-r1/olympiccoder-32b:free",
@@ -6309,7 +8868,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "openai/chatgpt-4o-latest",
@@ -6342,7 +8918,21 @@
       "max_completion_tokens": 16384,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-3.5-turbo",
@@ -6374,7 +8964,22 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "openai/gpt-3.5-turbo-0125",
@@ -6406,7 +9011,22 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "openai/gpt-3.5-turbo-0613",
@@ -6438,7 +9058,23 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-3.5-turbo-1106",
@@ -6470,7 +9106,23 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-3.5-turbo-16k",
@@ -6502,7 +9154,22 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "openai/gpt-3.5-turbo-instruct",
@@ -6534,7 +9201,20 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "openai/gpt-4",
@@ -6566,7 +9246,22 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "openai/gpt-4-0314",
@@ -6598,7 +9293,23 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4-1106-preview",
@@ -6630,7 +9341,23 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4-32k",
@@ -6662,7 +9389,22 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "openai/gpt-4-32k-0314",
@@ -6694,7 +9436,23 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4-turbo",
@@ -6727,7 +9485,22 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "openai/gpt-4-turbo-preview",
@@ -6759,7 +9532,23 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4.1",
@@ -6793,7 +9582,24 @@
       "max_completion_tokens": 32768,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4.1-mini",
@@ -6827,7 +9633,24 @@
       "max_completion_tokens": 32768,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4.1-nano",
@@ -6861,7 +9684,23 @@
       "max_completion_tokens": 32768,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4.5-preview",
@@ -6895,7 +9734,23 @@
       "max_completion_tokens": 16384,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4o",
@@ -6930,7 +9785,24 @@
       "max_completion_tokens": 16384,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4o-2024-05-13",
@@ -6964,7 +9836,24 @@
       "max_completion_tokens": 4096,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4o-2024-08-06",
@@ -6999,7 +9888,24 @@
       "max_completion_tokens": 16384,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4o-2024-11-20",
@@ -7034,7 +9940,24 @@
       "max_completion_tokens": 16384,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4o-mini",
@@ -7069,7 +9992,24 @@
       "max_completion_tokens": 16384,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice"
+    ]
   },
   {
     "id": "openai/gpt-4o-mini-2024-07-18",
@@ -7104,7 +10044,24 @@
       "max_completion_tokens": 16384,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4o-mini-search-preview",
@@ -7136,7 +10093,13 @@
       "max_completion_tokens": 16384,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "web_search_options",
+      "max_tokens",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4o-search-preview",
@@ -7168,7 +10131,13 @@
       "max_completion_tokens": 16384,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "web_search_options",
+      "max_tokens",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/gpt-4o:extended",
@@ -7202,7 +10171,24 @@
       "max_completion_tokens": 64000,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/o1",
@@ -7236,7 +10222,15 @@
       "max_completion_tokens": 100000,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "seed",
+      "max_tokens",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/o1-mini",
@@ -7269,7 +10263,11 @@
       "max_completion_tokens": 65536,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "seed",
+      "max_tokens"
+    ]
   },
   {
     "id": "openai/o1-mini-2024-09-12",
@@ -7302,7 +10300,11 @@
       "max_completion_tokens": 65536,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "seed",
+      "max_tokens"
+    ]
   },
   {
     "id": "openai/o1-preview",
@@ -7335,7 +10337,11 @@
       "max_completion_tokens": 32768,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "seed",
+      "max_tokens"
+    ]
   },
   {
     "id": "openai/o1-preview-2024-09-12",
@@ -7368,7 +10374,11 @@
       "max_completion_tokens": 32768,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "seed",
+      "max_tokens"
+    ]
   },
   {
     "id": "openai/o1-pro",
@@ -7401,7 +10411,22 @@
       "max_completion_tokens": 100000,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "openai/o3",
@@ -7436,7 +10461,15 @@
       "max_completion_tokens": 100000,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "seed",
+      "max_tokens",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/o3-mini",
@@ -7469,7 +10502,15 @@
       "max_completion_tokens": 100000,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "seed",
+      "max_tokens",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/o3-mini-high",
@@ -7502,7 +10543,15 @@
       "max_completion_tokens": 100000,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "seed",
+      "max_tokens",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/o4-mini",
@@ -7536,7 +10585,15 @@
       "max_completion_tokens": 100000,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "seed",
+      "max_tokens",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openai/o4-mini-high",
@@ -7571,7 +10628,15 @@
       "max_completion_tokens": 100000,
       "is_moderated": true
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "seed",
+      "max_tokens",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "openrouter/auto",
@@ -7599,7 +10664,8 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": []
   },
   {
     "id": "perplexity/llama-3.1-sonar-large-128k-online",
@@ -7631,7 +10697,15 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "frequency_penalty",
+      "presence_penalty"
+    ]
   },
   {
     "id": "perplexity/llama-3.1-sonar-small-128k-online",
@@ -7663,7 +10737,15 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "frequency_penalty",
+      "presence_penalty"
+    ]
   },
   {
     "id": "perplexity/r1-1776",
@@ -7695,7 +10777,17 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "top_k",
+      "frequency_penalty",
+      "presence_penalty"
+    ]
   },
   {
     "id": "perplexity/sonar",
@@ -7727,7 +10819,16 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "web_search_options",
+      "top_k",
+      "frequency_penalty",
+      "presence_penalty"
+    ]
   },
   {
     "id": "perplexity/sonar-deep-research",
@@ -7759,7 +10860,17 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "top_k",
+      "frequency_penalty",
+      "presence_penalty"
+    ]
   },
   {
     "id": "perplexity/sonar-pro",
@@ -7791,7 +10902,16 @@
       "max_completion_tokens": 8000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "web_search_options",
+      "top_k",
+      "frequency_penalty",
+      "presence_penalty"
+    ]
   },
   {
     "id": "perplexity/sonar-reasoning",
@@ -7823,7 +10943,18 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "web_search_options",
+      "top_k",
+      "frequency_penalty",
+      "presence_penalty"
+    ]
   },
   {
     "id": "perplexity/sonar-reasoning-pro",
@@ -7855,7 +10986,18 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "web_search_options",
+      "top_k",
+      "frequency_penalty",
+      "presence_penalty"
+    ]
   },
   {
     "id": "pygmalionai/mythalion-13b",
@@ -7887,7 +11029,21 @@
       "max_completion_tokens": 1024,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "seed",
+      "top_a"
+    ]
   },
   {
     "id": "qwen/qwen-2-72b-instruct",
@@ -7919,7 +11075,20 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format"
+    ]
   },
   {
     "id": "qwen/qwen-2.5-72b-instruct",
@@ -7951,7 +11120,26 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "response_format",
+      "structured_outputs",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "seed",
+      "min_p"
+    ]
   },
   {
     "id": "qwen/qwen-2.5-72b-instruct:free",
@@ -7983,7 +11171,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "qwen/qwen-2.5-7b-instruct",
@@ -8015,7 +11218,21 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format",
+      "seed"
+    ]
   },
   {
     "id": "qwen/qwen-2.5-7b-instruct:free",
@@ -8047,7 +11264,20 @@
       "max_completion_tokens": 32768,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
+    ]
   },
   {
     "id": "qwen/qwen-2.5-coder-32b-instruct",
@@ -8079,7 +11309,24 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format",
+      "seed",
+      "logprobs",
+      "top_logprobs",
+      "top_a"
+    ]
   },
   {
     "id": "qwen/qwen-2.5-coder-32b-instruct:free",
@@ -8111,7 +11358,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "qwen/qwen-2.5-vl-72b-instruct",
@@ -8144,7 +11406,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "logprobs",
+      "top_logprobs",
+      "seed",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "repetition_penalty"
+    ]
   },
   {
     "id": "qwen/qwen-2.5-vl-7b-instruct",
@@ -8177,7 +11454,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "logprobs",
+      "top_logprobs",
+      "seed",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "repetition_penalty"
+    ]
   },
   {
     "id": "qwen/qwen-2.5-vl-7b-instruct:free",
@@ -8210,7 +11502,22 @@
       "max_completion_tokens": 64000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "qwen/qwen-max",
@@ -8242,7 +11549,17 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "response_format",
+      "presence_penalty"
+    ]
   },
   {
     "id": "qwen/qwen-plus",
@@ -8274,7 +11591,17 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "response_format",
+      "presence_penalty"
+    ]
   },
   {
     "id": "qwen/qwen-turbo",
@@ -8306,7 +11633,17 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "response_format",
+      "presence_penalty"
+    ]
   },
   {
     "id": "qwen/qwen-vl-max",
@@ -8339,7 +11676,15 @@
       "max_completion_tokens": 1500,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "response_format",
+      "presence_penalty"
+    ]
   },
   {
     "id": "qwen/qwen-vl-plus",
@@ -8372,7 +11717,15 @@
       "max_completion_tokens": 1500,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "response_format",
+      "presence_penalty"
+    ]
   },
   {
     "id": "qwen/qwen2.5-vl-32b-instruct",
@@ -8405,7 +11758,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "response_format",
+      "structured_outputs",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs"
+    ]
   },
   {
     "id": "qwen/qwen2.5-vl-32b-instruct:free",
@@ -8438,7 +11806,23 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "response_format",
+      "presence_penalty",
+      "stop",
+      "frequency_penalty",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "qwen/qwen2.5-vl-3b-instruct:free",
@@ -8471,7 +11855,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "qwen/qwen2.5-vl-72b-instruct",
@@ -8504,7 +11903,21 @@
       "max_completion_tokens": 128000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format",
+      "seed"
+    ]
   },
   {
     "id": "qwen/qwen2.5-vl-72b-instruct:free",
@@ -8537,7 +11950,23 @@
       "max_completion_tokens": 2048,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "response_format",
+      "presence_penalty",
+      "stop",
+      "frequency_penalty",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "qwen/qwen3-14b",
@@ -8569,7 +11998,22 @@
       "max_completion_tokens": 40960,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "top_k",
+      "seed",
+      "min_p"
+    ]
   },
   {
     "id": "qwen/qwen3-14b:free",
@@ -8601,7 +12045,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "qwen/qwen3-235b-a22b",
@@ -8633,7 +12094,23 @@
       "max_completion_tokens": 40960,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k",
+      "stop",
+      "response_format",
+      "seed",
+      "min_p",
+      "logit_bias"
+    ]
   },
   {
     "id": "qwen/qwen3-235b-a22b:free",
@@ -8665,7 +12142,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "qwen/qwen3-30b-a3b",
@@ -8697,7 +12191,23 @@
       "max_completion_tokens": 40960,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k",
+      "stop",
+      "response_format",
+      "seed",
+      "min_p",
+      "logit_bias"
+    ]
   },
   {
     "id": "qwen/qwen3-30b-a3b:free",
@@ -8729,7 +12239,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "qwen/qwen3-32b",
@@ -8761,7 +12288,23 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "top_k",
+      "seed",
+      "min_p",
+      "logit_bias"
+    ]
   },
   {
     "id": "qwen/qwen3-32b:free",
@@ -8793,7 +12336,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "qwen/qwen3-8b:free",
@@ -8825,7 +12385,24 @@
       "max_completion_tokens": 40960,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "qwen/qwq-32b",
@@ -8857,7 +12434,28 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format",
+      "logprobs",
+      "top_logprobs",
+      "seed",
+      "tools",
+      "tool_choice",
+      "structured_outputs"
+    ]
   },
   {
     "id": "qwen/qwq-32b-preview",
@@ -8889,7 +12487,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "logprobs",
+      "top_logprobs",
+      "seed",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "response_format",
+      "structured_outputs"
+    ]
   },
   {
     "id": "qwen/qwq-32b-preview:free",
@@ -8921,7 +12536,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "qwen/qwq-32b:free",
@@ -8953,7 +12583,24 @@
       "max_completion_tokens": 40000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "raifle/sorcererlm-8x22b",
@@ -8985,7 +12632,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "rekaai/reka-flash-3:free",
@@ -9017,7 +12677,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "sao10k/fimbulvetr-11b-v2",
@@ -9049,7 +12726,19 @@
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed"
+    ]
   },
   {
     "id": "sao10k/l3-euryale-70b",
@@ -9081,7 +12770,20 @@
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
+    ]
   },
   {
     "id": "sao10k/l3-lunaris-8b",
@@ -9113,7 +12815,21 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias",
+      "response_format"
+    ]
   },
   {
     "id": "sao10k/l3.1-euryale-70b",
@@ -9145,7 +12861,21 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias",
+      "response_format"
+    ]
   },
   {
     "id": "sao10k/l3.3-euryale-70b",
@@ -9177,7 +12907,21 @@
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "top_k",
+      "seed",
+      "min_p",
+      "logit_bias"
+    ]
   },
   {
     "id": "scb10x/llama3.1-typhoon2-70b-instruct",
@@ -9209,7 +12953,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format"
+    ]
   },
   {
     "id": "scb10x/llama3.1-typhoon2-8b-instruct",
@@ -9241,7 +12998,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format"
+    ]
   },
   {
     "id": "shisa-ai/shisa-v2-llama3.3-70b:free",
@@ -9273,7 +13043,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "sophosympatheia/midnight-rose-70b",
@@ -9305,39 +13090,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
-  },
-  {
-    "id": "sophosympatheia/rogue-rose-103b-v0.2:free",
-    "name": "Rogue Rose 103B v0.2 (free)",
-    "created": 1737195189,
-    "description": "Rogue Rose demonstrates strong capabilities in roleplaying and storytelling applications, potentially surpassing other models in the 103-120B parameter range. While it occasionally exhibits inconsistencies with scene logic, the overall interaction quality represents an advancement in natural language processing for creative applications.\n\nIt is a 120-layer frankenmerge model combining two custom 70B architectures from November 2023, derived from the [xwin-stellarbright-erp-70b-v2](https://huggingface.co/sophosympatheia/xwin-stellarbright-erp-70b-v2) base.\n",
-    "context_length": 4096,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama2",
-      "instruct_type": "vicuna"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
+    ]
   },
   {
     "id": "steelskull/l3.3-electra-r1-70b",
@@ -9369,7 +13135,16 @@
       "max_completion_tokens": 131072,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k"
+    ]
   },
   {
     "id": "thedrummer/anubis-pro-105b-v1",
@@ -9401,7 +13176,16 @@
       "max_completion_tokens": 131072,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k"
+    ]
   },
   {
     "id": "thedrummer/rocinante-12b",
@@ -9433,7 +13217,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed",
+      "logit_bias"
+    ]
   },
   {
     "id": "thedrummer/skyfall-36b-v2",
@@ -9465,7 +13262,16 @@
       "max_completion_tokens": 32768,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k"
+    ]
   },
   {
     "id": "thedrummer/unslopnemo-12b",
@@ -9497,7 +13303,21 @@
       "max_completion_tokens": 16000,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "seed",
+      "logprobs"
+    ]
   },
   {
     "id": "thudm/glm-4-32b",
@@ -9529,7 +13349,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
+    ]
   },
   {
     "id": "thudm/glm-4-32b:free",
@@ -9561,7 +13394,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "thudm/glm-4-9b:free",
@@ -9593,7 +13441,20 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
+    ]
   },
   {
     "id": "thudm/glm-z1-32b",
@@ -9625,7 +13486,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
+    ]
   },
   {
     "id": "thudm/glm-z1-32b:free",
@@ -9657,7 +13533,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "thudm/glm-z1-9b:free",
@@ -9689,7 +13582,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
+    ]
   },
   {
     "id": "thudm/glm-z1-rumination-32b",
@@ -9721,7 +13629,22 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
+    ]
   },
   {
     "id": "tngtech/deepseek-r1t-chimera:free",
@@ -9753,7 +13676,24 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
   },
   {
     "id": "undi95/remm-slerp-l2-13b",
@@ -9785,7 +13725,21 @@
       "max_completion_tokens": 1024,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "seed",
+      "top_a"
+    ]
   },
   {
     "id": "x-ai/grok-2-1212",
@@ -9817,7 +13771,21 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "x-ai/grok-2-vision-1212",
@@ -9850,7 +13818,19 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "x-ai/grok-3-beta",
@@ -9882,7 +13862,21 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "x-ai/grok-3-mini-beta",
@@ -9914,7 +13908,21 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "seed",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "x-ai/grok-beta",
@@ -9946,7 +13954,21 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   },
   {
     "id": "x-ai/grok-vision-beta",
@@ -9979,6 +14001,18 @@
       "max_completion_tokens": null,
       "is_moderated": false
     },
-    "per_request_limits": null
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
+    ]
   }
 ]
