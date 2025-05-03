@@ -467,7 +467,7 @@
         "text"
       ],
       "tokenizer": "Other",
-      "instruct_type": null
+      "instruct_type": "alpaca"
     },
     "pricing": {
       "prompt": "0.0000008",
@@ -2812,7 +2812,7 @@
     "name": "DeepSeek: DeepSeek Prover V2",
     "created": 1746013094,
     "description": "DeepSeek Prover V2 is a 671B parameter model, speculated to be geared towards logic and mathematics. Likely an upgrade from [DeepSeek-Prover-V1.5](https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-RL) Not much is known about the model yet, as DeepSeek released it on Hugging Face without an announcement or description.",
-    "context_length": 163840,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2825,7 +2825,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000007",
+      "prompt": "0.0000005",
       "completion": "0.00000218",
       "request": "0",
       "image": "0",
@@ -2833,7 +2833,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 163840,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -3491,7 +3491,7 @@
         "text"
       ],
       "tokenizer": "Other",
-      "instruct_type": null
+      "instruct_type": "code-llama"
     },
     "pricing": {
       "prompt": "0.0000008",
@@ -3778,17 +3778,10 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "response_format",
-      "structured_outputs"
+      "stop"
     ]
   },
   {
@@ -3872,17 +3865,12 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
-      "reasoning",
-      "include_reasoning",
+      "tools",
+      "tool_choice",
       "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
       "response_format",
       "structured_outputs"
     ]
@@ -3921,17 +3909,12 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
-      "reasoning",
-      "include_reasoning",
+      "tools",
+      "tool_choice",
       "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
       "response_format",
       "structured_outputs"
     ]
@@ -4006,7 +3989,9 @@
       "request": "0",
       "image": "0.00516",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.000000625",
+      "input_cache_write": "0.00000285"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -6245,8 +6230,6 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
@@ -6254,13 +6237,15 @@
       "frequency_penalty",
       "presence_penalty",
       "seed",
-      "top_k",
-      "min_p",
-      "repetition_penalty",
       "logit_bias",
       "logprobs",
       "top_logprobs",
       "response_format",
+      "top_k",
+      "tools",
+      "tool_choice",
+      "min_p",
+      "repetition_penalty",
       "structured_outputs"
     ]
   },
@@ -6398,6 +6383,8 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "structured_outputs",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
@@ -6498,6 +6485,8 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "structured_outputs",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
@@ -6926,8 +6915,55 @@
     ]
   },
   {
+    "id": "microsoft/phi-4-reasoning-plus",
+    "name": "Microsoft: Phi 4 Reasoning Plus",
+    "created": 1746130961,
+    "description": "Phi-4-reasoning-plus is an enhanced 14B parameter model from Microsoft, fine-tuned from Phi-4 with additional reinforcement learning to boost accuracy on math, science, and code reasoning tasks. It uses the same dense decoder-only transformer architecture as Phi-4, but generates longer, more comprehensive outputs structured into a step-by-step reasoning trace and final answer.\n\nWhile it offers improved benchmark scores over Phi-4-reasoning across tasks like AIME, OmniMath, and HumanEvalPlus, its responses are typically ~50% longer, resulting in higher latency. Designed for English-only applications, it is well-suited for structured reasoning workflows where output quality takes priority over response speed.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000007",
+      "completion": "0.00000035",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "top_k",
+      "seed",
+      "min_p"
+    ]
+  },
+  {
     "id": "microsoft/phi-4-reasoning-plus:free",
-    "name": "Phi 4 Reasoning Plus (free)",
+    "name": "Microsoft: Phi 4 Reasoning Plus (free)",
     "created": 1746130961,
     "description": "Phi-4-reasoning-plus is an enhanced 14B parameter model from Microsoft, fine-tuned from Phi-4 with additional reinforcement learning to boost accuracy on math, science, and code reasoning tasks. It uses the same dense decoder-only transformer architecture as Phi-4, but generates longer, more comprehensive outputs structured into a step-by-step reasoning trace and final answer.\n\nWhile it offers improved benchmark scores over Phi-4-reasoning across tasks like AIME, OmniMath, and HumanEvalPlus, its responses are typically ~50% longer, resulting in higher latency. Designed for English-only applications, it is well-suited for structured reasoning workflows where output quality takes priority over response speed.",
     "context_length": 32768,
@@ -12674,7 +12710,7 @@
     "name": "Qwen: Qwen3 235B A22B",
     "created": 1745875757,
     "description": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass. It supports seamless switching between a \"thinking\" mode for complex reasoning, math, and code tasks, and a \"non-thinking\" mode for general conversational efficiency. The model demonstrates strong reasoning ability, multilingual support (100+ languages and dialects), advanced instruction-following, and agent tool-calling capabilities. It natively handles a 32K token context window and extends up to 131K tokens using YaRN-based scaling.",
-    "context_length": 131072,
+    "context_length": 40960,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -12695,8 +12731,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
+      "context_length": 40960,
+      "max_completion_tokens": 40960,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12710,13 +12746,13 @@
       "frequency_penalty",
       "repetition_penalty",
       "top_k",
+      "seed",
+      "stop",
+      "response_format",
+      "min_p",
       "tools",
       "tool_choice",
-      "stop",
-      "seed",
-      "min_p",
       "logit_bias",
-      "response_format",
       "structured_outputs",
       "logprobs",
       "top_logprobs"
