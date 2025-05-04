@@ -3613,7 +3613,7 @@
     "name": "EVA Qwen2.5 72B",
     "created": 1732210606,
     "description": "EVA Qwen2.5 72B is a roleplay and storywriting specialist model. It's a full-parameter finetune of Qwen2.5-72B on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model.",
-    "context_length": 131072,
+    "context_length": 16384,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -3626,16 +3626,16 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.0000009",
-      "completion": "0.0000012",
+      "prompt": "0.000004",
+      "completion": "0.000006",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "context_length": 16384,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3643,11 +3643,11 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "presence_penalty",
+      "stop",
       "frequency_penalty",
+      "presence_penalty",
       "repetition_penalty",
       "top_k",
-      "stop",
       "min_p",
       "seed"
     ]
@@ -5220,47 +5220,6 @@
     ]
   },
   {
-    "id": "latitudegames/wayfarer-large-70b-llama-3.3",
-    "name": "LatitudeGames: Wayfarer Large 70B Llama 3.3",
-    "created": 1741636885,
-    "description": "Wayfarer Large 70B is a roleplay and text-adventure model fine-tuned from Meta’s Llama-3.3-70B-Instruct. Specifically optimized for narrative-driven, challenging scenarios, it introduces realistic stakes, conflicts, and consequences often avoided by standard RLHF-aligned models. Trained using a curated blend of adventure, roleplay, and instructive fiction datasets, Wayfarer emphasizes tense storytelling, authentic player failure scenarios, and robust narrative immersion, making it uniquely suited for interactive fiction and gaming experiences.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000009",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "presence_penalty",
-      "frequency_penalty",
-      "repetition_penalty",
-      "top_k"
-    ]
-  },
-  {
     "id": "liquid/lfm-3b",
     "name": "Liquid: LFM 3B",
     "created": 1737806501,
@@ -6631,11 +6590,12 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "repetition_penalty",
-      "response_format",
       "top_k",
-      "seed",
-      "min_p"
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format",
+      "seed"
     ]
   },
   {
@@ -6904,12 +6864,12 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "presence_penalty",
-      "frequency_penalty",
-      "repetition_penalty",
-      "top_k",
       "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
       "response_format",
+      "top_k",
       "seed",
       "min_p"
     ]
@@ -13850,47 +13810,6 @@
       "min_p",
       "repetition_penalty",
       "logit_bias"
-    ]
-  },
-  {
-    "id": "steelskull/l3.3-electra-r1-70b",
-    "name": "SteelSkull: L3.3 Electra R1 70B",
-    "created": 1742067611,
-    "description": "L3.3-Electra-R1-70 is the newest release of the Unnamed series. Built on a DeepSeek R1 Distill base, Electra-R1 integrates various models together to provide an intelligent and coherent model capable of providing deep character insights. Through proper prompting, the model demonstrates advanced reasoning capabilities and unprompted exploration of character inner thoughts and motivations. Read more about the model and [prompting here](https://huggingface.co/Steelskull/L3.3-Electra-R1-70b)",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": "deepseek-r1"
-    },
-    "pricing": {
-      "prompt": "0.0000007",
-      "completion": "0.00000095",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "presence_penalty",
-      "frequency_penalty",
-      "repetition_penalty",
-      "top_k"
     ]
   },
   {
