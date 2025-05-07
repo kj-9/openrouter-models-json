@@ -4283,9 +4283,9 @@
     ]
   },
   {
-    "id": "google/gemini-2.5-pro-preview-03-25",
+    "id": "google/gemini-2.5-pro-preview",
     "name": "Google: Gemini 2.5 Pro Preview",
-    "created": 1744924206,
+    "created": 1746578513,
     "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
     "context_length": 1048576,
     "architecture": {
@@ -6200,7 +6200,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -7523,7 +7523,8 @@
       "seed",
       "logprobs",
       "tools",
-      "tool_choice"
+      "tool_choice",
+      "structured_outputs"
     ]
   },
   {
@@ -7665,7 +7666,8 @@
       "seed",
       "tools",
       "tool_choice",
-      "logprobs"
+      "logprobs",
+      "structured_outputs"
     ]
   },
   {
@@ -11393,7 +11395,12 @@
       "include_reasoning",
       "top_k",
       "frequency_penalty",
-      "presence_penalty"
+      "presence_penalty",
+      "stop",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format"
     ]
   },
   {
@@ -11894,7 +11901,7 @@
     "name": "Qwen2.5 Coder 32B Instruct",
     "created": 1731368400,
     "description": "Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5:\n\n- Significantly improvements in **code generation**, **code reasoning** and **code fixing**. \n- A more comprehensive foundation for real-world applications such as **Code Agents**. Not only enhancing coding capabilities but also maintaining its strengths in mathematics and general competencies.\n\nTo read more about its evaluation results, check out [Qwen 2.5 Coder's blog](https://qwenlm.github.io/blog/qwen2.5-coder-family/).",
-    "context_length": 131072,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -11908,15 +11915,15 @@
     },
     "pricing": {
       "prompt": "0.00000006",
-      "completion": "0.00000018",
+      "completion": "0.00000015",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
+      "context_length": 32768,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12836,8 +12843,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000001",
-      "completion": "0.0000001",
+      "prompt": "0.00000015",
+      "completion": "0.0000006",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12860,64 +12867,15 @@
       "repetition_penalty",
       "top_k",
       "seed",
-      "stop",
-      "response_format",
-      "min_p",
       "tools",
       "tool_choice",
+      "stop",
+      "response_format",
       "structured_outputs",
       "logit_bias",
       "logprobs",
-      "top_logprobs"
-    ]
-  },
-  {
-    "id": "qwen/qwen3-235b-a22b:free",
-    "name": "Qwen: Qwen3 235B A22B (free)",
-    "created": 1745875757,
-    "description": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass. It supports seamless switching between a \"thinking\" mode for complex reasoning, math, and code tasks, and a \"non-thinking\" mode for general conversational efficiency. The model demonstrates strong reasoning ability, multilingual support (100+ languages and dialects), advanced instruction-following, and agent tool-calling capabilities. It natively handles a 32K token context window and extends up to 131K tokens using YaRN-based scaling.",
-    "context_length": 40960,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen3",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 40960,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "reasoning",
-      "include_reasoning",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "top_k",
-      "min_p",
-      "repetition_penalty",
-      "logprobs",
-      "logit_bias",
-      "top_logprobs"
+      "top_logprobs",
+      "min_p"
     ]
   },
   {
