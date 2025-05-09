@@ -4094,7 +4094,9 @@
       "request": "0",
       "image": "0.0006192",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.0000000375",
+      "input_cache_write": "0.0000002333"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -4138,7 +4140,9 @@
       "request": "0",
       "image": "0.0006192",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.0000000375",
+      "input_cache_write": "0.0000002333"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -4228,8 +4232,8 @@
       "image": "0.00516",
       "web_search": "0",
       "internal_reasoning": "0",
-      "input_cache_read": "0.000000625",
-      "input_cache_write": "0.00000285"
+      "input_cache_read": "0.00000031",
+      "input_cache_write": "0.000001625"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -4435,46 +4439,6 @@
       "seed",
       "response_format",
       "structured_outputs"
-    ]
-  },
-  {
-    "id": "google/gemini-pro-vision",
-    "name": "Google: Gemini Pro Vision 1.0",
-    "created": 1702425600,
-    "description": "Google's flagship multimodal model, supporting image and video in text or chat prompts for a text or code response.\n\nSee the benchmarks and prompting guidelines from [Deepmind](https://deepmind.google/technologies/gemini/).\n\nUsage of Gemini is subject to Google's [Gemini Terms of Use](https://ai.google.dev/terms).\n\n#multimodal",
-    "context_length": 16384,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Gemini",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.0000015",
-      "request": "0",
-      "image": "0.0025",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 16384,
-      "max_completion_tokens": 2048,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "top_k",
-      "stop"
     ]
   },
   {
