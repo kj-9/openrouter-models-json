@@ -3050,7 +3050,7 @@
     "name": "DeepSeek: DeepSeek Prover V2",
     "created": 1746013094,
     "description": "DeepSeek Prover V2 is a 671B parameter model, speculated to be geared towards logic and mathematics. Likely an upgrade from [DeepSeek-Prover-V1.5](https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-RL) Not much is known about the model yet, as DeepSeek released it on Hugging Face without an announcement or description.",
-    "context_length": 131072,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -3063,7 +3063,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000005",
+      "prompt": "0.0000007",
       "completion": "0.00000218",
       "request": "0",
       "image": "0",
@@ -3071,7 +3071,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 163840,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -3088,7 +3088,9 @@
       "min_p",
       "repetition_penalty",
       "logit_bias",
-      "response_format"
+      "response_format",
+      "reasoning",
+      "include_reasoning"
     ]
   },
   {
@@ -3126,6 +3128,8 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "reasoning",
+      "include_reasoning",
       "stop",
       "frequency_penalty",
       "presence_penalty",
@@ -12540,7 +12544,7 @@
         "text"
       ],
       "tokenizer": "Qwen3",
-      "instruct_type": null
+      "instruct_type": "qwen3"
     },
     "pricing": {
       "prompt": "0",
@@ -12587,7 +12591,7 @@
         "text"
       ],
       "tokenizer": "Qwen3",
-      "instruct_type": null
+      "instruct_type": "qwen3"
     },
     "pricing": {
       "prompt": "0",
@@ -12634,7 +12638,7 @@
         "text"
       ],
       "tokenizer": "Qwen3",
-      "instruct_type": null
+      "instruct_type": "qwen3"
     },
     "pricing": {
       "prompt": "0.00000007",
@@ -12684,7 +12688,7 @@
         "text"
       ],
       "tokenizer": "Qwen3",
-      "instruct_type": null
+      "instruct_type": "qwen3"
     },
     "pricing": {
       "prompt": "0",
@@ -12733,7 +12737,7 @@
         "text"
       ],
       "tokenizer": "Qwen3",
-      "instruct_type": null
+      "instruct_type": "qwen3"
     },
     "pricing": {
       "prompt": "0.00000014",
@@ -12759,7 +12763,6 @@
       "frequency_penalty",
       "repetition_penalty",
       "top_k",
-      "seed",
       "tools",
       "tool_choice",
       "stop",
@@ -12768,6 +12771,7 @@
       "logit_bias",
       "logprobs",
       "top_logprobs",
+      "seed",
       "min_p"
     ]
   },
@@ -12786,7 +12790,7 @@
         "text"
       ],
       "tokenizer": "Qwen3",
-      "instruct_type": null
+      "instruct_type": "qwen3"
     },
     "pricing": {
       "prompt": "0",
@@ -12835,7 +12839,7 @@
         "text"
       ],
       "tokenizer": "Qwen3",
-      "instruct_type": null
+      "instruct_type": "qwen3"
     },
     "pricing": {
       "prompt": "0.0000001",
@@ -12888,7 +12892,7 @@
         "text"
       ],
       "tokenizer": "Qwen3",
-      "instruct_type": null
+      "instruct_type": "qwen3"
     },
     "pricing": {
       "prompt": "0",
@@ -12937,7 +12941,7 @@
         "text"
       ],
       "tokenizer": "Qwen3",
-      "instruct_type": null
+      "instruct_type": "qwen3"
     },
     "pricing": {
       "prompt": "0.0000001",
@@ -12987,7 +12991,7 @@
         "text"
       ],
       "tokenizer": "Qwen3",
-      "instruct_type": null
+      "instruct_type": "qwen3"
     },
     "pricing": {
       "prompt": "0",
@@ -13036,7 +13040,7 @@
         "text"
       ],
       "tokenizer": "Qwen3",
-      "instruct_type": null
+      "instruct_type": "qwen3"
     },
     "pricing": {
       "prompt": "0",
@@ -13083,7 +13087,7 @@
         "text"
       ],
       "tokenizer": "Qwen3",
-      "instruct_type": null
+      "instruct_type": "qwen3"
     },
     "pricing": {
       "prompt": "0.000000035",
@@ -13130,7 +13134,7 @@
         "text"
       ],
       "tokenizer": "Qwen3",
-      "instruct_type": null
+      "instruct_type": "qwen3"
     },
     "pricing": {
       "prompt": "0",
