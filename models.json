@@ -6210,7 +6210,7 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000009",
+      "prompt": "0.00000008",
       "completion": "0.00000025",
       "request": "0",
       "image": "0",
@@ -6310,7 +6310,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000017",
+      "prompt": "0.00000016",
       "completion": "0.0000006",
       "request": "0",
       "image": "0.0006684",
@@ -7870,7 +7870,7 @@
     "name": "Mistral: Mistral Nemo",
     "created": 1721347200,
     "description": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.\n\nThe model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi.\n\nIt supports function calling and is released under the Apache 2.0 license.",
-    "context_length": 98304,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -7891,8 +7891,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 98304,
-      "max_completion_tokens": 49152,
+      "context_length": 131072,
+      "max_completion_tokens": 65536,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12923,7 +12923,7 @@
     },
     "pricing": {
       "prompt": "0.00000014",
-      "completion": "0.000002",
+      "completion": "0.0000006",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -14599,7 +14599,7 @@
         "text"
       ],
       "tokenizer": "DeepSeek",
-      "instruct_type": "deepseek-r1"
+      "instruct_type": null
     },
     "pricing": {
       "prompt": "0",
