@@ -6197,7 +6197,7 @@
     "name": "Meta: Llama 3.3 70B Instruct",
     "created": 1733506137,
     "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperforms many of the available open source and closed chat models on common industry benchmarks.\n\nSupported languages: English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.\n\n[Model Card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md)",
-    "context_length": 131072,
+    "context_length": 131000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -6210,16 +6210,16 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000008",
-      "completion": "0.00000025",
+      "prompt": "0.00000007",
+      "completion": "0.00000033",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 16384,
+      "context_length": 131000,
+      "max_completion_tokens": 131000,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -6249,7 +6249,7 @@
     "name": "Meta: Llama 3.3 70B Instruct (free)",
     "created": 1733506137,
     "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperforms many of the available open source and closed chat models on common industry benchmarks.\n\nSupported languages: English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.\n\n[Model Card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md)",
-    "context_length": 8000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -6270,8 +6270,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 8000,
-      "max_completion_tokens": 8000,
+      "context_length": 131072,
+      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -6335,11 +6335,11 @@
       "min_p",
       "repetition_penalty",
       "logit_bias",
+      "logprobs",
+      "top_logprobs",
       "tools",
       "tool_choice",
       "response_format",
-      "logprobs",
-      "top_logprobs",
       "structured_outputs"
     ]
   },
@@ -6349,7 +6349,7 @@
     "name": "Meta: Llama 4 Maverick (free)",
     "created": 1743881822,
     "description": "Llama 4 Maverick 17B Instruct (128E) is a high-capacity multimodal language model from Meta, built on a mixture-of-experts (MoE) architecture with 128 experts and 17 billion active parameters per forward pass (400B total). It supports multilingual text and image input, and produces multilingual text and code output across 12 supported languages. Optimized for vision-language tasks, Maverick is instruction-tuned for assistant-like behavior, image reasoning, and general-purpose multimodal interaction.\n\nMaverick features early fusion for native multimodality and a 1 million token context window. It was trained on a curated mixture of public, licensed, and Meta-platform data, covering ~22 trillion tokens, with a knowledge cutoff in August 2024. Released on April 5, 2025 under the Llama 4 Community License, Maverick is suited for research and commercial applications requiring advanced multimodal understanding and high model throughput.",
-    "context_length": 256000,
+    "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -6371,7 +6371,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 256000,
+      "context_length": 128000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -7883,7 +7883,7 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.00000003",
+      "prompt": "0.000000025",
       "completion": "0.00000007",
       "request": "0",
       "image": "0",
@@ -7892,7 +7892,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -7903,8 +7903,6 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "response_format",
-      "structured_outputs",
       "seed",
       "top_k",
       "logit_bias",
@@ -7912,6 +7910,8 @@
       "top_logprobs",
       "tools",
       "tool_choice",
+      "response_format",
+      "structured_outputs",
       "repetition_penalty",
       "min_p"
     ]
@@ -12141,13 +12141,13 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
       "logprobs",
       "top_logprobs",
-      "seed",
-      "logit_bias",
-      "top_k",
       "min_p",
-      "repetition_penalty"
+      "seed"
     ]
   },
   {
