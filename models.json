@@ -538,8 +538,8 @@
       "instruct_type": "airoboros"
     },
     "pricing": {
-      "prompt": "0.0000075",
-      "completion": "0.000009375",
+      "prompt": "0.00001",
+      "completion": "0.0000125",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -801,8 +801,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.000001875",
-      "completion": "0.00000225",
+      "prompt": "0.0000025",
+      "completion": "0.000003",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3609,7 +3609,7 @@
     "name": "DeepSeek: DeepSeek R1 Zero (free)",
     "created": 1741297434,
     "description": "DeepSeek-R1-Zero is a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step. It's 671B parameters in size, with 37B active in an inference pass.\n\nIt demonstrates remarkable performance on reasoning. With RL, DeepSeek-R1-Zero naturally emerged with numerous powerful and interesting reasoning behaviors.\n\nDeepSeek-R1-Zero encounters challenges such as endless repetition, poor readability, and language mixing. See [DeepSeek R1](/deepseek/deepseek-r1) for the SFT model.\n\n",
-    "context_length": 163840,
+    "context_length": 128000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -3630,7 +3630,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 163840,
+      "context_length": 128000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -4889,7 +4889,7 @@
     "name": "Google: Gemma 3 4B (free)",
     "created": 1741905510,
     "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling.",
-    "context_length": 131072,
+    "context_length": 96000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -4911,7 +4911,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 96000,
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
@@ -4968,16 +4968,16 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "stop",
-      "frequency_penalty",
       "presence_penalty",
+      "frequency_penalty",
       "repetition_penalty",
-      "logit_bias",
       "top_k",
-      "min_p",
+      "stop",
       "seed",
-      "top_a",
-      "response_format"
+      "min_p",
+      "logit_bias",
+      "response_format",
+      "top_a"
     ]
   },
   {
@@ -5346,8 +5346,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.000001125",
-      "completion": "0.000001125",
+      "prompt": "0.0000015",
+      "completion": "0.0000015",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -6253,7 +6253,7 @@
     "name": "Meta: Llama 3.3 8B Instruct (free)",
     "created": 1747230154,
     "description": "A lightweight and ultra-fast variant of Llama 3.3 70B, for use when quick response times are needed most.",
-    "context_length": 12800,
+    "context_length": 128000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -6274,12 +6274,14 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 12800,
+      "context_length": 128000,
       "max_completion_tokens": 4028,
       "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "tools",
+      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
@@ -6305,7 +6307,7 @@
       "output_modalities": [
         "text"
       ],
-      "tokenizer": "Other",
+      "tokenizer": "Llama4",
       "instruct_type": null
     },
     "pricing": {
@@ -6348,7 +6350,7 @@
     "name": "Meta: Llama 4 Maverick (free)",
     "created": 1743881822,
     "description": "Llama 4 Maverick 17B Instruct (128E) is a high-capacity multimodal language model from Meta, built on a mixture-of-experts (MoE) architecture with 128 experts and 17 billion active parameters per forward pass (400B total). It supports multilingual text and image input, and produces multilingual text and code output across 12 supported languages. Optimized for vision-language tasks, Maverick is instruction-tuned for assistant-like behavior, image reasoning, and general-purpose multimodal interaction.\n\nMaverick features early fusion for native multimodality and a 1 million token context window. It was trained on a curated mixture of public, licensed, and Meta-platform data, covering ~22 trillion tokens, with a knowledge cutoff in August 2024. Released on April 5, 2025 under the Llama 4 Community License, Maverick is suited for research and commercial applications requiring advanced multimodal understanding and high model throughput.",
-    "context_length": 128000,
+    "context_length": 256000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -6358,7 +6360,7 @@
       "output_modalities": [
         "text"
       ],
-      "tokenizer": "Other",
+      "tokenizer": "Llama4",
       "instruct_type": null
     },
     "pricing": {
@@ -6370,29 +6372,29 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 256000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "tools",
+      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
       "structured_outputs",
       "response_format",
+      "repetition_penalty",
+      "top_k",
       "stop",
       "frequency_penalty",
       "presence_penalty",
       "seed",
-      "top_k",
       "min_p",
-      "repetition_penalty",
       "logprobs",
       "logit_bias",
-      "top_logprobs",
-      "tools",
-      "tool_choice"
+      "top_logprobs"
     ]
   },
   {
@@ -6411,7 +6413,7 @@
       "output_modalities": [
         "text"
       ],
-      "tokenizer": "Other",
+      "tokenizer": "Llama4",
       "instruct_type": null
     },
     "pricing": {
@@ -6464,7 +6466,7 @@
       "output_modalities": [
         "text"
       ],
-      "tokenizer": "Other",
+      "tokenizer": "Llama4",
       "instruct_type": null
     },
     "pricing": {
@@ -6482,23 +6484,23 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
-      "repetition_penalty",
-      "top_k",
       "structured_outputs",
       "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
       "seed",
+      "top_k",
       "min_p",
+      "repetition_penalty",
       "logprobs",
       "logit_bias",
-      "top_logprobs"
+      "top_logprobs",
+      "tools",
+      "tool_choice"
     ]
   },
   {
@@ -7160,52 +7162,6 @@
       "max_tokens",
       "temperature",
       "top_p"
-    ]
-  },
-  {
-    "id": "mistral/ministral-8b",
-    "hugging_face_id": "mistralai/Ministral-8B-Instruct-2410",
-    "name": "Mistral: Ministral 8B",
-    "created": 1743430021,
-    "description": "Ministral 8B is a state-of-the-art language model optimized for on-device and edge computing. Designed for efficiency in knowledge-intensive tasks, commonsense reasoning, and function-calling, it features a specialized interleaved sliding-window attention mechanism, enabling faster and more memory-efficient inference. Ministral 8B excels in local, low-latency applications such as offline translation, smart assistants, autonomous robotics, and local analytics.\n\nThe model supports up to 128k context length and can function as a performant intermediary in multi-step agentic workflows, efficiently handling tasks like input parsing, API calls, and task routing. It consistently outperforms comparable models like Mistral 7B across benchmarks, making it particularly suitable for compute-efficient, privacy-focused scenarios.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000001",
-      "completion": "0.0000001",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "tools",
-      "tool_choice",
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "response_format",
-      "structured_outputs",
-      "seed"
     ]
   },
   {
@@ -8675,8 +8631,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.0000009375",
+      "prompt": "0.0000002",
+      "completion": "0.00000125",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8722,8 +8678,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.0000009375",
+      "prompt": "0.0000002",
+      "completion": "0.00000125",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8769,8 +8725,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.000001875",
-      "completion": "0.00000225",
+      "prompt": "0.0000025",
+      "completion": "0.000003",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8816,8 +8772,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.0000009375",
+      "prompt": "0.0000002",
+      "completion": "0.00000125",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8863,8 +8819,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.0000009375",
-      "completion": "0.0000015",
+      "prompt": "0.00000125",
+      "completion": "0.000002",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9518,6 +9474,57 @@
       "top_logprobs",
       "response_format",
       "structured_outputs"
+    ]
+  },
+  {
+    "id": "openai/codex-mini",
+    "hugging_face_id": "",
+    "name": "OpenAI: Codex Mini",
+    "created": 1747409761,
+    "description": "codex-mini-latest is a fine-tuned version of o4-mini specifically for use in Codex CLI. For direct use in the API, we recommend starting with gpt-4.1.",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "GPT",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000015",
+      "completion": "0.000006",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.000000375"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 100000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
+      "response_format",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs"
     ]
   },
   {
@@ -11726,7 +11733,7 @@
     "name": "Pygmalion: Mythalion 13B",
     "created": 1693612800,
     "description": "A blend of the new Pygmalion-13b and MythoMax. #merge",
-    "context_length": 8192,
+    "context_length": 4096,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -11739,16 +11746,16 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.0000005625",
-      "completion": "0.000001125",
+      "prompt": "0.0000008",
+      "completion": "0.0000012",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 1024,
+      "context_length": 4096,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -13017,7 +13024,7 @@
     "name": "Qwen: Qwen3 30B A3B",
     "created": 1745878604,
     "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique ability to switch seamlessly between a thinking mode for complex reasoning and a non-thinking mode for efficient dialogue ensures versatile, high-quality performance.\n\nSignificantly outperforming prior models like QwQ and Qwen2.5, Qwen3 delivers superior mathematics, coding, commonsense reasoning, creative writing, and interactive dialogue capabilities. The Qwen3-30B-A3B variant includes 30.5 billion parameters (3.3 billion activated), 48 layers, 128 experts (8 activated per task), and supports up to 131K token contexts with YaRN, setting a new standard among open-source models.",
-    "context_length": 40960,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -13030,16 +13037,16 @@
       "instruct_type": "qwen3"
     },
     "pricing": {
-      "prompt": "0.0000001",
-      "completion": "0.0000003",
+      "prompt": "0.00000008",
+      "completion": "0.00000029",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 40960,
-      "max_completion_tokens": 40960,
+      "context_length": 32768,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14595,7 +14602,7 @@
     "name": "ReMM SLERP 13B",
     "created": 1689984000,
     "description": "A recreation trial of the original MythoMax-L2-B13 but with updated models. #merge",
-    "context_length": 6144,
+    "context_length": 4096,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -14608,16 +14615,16 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.0000005625",
-      "completion": "0.00000084375",
+      "prompt": "0.0000008",
+      "completion": "0.0000012",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 6144,
-      "max_completion_tokens": 1024,
+      "context_length": 4096,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14629,10 +14636,10 @@
       "frequency_penalty",
       "presence_penalty",
       "repetition_penalty",
-      "logit_bias",
       "top_k",
       "min_p",
       "seed",
+      "logit_bias",
       "top_a"
     ]
   },
