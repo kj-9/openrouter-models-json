@@ -4210,7 +4210,7 @@
     "hugging_face_id": "",
     "name": "Google: Gemini 2.5 Pro Experimental",
     "created": 1742922099,
-    "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
+    "description": "This model has been deprecated by Google in favor of the (paid Preview model)[google/gemini-2.5-pro-preview]\n \nGemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
     "context_length": 1048576,
     "architecture": {
       "modality": "text+image->text",
@@ -4235,7 +4235,7 @@
     },
     "top_provider": {
       "context_length": 1048576,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 65535,
       "is_moderated": false
     },
     "per_request_limits": null,
