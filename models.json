@@ -4065,7 +4065,7 @@
   {
     "id": "google/gemini-2.5-flash-preview",
     "hugging_face_id": "",
-    "name": "Google: Gemini 2.5 Flash Preview",
+    "name": "Google: Gemini 2.5 Flash Preview 04-17",
     "created": 1744914667,
     "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater accuracy and nuanced context handling. \n\nNote: This model is available in two variants: thinking and non-thinking. The output pricing varies significantly depending on whether the thinking capability is active. If you select the standard variant (without the \":thinking\" suffix), the model will explicitly avoid generating thinking tokens. \n\nTo utilize the thinking capability and receive thinking tokens, you must choose the \":thinking\" variant, which will then incur the higher thinking-output pricing. \n\nAdditionally, Gemini 2.5 Flash is configurable through the \"max tokens for reasoning\" parameter, as described in the documentation (https://openrouter.ai/docs/use-cases/reasoning-tokens#max-tokens-for-reasoning).",
     "context_length": 1048576,
@@ -4110,9 +4110,113 @@
     ]
   },
   {
+    "id": "google/gemini-2.5-flash-preview-05-20",
+    "hugging_face_id": "",
+    "name": "Google: Gemini 2.5 Flash Preview 05-20",
+    "created": 1747761924,
+    "description": "Gemini 2.5 Flash May 20th Checkpoint is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater accuracy and nuanced context handling. \n\nNote: This model is available in two variants: thinking and non-thinking. The output pricing varies significantly depending on whether the thinking capability is active. If you select the standard variant (without the \":thinking\" suffix), the model will explicitly avoid generating thinking tokens. \n\nTo utilize the thinking capability and receive thinking tokens, you must choose the \":thinking\" variant, which will then incur the higher thinking-output pricing. \n\nAdditionally, Gemini 2.5 Flash is configurable through the \"max tokens for reasoning\" parameter, as described in the documentation (https://openrouter.ai/docs/use-cases/reasoning-tokens#max-tokens-for-reasoning).",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.0000006",
+      "request": "0",
+      "image": "0.0006192",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.0000000375",
+      "input_cache_write": "0.0000002333"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65535,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
+      "response_format",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed"
+    ]
+  },
+  {
+    "id": "google/gemini-2.5-flash-preview-05-20:thinking",
+    "hugging_face_id": "",
+    "name": "Google: Gemini 2.5 Flash Preview 05-20 (thinking)",
+    "created": 1747761924,
+    "description": "Gemini 2.5 Flash May 20th Checkpoint is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater accuracy and nuanced context handling. \n\nNote: This model is available in two variants: thinking and non-thinking. The output pricing varies significantly depending on whether the thinking capability is active. If you select the standard variant (without the \":thinking\" suffix), the model will explicitly avoid generating thinking tokens. \n\nTo utilize the thinking capability and receive thinking tokens, you must choose the \":thinking\" variant, which will then incur the higher thinking-output pricing. \n\nAdditionally, Gemini 2.5 Flash is configurable through the \"max tokens for reasoning\" parameter, as described in the documentation (https://openrouter.ai/docs/use-cases/reasoning-tokens#max-tokens-for-reasoning).",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.0000035",
+      "request": "0",
+      "image": "0.0006192",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.0000000375",
+      "input_cache_write": "0.0000002333"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65535,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
+      "response_format",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed"
+    ]
+  },
+  {
     "id": "google/gemini-2.5-flash-preview:thinking",
     "hugging_face_id": "",
-    "name": "Google: Gemini 2.5 Flash Preview (thinking)",
+    "name": "Google: Gemini 2.5 Flash Preview 04-17 (thinking)",
     "created": 1744914667,
     "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater accuracy and nuanced context handling. \n\nNote: This model is available in two variants: thinking and non-thinking. The output pricing varies significantly depending on whether the thinking capability is active. If you select the standard variant (without the \":thinking\" suffix), the model will explicitly avoid generating thinking tokens. \n\nTo utilize the thinking capability and receive thinking tokens, you must choose the \":thinking\" variant, which will then incur the higher thinking-output pricing. \n\nAdditionally, Gemini 2.5 Flash is configurable through the \"max tokens for reasoning\" parameter, as described in the documentation (https://openrouter.ai/docs/use-cases/reasoning-tokens#max-tokens-for-reasoning).",
     "context_length": 1048576,
@@ -4888,6 +4992,49 @@
     ]
   },
   {
+    "id": "google/gemma-3n-e4b-it:free",
+    "hugging_face_id": "",
+    "name": "Google: Gemma 3n 4B (free)",
+    "created": 1747776824,
+    "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs—including text, visual data, and audio—enabling diverse tasks such as text generation, speech recognition, translation, and image analysis. Leveraging innovations like Per-Layer Embedding (PLE) caching and the MatFormer architecture, Gemma 3n dynamically manages memory usage and computational load by selectively activating model parameters, significantly reducing runtime resource requirements.\n\nThis model supports a wide linguistic range (trained in over 140 languages) and features a flexible 32K token context window. Gemma 3n can selectively load parameters, optimizing memory and computational efficiency based on the task or device capabilities, making it well-suited for privacy-focused, offline-capable applications and on-device AI solutions. [Read more in the blog post](https://developers.googleblog.com/en/introducing-gemma-3n/)",
+    "context_length": 8192,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 8192,
+      "max_completion_tokens": 2048,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "response_format"
+    ]
+  },
+  {
     "id": "gryphe/mythomax-l2-13b",
     "hugging_face_id": "Gryphe/MythoMax-L2-13b",
     "name": "MythoMax 13B",
@@ -5279,7 +5426,11 @@
       "seed",
       "top_k",
       "min_p",
-      "repetition_penalty"
+      "repetition_penalty",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
     ]
   },
   {
@@ -5711,6 +5862,8 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "tools",
+      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
@@ -5725,9 +5878,7 @@
       "top_k",
       "repetition_penalty",
       "structured_outputs",
-      "min_p",
-      "tools",
-      "tool_choice"
+      "min_p"
     ]
   },
   {
@@ -5819,6 +5970,8 @@
       "logit_bias",
       "response_format",
       "top_logprobs",
+      "tools",
+      "tool_choice",
       "logprobs"
     ]
   },
@@ -5997,6 +6150,8 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "tools",
+      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
@@ -6010,9 +6165,7 @@
       "response_format",
       "top_k",
       "min_p",
-      "repetition_penalty",
-      "tools",
-      "tool_choice"
+      "repetition_penalty"
     ]
   },
   {
@@ -6134,6 +6287,8 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "tools",
+      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
@@ -6146,8 +6301,6 @@
       "top_logprobs",
       "response_format",
       "top_k",
-      "tools",
-      "tool_choice",
       "min_p",
       "repetition_penalty",
       "structured_outputs"
@@ -7797,7 +7950,7 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.000000025",
+      "prompt": "0.00000002",
       "completion": "0.00000007",
       "request": "0",
       "image": "0",
@@ -7806,7 +7959,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9173,6 +9326,8 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "tools",
+      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
@@ -9186,9 +9341,7 @@
       "response_format",
       "top_k",
       "repetition_penalty",
-      "min_p",
-      "tools",
-      "tool_choice"
+      "min_p"
     ]
   },
   {
@@ -12189,7 +12342,8 @@
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.00000064"
     },
     "top_provider": {
       "context_length": 32768,
@@ -12232,7 +12386,8 @@
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.00000016"
     },
     "top_provider": {
       "context_length": 131072,
@@ -12275,7 +12430,8 @@
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.00000002"
     },
     "top_provider": {
       "context_length": 1000000,
