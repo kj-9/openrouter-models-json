@@ -8233,7 +8233,7 @@
     "name": "Mistral: Mistral Small 3",
     "created": 1738255409,
     "description": "Mistral Small 3 is a 24B-parameter language model optimized for low-latency performance across common AI tasks. Released under the Apache 2.0 license, it features both pre-trained and instruction-tuned versions designed for efficient local deployment.\n\nThe model achieves 81% accuracy on the MMLU benchmark and performs competitively with larger models like Llama 3.3 70B and Qwen 32B, while operating at three times the speed on equivalent hardware. [Read the blog post about the model here.](https://mistral.ai/news/mistral-small-3/)",
-    "context_length": 28000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8246,7 +8246,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000005",
+      "prompt": "0.00000006",
       "completion": "0.00000012",
       "request": "0",
       "image": "0",
@@ -8254,8 +8254,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 28000,
-      "max_completion_tokens": 14000,
+      "context_length": 32768,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12690,8 +12690,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000008",
+      "prompt": "0.0000009",
+      "completion": "0.0000009",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12699,7 +12699,7 @@
     },
     "top_provider": {
       "context_length": 128000,
-      "max_completion_tokens": 128000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -13909,6 +13909,48 @@
       "seed",
       "min_p",
       "logit_bias"
+    ]
+  },
+  {
+    "id": "sarvamai/sarvam-m",
+    "hugging_face_id": "sarvamai/sarvam-m",
+    "name": "Sarvam AI: Sarvam-M",
+    "created": 1748188413,
+    "description": "Sarvam-M is a 24 B-parameter, instruction-tuned derivative of Mistral-Small-3.1-24B-Base-2503, post-trained on English plus eleven major Indic languages (bn, hi, kn, gu, mr, ml, or, pa, ta, te). The model introduces a dual-mode interface: “non-think” for low-latency chat and a optional “think” phase that exposes chain-of-thought tokens for more demanding reasoning, math, and coding tasks. \n\nBenchmark reports show solid gains versus similarly sized open models on Indic-language QA, GSM-8K math, and SWE-Bench coding, making Sarvam-M a practical general-purpose choice for multilingual conversational agents as well as analytical workloads that mix English, native Indic scripts, or romanized text.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000025",
+      "completion": "0.00000075",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k"
     ]
   },
   {
