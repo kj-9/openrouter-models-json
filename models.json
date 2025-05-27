@@ -8869,53 +8869,6 @@
     ]
   },
   {
-    "id": "neversleep/llama-3-lumimaid-8b:extended",
-    "hugging_face_id": "NeverSleep/Llama-3-Lumimaid-8B-v0.1",
-    "name": "NeverSleep: Llama 3 Lumimaid 8B (extended)",
-    "created": 1714780800,
-    "description": "The NeverSleep team is back, with a Llama 3 8B finetune trained on their curated roleplay data. Striking a balance between eRP and RP, Lumimaid was designed to be serious, yet uncensored when necessary.\n\nTo enhance it's overall intelligence and chat capability, roughly 40% of the training data was not roleplay. This provides a breadth of knowledge to access, while still keeping roleplay as the primary strength.\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 24576,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.00000125",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 24576,
-      "max_completion_tokens": 2048,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "repetition_penalty",
-      "logit_bias",
-      "top_k",
-      "min_p",
-      "seed",
-      "top_a"
-    ]
-  },
-  {
     "id": "neversleep/llama-3.1-lumimaid-70b",
     "hugging_face_id": "NeverSleep/Lumimaid-v0.2-70B",
     "name": "NeverSleep: Lumimaid v0.2 70B",
@@ -12690,8 +12643,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000009",
-      "completion": "0.0000009",
+      "prompt": "0.0000008",
+      "completion": "0.0000008",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12699,7 +12652,7 @@
     },
     "top_provider": {
       "context_length": 128000,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 128000,
       "is_moderated": false
     },
     "per_request_limits": null,
