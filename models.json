@@ -1696,15 +1696,15 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
-      "top_p",
+      "stop",
       "reasoning",
       "include_reasoning",
-      "top_k",
-      "stop"
+      "tools",
+      "tool_choice",
+      "top_p",
+      "top_k"
     ]
   },
   {
@@ -1750,53 +1750,6 @@
       "include_reasoning",
       "tools",
       "tool_choice"
-    ]
-  },
-  {
-    "id": "anthropic/claude-3.7-sonnet:thinking",
-    "hugging_face_id": "",
-    "name": "Anthropic: Claude 3.7 Sonnet (thinking)",
-    "created": 1740422110,
-    "description": "Claude 3.7 Sonnet is an advanced large language model with improved reasoning, coding, and problem-solving capabilities. It introduces a hybrid reasoning approach, allowing users to choose between rapid responses and extended, step-by-step processing for complex tasks. The model demonstrates notable improvements in coding, particularly in front-end development and full-stack updates, and excels in agentic workflows, where it can autonomously navigate multi-step processes. \n\nClaude 3.7 Sonnet maintains performance parity with its predecessor in standard mode while offering an extended reasoning mode for enhanced accuracy in math, coding, and instruction-following tasks.\n\nRead more at the [blog post here](https://www.anthropic.com/news/claude-3-7-sonnet)",
-    "context_length": 200000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Claude",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000003",
-      "completion": "0.000015",
-      "request": "0",
-      "image": "0.0048",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.0000003",
-      "input_cache_write": "0.00000375"
-    },
-    "top_provider": {
-      "context_length": 200000,
-      "max_completion_tokens": 64000,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "tools",
-      "tool_choice",
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "reasoning",
-      "include_reasoning",
-      "top_k",
-      "stop"
     ]
   },
   {
@@ -1878,7 +1831,7 @@
     "top_provider": {
       "context_length": 200000,
       "max_completion_tokens": 64000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -4622,8 +4575,8 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.00000002",
-      "completion": "0.00000006",
+      "prompt": "0.00000008",
+      "completion": "0.00000008",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -6076,8 +6029,7 @@
       "seed",
       "min_p",
       "logit_bias",
-      "top_logprobs",
-      "logprobs"
+      "top_logprobs"
     ]
   },
   {
@@ -7449,6 +7401,8 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "tools",
+      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
@@ -8060,7 +8014,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -8071,17 +8025,17 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "seed",
+      "repetition_penalty",
+      "response_format",
       "top_k",
+      "seed",
+      "min_p",
       "logit_bias",
       "logprobs",
       "top_logprobs",
       "tools",
       "tool_choice",
-      "response_format",
-      "structured_outputs",
-      "repetition_penalty",
-      "min_p"
+      "structured_outputs"
     ]
   },
   {
@@ -9399,6 +9353,54 @@
     ]
   },
   {
+    "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+    "hugging_face_id": "nvidia/Llama-3_1-Nemotron-Ultra-253B-v1",
+    "name": "NVIDIA: Llama 3.1 Nemotron Ultra 253B v1",
+    "created": 1744115059,
+    "description": "Llama-3.1-Nemotron-Ultra-253B-v1 is a large language model (LLM) optimized for advanced reasoning, human-interactive chat, retrieval-augmented generation (RAG), and tool-calling tasks. Derived from Meta’s Llama-3.1-405B-Instruct, it has been significantly customized using Neural Architecture Search (NAS), resulting in enhanced efficiency, reduced memory usage, and improved inference latency. The model supports a context length of up to 128K tokens and can operate efficiently on an 8x NVIDIA H100 node.\n\nNote: you must include `detailed thinking on` in the system prompt to enable reasoning. Please see [Usage Recommendations](https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1#quick-start-and-usage-recommendations) for more.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Llama3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000006",
+      "completion": "0.0000018",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs"
+    ]
+  },
+  {
     "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
     "hugging_face_id": "nvidia/Llama-3_1-Nemotron-Ultra-253B-v1",
     "name": "NVIDIA: Llama 3.1 Nemotron Ultra 253B v1 (free)",
@@ -10658,13 +10660,12 @@
       "request": "0",
       "image": "0.003613",
       "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.00000125"
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 128000,
       "max_completion_tokens": 16384,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -11256,10 +11257,20 @@
     "supported_parameters": [
       "tools",
       "tool_choice",
-      "seed",
       "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
       "response_format",
-      "structured_outputs"
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs"
     ]
   },
   {
@@ -12643,8 +12654,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000008",
+      "prompt": "0.0000009",
+      "completion": "0.0000009",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12652,7 +12663,7 @@
     },
     "top_provider": {
       "context_length": 128000,
-      "max_completion_tokens": 128000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
