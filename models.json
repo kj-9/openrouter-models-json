@@ -2808,23 +2808,23 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "tools",
+      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
+      "structured_outputs",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "repetition_penalty",
-      "response_format",
       "top_k",
-      "seed",
-      "min_p",
+      "repetition_penalty",
       "logit_bias",
       "logprobs",
       "top_logprobs",
-      "tools",
-      "tool_choice",
-      "structured_outputs"
+      "seed",
+      "min_p"
     ]
   },
   {
@@ -2860,18 +2860,18 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "tools",
+      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
-      "presence_penalty",
-      "frequency_penalty",
-      "repetition_penalty",
-      "top_k",
-      "stop",
-      "tools",
-      "tool_choice",
-      "response_format",
       "structured_outputs",
+      "response_format",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
       "logit_bias",
       "logprobs",
       "top_logprobs",
@@ -6613,15 +6613,15 @@
     },
     "pricing": {
       "prompt": "0.00000015",
-      "completion": "0.00000085",
+      "completion": "0.0000006",
       "request": "0",
-      "image": "0.00070182",
+      "image": "0.0006684",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 1048576,
-      "max_completion_tokens": 1048576,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -6634,6 +6634,7 @@
       "repetition_penalty",
       "top_k",
       "stop",
+      "response_format",
       "seed",
       "min_p",
       "logit_bias",
@@ -6641,8 +6642,7 @@
       "top_logprobs",
       "tools",
       "tool_choice",
-      "structured_outputs",
-      "response_format"
+      "structured_outputs"
     ]
   },
   {
@@ -13103,8 +13103,8 @@
       "instruct_type": "qwen3"
     },
     "pricing": {
-      "prompt": "0.00000014",
-      "completion": "0.0000006",
+      "prompt": "0.00000013",
+      "completion": "0.00000085",
       "request": "0",
       "image": "0",
       "web_search": "0",
