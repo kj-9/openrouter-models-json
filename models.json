@@ -3764,7 +3764,7 @@
     "name": "DeepSeek: DeepSeek R1 Zero (free)",
     "created": 1741297434,
     "description": "DeepSeek-R1-Zero is a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step. It's 671B parameters in size, with 37B active in an inference pass.\n\nIt demonstrates remarkable performance on reasoning. With RL, DeepSeek-R1-Zero naturally emerged with numerous powerful and interesting reasoning behaviors.\n\nDeepSeek-R1-Zero encounters challenges such as endless repetition, poor readability, and language mixing. See [DeepSeek R1](/deepseek/deepseek-r1) for the SFT model.\n\n",
-    "context_length": 128000,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -3785,7 +3785,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 163840,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -6532,17 +6532,16 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "tools",
+      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
+      "repetition_penalty",
+      "top_k",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "seed",
-      "tools",
-      "tool_choice",
-      "repetition_penalty",
-      "top_k",
       "logit_bias",
       "min_p",
       "response_format"
@@ -13104,7 +13103,7 @@
     },
     "pricing": {
       "prompt": "0.00000013",
-      "completion": "0.00000085",
+      "completion": "0.0000006",
       "request": "0",
       "image": "0",
       "web_search": "0",
