@@ -3186,7 +3186,7 @@
     "name": "DeepSeek: Deepseek R1 0528 Qwen3 8B",
     "created": 1748538543,
     "description": "DeepSeek-R1-0528 is a lightly upgraded release of DeepSeek R1 that taps more compute and smarter post-training tricks, pushing its reasoning and inference to the brink of flagship models like O3 and Gemini 2.5 Pro.\nIt now tops math, programming, and logic leaderboards, showcasing a step-change in depth-of-thought.\nThe distilled variant, DeepSeek-R1-0528-Qwen3-8B, transfers this chain-of-thought into an 8 B-parameter form, beating standard Qwen3 8B by +10 pp and tying the 235 B “thinking” giant on AIME 2024.",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -3199,16 +3199,16 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000006",
-      "completion": "0.00000009",
+      "prompt": "0.00000005",
+      "completion": "0.0000001",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 32000,
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3218,13 +3218,13 @@
       "top_p",
       "reasoning",
       "include_reasoning",
-      "stop",
-      "frequency_penalty",
       "presence_penalty",
-      "seed",
-      "top_k",
-      "min_p",
+      "frequency_penalty",
       "repetition_penalty",
+      "top_k",
+      "stop",
+      "seed",
+      "min_p",
       "logit_bias"
     ]
   },
@@ -4513,7 +4513,59 @@
   {
     "id": "google/gemini-2.5-pro-preview",
     "hugging_face_id": "",
-    "name": "Google: Gemini 2.5 Pro Preview",
+    "name": "Google: Gemini 2.5 Pro Preview 06-05",
+    "created": 1749137257,
+    "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.\n",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000125",
+      "completion": "0.00001",
+      "request": "0",
+      "image": "0.00516",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.00000031",
+      "input_cache_write": "0.000001625"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
+      "response_format",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed"
+    ]
+  },
+  {
+    "id": "google/gemini-2.5-pro-preview-05-06",
+    "hugging_face_id": "",
+    "name": "Google: Gemini 2.5 Pro Preview 05-06",
     "created": 1746578513,
     "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
     "context_length": 1048576,
@@ -8180,7 +8232,7 @@
     },
     "pricing": {
       "prompt": "0.00000001",
-      "completion": "0.00000006",
+      "completion": "0.00000003",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8374,8 +8426,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000006",
-      "completion": "0.00000012",
+      "prompt": "0.00000005",
+      "completion": "0.00000011",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8383,7 +8435,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -8394,16 +8446,17 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "repetition_penalty",
-      "response_format",
       "top_k",
-      "seed",
+      "repetition_penalty",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
       "min_p",
+      "seed",
+      "response_format",
       "tools",
       "tool_choice",
-      "structured_outputs",
-      "logit_bias",
-      "logprobs"
+      "structured_outputs"
     ]
   },
   {
@@ -10290,103 +10343,6 @@
     ]
   },
   {
-    "id": "openai/gpt-4-32k",
-    "hugging_face_id": null,
-    "name": "OpenAI: GPT-4 32k",
-    "created": 1693180800,
-    "description": "GPT-4-32k is an extended version of GPT-4, with the same capabilities but quadrupled context length, allowing for processing up to 40 pages of text in a single pass. This is particularly beneficial for handling longer content like interacting with PDFs without an external vector database. Training data: up to Sep 2021.",
-    "context_length": 32767,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "GPT",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00006",
-      "completion": "0.00012",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32767,
-      "max_completion_tokens": 4096,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "tools",
-      "tool_choice",
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "logit_bias",
-      "logprobs",
-      "top_logprobs",
-      "response_format"
-    ]
-  },
-  {
-    "id": "openai/gpt-4-32k-0314",
-    "hugging_face_id": null,
-    "name": "OpenAI: GPT-4 32k (older v0314)",
-    "created": 1693180800,
-    "description": "GPT-4-32k is an extended version of GPT-4, with the same capabilities but quadrupled context length, allowing for processing up to 40 pages of text in a single pass. This is particularly beneficial for handling longer content like interacting with PDFs without an external vector database. Training data: up to Sep 2021.",
-    "context_length": 32767,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "GPT",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00006",
-      "completion": "0.00012",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32767,
-      "max_completion_tokens": 4096,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "tools",
-      "tool_choice",
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "logit_bias",
-      "logprobs",
-      "top_logprobs",
-      "response_format",
-      "structured_outputs"
-    ]
-  },
-  {
     "id": "openai/gpt-4-turbo",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-4 Turbo",
@@ -10824,7 +10780,8 @@
       "request": "0",
       "image": "0.003613",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.00000125"
     },
     "top_provider": {
       "context_length": 128000,
@@ -13000,8 +12957,8 @@
       "instruct_type": "qwen3"
     },
     "pricing": {
-      "prompt": "0.00000007",
-      "completion": "0.00000024",
+      "prompt": "0.00000006",
+      "completion": "0.00000025",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13014,19 +12971,19 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
       "reasoning",
       "include_reasoning",
-      "stop",
-      "frequency_penalty",
       "presence_penalty",
+      "frequency_penalty",
       "repetition_penalty",
-      "response_format",
       "top_k",
+      "tools",
+      "tool_choice",
+      "stop",
+      "response_format",
       "seed",
       "min_p",
       "logit_bias",
@@ -13122,20 +13079,20 @@
       "top_p",
       "reasoning",
       "include_reasoning",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "top_k",
-      "repetition_penalty",
-      "logit_bias",
-      "min_p",
-      "response_format",
       "seed",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k",
       "tools",
       "tool_choice",
+      "stop",
+      "response_format",
       "structured_outputs",
+      "logit_bias",
       "logprobs",
-      "top_logprobs"
+      "top_logprobs",
+      "min_p"
     ]
   },
   {
@@ -15016,7 +14973,8 @@
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.00000075"
     },
     "top_provider": {
       "context_length": 131072,
@@ -15063,7 +15021,8 @@
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.000000075"
     },
     "top_provider": {
       "context_length": 131072,
