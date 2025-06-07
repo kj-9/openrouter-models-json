@@ -6085,7 +6085,7 @@
     "name": "Meta: Llama 3.1 8B Instruct",
     "created": 1721692800,
     "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 16384,
+    "context_length": 131000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -6098,7 +6098,7 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000002",
+      "prompt": "0.000000019",
       "completion": "0.00000003",
       "request": "0",
       "image": "0",
@@ -6106,8 +6106,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 16384,
-      "max_completion_tokens": 16384,
+      "context_length": 131000,
+      "max_completion_tokens": 131000,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -8232,7 +8232,7 @@
     },
     "pricing": {
       "prompt": "0.00000001",
-      "completion": "0.00000003",
+      "completion": "0.000000029",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12958,7 +12958,7 @@
     },
     "pricing": {
       "prompt": "0.00000006",
-      "completion": "0.00000025",
+      "completion": "0.00000024",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -14040,52 +14040,6 @@
     "pricing": {
       "prompt": "0.00000088",
       "completion": "0.00000088",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "top_k",
-      "repetition_penalty",
-      "logit_bias",
-      "min_p",
-      "response_format"
-    ]
-  },
-  {
-    "id": "scb10x/llama3.1-typhoon2-8b-instruct",
-    "hugging_face_id": "scb10x/llama3.1-typhoon2-8b-instruct",
-    "name": "Typhoon2 8B Instruct",
-    "created": 1743196511,
-    "description": "Llama3.1-Typhoon2-8B-Instruct is a Thai-English instruction-tuned model with 8 billion parameters, built on Llama 3.1. It significantly improves over its base model in Thai reasoning, instruction-following, and function-calling tasks, while maintaining competitive English performance. The model is optimized for bilingual interaction and performs well on Thai-English code-switching, MT-Bench, IFEval, and tool-use benchmarks.\n\nDespite its smaller size, it demonstrates strong generalization across math, coding, and multilingual benchmarks, outperforming comparable 8B models across most Thai-specific tasks. Full benchmark results and methodology are available in the [technical report.](https://arxiv.org/abs/2412.13702)",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0.00000018",
-      "completion": "0.00000018",
       "request": "0",
       "image": "0",
       "web_search": "0",
