@@ -3174,11 +3174,11 @@
       "logit_bias",
       "min_p",
       "response_format",
+      "seed",
       "logprobs",
       "top_logprobs",
       "tools",
       "tool_choice",
-      "seed",
       "structured_outputs"
     ]
   },
@@ -6081,10 +6081,10 @@
       "logprobs",
       "top_logprobs",
       "response_format",
-      "top_k",
+      "min_p",
       "repetition_penalty",
-      "structured_outputs",
-      "min_p"
+      "top_k",
+      "structured_outputs"
     ]
   },
   {
@@ -6364,9 +6364,9 @@
       "logprobs",
       "top_logprobs",
       "response_format",
-      "top_k",
       "min_p",
-      "repetition_penalty"
+      "repetition_penalty",
+      "top_k"
     ]
   },
   {
@@ -6584,7 +6584,7 @@
     "top_provider": {
       "context_length": 128000,
       "max_completion_tokens": 4028,
-      "is_moderated": false
+      "is_moderated": true
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -9475,9 +9475,9 @@
       "logprobs",
       "top_logprobs",
       "response_format",
-      "top_k",
       "min_p",
-      "repetition_penalty"
+      "repetition_penalty",
+      "top_k"
     ]
   },
   {
@@ -9524,9 +9524,9 @@
       "logprobs",
       "top_logprobs",
       "response_format",
-      "top_k",
+      "min_p",
       "repetition_penalty",
-      "min_p"
+      "top_k"
     ]
   },
   {
@@ -9573,11 +9573,11 @@
       "logprobs",
       "top_logprobs",
       "response_format",
-      "tools",
-      "tool_choice",
-      "top_k",
       "min_p",
-      "repetition_penalty"
+      "repetition_penalty",
+      "top_k",
+      "tools",
+      "tool_choice"
     ]
   },
   {
@@ -9672,9 +9672,9 @@
       "logprobs",
       "top_logprobs",
       "response_format",
-      "top_k",
+      "min_p",
       "repetition_penalty",
-      "min_p"
+      "top_k"
     ]
   },
   {
@@ -13328,18 +13328,18 @@
       "top_p",
       "reasoning",
       "include_reasoning",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "top_k",
       "repetition_penalty",
-      "response_format",
+      "top_k",
+      "seed",
+      "min_p",
       "structured_outputs",
       "logit_bias",
       "logprobs",
-      "top_logprobs",
-      "seed",
-      "min_p"
+      "top_logprobs"
     ]
   },
   {
@@ -13430,20 +13430,20 @@
       "top_p",
       "reasoning",
       "include_reasoning",
-      "seed",
-      "tools",
-      "tool_choice",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "repetition_penalty",
       "response_format",
+      "top_logprobs",
+      "logprobs",
+      "logit_bias",
+      "seed",
+      "tools",
+      "tool_choice",
+      "repetition_penalty",
       "top_k",
       "min_p",
-      "structured_outputs",
-      "logprobs",
-      "top_logprobs",
-      "logit_bias"
+      "structured_outputs"
     ]
   },
   {
@@ -14466,7 +14466,7 @@
     },
     "top_provider": {
       "context_length": 32000,
-      "max_completion_tokens": 16000,
+      "max_completion_tokens": 32000,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14482,6 +14482,10 @@
       "top_k",
       "min_p",
       "seed",
+      "tools",
+      "tool_choice",
+      "structured_outputs",
+      "response_format",
       "logprobs"
     ]
   },
