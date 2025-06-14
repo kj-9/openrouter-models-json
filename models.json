@@ -1,6 +1,7 @@
 [
   {
     "id": "01-ai/yi-large",
+    "canonical_slug": "01-ai/yi-large",
     "hugging_face_id": null,
     "name": "01.AI: Yi Large",
     "created": 1719273600,
@@ -49,6 +50,7 @@
   },
   {
     "id": "aetherwiing/mn-starcannon-12b",
+    "canonical_slug": "aetherwiing/mn-starcannon-12b",
     "hugging_face_id": "aetherwiing/MN-12B-Starcannon-v2",
     "name": "Aetherwiing: Starcannon 12B",
     "created": 1723507200,
@@ -94,6 +96,7 @@
   },
   {
     "id": "agentica-org/deepcoder-14b-preview:free",
+    "canonical_slug": "agentica-org/deepcoder-14b-preview",
     "hugging_face_id": "agentica-org/DeepCoder-14B-Preview",
     "name": "Agentica: Deepcoder 14B Preview (free)",
     "created": 1744555395,
@@ -144,6 +147,7 @@
   },
   {
     "id": "ai21/jamba-1.6-large",
+    "canonical_slug": "ai21/jamba-1.6-large",
     "hugging_face_id": "ai21labs/AI21-Jamba-Large-1.6",
     "name": "AI21: Jamba 1.6 Large",
     "created": 1741905173,
@@ -185,6 +189,7 @@
   },
   {
     "id": "ai21/jamba-1.6-mini",
+    "canonical_slug": "ai21/jamba-1.6-mini",
     "hugging_face_id": "ai21labs/AI21-Jamba-Mini-1.6",
     "name": "AI21: Jamba Mini 1.6",
     "created": 1741905171,
@@ -226,6 +231,7 @@
   },
   {
     "id": "aion-labs/aion-1.0",
+    "canonical_slug": "aion-labs/aion-1.0",
     "hugging_face_id": "",
     "name": "AionLabs: Aion-1.0",
     "created": 1738697557,
@@ -266,6 +272,7 @@
   },
   {
     "id": "aion-labs/aion-1.0-mini",
+    "canonical_slug": "aion-labs/aion-1.0-mini",
     "hugging_face_id": "FuseAI/FuseO1-DeepSeekR1-QwQ-SkyT1-32B-Preview",
     "name": "AionLabs: Aion-1.0-Mini",
     "created": 1738697107,
@@ -306,6 +313,7 @@
   },
   {
     "id": "aion-labs/aion-rp-llama-3.1-8b",
+    "canonical_slug": "aion-labs/aion-rp-llama-3.1-8b",
     "hugging_face_id": "",
     "name": "AionLabs: Aion-RP 1.0 (8B)",
     "created": 1738696718,
@@ -344,6 +352,7 @@
   },
   {
     "id": "alfredpros/codellama-7b-instruct-solidity",
+    "canonical_slug": "alfredpros/codellama-7b-instruct-solidity",
     "hugging_face_id": "AlfredPros/CodeLlama-7b-Instruct-Solidity",
     "name": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
     "created": 1744641874,
@@ -389,6 +398,7 @@
   },
   {
     "id": "all-hands/openhands-lm-32b-v0.1",
+    "canonical_slug": "all-hands/openhands-lm-32b-v0.1",
     "hugging_face_id": "all-hands/openhands-lm-32b-v0.1",
     "name": "OpenHands LM 32B V0.1",
     "created": 1743613013,
@@ -436,6 +446,7 @@
   },
   {
     "id": "alpindale/goliath-120b",
+    "canonical_slug": "alpindale/goliath-120b",
     "hugging_face_id": "alpindale/goliath-120b",
     "name": "Goliath 120B",
     "created": 1699574400,
@@ -483,6 +494,7 @@
   },
   {
     "id": "alpindale/magnum-72b",
+    "canonical_slug": "alpindale/magnum-72b",
     "hugging_face_id": "alpindale/magnum-72b-v1",
     "name": "Magnum 72B",
     "created": 1720656000,
@@ -528,6 +540,7 @@
   },
   {
     "id": "amazon/nova-lite-v1",
+    "canonical_slug": "amazon/nova-lite-v1",
     "hugging_face_id": "",
     "name": "Amazon: Nova Lite 1.0",
     "created": 1733437363,
@@ -570,6 +583,7 @@
   },
   {
     "id": "amazon/nova-micro-v1",
+    "canonical_slug": "amazon/nova-micro-v1",
     "hugging_face_id": "",
     "name": "Amazon: Nova Micro 1.0",
     "created": 1733437237,
@@ -611,6 +625,7 @@
   },
   {
     "id": "amazon/nova-pro-v1",
+    "canonical_slug": "amazon/nova-pro-v1",
     "hugging_face_id": "",
     "name": "Amazon: Nova Pro 1.0",
     "created": 1733436303,
@@ -653,6 +668,7 @@
   },
   {
     "id": "anthracite-org/magnum-v2-72b",
+    "canonical_slug": "anthracite-org/magnum-v2-72b",
     "hugging_face_id": "anthracite-org/magnum-v2-72b",
     "name": "Magnum v2 72B",
     "created": 1727654400,
@@ -699,6 +715,7 @@
   },
   {
     "id": "anthracite-org/magnum-v4-72b",
+    "canonical_slug": "anthracite-org/magnum-v4-72b",
     "hugging_face_id": "anthracite-org/magnum-v4-72b",
     "name": "Magnum v4 72B",
     "created": 1729555200,
@@ -746,6 +763,7 @@
   },
   {
     "id": "anthropic/claude-2",
+    "canonical_slug": "anthropic/claude-2",
     "hugging_face_id": null,
     "name": "Anthropic: Claude v2",
     "created": 1700611200,
@@ -786,6 +804,7 @@
   },
   {
     "id": "anthropic/claude-2.0",
+    "canonical_slug": "anthropic/claude-2.0",
     "hugging_face_id": null,
     "name": "Anthropic: Claude v2.0",
     "created": 1690502400,
@@ -826,6 +845,7 @@
   },
   {
     "id": "anthropic/claude-2.0:beta",
+    "canonical_slug": "anthropic/claude-2.0",
     "hugging_face_id": null,
     "name": "Anthropic: Claude v2.0 (self-moderated)",
     "created": 1690502400,
@@ -866,6 +886,7 @@
   },
   {
     "id": "anthropic/claude-2.1",
+    "canonical_slug": "anthropic/claude-2.1",
     "hugging_face_id": null,
     "name": "Anthropic: Claude v2.1",
     "created": 1700611200,
@@ -906,6 +927,7 @@
   },
   {
     "id": "anthropic/claude-2.1:beta",
+    "canonical_slug": "anthropic/claude-2.1",
     "hugging_face_id": null,
     "name": "Anthropic: Claude v2.1 (self-moderated)",
     "created": 1700611200,
@@ -946,6 +968,7 @@
   },
   {
     "id": "anthropic/claude-2:beta",
+    "canonical_slug": "anthropic/claude-2",
     "hugging_face_id": null,
     "name": "Anthropic: Claude v2 (self-moderated)",
     "created": 1700611200,
@@ -986,6 +1009,7 @@
   },
   {
     "id": "anthropic/claude-3-haiku",
+    "canonical_slug": "anthropic/claude-3-haiku",
     "hugging_face_id": null,
     "name": "Anthropic: Claude 3 Haiku",
     "created": 1710288000,
@@ -1031,6 +1055,7 @@
   },
   {
     "id": "anthropic/claude-3-haiku:beta",
+    "canonical_slug": "anthropic/claude-3-haiku",
     "hugging_face_id": null,
     "name": "Anthropic: Claude 3 Haiku (self-moderated)",
     "created": 1710288000,
@@ -1076,6 +1101,7 @@
   },
   {
     "id": "anthropic/claude-3-opus",
+    "canonical_slug": "anthropic/claude-3-opus",
     "hugging_face_id": null,
     "name": "Anthropic: Claude 3 Opus",
     "created": 1709596800,
@@ -1121,6 +1147,7 @@
   },
   {
     "id": "anthropic/claude-3-opus:beta",
+    "canonical_slug": "anthropic/claude-3-opus",
     "hugging_face_id": null,
     "name": "Anthropic: Claude 3 Opus (self-moderated)",
     "created": 1709596800,
@@ -1166,6 +1193,7 @@
   },
   {
     "id": "anthropic/claude-3-sonnet",
+    "canonical_slug": "anthropic/claude-3-sonnet",
     "hugging_face_id": null,
     "name": "Anthropic: Claude 3 Sonnet",
     "created": 1709596800,
@@ -1211,6 +1239,7 @@
   },
   {
     "id": "anthropic/claude-3-sonnet:beta",
+    "canonical_slug": "anthropic/claude-3-sonnet",
     "hugging_face_id": null,
     "name": "Anthropic: Claude 3 Sonnet (self-moderated)",
     "created": 1709596800,
@@ -1256,6 +1285,7 @@
   },
   {
     "id": "anthropic/claude-3.5-haiku",
+    "canonical_slug": "anthropic/claude-3-5-haiku",
     "hugging_face_id": null,
     "name": "Anthropic: Claude 3.5 Haiku",
     "created": 1730678400,
@@ -1301,6 +1331,7 @@
   },
   {
     "id": "anthropic/claude-3.5-haiku-20241022",
+    "canonical_slug": "anthropic/claude-3-5-haiku-20241022",
     "hugging_face_id": null,
     "name": "Anthropic: Claude 3.5 Haiku (2024-10-22)",
     "created": 1730678400,
@@ -1346,6 +1377,7 @@
   },
   {
     "id": "anthropic/claude-3.5-haiku-20241022:beta",
+    "canonical_slug": "anthropic/claude-3-5-haiku-20241022",
     "hugging_face_id": null,
     "name": "Anthropic: Claude 3.5 Haiku (2024-10-22) (self-moderated)",
     "created": 1730678400,
@@ -1391,6 +1423,7 @@
   },
   {
     "id": "anthropic/claude-3.5-haiku:beta",
+    "canonical_slug": "anthropic/claude-3-5-haiku",
     "hugging_face_id": null,
     "name": "Anthropic: Claude 3.5 Haiku (self-moderated)",
     "created": 1730678400,
@@ -1436,6 +1469,7 @@
   },
   {
     "id": "anthropic/claude-3.5-sonnet",
+    "canonical_slug": "anthropic/claude-3.5-sonnet",
     "hugging_face_id": null,
     "name": "Anthropic: Claude 3.5 Sonnet",
     "created": 1729555200,
@@ -1481,6 +1515,7 @@
   },
   {
     "id": "anthropic/claude-3.5-sonnet-20240620",
+    "canonical_slug": "anthropic/claude-3.5-sonnet-20240620",
     "hugging_face_id": null,
     "name": "Anthropic: Claude 3.5 Sonnet (2024-06-20)",
     "created": 1718841600,
@@ -1526,6 +1561,7 @@
   },
   {
     "id": "anthropic/claude-3.5-sonnet-20240620:beta",
+    "canonical_slug": "anthropic/claude-3.5-sonnet-20240620",
     "hugging_face_id": null,
     "name": "Anthropic: Claude 3.5 Sonnet (2024-06-20) (self-moderated)",
     "created": 1718841600,
@@ -1571,6 +1607,7 @@
   },
   {
     "id": "anthropic/claude-3.5-sonnet:beta",
+    "canonical_slug": "anthropic/claude-3.5-sonnet",
     "hugging_face_id": null,
     "name": "Anthropic: Claude 3.5 Sonnet (self-moderated)",
     "created": 1729555200,
@@ -1616,6 +1653,7 @@
   },
   {
     "id": "anthropic/claude-3.7-sonnet",
+    "canonical_slug": "anthropic/claude-3-7-sonnet-20250219",
     "hugging_face_id": "",
     "name": "Anthropic: Claude 3.7 Sonnet",
     "created": 1740422110,
@@ -1663,6 +1701,7 @@
   },
   {
     "id": "anthropic/claude-3.7-sonnet:beta",
+    "canonical_slug": "anthropic/claude-3-7-sonnet-20250219",
     "hugging_face_id": "",
     "name": "Anthropic: Claude 3.7 Sonnet (self-moderated)",
     "created": 1740422110,
@@ -1708,6 +1747,7 @@
   },
   {
     "id": "anthropic/claude-3.7-sonnet:thinking",
+    "canonical_slug": "anthropic/claude-3-7-sonnet-20250219",
     "hugging_face_id": "",
     "name": "Anthropic: Claude 3.7 Sonnet (thinking)",
     "created": 1740422110,
@@ -1753,6 +1793,7 @@
   },
   {
     "id": "anthropic/claude-opus-4",
+    "canonical_slug": "anthropic/claude-4-opus-20250522",
     "hugging_face_id": "",
     "name": "Anthropic: Claude Opus 4",
     "created": 1747931245,
@@ -1800,6 +1841,7 @@
   },
   {
     "id": "anthropic/claude-sonnet-4",
+    "canonical_slug": "anthropic/claude-4-sonnet-20250522",
     "hugging_face_id": "",
     "name": "Anthropic: Claude Sonnet 4",
     "created": 1747930371,
@@ -1847,6 +1889,7 @@
   },
   {
     "id": "arcee-ai/arcee-blitz",
+    "canonical_slug": "arcee-ai/arcee-blitz",
     "hugging_face_id": "arcee-ai/arcee-blitz",
     "name": "Arcee AI: Arcee Blitz",
     "created": 1746470100,
@@ -1893,6 +1936,7 @@
   },
   {
     "id": "arcee-ai/caller-large",
+    "canonical_slug": "arcee-ai/caller-large",
     "hugging_face_id": "",
     "name": "Arcee AI: Caller Large",
     "created": 1746487869,
@@ -1941,6 +1985,7 @@
   },
   {
     "id": "arcee-ai/coder-large",
+    "canonical_slug": "arcee-ai/coder-large",
     "hugging_face_id": "",
     "name": "Arcee AI: Coder Large",
     "created": 1746478663,
@@ -1987,6 +2032,7 @@
   },
   {
     "id": "arcee-ai/maestro-reasoning",
+    "canonical_slug": "arcee-ai/maestro-reasoning",
     "hugging_face_id": "",
     "name": "Arcee AI: Maestro Reasoning",
     "created": 1746481269,
@@ -2033,6 +2079,7 @@
   },
   {
     "id": "arcee-ai/spotlight",
+    "canonical_slug": "arcee-ai/spotlight",
     "hugging_face_id": "",
     "name": "Arcee AI: Spotlight",
     "created": 1746481552,
@@ -2080,6 +2127,7 @@
   },
   {
     "id": "arcee-ai/virtuoso-large",
+    "canonical_slug": "arcee-ai/virtuoso-large",
     "hugging_face_id": "",
     "name": "Arcee AI: Virtuoso Large",
     "created": 1746478885,
@@ -2128,6 +2176,7 @@
   },
   {
     "id": "arcee-ai/virtuoso-medium-v2",
+    "canonical_slug": "arcee-ai/virtuoso-medium-v2",
     "hugging_face_id": "arcee-ai/Virtuoso-Medium-v2",
     "name": "Arcee AI: Virtuoso Medium V2",
     "created": 1746478434,
@@ -2176,6 +2225,7 @@
   },
   {
     "id": "arliai/qwq-32b-arliai-rpr-v1:free",
+    "canonical_slug": "arliai/qwq-32b-arliai-rpr-v1",
     "hugging_face_id": "ArliAI/QwQ-32B-ArliAI-RpR-v1",
     "name": "ArliAI: QwQ 32B RpR v1 (free)",
     "created": 1744555982,
@@ -2226,6 +2276,7 @@
   },
   {
     "id": "cognitivecomputations/dolphin-mixtral-8x22b",
+    "canonical_slug": "cognitivecomputations/dolphin-mixtral-8x22b",
     "hugging_face_id": "cognitivecomputations/dolphin-2.9.2-mixtral-8x22b",
     "name": "Dolphin 2.9.2 Mixtral 8x22B 🐬",
     "created": 1717804800,
@@ -2272,6 +2323,7 @@
   },
   {
     "id": "cognitivecomputations/dolphin3.0-mistral-24b:free",
+    "canonical_slug": "cognitivecomputations/dolphin3.0-mistral-24b",
     "hugging_face_id": "cognitivecomputations/Dolphin3.0-Mistral-24B",
     "name": "Dolphin3.0 Mistral 24B (free)",
     "created": 1739462019,
@@ -2320,6 +2372,7 @@
   },
   {
     "id": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
+    "canonical_slug": "cognitivecomputations/dolphin3.0-r1-mistral-24b",
     "hugging_face_id": "cognitivecomputations/Dolphin3.0-R1-Mistral-24B",
     "name": "Dolphin3.0 R1 Mistral 24B (free)",
     "created": 1739462498,
@@ -2370,6 +2423,7 @@
   },
   {
     "id": "cohere/command",
+    "canonical_slug": "cohere/command",
     "hugging_face_id": null,
     "name": "Cohere: Command",
     "created": 1710374400,
@@ -2415,6 +2469,7 @@
   },
   {
     "id": "cohere/command-a",
+    "canonical_slug": "cohere/command-a-03-2025",
     "hugging_face_id": "CohereForAI/c4ai-command-a-03-2025",
     "name": "Cohere: Command A",
     "created": 1741894342,
@@ -2460,6 +2515,7 @@
   },
   {
     "id": "cohere/command-r",
+    "canonical_slug": "cohere/command-r",
     "hugging_face_id": null,
     "name": "Cohere: Command R",
     "created": 1710374400,
@@ -2506,6 +2562,7 @@
   },
   {
     "id": "cohere/command-r-03-2024",
+    "canonical_slug": "cohere/command-r-03-2024",
     "hugging_face_id": null,
     "name": "Cohere: Command R (03-2024)",
     "created": 1709341200,
@@ -2552,6 +2609,7 @@
   },
   {
     "id": "cohere/command-r-08-2024",
+    "canonical_slug": "cohere/command-r-08-2024",
     "hugging_face_id": null,
     "name": "Cohere: Command R (08-2024)",
     "created": 1724976000,
@@ -2598,6 +2656,7 @@
   },
   {
     "id": "cohere/command-r-plus",
+    "canonical_slug": "cohere/command-r-plus",
     "hugging_face_id": null,
     "name": "Cohere: Command R+",
     "created": 1712188800,
@@ -2644,6 +2703,7 @@
   },
   {
     "id": "cohere/command-r-plus-04-2024",
+    "canonical_slug": "cohere/command-r-plus-04-2024",
     "hugging_face_id": null,
     "name": "Cohere: Command R+ (04-2024)",
     "created": 1712016000,
@@ -2690,6 +2750,7 @@
   },
   {
     "id": "cohere/command-r-plus-08-2024",
+    "canonical_slug": "cohere/command-r-plus-08-2024",
     "hugging_face_id": null,
     "name": "Cohere: Command R+ (08-2024)",
     "created": 1724976000,
@@ -2736,6 +2797,7 @@
   },
   {
     "id": "cohere/command-r7b-12-2024",
+    "canonical_slug": "cohere/command-r7b-12-2024",
     "hugging_face_id": "",
     "name": "Cohere: Command R7B (12-2024)",
     "created": 1734158152,
@@ -2781,6 +2843,7 @@
   },
   {
     "id": "deepseek/deepseek-chat",
+    "canonical_slug": "deepseek/deepseek-chat-v3",
     "hugging_face_id": "deepseek-ai/DeepSeek-V3",
     "name": "DeepSeek: DeepSeek V3",
     "created": 1735241320,
@@ -2833,6 +2896,7 @@
   },
   {
     "id": "deepseek/deepseek-chat-v3-0324",
+    "canonical_slug": "deepseek/deepseek-chat-v3-0324",
     "hugging_face_id": "deepseek-ai/DeepSeek-V3-0324",
     "name": "DeepSeek: DeepSeek V3 0324",
     "created": 1742824755,
@@ -2885,6 +2949,7 @@
   },
   {
     "id": "deepseek/deepseek-chat-v3-0324:free",
+    "canonical_slug": "deepseek/deepseek-chat-v3-0324",
     "hugging_face_id": "deepseek-ai/DeepSeek-V3-0324",
     "name": "DeepSeek: DeepSeek V3 0324 (free)",
     "created": 1742824755,
@@ -2936,6 +3001,7 @@
   },
   {
     "id": "deepseek/deepseek-chat:free",
+    "canonical_slug": "deepseek/deepseek-chat-v3",
     "hugging_face_id": "deepseek-ai/DeepSeek-V3",
     "name": "DeepSeek: DeepSeek V3 (free)",
     "created": 1735241320,
@@ -2985,6 +3051,7 @@
   },
   {
     "id": "deepseek/deepseek-prover-v2",
+    "canonical_slug": "deepseek/deepseek-prover-v2",
     "hugging_face_id": "deepseek-ai/DeepSeek-Prover-V2-671B",
     "name": "DeepSeek: DeepSeek Prover V2",
     "created": 1746013094,
@@ -3032,6 +3099,7 @@
   },
   {
     "id": "deepseek/deepseek-prover-v2:free",
+    "canonical_slug": "deepseek/deepseek-prover-v2",
     "hugging_face_id": "deepseek-ai/DeepSeek-Prover-V2-671B",
     "name": "DeepSeek: DeepSeek Prover V2 (free)",
     "created": 1746013094,
@@ -3080,6 +3148,7 @@
   },
   {
     "id": "deepseek/deepseek-r1",
+    "canonical_slug": "deepseek/deepseek-r1",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1",
     "name": "DeepSeek: R1",
     "created": 1737381095,
@@ -3134,6 +3203,7 @@
   },
   {
     "id": "deepseek/deepseek-r1-0528",
+    "canonical_slug": "deepseek/deepseek-r1-0528",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1-0528",
     "name": "DeepSeek: R1 0528",
     "created": 1748455170,
@@ -3188,6 +3258,7 @@
   },
   {
     "id": "deepseek/deepseek-r1-0528-qwen3-8b",
+    "canonical_slug": "deepseek/deepseek-r1-0528-qwen3-8b",
     "hugging_face_id": "deepseek-ai/deepseek-r1-0528-qwen3-8b",
     "name": "DeepSeek: Deepseek R1 0528 Qwen3 8B",
     "created": 1748538543,
@@ -3236,6 +3307,7 @@
   },
   {
     "id": "deepseek/deepseek-r1-0528-qwen3-8b:free",
+    "canonical_slug": "deepseek/deepseek-r1-0528-qwen3-8b",
     "hugging_face_id": "deepseek-ai/deepseek-r1-0528-qwen3-8b",
     "name": "DeepSeek: Deepseek R1 0528 Qwen3 8B (free)",
     "created": 1748538543,
@@ -3286,6 +3358,7 @@
   },
   {
     "id": "deepseek/deepseek-r1-0528:free",
+    "canonical_slug": "deepseek/deepseek-r1-0528",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1-0528",
     "name": "DeepSeek: R1 0528 (free)",
     "created": 1748455170,
@@ -3336,6 +3409,7 @@
   },
   {
     "id": "deepseek/deepseek-r1-distill-llama-70b",
+    "canonical_slug": "deepseek/deepseek-r1-distill-llama-70b",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
     "name": "DeepSeek: R1 Distill Llama 70B",
     "created": 1737663169,
@@ -3390,6 +3464,7 @@
   },
   {
     "id": "deepseek/deepseek-r1-distill-llama-70b:free",
+    "canonical_slug": "deepseek/deepseek-r1-distill-llama-70b",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
     "name": "DeepSeek: R1 Distill Llama 70B (free)",
     "created": 1737663169,
@@ -3441,6 +3516,7 @@
   },
   {
     "id": "deepseek/deepseek-r1-distill-llama-8b",
+    "canonical_slug": "deepseek/deepseek-r1-distill-llama-8b",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
     "name": "DeepSeek: R1 Distill Llama 8B",
     "created": 1738937718,
@@ -3489,6 +3565,7 @@
   },
   {
     "id": "deepseek/deepseek-r1-distill-qwen-1.5b",
+    "canonical_slug": "deepseek/deepseek-r1-distill-qwen-1.5b",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
     "name": "DeepSeek: R1 Distill Qwen 1.5B",
     "created": 1738328067,
@@ -3537,6 +3614,7 @@
   },
   {
     "id": "deepseek/deepseek-r1-distill-qwen-14b",
+    "canonical_slug": "deepseek/deepseek-r1-distill-qwen-14b",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
     "name": "DeepSeek: R1 Distill Qwen 14B",
     "created": 1738193940,
@@ -3586,6 +3664,7 @@
   },
   {
     "id": "deepseek/deepseek-r1-distill-qwen-14b:free",
+    "canonical_slug": "deepseek/deepseek-r1-distill-qwen-14b",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
     "name": "DeepSeek: R1 Distill Qwen 14B (free)",
     "created": 1738193940,
@@ -3636,6 +3715,7 @@
   },
   {
     "id": "deepseek/deepseek-r1-distill-qwen-32b",
+    "canonical_slug": "deepseek/deepseek-r1-distill-qwen-32b",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
     "name": "DeepSeek: R1 Distill Qwen 32B",
     "created": 1738194830,
@@ -3685,6 +3765,7 @@
   },
   {
     "id": "deepseek/deepseek-r1-distill-qwen-32b:free",
+    "canonical_slug": "deepseek/deepseek-r1-distill-qwen-32b",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
     "name": "DeepSeek: R1 Distill Qwen 32B (free)",
     "created": 1738194830,
@@ -3725,6 +3806,7 @@
   },
   {
     "id": "deepseek/deepseek-r1-distill-qwen-7b",
+    "canonical_slug": "deepseek/deepseek-r1-distill-qwen-7b",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
     "name": "DeepSeek: R1 Distill Qwen 7B",
     "created": 1748628237,
@@ -3766,6 +3848,7 @@
   },
   {
     "id": "deepseek/deepseek-r1-zero:free",
+    "canonical_slug": "deepseek/deepseek-r1-zero",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1-Zero",
     "name": "DeepSeek: DeepSeek R1 Zero (free)",
     "created": 1741297434,
@@ -3816,6 +3899,7 @@
   },
   {
     "id": "deepseek/deepseek-r1:free",
+    "canonical_slug": "deepseek/deepseek-r1",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1",
     "name": "DeepSeek: R1 (free)",
     "created": 1737381095,
@@ -3863,6 +3947,7 @@
   },
   {
     "id": "deepseek/deepseek-v3-base:free",
+    "canonical_slug": "deepseek/deepseek-v3-base",
     "hugging_face_id": "deepseek-ai/Deepseek-v3-base",
     "name": "DeepSeek: DeepSeek V3 Base (free)",
     "created": 1743272023,
@@ -3911,6 +3996,7 @@
   },
   {
     "id": "eleutherai/llemma_7b",
+    "canonical_slug": "eleutherai/llemma_7b",
     "hugging_face_id": "EleutherAI/llemma_7b",
     "name": "EleutherAI: Llemma 7b",
     "created": 1744643225,
@@ -3956,6 +4042,7 @@
   },
   {
     "id": "eva-unit-01/eva-llama-3.33-70b",
+    "canonical_slug": "eva-unit-01/eva-llama-3.33-70b",
     "hugging_face_id": "EVA-UNIT-01/EVA-LLaMA-3.33-70B-v0.1",
     "name": "EVA Llama 3.33 70B",
     "created": 1734377303,
@@ -4001,6 +4088,7 @@
   },
   {
     "id": "eva-unit-01/eva-qwen-2.5-32b",
+    "canonical_slug": "eva-unit-01/eva-qwen-2.5-32b",
     "hugging_face_id": "EVA-UNIT-01/EVA-Qwen2.5-32B-v0.2",
     "name": "EVA Qwen2.5 32B",
     "created": 1731104847,
@@ -4046,6 +4134,7 @@
   },
   {
     "id": "eva-unit-01/eva-qwen-2.5-72b",
+    "canonical_slug": "eva-unit-01/eva-qwen-2.5-72b",
     "hugging_face_id": "EVA-UNIT-01/EVA-Qwen2.5-72B-v0.1",
     "name": "EVA Qwen2.5 72B",
     "created": 1732210606,
@@ -4091,6 +4180,7 @@
   },
   {
     "id": "featherless/qwerky-72b:free",
+    "canonical_slug": "featherless/qwerky-72b",
     "hugging_face_id": "featherless-ai/Qwerky-72B",
     "name": "Qwerky 72B (free)",
     "created": 1742481597,
@@ -4136,6 +4226,7 @@
   },
   {
     "id": "google/gemini-2.0-flash-001",
+    "canonical_slug": "google/gemini-2.0-flash-001",
     "hugging_face_id": "",
     "name": "Google: Gemini 2.0 Flash",
     "created": 1738769413,
@@ -4186,6 +4277,7 @@
   },
   {
     "id": "google/gemini-2.0-flash-exp:free",
+    "canonical_slug": "google/gemini-2.0-flash-exp",
     "hugging_face_id": "",
     "name": "Google: Gemini 2.0 Flash Experimental (free)",
     "created": 1733937523,
@@ -4226,6 +4318,7 @@
   },
   {
     "id": "google/gemini-2.0-flash-lite-001",
+    "canonical_slug": "google/gemini-2.0-flash-lite-001",
     "hugging_face_id": "",
     "name": "Google: Gemini 2.0 Flash Lite",
     "created": 1740506212,
@@ -4274,6 +4367,7 @@
   },
   {
     "id": "google/gemini-2.5-flash-preview",
+    "canonical_slug": "google/gemini-2.5-flash-preview-04-17",
     "hugging_face_id": "",
     "name": "Google: Gemini 2.5 Flash Preview 04-17",
     "created": 1744914667,
@@ -4321,6 +4415,7 @@
   },
   {
     "id": "google/gemini-2.5-flash-preview-05-20",
+    "canonical_slug": "google/gemini-2.5-flash-preview-05-20",
     "hugging_face_id": "",
     "name": "Google: Gemini 2.5 Flash Preview 05-20",
     "created": 1747761924,
@@ -4373,6 +4468,7 @@
   },
   {
     "id": "google/gemini-2.5-flash-preview-05-20:thinking",
+    "canonical_slug": "google/gemini-2.5-flash-preview-05-20",
     "hugging_face_id": "",
     "name": "Google: Gemini 2.5 Flash Preview 05-20 (thinking)",
     "created": 1747761924,
@@ -4425,6 +4521,7 @@
   },
   {
     "id": "google/gemini-2.5-flash-preview:thinking",
+    "canonical_slug": "google/gemini-2.5-flash-preview-04-17",
     "hugging_face_id": "",
     "name": "Google: Gemini 2.5 Flash Preview 04-17 (thinking)",
     "created": 1744914667,
@@ -4472,6 +4569,7 @@
   },
   {
     "id": "google/gemini-2.5-pro-exp-03-25",
+    "canonical_slug": "google/gemini-2.5-pro-exp-03-25",
     "hugging_face_id": "",
     "name": "Google: Gemini 2.5 Pro Experimental",
     "created": 1742922099,
@@ -4518,6 +4616,7 @@
   },
   {
     "id": "google/gemini-2.5-pro-preview",
+    "canonical_slug": "google/gemini-2.5-pro-preview-06-05",
     "hugging_face_id": "",
     "name": "Google: Gemini 2.5 Pro Preview 06-05",
     "created": 1749137257,
@@ -4570,6 +4669,7 @@
   },
   {
     "id": "google/gemini-2.5-pro-preview-05-06",
+    "canonical_slug": "google/gemini-2.5-pro-preview-03-25",
     "hugging_face_id": "",
     "name": "Google: Gemini 2.5 Pro Preview 05-06",
     "created": 1746578513,
@@ -4618,6 +4718,7 @@
   },
   {
     "id": "google/gemini-flash-1.5",
+    "canonical_slug": "google/gemini-flash-1.5",
     "hugging_face_id": null,
     "name": "Google: Gemini 1.5 Flash ",
     "created": 1715644800,
@@ -4667,6 +4768,7 @@
   },
   {
     "id": "google/gemini-flash-1.5-8b",
+    "canonical_slug": "google/gemini-flash-1.5-8b",
     "hugging_face_id": null,
     "name": "Google: Gemini 1.5 Flash 8B",
     "created": 1727913600,
@@ -4716,6 +4818,7 @@
   },
   {
     "id": "google/gemini-pro-1.5",
+    "canonical_slug": "google/gemini-pro-1.5",
     "hugging_face_id": null,
     "name": "Google: Gemini 1.5 Pro",
     "created": 1712620800,
@@ -4763,6 +4866,7 @@
   },
   {
     "id": "google/gemma-2-27b-it",
+    "canonical_slug": "google/gemma-2-27b-it",
     "hugging_face_id": "google/gemma-2-27b-it",
     "name": "Google: Gemma 2 27B",
     "created": 1720828800,
@@ -4809,6 +4913,7 @@
   },
   {
     "id": "google/gemma-2-9b-it",
+    "canonical_slug": "google/gemma-2-9b-it",
     "hugging_face_id": "google/gemma-2-9b-it",
     "name": "Google: Gemma 2 9B",
     "created": 1719532800,
@@ -4855,6 +4960,7 @@
   },
   {
     "id": "google/gemma-2-9b-it:free",
+    "canonical_slug": "google/gemma-2-9b-it",
     "hugging_face_id": "google/gemma-2-9b-it",
     "name": "Google: Gemma 2 9B (free)",
     "created": 1719532800,
@@ -4903,6 +5009,7 @@
   },
   {
     "id": "google/gemma-3-12b-it",
+    "canonical_slug": "google/gemma-3-12b-it",
     "hugging_face_id": "google/gemma-3-12b-it",
     "name": "Google: Gemma 3 12B",
     "created": 1741902625,
@@ -4950,6 +5057,7 @@
   },
   {
     "id": "google/gemma-3-12b-it:free",
+    "canonical_slug": "google/gemma-3-12b-it",
     "hugging_face_id": "google/gemma-3-12b-it",
     "name": "Google: Gemma 3 12B (free)",
     "created": 1741902625,
@@ -5001,6 +5109,7 @@
   },
   {
     "id": "google/gemma-3-1b-it:free",
+    "canonical_slug": "google/gemma-3-1b-it",
     "hugging_face_id": "google/gemma-3-1b-it",
     "name": "Google: Gemma 3 1B (free)",
     "created": 1741963556,
@@ -5050,6 +5159,7 @@
   },
   {
     "id": "google/gemma-3-27b-it",
+    "canonical_slug": "google/gemma-3-27b-it",
     "hugging_face_id": "",
     "name": "Google: Gemma 3 27B",
     "created": 1741756359,
@@ -5100,6 +5210,7 @@
   },
   {
     "id": "google/gemma-3-27b-it:free",
+    "canonical_slug": "google/gemma-3-27b-it",
     "hugging_face_id": "",
     "name": "Google: Gemma 3 27B (free)",
     "created": 1741756359,
@@ -5151,6 +5262,7 @@
   },
   {
     "id": "google/gemma-3-4b-it",
+    "canonical_slug": "google/gemma-3-4b-it",
     "hugging_face_id": "google/gemma-3-4b-it",
     "name": "Google: Gemma 3 4B",
     "created": 1741905510,
@@ -5198,6 +5310,7 @@
   },
   {
     "id": "google/gemma-3-4b-it:free",
+    "canonical_slug": "google/gemma-3-4b-it",
     "hugging_face_id": "google/gemma-3-4b-it",
     "name": "Google: Gemma 3 4B (free)",
     "created": 1741905510,
@@ -5249,6 +5362,7 @@
   },
   {
     "id": "google/gemma-3n-e4b-it:free",
+    "canonical_slug": "google/gemma-3n-e4b-it",
     "hugging_face_id": "",
     "name": "Google: Gemma 3n 4B (free)",
     "created": 1747776824,
@@ -5292,6 +5406,7 @@
   },
   {
     "id": "gryphe/mythomax-l2-13b",
+    "canonical_slug": "gryphe/mythomax-l2-13b",
     "hugging_face_id": "Gryphe/MythoMax-L2-13b",
     "name": "MythoMax 13B",
     "created": 1688256000,
@@ -5340,6 +5455,7 @@
   },
   {
     "id": "inception/mercury-coder-small-beta",
+    "canonical_slug": "inception/mercury-coder-small-beta",
     "hugging_face_id": "",
     "name": "Inception: Mercury Coder Small Beta",
     "created": 1746033880,
@@ -5379,6 +5495,7 @@
   },
   {
     "id": "infermatic/mn-inferor-12b",
+    "canonical_slug": "infermatic/mn-inferor-12b",
     "hugging_face_id": "Infermatic/MN-12B-Inferor-v0.0",
     "name": "Infermatic: Mistral Nemo Inferor 12B",
     "created": 1731464428,
@@ -5424,6 +5541,7 @@
   },
   {
     "id": "inflection/inflection-3-pi",
+    "canonical_slug": "inflection/inflection-3-pi",
     "hugging_face_id": null,
     "name": "Inflection: Inflection 3 Pi",
     "created": 1728604800,
@@ -5463,6 +5581,7 @@
   },
   {
     "id": "inflection/inflection-3-productivity",
+    "canonical_slug": "inflection/inflection-3-productivity",
     "hugging_face_id": null,
     "name": "Inflection: Inflection 3 Productivity",
     "created": 1728604800,
@@ -5502,6 +5621,7 @@
   },
   {
     "id": "liquid/lfm-3b",
+    "canonical_slug": "liquid/lfm-3b",
     "hugging_face_id": "",
     "name": "Liquid: LFM 3B",
     "created": 1737806501,
@@ -5547,6 +5667,7 @@
   },
   {
     "id": "liquid/lfm-40b",
+    "canonical_slug": "liquid/lfm-40b",
     "hugging_face_id": null,
     "name": "Liquid: LFM 40B MoE",
     "created": 1727654400,
@@ -5596,6 +5717,7 @@
   },
   {
     "id": "liquid/lfm-7b",
+    "canonical_slug": "liquid/lfm-7b",
     "hugging_face_id": "",
     "name": "Liquid: LFM 7B",
     "created": 1737806883,
@@ -5645,6 +5767,7 @@
   },
   {
     "id": "mancer/weaver",
+    "canonical_slug": "mancer/weaver",
     "hugging_face_id": null,
     "name": "Mancer: Weaver (alpha)",
     "created": 1690934400,
@@ -5692,6 +5815,7 @@
   },
   {
     "id": "meta-llama/llama-2-70b-chat",
+    "canonical_slug": "meta-llama/llama-2-70b-chat",
     "hugging_face_id": "meta-llama/Llama-2-70b-chat-hf",
     "name": "Meta: Llama 2 70B Chat",
     "created": 1687219200,
@@ -5738,6 +5862,7 @@
   },
   {
     "id": "meta-llama/llama-3-70b-instruct",
+    "canonical_slug": "meta-llama/llama-3-70b-instruct",
     "hugging_face_id": "meta-llama/Meta-Llama-3-70B-Instruct",
     "name": "Meta: Llama 3 70B Instruct",
     "created": 1713398400,
@@ -5789,6 +5914,7 @@
   },
   {
     "id": "meta-llama/llama-3-8b-instruct",
+    "canonical_slug": "meta-llama/llama-3-8b-instruct",
     "hugging_face_id": "meta-llama/Meta-Llama-3-8B-Instruct",
     "name": "Meta: Llama 3 8B Instruct",
     "created": 1713398400,
@@ -5841,6 +5967,7 @@
   },
   {
     "id": "meta-llama/llama-3.1-405b",
+    "canonical_slug": "meta-llama/llama-3.1-405b",
     "hugging_face_id": "meta-llama/llama-3.1-405B",
     "name": "Meta: Llama 3.1 405B (base)",
     "created": 1722556800,
@@ -5889,6 +6016,7 @@
   },
   {
     "id": "meta-llama/llama-3.1-405b-instruct",
+    "canonical_slug": "meta-llama/llama-3.1-405b-instruct",
     "hugging_face_id": "meta-llama/Meta-Llama-3.1-405B-Instruct",
     "name": "Meta: Llama 3.1 405B Instruct",
     "created": 1721692800,
@@ -5941,6 +6069,7 @@
   },
   {
     "id": "meta-llama/llama-3.1-405b:free",
+    "canonical_slug": "meta-llama/llama-3.1-405b",
     "hugging_face_id": "meta-llama/llama-3.1-405B",
     "name": "Meta: Llama 3.1 405B (base) (free)",
     "created": 1722556800,
@@ -5989,6 +6118,7 @@
   },
   {
     "id": "meta-llama/llama-3.1-70b-instruct",
+    "canonical_slug": "meta-llama/llama-3.1-70b-instruct",
     "hugging_face_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "name": "Meta: Llama 3.1 70B Instruct",
     "created": 1721692800,
@@ -6041,6 +6171,7 @@
   },
   {
     "id": "meta-llama/llama-3.1-8b-instruct",
+    "canonical_slug": "meta-llama/llama-3.1-8b-instruct",
     "hugging_face_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "name": "Meta: Llama 3.1 8B Instruct",
     "created": 1721692800,
@@ -6093,6 +6224,7 @@
   },
   {
     "id": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical_slug": "meta-llama/llama-3.1-8b-instruct",
     "hugging_face_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "name": "Meta: Llama 3.1 8B Instruct (free)",
     "created": 1721692800,
@@ -6135,6 +6267,7 @@
   },
   {
     "id": "meta-llama/llama-3.2-11b-vision-instruct",
+    "canonical_slug": "meta-llama/llama-3.2-11b-vision-instruct",
     "hugging_face_id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
     "name": "Meta: Llama 3.2 11B Vision Instruct",
     "created": 1727222400,
@@ -6187,6 +6320,7 @@
   },
   {
     "id": "meta-llama/llama-3.2-11b-vision-instruct:free",
+    "canonical_slug": "meta-llama/llama-3.2-11b-vision-instruct",
     "hugging_face_id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
     "name": "Meta: Llama 3.2 11B Vision Instruct (free)",
     "created": 1727222400,
@@ -6234,6 +6368,7 @@
   },
   {
     "id": "meta-llama/llama-3.2-1b-instruct",
+    "canonical_slug": "meta-llama/llama-3.2-1b-instruct",
     "hugging_face_id": "meta-llama/Llama-3.2-1B-Instruct",
     "name": "Meta: Llama 3.2 1B Instruct",
     "created": 1727222400,
@@ -6282,6 +6417,7 @@
   },
   {
     "id": "meta-llama/llama-3.2-1b-instruct:free",
+    "canonical_slug": "meta-llama/llama-3.2-1b-instruct",
     "hugging_face_id": "meta-llama/Llama-3.2-1B-Instruct",
     "name": "Meta: Llama 3.2 1B Instruct (free)",
     "created": 1727222400,
@@ -6324,6 +6460,7 @@
   },
   {
     "id": "meta-llama/llama-3.2-3b-instruct",
+    "canonical_slug": "meta-llama/llama-3.2-3b-instruct",
     "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
     "name": "Meta: Llama 3.2 3B Instruct",
     "created": 1727222400,
@@ -6375,6 +6512,7 @@
   },
   {
     "id": "meta-llama/llama-3.2-3b-instruct:free",
+    "canonical_slug": "meta-llama/llama-3.2-3b-instruct",
     "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
     "name": "Meta: Llama 3.2 3B Instruct (free)",
     "created": 1727222400,
@@ -6413,6 +6551,7 @@
   },
   {
     "id": "meta-llama/llama-3.2-90b-vision-instruct",
+    "canonical_slug": "meta-llama/llama-3.2-90b-vision-instruct",
     "hugging_face_id": "meta-llama/Llama-3.2-90B-Vision-Instruct",
     "name": "Meta: Llama 3.2 90B Vision Instruct",
     "created": 1727222400,
@@ -6461,6 +6600,7 @@
   },
   {
     "id": "meta-llama/llama-3.3-70b-instruct",
+    "canonical_slug": "meta-llama/llama-3.3-70b-instruct",
     "hugging_face_id": "meta-llama/Llama-3.3-70B-Instruct",
     "name": "Meta: Llama 3.3 70B Instruct",
     "created": 1733506137,
@@ -6513,6 +6653,7 @@
   },
   {
     "id": "meta-llama/llama-3.3-70b-instruct:free",
+    "canonical_slug": "meta-llama/llama-3.3-70b-instruct",
     "hugging_face_id": "meta-llama/Llama-3.3-70B-Instruct",
     "name": "Meta: Llama 3.3 70B Instruct (free)",
     "created": 1733506137,
@@ -6561,6 +6702,7 @@
   },
   {
     "id": "meta-llama/llama-3.3-8b-instruct:free",
+    "canonical_slug": "meta-llama/llama-3.3-8b-instruct",
     "hugging_face_id": "",
     "name": "Meta: Llama 3.3 8B Instruct (free)",
     "created": 1747230154,
@@ -6605,6 +6747,7 @@
   },
   {
     "id": "meta-llama/llama-4-maverick",
+    "canonical_slug": "meta-llama/llama-4-maverick-17b-128e-instruct",
     "hugging_face_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
     "name": "Meta: Llama 4 Maverick",
     "created": 1743881822,
@@ -6658,6 +6801,7 @@
   },
   {
     "id": "meta-llama/llama-4-maverick:free",
+    "canonical_slug": "meta-llama/llama-4-maverick-17b-128e-instruct",
     "hugging_face_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
     "name": "Meta: Llama 4 Maverick (free)",
     "created": 1743881822,
@@ -6711,6 +6855,7 @@
   },
   {
     "id": "meta-llama/llama-4-scout",
+    "canonical_slug": "meta-llama/llama-4-scout-17b-16e-instruct",
     "hugging_face_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
     "name": "Meta: Llama 4 Scout",
     "created": 1743881519,
@@ -6764,6 +6909,7 @@
   },
   {
     "id": "meta-llama/llama-4-scout:free",
+    "canonical_slug": "meta-llama/llama-4-scout-17b-16e-instruct",
     "hugging_face_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
     "name": "Meta: Llama 4 Scout (free)",
     "created": 1743881519,
@@ -6817,6 +6963,7 @@
   },
   {
     "id": "meta-llama/llama-guard-2-8b",
+    "canonical_slug": "meta-llama/llama-guard-2-8b",
     "hugging_face_id": "meta-llama/Meta-Llama-Guard-2-8B",
     "name": "Meta: LlamaGuard 2 8B",
     "created": 1715558400,
@@ -6863,6 +7010,7 @@
   },
   {
     "id": "meta-llama/llama-guard-3-8b",
+    "canonical_slug": "meta-llama/llama-guard-3-8b",
     "hugging_face_id": "meta-llama/Llama-Guard-3-8B",
     "name": "Llama Guard 3 8B",
     "created": 1739401318,
@@ -6913,6 +7061,7 @@
   },
   {
     "id": "meta-llama/llama-guard-4-12b",
+    "canonical_slug": "meta-llama/llama-guard-4-12b",
     "hugging_face_id": "meta-llama/Llama-Guard-4-12B",
     "name": "Meta: Llama Guard 4 12B",
     "created": 1745975193,
@@ -6963,6 +7112,7 @@
   },
   {
     "id": "microsoft/mai-ds-r1:free",
+    "canonical_slug": "microsoft/mai-ds-r1",
     "hugging_face_id": "microsoft/MAI-DS-R1",
     "name": "Microsoft: MAI DS R1 (free)",
     "created": 1745194100,
@@ -7013,6 +7163,7 @@
   },
   {
     "id": "microsoft/phi-3-medium-128k-instruct",
+    "canonical_slug": "microsoft/phi-3-medium-128k-instruct",
     "hugging_face_id": "microsoft/Phi-3-medium-128k-instruct",
     "name": "Microsoft: Phi-3 Medium 128K Instruct",
     "created": 1716508800,
@@ -7053,6 +7204,7 @@
   },
   {
     "id": "microsoft/phi-3-mini-128k-instruct",
+    "canonical_slug": "microsoft/phi-3-mini-128k-instruct",
     "hugging_face_id": "microsoft/Phi-3-mini-128k-instruct",
     "name": "Microsoft: Phi-3 Mini 128K Instruct",
     "created": 1716681600,
@@ -7093,6 +7245,7 @@
   },
   {
     "id": "microsoft/phi-3.5-mini-128k-instruct",
+    "canonical_slug": "microsoft/phi-3.5-mini-128k-instruct",
     "hugging_face_id": "microsoft/Phi-3.5-mini-instruct",
     "name": "Microsoft: Phi-3.5 Mini 128K Instruct",
     "created": 1724198400,
@@ -7133,6 +7286,7 @@
   },
   {
     "id": "microsoft/phi-4",
+    "canonical_slug": "microsoft/phi-4",
     "hugging_face_id": "microsoft/phi-4",
     "name": "Microsoft: Phi 4",
     "created": 1736489872,
@@ -7182,6 +7336,7 @@
   },
   {
     "id": "microsoft/phi-4-multimodal-instruct",
+    "canonical_slug": "microsoft/phi-4-multimodal-instruct",
     "hugging_face_id": "microsoft/Phi-4-multimodal-instruct",
     "name": "Microsoft: Phi 4 Multimodal Instruct",
     "created": 1741396284,
@@ -7229,6 +7384,7 @@
   },
   {
     "id": "microsoft/phi-4-reasoning-plus",
+    "canonical_slug": "microsoft/phi-4-reasoning-plus-04-30",
     "hugging_face_id": "microsoft/Phi-4-reasoning-plus",
     "name": "Microsoft: Phi 4 Reasoning Plus",
     "created": 1746130961,
@@ -7277,6 +7433,7 @@
   },
   {
     "id": "microsoft/phi-4-reasoning-plus:free",
+    "canonical_slug": "microsoft/phi-4-reasoning-plus-04-30",
     "hugging_face_id": "microsoft/Phi-4-reasoning-plus",
     "name": "Microsoft: Phi 4 Reasoning Plus (free)",
     "created": 1746130961,
@@ -7327,6 +7484,7 @@
   },
   {
     "id": "microsoft/phi-4-reasoning:free",
+    "canonical_slug": "microsoft/phi-4-reasoning-04-30",
     "hugging_face_id": "microsoft/Phi-4-reasoning",
     "name": "Microsoft: Phi 4 Reasoning (free)",
     "created": 1746121275,
@@ -7377,6 +7535,7 @@
   },
   {
     "id": "microsoft/wizardlm-2-8x22b",
+    "canonical_slug": "microsoft/wizardlm-2-8x22b",
     "hugging_face_id": "microsoft/WizardLM-2-8x22B",
     "name": "WizardLM-2 8x22B",
     "created": 1713225600,
@@ -7424,6 +7583,7 @@
   },
   {
     "id": "minimax/minimax-01",
+    "canonical_slug": "minimax/minimax-01",
     "hugging_face_id": "MiniMaxAI/MiniMax-Text-01",
     "name": "MiniMax: MiniMax-01",
     "created": 1736915462,
@@ -7463,6 +7623,7 @@
   },
   {
     "id": "mistralai/codestral-2501",
+    "canonical_slug": "mistralai/codestral-2501",
     "hugging_face_id": "",
     "name": "Mistral: Codestral 2501",
     "created": 1736895522,
@@ -7509,6 +7670,7 @@
   },
   {
     "id": "mistralai/devstral-small",
+    "canonical_slug": "mistralai/devstral-small-2505",
     "hugging_face_id": "mistralai/Devstral-Small-2505",
     "name": "Mistral: Devstral Small",
     "created": 1747837379,
@@ -7558,6 +7720,7 @@
   },
   {
     "id": "mistralai/devstral-small:free",
+    "canonical_slug": "mistralai/devstral-small-2505",
     "hugging_face_id": "mistralai/Devstral-Small-2505",
     "name": "Mistral: Devstral Small (free)",
     "created": 1747837379,
@@ -7608,6 +7771,7 @@
   },
   {
     "id": "mistralai/magistral-medium-2506",
+    "canonical_slug": "mistralai/magistral-medium-2506",
     "hugging_face_id": "",
     "name": "Mistral: Magistral Medium 2506",
     "created": 1749354054,
@@ -7656,6 +7820,7 @@
   },
   {
     "id": "mistralai/magistral-medium-2506:thinking",
+    "canonical_slug": "mistralai/magistral-medium-2506",
     "hugging_face_id": "",
     "name": "Mistral: Magistral Medium 2506 (thinking)",
     "created": 1749354054,
@@ -7704,6 +7869,7 @@
   },
   {
     "id": "mistralai/magistral-small-2506",
+    "canonical_slug": "mistralai/magistral-small-2506",
     "hugging_face_id": "mistralai/Magistral-Small-2506",
     "name": "Mistral: Magistral Small 2506",
     "created": 1749569561,
@@ -7752,6 +7918,7 @@
   },
   {
     "id": "mistralai/ministral-3b",
+    "canonical_slug": "mistralai/ministral-3b",
     "hugging_face_id": null,
     "name": "Mistral: Ministral 3B",
     "created": 1729123200,
@@ -7798,6 +7965,7 @@
   },
   {
     "id": "mistralai/ministral-8b",
+    "canonical_slug": "mistralai/ministral-8b",
     "hugging_face_id": null,
     "name": "Mistral: Ministral 8B",
     "created": 1729123200,
@@ -7844,6 +8012,7 @@
   },
   {
     "id": "mistralai/mistral-7b-instruct",
+    "canonical_slug": "mistralai/mistral-7b-instruct",
     "hugging_face_id": "mistralai/Mistral-7B-Instruct-v0.3",
     "name": "Mistral: Mistral 7B Instruct",
     "created": 1716768000,
@@ -7894,6 +8063,7 @@
   },
   {
     "id": "mistralai/mistral-7b-instruct-v0.1",
+    "canonical_slug": "mistralai/mistral-7b-instruct-v0.1",
     "hugging_face_id": "mistralai/Mistral-7B-Instruct-v0.1",
     "name": "Mistral: Mistral 7B Instruct v0.1",
     "created": 1695859200,
@@ -7943,6 +8113,7 @@
   },
   {
     "id": "mistralai/mistral-7b-instruct-v0.2",
+    "canonical_slug": "mistralai/mistral-7b-instruct-v0.2",
     "hugging_face_id": "mistralai/Mistral-7B-Instruct-v0.2",
     "name": "Mistral: Mistral 7B Instruct v0.2",
     "created": 1703721600,
@@ -7989,6 +8160,7 @@
   },
   {
     "id": "mistralai/mistral-7b-instruct-v0.3",
+    "canonical_slug": "mistralai/mistral-7b-instruct-v0.3",
     "hugging_face_id": "mistralai/Mistral-7B-Instruct-v0.3",
     "name": "Mistral: Mistral 7B Instruct v0.3",
     "created": 1716768000,
@@ -8039,6 +8211,7 @@
   },
   {
     "id": "mistralai/mistral-7b-instruct:free",
+    "canonical_slug": "mistralai/mistral-7b-instruct",
     "hugging_face_id": "mistralai/Mistral-7B-Instruct-v0.3",
     "name": "Mistral: Mistral 7B Instruct (free)",
     "created": 1716768000,
@@ -8087,6 +8260,7 @@
   },
   {
     "id": "mistralai/mistral-large",
+    "canonical_slug": "mistralai/mistral-large",
     "hugging_face_id": null,
     "name": "Mistral Large",
     "created": 1708905600,
@@ -8133,6 +8307,7 @@
   },
   {
     "id": "mistralai/mistral-large-2407",
+    "canonical_slug": "mistralai/mistral-large-2407",
     "hugging_face_id": "",
     "name": "Mistral Large 2407",
     "created": 1731978415,
@@ -8179,6 +8354,7 @@
   },
   {
     "id": "mistralai/mistral-large-2411",
+    "canonical_slug": "mistralai/mistral-large-2411",
     "hugging_face_id": "",
     "name": "Mistral Large 2411",
     "created": 1731978685,
@@ -8225,6 +8401,7 @@
   },
   {
     "id": "mistralai/mistral-medium",
+    "canonical_slug": "mistralai/mistral-medium",
     "hugging_face_id": null,
     "name": "Mistral Medium",
     "created": 1704844800,
@@ -8271,6 +8448,7 @@
   },
   {
     "id": "mistralai/mistral-medium-3",
+    "canonical_slug": "mistralai/mistral-medium-3",
     "hugging_face_id": "",
     "name": "Mistral: Mistral Medium 3",
     "created": 1746627341,
@@ -8318,6 +8496,7 @@
   },
   {
     "id": "mistralai/mistral-nemo",
+    "canonical_slug": "mistralai/mistral-nemo",
     "hugging_face_id": "mistralai/Mistral-Nemo-Instruct-2407",
     "name": "Mistral: Mistral Nemo",
     "created": 1721347200,
@@ -8370,6 +8549,7 @@
   },
   {
     "id": "mistralai/mistral-nemo:free",
+    "canonical_slug": "mistralai/mistral-nemo",
     "hugging_face_id": "mistralai/Mistral-Nemo-Instruct-2407",
     "name": "Mistral: Mistral Nemo (free)",
     "created": 1721347200,
@@ -8418,6 +8598,7 @@
   },
   {
     "id": "mistralai/mistral-saba",
+    "canonical_slug": "mistralai/mistral-saba-2502",
     "hugging_face_id": "",
     "name": "Mistral: Saba",
     "created": 1739803239,
@@ -8467,6 +8648,7 @@
   },
   {
     "id": "mistralai/mistral-small",
+    "canonical_slug": "mistralai/mistral-small",
     "hugging_face_id": null,
     "name": "Mistral Small",
     "created": 1704844800,
@@ -8513,6 +8695,7 @@
   },
   {
     "id": "mistralai/mistral-small-24b-instruct-2501",
+    "canonical_slug": "mistralai/mistral-small-24b-instruct-2501",
     "hugging_face_id": "mistralai/Mistral-Small-24B-Instruct-2501",
     "name": "Mistral: Mistral Small 3",
     "created": 1738255409,
@@ -8565,6 +8748,7 @@
   },
   {
     "id": "mistralai/mistral-small-24b-instruct-2501:free",
+    "canonical_slug": "mistralai/mistral-small-24b-instruct-2501",
     "hugging_face_id": "mistralai/Mistral-Small-24B-Instruct-2501",
     "name": "Mistral: Mistral Small 3 (free)",
     "created": 1738255409,
@@ -8613,6 +8797,7 @@
   },
   {
     "id": "mistralai/mistral-small-3.1-24b-instruct",
+    "canonical_slug": "mistralai/mistral-small-3.1-24b-instruct-2503",
     "hugging_face_id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
     "name": "Mistral: Mistral Small 3.1 24B",
     "created": 1742238937,
@@ -8665,6 +8850,7 @@
   },
   {
     "id": "mistralai/mistral-small-3.1-24b-instruct:free",
+    "canonical_slug": "mistralai/mistral-small-3.1-24b-instruct-2503",
     "hugging_face_id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
     "name": "Mistral: Mistral Small 3.1 24B (free)",
     "created": 1742238937,
@@ -8716,6 +8902,7 @@
   },
   {
     "id": "mistralai/mistral-tiny",
+    "canonical_slug": "mistralai/mistral-tiny",
     "hugging_face_id": null,
     "name": "Mistral Tiny",
     "created": 1704844800,
@@ -8762,6 +8949,7 @@
   },
   {
     "id": "mistralai/mixtral-8x22b-instruct",
+    "canonical_slug": "mistralai/mixtral-8x22b-instruct",
     "hugging_face_id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
     "name": "Mistral: Mixtral 8x22B Instruct",
     "created": 1713312000,
@@ -8813,6 +9001,7 @@
   },
   {
     "id": "mistralai/mixtral-8x7b-instruct",
+    "canonical_slug": "mistralai/mixtral-8x7b-instruct",
     "hugging_face_id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
     "name": "Mistral: Mixtral 8x7B Instruct",
     "created": 1702166400,
@@ -8862,6 +9051,7 @@
   },
   {
     "id": "mistralai/pixtral-12b",
+    "canonical_slug": "mistralai/pixtral-12b",
     "hugging_face_id": "mistralai/Pixtral-12B-2409",
     "name": "Mistral: Pixtral 12B",
     "created": 1725926400,
@@ -8915,6 +9105,7 @@
   },
   {
     "id": "mistralai/pixtral-large-2411",
+    "canonical_slug": "mistralai/pixtral-large-2411",
     "hugging_face_id": "",
     "name": "Mistral: Pixtral Large 2411",
     "created": 1731977388,
@@ -8962,6 +9153,7 @@
   },
   {
     "id": "moonshotai/kimi-vl-a3b-thinking:free",
+    "canonical_slug": "moonshotai/kimi-vl-a3b-thinking",
     "hugging_face_id": "moonshotai/Kimi-VL-A3B-Thinking",
     "name": "Moonshot AI: Kimi VL A3B Thinking (free)",
     "created": 1744304841,
@@ -9013,6 +9205,7 @@
   },
   {
     "id": "moonshotai/moonlight-16b-a3b-instruct:free",
+    "canonical_slug": "moonshotai/moonlight-16b-a3b-instruct",
     "hugging_face_id": "moonshotai/Moonlight-16B-A3B-Instruct",
     "name": "Moonshot AI: Moonlight 16B A3B Instruct (free)",
     "created": 1740719801,
@@ -9061,6 +9254,7 @@
   },
   {
     "id": "neversleep/llama-3-lumimaid-70b",
+    "canonical_slug": "neversleep/llama-3-lumimaid-70b",
     "hugging_face_id": "NeverSleep/Llama-3-Lumimaid-70B-v0.1",
     "name": "NeverSleep: Llama 3 Lumimaid 70B",
     "created": 1715817600,
@@ -9106,6 +9300,7 @@
   },
   {
     "id": "neversleep/llama-3-lumimaid-8b",
+    "canonical_slug": "neversleep/llama-3-lumimaid-8b",
     "hugging_face_id": "NeverSleep/Llama-3-Lumimaid-8B-v0.1",
     "name": "NeverSleep: Llama 3 Lumimaid 8B",
     "created": 1714780800,
@@ -9153,6 +9348,7 @@
   },
   {
     "id": "neversleep/llama-3.1-lumimaid-70b",
+    "canonical_slug": "neversleep/llama-3.1-lumimaid-70b",
     "hugging_face_id": "NeverSleep/Lumimaid-v0.2-70B",
     "name": "NeverSleep: Lumimaid v0.2 70B",
     "created": 1729555200,
@@ -9200,6 +9396,7 @@
   },
   {
     "id": "neversleep/llama-3.1-lumimaid-8b",
+    "canonical_slug": "neversleep/llama-3.1-lumimaid-8b",
     "hugging_face_id": "NeverSleep/Lumimaid-v0.2-8B",
     "name": "NeverSleep: Lumimaid v0.2 8B",
     "created": 1726358400,
@@ -9247,6 +9444,7 @@
   },
   {
     "id": "neversleep/noromaid-20b",
+    "canonical_slug": "neversleep/noromaid-20b",
     "hugging_face_id": "NeverSleep/Noromaid-20b-v0.1.1",
     "name": "Noromaid 20B",
     "created": 1700956800,
@@ -9294,6 +9492,7 @@
   },
   {
     "id": "nothingiisreal/mn-celeste-12b",
+    "canonical_slug": "nothingiisreal/mn-celeste-12b",
     "hugging_face_id": "nothingiisreal/MN-12B-Celeste-V1.9",
     "name": "Mistral Nemo 12B Celeste",
     "created": 1722556800,
@@ -9339,6 +9538,7 @@
   },
   {
     "id": "nousresearch/deephermes-3-llama-3-8b-preview:free",
+    "canonical_slug": "nousresearch/deephermes-3-llama-3-8b-preview",
     "hugging_face_id": "NousResearch/DeepHermes-3-Llama-3-8B-Preview",
     "name": "Nous: DeepHermes 3 Llama 3 8B Preview (free)",
     "created": 1740719372,
@@ -9387,6 +9587,7 @@
   },
   {
     "id": "nousresearch/deephermes-3-mistral-24b-preview:free",
+    "canonical_slug": "nousresearch/deephermes-3-mistral-24b-preview",
     "hugging_face_id": "NousResearch/DeepHermes-3-Mistral-24B-Preview",
     "name": "Nous: DeepHermes 3 Mistral 24B Preview (free)",
     "created": 1746830904,
@@ -9437,6 +9638,7 @@
   },
   {
     "id": "nousresearch/hermes-2-pro-llama-3-8b",
+    "canonical_slug": "nousresearch/hermes-2-pro-llama-3-8b",
     "hugging_face_id": "NousResearch/Hermes-2-Pro-Llama-3-8B",
     "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
     "created": 1716768000,
@@ -9486,6 +9688,7 @@
   },
   {
     "id": "nousresearch/hermes-3-llama-3.1-405b",
+    "canonical_slug": "nousresearch/hermes-3-llama-3.1-405b",
     "hugging_face_id": "NousResearch/Hermes-3-Llama-3.1-405B",
     "name": "Nous: Hermes 3 405B Instruct",
     "created": 1723766400,
@@ -9535,6 +9738,7 @@
   },
   {
     "id": "nousresearch/hermes-3-llama-3.1-70b",
+    "canonical_slug": "nousresearch/hermes-3-llama-3.1-70b",
     "hugging_face_id": "NousResearch/Hermes-3-Llama-3.1-70B",
     "name": "Nous: Hermes 3 70B Instruct",
     "created": 1723939200,
@@ -9586,6 +9790,7 @@
   },
   {
     "id": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+    "canonical_slug": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
     "hugging_face_id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
     "name": "Nous: Hermes 2 Mixtral 8x7B DPO",
     "created": 1705363200,
@@ -9632,6 +9837,7 @@
   },
   {
     "id": "nvidia/llama-3.1-nemotron-70b-instruct",
+    "canonical_slug": "nvidia/llama-3.1-nemotron-70b-instruct",
     "hugging_face_id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
     "name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
     "created": 1728950400,
@@ -9683,6 +9889,7 @@
   },
   {
     "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+    "canonical_slug": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
     "hugging_face_id": "nvidia/Llama-3_1-Nemotron-Ultra-253B-v1",
     "name": "NVIDIA: Llama 3.1 Nemotron Ultra 253B v1",
     "created": 1744115059,
@@ -9731,6 +9938,7 @@
   },
   {
     "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
+    "canonical_slug": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
     "hugging_face_id": "nvidia/Llama-3_1-Nemotron-Ultra-253B-v1",
     "name": "NVIDIA: Llama 3.1 Nemotron Ultra 253B v1 (free)",
     "created": 1744115059,
@@ -9779,6 +9987,7 @@
   },
   {
     "id": "nvidia/llama-3.3-nemotron-super-49b-v1",
+    "canonical_slug": "nvidia/llama-3.3-nemotron-super-49b-v1",
     "hugging_face_id": "nvidia/Llama-3_3-Nemotron-Super-49B-v1",
     "name": "NVIDIA: Llama 3.3 Nemotron Super 49B v1",
     "created": 1744119494,
@@ -9825,6 +10034,7 @@
   },
   {
     "id": "nvidia/llama-3.3-nemotron-super-49b-v1:free",
+    "canonical_slug": "nvidia/llama-3.3-nemotron-super-49b-v1",
     "hugging_face_id": "nvidia/Llama-3_3-Nemotron-Super-49B-v1",
     "name": "NVIDIA: Llama 3.3 Nemotron Super 49B v1 (free)",
     "created": 1744119494,
@@ -9873,6 +10083,7 @@
   },
   {
     "id": "open-r1/olympiccoder-32b:free",
+    "canonical_slug": "open-r1/olympiccoder-32b",
     "hugging_face_id": "open-r1/OlympicCoder-32B",
     "name": "OlympicCoder 32B (free)",
     "created": 1742077228,
@@ -9923,6 +10134,7 @@
   },
   {
     "id": "openai/chatgpt-4o-latest",
+    "canonical_slug": "openai/chatgpt-4o-latest",
     "hugging_face_id": null,
     "name": "OpenAI: ChatGPT-4o",
     "created": 1723593600,
@@ -9971,6 +10183,7 @@
   },
   {
     "id": "openai/codex-mini",
+    "canonical_slug": "openai/codex-mini",
     "hugging_face_id": "",
     "name": "OpenAI: Codex Mini",
     "created": 1747409761,
@@ -10014,6 +10227,7 @@
   },
   {
     "id": "openai/gpt-3.5-turbo",
+    "canonical_slug": "openai/gpt-3.5-turbo",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-3.5 Turbo",
     "created": 1685232000,
@@ -10062,6 +10276,7 @@
   },
   {
     "id": "openai/gpt-3.5-turbo-0125",
+    "canonical_slug": "openai/gpt-3.5-turbo-0125",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-3.5 Turbo 16k",
     "created": 1685232000,
@@ -10110,6 +10325,7 @@
   },
   {
     "id": "openai/gpt-3.5-turbo-0613",
+    "canonical_slug": "openai/gpt-3.5-turbo-0613",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
     "created": 1706140800,
@@ -10159,6 +10375,7 @@
   },
   {
     "id": "openai/gpt-3.5-turbo-1106",
+    "canonical_slug": "openai/gpt-3.5-turbo-1106",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-3.5 Turbo 16k (older v1106)",
     "created": 1699228800,
@@ -10208,6 +10425,7 @@
   },
   {
     "id": "openai/gpt-3.5-turbo-16k",
+    "canonical_slug": "openai/gpt-3.5-turbo-16k",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-3.5 Turbo 16k",
     "created": 1693180800,
@@ -10256,6 +10474,7 @@
   },
   {
     "id": "openai/gpt-3.5-turbo-instruct",
+    "canonical_slug": "openai/gpt-3.5-turbo-instruct",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-3.5 Turbo Instruct",
     "created": 1695859200,
@@ -10302,6 +10521,7 @@
   },
   {
     "id": "openai/gpt-4",
+    "canonical_slug": "openai/gpt-4",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-4",
     "created": 1685232000,
@@ -10350,6 +10570,7 @@
   },
   {
     "id": "openai/gpt-4-0314",
+    "canonical_slug": "openai/gpt-4-0314",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-4 (older v0314)",
     "created": 1685232000,
@@ -10399,6 +10620,7 @@
   },
   {
     "id": "openai/gpt-4-1106-preview",
+    "canonical_slug": "openai/gpt-4-1106-preview",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-4 Turbo (older v1106)",
     "created": 1699228800,
@@ -10448,6 +10670,7 @@
   },
   {
     "id": "openai/gpt-4-turbo",
+    "canonical_slug": "openai/gpt-4-turbo",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-4 Turbo",
     "created": 1712620800,
@@ -10497,6 +10720,7 @@
   },
   {
     "id": "openai/gpt-4-turbo-preview",
+    "canonical_slug": "openai/gpt-4-turbo-preview",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-4 Turbo Preview",
     "created": 1706140800,
@@ -10546,6 +10770,7 @@
   },
   {
     "id": "openai/gpt-4.1",
+    "canonical_slug": "openai/gpt-4.1-2025-04-14",
     "hugging_face_id": "",
     "name": "OpenAI: GPT-4.1",
     "created": 1744651385,
@@ -10599,6 +10824,7 @@
   },
   {
     "id": "openai/gpt-4.1-mini",
+    "canonical_slug": "openai/gpt-4.1-mini-2025-04-14",
     "hugging_face_id": "",
     "name": "OpenAI: GPT-4.1 Mini",
     "created": 1744651381,
@@ -10652,6 +10878,7 @@
   },
   {
     "id": "openai/gpt-4.1-nano",
+    "canonical_slug": "openai/gpt-4.1-nano-2025-04-14",
     "hugging_face_id": "",
     "name": "OpenAI: GPT-4.1 Nano",
     "created": 1744651369,
@@ -10704,6 +10931,7 @@
   },
   {
     "id": "openai/gpt-4.5-preview",
+    "canonical_slug": "openai/gpt-4.5-preview-2025-02-27",
     "hugging_face_id": "",
     "name": "OpenAI: GPT-4.5 (Preview)",
     "created": 1740687810,
@@ -10755,6 +10983,7 @@
   },
   {
     "id": "openai/gpt-4o",
+    "canonical_slug": "openai/gpt-4o",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-4o",
     "created": 1715558400,
@@ -10808,6 +11037,7 @@
   },
   {
     "id": "openai/gpt-4o-2024-05-13",
+    "canonical_slug": "openai/gpt-4o-2024-05-13",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-4o (2024-05-13)",
     "created": 1715558400,
@@ -10860,6 +11090,7 @@
   },
   {
     "id": "openai/gpt-4o-2024-08-06",
+    "canonical_slug": "openai/gpt-4o-2024-08-06",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-4o (2024-08-06)",
     "created": 1722902400,
@@ -10913,6 +11144,7 @@
   },
   {
     "id": "openai/gpt-4o-2024-11-20",
+    "canonical_slug": "openai/gpt-4o-2024-11-20",
     "hugging_face_id": "",
     "name": "OpenAI: GPT-4o (2024-11-20)",
     "created": 1732127594,
@@ -10966,6 +11198,7 @@
   },
   {
     "id": "openai/gpt-4o-mini",
+    "canonical_slug": "openai/gpt-4o-mini",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-4o-mini",
     "created": 1721260800,
@@ -11019,6 +11252,7 @@
   },
   {
     "id": "openai/gpt-4o-mini-2024-07-18",
+    "canonical_slug": "openai/gpt-4o-mini-2024-07-18",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-4o-mini (2024-07-18)",
     "created": 1721260800,
@@ -11072,6 +11306,7 @@
   },
   {
     "id": "openai/gpt-4o-mini-search-preview",
+    "canonical_slug": "openai/gpt-4o-mini-search-preview-2025-03-11",
     "hugging_face_id": "",
     "name": "OpenAI: GPT-4o-mini Search Preview",
     "created": 1741818122,
@@ -11111,6 +11346,7 @@
   },
   {
     "id": "openai/gpt-4o-search-preview",
+    "canonical_slug": "openai/gpt-4o-search-preview-2025-03-11",
     "hugging_face_id": "",
     "name": "OpenAI: GPT-4o Search Preview",
     "created": 1741817949,
@@ -11150,6 +11386,7 @@
   },
   {
     "id": "openai/gpt-4o:extended",
+    "canonical_slug": "openai/gpt-4o",
     "hugging_face_id": null,
     "name": "OpenAI: GPT-4o (extended)",
     "created": 1715558400,
@@ -11202,6 +11439,7 @@
   },
   {
     "id": "openai/o1",
+    "canonical_slug": "openai/o1-2024-12-17",
     "hugging_face_id": "",
     "name": "OpenAI: o1",
     "created": 1734459999,
@@ -11245,6 +11483,7 @@
   },
   {
     "id": "openai/o1-mini",
+    "canonical_slug": "openai/o1-mini",
     "hugging_face_id": null,
     "name": "OpenAI: o1-mini",
     "created": 1726099200,
@@ -11283,6 +11522,7 @@
   },
   {
     "id": "openai/o1-mini-2024-09-12",
+    "canonical_slug": "openai/o1-mini-2024-09-12",
     "hugging_face_id": null,
     "name": "OpenAI: o1-mini (2024-09-12)",
     "created": 1726099200,
@@ -11321,6 +11561,7 @@
   },
   {
     "id": "openai/o1-preview",
+    "canonical_slug": "openai/o1-preview",
     "hugging_face_id": null,
     "name": "OpenAI: o1-preview",
     "created": 1726099200,
@@ -11359,6 +11600,7 @@
   },
   {
     "id": "openai/o1-preview-2024-09-12",
+    "canonical_slug": "openai/o1-preview-2024-09-12",
     "hugging_face_id": null,
     "name": "OpenAI: o1-preview (2024-09-12)",
     "created": 1726099200,
@@ -11397,6 +11639,7 @@
   },
   {
     "id": "openai/o1-pro",
+    "canonical_slug": "openai/o1-pro",
     "hugging_face_id": "",
     "name": "OpenAI: o1-pro",
     "created": 1742423211,
@@ -11437,6 +11680,7 @@
   },
   {
     "id": "openai/o3",
+    "canonical_slug": "openai/o3-2025-04-16",
     "hugging_face_id": "",
     "name": "OpenAI: o3",
     "created": 1744823457,
@@ -11481,6 +11725,7 @@
   },
   {
     "id": "openai/o3-mini",
+    "canonical_slug": "openai/o3-mini-2025-01-31",
     "hugging_face_id": "",
     "name": "OpenAI: o3 Mini",
     "created": 1738351721,
@@ -11523,6 +11768,7 @@
   },
   {
     "id": "openai/o3-mini-high",
+    "canonical_slug": "openai/o3-mini-high-2025-01-31",
     "hugging_face_id": "",
     "name": "OpenAI: o3 Mini High",
     "created": 1739372611,
@@ -11565,6 +11811,7 @@
   },
   {
     "id": "openai/o3-pro",
+    "canonical_slug": "openai/o3-pro-2025-06-10",
     "hugging_face_id": "",
     "name": "OpenAI: o3 Pro",
     "created": 1749598352,
@@ -11608,6 +11855,7 @@
   },
   {
     "id": "openai/o4-mini",
+    "canonical_slug": "openai/o4-mini-2025-04-16",
     "hugging_face_id": "",
     "name": "OpenAI: o4 Mini",
     "created": 1744820942,
@@ -11651,6 +11899,7 @@
   },
   {
     "id": "openai/o4-mini-high",
+    "canonical_slug": "openai/o4-mini-high-2025-04-16",
     "hugging_face_id": "",
     "name": "OpenAI: o4 Mini High",
     "created": 1744824212,
@@ -11695,6 +11944,7 @@
   },
   {
     "id": "opengvlab/internvl3-14b:free",
+    "canonical_slug": "opengvlab/internvl3-14b",
     "hugging_face_id": "OpenGVLab/InternVL3-14B",
     "name": "OpenGVLab: InternVL3 14B (free)",
     "created": 1746021355,
@@ -11734,6 +11984,7 @@
   },
   {
     "id": "opengvlab/internvl3-2b:free",
+    "canonical_slug": "opengvlab/internvl3-2b",
     "hugging_face_id": "OpenGVLab/InternVL3-2B",
     "name": "OpenGVLab: InternVL3 2B (free)",
     "created": 1746019807,
@@ -11773,6 +12024,7 @@
   },
   {
     "id": "openrouter/auto",
+    "canonical_slug": "openrouter/auto",
     "hugging_face_id": null,
     "name": "Auto Router",
     "created": 1699401600,
@@ -11803,6 +12055,7 @@
   },
   {
     "id": "perplexity/llama-3.1-sonar-large-128k-online",
+    "canonical_slug": "perplexity/llama-3.1-sonar-large-128k-online",
     "hugging_face_id": null,
     "name": "Perplexity: Llama 3.1 Sonar 70B Online",
     "created": 1722470400,
@@ -11844,6 +12097,7 @@
   },
   {
     "id": "perplexity/llama-3.1-sonar-small-128k-online",
+    "canonical_slug": "perplexity/llama-3.1-sonar-small-128k-online",
     "hugging_face_id": null,
     "name": "Perplexity: Llama 3.1 Sonar 8B Online",
     "created": 1722470400,
@@ -11885,6 +12139,7 @@
   },
   {
     "id": "perplexity/r1-1776",
+    "canonical_slug": "perplexity/r1-1776",
     "hugging_face_id": "perplexity-ai/r1-1776",
     "name": "Perplexity: R1 1776",
     "created": 1740004929,
@@ -11933,6 +12188,7 @@
   },
   {
     "id": "perplexity/sonar",
+    "canonical_slug": "perplexity/sonar",
     "hugging_face_id": "",
     "name": "Perplexity: Sonar",
     "created": 1738013808,
@@ -11976,6 +12232,7 @@
   },
   {
     "id": "perplexity/sonar-deep-research",
+    "canonical_slug": "perplexity/sonar-deep-research",
     "hugging_face_id": "",
     "name": "Perplexity: Sonar Deep Research",
     "created": 1741311246,
@@ -12019,6 +12276,7 @@
   },
   {
     "id": "perplexity/sonar-pro",
+    "canonical_slug": "perplexity/sonar-pro",
     "hugging_face_id": "",
     "name": "Perplexity: Sonar Pro",
     "created": 1741312423,
@@ -12062,6 +12320,7 @@
   },
   {
     "id": "perplexity/sonar-reasoning",
+    "canonical_slug": "perplexity/sonar-reasoning",
     "hugging_face_id": "",
     "name": "Perplexity: Sonar Reasoning",
     "created": 1738131107,
@@ -12106,6 +12365,7 @@
   },
   {
     "id": "perplexity/sonar-reasoning-pro",
+    "canonical_slug": "perplexity/sonar-reasoning-pro",
     "hugging_face_id": "",
     "name": "Perplexity: Sonar Reasoning Pro",
     "created": 1741313308,
@@ -12151,6 +12411,7 @@
   },
   {
     "id": "pygmalionai/mythalion-13b",
+    "canonical_slug": "pygmalionai/mythalion-13b",
     "hugging_face_id": "PygmalionAI/mythalion-13b",
     "name": "Pygmalion: Mythalion 13B",
     "created": 1693612800,
@@ -12196,6 +12457,7 @@
   },
   {
     "id": "qwen/qwen-2-72b-instruct",
+    "canonical_slug": "qwen/qwen-2-72b-instruct",
     "hugging_face_id": "Qwen/Qwen2-72B-Instruct",
     "name": "Qwen 2 72B Instruct",
     "created": 1717718400,
@@ -12242,6 +12504,7 @@
   },
   {
     "id": "qwen/qwen-2.5-72b-instruct",
+    "canonical_slug": "qwen/qwen-2.5-72b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-72B-Instruct",
     "name": "Qwen2.5 72B Instruct",
     "created": 1726704000,
@@ -12294,6 +12557,7 @@
   },
   {
     "id": "qwen/qwen-2.5-72b-instruct:free",
+    "canonical_slug": "qwen/qwen-2.5-72b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-72B-Instruct",
     "name": "Qwen2.5 72B Instruct (free)",
     "created": 1726704000,
@@ -12342,6 +12606,7 @@
   },
   {
     "id": "qwen/qwen-2.5-7b-instruct",
+    "canonical_slug": "qwen/qwen-2.5-7b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-7B-Instruct",
     "name": "Qwen2.5 7B Instruct",
     "created": 1729036800,
@@ -12390,6 +12655,7 @@
   },
   {
     "id": "qwen/qwen-2.5-7b-instruct:free",
+    "canonical_slug": "qwen/qwen-2.5-7b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-7B-Instruct",
     "name": "Qwen2.5 7B Instruct (free)",
     "created": 1729036800,
@@ -12428,6 +12694,7 @@
   },
   {
     "id": "qwen/qwen-2.5-coder-32b-instruct",
+    "canonical_slug": "qwen/qwen-2.5-coder-32b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
     "name": "Qwen2.5 Coder 32B Instruct",
     "created": 1731368400,
@@ -12477,6 +12744,7 @@
   },
   {
     "id": "qwen/qwen-2.5-coder-32b-instruct:free",
+    "canonical_slug": "qwen/qwen-2.5-coder-32b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
     "name": "Qwen2.5 Coder 32B Instruct (free)",
     "created": 1731368400,
@@ -12525,6 +12793,7 @@
   },
   {
     "id": "qwen/qwen-2.5-vl-7b-instruct",
+    "canonical_slug": "qwen/qwen-2-vl-7b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-VL-7B-Instruct",
     "name": "Qwen: Qwen2.5-VL 7B Instruct",
     "created": 1724803200,
@@ -12574,6 +12843,7 @@
   },
   {
     "id": "qwen/qwen-2.5-vl-7b-instruct:free",
+    "canonical_slug": "qwen/qwen-2-vl-7b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-VL-7B-Instruct",
     "name": "Qwen: Qwen2.5-VL 7B Instruct (free)",
     "created": 1724803200,
@@ -12623,6 +12893,7 @@
   },
   {
     "id": "qwen/qwen-max",
+    "canonical_slug": "qwen/qwen-max-2025-01-25",
     "hugging_face_id": "",
     "name": "Qwen: Qwen-Max ",
     "created": 1738402289,
@@ -12667,6 +12938,7 @@
   },
   {
     "id": "qwen/qwen-plus",
+    "canonical_slug": "qwen/qwen-plus-2025-01-25",
     "hugging_face_id": "",
     "name": "Qwen: Qwen-Plus",
     "created": 1738409840,
@@ -12711,6 +12983,7 @@
   },
   {
     "id": "qwen/qwen-turbo",
+    "canonical_slug": "qwen/qwen-turbo-2024-11-01",
     "hugging_face_id": "",
     "name": "Qwen: Qwen-Turbo",
     "created": 1738410974,
@@ -12755,6 +13028,7 @@
   },
   {
     "id": "qwen/qwen-vl-max",
+    "canonical_slug": "qwen/qwen-vl-max-2025-01-25",
     "hugging_face_id": "",
     "name": "Qwen: Qwen VL Max",
     "created": 1738434304,
@@ -12797,6 +13071,7 @@
   },
   {
     "id": "qwen/qwen-vl-plus",
+    "canonical_slug": "qwen/qwen-vl-plus",
     "hugging_face_id": "",
     "name": "Qwen: Qwen VL Plus",
     "created": 1738731255,
@@ -12839,6 +13114,7 @@
   },
   {
     "id": "qwen/qwen2.5-vl-32b-instruct",
+    "canonical_slug": "qwen/qwen2.5-vl-32b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-VL-32B-Instruct",
     "name": "Qwen: Qwen2.5 VL 32B Instruct",
     "created": 1742839838,
@@ -12888,6 +13164,7 @@
   },
   {
     "id": "qwen/qwen2.5-vl-32b-instruct:free",
+    "canonical_slug": "qwen/qwen2.5-vl-32b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-VL-32B-Instruct",
     "name": "Qwen: Qwen2.5 VL 32B Instruct (free)",
     "created": 1742839838,
@@ -12938,6 +13215,7 @@
   },
   {
     "id": "qwen/qwen2.5-vl-3b-instruct:free",
+    "canonical_slug": "qwen/qwen2.5-vl-3b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-VL-3B-Instruct",
     "name": "Qwen: Qwen2.5 VL 3B Instruct (free)",
     "created": 1743014573,
@@ -12987,6 +13265,7 @@
   },
   {
     "id": "qwen/qwen2.5-vl-72b-instruct",
+    "canonical_slug": "qwen/qwen2.5-vl-72b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-VL-72B-Instruct",
     "name": "Qwen: Qwen2.5 VL 72B Instruct",
     "created": 1738410311,
@@ -13037,6 +13316,7 @@
   },
   {
     "id": "qwen/qwen2.5-vl-72b-instruct:free",
+    "canonical_slug": "qwen/qwen2.5-vl-72b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-VL-72B-Instruct",
     "name": "Qwen: Qwen2.5 VL 72B Instruct (free)",
     "created": 1738410311,
@@ -13087,6 +13367,7 @@
   },
   {
     "id": "qwen/qwen3-14b",
+    "canonical_slug": "qwen/qwen3-14b-04-28",
     "hugging_face_id": "Qwen/Qwen3-14B",
     "name": "Qwen: Qwen3 14B",
     "created": 1745876478,
@@ -13140,6 +13421,7 @@
   },
   {
     "id": "qwen/qwen3-14b:free",
+    "canonical_slug": "qwen/qwen3-14b-04-28",
     "hugging_face_id": "Qwen/Qwen3-14B",
     "name": "Qwen: Qwen3 14B (free)",
     "created": 1745876478,
@@ -13190,6 +13472,7 @@
   },
   {
     "id": "qwen/qwen3-235b-a22b",
+    "canonical_slug": "qwen/qwen3-235b-a22b-04-28",
     "hugging_face_id": "Qwen/Qwen3-235B-A22B",
     "name": "Qwen: Qwen3 235B A22B",
     "created": 1745875757,
@@ -13244,6 +13527,7 @@
   },
   {
     "id": "qwen/qwen3-235b-a22b:free",
+    "canonical_slug": "qwen/qwen3-235b-a22b-04-28",
     "hugging_face_id": "Qwen/Qwen3-235B-A22B",
     "name": "Qwen: Qwen3 235B A22B (free)",
     "created": 1745875757,
@@ -13294,6 +13578,7 @@
   },
   {
     "id": "qwen/qwen3-30b-a3b",
+    "canonical_slug": "qwen/qwen3-30b-a3b-04-28",
     "hugging_face_id": "Qwen/Qwen3-30B-A3B",
     "name": "Qwen: Qwen3 30B A3B",
     "created": 1745878604,
@@ -13348,6 +13633,7 @@
   },
   {
     "id": "qwen/qwen3-30b-a3b:free",
+    "canonical_slug": "qwen/qwen3-30b-a3b-04-28",
     "hugging_face_id": "Qwen/Qwen3-30B-A3B",
     "name": "Qwen: Qwen3 30B A3B (free)",
     "created": 1745878604,
@@ -13398,6 +13684,7 @@
   },
   {
     "id": "qwen/qwen3-32b",
+    "canonical_slug": "qwen/qwen3-32b-04-28",
     "hugging_face_id": "Qwen/Qwen3-32B",
     "name": "Qwen: Qwen3 32B",
     "created": 1745875945,
@@ -13452,6 +13739,7 @@
   },
   {
     "id": "qwen/qwen3-32b:free",
+    "canonical_slug": "qwen/qwen3-32b-04-28",
     "hugging_face_id": "Qwen/Qwen3-32B",
     "name": "Qwen: Qwen3 32B (free)",
     "created": 1745875945,
@@ -13502,6 +13790,7 @@
   },
   {
     "id": "qwen/qwen3-8b",
+    "canonical_slug": "qwen/qwen3-8b-04-28",
     "hugging_face_id": "Qwen/Qwen3-8B",
     "name": "Qwen: Qwen3 8B",
     "created": 1745876632,
@@ -13550,6 +13839,7 @@
   },
   {
     "id": "qwen/qwen3-8b:free",
+    "canonical_slug": "qwen/qwen3-8b-04-28",
     "hugging_face_id": "Qwen/Qwen3-8B",
     "name": "Qwen: Qwen3 8B (free)",
     "created": 1745876632,
@@ -13600,6 +13890,7 @@
   },
   {
     "id": "qwen/qwq-32b",
+    "canonical_slug": "qwen/qwq-32b",
     "hugging_face_id": "Qwen/QwQ-32B",
     "name": "Qwen: QwQ 32B",
     "created": 1741208814,
@@ -13652,6 +13943,7 @@
   },
   {
     "id": "qwen/qwq-32b-preview",
+    "canonical_slug": "qwen/qwq-32b-preview",
     "hugging_face_id": "Qwen/QwQ-32B-Preview",
     "name": "Qwen: QwQ 32B Preview",
     "created": 1732754541,
@@ -13700,6 +13992,7 @@
   },
   {
     "id": "qwen/qwq-32b:free",
+    "canonical_slug": "qwen/qwq-32b",
     "hugging_face_id": "Qwen/QwQ-32B",
     "name": "Qwen: QwQ 32B (free)",
     "created": 1741208814,
@@ -13750,6 +14043,7 @@
   },
   {
     "id": "raifle/sorcererlm-8x22b",
+    "canonical_slug": "raifle/sorcererlm-8x22b",
     "hugging_face_id": "rAIfle/SorcererLM-8x22b-bf16",
     "name": "SorcererLM 8x22B",
     "created": 1731105083,
@@ -13796,6 +14090,7 @@
   },
   {
     "id": "rekaai/reka-flash-3:free",
+    "canonical_slug": "rekaai/reka-flash-3",
     "hugging_face_id": "RekaAI/reka-flash-3",
     "name": "Reka: Flash 3 (free)",
     "created": 1741812813,
@@ -13846,6 +14141,7 @@
   },
   {
     "id": "sao10k/fimbulvetr-11b-v2",
+    "canonical_slug": "sao10k/fimbulvetr-11b-v2",
     "hugging_face_id": "Sao10K/Fimbulvetr-11B-v2",
     "name": "Fimbulvetr 11B v2",
     "created": 1713657600,
@@ -13891,6 +14187,7 @@
   },
   {
     "id": "sao10k/l3-euryale-70b",
+    "canonical_slug": "sao10k/l3-euryale-70b",
     "hugging_face_id": "Sao10K/L3-70B-Euryale-v2.1",
     "name": "Sao10k: Llama 3 Euryale 70B v2.1",
     "created": 1718668800,
@@ -13937,6 +14234,7 @@
   },
   {
     "id": "sao10k/l3-lunaris-8b",
+    "canonical_slug": "sao10k/l3-lunaris-8b",
     "hugging_face_id": "Sao10K/L3-8B-Lunaris-v1",
     "name": "Sao10K: Llama 3 8B Lunaris",
     "created": 1723507200,
@@ -13984,6 +14282,7 @@
   },
   {
     "id": "sao10k/l3.1-euryale-70b",
+    "canonical_slug": "sao10k/l3.1-euryale-70b",
     "hugging_face_id": "Sao10K/L3.1-70B-Euryale-v2.2",
     "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
     "created": 1724803200,
@@ -14031,6 +14330,7 @@
   },
   {
     "id": "sao10k/l3.3-euryale-70b",
+    "canonical_slug": "sao10k/l3.3-euryale-70b-v2.3",
     "hugging_face_id": "Sao10K/L3.3-70B-Euryale-v2.3",
     "name": "Sao10K: Llama 3.3 Euryale 70B",
     "created": 1734535928,
@@ -14078,6 +14378,7 @@
   },
   {
     "id": "sarvamai/sarvam-m:free",
+    "canonical_slug": "sarvamai/sarvam-m",
     "hugging_face_id": "sarvamai/sarvam-m",
     "name": "Sarvam AI: Sarvam-M (free)",
     "created": 1748188413,
@@ -14126,6 +14427,7 @@
   },
   {
     "id": "scb10x/llama3.1-typhoon2-70b-instruct",
+    "canonical_slug": "scb10x/llama3.1-typhoon2-70b-instruct",
     "hugging_face_id": "scb10x/llama3.1-typhoon2-70b-instruct",
     "name": "Typhoon2 70B Instruct",
     "created": 1743196170,
@@ -14172,6 +14474,7 @@
   },
   {
     "id": "sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b",
+    "canonical_slug": "sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b",
     "hugging_face_id": "SentientAGI/Dobby-Mini-Unhinged-Plus-Llama-3.1-8B",
     "name": "SentientAGI: Dobby Mini Plus Llama 3.1 8B",
     "created": 1748885619,
@@ -14220,6 +14523,7 @@
   },
   {
     "id": "shisa-ai/shisa-v2-llama3.3-70b:free",
+    "canonical_slug": "shisa-ai/shisa-v2-llama3.3-70b",
     "hugging_face_id": "shisa-ai/shisa-v2-llama3.3-70b",
     "name": "Shisa AI: Shisa V2 Llama 3.3 70B  (free)",
     "created": 1744754858,
@@ -14268,6 +14572,7 @@
   },
   {
     "id": "sophosympatheia/midnight-rose-70b",
+    "canonical_slug": "sophosympatheia/midnight-rose-70b",
     "hugging_face_id": "sophosympatheia/Midnight-Rose-70B-v2.0.3",
     "name": "Midnight Rose 70B",
     "created": 1711065600,
@@ -14314,6 +14619,7 @@
   },
   {
     "id": "thedrummer/anubis-pro-105b-v1",
+    "canonical_slug": "thedrummer/anubis-pro-105b-v1",
     "hugging_face_id": "TheDrummer/Anubis-Pro-105B-v1",
     "name": "TheDrummer: Anubis Pro 105B V1",
     "created": 1741642290,
@@ -14356,6 +14662,7 @@
   },
   {
     "id": "thedrummer/rocinante-12b",
+    "canonical_slug": "thedrummer/rocinante-12b",
     "hugging_face_id": "TheDrummer/Rocinante-12B-v1.1",
     "name": "TheDrummer: Rocinante 12B",
     "created": 1727654400,
@@ -14402,6 +14709,7 @@
   },
   {
     "id": "thedrummer/skyfall-36b-v2",
+    "canonical_slug": "thedrummer/skyfall-36b-v2",
     "hugging_face_id": "TheDrummer/Skyfall-36B-v2",
     "name": "TheDrummer: Skyfall 36B V2",
     "created": 1741636566,
@@ -14444,6 +14752,7 @@
   },
   {
     "id": "thedrummer/unslopnemo-12b",
+    "canonical_slug": "thedrummer/unslopnemo-12b",
     "hugging_face_id": "TheDrummer/UnslopNemo-12B-v4.1",
     "name": "TheDrummer: UnslopNemo 12B",
     "created": 1731103448,
@@ -14495,6 +14804,7 @@
   },
   {
     "id": "thedrummer/valkyrie-49b-v1",
+    "canonical_slug": "thedrummer/valkyrie-49b-v1",
     "hugging_face_id": "TheDrummer/Valkyrie-49B-v1",
     "name": "TheDrummer: Valkyrie 49B V1",
     "created": 1748022670,
@@ -14539,6 +14849,7 @@
   },
   {
     "id": "thudm/glm-4-32b",
+    "canonical_slug": "thudm/glm-4-32b-0414",
     "hugging_face_id": "THUDM/GLM-4-32B-0414",
     "name": "THUDM: GLM 4 32B",
     "created": 1744920915,
@@ -14585,6 +14896,7 @@
   },
   {
     "id": "thudm/glm-4-32b:free",
+    "canonical_slug": "thudm/glm-4-32b-0414",
     "hugging_face_id": "THUDM/GLM-4-32B-0414",
     "name": "THUDM: GLM 4 32B (free)",
     "created": 1744920915,
@@ -14633,6 +14945,7 @@
   },
   {
     "id": "thudm/glm-z1-32b",
+    "canonical_slug": "thudm/glm-z1-32b-0414",
     "hugging_face_id": "THUDM/GLM-Z1-32B-0414",
     "name": "THUDM: GLM Z1 32B",
     "created": 1744924148,
@@ -14681,6 +14994,7 @@
   },
   {
     "id": "thudm/glm-z1-32b:free",
+    "canonical_slug": "thudm/glm-z1-32b-0414",
     "hugging_face_id": "THUDM/GLM-Z1-32B-0414",
     "name": "THUDM: GLM Z1 32B (free)",
     "created": 1744924148,
@@ -14731,6 +15045,7 @@
   },
   {
     "id": "thudm/glm-z1-rumination-32b",
+    "canonical_slug": "thudm/glm-z1-rumination-32b-0414",
     "hugging_face_id": "THUDM/GLM-Z1-Rumination-32B-0414",
     "name": "THUDM: GLM Z1 Rumination 32B ",
     "created": 1745601495,
@@ -14779,6 +15094,7 @@
   },
   {
     "id": "tngtech/deepseek-r1t-chimera:free",
+    "canonical_slug": "tngtech/deepseek-r1t-chimera",
     "hugging_face_id": "tngtech/DeepSeek-R1T-Chimera",
     "name": "TNG: DeepSeek R1T Chimera (free)",
     "created": 1745760875,
@@ -14829,6 +15145,7 @@
   },
   {
     "id": "undi95/remm-slerp-l2-13b",
+    "canonical_slug": "undi95/remm-slerp-l2-13b",
     "hugging_face_id": "Undi95/ReMM-SLERP-L2-13B",
     "name": "ReMM SLERP 13B",
     "created": 1689984000,
@@ -14876,6 +15193,7 @@
   },
   {
     "id": "undi95/toppy-m-7b",
+    "canonical_slug": "undi95/toppy-m-7b",
     "hugging_face_id": "Undi95/Toppy-M-7B",
     "name": "Toppy M 7B",
     "created": 1699574400,
@@ -14921,6 +15239,7 @@
   },
   {
     "id": "x-ai/grok-2-1212",
+    "canonical_slug": "x-ai/grok-2-1212",
     "hugging_face_id": "",
     "name": "xAI: Grok 2 1212",
     "created": 1734232814,
@@ -14968,6 +15287,7 @@
   },
   {
     "id": "x-ai/grok-2-vision-1212",
+    "canonical_slug": "x-ai/grok-2-vision-1212",
     "hugging_face_id": "",
     "name": "xAI: Grok 2 Vision 1212",
     "created": 1734237338,
@@ -15014,6 +15334,7 @@
   },
   {
     "id": "x-ai/grok-3-beta",
+    "canonical_slug": "x-ai/grok-3-beta",
     "hugging_face_id": "",
     "name": "xAI: Grok 3 Beta",
     "created": 1744240068,
@@ -15062,6 +15383,7 @@
   },
   {
     "id": "x-ai/grok-3-mini-beta",
+    "canonical_slug": "x-ai/grok-3-mini-beta",
     "hugging_face_id": "",
     "name": "xAI: Grok 3 Mini Beta",
     "created": 1744240195,
@@ -15110,6 +15432,7 @@
   },
   {
     "id": "x-ai/grok-beta",
+    "canonical_slug": "x-ai/grok-beta",
     "hugging_face_id": null,
     "name": "xAI: Grok Beta",
     "created": 1729382400,
@@ -15157,6 +15480,7 @@
   },
   {
     "id": "x-ai/grok-vision-beta",
+    "canonical_slug": "x-ai/grok-vision-beta",
     "hugging_face_id": "",
     "name": "xAI: Grok Vision Beta",
     "created": 1731976624,
