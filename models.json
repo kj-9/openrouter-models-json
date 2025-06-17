@@ -5814,53 +5814,6 @@
     ]
   },
   {
-    "id": "meta-llama/llama-2-70b-chat",
-    "canonical_slug": "meta-llama/llama-2-70b-chat",
-    "hugging_face_id": "meta-llama/Llama-2-70b-chat-hf",
-    "name": "Meta: Llama 2 70B Chat",
-    "created": 1687219200,
-    "description": "The flagship, 70 billion parameter language model from Meta, fine tuned for chat completions. Llama 2 is an auto-regressive language model that uses an optimized transformer architecture. The tuned versions use supervised fine-tuning (SFT) and reinforcement learning with human feedback (RLHF) to align to human preferences for helpfulness and safety.",
-    "context_length": 4096,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama2",
-      "instruct_type": "llama2"
-    },
-    "pricing": {
-      "prompt": "0.0000009",
-      "completion": "0.0000009",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "top_k",
-      "repetition_penalty",
-      "logit_bias",
-      "min_p",
-      "response_format"
-    ]
-  },
-  {
     "id": "meta-llama/llama-3-70b-instruct",
     "canonical_slug": "meta-llama/llama-3-70b-instruct",
     "hugging_face_id": "meta-llama/Meta-Llama-3-70B-Instruct",
@@ -6189,7 +6142,7 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.000000019",
+      "prompt": "0.000000017",
       "completion": "0.00000003",
       "request": "0",
       "image": "0",
@@ -6618,7 +6571,7 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000007",
+      "prompt": "0.00000006",
       "completion": "0.00000025",
       "request": "0",
       "image": "0",
@@ -6792,11 +6745,11 @@
       "seed",
       "min_p",
       "logit_bias",
-      "logprobs",
-      "top_logprobs",
       "tools",
       "tool_choice",
-      "structured_outputs"
+      "structured_outputs",
+      "logprobs",
+      "top_logprobs"
     ]
   },
   {
@@ -8515,7 +8468,7 @@
     },
     "pricing": {
       "prompt": "0.00000001",
-      "completion": "0.000000027",
+      "completion": "0.000000025",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8523,7 +8476,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -8534,14 +8487,14 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "repetition_penalty",
-      "response_format",
       "top_k",
-      "seed",
-      "min_p",
+      "repetition_penalty",
       "logit_bias",
       "logprobs",
       "top_logprobs",
+      "min_p",
+      "seed",
+      "response_format",
       "tools",
       "tool_choice",
       "structured_outputs"
@@ -9152,17 +9105,16 @@
     ]
   },
   {
-    "id": "moonshotai/kimi-vl-a3b-thinking:free",
-    "canonical_slug": "moonshotai/kimi-vl-a3b-thinking",
-    "hugging_face_id": "moonshotai/Kimi-VL-A3B-Thinking",
-    "name": "Moonshot AI: Kimi VL A3B Thinking (free)",
-    "created": 1744304841,
-    "description": "Kimi-VL is a lightweight Mixture-of-Experts vision-language model that activates only 2.8B parameters per step while delivering strong performance on multimodal reasoning and long-context tasks. The Kimi-VL-A3B-Thinking variant, fine-tuned with chain-of-thought and reinforcement learning, excels in math and visual reasoning benchmarks like MathVision, MMMU, and MathVista, rivaling much larger models such as Qwen2.5-VL-7B and Gemma-3-12B. It supports 128K context and high-resolution input via its MoonViT encoder.",
+    "id": "moonshotai/kimi-dev-72b:free",
+    "canonical_slug": "moonshotai/kimi-dev-72b",
+    "hugging_face_id": "moonshotai/Kimi-Dev-72B",
+    "name": "Kimi Dev 72b (free)",
+    "created": 1750115909,
+    "description": "Kimi-Dev-72B is an open-source large language model fine-tuned for software engineering and issue resolution tasks. Based on Qwen2.5-72B, it is optimized using large-scale reinforcement learning that applies code patches in real repositories and validates them via full test suite execution—rewarding only correct, robust completions. The model achieves 60.4% on SWE-bench Verified, setting a new benchmark among open-source models for software bug fixing and code reasoning.",
     "context_length": 131072,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text->text",
       "input_modalities": [
-        "image",
         "text"
       ],
       "output_modalities": [
@@ -9204,16 +9156,17 @@
     ]
   },
   {
-    "id": "moonshotai/moonlight-16b-a3b-instruct:free",
-    "canonical_slug": "moonshotai/moonlight-16b-a3b-instruct",
-    "hugging_face_id": "moonshotai/Moonlight-16B-A3B-Instruct",
-    "name": "Moonshot AI: Moonlight 16B A3B Instruct (free)",
-    "created": 1740719801,
-    "description": "Moonlight-16B-A3B-Instruct is a 16B-parameter Mixture-of-Experts (MoE) language model developed by Moonshot AI. It is optimized for instruction-following tasks with 3B activated parameters per inference. The model advances the Pareto frontier in performance per FLOP across English, coding, math, and Chinese benchmarks. It outperforms comparable models like Llama3-3B and Deepseek-v2-Lite while maintaining efficient deployment capabilities through Hugging Face integration and compatibility with popular inference engines like vLLM12.",
-    "context_length": 8192,
+    "id": "moonshotai/kimi-vl-a3b-thinking:free",
+    "canonical_slug": "moonshotai/kimi-vl-a3b-thinking",
+    "hugging_face_id": "moonshotai/Kimi-VL-A3B-Thinking",
+    "name": "Moonshot AI: Kimi VL A3B Thinking (free)",
+    "created": 1744304841,
+    "description": "Kimi-VL is a lightweight Mixture-of-Experts vision-language model that activates only 2.8B parameters per step while delivering strong performance on multimodal reasoning and long-context tasks. The Kimi-VL-A3B-Thinking variant, fine-tuned with chain-of-thought and reinforcement learning, excels in math and visual reasoning benchmarks like MathVision, MMMU, and MathVista, rivaling much larger models such as Qwen2.5-VL-7B and Gemma-3-12B. It supports 128K context and high-resolution input via its MoonViT encoder.",
+    "context_length": 131072,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+image->text",
       "input_modalities": [
+        "image",
         "text"
       ],
       "output_modalities": [
@@ -9231,7 +9184,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 8192,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -9240,6 +9193,8 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "reasoning",
+      "include_reasoning",
       "stop",
       "frequency_penalty",
       "presence_penalty",
@@ -13205,56 +13160,6 @@
       "presence_penalty",
       "stop",
       "frequency_penalty",
-      "top_k",
-      "min_p",
-      "repetition_penalty",
-      "logprobs",
-      "logit_bias",
-      "top_logprobs"
-    ]
-  },
-  {
-    "id": "qwen/qwen2.5-vl-3b-instruct:free",
-    "canonical_slug": "qwen/qwen2.5-vl-3b-instruct",
-    "hugging_face_id": "Qwen/Qwen2.5-VL-3B-Instruct",
-    "name": "Qwen: Qwen2.5 VL 3B Instruct (free)",
-    "created": 1743014573,
-    "description": "Qwen2.5 VL 3B is a multimodal LLM from the Qwen Team with the following key enhancements:\n\n- SoTA understanding of images of various resolution & ratio: Qwen2.5-VL achieves state-of-the-art performance on visual understanding benchmarks, including MathVista, DocVQA, RealWorldQA, MTVQA, etc.\n\n- Agent that can operate your mobiles, robots, etc.: with the abilities of complex reasoning and decision making, Qwen2.5-VL can be integrated with devices like mobile phones, robots, etc., for automatic operation based on visual environment and text instructions.\n\n- Multilingual Support: to serve global users, besides English and Chinese, Qwen2.5-VL now supports the understanding of texts in different languages inside images, including most European languages, Japanese, Korean, Arabic, Vietnamese, etc.\n\nFor more details, see this [blog post](https://qwenlm.github.io/blog/qwen2-vl/) and [GitHub repo](https://github.com/QwenLM/Qwen2-VL).\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
-    "context_length": 64000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 64000,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
       "top_k",
       "min_p",
       "repetition_penalty",
