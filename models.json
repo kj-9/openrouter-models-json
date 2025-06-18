@@ -3098,55 +3098,6 @@
     ]
   },
   {
-    "id": "deepseek/deepseek-prover-v2:free",
-    "canonical_slug": "deepseek/deepseek-prover-v2",
-    "hugging_face_id": "deepseek-ai/DeepSeek-Prover-V2-671B",
-    "name": "DeepSeek: DeepSeek Prover V2 (free)",
-    "created": 1746013094,
-    "description": "DeepSeek Prover V2 is a 671B parameter model, speculated to be geared towards logic and mathematics. Likely an upgrade from [DeepSeek-Prover-V1.5](https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-RL) Not much is known about the model yet, as DeepSeek released it on Hugging Face without an announcement or description.",
-    "context_length": 163840,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "DeepSeek",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 163840,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "top_k",
-      "min_p",
-      "repetition_penalty",
-      "logprobs",
-      "logit_bias",
-      "top_logprobs"
-    ]
-  },
-  {
     "id": "deepseek/deepseek-r1",
     "canonical_slug": "deepseek/deepseek-r1",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1",
@@ -3847,57 +3798,6 @@
     ]
   },
   {
-    "id": "deepseek/deepseek-r1-zero:free",
-    "canonical_slug": "deepseek/deepseek-r1-zero",
-    "hugging_face_id": "deepseek-ai/DeepSeek-R1-Zero",
-    "name": "DeepSeek: DeepSeek R1 Zero (free)",
-    "created": 1741297434,
-    "description": "DeepSeek-R1-Zero is a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step. It's 671B parameters in size, with 37B active in an inference pass.\n\nIt demonstrates remarkable performance on reasoning. With RL, DeepSeek-R1-Zero naturally emerged with numerous powerful and interesting reasoning behaviors.\n\nDeepSeek-R1-Zero encounters challenges such as endless repetition, poor readability, and language mixing. See [DeepSeek R1](/deepseek/deepseek-r1) for the SFT model.\n\n",
-    "context_length": 163840,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": "deepseek-r1"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 163840,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "reasoning",
-      "include_reasoning",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "top_k",
-      "min_p",
-      "repetition_penalty",
-      "logprobs",
-      "logit_bias",
-      "top_logprobs"
-    ]
-  },
-  {
     "id": "deepseek/deepseek-r1:free",
     "canonical_slug": "deepseek/deepseek-r1",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1",
@@ -4366,6 +4266,110 @@
     ]
   },
   {
+    "id": "google/gemini-2.5-flash",
+    "canonical_slug": "google/gemini-2.5-flash",
+    "hugging_face_id": "",
+    "name": "Google: Gemini 2.5 Flash",
+    "created": 1750172488,
+    "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater accuracy and nuanced context handling. \n\nAdditionally, Gemini 2.5 Flash is configurable through the \"max tokens for reasoning\" parameter, as described in the documentation (https://openrouter.ai/docs/use-cases/reasoning-tokens#max-tokens-for-reasoning).",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000025",
+      "request": "0",
+      "image": "0.001238",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.000000075",
+      "input_cache_write": "0.0000003833"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65535,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
+      "response_format",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed"
+    ]
+  },
+  {
+    "id": "google/gemini-2.5-flash-lite-preview-06-17",
+    "canonical_slug": "google/gemini-2.5-flash-lite-preview-06-17",
+    "hugging_face_id": "",
+    "name": "Google: Gemini 2.5 Flash Lite Preview 06-17",
+    "created": 1750173831,
+    "description": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance across common benchmarks compared to earlier Flash models. By default, \"thinking\" (i.e. multi-pass reasoning) is disabled to prioritize speed, but developers can enable it via the [Reasoning API parameter](https://openrouter.ai/docs/use-cases/reasoning-tokens) to selectively trade off cost for intelligence. ",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000004",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65535,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
+      "response_format",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed"
+    ]
+  },
+  {
     "id": "google/gemini-2.5-flash-preview",
     "canonical_slug": "google/gemini-2.5-flash-preview-04-17",
     "hugging_face_id": "",
@@ -4565,6 +4569,59 @@
       "stop",
       "response_format",
       "structured_outputs"
+    ]
+  },
+  {
+    "id": "google/gemini-2.5-pro",
+    "canonical_slug": "google/gemini-2.5-pro",
+    "hugging_face_id": "",
+    "name": "Google: Gemini 2.5 Pro",
+    "created": 1750169544,
+    "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000125",
+      "completion": "0.00001",
+      "request": "0",
+      "image": "0.00516",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.00000031",
+      "input_cache_write": "0.000001625"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
+      "response_format",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed"
     ]
   },
   {
@@ -6021,55 +6078,6 @@
     ]
   },
   {
-    "id": "meta-llama/llama-3.1-405b:free",
-    "canonical_slug": "meta-llama/llama-3.1-405b",
-    "hugging_face_id": "meta-llama/llama-3.1-405B",
-    "name": "Meta: Llama 3.1 405B (base) (free)",
-    "created": 1722556800,
-    "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This is the base 405B pre-trained version.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 64000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": "none"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 64000,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "top_k",
-      "min_p",
-      "repetition_penalty",
-      "logprobs",
-      "logit_bias",
-      "top_logprobs"
-    ]
-  },
-  {
     "id": "meta-llama/llama-3.1-70b-instruct",
     "canonical_slug": "meta-llama/llama-3.1-70b-instruct",
     "hugging_face_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -6142,7 +6150,7 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.000000017",
+      "prompt": "0.000000016",
       "completion": "0.00000003",
       "request": "0",
       "image": "0",
@@ -6571,7 +6579,7 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000006",
+      "prompt": "0.00000005",
       "completion": "0.00000025",
       "request": "0",
       "image": "0",
@@ -7575,6 +7583,99 @@
     ]
   },
   {
+    "id": "minimax/minimax-m1",
+    "canonical_slug": "minimax/minimax-m1",
+    "hugging_face_id": "",
+    "name": "MiniMax: MiniMax M1",
+    "created": 1750200414,
+    "description": "MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference. It leverages a hybrid Mixture-of-Experts (MoE) architecture paired with a custom \"lightning attention\" mechanism, allowing it to process long sequences—up to 1 million tokens—while maintaining competitive FLOP efficiency. With 456 billion total parameters and 45.9B active per token, this variant is optimized for complex, multi-step reasoning tasks.\n\nTrained via a custom reinforcement learning pipeline (CISPO), M1 excels in long-context understanding, software engineering, agentic tool use, and mathematical reasoning. Benchmarks show strong performance across FullStackBench, SWE-bench, MATH, GPQA, and TAU-Bench, often outperforming other open models like DeepSeek R1 and Qwen3-235B.",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.00000165",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 40000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning"
+    ]
+  },
+  {
+    "id": "minimax/minimax-m1:extended",
+    "canonical_slug": "minimax/minimax-m1",
+    "hugging_face_id": "",
+    "name": "MiniMax: MiniMax M1 (extended)",
+    "created": 1750200414,
+    "description": "MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference. It leverages a hybrid Mixture-of-Experts (MoE) architecture paired with a custom \"lightning attention\" mechanism, allowing it to process long sequences—up to 1 million tokens—while maintaining competitive FLOP efficiency. With 456 billion total parameters and 45.9B active per token, this variant is optimized for complex, multi-step reasoning tasks.\n\nTrained via a custom reinforcement learning pipeline (CISPO), M1 excels in long-context understanding, software engineering, agentic tool use, and mathematical reasoning. Benchmarks show strong performance across FullStackBench, SWE-bench, MATH, GPQA, and TAU-Bench, often outperforming other open models like DeepSeek R1 and Qwen3-235B.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000055",
+      "completion": "0.0000022",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 40000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
+    ]
+  },
+  {
     "id": "mistralai/codestral-2501",
     "canonical_slug": "mistralai/codestral-2501",
     "hugging_face_id": "",
@@ -8468,7 +8569,7 @@
     },
     "pricing": {
       "prompt": "0.00000001",
-      "completion": "0.000000025",
+      "completion": "0.000000023",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8667,7 +8768,7 @@
     },
     "pricing": {
       "prompt": "0.00000005",
-      "completion": "0.0000001",
+      "completion": "0.00000009",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12606,45 +12707,6 @@
       "response_format",
       "structured_outputs",
       "seed"
-    ]
-  },
-  {
-    "id": "qwen/qwen-2.5-7b-instruct:free",
-    "canonical_slug": "qwen/qwen-2.5-7b-instruct",
-    "hugging_face_id": "Qwen/Qwen2.5-7B-Instruct",
-    "name": "Qwen2.5 7B Instruct (free)",
-    "created": 1729036800,
-    "description": "Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:\n\n- Significantly more knowledge and has greatly improved capabilities in coding and mathematics, thanks to our specialized expert models in these domains.\n\n- Significant improvements in instruction following, generating long texts (over 8K tokens), understanding structured data (e.g, tables), and generating structured outputs especially JSON. More resilient to the diversity of system prompts, enhancing role-play implementation and condition-setting for chatbots.\n\n- Long-context Support up to 128K tokens and can generate up to 8K tokens.\n\n- Multilingual support for over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": 32768,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p"
     ]
   },
   {
