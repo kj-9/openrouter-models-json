@@ -6875,7 +6875,7 @@
     "name": "Meta: Llama 4 Scout (free)",
     "created": 1743881519,
     "description": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input (text and image) and multilingual output (text and code) across 12 supported languages. Designed for assistant-style interaction and visual reasoning, Scout uses 16 experts per forward pass and features a context length of 10 million tokens, with a training corpus of ~40 trillion tokens.\n\nBuilt for high efficiency and local or commercial deployment, Llama 4 Scout incorporates early fusion for seamless modality integration. It is instruction-tuned for use in multilingual chat, captioning, and image understanding tasks. Released under the Llama 4 Community License, it was last trained on data up to August 2024 and launched publicly on April 5, 2025.",
-    "context_length": 200000,
+    "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -6897,7 +6897,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 200000,
+      "context_length": 128000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -8569,7 +8569,7 @@
     },
     "pricing": {
       "prompt": "0.00000001",
-      "completion": "0.000000023",
+      "completion": "0.00000002",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9164,7 +9164,7 @@
     "name": "Mistral: Pixtral Large 2411",
     "created": 1731977388,
     "description": "Pixtral Large is a 124B parameter, open-weight, multimodal model built on top of [Mistral Large 2](/mistralai/mistral-large-2411). The model is able to understand documents, charts and natural images.\n\nThe model is available under the Mistral Research License (MRL) for research and educational use, and the Mistral Commercial License for experimentation, testing, and production for commercial purposes.\n\n",
-    "context_length": 131072,
+    "context_length": 32768,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -9186,7 +9186,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
