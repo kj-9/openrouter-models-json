@@ -8905,6 +8905,59 @@
     ]
   },
   {
+    "id": "mistralai/mistral-small-3.2-24b-instruct:free",
+    "canonical_slug": "mistralai/mistral-small-3.2-24b-instruct-2506",
+    "hugging_face_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+    "name": "Mistral: Mistral Small 3.2 24B (free)",
+    "created": 1750443016,
+    "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on WildBench and Arena Hard, reduces infinite generations, and delivers gains in tool use and structured output tasks.\n\nIt supports image and text inputs with structured outputs, function/tool calling, and strong performance across coding (HumanEval+, MBPP), STEM (MMLU, MATH, GPQA), and vision benchmarks (ChartQA, DocVQA).",
+    "context_length": 96000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Mistral",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 96000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "structured_outputs",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
+  },
+  {
     "id": "mistralai/mistral-tiny",
     "canonical_slug": "mistralai/mistral-tiny",
     "hugging_face_id": null,
@@ -14855,6 +14908,57 @@
       "min_p",
       "repetition_penalty",
       "logit_bias"
+    ]
+  },
+  {
+    "id": "tngtech/deepseek-r1t-chimera:free",
+    "canonical_slug": "tngtech/deepseek-r1t-chimera",
+    "hugging_face_id": "tngtech/DeepSeek-R1T-Chimera",
+    "name": "TNG: DeepSeek R1T Chimera (free)",
+    "created": 1745760875,
+    "description": "DeepSeek-R1T-Chimera is created by merging DeepSeek-R1 and DeepSeek-V3 (0324), combining the reasoning capabilities of R1 with the token efficiency improvements of V3. It is based on a DeepSeek-MoE Transformer architecture and is optimized for general text generation tasks.\n\nThe model merges pretrained weights from both source models to balance performance across reasoning, efficiency, and instruction-following tasks. It is released under the MIT license and intended for research and commercial use.",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "DeepSeek",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
     ]
   },
   {
