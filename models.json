@@ -2914,7 +2914,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000003",
+      "prompt": "0.00000028",
       "completion": "0.00000088",
       "request": "0",
       "image": "0",
@@ -2928,22 +2928,22 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
-      "structured_outputs",
-      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
+      "seed",
+      "tools",
+      "tool_choice",
+      "structured_outputs",
+      "response_format",
       "top_k",
       "repetition_penalty",
       "logit_bias",
       "logprobs",
       "top_logprobs",
-      "seed",
       "min_p"
     ]
   },
@@ -5171,7 +5171,7 @@
     "name": "Google: Gemma 3 27B",
     "created": 1741756359,
     "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3 27B is Google's latest open source model, successor to [Gemma 2](google/gemma-2-27b-it)",
-    "context_length": 131072,
+    "context_length": 64000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -5186,15 +5186,15 @@
     },
     "pricing": {
       "prompt": "0.0000001",
-      "completion": "0.0000002",
+      "completion": "0.00000019",
       "request": "0",
-      "image": "0.0000256",
+      "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 16384,
+      "context_length": 64000,
+      "max_completion_tokens": 8000,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -6101,7 +6101,7 @@
     },
     "pricing": {
       "prompt": "0.000000016",
-      "completion": "0.000000029",
+      "completion": "0.000000025",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -6530,7 +6530,7 @@
     },
     "pricing": {
       "prompt": "0.00000005",
-      "completion": "0.00000024",
+      "completion": "0.0000002",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -7566,47 +7566,6 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "reasoning",
-      "include_reasoning"
-    ]
-  },
-  {
-    "id": "minimax/minimax-m1:extended",
-    "canonical_slug": "minimax/minimax-m1",
-    "hugging_face_id": "",
-    "name": "MiniMax: MiniMax M1 (extended)",
-    "created": 1750200414,
-    "description": "MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference. It leverages a hybrid Mixture-of-Experts (MoE) architecture paired with a custom \"lightning attention\" mechanism, allowing it to process long sequences—up to 1 million tokens—while maintaining competitive FLOP efficiency. With 456 billion total parameters and 45.9B active per token, this variant is optimized for complex, multi-step reasoning tasks.\n\nTrained via a custom reinforcement learning pipeline (CISPO), M1 excels in long-context understanding, software engineering, agentic tool use, and mathematical reasoning. Benchmarks show strong performance across FullStackBench, SWE-bench, MATH, GPQA, and TAU-Bench, often outperforming other open models like DeepSeek R1 and Qwen3-235B.",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000055",
-      "completion": "0.0000022",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 40000,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
       "tools",
       "tool_choice",
       "max_tokens",
@@ -7623,6 +7582,59 @@
       "min_p",
       "repetition_penalty",
       "logit_bias"
+    ]
+  },
+  {
+    "id": "minimax/minimax-m1:extended",
+    "canonical_slug": "minimax/minimax-m1",
+    "hugging_face_id": "",
+    "name": "MiniMax: MiniMax M1 (extended)",
+    "created": 1750200414,
+    "description": "MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference. It leverages a hybrid Mixture-of-Experts (MoE) architecture paired with a custom \"lightning attention\" mechanism, allowing it to process long sequences—up to 1 million tokens—while maintaining competitive FLOP efficiency. With 456 billion total parameters and 45.9B active per token, this variant is optimized for complex, multi-step reasoning tasks.\n\nTrained via a custom reinforcement learning pipeline (CISPO), M1 excels in long-context understanding, software engineering, agentic tool use, and mathematical reasoning. Benchmarks show strong performance across FullStackBench, SWE-bench, MATH, GPQA, and TAU-Bench, often outperforming other open models like DeepSeek R1 and Qwen3-235B.",
+    "context_length": 256000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 256000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
     ]
   },
   {
@@ -8519,7 +8531,7 @@
     },
     "pricing": {
       "prompt": "0.00000001",
-      "completion": "0.000000019",
+      "completion": "0.000000015",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8902,6 +8914,54 @@
       "logprobs",
       "logit_bias",
       "top_logprobs"
+    ]
+  },
+  {
+    "id": "mistralai/mistral-small-3.2-24b-instruct",
+    "canonical_slug": "mistralai/mistral-small-3.2-24b-instruct-2506",
+    "hugging_face_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+    "name": "Mistral: Mistral Small 3.2 24B",
+    "created": 1750443016,
+    "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on WildBench and Arena Hard, reduces infinite generations, and delivers gains in tool use and structured output tasks.\n\nIt supports image and text inputs with structured outputs, function/tool calling, and strong performance across coding (HumanEval+, MBPP), STEM (MMLU, MATH, GPQA), and vision benchmarks (ChartQA, DocVQA).",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Mistral",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000003",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "tools",
+      "tool_choice",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "seed"
     ]
   },
   {
@@ -12590,7 +12650,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12606,7 +12666,6 @@
       "logit_bias",
       "min_p",
       "response_format",
-      "structured_outputs",
       "seed"
     ]
   },
