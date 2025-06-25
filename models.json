@@ -5186,7 +5186,7 @@
     },
     "pricing": {
       "prompt": "0.0000001",
-      "completion": "0.00000019",
+      "completion": "0.00000018",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -6101,7 +6101,7 @@
     },
     "pricing": {
       "prompt": "0.000000016",
-      "completion": "0.000000025",
+      "completion": "0.000000023",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -6516,7 +6516,7 @@
     "name": "Meta: Llama 3.3 70B Instruct",
     "created": 1733506137,
     "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperforms many of the available open source and closed chat models on common industry benchmarks.\n\nSupported languages: English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.\n\n[Model Card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md)",
-    "context_length": 131000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -6530,15 +6530,15 @@
     },
     "pricing": {
       "prompt": "0.00000005",
-      "completion": "0.0000002",
+      "completion": "0.00000019",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131000,
-      "max_completion_tokens": 131000,
+      "context_length": 131072,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -6596,64 +6596,17 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
-      "repetition_penalty",
-      "top_k",
       "stop",
       "frequency_penalty",
       "presence_penalty",
+      "top_k",
+      "repetition_penalty",
       "logit_bias",
       "min_p",
       "response_format"
-    ]
-  },
-  {
-    "id": "meta-llama/llama-3.3-8b-instruct:free",
-    "canonical_slug": "meta-llama/llama-3.3-8b-instruct",
-    "hugging_face_id": "",
-    "name": "Meta: Llama 3.3 8B Instruct (free)",
-    "created": 1747230154,
-    "description": "A lightweight and ultra-fast variant of Llama 3.3 70B, for use when quick response times are needed most.",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 4028,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "tools",
-      "tool_choice",
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "structured_outputs",
-      "response_format",
-      "repetition_penalty",
-      "top_k"
     ]
   },
   {
@@ -6759,9 +6712,7 @@
       "repetition_penalty",
       "logprobs",
       "logit_bias",
-      "top_logprobs",
-      "tools",
-      "tool_choice"
+      "top_logprobs"
     ]
   },
   {
@@ -6867,9 +6818,7 @@
       "repetition_penalty",
       "logprobs",
       "logit_bias",
-      "top_logprobs",
-      "tools",
-      "tool_choice"
+      "top_logprobs"
     ]
   },
   {
@@ -8531,7 +8480,7 @@
     },
     "pricing": {
       "prompt": "0.00000001",
-      "completion": "0.000000015",
+      "completion": "0.000000013",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8923,7 +8872,7 @@
     "name": "Mistral: Mistral Small 3.2 24B",
     "created": 1750443016,
     "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on WildBench and Arena Hard, reduces infinite generations, and delivers gains in tool use and structured output tasks.\n\nIt supports image and text inputs with structured outputs, function/tool calling, and strong performance across coding (HumanEval+, MBPP), STEM (MMLU, MATH, GPQA), and vision benchmarks (ChartQA, DocVQA).",
-    "context_length": 32768,
+    "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -8937,15 +8886,15 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000001",
-      "completion": "0.0000003",
+      "prompt": "0.00000005",
+      "completion": "0.0000001",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
+      "context_length": 128000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -8961,7 +8910,10 @@
       "presence_penalty",
       "response_format",
       "structured_outputs",
-      "seed"
+      "seed",
+      "repetition_penalty",
+      "top_k",
+      "min_p"
     ]
   },
   {
@@ -10243,104 +10195,6 @@
     ]
   },
   {
-    "id": "openai/gpt-3.5-turbo",
-    "canonical_slug": "openai/gpt-3.5-turbo",
-    "hugging_face_id": null,
-    "name": "OpenAI: GPT-3.5 Turbo",
-    "created": 1685232000,
-    "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
-    "context_length": 16385,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "GPT",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.0000015",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 16385,
-      "max_completion_tokens": 4096,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "tools",
-      "tool_choice",
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "logit_bias",
-      "logprobs",
-      "top_logprobs",
-      "response_format"
-    ]
-  },
-  {
-    "id": "openai/gpt-3.5-turbo-0125",
-    "canonical_slug": "openai/gpt-3.5-turbo-0125",
-    "hugging_face_id": null,
-    "name": "OpenAI: GPT-3.5 Turbo 16k",
-    "created": 1685232000,
-    "description": "The latest GPT-3.5 Turbo model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Sep 2021.\n\nThis version has a higher accuracy at responding in requested formats and a fix for a bug which caused a text encoding issue for non-English language function calls.",
-    "context_length": 16385,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "GPT",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.0000015",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 16385,
-      "max_completion_tokens": 4096,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "tools",
-      "tool_choice",
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "logit_bias",
-      "logprobs",
-      "top_logprobs",
-      "response_format"
-    ]
-  },
-  {
     "id": "openai/gpt-3.5-turbo-0613",
     "canonical_slug": "openai/gpt-3.5-turbo-0613",
     "hugging_face_id": null,
@@ -10371,56 +10225,6 @@
       "context_length": 4095,
       "max_completion_tokens": 4096,
       "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "tools",
-      "tool_choice",
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "logit_bias",
-      "logprobs",
-      "top_logprobs",
-      "response_format",
-      "structured_outputs"
-    ]
-  },
-  {
-    "id": "openai/gpt-3.5-turbo-1106",
-    "canonical_slug": "openai/gpt-3.5-turbo-1106",
-    "hugging_face_id": null,
-    "name": "OpenAI: GPT-3.5 Turbo 16k (older v1106)",
-    "created": 1699228800,
-    "description": "An older GPT-3.5 Turbo model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Sep 2021.",
-    "context_length": 16385,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "GPT",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000002",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 16385,
-      "max_completion_tokens": 4096,
-      "is_moderated": true
     },
     "per_request_limits": null,
     "supported_parameters": [
