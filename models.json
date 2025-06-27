@@ -5323,6 +5323,53 @@
     ]
   },
   {
+    "id": "google/gemma-3n-e4b-it",
+    "canonical_slug": "google/gemma-3n-e4b-it",
+    "hugging_face_id": "",
+    "name": "Google: Gemma 3n 4B",
+    "created": 1747776824,
+    "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs—including text, visual data, and audio—enabling diverse tasks such as text generation, speech recognition, translation, and image analysis. Leveraging innovations like Per-Layer Embedding (PLE) caching and the MatFormer architecture, Gemma 3n dynamically manages memory usage and computational load by selectively activating model parameters, significantly reducing runtime resource requirements.\n\nThis model supports a wide linguistic range (trained in over 140 languages) and features a flexible 32K token context window. Gemma 3n can selectively load parameters, optimizing memory and computational efficiency based on the task or device capabilities, making it well-suited for privacy-focused, offline-capable applications and on-device AI solutions. [Read more in the blog post](https://developers.googleblog.com/en/introducing-gemma-3n/)",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000002",
+      "completion": "0.00000004",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format"
+    ]
+  },
+  {
     "id": "google/gemma-3n-e4b-it:free",
     "canonical_slug": "google/gemma-3n-e4b-it",
     "hugging_face_id": "",
@@ -5413,6 +5460,46 @@
       "logit_bias",
       "response_format",
       "top_a"
+    ]
+  },
+  {
+    "id": "inception/mercury",
+    "canonical_slug": "inception/mercury",
+    "hugging_face_id": "",
+    "name": "Inception: Mercury",
+    "created": 1750973026,
+    "description": "Mercury is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like GPT-4.1 Nano and Claude 3.5 Haiku while matching their performance. Mercury's speed enables developers to provide responsive user experiences, including with voice agents, search interfaces, and chatbots. Read more in the blog post here. ",
+    "context_length": 32000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00001",
+      "completion": "0.00001",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32000,
+      "max_completion_tokens": 16000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "frequency_penalty",
+      "presence_penalty",
+      "stop"
     ]
   },
   {
@@ -6029,10 +6116,10 @@
       "top_k",
       "seed",
       "min_p",
-      "structured_outputs",
       "logit_bias",
       "logprobs",
-      "top_logprobs"
+      "top_logprobs",
+      "structured_outputs"
     ]
   },
   {
@@ -6056,7 +6143,7 @@
     },
     "pricing": {
       "prompt": "0.000000016",
-      "completion": "0.000000022",
+      "completion": "0.000000021",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -6446,7 +6533,7 @@
     },
     "pricing": {
       "prompt": "0.00000005",
-      "completion": "0.00000018",
+      "completion": "0.00000017",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8250,7 +8337,7 @@
     },
     "pricing": {
       "prompt": "0.00000001",
-      "completion": "0.000000012",
+      "completion": "0.000000011",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9092,6 +9179,41 @@
       "logit_bias",
       "top_logprobs"
     ]
+  },
+  {
+    "id": "morph/morph-v2",
+    "canonical_slug": "morph/morph-v2",
+    "hugging_face_id": "",
+    "name": "Morph: Morph V2",
+    "created": 1750946108,
+    "description": "Morph Apply is a specialized code-patching LLM that merges AI-suggested edits straight into your source files. It can apply updates from GPT-4o, Claude, and others into your files at 4000+ tokens per second.\n\nThe model requires the prompt to be in the following format: \n<code>${originalCode}</code>\\n<update>${updateSnippet}</update>\n\nLearn more about this model in their [documentation](https://docs.morphllm.com/)",
+    "context_length": 16000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000012",
+      "completion": "0.0000027",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 16000,
+      "max_completion_tokens": 16000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": []
   },
   {
     "id": "neversleep/llama-3-lumimaid-70b",
