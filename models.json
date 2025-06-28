@@ -2937,16 +2937,16 @@
       "frequency_penalty",
       "presence_penalty",
       "seed",
-      "tools",
-      "tool_choice",
-      "structured_outputs",
-      "response_format",
-      "top_k",
-      "repetition_penalty",
       "logit_bias",
       "logprobs",
       "top_logprobs",
-      "min_p"
+      "min_p",
+      "repetition_penalty",
+      "top_k",
+      "tools",
+      "tool_choice",
+      "structured_outputs",
+      "response_format"
     ]
   },
   {
@@ -4123,15 +4123,12 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
+      "tools",
+      "tool_choice",
       "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
       "response_format",
       "structured_outputs"
     ]
@@ -4213,15 +4210,12 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
+      "tools",
+      "tool_choice",
       "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
       "response_format",
       "structured_outputs"
     ]
@@ -4264,19 +4258,14 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
-      "reasoning",
-      "include_reasoning",
-      "structured_outputs",
-      "response_format",
+      "tools",
+      "tool_choice",
       "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed"
+      "response_format",
+      "structured_outputs"
     ]
   },
   {
@@ -4315,19 +4304,14 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
-      "reasoning",
-      "include_reasoning",
-      "structured_outputs",
-      "response_format",
+      "tools",
+      "tool_choice",
       "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed"
+      "response_format",
+      "structured_outputs"
     ]
   },
   {
@@ -4416,19 +4400,14 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
-      "reasoning",
-      "include_reasoning",
-      "structured_outputs",
-      "response_format",
+      "tools",
+      "tool_choice",
       "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed"
+      "response_format",
+      "structured_outputs"
     ]
   },
   {
@@ -4469,19 +4448,14 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
-      "reasoning",
-      "include_reasoning",
-      "structured_outputs",
-      "response_format",
+      "tools",
+      "tool_choice",
       "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed"
+      "response_format",
+      "structured_outputs"
     ]
   },
   {
@@ -4570,19 +4544,14 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
-      "reasoning",
-      "include_reasoning",
-      "structured_outputs",
-      "response_format",
+      "tools",
+      "tool_choice",
       "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed"
+      "response_format",
+      "structured_outputs"
     ]
   },
   {
@@ -4670,19 +4639,14 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "tools",
-      "tool_choice",
       "max_tokens",
       "temperature",
       "top_p",
-      "reasoning",
-      "include_reasoning",
-      "structured_outputs",
-      "response_format",
+      "tools",
+      "tool_choice",
       "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed"
+      "response_format",
+      "structured_outputs"
     ]
   },
   {
@@ -5314,9 +5278,6 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
       "seed",
       "response_format",
       "structured_outputs"
@@ -5325,7 +5286,7 @@
   {
     "id": "google/gemma-3n-e4b-it",
     "canonical_slug": "google/gemma-3n-e4b-it",
-    "hugging_face_id": "",
+    "hugging_face_id": "google/gemma-3n-E4B-it",
     "name": "Google: Gemma 3n 4B",
     "created": 1747776824,
     "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs—including text, visual data, and audio—enabling diverse tasks such as text generation, speech recognition, translation, and image analysis. Leveraging innovations like Per-Layer Embedding (PLE) caching and the MatFormer architecture, Gemma 3n dynamically manages memory usage and computational load by selectively activating model parameters, significantly reducing runtime resource requirements.\n\nThis model supports a wide linguistic range (trained in over 140 languages) and features a flexible 32K token context window. Gemma 3n can selectively load parameters, optimizing memory and computational efficiency based on the task or device capabilities, making it well-suited for privacy-focused, offline-capable applications and on-device AI solutions. [Read more in the blog post](https://developers.googleblog.com/en/introducing-gemma-3n/)",
@@ -5372,7 +5333,7 @@
   {
     "id": "google/gemma-3n-e4b-it:free",
     "canonical_slug": "google/gemma-3n-e4b-it",
-    "hugging_face_id": "",
+    "hugging_face_id": "google/gemma-3n-E4B-it",
     "name": "Google: Gemma 3n 4B (free)",
     "created": 1747776824,
     "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs—including text, visual data, and audio—enabling diverse tasks such as text generation, speech recognition, translation, and image analysis. Leveraging innovations like Per-Layer Embedding (PLE) caching and the MatFormer architecture, Gemma 3n dynamically manages memory usage and computational load by selectively activating model parameters, significantly reducing runtime resource requirements.\n\nThis model supports a wide linguistic range (trained in over 140 languages) and features a flexible 32K token context window. Gemma 3n can selectively load parameters, optimizing memory and computational efficiency based on the task or device capabilities, making it well-suited for privacy-focused, offline-capable applications and on-device AI solutions. [Read more in the blog post](https://developers.googleblog.com/en/introducing-gemma-3n/)",
@@ -6215,7 +6176,13 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "seed"
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "min_p",
+      "repetition_penalty",
+      "top_k"
     ]
   },
   {
@@ -6408,7 +6375,13 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "seed"
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "min_p",
+      "repetition_penalty",
+      "top_k"
     ]
   },
   {
@@ -6519,7 +6492,7 @@
     "name": "Meta: Llama 3.3 70B Instruct",
     "created": 1733506137,
     "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperforms many of the available open source and closed chat models on common industry benchmarks.\n\nSupported languages: English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.\n\n[Model Card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md)",
-    "context_length": 131000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -6532,16 +6505,16 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000005",
-      "completion": "0.00000017",
+      "prompt": "0.000000039",
+      "completion": "0.00000012",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131000,
-      "max_completion_tokens": 131000,
+      "context_length": 131072,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -8624,7 +8597,7 @@
     "name": "Mistral: Mistral Small 3.1 24B",
     "created": 1742238937,
     "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and vision tasks, including image analysis, programming, mathematical reasoning, and multilingual support across dozens of languages. Equipped with an extensive 128k token context window and optimized for efficient local inference, it supports use cases such as conversational agents, function calling, long-document comprehension, and privacy-sensitive deployments. The updated version is [Mistral Small 3.2](mistralai/mistral-small-3.2-24b-instruct)",
-    "context_length": 131072,
+    "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -8639,14 +8612,14 @@
     },
     "pricing": {
       "prompt": "0.00000005",
-      "completion": "0.00000015",
+      "completion": "0.0000001",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 128000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -8655,16 +8628,17 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "presence_penalty",
+      "stop",
       "frequency_penalty",
+      "presence_penalty",
       "repetition_penalty",
+      "response_format",
       "top_k",
+      "seed",
+      "min_p",
       "tools",
       "tool_choice",
-      "stop",
-      "response_format",
       "structured_outputs",
-      "seed",
       "logit_bias",
       "logprobs",
       "top_logprobs"
