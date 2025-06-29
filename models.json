@@ -2937,12 +2937,12 @@
       "frequency_penalty",
       "presence_penalty",
       "seed",
-      "logit_bias",
       "logprobs",
       "top_logprobs",
       "min_p",
       "repetition_penalty",
       "top_k",
+      "logit_bias",
       "tools",
       "tool_choice",
       "structured_outputs",
@@ -6177,12 +6177,12 @@
       "frequency_penalty",
       "presence_penalty",
       "seed",
-      "logit_bias",
       "logprobs",
       "top_logprobs",
       "min_p",
       "repetition_penalty",
-      "top_k"
+      "top_k",
+      "logit_bias"
     ]
   },
   {
@@ -6376,12 +6376,12 @@
       "frequency_penalty",
       "presence_penalty",
       "seed",
-      "logit_bias",
       "logprobs",
       "top_logprobs",
       "min_p",
       "repetition_penalty",
-      "top_k"
+      "top_k",
+      "logit_bias"
     ]
   },
   {
@@ -6752,7 +6752,7 @@
     "name": "Meta: Llama 4 Scout (free)",
     "created": 1743881519,
     "description": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input (text and image) and multilingual output (text and code) across 12 supported languages. Designed for assistant-style interaction and visual reasoning, Scout uses 16 experts per forward pass and features a context length of 10 million tokens, with a training corpus of ~40 trillion tokens.\n\nBuilt for high efficiency and local or commercial deployment, Llama 4 Scout incorporates early fusion for seamless modality integration. It is instruction-tuned for use in multilingual chat, captioning, and image understanding tasks. Released under the Llama 4 Community License, it was last trained on data up to August 2024 and launched publicly on April 5, 2025.",
-    "context_length": 96000,
+    "context_length": 64000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -6774,7 +6774,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 96000,
+      "context_length": 64000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -7414,7 +7414,7 @@
     "name": "MiniMax: MiniMax M1 (extended)",
     "created": 1750200414,
     "description": "MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference. It leverages a hybrid Mixture-of-Experts (MoE) architecture paired with a custom \"lightning attention\" mechanism, allowing it to process long sequences—up to 1 million tokens—while maintaining competitive FLOP efficiency. With 456 billion total parameters and 45.9B active per token, this variant is optimized for complex, multi-step reasoning tasks.\n\nTrained via a custom reinforcement learning pipeline (CISPO), M1 excels in long-context understanding, software engineering, agentic tool use, and mathematical reasoning. Benchmarks show strong performance across FullStackBench, SWE-bench, MATH, GPQA, and TAU-Bench, often outperforming other open models like DeepSeek R1 and Qwen3-235B.",
-    "context_length": 256000,
+    "context_length": 512000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -7435,7 +7435,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 256000,
+      "context_length": 512000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -7567,7 +7567,7 @@
     "name": "Mistral: Devstral Small (free)",
     "created": 1747837379,
     "description": "Devstral-Small-2505 is a 24B parameter agentic LLM fine-tuned from Mistral-Small-3.1, jointly developed by Mistral AI and All Hands AI for advanced software engineering tasks. It is optimized for codebase exploration, multi-file editing, and integration into coding agents, achieving state-of-the-art results on SWE-Bench Verified (46.8%).\n\nDevstral supports a 128k context window and uses a custom Tekken tokenizer. It is text-only, with the vision encoder removed, and is suitable for local deployment on high-end consumer hardware (e.g., RTX 4090, 32GB RAM Macs). Devstral is best used in agentic workflows via the OpenHands scaffold and is compatible with inference frameworks like vLLM, Transformers, and Ollama. It is released under the Apache 2.0 license.",
-    "context_length": 131072,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -7588,7 +7588,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -9158,7 +9158,7 @@
     "id": "morph/morph-v2",
     "canonical_slug": "morph/morph-v2",
     "hugging_face_id": "",
-    "name": "Morph: Morph V2",
+    "name": "Morph: Fast Apply",
     "created": 1750946108,
     "description": "Morph Apply is a specialized code-patching LLM that merges AI-suggested edits straight into your source files. It can apply updates from GPT-4o, Claude, and others into your files at 4000+ tokens per second.\n\nThe model requires the prompt to be in the following format: \n<code>${originalCode}</code>\\n<update>${updateSnippet}</update>\n\nLearn more about this model in their [documentation](https://docs.morphllm.com/)",
     "context_length": 16000,
