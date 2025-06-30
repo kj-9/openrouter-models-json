@@ -5443,8 +5443,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00001",
-      "completion": "0.00001",
+      "prompt": "0.00000025",
+      "completion": "0.000001",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -14164,6 +14164,49 @@
       "min_p",
       "repetition_penalty",
       "logit_bias"
+    ]
+  },
+  {
+    "id": "thedrummer/anubis-70b-v1.1",
+    "canonical_slug": "thedrummer/anubis-70b-v1.1",
+    "hugging_face_id": "TheDrummer/Anubis-70B-v1.1",
+    "name": "TheDrummer: Anubis 70B V1.1",
+    "created": 1751208347,
+    "description": "TheDrummer's Anubis v1.1 is an unaligned, creative Llama 3.3 70B model focused on providing character-driven roleplay & stories. It excels at gritty, visceral prose, unique character adherence, and coherent narratives, while maintaining the instruction following Llama 3.3 70B is known for.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Llama3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000008",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k"
     ]
   },
   {
