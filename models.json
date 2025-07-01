@@ -2277,6 +2277,53 @@
     ]
   },
   {
+    "id": "baidu/ernie-4.5-300b-a47b",
+    "canonical_slug": "baidu/ernie-4.5-300b-a47b",
+    "hugging_face_id": "baidu/ERNIE-4.5-300B-A47B-PT",
+    "name": "Baidu: ERNIE 4.5 300B A47B ",
+    "created": 1751300139,
+    "description": "ERNIE-4.5-300B-A47B is a 300B parameter Mixture-of-Experts (MoE) language model developed by Baidu as part of the ERNIE 4.5 series. It activates 47B parameters per token and supports text generation in both English and Chinese. Optimized for high-throughput inference and efficient scaling, it uses a heterogeneous MoE structure with advanced routing and quantization strategies, including FP8 and 2-bit formats. This version is fine-tuned for language-only tasks and supports reasoning, tool parameters, and extended context lengths up to 131k tokens. Suitable for general-purpose LLM applications with high reasoning and throughput demands.",
+    "context_length": 123000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.000001",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 123000,
+      "max_completion_tokens": 12000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
+    ]
+  },
+  {
     "id": "cognitivecomputations/dolphin-mixtral-8x22b",
     "canonical_slug": "cognitivecomputations/dolphin-mixtral-8x22b",
     "hugging_face_id": "cognitivecomputations/dolphin-2.9.2-mixtral-8x22b",
@@ -2942,11 +2989,11 @@
       "min_p",
       "repetition_penalty",
       "top_k",
-      "logit_bias",
       "tools",
       "tool_choice",
       "structured_outputs",
-      "response_format"
+      "response_format",
+      "logit_bias"
     ]
   },
   {
@@ -8248,7 +8295,7 @@
     "name": "Mistral: Mistral Medium 3",
     "created": 1746627341,
     "description": "Mistral Medium 3 is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8× lower cost compared to traditional large models, making it suitable for scalable deployments across professional and industrial use cases.\n\nThe model excels in domains such as coding, STEM reasoning, and enterprise adaptation. It supports hybrid, on-prem, and in-VPC deployments and is optimized for integration into custom workflows. Mistral Medium 3 offers competitive accuracy relative to larger models like Claude Sonnet 3.5/3.7, Llama 4 Maverick, and Command R+, while maintaining broad compatibility across cloud environments.",
-    "context_length": 32768,
+    "context_length": 131072,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -8270,7 +8317,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -9010,7 +9057,7 @@
     "name": "Mistral: Pixtral Large 2411",
     "created": 1731977388,
     "description": "Pixtral Large is a 124B parameter, open-weight, multimodal model built on top of [Mistral Large 2](/mistralai/mistral-large-2411). The model is able to understand documents, charts and natural images.\n\nThe model is available under the Mistral Research License (MRL) for research and educational use, and the Mistral Commercial License for experimentation, testing, and production for commercial purposes.\n\n",
-    "context_length": 32768,
+    "context_length": 131072,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -9032,7 +9079,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -9161,7 +9208,7 @@
     "name": "Morph: Fast Apply",
     "created": 1750946108,
     "description": "Morph Apply is a specialized code-patching LLM that merges AI-suggested edits straight into your source files. It can apply updates from GPT-4o, Claude, and others into your files at 4000+ tokens per second.\n\nThe model requires the prompt to be in the following format: \n<code>${originalCode}</code>\\n<update>${updateSnippet}</update>\n\nLearn more about this model in their [documentation](https://docs.morphllm.com/)",
-    "context_length": 16000,
+    "context_length": 32000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -9182,7 +9229,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 16000,
+      "context_length": 32000,
       "max_completion_tokens": 16000,
       "is_moderated": false
     },
