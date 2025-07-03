@@ -1779,8 +1779,8 @@
     },
     "top_provider": {
       "context_length": 200000,
-      "max_completion_tokens": 128000,
-      "is_moderated": true
+      "max_completion_tokens": 64000,
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -2296,8 +2296,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000003",
-      "completion": "0.000001",
+      "prompt": "0.00000028",
+      "completion": "0.0000011",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3003,7 +3003,7 @@
     "name": "DeepSeek: DeepSeek V3 0324 (free)",
     "created": 1742824755,
     "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.\n\nIt succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well on a variety of tasks.",
-    "context_length": 163840,
+    "context_length": 16384,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -3024,8 +3024,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 163840,
-      "max_completion_tokens": null,
+      "context_length": 16384,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -5143,7 +5143,7 @@
     "name": "Google: Gemma 3 27B",
     "created": 1741756359,
     "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3 27B is Google's latest open source model, successor to [Gemma 2](google/gemma-2-27b-it)",
-    "context_length": 32768,
+    "context_length": 131072,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -5160,13 +5160,13 @@
       "prompt": "0.00000009",
       "completion": "0.00000017",
       "request": "0",
-      "image": "0",
+      "image": "0.0000256",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": 32768,
+      "context_length": 131072,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -5511,10 +5511,10 @@
     ]
   },
   {
-    "id": "inception/mercury-coder-small-beta",
+    "id": "inception/mercury-coder",
     "canonical_slug": "inception/mercury-coder-small-beta",
     "hugging_face_id": "",
-    "name": "Inception: Mercury Coder Small Beta",
+    "name": "Inception: Mercury Coder",
     "created": 1746033880,
     "description": "Mercury Coder Small is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like Claude 3.5 Haiku and GPT-4o Mini while matching their performance. Mercury Coder Small's speed means that developers can stay in the flow while coding, enjoying rapid chat-based iteration and responsive code completion suggestions. On Copilot Arena, Mercury Coder ranks 1st in speed and ties for 2nd in quality. Read more in the [blog post here](https://www.inceptionlabs.ai/introducing-mercury).",
     "context_length": 32000,
@@ -6184,55 +6184,6 @@
     ]
   },
   {
-    "id": "meta-llama/llama-3.1-8b-instruct:free",
-    "canonical_slug": "meta-llama/llama-3.1-8b-instruct",
-    "hugging_face_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
-    "name": "Meta: Llama 3.1 8B Instruct (free)",
-    "created": 1721692800,
-    "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "logprobs",
-      "top_logprobs",
-      "min_p",
-      "repetition_penalty",
-      "top_k",
-      "logit_bias"
-    ]
-  },
-  {
     "id": "meta-llama/llama-3.2-11b-vision-instruct",
     "canonical_slug": "meta-llama/llama-3.2-11b-vision-instruct",
     "hugging_face_id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
@@ -6380,55 +6331,6 @@
       "min_p",
       "logit_bias",
       "top_logprobs"
-    ]
-  },
-  {
-    "id": "meta-llama/llama-3.2-1b-instruct:free",
-    "canonical_slug": "meta-llama/llama-3.2-1b-instruct",
-    "hugging_face_id": "meta-llama/Llama-3.2-1B-Instruct",
-    "name": "Meta: Llama 3.2 1B Instruct (free)",
-    "created": 1727222400,
-    "description": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate efficiently in low-resource environments while maintaining strong task performance.\n\nSupporting eight core languages and fine-tunable for more, Llama 1.3B is ideal for businesses or developers seeking lightweight yet powerful AI solutions that can operate in diverse multilingual settings without the high computational demand of larger models.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "logprobs",
-      "top_logprobs",
-      "min_p",
-      "repetition_penalty",
-      "top_k",
-      "logit_bias"
     ]
   },
   {
@@ -8304,7 +8206,7 @@
     },
     "pricing": {
       "prompt": "0.00000001",
-      "completion": "0.000000011",
+      "completion": "0.000000001",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8312,7 +8214,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9636,8 +9538,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.00000012",
-      "completion": "0.0000003",
+      "prompt": "0.0000001",
+      "completion": "0.00000028",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9645,7 +9547,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9656,14 +9558,14 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "top_k",
       "seed",
+      "min_p",
       "logit_bias",
       "logprobs",
       "top_logprobs",
-      "response_format",
-      "min_p",
-      "repetition_penalty",
-      "top_k",
       "tools",
       "tool_choice"
     ]
@@ -11764,7 +11666,7 @@
     "top_provider": {
       "context_length": 1000000,
       "max_completion_tokens": 10000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
