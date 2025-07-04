@@ -3404,7 +3404,9 @@
       "repetition_penalty",
       "logprobs",
       "logit_bias",
-      "top_logprobs"
+      "top_logprobs",
+      "response_format",
+      "top_a"
     ]
   },
   {
@@ -6151,7 +6153,7 @@
     },
     "pricing": {
       "prompt": "0.000000016",
-      "completion": "0.000000021",
+      "completion": "0.00000002",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8205,7 +8207,7 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.00000001",
+      "prompt": "0.000000009",
       "completion": "0.000000001",
       "request": "0",
       "image": "0",
@@ -8214,7 +8216,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -15000,54 +15002,6 @@
       "reasoning",
       "include_reasoning",
       "stop",
-      "seed",
-      "logprobs",
-      "top_logprobs",
-      "response_format"
-    ]
-  },
-  {
-    "id": "x-ai/grok-beta",
-    "canonical_slug": "x-ai/grok-beta",
-    "hugging_face_id": null,
-    "name": "xAI: Grok Beta",
-    "created": 1729382400,
-    "description": "Grok Beta is xAI's experimental language model with state-of-the-art reasoning capabilities, best for complex and multi-step use cases.\n\nIt is the successor of [Grok 2](https://x.ai/blog/grok-2) with enhanced context length.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Grok",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000005",
-      "completion": "0.000015",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "tools",
-      "tool_choice",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
       "seed",
       "logprobs",
       "top_logprobs",
