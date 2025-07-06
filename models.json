@@ -397,54 +397,6 @@
     ]
   },
   {
-    "id": "all-hands/openhands-lm-32b-v0.1",
-    "canonical_slug": "all-hands/openhands-lm-32b-v0.1",
-    "hugging_face_id": "all-hands/openhands-lm-32b-v0.1",
-    "name": "OpenHands LM 32B V0.1",
-    "created": 1743613013,
-    "description": "OpenHands LM v0.1 is a 32B open-source coding model fine-tuned from Qwen2.5-Coder-32B-Instruct using reinforcement learning techniques outlined in SWE-Gym. It is optimized for autonomous software development agents and achieves strong performance on SWE-Bench Verified, with a 37.2% resolve rate. The model supports a 128K token context window, making it well-suited for long-horizon code reasoning and large codebase tasks.\n\nOpenHands LM is designed for local deployment and runs on consumer-grade GPUs such as a single 3090. It enables fully offline agent workflows without dependency on proprietary APIs. This release is intended as a research preview, and future updates aim to improve generalizability, reduce repetition, and offer smaller variants.",
-    "context_length": 16384,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000026",
-      "completion": "0.0000034",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 16384,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "tools",
-      "tool_choice",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "repetition_penalty",
-      "top_k",
-      "min_p",
-      "seed"
-    ]
-  },
-  {
     "id": "alpindale/goliath-120b",
     "canonical_slug": "alpindale/goliath-120b",
     "hugging_face_id": "alpindale/goliath-120b",
@@ -3972,52 +3924,6 @@
     "pricing": {
       "prompt": "0.000004",
       "completion": "0.000006",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 16384,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "repetition_penalty",
-      "top_k",
-      "min_p",
-      "seed"
-    ]
-  },
-  {
-    "id": "eva-unit-01/eva-qwen-2.5-32b",
-    "canonical_slug": "eva-unit-01/eva-qwen-2.5-32b",
-    "hugging_face_id": "EVA-UNIT-01/EVA-Qwen2.5-32B-v0.2",
-    "name": "EVA Qwen2.5 32B",
-    "created": 1731104847,
-    "description": "EVA Qwen2.5 32B is a roleplaying/storywriting specialist model. It's a full-parameter finetune of Qwen2.5-32B on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model.",
-    "context_length": 16384,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0.0000026",
-      "completion": "0.0000034",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -11639,90 +11545,6 @@
       "tool_choice",
       "reasoning",
       "include_reasoning"
-    ]
-  },
-  {
-    "id": "perplexity/llama-3.1-sonar-large-128k-online",
-    "canonical_slug": "perplexity/llama-3.1-sonar-large-128k-online",
-    "hugging_face_id": null,
-    "name": "Perplexity: Llama 3.1 Sonar 70B Online",
-    "created": 1722470400,
-    "description": "Llama 3.1 Sonar is Perplexity's latest model family. It surpasses their earlier Sonar models in cost-efficiency, speed, and performance.\n\nThis is the online version of the [offline chat model](/models/perplexity/llama-3.1-sonar-large-128k-chat). It is focused on delivering helpful, up-to-date, and factual responses. #online",
-    "context_length": 127072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000001",
-      "request": "0.005",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 127072,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "top_k",
-      "frequency_penalty",
-      "presence_penalty"
-    ]
-  },
-  {
-    "id": "perplexity/llama-3.1-sonar-small-128k-online",
-    "canonical_slug": "perplexity/llama-3.1-sonar-small-128k-online",
-    "hugging_face_id": null,
-    "name": "Perplexity: Llama 3.1 Sonar 8B Online",
-    "created": 1722470400,
-    "description": "Llama 3.1 Sonar is Perplexity's latest model family. It surpasses their earlier Sonar models in cost-efficiency, speed, and performance.\n\nThis is the online version of the [offline chat model](/models/perplexity/llama-3.1-sonar-small-128k-chat). It is focused on delivering helpful, up-to-date, and factual responses. #online",
-    "context_length": 127072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000002",
-      "request": "0.005",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 127072,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "top_k",
-      "frequency_penalty",
-      "presence_penalty"
     ]
   },
   {
