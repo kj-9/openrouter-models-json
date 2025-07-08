@@ -4126,6 +4126,8 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "tools",
+      "tool_choice",
       "stop"
     ]
   },
@@ -4218,9 +4220,11 @@
       "top_p",
       "tools",
       "tool_choice",
-      "stop",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
       "response_format",
-      "structured_outputs"
+      "stop"
     ]
   },
   {
@@ -4264,9 +4268,11 @@
       "top_p",
       "tools",
       "tool_choice",
-      "stop",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
       "response_format",
-      "structured_outputs"
+      "stop"
     ]
   },
   {
@@ -4312,9 +4318,11 @@
       "top_p",
       "tools",
       "tool_choice",
-      "stop",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
       "response_format",
-      "structured_outputs"
+      "stop"
     ]
   },
   {
@@ -4360,9 +4368,11 @@
       "top_p",
       "tools",
       "tool_choice",
-      "stop",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
       "response_format",
-      "structured_outputs"
+      "stop"
     ]
   },
   {
@@ -4408,9 +4418,11 @@
       "top_p",
       "tools",
       "tool_choice",
-      "stop",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
       "response_format",
-      "structured_outputs"
+      "stop"
     ]
   },
   {
@@ -4456,9 +4468,11 @@
       "top_p",
       "tools",
       "tool_choice",
-      "stop",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
       "response_format",
-      "structured_outputs"
+      "stop"
     ]
   },
   {
@@ -4504,9 +4518,11 @@
       "top_p",
       "tools",
       "tool_choice",
-      "stop",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
       "response_format",
-      "structured_outputs"
+      "stop"
     ]
   },
   {
@@ -4599,9 +4615,11 @@
       "top_p",
       "tools",
       "tool_choice",
-      "stop",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
       "response_format",
-      "structured_outputs"
+      "stop"
     ]
   },
   {
@@ -4647,10 +4665,12 @@
       "top_p",
       "tools",
       "tool_choice",
-      "stop",
-      "seed",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
       "response_format",
-      "structured_outputs"
+      "stop",
+      "seed"
     ]
   },
   {
@@ -4693,11 +4713,11 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "tools",
+      "tool_choice",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "tools",
-      "tool_choice",
       "seed",
       "response_format",
       "structured_outputs"
@@ -4743,11 +4763,11 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "tools",
+      "tool_choice",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "tools",
-      "tool_choice",
       "seed",
       "response_format",
       "structured_outputs"
@@ -4791,11 +4811,11 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "tools",
+      "tool_choice",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "tools",
-      "tool_choice",
       "seed",
       "response_format",
       "structured_outputs"
@@ -5424,7 +5444,7 @@
     "hugging_face_id": "",
     "name": "Inception: Mercury Coder",
     "created": 1746033880,
-    "description": "Mercury Coder Small is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like Claude 3.5 Haiku and GPT-4o Mini while matching their performance. Mercury Coder Small's speed means that developers can stay in the flow while coding, enjoying rapid chat-based iteration and responsive code completion suggestions. On Copilot Arena, Mercury Coder ranks 1st in speed and ties for 2nd in quality. Read more in the [blog post here](https://www.inceptionlabs.ai/introducing-mercury).",
+    "description": "Mercury Coder is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like Claude 3.5 Haiku and GPT-4o Mini while matching their performance. Mercury Coder's speed means that developers can stay in the flow while coding, enjoying rapid chat-based iteration and responsive code completion suggestions. On Copilot Arena, Mercury Coder ranks 1st in speed and ties for 2nd in quality. Read more in the [blog post here](https://www.inceptionlabs.ai/introducing-mercury).",
     "context_length": 32000,
     "architecture": {
       "modality": "text->text",
@@ -5879,8 +5899,7 @@
       "tool_choice",
       "response_format",
       "top_logprobs",
-      "logprobs",
-      "top_a"
+      "logprobs"
     ]
   },
   {
@@ -6349,7 +6368,7 @@
     "name": "Meta: Llama 3.3 70B Instruct",
     "created": 1733506137,
     "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperforms many of the available open source and closed chat models on common industry benchmarks.\n\nSupported languages: English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.\n\n[Model Card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md)",
-    "context_length": 131000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -6370,8 +6389,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131000,
-      "max_completion_tokens": 131000,
+      "context_length": 131072,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -7520,7 +7539,7 @@
     "name": "Mistral: Magistral Small 2506",
     "created": 1749569561,
     "description": "Magistral Small is a 24B parameter instruction-tuned model based on Mistral-Small-3.1 (2503), enhanced through supervised fine-tuning on traces from Magistral Medium and further refined via reinforcement learning. It is optimized for reasoning and supports a wide multilingual range, including over 20 languages.",
-    "context_length": 40000,
+    "context_length": 40960,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -7533,16 +7552,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.0000015",
+      "prompt": "0.0000001",
+      "completion": "0.0000003",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 40000,
-      "max_completion_tokens": 40000,
+      "context_length": 40960,
+      "max_completion_tokens": 40960,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -7559,7 +7578,13 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "seed"
+      "logit_bias",
+      "logprobs",
+      "seed",
+      "repetition_penalty",
+      "top_k",
+      "top_logprobs",
+      "min_p"
     ]
   },
   {
@@ -8994,6 +9019,76 @@
     "supported_parameters": []
   },
   {
+    "id": "morph/morph-v3-fast",
+    "canonical_slug": "morph/morph-v3-fast",
+    "hugging_face_id": "",
+    "name": "Morph: V3 Fast",
+    "created": 1751910002,
+    "description": "Morph's fastest apply model for code edits. 4500+ tokens/sec with 96% accuracy for rapid code transformations.",
+    "context_length": 32000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000012",
+      "completion": "0.0000027",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32000,
+      "max_completion_tokens": 16000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": []
+  },
+  {
+    "id": "morph/morph-v3-large",
+    "canonical_slug": "morph/morph-v3-large",
+    "hugging_face_id": "",
+    "name": "Morph: V3 Large",
+    "created": 1751910858,
+    "description": "Morph's high-accuracy apply model for complex code edits. 2000+ tokens/sec with 98% accuracy for precise code transformations.",
+    "context_length": 32000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000012",
+      "completion": "0.0000027",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32000,
+      "max_completion_tokens": 16000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": []
+  },
+  {
     "id": "neversleep/llama-3-lumimaid-70b",
     "canonical_slug": "neversleep/llama-3-lumimaid-70b",
     "hugging_face_id": "NeverSleep/Llama-3-Lumimaid-70B-v0.1",
@@ -9046,7 +9141,7 @@
     "name": "NeverSleep: Llama 3 Lumimaid 8B",
     "created": 1714780800,
     "description": "The NeverSleep team is back, with a Llama 3 8B finetune trained on their curated roleplay data. Striking a balance between eRP and RP, Lumimaid was designed to be serious, yet uncensored when necessary.\n\nTo enhance it's overall intelligence and chat capability, roughly 40% of the training data was not roleplay. This provides a breadth of knowledge to access, while still keeping roleplay as the primary strength.\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 24576,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -9059,16 +9154,16 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.00000125",
+      "prompt": "0.0000008",
+      "completion": "0.0000012",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 24576,
-      "max_completion_tokens": 2048,
+      "context_length": 8192,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9082,57 +9177,7 @@
       "repetition_penalty",
       "top_k",
       "min_p",
-      "seed",
-      "logit_bias",
-      "top_a"
-    ]
-  },
-  {
-    "id": "neversleep/llama-3.1-lumimaid-70b",
-    "canonical_slug": "neversleep/llama-3.1-lumimaid-70b",
-    "hugging_face_id": "NeverSleep/Lumimaid-v0.2-70B",
-    "name": "NeverSleep: Lumimaid v0.2 70B",
-    "created": 1729555200,
-    "description": "Lumimaid v0.2 70B is a finetune of [Llama 3.1 70B](/meta-llama/llama-3.1-70b-instruct) with a \"HUGE step up dataset wise\" compared to Lumimaid v0.1. Sloppy chats output were purged.\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 16384,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0.0000025",
-      "completion": "0.000003",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 16384,
-      "max_completion_tokens": 2048,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "repetition_penalty",
-      "logit_bias",
-      "top_k",
-      "min_p",
-      "seed",
-      "top_a"
+      "seed"
     ]
   },
   {
@@ -13852,7 +13897,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000003",
+      "prompt": "0.0000005",
       "completion": "0.0000008",
       "request": "0",
       "image": "0",
@@ -13895,7 +13940,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000008",
+      "prompt": "0.0000005",
       "completion": "0.000001",
       "request": "0",
       "image": "0",
@@ -14082,8 +14127,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.0000008",
+      "prompt": "0.00000065",
+      "completion": "0.000001",
       "request": "0",
       "image": "0",
       "web_search": "0",
