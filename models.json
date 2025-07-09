@@ -2996,8 +2996,7 @@
       "repetition_penalty",
       "logprobs",
       "logit_bias",
-      "top_logprobs",
-      "top_a"
+      "top_logprobs"
     ]
   },
   {
@@ -3046,8 +3045,7 @@
       "repetition_penalty",
       "logprobs",
       "logit_bias",
-      "top_logprobs",
-      "top_a"
+      "top_logprobs"
     ]
   },
   {
@@ -3357,8 +3355,7 @@
       "logprobs",
       "logit_bias",
       "top_logprobs",
-      "response_format",
-      "top_a"
+      "response_format"
     ]
   },
   {
@@ -3803,8 +3800,7 @@
       "presence_penalty",
       "seed",
       "top_k",
-      "top_a",
-      "logprobs"
+      "repetition_penalty"
     ]
   },
   {
@@ -6762,13 +6758,12 @@
       "presence_penalty",
       "top_k",
       "repetition_penalty",
-      "response_format",
-      "structured_outputs",
       "logit_bias",
-      "logprobs",
-      "top_logprobs",
       "min_p",
-      "seed"
+      "response_format",
+      "seed",
+      "logprobs",
+      "top_logprobs"
     ]
   },
   {
@@ -9110,52 +9105,6 @@
     "pricing": {
       "prompt": "0.000004",
       "completion": "0.000006",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "repetition_penalty",
-      "top_k",
-      "min_p",
-      "seed"
-    ]
-  },
-  {
-    "id": "neversleep/llama-3-lumimaid-8b",
-    "canonical_slug": "neversleep/llama-3-lumimaid-8b",
-    "hugging_face_id": "NeverSleep/Llama-3-Lumimaid-8B-v0.1",
-    "name": "NeverSleep: Llama 3 Lumimaid 8B",
-    "created": 1714780800,
-    "description": "The NeverSleep team is back, with a Llama 3 8B finetune trained on their curated roleplay data. Striking a balance between eRP and RP, Lumimaid was designed to be serious, yet uncensored when necessary.\n\nTo enhance it's overall intelligence and chat capability, roughly 40% of the training data was not roleplay. This provides a breadth of knowledge to access, while still keeping roleplay as the primary strength.\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000012",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -11994,19 +11943,18 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "tools",
-      "tool_choice",
       "stop",
       "frequency_penalty",
       "presence_penalty",
+      "seed",
       "top_k",
-      "repetition_penalty",
-      "response_format",
-      "structured_outputs",
       "logit_bias",
       "logprobs",
       "top_logprobs",
-      "seed",
+      "tools",
+      "tool_choice",
+      "repetition_penalty",
+      "response_format",
       "min_p"
     ]
   },
@@ -13244,8 +13192,7 @@
       "response_format",
       "logprobs",
       "top_logprobs",
-      "seed",
-      "structured_outputs"
+      "seed"
     ]
   },
   {
@@ -13878,6 +13825,57 @@
     ]
   },
   {
+    "id": "tencent/hunyuan-a13b-instruct:free",
+    "canonical_slug": "tencent/hunyuan-a13b-instruct",
+    "hugging_face_id": "tencent/Hunyuan-A13B-Instruct",
+    "name": "Tencent: Hunyuan A13B Instruct (free)",
+    "created": 1751987664,
+    "description": "Hunyuan-A13B is a 13B active parameter Mixture-of-Experts (MoE) language model developed by Tencent, with a total parameter count of 80B and support for reasoning via Chain-of-Thought. It offers competitive benchmark performance across mathematics, science, coding, and multi-turn reasoning tasks, while maintaining high inference efficiency via Grouped Query Attention (GQA) and quantization support (FP8, GPTQ, etc.).",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
+  },
+  {
     "id": "thedrummer/anubis-70b-v1.1",
     "canonical_slug": "thedrummer/anubis-70b-v1.1",
     "hugging_face_id": "TheDrummer/Anubis-70B-v1.1",
@@ -14005,11 +14003,14 @@
       "presence_penalty",
       "response_format",
       "structured_outputs",
+      "tools",
+      "tool_choice",
+      "logit_bias",
+      "logprobs",
+      "seed",
       "repetition_penalty",
       "top_k",
-      "min_p",
-      "seed",
-      "logit_bias"
+      "min_p"
     ]
   },
   {
@@ -14306,6 +14307,57 @@
     "name": "TNG: DeepSeek R1T Chimera (free)",
     "created": 1745760875,
     "description": "DeepSeek-R1T-Chimera is created by merging DeepSeek-R1 and DeepSeek-V3 (0324), combining the reasoning capabilities of R1 with the token efficiency improvements of V3. It is based on a DeepSeek-MoE Transformer architecture and is optimized for general text generation tasks.\n\nThe model merges pretrained weights from both source models to balance performance across reasoning, efficiency, and instruction-following tasks. It is released under the MIT license and intended for research and commercial use.",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "DeepSeek",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
+  },
+  {
+    "id": "tngtech/deepseek-r1t2-chimera:free",
+    "canonical_slug": "tngtech/deepseek-r1t2-chimera",
+    "hugging_face_id": "tngtech/DeepSeek-TNG-R1T2-Chimera",
+    "name": "TNG: DeepSeek R1T2 Chimera (free)",
+    "created": 1751986985,
+    "description": "DeepSeek-TNG-R1T2-Chimera is the second-generation Chimera model from TNG Tech. It is a 671 B-parameter mixture-of-experts text-generation model assembled from DeepSeek-AI’s R1-0528, R1, and V3-0324 checkpoints with an Assembly-of-Experts merge. The tri-parent design yields strong reasoning performance while running roughly 20 % faster than the original R1 and more than 2× faster than R1-0528 under vLLM, giving a favorable cost-to-intelligence trade-off. The checkpoint supports contexts up to 60 k tokens in standard use (tested to ~130 k) and maintains consistent <think> token behaviour, making it suitable for long-context analysis, dialogue and other open-ended generation tasks.",
     "context_length": 163840,
     "architecture": {
       "modality": "text->text",
