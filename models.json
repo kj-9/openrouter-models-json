@@ -2312,6 +2312,8 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "structured_outputs",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
@@ -3398,7 +3400,8 @@
       "logprobs",
       "logit_bias",
       "top_logprobs",
-      "response_format"
+      "response_format",
+      "structured_outputs"
     ]
   },
   {
@@ -6126,6 +6129,8 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "structured_outputs",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
@@ -7569,7 +7574,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000001",
+      "prompt": "0.00000009",
       "completion": "0.0000003",
       "request": "0",
       "image": "0",
@@ -7578,7 +7583,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -7593,7 +7598,9 @@
       "presence_penalty",
       "response_format",
       "structured_outputs",
-      "seed"
+      "seed",
+      "repetition_penalty",
+      "top_k"
     ]
   },
   {
@@ -8779,6 +8786,8 @@
       "top_p",
       "tools",
       "tool_choice",
+      "structured_outputs",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
@@ -9195,6 +9204,55 @@
       "logprobs",
       "logit_bias",
       "top_logprobs"
+    ]
+  },
+  {
+    "id": "moonshotai/kimi-k2",
+    "canonical_slug": "moonshotai/kimi-k2",
+    "hugging_face_id": "moonshotai/Kimi-K2-Instruct",
+    "name": "MoonshotAI: Kimi K2",
+    "created": 1752263252,
+    "description": "Kimi K2 is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It is optimized for agentic capabilities, including advanced tool use, reasoning, and code synthesis. Kimi K2 excels across a broad range of benchmarks, particularly in coding (LiveCodeBench, SWE-bench), reasoning (ZebraLogic, GPQA), and tool-use (Tau2, AceBench) tasks. It supports long-context inference up to 128K tokens and is designed with a novel training stack that includes the MuonClip optimizer for stable large-scale MoE training.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000057",
+      "completion": "0.0000023",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "tools",
+      "tool_choice",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
     ]
   },
   {
@@ -12888,12 +12946,13 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "structured_outputs",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
       "top_k",
-      "seed",
-      "response_format"
+      "seed"
     ]
   },
   {
@@ -13051,9 +13110,9 @@
       "top_k",
       "min_p",
       "repetition_penalty",
-      "logit_bias",
       "logprobs",
-      "top_logprobs"
+      "top_logprobs",
+      "logit_bias"
     ]
   },
   {
@@ -13095,6 +13154,8 @@
       "top_p",
       "tools",
       "tool_choice",
+      "structured_outputs",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
@@ -13358,8 +13419,12 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "tools",
+      "tool_choice",
       "reasoning",
       "include_reasoning",
+      "structured_outputs",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
@@ -13604,6 +13669,8 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "structured_outputs",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
@@ -14148,6 +14215,50 @@
     ]
   },
   {
+    "id": "switchpoint/router",
+    "canonical_slug": "switchpoint/router",
+    "hugging_face_id": "",
+    "name": "Switchpoint Router",
+    "created": 1752272899,
+    "description": "Switchpoint AI's router instantly analyzes your request and directs it to the optimal AI from an ever-evolving library. \n\nAs the world of LLMs advances, our router gets smarter, ensuring you always benefit from the industry's newest models without changing your workflow.\n\nThis model is configured for a simple, flat rate per response here on OpenRouter. It's powered by the full routing engine from [Switchpoint AI](https://www.switchpoint.dev).",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000085",
+      "completion": "0.0000034",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "top_k",
+      "seed"
+    ]
+  },
+  {
     "id": "tencent/hunyuan-a13b-instruct:free",
     "canonical_slug": "tencent/hunyuan-a13b-instruct",
     "hugging_face_id": "tencent/Hunyuan-A13B-Instruct",
@@ -14576,6 +14687,56 @@
       "logprobs",
       "logit_bias",
       "top_logprobs"
+    ]
+  },
+  {
+    "id": "thudm/glm-4.1v-9b-thinking",
+    "canonical_slug": "thudm/glm-4.1v-9b-thinking",
+    "hugging_face_id": "THUDM/GLM-4.1V-9B-Thinking",
+    "name": "THUDM: GLM 4.1V 9B Thinking",
+    "created": 1752244385,
+    "description": "GLM-4.1V-9B-Thinking is a 9B parameter vision-language model developed by THUDM, based on the GLM-4-9B foundation. It introduces a reasoning-centric \"thinking paradigm\" enhanced with reinforcement learning to improve multimodal reasoning, long-context understanding (up to 64K tokens), and complex problem solving. It achieves state-of-the-art performance among models in its class, outperforming even larger models like Qwen-2.5-VL-72B on a majority of benchmark tasks. ",
+    "context_length": 65536,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000000035",
+      "completion": "0.000000138",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 65536,
+      "max_completion_tokens": 8000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias"
     ]
   },
   {
