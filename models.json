@@ -7357,15 +7357,14 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "stop",
-      "frequency_penalty",
       "presence_penalty",
-      "seed",
-      "top_k",
-      "min_p",
+      "frequency_penalty",
       "repetition_penalty",
-      "logit_bias",
-      "response_format"
+      "top_k",
+      "stop",
+      "response_format",
+      "seed",
+      "min_p"
     ]
   },
   {
