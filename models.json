@@ -2907,8 +2907,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000038",
-      "completion": "0.00000089",
+      "prompt": "0.0000003",
+      "completion": "0.00000085",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -2960,8 +2960,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000028",
-      "completion": "0.00000088",
+      "prompt": "0.00000025",
+      "completion": "0.00000085",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -2969,7 +2969,7 @@
     },
     "top_provider": {
       "context_length": 163840,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 163840,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3148,7 +3148,7 @@
     "name": "DeepSeek: R1",
     "created": 1737381095,
     "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model & [technical report](https://api-docs.deepseek.com/news/news250120).\n\nMIT licensed: Distill & commercialize freely!",
-    "context_length": 128000,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -3161,16 +3161,16 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000045",
-      "completion": "0.00000215",
+      "prompt": "0.0000004",
+      "completion": "0.000002",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 32768,
+      "context_length": 163840,
+      "max_completion_tokens": 163840,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3190,8 +3190,8 @@
       "top_logprobs",
       "response_format",
       "structured_outputs",
-      "logprobs",
       "repetition_penalty",
+      "logprobs",
       "tools",
       "tool_choice"
     ]
@@ -3203,7 +3203,7 @@
     "name": "DeepSeek: R1 0528",
     "created": 1748455170,
     "description": "May 28th update to the [original DeepSeek R1](/deepseek/deepseek-r1) Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model.",
-    "context_length": 128000,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -3217,15 +3217,15 @@
     },
     "pricing": {
       "prompt": "0.0000005",
-      "completion": "0.00000215",
+      "completion": "0.000002",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 32768,
+      "context_length": 163840,
+      "max_completion_tokens": 163840,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3400,8 +3400,8 @@
       "logprobs",
       "logit_bias",
       "top_logprobs",
-      "response_format",
-      "structured_outputs"
+      "structured_outputs",
+      "response_format"
     ]
   },
   {
@@ -3839,14 +3839,7 @@
       "max_tokens",
       "reasoning",
       "include_reasoning",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "top_k",
-      "repetition_penalty"
+      "temperature"
     ]
   },
   {
@@ -7357,14 +7350,15 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "presence_penalty",
-      "frequency_penalty",
-      "repetition_penalty",
-      "top_k",
       "stop",
-      "response_format",
+      "frequency_penalty",
+      "presence_penalty",
       "seed",
-      "min_p"
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logit_bias",
+      "response_format"
     ]
   },
   {
@@ -9212,7 +9206,7 @@
     "name": "MoonshotAI: Kimi K2",
     "created": 1752263252,
     "description": "Kimi K2 is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It is optimized for agentic capabilities, including advanced tool use, reasoning, and code synthesis. Kimi K2 excels across a broad range of benchmarks, particularly in coding (LiveCodeBench, SWE-bench), reasoning (ZebraLogic, GPQA), and tool-use (Tau2, AceBench) tasks. It supports long-context inference up to 128K tokens and is designed with a novel training stack that includes the MuonClip optimizer for stable large-scale MoE training.",
-    "context_length": 131072,
+    "context_length": 63000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -9225,16 +9219,69 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000057",
-      "completion": "0.0000023",
+      "prompt": "0.00000014",
+      "completion": "0.00000249",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "context_length": 63000,
+      "max_completion_tokens": 63000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "presence_penalty",
+      "frequency_penalty",
+      "repetition_penalty",
+      "top_k",
+      "stop",
+      "seed",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
+      "response_format",
+      "tools",
+      "tool_choice",
+      "min_p",
+      "logit_bias"
+    ]
+  },
+  {
+    "id": "moonshotai/kimi-k2:free",
+    "canonical_slug": "moonshotai/kimi-k2",
+    "hugging_face_id": "moonshotai/Kimi-K2-Instruct",
+    "name": "MoonshotAI: Kimi K2 (free)",
+    "created": 1752263252,
+    "description": "Kimi K2 is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It is optimized for agentic capabilities, including advanced tool use, reasoning, and code synthesis. Kimi K2 excels across a broad range of benchmarks, particularly in coding (LiveCodeBench, SWE-bench), reasoning (ZebraLogic, GPQA), and tool-use (Tau2, AceBench) tasks. It supports long-context inference up to 128K tokens and is designed with a novel training stack that includes the MuonClip optimizer for stable large-scale MoE training.",
+    "context_length": 65536,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 65536,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9251,7 +9298,9 @@
       "top_k",
       "min_p",
       "repetition_penalty",
-      "logit_bias"
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
     ]
   },
   {
