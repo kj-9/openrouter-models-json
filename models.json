@@ -5450,8 +5450,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.000000065",
-      "completion": "0.000000065",
+      "prompt": "0.00000006",
+      "completion": "0.00000006",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -5459,7 +5459,7 @@
     },
     "top_provider": {
       "context_length": 4096,
-      "max_completion_tokens": 4096,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -5472,10 +5472,11 @@
       "repetition_penalty",
       "top_k",
       "stop",
+      "response_format",
+      "structured_outputs",
       "seed",
       "min_p",
       "logit_bias",
-      "response_format",
       "top_a"
     ]
   },
@@ -8391,7 +8392,7 @@
     "name": "Mistral: Mistral Nemo",
     "created": 1721347200,
     "description": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.\n\nThe model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi.\n\nIt supports function calling and is released under the Apache 2.0 license.",
-    "context_length": 131072,
+    "context_length": 32000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8404,16 +8405,16 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.000000008",
-      "completion": "0.000000001",
+      "prompt": "0.0000000075",
+      "completion": "0.00000005",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "context_length": 32000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9236,20 +9237,18 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "presence_penalty",
-      "frequency_penalty",
-      "repetition_penalty",
-      "top_k",
       "stop",
-      "seed",
-      "reasoning",
-      "include_reasoning",
-      "structured_outputs",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
       "response_format",
-      "tools",
-      "tool_choice",
+      "top_k",
+      "seed",
       "min_p",
-      "logit_bias"
+      "structured_outputs",
+      "logit_bias",
+      "tools",
+      "tool_choice"
     ]
   },
   {
@@ -9394,7 +9393,7 @@
     "id": "morph/morph-v3-fast",
     "canonical_slug": "morph/morph-v3-fast",
     "hugging_face_id": "",
-    "name": "Morph: V3 Fast",
+    "name": "Morph: Morph V3 Fast",
     "created": 1751910002,
     "description": "Morph's fastest apply model for code edits. 4500+ tokens/sec with 96% accuracy for rapid code transformations.",
     "context_length": 32000,
@@ -9429,7 +9428,7 @@
     "id": "morph/morph-v3-large",
     "canonical_slug": "morph/morph-v3-large",
     "hugging_face_id": "",
-    "name": "Morph: V3 Large",
+    "name": "Morph: Morph V3 Large",
     "created": 1751910858,
     "description": "Morph's high-accuracy apply model for complex code edits. 2000+ tokens/sec with 98% accuracy for precise code transformations.",
     "context_length": 32000,
@@ -10794,58 +10793,6 @@
     ]
   },
   {
-    "id": "openai/gpt-4.5-preview",
-    "canonical_slug": "openai/gpt-4.5-preview-2025-02-27",
-    "hugging_face_id": "",
-    "name": "OpenAI: GPT-4.5 (Preview)",
-    "created": 1740687810,
-    "description": "GPT-4.5 (Preview) is a research preview of OpenAI’s latest language model, designed to advance capabilities in reasoning, creativity, and multi-turn conversation. It builds on previous iterations with improvements in world knowledge, contextual coherence, and the ability to follow user intent more effectively.\n\nThe model demonstrates enhanced performance in tasks that require open-ended thinking, problem-solving, and communication. Early testing suggests it is better at generating nuanced responses, maintaining long-context coherence, and reducing hallucinations compared to earlier versions.\n\nThis research preview is intended to help evaluate GPT-4.5’s strengths and limitations in real-world use cases as OpenAI continues to refine and develop future models. Read more at the [blog post here.](https://openai.com/index/introducing-gpt-4-5/)",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "GPT",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000075",
-      "completion": "0.00015",
-      "request": "0",
-      "image": "0.108375",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.0000375"
-    },
-    "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 16384,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "tools",
-      "tool_choice",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "logit_bias",
-      "logprobs",
-      "top_logprobs",
-      "response_format",
-      "structured_outputs"
-    ]
-  },
-  {
     "id": "openai/gpt-4o",
     "canonical_slug": "openai/gpt-4o",
     "hugging_face_id": null,
@@ -11876,49 +11823,6 @@
     },
     "per_request_limits": null,
     "supported_parameters": []
-  },
-  {
-    "id": "openrouter/cypher-alpha:free",
-    "canonical_slug": "openrouter/cypher-alpha",
-    "hugging_face_id": "",
-    "name": "Cypher Alpha (free)",
-    "created": 1751336087,
-    "description": "This is a cloaked model provided to the community to gather feedback. It's an all-purpose model supporting real-world, long-context tasks including code generation.\n\nNote: All prompts and completions for this model are logged by the provider and may be used to improve the model and other products and services. You remain responsible for any required end user notices and consents and for ensuring that no personal, confidential, or otherwise sensitive information, including data from individuals under the age of 18, is submitted.",
-    "context_length": 1000000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 1000000,
-      "max_completion_tokens": 10000,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "tools",
-      "tool_choice",
-      "reasoning",
-      "include_reasoning"
-    ]
   },
   {
     "id": "perplexity/r1-1776",
@@ -14947,7 +14851,7 @@
     "name": "ReMM SLERP 13B",
     "created": 1689984000,
     "description": "A recreation trial of the original MythoMax-L2-B13 but with updated models. #merge",
-    "context_length": 4096,
+    "context_length": 6144,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -14960,16 +14864,16 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000012",
+      "prompt": "0.0000007",
+      "completion": "0.000001",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 4096,
+      "context_length": 6144,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14980,6 +14884,8 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
+      "response_format",
+      "structured_outputs",
       "repetition_penalty",
       "top_k",
       "min_p",
@@ -15333,7 +15239,7 @@
     "hugging_face_id": "",
     "name": "xAI: Grok 4",
     "created": 1752087689,
-    "description": "Grok 4 is xAI's latest reasoning model with a 256k context window. It supports parallel tool calling, structured outputs, and both image and text inputs. Note that reasoning is not exposed, reasoning cannot be disabled, and the reasoning effort cannot be specified.",
+    "description": "Grok 4 is xAI's latest reasoning model with a 256k context window. It supports parallel tool calling, structured outputs, and both image and text inputs. Note that reasoning is not exposed, reasoning cannot be disabled, and the reasoning effort cannot be specified. Pricing increases once the total tokens in a given request is greater than 128k tokens. See more details on the [xAI docs](https://docs.x.ai/docs/models/grok-4-0709)",
     "context_length": 256000,
     "architecture": {
       "modality": "text+image->text",
