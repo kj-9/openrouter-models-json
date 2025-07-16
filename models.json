@@ -95,6 +95,57 @@
     ]
   },
   {
+    "id": "agentica-org/deepcoder-14b-preview",
+    "canonical_slug": "agentica-org/deepcoder-14b-preview",
+    "hugging_face_id": "agentica-org/DeepCoder-14B-Preview",
+    "name": "Agentica: Deepcoder 14B Preview",
+    "created": 1744555395,
+    "description": "DeepCoder-14B-Preview is a 14B parameter code generation model fine-tuned from DeepSeek-R1-Distill-Qwen-14B using reinforcement learning with GRPO+ and iterative context lengthening. It is optimized for long-context program synthesis and achieves strong performance across coding benchmarks, including 60.6% on LiveCodeBench v5, competitive with models like o3-Mini",
+    "context_length": 96000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": "deepseek-r1"
+    },
+    "pricing": {
+      "prompt": "0.000000015",
+      "completion": "0.000000015",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 96000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
+  },
+  {
     "id": "agentica-org/deepcoder-14b-preview:free",
     "canonical_slug": "agentica-org/deepcoder-14b-preview",
     "hugging_face_id": "agentica-org/DeepCoder-14B-Preview",
@@ -2417,6 +2468,57 @@
     ]
   },
   {
+    "id": "cognitivecomputations/dolphin3.0-r1-mistral-24b",
+    "canonical_slug": "cognitivecomputations/dolphin3.0-r1-mistral-24b",
+    "hugging_face_id": "cognitivecomputations/Dolphin3.0-R1-Mistral-24B",
+    "name": "Dolphin3.0 R1 Mistral 24B",
+    "created": 1739462498,
+    "description": "Dolphin 3.0 R1 is the next generation of the Dolphin series of instruct-tuned models.  Designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.\n\nThe R1 version has been trained for 3 epochs to reason using 800k reasoning traces from the Dolphin-R1 dataset.\n\nDolphin aims to be a general purpose reasoning instruct model, similar to the models behind ChatGPT, Claude, Gemini.\n\nPart of the [Dolphin 3.0 Collection](https://huggingface.co/collections/cognitivecomputations/dolphin-30-677ab47f73d7ff66743979a3) Curated and trained by [Eric Hartford](https://huggingface.co/ehartford), [Ben Gitter](https://huggingface.co/bigstorm), [BlouseJury](https://huggingface.co/BlouseJury) and [Cognitive Computations](https://huggingface.co/cognitivecomputations)",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": "deepseek-r1"
+    },
+    "pricing": {
+      "prompt": "0.000000013",
+      "completion": "0.000000013",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
+  },
+  {
     "id": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
     "canonical_slug": "cognitivecomputations/dolphin3.0-r1-mistral-24b",
     "hugging_face_id": "cognitivecomputations/Dolphin3.0-R1-Mistral-24B",
@@ -3100,7 +3202,7 @@
     "name": "DeepSeek: DeepSeek Prover V2",
     "created": 1746013094,
     "description": "DeepSeek Prover V2 is a 671B parameter model, speculated to be geared towards logic and mathematics. Likely an upgrade from [DeepSeek-Prover-V1.5](https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-RL) Not much is known about the model yet, as DeepSeek released it on Hugging Face without an announcement or description.",
-    "context_length": 131072,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -3121,7 +3223,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 163840,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -3133,12 +3235,11 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "seed",
-      "top_k",
-      "min_p",
       "repetition_penalty",
-      "logit_bias",
-      "response_format"
+      "response_format",
+      "top_k",
+      "seed",
+      "min_p"
     ]
   },
   {
@@ -3216,8 +3317,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.000002",
+      "prompt": "0.000000272",
+      "completion": "0.000000272",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3225,7 +3326,7 @@
     },
     "top_provider": {
       "context_length": 163840,
-      "max_completion_tokens": 163840,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3243,12 +3344,12 @@
       "logit_bias",
       "min_p",
       "response_format",
-      "logprobs",
-      "top_logprobs",
-      "seed",
       "tools",
       "tool_choice",
-      "structured_outputs"
+      "structured_outputs",
+      "seed",
+      "logprobs",
+      "top_logprobs"
     ]
   },
   {
@@ -3290,13 +3391,13 @@
       "top_p",
       "reasoning",
       "include_reasoning",
-      "presence_penalty",
       "frequency_penalty",
-      "repetition_penalty",
-      "top_k",
-      "stop",
-      "seed",
       "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "top_k",
       "logit_bias"
     ]
   },
@@ -3424,8 +3525,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.0000001",
-      "completion": "0.0000004",
+      "prompt": "0.00000005",
+      "completion": "0.00000005",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3433,7 +3534,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3444,15 +3545,15 @@
       "reasoning",
       "include_reasoning",
       "seed",
-      "top_k",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "logit_bias",
-      "logprobs",
-      "top_logprobs",
+      "top_k",
       "min_p",
       "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs",
       "tools",
       "tool_choice",
       "response_format",
@@ -4313,206 +4414,6 @@
     ]
   },
   {
-    "id": "google/gemini-2.5-flash-preview",
-    "canonical_slug": "google/gemini-2.5-flash-preview-04-17",
-    "hugging_face_id": "",
-    "name": "Google: Gemini 2.5 Flash Preview 04-17",
-    "created": 1744914667,
-    "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater accuracy and nuanced context handling. \n\nNote: This model is available in two variants: thinking and non-thinking. The output pricing varies significantly depending on whether the thinking capability is active. If you select the standard variant (without the \":thinking\" suffix), the model will explicitly avoid generating thinking tokens. \n\nTo utilize the thinking capability and receive thinking tokens, you must choose the \":thinking\" variant, which will then incur the higher thinking-output pricing. \n\nAdditionally, Gemini 2.5 Flash is configurable through the \"max tokens for reasoning\" parameter, as described in the documentation (https://openrouter.ai/docs/use-cases/reasoning-tokens#max-tokens-for-reasoning).",
-    "context_length": 1048576,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Gemini",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.0000006",
-      "request": "0",
-      "image": "0.0006192",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.0000000375",
-      "input_cache_write": "0.0000002333"
-    },
-    "top_provider": {
-      "context_length": 1048576,
-      "max_completion_tokens": 65535,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "tools",
-      "tool_choice",
-      "reasoning",
-      "include_reasoning",
-      "structured_outputs",
-      "response_format",
-      "stop"
-    ]
-  },
-  {
-    "id": "google/gemini-2.5-flash-preview-05-20",
-    "canonical_slug": "google/gemini-2.5-flash-preview-05-20",
-    "hugging_face_id": "",
-    "name": "Google: Gemini 2.5 Flash Preview 05-20",
-    "created": 1747761924,
-    "description": "Gemini 2.5 Flash May 20th Checkpoint is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater accuracy and nuanced context handling. \n\nNote: This model is available in two variants: thinking and non-thinking. The output pricing varies significantly depending on whether the thinking capability is active. If you select the standard variant (without the \":thinking\" suffix), the model will explicitly avoid generating thinking tokens. \n\nTo utilize the thinking capability and receive thinking tokens, you must choose the \":thinking\" variant, which will then incur the higher thinking-output pricing. \n\nAdditionally, Gemini 2.5 Flash is configurable through the \"max tokens for reasoning\" parameter, as described in the documentation (https://openrouter.ai/docs/use-cases/reasoning-tokens#max-tokens-for-reasoning).",
-    "context_length": 1048576,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Gemini",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.0000006",
-      "request": "0",
-      "image": "0.0006192",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.0000000375",
-      "input_cache_write": "0.0000002333"
-    },
-    "top_provider": {
-      "context_length": 1048576,
-      "max_completion_tokens": 65535,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "tools",
-      "tool_choice",
-      "reasoning",
-      "include_reasoning",
-      "structured_outputs",
-      "response_format",
-      "stop"
-    ]
-  },
-  {
-    "id": "google/gemini-2.5-flash-preview-05-20:thinking",
-    "canonical_slug": "google/gemini-2.5-flash-preview-05-20",
-    "hugging_face_id": "",
-    "name": "Google: Gemini 2.5 Flash Preview 05-20 (thinking)",
-    "created": 1747761924,
-    "description": "Gemini 2.5 Flash May 20th Checkpoint is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater accuracy and nuanced context handling. \n\nNote: This model is available in two variants: thinking and non-thinking. The output pricing varies significantly depending on whether the thinking capability is active. If you select the standard variant (without the \":thinking\" suffix), the model will explicitly avoid generating thinking tokens. \n\nTo utilize the thinking capability and receive thinking tokens, you must choose the \":thinking\" variant, which will then incur the higher thinking-output pricing. \n\nAdditionally, Gemini 2.5 Flash is configurable through the \"max tokens for reasoning\" parameter, as described in the documentation (https://openrouter.ai/docs/use-cases/reasoning-tokens#max-tokens-for-reasoning).",
-    "context_length": 1048576,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Gemini",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.0000035",
-      "request": "0",
-      "image": "0.0006192",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.0000000375",
-      "input_cache_write": "0.0000002333"
-    },
-    "top_provider": {
-      "context_length": 1048576,
-      "max_completion_tokens": 65535,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "tools",
-      "tool_choice",
-      "reasoning",
-      "include_reasoning",
-      "structured_outputs",
-      "response_format",
-      "stop"
-    ]
-  },
-  {
-    "id": "google/gemini-2.5-flash-preview:thinking",
-    "canonical_slug": "google/gemini-2.5-flash-preview-04-17",
-    "hugging_face_id": "",
-    "name": "Google: Gemini 2.5 Flash Preview 04-17 (thinking)",
-    "created": 1744914667,
-    "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater accuracy and nuanced context handling. \n\nNote: This model is available in two variants: thinking and non-thinking. The output pricing varies significantly depending on whether the thinking capability is active. If you select the standard variant (without the \":thinking\" suffix), the model will explicitly avoid generating thinking tokens. \n\nTo utilize the thinking capability and receive thinking tokens, you must choose the \":thinking\" variant, which will then incur the higher thinking-output pricing. \n\nAdditionally, Gemini 2.5 Flash is configurable through the \"max tokens for reasoning\" parameter, as described in the documentation (https://openrouter.ai/docs/use-cases/reasoning-tokens#max-tokens-for-reasoning).",
-    "context_length": 1048576,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Gemini",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.0000035",
-      "request": "0",
-      "image": "0.0006192",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.0000000375",
-      "input_cache_write": "0.0000002333"
-    },
-    "top_provider": {
-      "context_length": 1048576,
-      "max_completion_tokens": 65535,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "tools",
-      "tool_choice",
-      "reasoning",
-      "include_reasoning",
-      "structured_outputs",
-      "response_format",
-      "stop"
-    ]
-  },
-  {
     "id": "google/gemini-2.5-pro",
     "canonical_slug": "google/gemini-2.5-pro",
     "hugging_face_id": "",
@@ -4925,8 +4826,8 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000002",
+      "prompt": "0.000000004",
+      "completion": "0.000000004",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -4945,11 +4846,14 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "response_format",
-      "top_logprobs",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
       "logprobs",
       "logit_bias",
-      "seed"
+      "top_logprobs",
+      "response_format"
     ]
   },
   {
@@ -5008,7 +4912,7 @@
     "name": "Google: Gemma 3 12B",
     "created": 1741902625,
     "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3 12B is the second largest in the family of Gemma 3 models after [Gemma 3 27B](google/gemma-3-27b-it)",
-    "context_length": 131072,
+    "context_length": 96000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -5022,16 +4926,16 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.00000005",
-      "completion": "0.0000001",
+      "prompt": "0.00000003",
+      "completion": "0.00000003",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
+      "context_length": 96000,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -5042,11 +4946,14 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "repetition_penalty",
-      "response_format",
-      "top_k",
       "seed",
-      "min_p"
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs",
+      "response_format"
     ]
   },
   {
@@ -5467,15 +5374,15 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "presence_penalty",
       "frequency_penalty",
+      "min_p",
+      "presence_penalty",
       "repetition_penalty",
-      "top_k",
+      "seed",
       "stop",
+      "top_k",
       "response_format",
       "structured_outputs",
-      "seed",
-      "min_p",
       "logit_bias",
       "top_a"
     ]
@@ -6688,58 +6595,6 @@
     ]
   },
   {
-    "id": "meta-llama/llama-4-maverick:free",
-    "canonical_slug": "meta-llama/llama-4-maverick-17b-128e-instruct",
-    "hugging_face_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
-    "name": "Meta: Llama 4 Maverick (free)",
-    "created": 1743881822,
-    "description": "Llama 4 Maverick 17B Instruct (128E) is a high-capacity multimodal language model from Meta, built on a mixture-of-experts (MoE) architecture with 128 experts and 17 billion active parameters per forward pass (400B total). It supports multilingual text and image input, and produces multilingual text and code output across 12 supported languages. Optimized for vision-language tasks, Maverick is instruction-tuned for assistant-like behavior, image reasoning, and general-purpose multimodal interaction.\n\nMaverick features early fusion for native multimodality and a 1 million token context window. It was trained on a curated mixture of public, licensed, and Meta-platform data, covering ~22 trillion tokens, with a knowledge cutoff in August 2024. Released on April 5, 2025 under the Llama 4 Community License, Maverick is suited for research and commercial applications requiring advanced multimodal understanding and high model throughput.",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama4",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "structured_outputs",
-      "response_format",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "top_k",
-      "min_p",
-      "repetition_penalty",
-      "logprobs",
-      "logit_bias",
-      "top_logprobs"
-    ]
-  },
-  {
     "id": "meta-llama/llama-4-scout",
     "canonical_slug": "meta-llama/llama-4-scout-17b-16e-instruct",
     "hugging_face_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
@@ -6791,58 +6646,6 @@
       "top_logprobs",
       "logprobs",
       "logit_bias"
-    ]
-  },
-  {
-    "id": "meta-llama/llama-4-scout:free",
-    "canonical_slug": "meta-llama/llama-4-scout-17b-16e-instruct",
-    "hugging_face_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
-    "name": "Meta: Llama 4 Scout (free)",
-    "created": 1743881519,
-    "description": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input (text and image) and multilingual output (text and code) across 12 supported languages. Designed for assistant-style interaction and visual reasoning, Scout uses 16 experts per forward pass and features a context length of 10 million tokens, with a training corpus of ~40 trillion tokens.\n\nBuilt for high efficiency and local or commercial deployment, Llama 4 Scout incorporates early fusion for seamless modality integration. It is instruction-tuned for use in multilingual chat, captioning, and image understanding tasks. Released under the Llama 4 Community License, it was last trained on data up to August 2024 and launched publicly on April 5, 2025.",
-    "context_length": 64000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama4",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 64000,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "structured_outputs",
-      "response_format",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "top_k",
-      "min_p",
-      "repetition_penalty",
-      "logprobs",
-      "logit_bias",
-      "top_logprobs"
     ]
   },
   {
@@ -6983,14 +6786,14 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "top_k",
       "repetition_penalty",
-      "logit_bias",
-      "min_p",
       "response_format",
+      "top_k",
       "seed",
+      "min_p",
       "top_logprobs",
-      "logprobs"
+      "logprobs",
+      "logit_bias"
     ]
   },
   {
@@ -7555,7 +7358,7 @@
     "name": "Mistral: Devstral Small 1.1",
     "created": 1752160751,
     "description": "Devstral Small 1.1 is a 24B parameter open-weight language model for software engineering agents, developed by Mistral AI in collaboration with All Hands AI. Finetuned from Mistral Small 3.1 and released under the Apache 2.0 license, it features a 128k token context window and supports both Mistral-style function calling and XML output formats.\n\nDesigned for agentic coding workflows, Devstral Small 1.1 is optimized for tasks such as codebase exploration, multi-file edits, and integration into autonomous development agents like OpenHands and Cline. It achieves 53.6% on SWE-Bench Verified, surpassing all other open models on this benchmark, while remaining lightweight enough to run on a single 4090 GPU or Apple silicon machine. The model uses a Tekken tokenizer with a 131k vocabulary and is deployable via vLLM, Transformers, Ollama, LM Studio, and other OpenAI-compatible runtimes.\n",
-    "context_length": 131072,
+    "context_length": 128000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -7568,16 +7371,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000009",
-      "completion": "0.0000003",
+      "prompt": "0.00000007",
+      "completion": "0.00000028",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "context_length": 128000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -7593,6 +7396,7 @@
       "response_format",
       "structured_outputs",
       "seed",
+      "min_p",
       "repetition_penalty",
       "top_k"
     ]
@@ -7604,7 +7408,7 @@
     "name": "Mistral: Devstral Small 2505",
     "created": 1747837379,
     "description": "Devstral-Small-2505 is a 24B parameter agentic LLM fine-tuned from Mistral-Small-3.1, jointly developed by Mistral AI and All Hands AI for advanced software engineering tasks. It is optimized for codebase exploration, multi-file editing, and integration into coding agents, achieving state-of-the-art results on SWE-Bench Verified (46.8%).\n\nDevstral supports a 128k context window and uses a custom Tekken tokenizer. It is text-only, with the vision encoder removed, and is suitable for local deployment on high-end consumer hardware (e.g., RTX 4090, 32GB RAM Macs). Devstral is best used in agentic workflows via the OpenHands scaffold and is compatible with inference frameworks like vLLM, Transformers, and Ollama. It is released under the Apache 2.0 license.",
-    "context_length": 128000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -7617,15 +7421,15 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000006",
-      "completion": "0.00000012",
+      "prompt": "0.00000003",
+      "completion": "0.00000003",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -8604,8 +8408,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000005",
-      "completion": "0.00000008",
+      "prompt": "0.00000003",
+      "completion": "0.00000003",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8613,7 +8417,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9206,7 +9010,7 @@
     "hugging_face_id": "moonshotai/Kimi-K2-Instruct",
     "name": "MoonshotAI: Kimi K2",
     "created": 1752263252,
-    "description": "Kimi K2 is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It is optimized for agentic capabilities, including advanced tool use, reasoning, and code synthesis. Kimi K2 excels across a broad range of benchmarks, particularly in coding (LiveCodeBench, SWE-bench), reasoning (ZebraLogic, GPQA), and tool-use (Tau2, AceBench) tasks. It supports long-context inference up to 128K tokens and is designed with a novel training stack that includes the MuonClip optimizer for stable large-scale MoE training.",
+    "description": "Kimi K2 Instruct is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It is optimized for agentic capabilities, including advanced tool use, reasoning, and code synthesis. Kimi K2 excels across a broad range of benchmarks, particularly in coding (LiveCodeBench, SWE-bench), reasoning (ZebraLogic, GPQA), and tool-use (Tau2, AceBench) tasks. It supports long-context inference up to 128K tokens and is designed with a novel training stack that includes the MuonClip optimizer for stable large-scale MoE training.",
     "context_length": 63000,
     "architecture": {
       "modality": "text->text",
@@ -9237,6 +9041,8 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "tools",
+      "tool_choice",
       "stop",
       "frequency_penalty",
       "presence_penalty",
@@ -9247,8 +9053,8 @@
       "min_p",
       "structured_outputs",
       "logit_bias",
-      "tools",
-      "tool_choice"
+      "top_logprobs",
+      "logprobs"
     ]
   },
   {
@@ -9257,7 +9063,7 @@
     "hugging_face_id": "moonshotai/Kimi-K2-Instruct",
     "name": "MoonshotAI: Kimi K2 (free)",
     "created": 1752263252,
-    "description": "Kimi K2 is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It is optimized for agentic capabilities, including advanced tool use, reasoning, and code synthesis. Kimi K2 excels across a broad range of benchmarks, particularly in coding (LiveCodeBench, SWE-bench), reasoning (ZebraLogic, GPQA), and tool-use (Tau2, AceBench) tasks. It supports long-context inference up to 128K tokens and is designed with a novel training stack that includes the MuonClip optimizer for stable large-scale MoE training.",
+    "description": "Kimi K2 Instruct is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It is optimized for agentic capabilities, including advanced tool use, reasoning, and code synthesis. Kimi K2 excels across a broad range of benchmarks, particularly in coding (LiveCodeBench, SWE-bench), reasoning (ZebraLogic, GPQA), and tool-use (Tau2, AceBench) tasks. It supports long-context inference up to 128K tokens and is designed with a novel training stack that includes the MuonClip optimizer for stable large-scale MoE training.",
     "context_length": 65536,
     "architecture": {
       "modality": "text->text",
@@ -10091,55 +9897,6 @@
       "top_k",
       "logit_bias",
       "logprobs",
-      "top_logprobs"
-    ]
-  },
-  {
-    "id": "nvidia/llama-3.3-nemotron-super-49b-v1:free",
-    "canonical_slug": "nvidia/llama-3.3-nemotron-super-49b-v1",
-    "hugging_face_id": "nvidia/Llama-3_3-Nemotron-Super-49B-v1",
-    "name": "NVIDIA: Llama 3.3 Nemotron Super 49B v1 (free)",
-    "created": 1744119494,
-    "description": "Llama-3.3-Nemotron-Super-49B-v1 is a large language model (LLM) optimized for advanced reasoning, conversational interactions, retrieval-augmented generation (RAG), and tool-calling tasks. Derived from Meta's Llama-3.3-70B-Instruct, it employs a Neural Architecture Search (NAS) approach, significantly enhancing efficiency and reducing memory requirements. This allows the model to support a context length of up to 128K tokens and fit efficiently on single high-performance GPUs, such as NVIDIA H200.\n\nNote: you must include `detailed thinking on` in the system prompt to enable reasoning. Please see [Usage Recommendations](https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1#quick-start-and-usage-recommendations) for more.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "top_k",
-      "min_p",
-      "repetition_penalty",
-      "logprobs",
-      "logit_bias",
       "top_logprobs"
     ]
   },
@@ -12729,8 +12486,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000009",
-      "completion": "0.0000009",
+      "prompt": "0.0000002",
+      "completion": "0.0000006",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12749,9 +12506,11 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "top_k",
       "repetition_penalty",
       "response_format",
+      "top_k",
+      "seed",
+      "min_p",
       "structured_outputs",
       "logit_bias",
       "logprobs",
@@ -12946,16 +12705,16 @@
       "top_p",
       "reasoning",
       "include_reasoning",
-      "presence_penalty",
       "frequency_penalty",
+      "min_p",
+      "presence_penalty",
       "repetition_penalty",
+      "seed",
+      "stop",
       "top_k",
       "tools",
       "tool_choice",
-      "stop",
       "response_format",
-      "seed",
-      "min_p",
       "logit_bias",
       "logprobs",
       "top_logprobs"
@@ -13685,6 +13444,57 @@
     ]
   },
   {
+    "id": "rekaai/reka-flash-3",
+    "canonical_slug": "rekaai/reka-flash-3",
+    "hugging_face_id": "RekaAI/reka-flash-3",
+    "name": "Reka: Flash 3",
+    "created": 1741812813,
+    "description": "Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka. It excels at general chat, coding tasks, instruction-following, and function calling. Featuring a 32K context length and optimized through reinforcement learning (RLOO), it provides competitive performance comparable to proprietary models within a smaller parameter footprint. Ideal for low-latency, local, or on-device deployments, Reka Flash 3 is compact, supports efficient quantization (down to 11GB at 4-bit precision), and employs explicit reasoning tags (\"<reasoning>\") to indicate its internal thought process.\n\nReka Flash 3 is primarily an English model with limited multilingual understanding capabilities. The model weights are released under the Apache 2.0 license.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000000013",
+      "completion": "0.000000013",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
+  },
+  {
     "id": "rekaai/reka-flash-3:free",
     "canonical_slug": "rekaai/reka-flash-3",
     "hugging_face_id": "RekaAI/reka-flash-3",
@@ -13975,6 +13785,55 @@
     ]
   },
   {
+    "id": "sarvamai/sarvam-m",
+    "canonical_slug": "sarvamai/sarvam-m",
+    "hugging_face_id": "sarvamai/sarvam-m",
+    "name": "Sarvam AI: Sarvam-M",
+    "created": 1748188413,
+    "description": "Sarvam-M is a 24 B-parameter, instruction-tuned derivative of Mistral-Small-3.1-24B-Base-2503, post-trained on English plus eleven major Indic languages (bn, hi, kn, gu, mr, ml, or, pa, ta, te). The model introduces a dual-mode interface: “non-think” for low-latency chat and a optional “think” phase that exposes chain-of-thought tokens for more demanding reasoning, math, and coding tasks. \n\nBenchmark reports show solid gains versus similarly sized open models on Indic-language QA, GSM-8K math, and SWE-Bench coding, making Sarvam-M a practical general-purpose choice for multilingual conversational agents as well as analytical workloads that mix English, native Indic scripts, or romanized text.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000000022",
+      "completion": "0.000000022",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
+  },
+  {
     "id": "sarvamai/sarvam-m:free",
     "canonical_slug": "sarvamai/sarvam-m",
     "hugging_face_id": "sarvamai/sarvam-m",
@@ -14211,6 +14070,57 @@
     ]
   },
   {
+    "id": "tencent/hunyuan-a13b-instruct",
+    "canonical_slug": "tencent/hunyuan-a13b-instruct",
+    "hugging_face_id": "tencent/Hunyuan-A13B-Instruct",
+    "name": "Tencent: Hunyuan A13B Instruct",
+    "created": 1751987664,
+    "description": "Hunyuan-A13B is a 13B active parameter Mixture-of-Experts (MoE) language model developed by Tencent, with a total parameter count of 80B and support for reasoning via Chain-of-Thought. It offers competitive benchmark performance across mathematics, science, coding, and multi-turn reasoning tasks, while maintaining high inference efficiency via Grouped Query Attention (GQA) and quantization support (FP8, GPTQ, etc.).",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000003",
+      "completion": "0.00000003",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
+    ]
+  },
+  {
     "id": "tencent/hunyuan-a13b-instruct:free",
     "canonical_slug": "tencent/hunyuan-a13b-instruct",
     "hugging_face_id": "tencent/Hunyuan-A13B-Instruct",
@@ -14298,9 +14208,12 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "presence_penalty",
       "frequency_penalty",
+      "min_p",
+      "presence_penalty",
       "repetition_penalty",
+      "seed",
+      "stop",
       "top_k"
     ]
   },
@@ -14341,9 +14254,12 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "presence_penalty",
       "frequency_penalty",
+      "min_p",
+      "presence_penalty",
       "repetition_penalty",
+      "seed",
+      "stop",
       "top_k"
     ]
   },
@@ -14441,7 +14357,9 @@
       "presence_penalty",
       "response_format",
       "structured_outputs",
+      "min_p",
       "repetition_penalty",
+      "seed",
       "top_k"
     ]
   },
@@ -14541,7 +14459,9 @@
       "structured_outputs",
       "reasoning",
       "include_reasoning",
+      "min_p",
       "repetition_penalty",
+      "seed",
       "top_k"
     ]
   },
