@@ -3102,7 +3102,7 @@
     "name": "DeepSeek: DeepSeek V3 0324 (free)",
     "created": 1742824755,
     "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.\n\nIt succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well on a variety of tasks.",
-    "context_length": 16384,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -3123,7 +3123,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 16384,
+      "context_length": 32768,
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
@@ -7640,22 +7640,22 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "tools",
-      "tool_choice",
       "reasoning",
       "include_reasoning",
-      "structured_outputs",
-      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
+      "top_k",
+      "repetition_penalty",
       "logit_bias",
       "logprobs",
-      "seed",
-      "repetition_penalty",
-      "top_k",
       "top_logprobs",
-      "min_p"
+      "min_p",
+      "seed",
+      "tools",
+      "tool_choice",
+      "structured_outputs",
+      "response_format"
     ]
   },
   {
@@ -8636,15 +8636,17 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "tools",
-      "tool_choice",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "response_format",
-      "structured_outputs",
+      "logit_bias",
+      "logprobs",
       "seed",
       "repetition_penalty",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "structured_outputs",
       "top_k",
       "min_p"
     ]
@@ -9043,16 +9045,16 @@
       "top_p",
       "tools",
       "tool_choice",
+      "structured_outputs",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "repetition_penalty",
-      "response_format",
       "top_k",
-      "seed",
-      "min_p",
-      "structured_outputs",
+      "repetition_penalty",
       "logit_bias",
+      "min_p",
+      "seed",
       "top_logprobs",
       "logprobs"
     ]
@@ -9991,6 +9993,55 @@
       "max_tokens",
       "response_format",
       "structured_outputs"
+    ]
+  },
+  {
+    "id": "openai/gpt-3.5-turbo",
+    "canonical_slug": "openai/gpt-3.5-turbo",
+    "hugging_face_id": null,
+    "name": "OpenAI: GPT-3.5 Turbo",
+    "created": 1685232000,
+    "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
+    "context_length": 16385,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "GPT",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000005",
+      "completion": "0.0000015",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 16385,
+      "max_completion_tokens": 4096,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "tools",
+      "tool_choice",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format"
     ]
   },
   {
