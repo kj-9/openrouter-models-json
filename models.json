@@ -3344,10 +3344,10 @@
       "logit_bias",
       "min_p",
       "response_format",
-      "tools",
-      "tool_choice",
       "structured_outputs",
       "seed",
+      "tools",
+      "tool_choice",
       "logprobs",
       "top_logprobs"
     ]
@@ -5646,7 +5646,7 @@
     "name": "Liquid: LFM 40B MoE",
     "created": 1727654400,
     "description": "Liquid's 40.3B Mixture of Experts (MoE) model. Liquid Foundation Models (LFMs) are large neural networks built with computational units rooted in dynamic systems.\n\nLFMs are general-purpose AI models that can be used to model any kind of sequential data, including video, audio, text, time series, and signals.\n\nSee the [launch announcement](https://www.liquid.ai/liquid-foundation-models) for benchmarks and more info.",
-    "context_length": 32768,
+    "context_length": 65536,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5667,8 +5667,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
+      "context_length": 65536,
+      "max_completion_tokens": 65536,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -5680,13 +5680,13 @@
       "frequency_penalty",
       "presence_penalty",
       "seed",
-      "top_k",
-      "min_p",
-      "repetition_penalty",
       "logit_bias",
       "logprobs",
       "top_logprobs",
-      "response_format"
+      "response_format",
+      "min_p",
+      "repetition_penalty",
+      "top_k"
     ]
   },
   {
@@ -6098,7 +6098,7 @@
     "name": "Meta: Llama 3.1 8B Instruct",
     "created": 1721692800,
     "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 131000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -6119,8 +6119,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131000,
-      "max_completion_tokens": 131000,
+      "context_length": 131072,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -6587,9 +6587,9 @@
       "seed",
       "min_p",
       "structured_outputs",
-      "logit_bias",
       "tools",
       "tool_choice",
+      "logit_bias",
       "logprobs",
       "top_logprobs"
     ]
@@ -7610,7 +7610,7 @@
     "name": "Mistral: Magistral Small 2506",
     "created": 1749569561,
     "description": "Magistral Small is a 24B parameter instruction-tuned model based on Mistral-Small-3.1 (2503), enhanced through supervised fine-tuning on traces from Magistral Medium and further refined via reinforcement learning. It is optimized for reasoning and supports a wide multilingual range, including over 20 languages.",
-    "context_length": 40960,
+    "context_length": 40000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -7623,16 +7623,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000001",
-      "completion": "0.0000003",
+      "prompt": "0.0000005",
+      "completion": "0.0000015",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 40960,
-      "max_completion_tokens": 40960,
+      "context_length": 40000,
+      "max_completion_tokens": 40000,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -7640,22 +7640,16 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "tools",
+      "tool_choice",
       "reasoning",
       "include_reasoning",
+      "structured_outputs",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "top_k",
-      "repetition_penalty",
-      "logit_bias",
-      "logprobs",
-      "top_logprobs",
-      "min_p",
-      "seed",
-      "tools",
-      "tool_choice",
-      "structured_outputs",
-      "response_format"
+      "seed"
     ]
   },
   {
@@ -8229,14 +8223,14 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "top_k",
       "repetition_penalty",
-      "logit_bias",
-      "logprobs",
-      "top_logprobs",
-      "min_p",
-      "seed",
       "response_format",
+      "top_k",
+      "seed",
+      "min_p",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs",
       "tools",
       "tool_choice",
       "structured_outputs"
@@ -8428,13 +8422,13 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "top_k",
-      "repetition_penalty",
-      "logit_bias",
-      "logprobs",
-      "top_logprobs",
-      "min_p",
       "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs",
       "response_format",
       "tools",
       "tool_choice",
@@ -9096,8 +9090,6 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "tools",
-      "tool_choice",
       "stop",
       "frequency_penalty",
       "presence_penalty",
@@ -12286,13 +12278,13 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "top_k",
-      "repetition_penalty",
-      "logit_bias",
       "logprobs",
       "top_logprobs",
+      "seed",
+      "logit_bias",
+      "top_k",
       "min_p",
-      "seed"
+      "repetition_penalty"
     ]
   },
   {
