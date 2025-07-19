@@ -9090,6 +9090,8 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "tools",
+      "tool_choice",
       "stop",
       "frequency_penalty",
       "presence_penalty",
