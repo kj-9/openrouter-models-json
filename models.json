@@ -6589,9 +6589,9 @@
       "structured_outputs",
       "tools",
       "tool_choice",
-      "logit_bias",
       "logprobs",
-      "top_logprobs"
+      "top_logprobs",
+      "logit_bias"
     ]
   },
   {
