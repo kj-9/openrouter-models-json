@@ -3501,8 +3501,8 @@
       "logprobs",
       "logit_bias",
       "top_logprobs",
-      "structured_outputs",
-      "response_format"
+      "response_format",
+      "structured_outputs"
     ]
   },
   {
