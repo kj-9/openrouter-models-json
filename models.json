@@ -2086,6 +2086,53 @@
     ]
   },
   {
+    "id": "bytedance/ui-tars-1.5-7b",
+    "canonical_slug": "bytedance/ui-tars-1.5-7b",
+    "hugging_face_id": "ByteDance-Seed/UI-TARS-1.5-7B",
+    "name": "Bytedance: UI-TARS 7B ",
+    "created": 1753205056,
+    "description": "UI-TARS-1.5 is a multimodal vision-language agent optimized for GUI-based environments, including desktop interfaces, web browsers, mobile systems, and games. Built by ByteDance, it builds upon the UI-TARS framework with reinforcement learning-based reasoning, enabling robust action planning and execution across virtual interfaces.\n\nThis model achieves state-of-the-art results on a range of interactive and grounding benchmarks, including OSworld, WebVoyager, AndroidWorld, and ScreenSpot. It also demonstrates perfect task completion across diverse Poki games and outperforms prior models in Minecraft agent tasks. UI-TARS-1.5 supports thought decomposition during inference and shows strong scaling across variants, with the 1.5 version notably exceeding the performance of earlier 72B and 7B checkpoints.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000002",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 2048,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "frequency_penalty",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "top_k"
+    ]
+  },
+  {
     "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
     "canonical_slug": "venice/uncensored",
     "hugging_face_id": "cognitivecomputations/Dolphin-Mistral-24B-Venice-Edition",
@@ -4022,6 +4069,56 @@
       "structured_outputs",
       "response_format",
       "stop"
+    ]
+  },
+  {
+    "id": "google/gemini-2.5-flash-lite",
+    "canonical_slug": "google/gemini-2.5-flash-lite",
+    "hugging_face_id": "",
+    "name": "Google: Gemini 2.5 Flash Lite",
+    "created": 1753200276,
+    "description": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance across common benchmarks compared to earlier Flash models. By default, \"thinking\" (i.e. multi-pass reasoning) is disabled to prioritize speed, but developers can enable it via the [Reasoning API parameter](https://openrouter.ai/docs/use-cases/reasoning-tokens) to selectively trade off cost for intelligence. ",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000004",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.000000025",
+      "input_cache_write": "0.0000001833"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65535,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "tools",
+      "tool_choice",
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
+      "response_format",
+      "seed"
     ]
   },
   {
@@ -8760,9 +8857,9 @@
       "repetition_penalty",
       "logit_bias",
       "min_p",
-      "seed",
+      "logprobs",
       "top_logprobs",
-      "logprobs"
+      "seed"
     ]
   },
   {
@@ -9746,8 +9843,16 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "seed",
       "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
       "response_format",
       "structured_outputs"
     ]
@@ -10277,10 +10382,19 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
       "tools",
       "tool_choice",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
       "seed",
-      "max_tokens",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
       "response_format",
       "structured_outputs"
     ]
@@ -10322,10 +10436,19 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
       "tools",
       "tool_choice",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
       "seed",
-      "max_tokens",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
       "response_format",
       "structured_outputs"
     ]
@@ -10367,10 +10490,18 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
       "tools",
       "tool_choice",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
       "seed",
-      "max_tokens",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
       "response_format",
       "structured_outputs"
     ]
@@ -10412,10 +10543,19 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
       "tools",
       "tool_choice",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
       "seed",
-      "max_tokens",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
       "response_format",
       "structured_outputs"
     ]
@@ -10456,10 +10596,19 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
       "tools",
       "tool_choice",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
       "seed",
-      "max_tokens",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
       "response_format",
       "structured_outputs"
     ]
@@ -10501,10 +10650,19 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
       "tools",
       "tool_choice",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
       "seed",
-      "max_tokens",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
       "response_format",
       "structured_outputs"
     ]
@@ -10546,10 +10704,19 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
       "tools",
       "tool_choice",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
       "seed",
-      "max_tokens",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
       "response_format",
       "structured_outputs"
     ]
@@ -10591,8 +10758,17 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "seed",
       "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
+      "seed",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
       "response_format",
       "structured_outputs",
       "tools",
@@ -10636,10 +10812,19 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
       "tools",
       "tool_choice",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
       "seed",
-      "max_tokens",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
       "response_format",
       "structured_outputs"
     ]
@@ -10760,10 +10945,19 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
       "tools",
       "tool_choice",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "web_search_options",
       "seed",
-      "max_tokens",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
       "response_format",
       "structured_outputs"
     ]
@@ -12609,8 +12803,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.00000085",
+      "prompt": "0.00000012",
+      "completion": "0.00000059",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12626,13 +12820,20 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "tools",
+      "tool_choice",
+      "stop",
       "frequency_penalty",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
+      "response_format",
+      "top_k",
       "seed",
-      "stop",
-      "top_k"
+      "min_p",
+      "structured_outputs",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs"
     ]
   },
   {
@@ -13047,6 +13248,59 @@
       "logprobs",
       "logit_bias",
       "top_logprobs"
+    ]
+  },
+  {
+    "id": "qwen/qwen3-coder",
+    "canonical_slug": "qwen/qwen3-coder-480b-a35b-07-25",
+    "hugging_face_id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "name": "Qwen: Qwen3 Coder ",
+    "created": 1753230546,
+    "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over repositories. The model features 480 billion total parameters, with 35 billion active per forward pass (8 out of 160 experts).",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000005",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "logprobs",
+      "top_logprobs",
+      "seed",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "tools",
+      "tool_choice",
+      "structured_outputs",
+      "response_format"
     ]
   },
   {
