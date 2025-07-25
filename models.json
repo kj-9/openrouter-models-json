@@ -49,52 +49,6 @@
     ]
   },
   {
-    "id": "aetherwiing/mn-starcannon-12b",
-    "canonical_slug": "aetherwiing/mn-starcannon-12b",
-    "hugging_face_id": "aetherwiing/MN-12B-Starcannon-v2",
-    "name": "Aetherwiing: Starcannon 12B",
-    "created": 1723507200,
-    "description": "Starcannon 12B v2 is a creative roleplay and story writing model, based on Mistral Nemo, using [nothingiisreal/mn-celeste-12b](/nothingiisreal/mn-celeste-12b) as a base, with [intervitens/mini-magnum-12b-v1.1](https://huggingface.co/intervitens/mini-magnum-12b-v1.1) merged in using the [TIES](https://arxiv.org/abs/2306.01708) method.\n\nAlthough more similar to Magnum overall, the model remains very creative, with a pleasant writing style. It is recommended for people wanting more variety than Magnum, and yet more verbose prose than Celeste.",
-    "context_length": 16384,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000012",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 16384,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "repetition_penalty",
-      "top_k",
-      "min_p",
-      "seed"
-    ]
-  },
-  {
     "id": "agentica-org/deepcoder-14b-preview",
     "canonical_slug": "agentica-org/deepcoder-14b-preview",
     "hugging_face_id": "agentica-org/DeepCoder-14B-Preview",
@@ -498,52 +452,6 @@
     ]
   },
   {
-    "id": "alpindale/magnum-72b",
-    "canonical_slug": "alpindale/magnum-72b",
-    "hugging_face_id": "alpindale/magnum-72b-v1",
-    "name": "Magnum 72B",
-    "created": 1720656000,
-    "description": "From the maker of [Goliath](https://openrouter.ai/models/alpindale/goliath-120b), Magnum 72B is the first in a new family of models designed to achieve the prose quality of the Claude 3 models, notably Opus & Sonnet.\n\nThe model is based on [Qwen2 72B](https://openrouter.ai/models/qwen/qwen-2-72b-instruct) and trained with 55 million tokens of highly curated roleplay (RP) data.",
-    "context_length": 16384,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0.000004",
-      "completion": "0.000006",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 16384,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "repetition_penalty",
-      "top_k",
-      "min_p",
-      "seed"
-    ]
-  },
-  {
     "id": "amazon/nova-lite-v1",
     "canonical_slug": "amazon/nova-lite-v1",
     "hugging_face_id": "",
@@ -759,10 +667,10 @@
       "frequency_penalty",
       "presence_penalty",
       "repetition_penalty",
+      "logit_bias",
       "top_k",
       "min_p",
       "seed",
-      "logit_bias",
       "top_a"
     ]
   },
@@ -3747,52 +3655,6 @@
     ]
   },
   {
-    "id": "eva-unit-01/eva-llama-3.33-70b",
-    "canonical_slug": "eva-unit-01/eva-llama-3.33-70b",
-    "hugging_face_id": "EVA-UNIT-01/EVA-LLaMA-3.33-70B-v0.1",
-    "name": "EVA Llama 3.33 70B",
-    "created": 1734377303,
-    "description": "EVA Llama 3.33 70b is a roleplay and storywriting specialist model. It is a full-parameter finetune of [Llama-3.3-70B-Instruct](https://openrouter.ai/meta-llama/llama-3.3-70b-instruct) on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model\n\nThis model was built with Llama by Meta.\n",
-    "context_length": 16384,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0.000004",
-      "completion": "0.000006",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 16384,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "repetition_penalty",
-      "top_k",
-      "min_p",
-      "seed"
-    ]
-  },
-  {
     "id": "eva-unit-01/eva-qwen-2.5-72b",
     "canonical_slug": "eva-unit-01/eva-qwen-2.5-72b",
     "hugging_face_id": "EVA-UNIT-01/EVA-Qwen2.5-72B-v0.1",
@@ -3841,10 +3703,10 @@
   {
     "id": "featherless/qwerky-72b:free",
     "canonical_slug": "featherless/qwerky-72b",
-    "hugging_face_id": "featherless-ai/Qwerky-72B",
-    "name": "Qwerky 72B (free)",
+    "hugging_face_id": "featherless-ai/QRWKV-72B",
+    "name": "Qrwkv 72B (free)",
     "created": 1742481597,
-    "description": "Qwerky-72B is a linear-attention RWKV variant of the Qwen 2.5 72B model, optimized to significantly reduce computational cost at scale. Leveraging linear attention, it achieves substantial inference speedups (>1000x) while retaining competitive accuracy on common benchmarks like ARC, HellaSwag, Lambada, and MMLU. It inherits knowledge and language support from Qwen 2.5, supporting approximately 30 languages, making it suitable for efficient inference in large-context applications.",
+    "description": "Qrwkv-72B is a linear-attention RWKV variant of the Qwen 2.5 72B model, optimized to significantly reduce computational cost at scale. Leveraging linear attention, it achieves substantial inference speedups (>1000x) while retaining competitive accuracy on common benchmarks like ARC, HellaSwag, Lambada, and MMLU. It inherits knowledge and language support from Qwen 2.5, supporting approximately 30 languages, making it suitable for efficient inference in large-context applications.",
     "context_length": 32768,
     "architecture": {
       "modality": "text->text",
@@ -4537,8 +4399,8 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000008",
+      "prompt": "0.00000065",
+      "completion": "0.00000065",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -4546,7 +4408,7 @@
     },
     "top_provider": {
       "context_length": 8192,
-      "max_completion_tokens": 2048,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -4557,11 +4419,12 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
+      "response_format",
+      "structured_outputs",
       "top_k",
       "repetition_penalty",
       "logit_bias",
-      "min_p",
-      "response_format"
+      "min_p"
     ]
   },
   {
@@ -4910,8 +4773,9 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "repetition_penalty",
       "response_format",
+      "structured_outputs",
+      "repetition_penalty",
       "top_k",
       "seed",
       "min_p"
@@ -6799,7 +6663,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000007",
+      "prompt": "0.00000006",
       "completion": "0.00000014",
       "request": "0",
       "image": "0",
@@ -6808,7 +6672,7 @@
     },
     "top_provider": {
       "context_length": 16384,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -6819,13 +6683,14 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
+      "response_format",
+      "structured_outputs",
       "seed",
       "top_k",
       "logit_bias",
       "logprobs",
       "top_logprobs",
       "repetition_penalty",
-      "response_format",
       "min_p"
     ]
   },
@@ -9557,6 +9422,7 @@
       "top_k",
       "seed",
       "min_p",
+      "structured_outputs",
       "logit_bias",
       "logprobs",
       "top_logprobs",
@@ -11221,7 +11087,7 @@
       "output_modalities": [
         "text"
       ],
-      "tokenizer": "Other",
+      "tokenizer": "GPT",
       "instruct_type": null
     },
     "pricing": {
@@ -11352,7 +11218,7 @@
       "output_modalities": [
         "text"
       ],
-      "tokenizer": "Other",
+      "tokenizer": "GPT",
       "instruct_type": null
     },
     "pricing": {
@@ -11943,6 +11809,8 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
+      "response_format",
+      "structured_outputs",
       "seed",
       "top_k",
       "min_p",
@@ -11951,8 +11819,7 @@
       "logit_bias",
       "top_logprobs",
       "tools",
-      "tool_choice",
-      "response_format"
+      "tool_choice"
     ]
   },
   {
@@ -12652,7 +12519,7 @@
     },
     "top_provider": {
       "context_length": 40960,
-      "max_completion_tokens": 40960,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12669,9 +12536,10 @@
       "seed",
       "stop",
       "top_k",
+      "response_format",
+      "structured_outputs",
       "tools",
       "tool_choice",
-      "response_format",
       "logit_bias",
       "logprobs",
       "top_logprobs"
@@ -13289,15 +13157,15 @@
       "top_p",
       "tools",
       "tool_choice",
-      "structured_outputs",
-      "response_format",
-      "seed",
-      "presence_penalty",
       "stop",
       "frequency_penalty",
+      "presence_penalty",
       "repetition_penalty",
+      "response_format",
       "top_k",
+      "seed",
       "min_p",
+      "structured_outputs",
       "logit_bias",
       "logprobs",
       "top_logprobs"
@@ -13396,11 +13264,12 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
+      "response_format",
+      "structured_outputs",
       "top_k",
       "repetition_penalty",
       "logit_bias",
       "min_p",
-      "response_format",
       "logprobs",
       "top_logprobs",
       "seed"
