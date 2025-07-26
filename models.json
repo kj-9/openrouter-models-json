@@ -1509,102 +1509,6 @@
     ]
   },
   {
-    "id": "arcee-ai/arcee-blitz",
-    "canonical_slug": "arcee-ai/arcee-blitz",
-    "hugging_face_id": "arcee-ai/arcee-blitz",
-    "name": "Arcee AI: Arcee Blitz",
-    "created": 1746470100,
-    "description": "Arcee Blitz is a 24 B‑parameter dense model distilled from DeepSeek and built on Mistral architecture for \"everyday\" chat. The distillation‑plus‑refinement pipeline trims compute while keeping DeepSeek‑style reasoning, so Blitz punches above its weight on MMLU, GSM‑8K and BBH compared with other mid‑size open models. With a default 128 k context window and competitive throughput, it serves as a cost‑efficient workhorse for summarization, brainstorming and light code help. Internally, Arcee uses Blitz as the default writer in Conductor pipelines when the heavier Virtuoso line is not required. Users therefore get near‑70 B quality at ~⅓ the latency and price. ",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000045",
-      "completion": "0.00000075",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "top_k",
-      "repetition_penalty",
-      "logit_bias",
-      "min_p",
-      "response_format"
-    ]
-  },
-  {
-    "id": "arcee-ai/caller-large",
-    "canonical_slug": "arcee-ai/caller-large",
-    "hugging_face_id": "",
-    "name": "Arcee AI: Caller Large",
-    "created": 1746487869,
-    "description": "Caller Large is Arcee's specialist \"function‑calling\" SLM built to orchestrate external tools and APIs. Instead of maximizing next‑token accuracy, training focuses on structured JSON outputs, parameter extraction and multi‑step tool chains, making Caller a natural choice for retrieval‑augmented generation, robotic process automation or data‑pull chatbots. It incorporates a routing head that decides when (and how) to invoke a tool versus answering directly, reducing hallucinated calls. The model is already the backbone of Arcee Conductor's auto‑tool mode, where it parses user intent, emits clean function signatures and hands control back once the tool response is ready. Developers thus gain an OpenAI‑style function‑calling UX without handing requests to a frontier‑scale model. ",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000055",
-      "completion": "0.00000085",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "tools",
-      "tool_choice",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "top_k",
-      "repetition_penalty",
-      "logit_bias",
-      "min_p",
-      "response_format"
-    ]
-  },
-  {
     "id": "arcee-ai/coder-large",
     "canonical_slug": "arcee-ai/coder-large",
     "hugging_face_id": "",
@@ -1776,55 +1680,6 @@
     "top_provider": {
       "context_length": 131072,
       "max_completion_tokens": 64000,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "tools",
-      "tool_choice",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "top_k",
-      "repetition_penalty",
-      "logit_bias",
-      "min_p",
-      "response_format"
-    ]
-  },
-  {
-    "id": "arcee-ai/virtuoso-medium-v2",
-    "canonical_slug": "arcee-ai/virtuoso-medium-v2",
-    "hugging_face_id": "arcee-ai/Virtuoso-Medium-v2",
-    "name": "Arcee AI: Virtuoso Medium V2",
-    "created": 1746478434,
-    "description": "Virtuoso‑Medium‑v2 is a 32 B model distilled from DeepSeek‑v3 logits and merged back onto a Qwen 2.5 backbone, yielding a sharper, more factual successor to the original Virtuoso Medium. The team harvested ~1.1 B logit tokens and applied \"fusion‑merging\" plus DPO alignment, which pushed scores past Arcee‑Nova 2024 and many 40 B‑plus peers on MMLU‑Pro, MATH and HumanEval. With a 128 k context and aggressive quantization options (from BF16 down to 4‑bit GGUF), it balances capability with deployability on single‑GPU nodes. Typical use cases include enterprise chat assistants, technical writing aids and medium‑complexity code drafting where Virtuoso‑Large would be overkill. ",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.0000008",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -2336,7 +2191,7 @@
     "name": "Cohere: Command A",
     "created": 1741894342,
     "description": "Command A is an open-weights 111B parameter model with a 256k context window focused on delivering great performance across agentic, multilingual, and coding use cases.\nCompared to other leading proprietary and open-weights models Command A delivers maximum performance with minimum hardware costs, excelling on business-critical agentic and multilingual tasks.",
-    "context_length": 256000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2349,17 +2204,17 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000025",
-      "completion": "0.00001",
+      "prompt": "0.000002",
+      "completion": "0.000008",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 256000,
-      "max_completion_tokens": 8192,
-      "is_moderated": true
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -2369,10 +2224,10 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "top_k",
-      "seed",
       "response_format",
-      "structured_outputs"
+      "structured_outputs",
+      "top_k",
+      "seed"
     ]
   },
   {
@@ -3606,6 +3461,55 @@
       "reasoning",
       "include_reasoning",
       "temperature"
+    ]
+  },
+  {
+    "id": "deepseek/deepseek-v3-base",
+    "canonical_slug": "deepseek/deepseek-v3-base",
+    "hugging_face_id": "deepseek-ai/Deepseek-v3-base",
+    "name": "DeepSeek: DeepSeek V3 Base",
+    "created": 1743272023,
+    "description": "Note that this is a base model mostly meant for testing, you need to provide detailed prompts for the model to return useful responses. \n\nDeepSeek-V3 Base is a 671B parameter open Mixture-of-Experts (MoE) language model with 37B active parameters per forward pass and a context length of 128K tokens. Trained on 14.8T tokens using FP8 mixed precision, it achieves high training efficiency and stability, with strong performance across language, reasoning, math, and coding tasks. \n\nDeepSeek-V3 Base is the pre-trained model behind [DeepSeek V3](/deepseek/deepseek-chat-v3)",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "DeepSeek",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000000302",
+      "completion": "0.000000302",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
     ]
   },
   {
@@ -12652,10 +12556,10 @@
     ]
   },
   {
-    "id": "qwen/qwen3-235b-a22b-07-25",
+    "id": "qwen/qwen3-235b-a22b-2507",
     "canonical_slug": "qwen/qwen3-235b-a22b-07-25",
     "hugging_face_id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
-    "name": "Qwen: Qwen3 235B A22B 2507",
+    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
     "created": 1753119555,
     "description": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass. It is optimized for general-purpose text generation, including instruction following, logical reasoning, math, code, and tool usage. The model supports a native 262K context length and does not implement \"thinking mode\" (<think> blocks).\n\nCompared to its base variant, this version delivers significant gains in knowledge coverage, long-context reasoning, coding benchmarks, and alignment with open-ended tasks. It is particularly strong on multilingual understanding, math reasoning (e.g., AIME, HMMT), and alignment evaluations like Arena-Hard and WritingBench.",
     "context_length": 262144,
@@ -12705,10 +12609,10 @@
     ]
   },
   {
-    "id": "qwen/qwen3-235b-a22b-07-25:free",
+    "id": "qwen/qwen3-235b-a22b-2507:free",
     "canonical_slug": "qwen/qwen3-235b-a22b-07-25",
     "hugging_face_id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
-    "name": "Qwen: Qwen3 235B A22B 2507 (free)",
+    "name": "Qwen: Qwen3 235B A22B Instruct 2507 (free)",
     "created": 1753119555,
     "description": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass. It is optimized for general-purpose text generation, including instruction following, logical reasoning, math, code, and tool usage. The model supports a native 262K context length and does not implement \"thinking mode\" (<think> blocks).\n\nCompared to its base variant, this version delivers significant gains in knowledge coverage, long-context reasoning, coding benchmarks, and alignment with open-ended tasks. It is particularly strong on multilingual understanding, math reasoning (e.g., AIME, HMMT), and alignment evaluations like Arena-Hard and WritingBench.",
     "context_length": 262144,
@@ -12751,6 +12655,60 @@
       "logprobs",
       "logit_bias",
       "top_logprobs"
+    ]
+  },
+  {
+    "id": "qwen/qwen3-235b-a22b-thinking-2507",
+    "canonical_slug": "qwen/qwen3-235b-a22b-thinking-2507",
+    "hugging_face_id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+    "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+    "created": 1753449557,
+    "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively supports up to 262,144 tokens of context. This \"thinking-only\" variant enhances structured logical reasoning, mathematics, science, and long-form generation, showing strong benchmark performance across AIME, SuperGPQA, LiveCodeBench, and MMLU-Redux. It enforces a special reasoning mode (</think>) and is designed for high-token outputs (up to 81,920 tokens) in challenging domains.\n\nThe model is instruction-tuned and excels at step-by-step reasoning, tool use, agentic workflows, and multilingual tasks. This release represents the most capable open-source variant in the Qwen3-235B series, surpassing many closed models in structured reasoning use cases.",
+    "context_length": 262144,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": "qwen3"
+    },
+    "pricing": {
+      "prompt": "0.00000013",
+      "completion": "0.0000006",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "tools",
+      "tool_choice",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs",
+      "response_format"
     ]
   },
   {
@@ -13155,18 +13113,18 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "tools",
-      "tool_choice",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "repetition_penalty",
-      "response_format",
       "top_k",
-      "seed",
-      "min_p",
-      "structured_outputs",
+      "repetition_penalty",
       "logit_bias",
+      "min_p",
+      "response_format",
+      "tools",
+      "tool_choice",
+      "seed",
+      "structured_outputs",
       "logprobs",
       "top_logprobs"
     ]
@@ -15376,6 +15334,47 @@
       "logprobs",
       "top_logprobs",
       "response_format"
+    ]
+  },
+  {
+    "id": "z-ai/glm-4-32b",
+    "canonical_slug": "z-ai/glm-4-32b-0414",
+    "hugging_face_id": "",
+    "name": "Z.AI: GLM 4 32B ",
+    "created": 1753376617,
+    "description": "GLM 4 32B is a cost-effective foundation language model.\n\nIt can efficiently perform complex tasks and has significantly enhanced capabilities in tool use, online search, and code-related intelligent tasks.\n\nIt is made by the same lab behind the thudm models.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000001",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "tools",
+      "tool_choice"
     ]
   }
 ]
