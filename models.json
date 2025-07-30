@@ -23,6 +23,7 @@
       "completion": "0.000000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -74,6 +75,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -125,6 +127,7 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -167,6 +170,7 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -209,6 +213,7 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -250,6 +255,7 @@
       "completion": "0.0000014",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -291,6 +297,7 @@
       "completion": "0.0000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -330,6 +337,7 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -376,6 +384,7 @@
       "completion": "0.000011",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -427,6 +436,7 @@
       "completion": "0.00000024",
       "request": "0",
       "image": "0.00009",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -469,6 +479,7 @@
       "completion": "0.00000014",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -512,6 +523,7 @@
       "completion": "0.0000032",
       "request": "0",
       "image": "0.0012",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -554,6 +566,7 @@
       "completion": "0.000003",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -601,6 +614,7 @@
       "completion": "0.000003",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -650,6 +664,7 @@
       "completion": "0.00000125",
       "request": "0",
       "image": "0.0004",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000003",
@@ -696,6 +711,7 @@
       "completion": "0.00000125",
       "request": "0",
       "image": "0.0004",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000003",
@@ -742,6 +758,7 @@
       "completion": "0.000075",
       "request": "0",
       "image": "0.024",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000015",
@@ -788,6 +805,7 @@
       "completion": "0.000075",
       "request": "0",
       "image": "0.024",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000015",
@@ -834,6 +852,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
@@ -880,6 +899,7 @@
       "completion": "0.000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000008",
@@ -926,6 +946,7 @@
       "completion": "0.000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000008",
@@ -972,6 +993,7 @@
       "completion": "0.000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000008",
@@ -1018,6 +1040,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
@@ -1064,6 +1087,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
@@ -1110,6 +1134,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
@@ -1156,6 +1181,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
@@ -1202,6 +1228,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
@@ -1250,6 +1277,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
@@ -1296,6 +1324,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
@@ -1342,6 +1371,7 @@
       "completion": "0.000075",
       "request": "0",
       "image": "0.024",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000015",
@@ -1390,6 +1420,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
@@ -1437,6 +1468,7 @@
       "completion": "0.0000008",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1484,6 +1516,7 @@
       "completion": "0.0000033",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1532,6 +1565,7 @@
       "completion": "0.00000018",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1579,6 +1613,7 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1628,6 +1663,7 @@
       "completion": "0.000000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1679,6 +1715,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1730,6 +1767,7 @@
       "completion": "0.0000011",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1778,6 +1816,7 @@
       "completion": "0.0000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1824,6 +1863,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1869,6 +1909,7 @@
       "completion": "0.0000009",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1916,6 +1957,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1965,6 +2007,7 @@
       "completion": "0.000000013",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2016,6 +2059,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2067,6 +2111,7 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2113,6 +2158,7 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2159,6 +2205,7 @@
       "completion": "0.0000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2206,6 +2253,7 @@
       "completion": "0.0000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2253,6 +2301,7 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2300,6 +2349,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2347,6 +2397,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2394,6 +2445,7 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2441,6 +2493,7 @@
       "completion": "0.00000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2487,6 +2540,7 @@
       "completion": "0.000000272",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2540,6 +2594,7 @@
       "completion": "0.00000085",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2593,6 +2648,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2644,6 +2700,7 @@
       "completion": "0.00000218",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2691,6 +2748,7 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2746,6 +2804,7 @@
       "completion": "0.000000272",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2801,6 +2860,7 @@
       "completion": "0.00000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2850,6 +2910,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2901,6 +2962,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2952,6 +3014,7 @@
       "completion": "0.00000005",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3007,6 +3070,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3059,6 +3123,7 @@
       "completion": "0.00000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3108,6 +3173,7 @@
       "completion": "0.00000018",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3157,6 +3223,7 @@
       "completion": "0.00000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3207,6 +3274,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3258,6 +3326,7 @@
       "completion": "0.00000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3308,6 +3377,7 @@
       "completion": "0.0000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3350,6 +3420,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3390,6 +3461,7 @@
       "completion": "0.000000302",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3439,57 +3511,12 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 4096,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "repetition_penalty",
-      "top_k",
-      "min_p",
-      "seed"
-    ]
-  },
-  {
-    "id": "eva-unit-01/eva-qwen-2.5-72b",
-    "canonical_slug": "eva-unit-01/eva-qwen-2.5-72b",
-    "hugging_face_id": "EVA-UNIT-01/EVA-Qwen2.5-72B-v0.1",
-    "name": "EVA Qwen2.5 72B",
-    "created": 1732210606,
-    "description": "EVA Qwen2.5 72B is a roleplay and storywriting specialist model. It's a full-parameter finetune of Qwen2.5-72B on mixture of synthetic and natural data.\n\nIt uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and \"flavor\" of the resulting model.",
-    "context_length": 16384,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0.000004",
-      "completion": "0.000006",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 16384,
       "max_completion_tokens": 4096,
       "is_moderated": false
     },
@@ -3531,6 +3558,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3579,6 +3607,7 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0.0000258",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000025",
@@ -3626,6 +3655,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3670,6 +3700,7 @@
       "completion": "0.0000003",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3716,6 +3747,7 @@
       "completion": "0.0000025",
       "request": "0",
       "image": "0.001238",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000075",
@@ -3766,6 +3798,7 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000025",
@@ -3816,6 +3849,7 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000025",
@@ -3866,6 +3900,7 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0.00516",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000031",
@@ -3916,6 +3951,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3963,6 +3999,7 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0.00516",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000031",
@@ -4013,6 +4050,7 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0.00516",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000031",
@@ -4063,6 +4101,7 @@
       "completion": "0.0000003",
       "request": "0",
       "image": "0.00004",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000001875",
@@ -4113,6 +4152,7 @@
       "completion": "0.00000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000001",
@@ -4163,6 +4203,7 @@
       "completion": "0.000005",
       "request": "0",
       "image": "0.0006575",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4210,6 +4251,7 @@
       "completion": "0.00000065",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4258,6 +4300,7 @@
       "completion": "0.000000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4308,6 +4351,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4358,6 +4402,7 @@
       "completion": "0.00000003",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4409,6 +4454,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4461,6 +4507,7 @@
       "completion": "0.00000017",
       "request": "0",
       "image": "0.0000256",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4512,6 +4559,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4564,6 +4612,7 @@
       "completion": "0.00000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4613,6 +4662,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4655,6 +4705,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4699,6 +4750,7 @@
       "completion": "0.00000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4746,6 +4798,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4790,6 +4843,7 @@
       "completion": "0.00000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4840,6 +4894,7 @@
       "completion": "0.000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4880,6 +4935,7 @@
       "completion": "0.000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4920,6 +4976,7 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4966,6 +5023,7 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5006,6 +5064,7 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5046,6 +5105,7 @@
       "completion": "0.00000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5092,6 +5152,7 @@
       "completion": "0.00000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5142,6 +5203,7 @@
       "completion": "0.00000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5192,6 +5254,7 @@
       "completion": "0.0000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5240,6 +5303,7 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5253,19 +5317,19 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "tools",
+      "tool_choice",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "top_k",
       "repetition_penalty",
-      "logit_bias",
-      "min_p",
       "response_format",
-      "top_logprobs",
-      "logprobs",
+      "top_k",
       "seed",
-      "tools",
-      "tool_choice"
+      "min_p",
+      "logit_bias",
+      "top_logprobs",
+      "logprobs"
     ]
   },
   {
@@ -5292,6 +5356,7 @@
       "completion": "0.00000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5313,11 +5378,11 @@
       "stop",
       "min_p",
       "logit_bias",
-      "tools",
-      "tool_choice",
       "response_format",
       "top_logprobs",
-      "logprobs"
+      "logprobs",
+      "tools",
+      "tool_choice"
     ]
   },
   {
@@ -5344,6 +5409,7 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5393,6 +5459,7 @@
       "completion": "0.0000008",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5411,15 +5478,15 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "top_k",
       "repetition_penalty",
       "response_format",
+      "top_k",
+      "seed",
+      "min_p",
       "structured_outputs",
       "logit_bias",
       "logprobs",
-      "top_logprobs",
-      "min_p",
-      "seed"
+      "top_logprobs"
     ]
   },
   {
@@ -5446,6 +5513,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5491,6 +5559,7 @@
       "completion": "0.00000028",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5504,16 +5573,16 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "tools",
-      "tool_choice",
-      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "repetition_penalty",
-      "top_k",
       "seed",
+      "top_k",
       "min_p",
+      "repetition_penalty",
+      "tools",
+      "tool_choice",
+      "response_format",
       "logit_bias",
       "logprobs",
       "top_logprobs",
@@ -5544,6 +5613,7 @@
       "completion": "0.00000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5559,18 +5629,18 @@
       "top_p",
       "tools",
       "tool_choice",
+      "structured_outputs",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "seed",
-      "logit_bias",
-      "logprobs",
-      "top_logprobs",
-      "response_format",
-      "min_p",
       "repetition_penalty",
       "top_k",
-      "structured_outputs"
+      "seed",
+      "min_p",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs"
     ]
   },
   {
@@ -5598,6 +5668,7 @@
       "completion": "0.000000049",
       "request": "0",
       "image": "0.00007948",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5651,6 +5722,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5698,6 +5770,7 @@
       "completion": "0.00000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5747,6 +5820,7 @@
       "completion": "0.000000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5799,6 +5873,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5843,6 +5918,7 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0.001734",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5891,6 +5967,7 @@
       "completion": "0.00000012",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5904,17 +5981,17 @@
       "max_tokens",
       "temperature",
       "top_p",
+      "structured_outputs",
+      "response_format",
+      "seed",
       "tools",
       "tool_choice",
       "stop",
       "frequency_penalty",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "top_k",
-      "seed",
       "min_p",
-      "structured_outputs",
       "logit_bias",
       "logprobs",
       "top_logprobs"
@@ -5944,6 +6021,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5994,6 +6072,7 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0.0006684",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6048,6 +6127,7 @@
       "completion": "0.0000003",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6101,6 +6181,7 @@
       "completion": "0.0000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6148,6 +6229,7 @@
       "completion": "0.00000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6199,6 +6281,7 @@
       "completion": "0.00000005",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6249,6 +6332,7 @@
       "completion": "0.000000302",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6300,6 +6384,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6351,6 +6436,7 @@
       "completion": "0.000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6392,6 +6478,7 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6433,6 +6520,7 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6474,6 +6562,7 @@
       "completion": "0.00000014",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6526,6 +6615,7 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0.00017685",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6573,6 +6663,7 @@
       "completion": "0.00000035",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6622,6 +6713,7 @@
       "completion": "0.00000048",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6671,6 +6763,7 @@
       "completion": "0.0000011",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6710,6 +6803,7 @@
       "completion": "0.00000165",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6762,6 +6856,7 @@
       "completion": "0.0000009",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6809,6 +6904,7 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6856,6 +6952,7 @@
       "completion": "0.00000028",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6906,6 +7003,7 @@
       "completion": "0.00000003",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6959,6 +7057,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7010,6 +7109,7 @@
       "completion": "0.000005",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7059,6 +7159,7 @@
       "completion": "0.000005",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7108,6 +7209,7 @@
       "completion": "0.0000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7157,6 +7259,7 @@
       "completion": "0.00000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7204,6 +7307,7 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7251,6 +7355,7 @@
       "completion": "0.000000054",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7302,6 +7407,7 @@
       "completion": "0.00000019",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7352,6 +7458,7 @@
       "completion": "0.0000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7399,6 +7506,7 @@
       "completion": "0.000000054",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7450,6 +7558,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7499,6 +7608,7 @@
       "completion": "0.000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7546,6 +7656,7 @@
       "completion": "0.000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7593,6 +7704,7 @@
       "completion": "0.000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7641,6 +7753,7 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7688,6 +7801,7 @@
       "completion": "0.00000005",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7741,6 +7855,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7790,6 +7905,7 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7840,6 +7956,7 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7887,6 +8004,7 @@
       "completion": "0.00000003",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7940,6 +8058,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7990,6 +8109,7 @@
       "completion": "0.000000027",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8044,6 +8164,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8098,6 +8219,7 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8151,6 +8273,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8203,6 +8326,7 @@
       "completion": "0.00000025",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8250,6 +8374,7 @@
       "completion": "0.0000009",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8302,6 +8427,7 @@
       "completion": "0.00000024",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8353,6 +8479,7 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0.0001445",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8407,6 +8534,7 @@
       "completion": "0.000006",
       "request": "0",
       "image": "0.002888",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8454,6 +8582,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8488,7 +8617,7 @@
     "name": "MoonshotAI: Kimi K2",
     "created": 1752263252,
     "description": "Kimi K2 Instruct is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It is optimized for agentic capabilities, including advanced tool use, reasoning, and code synthesis. Kimi K2 excels across a broad range of benchmarks, particularly in coding (LiveCodeBench, SWE-bench), reasoning (ZebraLogic, GPQA), and tool-use (Tau2, AceBench) tasks. It supports long-context inference up to 128K tokens and is designed with a novel training stack that includes the MuonClip optimizer for stable large-scale MoE training.",
-    "context_length": 131072,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8501,15 +8630,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000013",
-      "completion": "0.00000013",
+      "prompt": "0.0000000878",
+      "completion": "0.0000000878",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -8541,7 +8671,7 @@
     "name": "MoonshotAI: Kimi K2 (free)",
     "created": 1752263252,
     "description": "Kimi K2 Instruct is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It is optimized for agentic capabilities, including advanced tool use, reasoning, and code synthesis. Kimi K2 excels across a broad range of benchmarks, particularly in coding (LiveCodeBench, SWE-bench), reasoning (ZebraLogic, GPQA), and tool-use (Tau2, AceBench) tasks. It supports long-context inference up to 128K tokens and is designed with a novel training stack that includes the MuonClip optimizer for stable large-scale MoE training.",
-    "context_length": 131072,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8558,11 +8688,12 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -8610,6 +8741,7 @@
       "completion": "0.000000038",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8662,6 +8794,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8713,6 +8846,7 @@
       "completion": "0.0000027",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8748,6 +8882,7 @@
       "completion": "0.0000027",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8783,6 +8918,7 @@
       "completion": "0.0000027",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8818,6 +8954,7 @@
       "completion": "0.000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8864,6 +9001,7 @@
       "completion": "0.000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8914,6 +9052,7 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8962,6 +9101,7 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9008,6 +9148,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9057,6 +9198,7 @@
       "completion": "0.000000141",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9108,6 +9250,7 @@
       "completion": "0.00000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9158,6 +9301,7 @@
       "completion": "0.0000008",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9208,6 +9352,7 @@
       "completion": "0.00000028",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9261,6 +9406,7 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9308,6 +9454,7 @@
       "completion": "0.0000003",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9360,6 +9507,7 @@
       "completion": "0.0000018",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9409,6 +9557,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9458,6 +9607,7 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9506,6 +9656,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.007225",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9555,6 +9706,7 @@
       "completion": "0.000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000375"
@@ -9598,6 +9750,7 @@
       "completion": "0.0000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9647,6 +9800,7 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9697,6 +9851,7 @@
       "completion": "0.000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9746,6 +9901,7 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9793,6 +9949,7 @@
       "completion": "0.00006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9842,6 +9999,7 @@
       "completion": "0.00006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9892,6 +10050,7 @@
       "completion": "0.00003",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9943,6 +10102,7 @@
       "completion": "0.00003",
       "request": "0",
       "image": "0.01445",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9992,6 +10152,7 @@
       "completion": "0.00003",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -10044,6 +10205,7 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000005"
@@ -10098,6 +10260,7 @@
       "completion": "0.0000016",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000001"
@@ -10152,6 +10315,7 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000025"
@@ -10205,6 +10369,7 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0.003613",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000125"
@@ -10259,6 +10424,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.007225",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -10312,6 +10478,7 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0.003613",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000125"
@@ -10366,6 +10533,7 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0.003613",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000125"
@@ -10420,6 +10588,7 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0.000217",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000075"
@@ -10474,6 +10643,7 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0.007225",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000075"
@@ -10526,6 +10696,7 @@
       "completion": "0.0000006",
       "request": "0.0275",
       "image": "0.000217",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -10566,6 +10737,7 @@
       "completion": "0.00001",
       "request": "0.035",
       "image": "0.003613",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -10608,6 +10780,7 @@
       "completion": "0.000018",
       "request": "0",
       "image": "0.007225",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -10660,6 +10833,7 @@
       "completion": "0.00006",
       "request": "0",
       "image": "0.021675",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000075"
@@ -10703,6 +10877,7 @@
       "completion": "0.0000044",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000055"
@@ -10742,6 +10917,7 @@
       "completion": "0.0000044",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000055"
@@ -10781,6 +10957,7 @@
       "completion": "0.00006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000075"
@@ -10820,6 +10997,7 @@
       "completion": "0.00006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000075"
@@ -10860,6 +11038,7 @@
       "completion": "0.0006",
       "request": "0",
       "image": "0.21675",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -10902,6 +11081,7 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0.00153",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000005"
@@ -10945,6 +11125,7 @@
       "completion": "0.0000044",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000055"
@@ -10988,6 +11169,7 @@
       "completion": "0.0000044",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000055"
@@ -11033,6 +11215,7 @@
       "completion": "0.00008",
       "request": "0",
       "image": "0.0153",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11076,6 +11259,7 @@
       "completion": "0.0000044",
       "request": "0",
       "image": "0.0008415",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000275"
@@ -11121,6 +11305,7 @@
       "completion": "0.0000044",
       "request": "0",
       "image": "0.0008415",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000275"
@@ -11165,6 +11350,7 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11235,6 +11421,7 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11285,6 +11472,7 @@
       "completion": "0.000001",
       "request": "0.005",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11328,6 +11516,7 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0.005",
       "internal_reasoning": "0.000003"
     },
@@ -11373,6 +11562,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0.005",
       "internal_reasoning": "0"
     },
@@ -11416,6 +11606,7 @@
       "completion": "0.000005",
       "request": "0.005",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11462,6 +11653,7 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0.005",
       "internal_reasoning": "0"
     },
@@ -11507,6 +11699,7 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11553,6 +11746,7 @@
       "completion": "0.0000009",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11600,6 +11794,7 @@
       "completion": "0.000000101",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11653,6 +11848,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11702,6 +11898,7 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11718,12 +11915,12 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
+      "seed",
       "top_k",
+      "min_p",
       "repetition_penalty",
       "logit_bias",
-      "min_p",
-      "response_format",
-      "seed"
+      "response_format"
     ]
   },
   {
@@ -11750,6 +11947,7 @@
       "completion": "0.00000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11800,6 +11998,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11850,6 +12049,7 @@
       "completion": "0.0000002",
       "request": "0",
       "image": "0.0001445",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11899,6 +12099,7 @@
       "completion": "0.0000064",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000064"
@@ -11944,6 +12145,7 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000016"
@@ -11989,6 +12191,7 @@
       "completion": "0.0000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000002"
@@ -12035,6 +12238,7 @@
       "completion": "0.0000032",
       "request": "0",
       "image": "0.001024",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12078,6 +12282,7 @@
       "completion": "0.00000063",
       "request": "0",
       "image": "0.0002688",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12121,6 +12326,7 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12173,6 +12379,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12224,6 +12431,7 @@
       "completion": "0.00000075",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12275,6 +12483,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12321,6 +12530,7 @@
       "completion": "0.00000024",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12376,6 +12586,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12427,6 +12638,7 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12482,6 +12694,7 @@
       "completion": "0.00000059",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12535,6 +12748,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12584,6 +12798,7 @@
       "completion": "0.0000001179",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12638,6 +12853,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12693,6 +12909,7 @@
       "completion": "0.00000029",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12710,15 +12927,15 @@
       "tool_choice",
       "reasoning",
       "include_reasoning",
+      "structured_outputs",
       "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "repetition_penalty",
-      "top_k",
       "seed",
+      "top_k",
       "min_p",
-      "structured_outputs",
+      "repetition_penalty",
       "logit_bias",
       "logprobs",
       "top_logprobs"
@@ -12748,6 +12965,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12799,6 +13017,7 @@
       "completion": "0.000000027",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12854,6 +13073,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12903,6 +13123,7 @@
       "completion": "0.000000138",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12952,6 +13173,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13003,6 +13225,7 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13056,6 +13279,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13107,6 +13331,7 @@
       "completion": "0.00000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13160,6 +13385,7 @@
       "completion": "0.0000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13209,6 +13435,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13227,10 +13454,7 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "top_k",
-      "reasoning",
-      "include_reasoning",
-      "seed"
+      "top_k"
     ]
   },
   {
@@ -13257,6 +13481,7 @@
       "completion": "0.0000045",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13304,6 +13529,7 @@
       "completion": "0.000000013",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13355,6 +13581,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13406,6 +13633,7 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13452,6 +13680,7 @@
       "completion": "0.00000148",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13499,6 +13728,7 @@
       "completion": "0.00000005",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13547,6 +13777,7 @@
       "completion": "0.00000075",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13596,6 +13827,7 @@
       "completion": "0.00000075",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13645,6 +13877,7 @@
       "completion": "0.000000022",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13694,6 +13927,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13743,6 +13977,7 @@
       "completion": "0.00000088",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13790,6 +14025,7 @@
       "completion": "0.00000003",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13839,6 +14075,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13888,6 +14125,7 @@
       "completion": "0.0000008",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13935,6 +14173,7 @@
       "completion": "0.0000034",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13979,6 +14218,7 @@
       "completion": "0.00000003",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14030,6 +14270,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14081,6 +14322,7 @@
       "completion": "0.0000008",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14127,6 +14369,7 @@
       "completion": "0.000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14173,6 +14416,7 @@
       "completion": "0.0000005",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14225,6 +14469,7 @@
       "completion": "0.00000001512",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14276,6 +14521,7 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14328,6 +14574,7 @@
       "completion": "0.000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14376,6 +14623,7 @@
       "completion": "0.00000024",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14423,6 +14671,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14473,6 +14722,7 @@
       "completion": "0.000000138",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14522,6 +14772,7 @@
       "completion": "0.00000003",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14573,6 +14824,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14624,6 +14876,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14675,6 +14928,7 @@
       "completion": "0.000000302",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14726,6 +14980,7 @@
       "completion": "0",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14777,6 +15032,7 @@
       "completion": "0.000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14827,6 +15083,7 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14873,6 +15130,7 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14922,6 +15180,7 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0.0036",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14968,6 +15227,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000075"
@@ -15018,6 +15278,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000075"
@@ -15067,6 +15328,7 @@
       "completion": "0.0000005",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000075"
@@ -15117,6 +15379,7 @@
       "completion": "0.0000005",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000075"
@@ -15167,6 +15430,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000075"
@@ -15217,6 +15481,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.009",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -15263,6 +15528,7 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -15287,7 +15553,7 @@
     "name": "Z.AI: GLM 4.5",
     "created": 1753471347,
     "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications. It leverages a Mixture-of-Experts (MoE) architecture and supports a context length of up to 128k tokens. GLM-4.5 delivers significantly enhanced capabilities in reasoning, code generation, and agent alignment. It supports a hybrid inference mode with two options, a \"thinking mode\" designed for complex reasoning and tool use, and a \"non-thinking mode\" optimized for instant responses. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -15300,17 +15566,17 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000006",
-      "completion": "0.0000022",
+      "prompt": "0.0000002",
+      "completion": "0.0000002",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.00000011"
+      "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 96000,
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -15321,7 +15587,18 @@
       "tools",
       "tool_choice",
       "reasoning",
-      "include_reasoning"
+      "include_reasoning",
+      "frequency_penalty",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "top_k",
+      "response_format",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
     ]
   },
   {
@@ -15348,6 +15625,7 @@
       "completion": "0.0000011",
       "request": "0",
       "image": "0",
+      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000003"
@@ -15365,7 +15643,67 @@
       "tools",
       "tool_choice",
       "reasoning",
-      "include_reasoning"
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "top_k",
+      "seed",
+      "min_p"
+    ]
+  },
+  {
+    "id": "z-ai/glm-4.5-air:free",
+    "canonical_slug": "z-ai/glm-4.5-air",
+    "hugging_face_id": "zai-org/GLM-4.5-Air",
+    "name": "Z.AI: GLM 4.5 Air (free)",
+    "created": 1753471258,
+    "description": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications. Like GLM-4.5, it adopts the Mixture-of-Experts (MoE) architecture but with a more compact parameter size. GLM-4.5-Air also supports hybrid inference modes, offering a \"thinking mode\" for advanced reasoning and tool use, and a \"non-thinking mode\" for real-time interaction. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "audio": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "reasoning",
+      "include_reasoning",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "logprobs",
+      "logit_bias",
+      "top_logprobs"
     ]
   }
 ]
