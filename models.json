@@ -8650,16 +8650,16 @@
       "top_p",
       "tools",
       "tool_choice",
+      "structured_outputs",
+      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "repetition_penalty",
-      "response_format",
       "top_k",
-      "seed",
-      "min_p",
-      "structured_outputs",
+      "repetition_penalty",
       "logit_bias",
+      "min_p",
+      "seed",
       "logprobs",
       "top_logprobs"
     ]
@@ -9035,7 +9035,7 @@
     "name": "Noromaid 20B",
     "created": 1700956800,
     "description": "A collab between IkariDev and Undi. This merge is suitable for RP, ERP, and general knowledge.\n\n#merge #uncensored",
-    "context_length": 8192,
+    "context_length": 4096,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -9048,8 +9048,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.00000125",
-      "completion": "0.000002",
+      "prompt": "0.000001",
+      "completion": "0.00000175",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -9057,8 +9057,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 2048,
+      "context_length": 4096,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9069,6 +9069,8 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
+      "response_format",
+      "structured_outputs",
       "repetition_penalty",
       "logit_bias",
       "top_k",
@@ -9267,11 +9269,12 @@
       "stop",
       "frequency_penalty",
       "presence_penalty",
+      "response_format",
+      "structured_outputs",
       "seed",
       "logit_bias",
       "logprobs",
       "top_logprobs",
-      "response_format",
       "min_p",
       "repetition_penalty",
       "top_k"
@@ -11398,6 +11401,49 @@
     "supported_parameters": []
   },
   {
+    "id": "openrouter/horizon-alpha",
+    "canonical_slug": "openrouter/horizon-alpha",
+    "hugging_face_id": "",
+    "name": "Horizon Alpha",
+    "created": 1753913884,
+    "description": "This is a cloaked model provided to the community to gather feedback.\n\nNote: It’s free to use during this testing period, and prompts and completions are logged by the model creator for feedback and training.",
+    "context_length": 256000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "audio": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 256000,
+      "max_completion_tokens": 128000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "tool_choice",
+      "tools",
+      "response_format",
+      "structured_outputs"
+    ]
+  },
+  {
     "id": "perplexity/r1-1776",
     "canonical_slug": "perplexity/r1-1776",
     "hugging_face_id": "perplexity-ai/r1-1776",
@@ -12690,8 +12736,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000012",
-      "completion": "0.00000059",
+      "prompt": "0.0000001179",
+      "completion": "0.0000001179",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -12700,7 +12746,7 @@
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12721,56 +12767,6 @@
       "structured_outputs",
       "logit_bias",
       "logprobs",
-      "top_logprobs"
-    ]
-  },
-  {
-    "id": "qwen/qwen3-235b-a22b-2507:free",
-    "canonical_slug": "qwen/qwen3-235b-a22b-07-25",
-    "hugging_face_id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
-    "name": "Qwen: Qwen3 235B A22B Instruct 2507 (free)",
-    "created": 1753119555,
-    "description": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass. It is optimized for general-purpose text generation, including instruction following, logical reasoning, math, code, and tool usage. The model supports a native 262K context length and does not implement \"thinking mode\" (<think> blocks).\n\nCompared to its base variant, this version delivers significant gains in knowledge coverage, long-context reasoning, coding benchmarks, and alignment with open-ended tasks. It is particularly strong on multilingual understanding, math reasoning (e.g., AIME, HMMT), and alignment evaluations like Arena-Hard and WritingBench.",
-    "context_length": 262144,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen3",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "audio": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 262144,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "stop",
-      "frequency_penalty",
-      "presence_penalty",
-      "seed",
-      "top_k",
-      "min_p",
-      "repetition_penalty",
-      "logprobs",
-      "logit_bias",
       "top_logprobs"
     ]
   },
@@ -12939,6 +12935,49 @@
       "logit_bias",
       "logprobs",
       "top_logprobs"
+    ]
+  },
+  {
+    "id": "qwen/qwen3-30b-a3b-instruct-2507",
+    "canonical_slug": "qwen/qwen3-30b-a3b-instruct-2507",
+    "hugging_face_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+    "created": 1753806965,
+    "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and agentic tool use. Post-trained on instruction data, it demonstrates competitive performance across reasoning (AIME, ZebraLogic), coding (MultiPL-E, LiveCodeBench), and alignment (IFEval, WritingBench) benchmarks. It outperforms its non-instruct variant on subjective and open-ended tasks while retaining strong factual and coding performance.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.0000008",
+      "request": "0",
+      "image": "0",
+      "audio": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "response_format",
+      "presence_penalty"
     ]
   },
   {
@@ -14305,7 +14344,7 @@
     "name": "TheDrummer: Anubis 70B V1.1",
     "created": 1751208347,
     "description": "TheDrummer's Anubis v1.1 is an unaligned, creative Llama 3.3 70B model focused on providing character-driven roleplay & stories. It excels at gritty, visceral prose, unique character adherence, and coherent narratives, while maintaining the instruction following Llama 3.3 70B is known for.",
-    "context_length": 131072,
+    "context_length": 16384,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -14318,8 +14357,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.0000008",
+      "prompt": "0.0000004",
+      "completion": "0.0000007",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -14327,8 +14366,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "context_length": 16384,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14342,7 +14381,9 @@
       "repetition_penalty",
       "seed",
       "stop",
-      "top_k"
+      "top_k",
+      "response_format",
+      "structured_outputs"
     ]
   },
   {
@@ -14452,7 +14493,7 @@
     "name": "TheDrummer: Skyfall 36B V2",
     "created": 1741636566,
     "description": "Skyfall 36B v2 is an enhanced iteration of Mistral Small 2501, specifically fine-tuned for improved creativity, nuanced writing, role-playing, and coherent storytelling.",
-    "context_length": 16384,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -14465,8 +14506,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000001512",
-      "completion": "0.00000001512",
+      "prompt": "0.0000000728",
+      "completion": "0.0000000728",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -14474,7 +14515,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 16384,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -15588,14 +15629,14 @@
       "tool_choice",
       "reasoning",
       "include_reasoning",
+      "stop",
       "frequency_penalty",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "seed",
-      "stop",
-      "top_k",
       "response_format",
+      "top_k",
+      "seed",
+      "min_p",
       "logprobs",
       "logit_bias",
       "top_logprobs"
