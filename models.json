@@ -7926,10 +7926,7 @@
       "presence_penalty",
       "response_format",
       "structured_outputs",
-      "seed",
-      "top_logprobs",
-      "logprobs",
-      "logit_bias"
+      "seed"
     ]
   },
   {
@@ -10937,86 +10934,6 @@
     ]
   },
   {
-    "id": "openai/o1-preview",
-    "canonical_slug": "openai/o1-preview",
-    "hugging_face_id": null,
-    "name": "OpenAI: o1-preview",
-    "created": 1726099200,
-    "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding.\n\nThe o1 models are optimized for math, science, programming, and other STEM-related tasks. They consistently exhibit PhD-level accuracy on benchmarks in physics, chemistry, and biology. Learn more in the [launch announcement](https://openai.com/o1).\n\nNote: This model is currently experimental and not suitable for production use-cases, and may be heavily rate-limited.",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "GPT",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000015",
-      "completion": "0.00006",
-      "request": "0",
-      "image": "0",
-      "audio": "0",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.0000075"
-    },
-    "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 32768,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "seed",
-      "max_tokens"
-    ]
-  },
-  {
-    "id": "openai/o1-preview-2024-09-12",
-    "canonical_slug": "openai/o1-preview-2024-09-12",
-    "hugging_face_id": null,
-    "name": "OpenAI: o1-preview (2024-09-12)",
-    "created": 1726099200,
-    "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding.\n\nThe o1 models are optimized for math, science, programming, and other STEM-related tasks. They consistently exhibit PhD-level accuracy on benchmarks in physics, chemistry, and biology. Learn more in the [launch announcement](https://openai.com/o1).\n\nNote: This model is currently experimental and not suitable for production use-cases, and may be heavily rate-limited.",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "GPT",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000015",
-      "completion": "0.00006",
-      "request": "0",
-      "image": "0",
-      "audio": "0",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.0000075"
-    },
-    "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 32768,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "seed",
-      "max_tokens"
-    ]
-  },
-  {
     "id": "openai/o1-pro",
     "canonical_slug": "openai/o1-pro",
     "hugging_face_id": "",
@@ -12711,9 +12628,9 @@
       "top_k",
       "min_p",
       "repetition_penalty",
+      "logit_bias",
       "logprobs",
-      "top_logprobs",
-      "logit_bias"
+      "top_logprobs"
     ]
   },
   {
