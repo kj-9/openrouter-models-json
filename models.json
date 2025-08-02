@@ -320,7 +320,7 @@
     "name": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
     "created": 1744641874,
     "description": "A finetuned 7 billion parameters Code LLaMA - Instruct model to generate Solidity smart contract using 4-bit QLoRA finetuning provided by PEFT library.",
-    "context_length": 4096,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -333,8 +333,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000012",
+      "prompt": "0.0000006",
+      "completion": "0.000001",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -342,8 +342,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 4096,
+      "context_length": 8192,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -351,13 +351,13 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "stop",
       "frequency_penalty",
+      "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "top_k",
-      "min_p",
-      "seed"
+      "seed",
+      "stop",
+      "top_k"
     ]
   },
   {
@@ -810,53 +810,6 @@
       "internal_reasoning": "0",
       "input_cache_read": "0.0000015",
       "input_cache_write": "0.00001875"
-    },
-    "top_provider": {
-      "context_length": 200000,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p",
-      "tools",
-      "tool_choice",
-      "top_k",
-      "stop"
-    ]
-  },
-  {
-    "id": "anthropic/claude-3-sonnet",
-    "canonical_slug": "anthropic/claude-3-sonnet",
-    "hugging_face_id": null,
-    "name": "Anthropic: Claude 3 Sonnet",
-    "created": 1709596800,
-    "description": "Claude 3 Sonnet is an ideal balance of intelligence and speed for enterprise workloads. Maximum utility at a lower price, dependable, balanced for scaled deployments.\n\nSee the launch announcement and benchmark results [here](https://www.anthropic.com/news/claude-3-family)\n\n#multimodal",
-    "context_length": 200000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Claude",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000003",
-      "completion": "0.000015",
-      "request": "0",
-      "image": "0.0048",
-      "audio": "0",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.0000003",
-      "input_cache_write": "0.00000375"
     },
     "top_provider": {
       "context_length": 200000,
@@ -3594,7 +3547,8 @@
       "input_modalities": [
         "text",
         "image",
-        "file"
+        "file",
+        "audio"
       ],
       "output_modalities": [
         "text"
@@ -3607,7 +3561,7 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0.0000258",
-      "audio": "0",
+      "audio": "0.0000007",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000025",
@@ -3734,7 +3688,8 @@
       "input_modalities": [
         "file",
         "image",
-        "text"
+        "text",
+        "audio"
       ],
       "output_modalities": [
         "text"
@@ -3785,7 +3740,8 @@
       "input_modalities": [
         "file",
         "image",
-        "text"
+        "text",
+        "audio"
       ],
       "output_modalities": [
         "text"
@@ -4959,7 +4915,7 @@
     "name": "Infermatic: Mistral Nemo Inferor 12B",
     "created": 1731464428,
     "description": "Inferor 12B is a merge of top roleplay models, expert on immersive narratives and storytelling.\n\nThis model was merged using the [Model Stock](https://arxiv.org/abs/2403.19522) merge method using [anthracite-org/magnum-v4-12b](https://openrouter.ai/anthracite-org/magnum-v4-72b) as a base.\n",
-    "context_length": 16384,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -4972,8 +4928,8 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000012",
+      "prompt": "0.0000006",
+      "completion": "0.000001",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -4981,8 +4937,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 16384,
-      "max_completion_tokens": 4096,
+      "context_length": 8192,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -4990,13 +4946,13 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "stop",
       "frequency_penalty",
+      "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "top_k",
-      "min_p",
-      "seed"
+      "seed",
+      "stop",
+      "top_k"
     ]
   },
   {
@@ -6881,6 +6837,54 @@
     ]
   },
   {
+    "id": "mistralai/codestral-2508",
+    "canonical_slug": "mistralai/codestral-2508",
+    "hugging_face_id": "",
+    "name": "Mistral: Codestral 2508",
+    "created": 1754079630,
+    "description": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](https://mistral.ai/news/codestral-25-08)",
+    "context_length": 256000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Mistral",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000009",
+      "request": "0",
+      "image": "0",
+      "audio": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 256000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "tools",
+      "tool_choice",
+      "structured_outputs",
+      "response_format",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed"
+    ]
+  },
+  {
     "id": "mistralai/devstral-medium",
     "canonical_slug": "mistralai/devstral-medium-2507",
     "hugging_face_id": "",
@@ -8647,16 +8651,16 @@
       "top_p",
       "tools",
       "tool_choice",
-      "structured_outputs",
-      "response_format",
       "stop",
       "frequency_penalty",
       "presence_penalty",
-      "top_k",
       "repetition_penalty",
-      "logit_bias",
-      "min_p",
+      "response_format",
+      "top_k",
       "seed",
+      "min_p",
+      "structured_outputs",
+      "logit_bias",
       "logprobs",
       "top_logprobs"
     ]
@@ -8820,49 +8824,13 @@
     ]
   },
   {
-    "id": "morph/morph-v2",
-    "canonical_slug": "morph/morph-v2",
-    "hugging_face_id": "",
-    "name": "Morph: Fast Apply",
-    "created": 1750946108,
-    "description": "Morph Apply is a specialized code-patching LLM that merges AI-suggested edits straight into your source files. It can apply updates from GPT-4o, Claude, and others into your files at 4000+ tokens per second.\n\nThe model requires the prompt to be in the following format: \n<code>${originalCode}</code>\\n<update>${updateSnippet}</update>\n\nLearn more about this model in their [documentation](https://docs.morphllm.com/)",
-    "context_length": 32000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000012",
-      "completion": "0.0000027",
-      "request": "0",
-      "image": "0",
-      "audio": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32000,
-      "max_completion_tokens": 16000,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": []
-  },
-  {
     "id": "morph/morph-v3-fast",
     "canonical_slug": "morph/morph-v3-fast",
     "hugging_face_id": "",
     "name": "Morph: Morph V3 Fast",
     "created": 1751910002,
     "description": "Morph's fastest apply model for code edits. 4500+ tokens/sec with 96% accuracy for rapid code transformations.",
-    "context_length": 32000,
+    "context_length": 81920,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8875,8 +8843,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000012",
-      "completion": "0.0000027",
+      "prompt": "0.0000009",
+      "completion": "0.0000019",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -8884,12 +8852,16 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32000,
-      "max_completion_tokens": 16000,
+      "context_length": 81920,
+      "max_completion_tokens": 38000,
       "is_moderated": false
     },
     "per_request_limits": null,
-    "supported_parameters": []
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p"
+    ]
   },
   {
     "id": "morph/morph-v3-large",
@@ -8898,7 +8870,7 @@
     "name": "Morph: Morph V3 Large",
     "created": 1751910858,
     "description": "Morph's high-accuracy apply model for complex code edits. 2000+ tokens/sec with 98% accuracy for precise code transformations.",
-    "context_length": 32000,
+    "context_length": 81920,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8911,8 +8883,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000012",
-      "completion": "0.0000027",
+      "prompt": "0.0000009",
+      "completion": "0.0000019",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -8920,12 +8892,16 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32000,
-      "max_completion_tokens": 16000,
+      "context_length": 81920,
+      "max_completion_tokens": 38000,
       "is_moderated": false
     },
     "per_request_limits": null,
-    "supported_parameters": []
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p"
+    ]
   },
   {
     "id": "neversleep/llama-3-lumimaid-70b",
@@ -8981,7 +8957,7 @@
     "name": "NeverSleep: Lumimaid v0.2 8B",
     "created": 1726358400,
     "description": "Lumimaid v0.2 8B is a finetune of [Llama 3.1 8B](/models/meta-llama/llama-3.1-8b-instruct) with a \"HUGE step up dataset wise\" compared to Lumimaid v0.1. Sloppy chats output were purged.\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 32768,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8994,8 +8970,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000018",
-      "completion": "0.000001",
+      "prompt": "0.0000001",
+      "completion": "0.0000009",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -9003,8 +8979,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
+      "context_length": 8192,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9017,10 +8993,10 @@
       "presence_penalty",
       "response_format",
       "structured_outputs",
-      "repetition_penalty",
-      "top_k",
       "min_p",
+      "repetition_penalty",
       "seed",
+      "top_k",
       "logit_bias",
       "top_a"
     ]
@@ -11361,6 +11337,49 @@
     ]
   },
   {
+    "id": "openrouter/horizon-beta",
+    "canonical_slug": "openrouter/horizon-beta",
+    "hugging_face_id": "",
+    "name": "Horizon Beta",
+    "created": 1754089419,
+    "description": "This is a cloaked model provided to the community to gather feedback. This is an improved version of [Horizon Alpha](/openrouter/horizon-alpha)\n\nNote: It’s free to use during this testing period, and prompts and completions are logged by the model creator for feedback and training.",
+    "context_length": 256000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "audio": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 256000,
+      "max_completion_tokens": 128000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "tool_choice",
+      "tools",
+      "response_format",
+      "structured_outputs"
+    ]
+  },
+  {
     "id": "perplexity/r1-1776",
     "canonical_slug": "perplexity/r1-1776",
     "hugging_face_id": "perplexity-ai/r1-1776",
@@ -11658,8 +11677,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000012",
+      "prompt": "0.0000006",
+      "completion": "0.000001",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -11676,13 +11695,13 @@
       "max_tokens",
       "temperature",
       "top_p",
-      "stop",
       "frequency_penalty",
+      "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "top_k",
-      "min_p",
-      "seed"
+      "seed",
+      "stop",
+      "top_k"
     ]
   },
   {
@@ -11844,7 +11863,7 @@
     "name": "Qwen2.5 7B Instruct",
     "created": 1729036800,
     "description": "Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:\n\n- Significantly more knowledge and has greatly improved capabilities in coding and mathematics, thanks to our specialized expert models in these domains.\n\n- Significant improvements in instruction following, generating long texts (over 8K tokens), understanding structured data (e.g, tables), and generating structured outputs especially JSON. More resilient to the diversity of system prompts, enhancing role-play implementation and condition-setting for chatbots.\n\n- Long-context Support up to 128K tokens and can generate up to 8K tokens.\n\n- Multilingual support for over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
-    "context_length": 32768,
+    "context_length": 65536,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -11866,8 +11885,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": 16384,
+      "context_length": 65536,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -11883,7 +11902,8 @@
       "min_p",
       "repetition_penalty",
       "logit_bias",
-      "response_format"
+      "response_format",
+      "structured_outputs"
     ]
   },
   {
@@ -14357,7 +14377,7 @@
     "name": "TheDrummer: Rocinante 12B",
     "created": 1727654400,
     "description": "Rocinante 12B is designed for engaging storytelling and rich prose.\n\nEarly testers have reported:\n- Expanded vocabulary with unique and expressive word choices\n- Enhanced creativity for vivid narratives\n- Adventure-filled and captivating stories",
-    "context_length": 32768,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -14370,8 +14390,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000005",
+      "prompt": "0.00000019",
+      "completion": "0.00000045",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -14379,8 +14399,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
+      "context_length": 8192,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14393,14 +14413,14 @@
       "presence_penalty",
       "response_format",
       "structured_outputs",
+      "min_p",
+      "repetition_penalty",
+      "seed",
+      "top_k",
       "tools",
       "tool_choice",
       "logit_bias",
-      "logprobs",
-      "seed",
-      "repetition_penalty",
-      "top_k",
-      "min_p"
+      "logprobs"
     ]
   },
   {
@@ -15566,7 +15586,7 @@
     "name": "Z.AI: GLM 4.5 Air",
     "created": 1753471258,
     "description": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications. Like GLM-4.5, it adopts the Mixture-of-Experts (MoE) architecture but with a more compact parameter size. GLM-4.5-Air also supports hybrid inference modes, offering a \"thinking mode\" for advanced reasoning and tool use, and a \"non-thinking mode\" for real-time interaction. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -15579,18 +15599,17 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000002",
+      "prompt": "0.00000019",
       "completion": "0.0000011",
       "request": "0",
       "image": "0",
       "audio": "0",
       "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.00000003"
+      "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 96000,
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
