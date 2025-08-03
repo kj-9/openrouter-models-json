@@ -4833,7 +4833,7 @@
     "name": "Inception: Mercury",
     "created": 1750973026,
     "description": "Mercury is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like GPT-4.1 Nano and Claude 3.5 Haiku while matching their performance. Mercury's speed enables developers to provide responsive user experiences, including with voice agents, search interfaces, and chatbots. Read more in the blog post here. ",
-    "context_length": 32000,
+    "context_length": 128000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -4855,7 +4855,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32000,
+      "context_length": 128000,
       "max_completion_tokens": 16000,
       "is_moderated": false
     },
@@ -4874,7 +4874,7 @@
     "name": "Inception: Mercury Coder",
     "created": 1746033880,
     "description": "Mercury Coder is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like Claude 3.5 Haiku and GPT-4o Mini while matching their performance. Mercury Coder's speed means that developers can stay in the flow while coding, enjoying rapid chat-based iteration and responsive code completion suggestions. On Copilot Arena, Mercury Coder ranks 1st in speed and ties for 2nd in quality. Read more in the [blog post here](https://www.inceptionlabs.ai/introducing-mercury).",
-    "context_length": 32000,
+    "context_length": 128000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -4896,8 +4896,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32000,
-      "max_completion_tokens": null,
+      "context_length": 128000,
+      "max_completion_tokens": 32000,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -15566,14 +15566,14 @@
       "tool_choice",
       "reasoning",
       "include_reasoning",
-      "stop",
       "frequency_penalty",
+      "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
-      "top_k",
       "seed",
-      "min_p",
+      "stop",
+      "top_k",
+      "response_format",
       "logprobs",
       "logit_bias",
       "top_logprobs"
@@ -15586,7 +15586,7 @@
     "name": "Z.AI: GLM 4.5 Air",
     "created": 1753471258,
     "description": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications. Like GLM-4.5, it adopts the Mixture-of-Experts (MoE) architecture but with a more compact parameter size. GLM-4.5-Air also supports hybrid inference modes, offering a \"thinking mode\" for advanced reasoning and tool use, and a \"non-thinking mode\" for real-time interaction. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)",
-    "context_length": 131072,
+    "context_length": 128000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -15599,17 +15599,18 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000019",
+      "prompt": "0.0000002",
       "completion": "0.0000011",
       "request": "0",
       "image": "0",
       "audio": "0",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.00000003"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
+      "context_length": 128000,
+      "max_completion_tokens": 96000,
       "is_moderated": false
     },
     "per_request_limits": null,
