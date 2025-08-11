@@ -382,8 +382,8 @@
       "instruct_type": "airoboros"
     },
     "pricing": {
-      "prompt": "0.000009",
-      "completion": "0.000011",
+      "prompt": "0.00001",
+      "completion": "0.0000125",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -392,7 +392,7 @@
     },
     "top_provider": {
       "context_length": 6144,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 512,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -403,10 +403,8 @@
       "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_a",
       "top_k",
@@ -2200,7 +2198,7 @@
     "name": "Cohere: Command A",
     "created": 1741894342,
     "description": "Command A is an open-weights 111B parameter model with a 256k context window focused on delivering great performance across agentic, multilingual, and coding use cases.\nCompared to other leading proprietary and open-weights models Command A delivers maximum performance with minimum hardware costs, excelling on business-critical agentic and multilingual tasks.",
-    "context_length": 32768,
+    "context_length": 256000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2213,8 +2211,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000002",
-      "completion": "0.000008",
+      "prompt": "0.0000025",
+      "completion": "0.00001",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -2222,9 +2220,9 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
+      "context_length": 256000,
+      "max_completion_tokens": 8192,
+      "is_moderated": true
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -4316,8 +4314,8 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.00000065",
-      "completion": "0.00000065",
+      "prompt": "0.0000008",
+      "completion": "0.0000008",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -4326,7 +4324,7 @@
     },
     "top_provider": {
       "context_length": 8192,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -4337,9 +4335,7 @@
       "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_k",
       "top_p"
@@ -4916,7 +4912,7 @@
     },
     "top_provider": {
       "context_length": 4096,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -4930,7 +4926,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_a",
       "top_k",
@@ -6639,7 +6634,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000006",
+      "prompt": "0.00000007",
       "completion": "0.00000014",
       "request": "0",
       "image": "0",
@@ -6649,7 +6644,7 @@
     },
     "top_provider": {
       "context_length": 16384,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -6664,7 +6659,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_k",
       "top_logprobs",
@@ -7115,7 +7109,7 @@
     "name": "Mistral: Devstral Small 2505",
     "created": 1747837379,
     "description": "Devstral-Small-2505 is a 24B parameter agentic LLM fine-tuned from Mistral-Small-3.1, jointly developed by Mistral AI and All Hands AI for advanced software engineering tasks. It is optimized for codebase exploration, multi-file editing, and integration into coding agents, achieving state-of-the-art results on SWE-Bench Verified (46.8%).\n\nDevstral supports a 128k context window and uses a custom Tekken tokenizer. It is text-only, with the vision encoder removed, and is suitable for local deployment on high-end consumer hardware (e.g., RTX 4090, 32GB RAM Macs). Devstral is best used in agentic workflows via the OpenHands scaffold and is compatible with inference frameworks like vLLM, Transformers, and Ollama. It is released under the Apache 2.0 license.",
-    "context_length": 32768,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -7137,7 +7131,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -9113,10 +9107,8 @@
       "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_a",
       "top_k",
@@ -9130,7 +9122,7 @@
     "name": "Noromaid 20B",
     "created": 1700956800,
     "description": "A collab between IkariDev and Undi. This merge is suitable for RP, ERP, and general knowledge.\n\n#merge #uncensored",
-    "context_length": 4096,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -9143,8 +9135,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.00000175",
+      "prompt": "0.00000125",
+      "completion": "0.000002",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -9152,8 +9144,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": null,
+      "context_length": 8192,
+      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9164,10 +9156,8 @@
       "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_a",
       "top_k",
@@ -9321,7 +9311,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_k",
       "top_logprobs",
@@ -9424,7 +9413,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -11075,8 +11063,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000009",
-      "completion": "0.00000045",
+      "prompt": "0.00000007256312",
+      "completion": "0.0000002903936",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -12212,7 +12200,7 @@
     "name": "Qwen2.5 7B Instruct",
     "created": 1729036800,
     "description": "Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:\n\n- Significantly more knowledge and has greatly improved capabilities in coding and mathematics, thanks to our specialized expert models in these domains.\n\n- Significant improvements in instruction following, generating long texts (over 8K tokens), understanding structured data (e.g, tables), and generating structured outputs especially JSON. More resilient to the diversity of system prompts, enhancing role-play implementation and condition-setting for chatbots.\n\n- Long-context Support up to 128K tokens and can generate up to 8K tokens.\n\n- Multilingual support for over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
-    "context_length": 65536,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -12234,8 +12222,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 65536,
-      "max_completion_tokens": null,
+      "context_length": 32768,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12249,7 +12237,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_k",
       "top_p"
@@ -12869,7 +12856,7 @@
     },
     "top_provider": {
       "context_length": 40960,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 40960,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12886,7 +12873,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -13588,7 +13574,7 @@
     "name": "Qwen: Qwen3 Coder  (free)",
     "created": 1753230546,
     "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over repositories. The model features 480 billion total parameters, with 35 billion active per forward pass (8 out of 160 experts).\n\nPricing for the Alibaba endpoints varies by context length. Once a request is greater than 128k input tokens, the higher pricing is used.",
-    "context_length": 32000,
+    "context_length": 262144,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -13610,16 +13596,27 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32000,
-      "max_completion_tokens": 4000,
-      "is_moderated": true
+      "context_length": 262144,
+      "max_completion_tokens": null,
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "logprobs",
       "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
       "seed",
       "stop",
-      "temperature"
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
     ]
   },
   {
@@ -13669,7 +13666,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_k",
       "top_logprobs",
@@ -13976,7 +13972,7 @@
     "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
     "created": 1724803200,
     "description": "Euryale L3.1 70B v2.2 is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). It is the successor of [Euryale L3 70B v2.1](/models/sao10k/l3-euryale-70b).",
-    "context_length": 32768,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -13998,8 +13994,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
+      "context_length": 131072,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14013,7 +14009,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_k",
       "top_p"
@@ -14049,7 +14044,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14063,7 +14058,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_k",
       "top_p"
@@ -14470,7 +14464,7 @@
     "name": "TheDrummer: Anubis 70B V1.1",
     "created": 1751208347,
     "description": "TheDrummer's Anubis v1.1 is an unaligned, creative Llama 3.3 70B model focused on providing character-driven roleplay & stories. It excels at gritty, visceral prose, unique character adherence, and coherent narratives, while maintaining the instruction following Llama 3.3 70B is known for.",
-    "context_length": 16384,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -14483,8 +14477,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000004",
-      "completion": "0.0000007",
+      "prompt": "0.0000005",
+      "completion": "0.0000008",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -14492,8 +14486,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 16384,
-      "max_completion_tokens": null,
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14503,10 +14497,8 @@
       "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_k",
       "top_p"
@@ -14654,10 +14646,8 @@
       "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_k",
       "top_logprobs",
@@ -14671,7 +14661,7 @@
     "name": "TheDrummer: UnslopNemo 12B",
     "created": 1731103448,
     "description": "UnslopNemo v4.1 is the latest addition from the creator of Rocinante, designed for adventure writing and role-play scenarios.",
-    "context_length": 32768,
+    "context_length": 32000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -14693,8 +14683,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
+      "context_length": 32000,
+      "max_completion_tokens": 32000,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -15093,8 +15083,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.0000007",
-      "completion": "0.000001",
+      "prompt": "0.000001",
+      "completion": "0.0000015",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -15103,7 +15093,7 @@
     },
     "top_provider": {
       "context_length": 6144,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 1024,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -15114,10 +15104,8 @@
       "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_a",
       "top_k",
