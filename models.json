@@ -3469,7 +3469,8 @@
       "input_modalities": [
         "text",
         "image",
-        "file"
+        "file",
+        "audio"
       ],
       "output_modalities": [
         "text"
@@ -3602,6 +3603,7 @@
       "reasoning",
       "response_format",
       "seed",
+      "stop",
       "structured_outputs",
       "temperature",
       "tool_choice",
@@ -3622,7 +3624,8 @@
       "input_modalities": [
         "file",
         "image",
-        "text"
+        "text",
+        "audio"
       ],
       "output_modalities": [
         "text"
@@ -3674,7 +3677,8 @@
       "input_modalities": [
         "file",
         "image",
-        "text"
+        "text",
+        "audio"
       ],
       "output_modalities": [
         "text"
@@ -3774,7 +3778,8 @@
       "input_modalities": [
         "file",
         "image",
-        "text"
+        "text",
+        "audio"
       ],
       "output_modalities": [
         "text"
@@ -3826,7 +3831,8 @@
       "input_modalities": [
         "text",
         "image",
-        "file"
+        "file",
+        "audio"
       ],
       "output_modalities": [
         "text"
@@ -14491,55 +14497,6 @@
     ]
   },
   {
-    "id": "thedrummer/valkyrie-49b-v1",
-    "canonical_slug": "thedrummer/valkyrie-49b-v1",
-    "hugging_face_id": "TheDrummer/Valkyrie-49B-v1",
-    "name": "TheDrummer: Valkyrie 49B V1",
-    "created": 1748022670,
-    "description": "Built on top of NVIDIA's Llama 3.3 Nemotron Super 49B, Valkyrie is TheDrummer's newest model drop for creative writing.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000065",
-      "completion": "0.000001",
-      "request": "0",
-      "image": "0",
-      "audio": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ]
-  },
-  {
     "id": "thudm/glm-4-32b",
     "canonical_slug": "thudm/glm-4-32b-0414",
     "hugging_face_id": "THUDM/GLM-4-32B-0414",
@@ -15522,7 +15479,7 @@
     },
     "pricing": {
       "prompt": "0.0000005",
-      "completion": "0.0000018",
+      "completion": "0.0000017",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -15544,6 +15501,7 @@
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
       "temperature",
