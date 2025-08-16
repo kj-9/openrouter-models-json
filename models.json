@@ -1516,6 +1516,54 @@
     ]
   },
   {
+    "id": "baidu/ernie-4.5-21b-a3b",
+    "canonical_slug": "baidu/ernie-4.5-21b-a3b",
+    "hugging_face_id": "baidu/ERNIE-4.5-21B-A3B-PT",
+    "name": "Baidu: ERNIE 4.5 21B A3B",
+    "created": 1755034167,
+    "description": "A sophisticated text-based Mixture-of-Experts (MoE) model featuring 21B total parameters with 3B activated per token, delivering exceptional multimodal understanding and generation through heterogeneous MoE structures and modality-isolated routing. Supporting an extensive 131K token context length, the model achieves efficient inference via multi-expert parallel collaboration and quantization, while advanced post-training techniques including SFT, DPO, and UPO ensure optimized performance across diverse applications with specialized routing and balancing losses for superior task handling.",
+    "context_length": 120000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000007",
+      "completion": "0.00000028",
+      "request": "0",
+      "image": "0",
+      "audio": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 120000,
+      "max_completion_tokens": 8000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+    ]
+  },
+  {
     "id": "baidu/ernie-4.5-300b-a47b",
     "canonical_slug": "baidu/ernie-4.5-300b-a47b",
     "hugging_face_id": "baidu/ERNIE-4.5-300B-A47B-PT",
@@ -1555,6 +1603,57 @@
       "max_tokens",
       "min_p",
       "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+    ]
+  },
+  {
+    "id": "baidu/ernie-4.5-vl-28b-a3b",
+    "canonical_slug": "baidu/ernie-4.5-vl-28b-a3b",
+    "hugging_face_id": "baidu/ERNIE-4.5-VL-28B-A3B-PT",
+    "name": "Baidu: ERNIE 4.5 VL 28B A3B",
+    "created": 1755032836,
+    "description": "A powerful multimodal Mixture-of-Experts chat model featuring 28B total parameters with 3B activated per token, delivering exceptional text and vision understanding through its innovative heterogeneous MoE structure with modality-isolated routing. Built with scaling-efficient infrastructure for high-throughput training and inference, the model leverages advanced post-training techniques including SFT, DPO, and UPO for optimized performance, while supporting an impressive 131K context length and RLVR alignment for superior cross-modal reasoning and generation capabilities.",
+    "context_length": 30000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000014",
+      "completion": "0.00000056",
+      "request": "0",
+      "image": "0",
+      "audio": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 30000,
+      "max_completion_tokens": 8000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
       "repetition_penalty",
       "seed",
       "stop",
@@ -7275,53 +7374,6 @@
       "temperature",
       "tool_choice",
       "tools",
-      "top_k",
-      "top_p"
-    ]
-  },
-  {
-    "id": "mistralai/mistral-7b-instruct-v0.2",
-    "canonical_slug": "mistralai/mistral-7b-instruct-v0.2",
-    "hugging_face_id": "mistralai/Mistral-7B-Instruct-v0.2",
-    "name": "Mistral: Mistral 7B Instruct v0.2",
-    "created": 1703721600,
-    "description": "A high-performing, industry-standard 7.3B parameter model, with optimizations for speed and context length.\n\nAn improved version of [Mistral 7B Instruct](/modelsmistralai/mistral-7b-instruct-v0.1), with the following changes:\n\n- 32k context window (vs 8k context in v0.1)\n- Rope-theta = 1e6\n- No Sliding-Window Attention",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": "mistral"
-    },
-    "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000002",
-      "request": "0",
-      "image": "0",
-      "audio": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "stop",
-      "temperature",
       "top_k",
       "top_p"
     ]
@@ -15301,7 +15353,7 @@
     "name": "Z.AI: GLM 4.5",
     "created": 1753471347,
     "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications. It leverages a Mixture-of-Experts (MoE) architecture and supports a context length of up to 128k tokens. GLM-4.5 delivers significantly enhanced capabilities in reasoning, code generation, and agent alignment. It supports a hybrid inference mode with two options, a \"thinking mode\" designed for complex reasoning and tool use, and a \"non-thinking mode\" optimized for instant responses. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)",
-    "context_length": 98304,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -15323,7 +15375,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 98304,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
