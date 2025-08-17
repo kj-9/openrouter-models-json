@@ -382,8 +382,8 @@
       "instruct_type": "airoboros"
     },
     "pricing": {
-      "prompt": "0.000009",
-      "completion": "0.000011",
+      "prompt": "0.000005",
+      "completion": "0.00000625",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -612,8 +612,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.0000025",
-      "completion": "0.000003",
+      "prompt": "0.00000125",
+      "completion": "0.0000015",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -5156,8 +5156,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.0000015",
-      "completion": "0.0000015",
+      "prompt": "0.00000075",
+      "completion": "0.00000075",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -8143,7 +8143,7 @@
     "name": "Mistral: Mistral Small 3.2 24B",
     "created": 1750443016,
     "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on WildBench and Arena Hard, reduces infinite generations, and delivers gains in tool use and structured output tasks.\n\nIt supports image and text inputs with structured outputs, function/tool calling, and strong performance across coding (HumanEval+, MBPP), STEM (MMLU, MATH, GPQA), and vision benchmarks (ChartQA, DocVQA).",
-    "context_length": 131072,
+    "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -8157,8 +8157,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000001999188",
-      "completion": "0.0000000800064",
+      "prompt": "0.00000005",
+      "completion": "0.0000001",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -8166,7 +8166,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 128000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -8899,7 +8899,7 @@
     "name": "NeverSleep: Lumimaid v0.2 8B",
     "created": 1726358400,
     "description": "Lumimaid v0.2 8B is a finetune of [Llama 3.1 8B](/models/meta-llama/llama-3.1-8b-instruct) with a \"HUGE step up dataset wise\" compared to Lumimaid v0.1. Sloppy chats output were purged.\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 40000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8912,8 +8912,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000017",
-      "completion": "0.00000099",
+      "prompt": "0.0000001",
+      "completion": "0.000000625",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -8921,8 +8921,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 40000,
-      "max_completion_tokens": 40000,
+      "context_length": 32768,
+      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -8950,7 +8950,7 @@
     "name": "Noromaid 20B",
     "created": 1700956800,
     "description": "A collab between IkariDev and Undi. This merge is suitable for RP, ERP, and general knowledge.\n\n#merge #uncensored",
-    "context_length": 4096,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8963,8 +8963,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.00000175",
+      "prompt": "0.000000625",
+      "completion": "0.000001",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -8972,8 +8972,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": null,
+      "context_length": 8192,
+      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14875,8 +14875,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.0000007",
-      "completion": "0.000001",
+      "prompt": "0.0000005",
+      "completion": "0.00000075",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -14885,7 +14885,7 @@
     },
     "top_provider": {
       "context_length": 6144,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 1024,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -15353,7 +15353,7 @@
     "name": "Z.AI: GLM 4.5",
     "created": 1753471347,
     "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications. It leverages a Mixture-of-Experts (MoE) architecture and supports a context length of up to 128k tokens. GLM-4.5 delivers significantly enhanced capabilities in reasoning, code generation, and agent alignment. It supports a hybrid inference mode with two options, a \"thinking mode\" designed for complex reasoning and tool use, and a \"non-thinking mode\" optimized for instant responses. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)",
-    "context_length": 131072,
+    "context_length": 98304,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -15375,7 +15375,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 98304,
       "max_completion_tokens": null,
       "is_moderated": false
     },
