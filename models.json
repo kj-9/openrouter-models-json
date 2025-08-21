@@ -382,8 +382,8 @@
       "instruct_type": "airoboros"
     },
     "pricing": {
-      "prompt": "0.000005",
-      "completion": "0.00000625",
+      "prompt": "0.000004",
+      "completion": "0.0000055",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -612,8 +612,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.00000125",
-      "completion": "0.0000015",
+      "prompt": "0.000002",
+      "completion": "0.000005",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -3367,6 +3367,56 @@
     ]
   },
   {
+    "id": "deepseek/deepseek-v3.1-base",
+    "canonical_slug": "deepseek/deepseek-v3.1-base",
+    "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Base",
+    "name": "DeepSeek: DeepSeek V3.1 Base",
+    "created": 1755727017,
+    "description": "This is a base model, trained only for raw next-token prediction. Unlike instruct/chat models, it has not been fine-tuned to follow user instructions. Prompts need to be written more like training text or examples rather than simple requests (e.g., “Translate the following sentence…” instead of just “Translate this”).\n\nDeepSeek-V3.1 Base is a 671B parameter open Mixture-of-Experts (MoE) language model with 37B active parameters per forward pass and a context length of 128K tokens. Trained on 14.8T tokens using FP8 mixed precision, it achieves high training efficiency and stability, with strong performance across language, reasoning, math, and coding tasks. \n",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "DeepSeek",
+      "instruct_type": "none"
+    },
+    "pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.0000008",
+      "request": "0",
+      "image": "0",
+      "audio": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+    ]
+  },
+  {
     "id": "eleutherai/llemma_7b",
     "canonical_slug": "eleutherai/llemma_7b",
     "hugging_face_id": "EleutherAI/llemma_7b",
@@ -5106,8 +5156,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.00000075",
-      "completion": "0.00000075",
+      "prompt": "0.000001125",
+      "completion": "0.000001125",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -8862,8 +8912,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.0000001",
-      "completion": "0.000000625",
+      "prompt": "0.00000009",
+      "completion": "0.0000006",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -8872,7 +8922,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": 2048,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -8900,7 +8950,7 @@
     "name": "Noromaid 20B",
     "created": 1700956800,
     "description": "A collab between IkariDev and Undi. This merge is suitable for RP, ERP, and general knowledge.\n\n#merge #uncensored",
-    "context_length": 8192,
+    "context_length": 4096,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8913,8 +8963,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.000000625",
-      "completion": "0.000001",
+      "prompt": "0.000001",
+      "completion": "0.00000175",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -8922,8 +8972,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 2048,
+      "context_length": 4096,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14397,7 +14447,7 @@
     "name": "TheDrummer: Rocinante 12B",
     "created": 1727654400,
     "description": "Rocinante 12B is designed for engaging storytelling and rich prose.\n\nEarly testers have reported:\n- Expanded vocabulary with unique and expressive word choices\n- Enhanced creativity for vivid narratives\n- Adventure-filled and captivating stories",
-    "context_length": 8192,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -14410,8 +14460,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.00000019",
-      "completion": "0.00000045",
+      "prompt": "0.00000017",
+      "completion": "0.00000043",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -14419,8 +14469,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 8192,
+      "context_length": 32768,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14875,8 +14925,8 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.00000075",
+      "prompt": "0.00000045",
+      "completion": "0.00000065",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -14885,7 +14935,7 @@
     },
     "top_provider": {
       "context_length": 6144,
-      "max_completion_tokens": 1024,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -15437,21 +15487,12 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "frequency_penalty",
       "include_reasoning",
       "max_tokens",
-      "min_p",
-      "presence_penalty",
       "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
-      "top_k",
       "top_p"
     ]
   },
