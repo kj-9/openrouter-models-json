@@ -2460,8 +2460,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000017992692",
-      "completion": "0.0000007200576",
+      "prompt": "0.0000001999188",
+      "completion": "0.000000800064",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -2514,8 +2514,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000017992692",
-      "completion": "0.0000007200576",
+      "prompt": "0.0000001999188",
+      "completion": "0.000000800064",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -2592,6 +2592,62 @@
       "repetition_penalty",
       "seed",
       "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+    ]
+  },
+  {
+    "id": "deepseek/deepseek-chat-v3.1",
+    "canonical_slug": "deepseek/deepseek-chat-v3.1",
+    "hugging_face_id": "deepseek-ai/DeepSeek-V3.1",
+    "name": "DeepSeek: DeepSeek V3.1",
+    "created": 1755779628,
+    "description": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates. It extends the DeepSeek-V3 base with a two-phase long-context training process, reaching up to 128K tokens, and uses FP8 microscaling for efficient inference.\n\nThe model improves tool use, code generation, and reasoning efficiency, achieving performance comparable to DeepSeek-R1 on difficult benchmarks while responding more quickly. It supports structured tool calling, code agents, and search agents, making it suitable for research, coding, and agentic workflows.\n\nIt succeeds the [DeepSeek V3-0324](/deepseek/deepseek-chat-v3-0324) model and performs well on a variety of tasks.",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "DeepSeek",
+      "instruct_type": "deepseek-v3.1"
+    },
+    "pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.0000008",
+      "request": "0",
+      "image": "0",
+      "audio": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -2724,8 +2780,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000017992692",
-      "completion": "0.0000007200576",
+      "prompt": "0.0000001999188",
+      "completion": "0.000000800064",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -8047,8 +8103,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000017992692",
-      "completion": "0.00000007200576",
+      "prompt": "0.00000001999188",
+      "completion": "0.0000000800064",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -14618,8 +14674,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000024",
-      "completion": "0.00000024",
+      "prompt": "0.00000055",
+      "completion": "0.00000166",
       "request": "0",
       "image": "0",
       "audio": "0",
@@ -14769,8 +14825,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000017992692",
-      "completion": "0.0000007200576",
+      "prompt": "0.0000001999188",
+      "completion": "0.000000800064",
       "request": "0",
       "image": "0",
       "audio": "0",
