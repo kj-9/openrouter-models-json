@@ -23,7 +23,6 @@
       "completion": "0.000000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -75,7 +74,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -127,7 +125,6 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -171,7 +168,6 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -215,7 +211,6 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -257,7 +252,6 @@
       "completion": "0.0000014",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -299,7 +293,6 @@
       "completion": "0.0000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -339,7 +332,6 @@
       "completion": "0.0000011",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -386,7 +378,6 @@
       "completion": "0.0000055",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -438,7 +429,6 @@
       "completion": "0.00000024",
       "request": "0",
       "image": "0.00009",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -481,7 +471,6 @@
       "completion": "0.00000014",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -525,7 +514,6 @@
       "completion": "0.0000032",
       "request": "0",
       "image": "0.0012",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -568,7 +556,6 @@
       "completion": "0.000003",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -616,7 +603,6 @@
       "completion": "0.000005",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -666,7 +652,6 @@
       "completion": "0.00000125",
       "request": "0",
       "image": "0.0004",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000003",
@@ -713,7 +698,6 @@
       "completion": "0.000075",
       "request": "0",
       "image": "0.024",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000015",
@@ -760,7 +744,6 @@
       "completion": "0.000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000008",
@@ -808,7 +791,6 @@
       "completion": "0.000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000008",
@@ -856,7 +838,6 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
@@ -904,7 +885,6 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
@@ -952,7 +932,6 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
@@ -1002,7 +981,6 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
@@ -1050,7 +1028,6 @@
       "completion": "0.000075",
       "request": "0",
       "image": "0.024",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000015",
@@ -1100,7 +1077,6 @@
       "completion": "0.000075",
       "request": "0",
       "image": "0.024",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000015",
@@ -1148,7 +1124,6 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
@@ -1196,7 +1171,6 @@
       "completion": "0.0000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1243,7 +1217,6 @@
       "completion": "0.0000033",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1291,7 +1264,6 @@
       "completion": "0.00000018",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1338,7 +1310,6 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1387,7 +1358,6 @@
       "completion": "0.0000000400032",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1439,7 +1409,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1491,7 +1460,6 @@
       "completion": "0.00000028",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1539,7 +1507,6 @@
       "completion": "0.0000011",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1588,7 +1555,6 @@
       "completion": "0.00000056",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1639,7 +1605,6 @@
       "completion": "0.00000125",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1690,7 +1655,6 @@
       "completion": "0.0000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1737,7 +1701,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1783,7 +1746,6 @@
       "completion": "0.0000009",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1831,7 +1793,6 @@
       "completion": "0.00000014816",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1881,7 +1842,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1931,7 +1891,6 @@
       "completion": "0.0000000340768",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -1983,7 +1942,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2035,7 +1993,6 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2082,7 +2039,6 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2129,7 +2085,6 @@
       "completion": "0.0000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2177,7 +2132,6 @@
       "completion": "0.0000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2225,7 +2179,6 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2273,7 +2226,6 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2321,7 +2273,6 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2369,7 +2320,6 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2417,7 +2367,6 @@
       "completion": "0.00000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2464,7 +2413,6 @@
       "completion": "0.000000800064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2518,7 +2466,6 @@
       "completion": "0.000000800064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2572,7 +2519,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2624,7 +2570,6 @@
       "completion": "0.0000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2680,7 +2625,6 @@
       "completion": "0.00000218",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2728,7 +2672,6 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2784,7 +2727,6 @@
       "completion": "0.000000800064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2840,7 +2782,6 @@
       "completion": "0.00000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2892,7 +2833,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2944,7 +2884,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -2996,7 +2935,6 @@
       "completion": "0.000000133344",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3051,7 +2989,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3103,7 +3040,6 @@
       "completion": "0.00000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3153,7 +3089,6 @@
       "completion": "0.00000018",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3202,7 +3137,6 @@
       "completion": "0.00000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3252,7 +3186,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3304,7 +3237,6 @@
       "completion": "0.00000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3355,7 +3287,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3396,7 +3327,6 @@
       "completion": "0.000000800064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3446,7 +3376,6 @@
       "completion": "0.0000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3496,7 +3425,6 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3543,7 +3471,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3642,7 +3569,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3690,7 +3616,6 @@
       "completion": "0.0000003",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3739,7 +3664,6 @@
       "completion": "0.0000025",
       "request": "0",
       "image": "0.001238",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000075",
@@ -3792,7 +3716,6 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000025",
@@ -3845,7 +3768,6 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000025",
@@ -3898,7 +3820,6 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0.00516",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000031",
@@ -3950,7 +3871,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -3999,7 +3919,6 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0.00516",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000031",
@@ -4052,7 +3971,6 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0.00516",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000031",
@@ -4103,7 +4021,6 @@
       "completion": "0.0000003",
       "request": "0",
       "image": "0.00004",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000001875",
@@ -4154,7 +4071,6 @@
       "completion": "0.00000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000001",
@@ -4205,7 +4121,6 @@
       "completion": "0.000005",
       "request": "0",
       "image": "0.0006575",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4253,7 +4168,6 @@
       "completion": "0.00000065",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4302,7 +4216,6 @@
       "completion": "0.0000000100008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4353,7 +4266,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4404,7 +4316,6 @@
       "completion": "0.000000192608",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4456,7 +4367,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4507,7 +4417,6 @@
       "completion": "0.000000266688",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4560,7 +4469,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4613,7 +4521,6 @@
       "completion": "0.00000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4662,7 +4569,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4705,7 +4611,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4750,7 +4655,6 @@
       "completion": "0.00000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4797,7 +4701,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4842,7 +4745,6 @@
       "completion": "0.00000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4893,7 +4795,6 @@
       "completion": "0.000001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4941,7 +4842,6 @@
       "completion": "0.000001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -4989,7 +4889,6 @@
       "completion": "0.000001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5036,7 +4935,6 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5077,7 +4975,6 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5118,7 +5015,6 @@
       "completion": "0.00000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5165,7 +5061,6 @@
       "completion": "0.00000001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5216,7 +5111,6 @@
       "completion": "0.000001125",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5265,7 +5159,6 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5318,7 +5211,6 @@
       "completion": "0.00000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5369,7 +5261,6 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5419,7 +5310,6 @@
       "completion": "0.0000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5473,7 +5363,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5519,7 +5408,6 @@
       "completion": "0.00000028",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5573,7 +5461,6 @@
       "completion": "0.00000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5628,7 +5515,6 @@
       "completion": "0.000000049",
       "request": "0",
       "image": "0.00007948",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5680,7 +5566,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5727,7 +5612,6 @@
       "completion": "0.00000001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5778,7 +5662,6 @@
       "completion": "0.000000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5832,7 +5715,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5877,7 +5759,6 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0.001734",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5926,7 +5807,6 @@
       "completion": "0.00000012",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -5980,7 +5860,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6030,7 +5909,6 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0.0006684",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6085,7 +5963,6 @@
       "completion": "0.0000003",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6139,7 +6016,6 @@
       "completion": "0.0000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6186,7 +6062,6 @@
       "completion": "0.00000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6238,7 +6113,6 @@
       "completion": "0.00000018",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6287,7 +6161,6 @@
       "completion": "0.000000800064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6339,7 +6212,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6391,7 +6263,6 @@
       "completion": "0.000001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6433,7 +6304,6 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6475,7 +6345,6 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6517,7 +6386,6 @@
       "completion": "0.00000014",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6570,7 +6438,6 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0.00017685",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6618,7 +6485,6 @@
       "completion": "0.00000035",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6668,7 +6534,6 @@
       "completion": "0.00000048",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6718,7 +6583,6 @@
       "completion": "0.0000011",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6758,7 +6622,6 @@
       "completion": "0.00000165",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6811,7 +6674,6 @@
       "completion": "0.0000009",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6859,7 +6721,6 @@
       "completion": "0.0000009",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6907,7 +6768,6 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -6955,7 +6815,6 @@
       "completion": "0.00000028",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7006,7 +6865,6 @@
       "completion": "0.0000000800064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7060,7 +6918,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7112,7 +6969,6 @@
       "completion": "0.000005",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7162,7 +7018,6 @@
       "completion": "0.000005",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7212,7 +7067,6 @@
       "completion": "0.0000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7262,7 +7116,6 @@
       "completion": "0.00000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7308,7 +7161,6 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7356,7 +7208,6 @@
       "completion": "0.000000054",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7408,7 +7259,6 @@
       "completion": "0.00000019",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7458,7 +7308,6 @@
       "completion": "0.000000054",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7510,7 +7359,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7560,7 +7408,6 @@
       "completion": "0.000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7608,7 +7455,6 @@
       "completion": "0.000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7656,7 +7502,6 @@
       "completion": "0.000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7705,7 +7550,6 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7754,7 +7598,6 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7802,7 +7645,6 @@
       "completion": "0.00000005",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7856,7 +7698,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7906,7 +7747,6 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -7954,7 +7794,6 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8002,7 +7841,6 @@
       "completion": "0.0000000800064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8056,7 +7894,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8107,7 +7944,6 @@
       "completion": "0.0000000800064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8162,7 +7998,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8217,7 +8052,6 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8272,7 +8106,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8325,7 +8158,6 @@
       "completion": "0.00000025",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8373,7 +8205,6 @@
       "completion": "0.0000009",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8426,7 +8257,6 @@
       "completion": "0.00000024",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8478,7 +8308,6 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0.0001445",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8533,7 +8362,6 @@
       "completion": "0.000006",
       "request": "0",
       "image": "0.002888",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8581,7 +8409,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8633,7 +8460,6 @@
       "completion": "0.00000249",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8687,7 +8513,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8740,7 +8565,6 @@
       "completion": "0.000000100008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8793,7 +8617,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8845,7 +8668,6 @@
       "completion": "0.0000019",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8885,7 +8707,6 @@
       "completion": "0.0000019",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8925,7 +8746,6 @@
       "completion": "0.000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -8972,7 +8792,6 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9023,7 +8842,6 @@
       "completion": "0.00000175",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9074,7 +8892,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9124,7 +8941,6 @@
       "completion": "0.0000003733632",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9176,7 +8992,6 @@
       "completion": "0.00000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9228,7 +9043,6 @@
       "completion": "0.0000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9279,7 +9093,6 @@
       "completion": "0.00000028",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9333,7 +9146,6 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9380,7 +9192,6 @@
       "completion": "0.0000003",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9431,7 +9242,6 @@
       "completion": "0.0000018",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9481,7 +9291,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9531,7 +9340,6 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9580,7 +9388,6 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.007225",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9630,7 +9437,6 @@
       "completion": "0.000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000375"
@@ -9676,7 +9482,6 @@
       "completion": "0.0000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9727,7 +9532,6 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9778,7 +9582,6 @@
       "completion": "0.000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9829,7 +9632,6 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9878,7 +9680,6 @@
       "completion": "0.00006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9929,7 +9730,6 @@
       "completion": "0.00006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -9980,7 +9780,6 @@
       "completion": "0.00003",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -10032,7 +9831,6 @@
       "completion": "0.00003",
       "request": "0",
       "image": "0.01445",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -10083,7 +9881,6 @@
       "completion": "0.00003",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -10136,7 +9933,6 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000005"
@@ -10191,7 +9987,6 @@
       "completion": "0.0000016",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000001"
@@ -10246,7 +10041,6 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000025"
@@ -10300,7 +10094,6 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0.003613",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000125"
@@ -10355,7 +10148,6 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.007225",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -10409,7 +10201,6 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0.003613",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000125"
@@ -10464,7 +10255,6 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0.003613",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000125"
@@ -10571,7 +10361,6 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0.000217",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000075"
@@ -10626,7 +10415,6 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0.007225",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000075"
@@ -10679,7 +10467,6 @@
       "completion": "0.0000006",
       "request": "0.0275",
       "image": "0.000217",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -10720,7 +10507,6 @@
       "completion": "0.00001",
       "request": "0.035",
       "image": "0.003613",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -10763,7 +10549,6 @@
       "completion": "0.000018",
       "request": "0",
       "image": "0.007225",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -10797,7 +10582,7 @@
     "hugging_face_id": "",
     "name": "OpenAI: GPT-5",
     "created": 1754587413,
-    "description": "GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accuracy in high-stakes use cases. It supports test-time routing features and advanced prompt understanding, including user-specified intent like \"think hard about this.\" Improvements include reductions in hallucination, sycophancy, and better performance in coding, writing, and health-related tasks.\n\nNote that BYOK is required for this model. Set up here: https://openrouter.ai/settings/integrations",
+    "description": "GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accuracy in high-stakes use cases. It supports test-time routing features and advanced prompt understanding, including user-specified intent like \"think hard about this.\" Improvements include reductions in hallucination, sycophancy, and better performance in coding, writing, and health-related tasks.",
     "context_length": 400000,
     "architecture": {
       "modality": "text+image->text",
@@ -10817,7 +10602,6 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000125"
@@ -10865,7 +10649,6 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000125"
@@ -10911,7 +10694,6 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000025"
@@ -10959,7 +10741,6 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000005"
@@ -11005,7 +10786,6 @@
       "completion": "0.00000028",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11061,7 +10841,6 @@
       "completion": "0.00000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11117,7 +10896,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11162,7 +10940,6 @@
       "completion": "0.00006",
       "request": "0",
       "image": "0.021675",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000075"
@@ -11206,7 +10983,6 @@
       "completion": "0.0000044",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000055"
@@ -11246,7 +11022,6 @@
       "completion": "0.0000044",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000055"
@@ -11287,7 +11062,6 @@
       "completion": "0.0006",
       "request": "0",
       "image": "0.21675",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11332,7 +11106,6 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0.00153",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000005"
@@ -11378,7 +11151,6 @@
       "completion": "0.0000044",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000055"
@@ -11422,7 +11194,6 @@
       "completion": "0.0000044",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000055"
@@ -11468,7 +11239,6 @@
       "completion": "0.00008",
       "request": "0",
       "image": "0.0153",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11514,7 +11284,6 @@
       "completion": "0.0000044",
       "request": "0",
       "image": "0.0008415",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000275"
@@ -11562,7 +11331,6 @@
       "completion": "0.0000044",
       "request": "0",
       "image": "0.0008415",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000275"
@@ -11609,7 +11377,6 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11680,7 +11447,6 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11730,7 +11496,6 @@
       "completion": "0.000001",
       "request": "0.005",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11774,7 +11539,6 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0.005",
       "internal_reasoning": "0.000003"
     },
@@ -11821,7 +11585,6 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0.005",
       "internal_reasoning": "0"
     },
@@ -11865,7 +11628,6 @@
       "completion": "0.000005",
       "request": "0.005",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -11912,7 +11674,6 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0.005",
       "internal_reasoning": "0"
     },
@@ -11958,7 +11719,6 @@
       "completion": "0.0000011",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12005,7 +11765,6 @@
       "completion": "0.0000009",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12052,7 +11811,6 @@
       "completion": "0.000000266688",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12105,7 +11863,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12155,7 +11912,6 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12205,7 +11961,6 @@
       "completion": "0.000000200016",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12256,7 +12011,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12307,7 +12061,6 @@
       "completion": "0.0000002",
       "request": "0",
       "image": "0.0001445",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12359,7 +12112,6 @@
       "completion": "0.0000064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000064"
@@ -12405,7 +12157,6 @@
       "completion": "0.0000012",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000016"
@@ -12451,7 +12202,6 @@
       "completion": "0.0000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000002"
@@ -12498,7 +12248,6 @@
       "completion": "0.0000032",
       "request": "0",
       "image": "0.001024",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12542,7 +12291,6 @@
       "completion": "0.00000063",
       "request": "0",
       "image": "0.0002688",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12586,7 +12334,6 @@
       "completion": "0.0000000800064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12639,7 +12386,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12691,7 +12437,6 @@
       "completion": "0.000000400032",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12742,7 +12487,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12789,7 +12533,6 @@
       "completion": "0.00000024",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12845,7 +12588,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12897,7 +12639,6 @@
       "completion": "0.0000006",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -12953,7 +12694,6 @@
       "completion": "0.00000031202496",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13007,7 +12747,6 @@
       "completion": "0.00000031202496",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13062,7 +12801,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13118,7 +12856,6 @@
       "completion": "0.0000000800064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13174,7 +12911,6 @@
       "completion": "0.0000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13217,7 +12953,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13269,7 +13004,6 @@
       "completion": "0.00000007200576",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13325,7 +13059,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13375,7 +13108,6 @@
       "completion": "0.000000138",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13425,7 +13157,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13477,7 +13208,6 @@
       "completion": "0.0000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13531,7 +13261,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13583,7 +13312,6 @@
       "completion": "0.00000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13637,7 +13365,6 @@
       "completion": "0.0000002",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13687,7 +13414,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13733,7 +13459,6 @@
       "completion": "0.0000045",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13781,7 +13506,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13833,7 +13557,6 @@
       "completion": "0.00000148",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13881,7 +13604,6 @@
       "completion": "0.00000005",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13930,7 +13652,6 @@
       "completion": "0.00000075",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -13980,7 +13701,6 @@
       "completion": "0.00000075",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14030,7 +13750,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14080,7 +13799,6 @@
       "completion": "0.00000088",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14127,7 +13845,6 @@
       "completion": "0.0000000800064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14177,7 +13894,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14227,7 +13943,6 @@
       "completion": "0.0000008",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14275,7 +13990,6 @@
       "completion": "0.0000034",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14320,7 +14034,6 @@
       "completion": "0.00000003",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14372,7 +14085,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14424,7 +14136,6 @@
       "completion": "0.0000007",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14473,7 +14184,6 @@
       "completion": "0.000001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14520,7 +14230,6 @@
       "completion": "0.00000043",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14573,7 +14282,6 @@
       "completion": "0.000000192608",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14625,7 +14333,6 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14678,7 +14385,6 @@
       "completion": "0.00000166",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14727,7 +14433,6 @@
       "completion": "0.000000138",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14777,7 +14482,6 @@
       "completion": "0.0000000800064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14829,7 +14533,6 @@
       "completion": "0.000000800064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14881,7 +14584,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14933,7 +14635,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -14985,7 +14686,6 @@
       "completion": "0.00000065",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -15036,7 +14736,6 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -15086,7 +14785,6 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0.0036",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -15133,7 +14831,6 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000075"
@@ -15184,7 +14881,6 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000075"
@@ -15234,7 +14930,6 @@
       "completion": "0.0000005",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000075"
@@ -15285,7 +14980,6 @@
       "completion": "0.0000005",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000075"
@@ -15336,7 +15030,6 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000075"
@@ -15387,7 +15080,6 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.009",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -15434,7 +15126,6 @@
       "completion": "0.0000001",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -15476,7 +15167,6 @@
       "completion": "0.000000800064",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -15531,7 +15221,6 @@
       "completion": "0.0000011",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000003"
@@ -15576,7 +15265,6 @@
       "completion": "0",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -15628,10 +15316,9 @@
     },
     "pricing": {
       "prompt": "0.0000005",
-      "completion": "0.0000017",
+      "completion": "0.0000018",
       "request": "0",
       "image": "0",
-      "audio": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
@@ -15650,7 +15337,6 @@
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
       "temperature",
