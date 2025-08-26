@@ -2931,8 +2931,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.0000000333198",
-      "completion": "0.000000133344",
+      "prompt": "0.0000000259154",
+      "completion": "0.000000103712",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -5885,6 +5885,51 @@
     ]
   },
   {
+    "id": "meta-llama/llama-3.3-8b-instruct:free",
+    "canonical_slug": "meta-llama/llama-3.3-8b-instruct",
+    "hugging_face_id": "",
+    "name": "Meta: Llama 3.3 8B Instruct (free)",
+    "created": 1747230154,
+    "description": "A lightweight and ultra-fast variant of Llama 3.3 70B, for use when quick response times are needed most.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Llama3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 4028,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "repetition_penalty",
+      "response_format",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ]
+  },
+  {
     "id": "meta-llama/llama-4-maverick",
     "canonical_slug": "meta-llama/llama-4-maverick-17b-128e-instruct",
     "hugging_face_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
@@ -5939,6 +5984,52 @@
     ]
   },
   {
+    "id": "meta-llama/llama-4-maverick:free",
+    "canonical_slug": "meta-llama/llama-4-maverick-17b-128e-instruct",
+    "hugging_face_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+    "name": "Meta: Llama 4 Maverick (free)",
+    "created": 1743881822,
+    "description": "Llama 4 Maverick 17B Instruct (128E) is a high-capacity multimodal language model from Meta, built on a mixture-of-experts (MoE) architecture with 128 experts and 17 billion active parameters per forward pass (400B total). It supports multilingual text and image input, and produces multilingual text and code output across 12 supported languages. Optimized for vision-language tasks, Maverick is instruction-tuned for assistant-like behavior, image reasoning, and general-purpose multimodal interaction.\n\nMaverick features early fusion for native multimodality and a 1 million token context window. It was trained on a curated mixture of public, licensed, and Meta-platform data, covering ~22 trillion tokens, with a knowledge cutoff in August 2024. Released on April 5, 2025 under the Llama 4 Community License, Maverick is suited for research and commercial applications requiring advanced multimodal understanding and high model throughput.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Llama4",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 4028,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "repetition_penalty",
+      "response_format",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ]
+  },
+  {
     "id": "meta-llama/llama-4-scout",
     "canonical_slug": "meta-llama/llama-4-scout-17b-16e-instruct",
     "hugging_face_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
@@ -5989,6 +6080,52 @@
       "tools",
       "top_k",
       "top_logprobs",
+      "top_p"
+    ]
+  },
+  {
+    "id": "meta-llama/llama-4-scout:free",
+    "canonical_slug": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "hugging_face_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "name": "Meta: Llama 4 Scout (free)",
+    "created": 1743881519,
+    "description": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input (text and image) and multilingual output (text and code) across 12 supported languages. Designed for assistant-style interaction and visual reasoning, Scout uses 16 experts per forward pass and features a context length of 10 million tokens, with a training corpus of ~40 trillion tokens.\n\nBuilt for high efficiency and local or commercial deployment, Llama 4 Scout incorporates early fusion for seamless modality integration. It is instruction-tuned for use in multilingual chat, captioning, and image understanding tasks. Released under the Llama 4 Community License, it was last trained on data up to August 2024 and launched publicly on April 5, 2025.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Llama4",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 4028,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "repetition_penalty",
+      "response_format",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
       "top_p"
     ]
   },
@@ -7580,7 +7717,7 @@
     "name": "Mistral: Mistral Medium 3.1",
     "created": 1755095639,
     "description": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8× lower cost compared to traditional large models, making it suitable for scalable deployments across professional and industrial use cases.\n\nThe model excels in domains such as coding, STEM reasoning, and enterprise adaptation. It supports hybrid, on-prem, and in-VPC deployments and is optimized for integration into custom workflows. Mistral Medium 3.1 offers competitive accuracy relative to larger models like Claude Sonnet 3.5/3.7, Llama 4 Maverick, and Command R+, while maintaining broad compatibility across cloud environments.",
-    "context_length": 262144,
+    "context_length": 131072,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -7602,7 +7739,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 262144,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -11807,8 +11944,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.0000000666396",
-      "completion": "0.000000266688",
+      "prompt": "0.0000000518308",
+      "completion": "0.000000207424",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12894,7 +13031,7 @@
     "name": "Qwen: Qwen3 30B A3B Instruct 2507",
     "created": 1753806965,
     "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and agentic tool use. Post-trained on instruction data, it demonstrates competitive performance across reasoning (AIME, ZebraLogic), coding (MultiPL-E, LiveCodeBench), and alignment (IFEval, WritingBench) benchmarks. It outperforms its non-instruct variant on subjective and open-ended tasks while retaining strong factual and coding performance.",
-    "context_length": 131072,
+    "context_length": 262144,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -12907,25 +13044,33 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000008",
+      "prompt": "0.0000001",
+      "completion": "0.0000003",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 32768,
+      "context_length": 262144,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "logprobs",
       "max_tokens",
       "presence_penalty",
       "response_format",
       "seed",
+      "stop",
       "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
       "top_p"
     ]
   },
