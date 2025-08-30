@@ -343,6 +343,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
+      "logit_bias",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -1105,7 +1106,7 @@
     "name": "Anthropic: Claude Sonnet 4",
     "created": 1747930371,
     "description": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability. Achieving state-of-the-art performance on SWE-bench (72.7%), Sonnet 4 balances capability and computational efficiency, making it suitable for a broad range of applications from routine coding tasks to complex software development projects. Key enhancements include improved autonomous codebase navigation, reduced error rates in agent-driven workflows, and increased reliability in following intricate instructions. Sonnet 4 is optimized for practical everyday use, providing advanced reasoning capabilities while maintaining efficiency and responsiveness in diverse internal and external scenarios.\n\nRead more at the [blog post here](https://www.anthropic.com/news/claude-4)",
-    "context_length": 200000,
+    "context_length": 1000000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -1130,7 +1131,7 @@
       "input_cache_write": "0.00000375"
     },
     "top_provider": {
-      "context_length": 200000,
+      "context_length": 1000000,
       "max_completion_tokens": 64000,
       "is_moderated": false
     },
@@ -1666,6 +1667,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
+      "logit_bias",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -4892,6 +4894,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
+      "logit_bias",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -7301,7 +7304,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -7401,7 +7403,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -9310,52 +9311,6 @@
     ]
   },
   {
-    "id": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
-    "canonical_slug": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
-    "hugging_face_id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
-    "name": "Nous: Hermes 2 Mixtral 8x7B DPO",
-    "created": 1705363200,
-    "description": "Nous Hermes 2 Mixtral 8x7B DPO is the new flagship Nous Research model trained over the [Mixtral 8x7B MoE LLM](/models/mistralai/mixtral-8x7b).\n\nThe model was trained on over 1,000,000 entries of primarily [GPT-4](/models/openai/gpt-4) generated data, as well as other high quality data from open datasets across the AI landscape, achieving state of the art performance on a variety of tasks.\n\n#moe",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0.0000006",
-      "completion": "0.0000006",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": 2048,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ]
-  },
-  {
     "id": "nvidia/llama-3.1-nemotron-70b-instruct",
     "canonical_slug": "nvidia/llama-3.1-nemotron-70b-instruct",
     "hugging_face_id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
@@ -10817,7 +10772,7 @@
     "name": "OpenAI: GPT-5 Chat",
     "created": 1754587837,
     "description": "GPT-5 Chat is designed for advanced, natural, multimodal, and context-aware conversations for enterprise applications.",
-    "context_length": 400000,
+    "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -10841,8 +10796,8 @@
       "input_cache_read": "0.000000125"
     },
     "top_provider": {
-      "context_length": 400000,
-      "max_completion_tokens": 128000,
+      "context_length": 128000,
+      "max_completion_tokens": 16384,
       "is_moderated": true
     },
     "per_request_limits": null,
@@ -11955,6 +11910,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
+      "logit_bias",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -14443,6 +14399,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
+      "logit_bias",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -14491,6 +14448,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
+      "logit_bias",
       "max_tokens",
       "min_p",
       "presence_penalty",
