@@ -1029,7 +1029,7 @@
       "completion": "0.000075",
       "request": "0",
       "image": "0.024",
-      "web_search": "0.01",
+      "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000015",
       "input_cache_write": "0.00001875"
@@ -1037,7 +1037,7 @@
     "top_provider": {
       "context_length": 200000,
       "max_completion_tokens": 32000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -1078,7 +1078,7 @@
       "completion": "0.000075",
       "request": "0",
       "image": "0.024",
-      "web_search": "0.01",
+      "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000015",
       "input_cache_write": "0.00001875"
@@ -1086,7 +1086,7 @@
     "top_provider": {
       "context_length": 200000,
       "max_completion_tokens": 32000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -1636,7 +1636,7 @@
     "id": "bytedance/ui-tars-1.5-7b",
     "canonical_slug": "bytedance/ui-tars-1.5-7b",
     "hugging_face_id": "ByteDance-Seed/UI-TARS-1.5-7B",
-    "name": "Bytedance: UI-TARS 7B ",
+    "name": "ByteDance: UI-TARS 7B ",
     "created": 1753205056,
     "description": "UI-TARS-1.5 is a multimodal vision-language agent optimized for GUI-based environments, including desktop interfaces, web browsers, mobile systems, and games. Built by ByteDance, it builds upon the UI-TARS framework with reinforcement learning-based reasoning, enabling robust action planning and execution across virtual interfaces.\n\nThis model achieves state-of-the-art results on a range of interactive and grounding benchmarks, including OSworld, WebVoyager, AndroidWorld, and ScreenSpot. It also demonstrates perfect task completion across diverse Poki games and outperforms prior models in Minecraft agent tasks. UI-TARS-1.5 supports thought decomposition during inference and shows strong scaling across variants, with the 1.5 version notably exceeding the performance of earlier 72B and 7B checkpoints.",
     "context_length": 128000,
@@ -2388,6 +2388,105 @@
       "stop",
       "structured_outputs",
       "temperature",
+      "top_k",
+      "top_p"
+    ]
+  },
+  {
+    "id": "deepcogito/cogito-v2-preview-deepseek-671b",
+    "canonical_slug": "deepcogito/cogito-v2-preview-deepseek-671b",
+    "hugging_face_id": "deepcogito/cogito-v2-preview-deepseek-671B-MoE",
+    "name": "Deep Cogito: Cogito V2 Preview Deepseek 671B",
+    "created": 1756830949,
+    "description": "Cogito v2 is a multilingual, instruction-tuned Mixture of Experts (MoE) large language model with 671 billion parameters. It supports both standard and reasoning-based generation modes. The model introduces hybrid reasoning via Iterated Distillation and Amplification (IDA)—an iterative self-improvement strategy designed to scale alignment with general intelligence. Cogito v2 has been optimized for STEM, programming, instruction following, and tool use. It supports 128k context length and offers strong performance in both multilingual and code-heavy environments. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "DeepSeek",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000125",
+      "completion": "0.00000125",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+    ]
+  },
+  {
+    "id": "deepcogito/cogito-v2-preview-llama-109b-moe",
+    "canonical_slug": "deepcogito/cogito-v2-preview-llama-109b-moe",
+    "hugging_face_id": "deepcogito/cogito-v2-preview-llama-109B-MoE",
+    "name": "Cogito V2 Preview Llama 109B",
+    "created": 1756831568,
+    "description": "An instruction-tuned, hybrid-reasoning Mixture-of-Experts model built on Llama-4-Scout-17B-16E. Cogito v2 can answer directly or engage an extended “thinking” phase, with alignment guided by Iterated Distillation & Amplification (IDA). It targets coding, STEM, instruction following, and general helpfulness, with stronger multilingual, tool-calling, and reasoning performance than size-equivalent baselines. The model supports long-context use (up to 10M tokens) and standard Transformers workflows. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)",
+    "context_length": 32767,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Llama4",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000018",
+      "completion": "0.00000059",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32767,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_p"
     ]
@@ -11155,7 +11254,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -11277,7 +11377,8 @@
       "modality": "text+image->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -11371,7 +11472,7 @@
       "output_modalities": [
         "text"
       ],
-      "tokenizer": "Other",
+      "tokenizer": "GPT",
       "instruct_type": null
     },
     "pricing": {
@@ -11499,12 +11600,13 @@
       "modality": "text+image->text",
       "input_modalities": [
         "image",
-        "text"
+        "text",
+        "file"
       ],
       "output_modalities": [
         "text"
       ],
-      "tokenizer": "Other",
+      "tokenizer": "GPT",
       "instruct_type": null
     },
     "pricing": {
@@ -14024,101 +14126,6 @@
     ]
   },
   {
-    "id": "sarvamai/sarvam-m:free",
-    "canonical_slug": "sarvamai/sarvam-m",
-    "hugging_face_id": "sarvamai/sarvam-m",
-    "name": "Sarvam AI: Sarvam-M (free)",
-    "created": 1748188413,
-    "description": "Sarvam-M is a 24 B-parameter, instruction-tuned derivative of Mistral-Small-3.1-24B-Base-2503, post-trained on English plus eleven major Indic languages (bn, hi, kn, gu, mr, ml, or, pa, ta, te). The model introduces a dual-mode interface: “non-think” for low-latency chat and a optional “think” phase that exposes chain-of-thought tokens for more demanding reasoning, math, and coding tasks. \n\nBenchmark reports show solid gains versus similarly sized open models on Indic-language QA, GSM-8K math, and SWE-Bench coding, making Sarvam-M a practical general-purpose choice for multilingual conversational agents as well as analytical workloads that mix English, native Indic scripts, or romanized text.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-    ]
-  },
-  {
-    "id": "scb10x/llama3.1-typhoon2-70b-instruct",
-    "canonical_slug": "scb10x/llama3.1-typhoon2-70b-instruct",
-    "hugging_face_id": "scb10x/llama3.1-typhoon2-70b-instruct",
-    "name": "Typhoon2 70B Instruct",
-    "created": 1743196170,
-    "description": "Llama3.1-Typhoon2-70B-Instruct is a Thai-English instruction-tuned language model with 70 billion parameters, built on Llama 3.1. It demonstrates strong performance across general instruction-following, math, coding, and tool-use tasks, with state-of-the-art results in Thai-specific benchmarks such as IFEval, MT-Bench, and Thai-English code-switching.\n\nThe model excels in bilingual reasoning and function-calling scenarios, offering high accuracy across diverse domains. Comparative evaluations show consistent improvements over prior Thai LLMs and other Llama-based baselines. Full results and methodology are available in the [technical report.](https://arxiv.org/abs/2412.13702)",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": "llama3"
-    },
-    "pricing": {
-      "prompt": "0.00000088",
-      "completion": "0.00000088",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ]
-  },
-  {
     "id": "shisa-ai/shisa-v2-llama3.3-70b",
     "canonical_slug": "shisa-ai/shisa-v2-llama3.3-70b",
     "hugging_face_id": "shisa-ai/shisa-v2-llama3.3-70b",
@@ -15582,7 +15589,6 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "frequency_penalty",
       "include_reasoning",
       "max_tokens",
       "reasoning",
@@ -15592,7 +15598,6 @@
       "temperature",
       "tool_choice",
       "tools",
-      "top_k",
       "top_p"
     ]
   },
