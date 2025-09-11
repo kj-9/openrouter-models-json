@@ -315,7 +315,7 @@
     "name": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
     "created": 1744641874,
     "description": "A finetuned 7 billion parameters Code LLaMA - Instruct model to generate Solidity smart contract using 4-bit QLoRA finetuning provided by PEFT library.",
-    "context_length": 8192,
+    "context_length": 4096,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -328,22 +328,21 @@
       "instruct_type": "alpaca"
     },
     "pricing": {
-      "prompt": "0.0000007",
-      "completion": "0.0000011",
+      "prompt": "0.0000008",
+      "completion": "0.0000012",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 8192,
+      "context_length": 4096,
+      "max_completion_tokens": 4096,
       "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -1450,8 +1449,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000001",
-      "completion": "0.0000000400032",
+      "prompt": "0.000000017934774",
+      "completion": "0.0000000717391224",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -1747,8 +1746,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000001036616",
-      "completion": "0.000000414848",
+      "prompt": "0.0000002006688",
+      "completion": "0.00000080267549538462",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -1938,8 +1937,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000037022",
-      "completion": "0.00000014816",
+      "prompt": "0.0000000271739",
+      "completion": "0.00000010869564",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -2036,8 +2035,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000001",
-      "completion": "0.0000000340768",
+      "prompt": "0.00000001333333333333",
+      "completion": "0.0000000347826048",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -2657,8 +2656,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000001999188",
-      "completion": "0.000000800064",
+      "prompt": "0.00000024999988",
+      "completion": "0.000000999999888",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -2710,8 +2709,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000001999188",
-      "completion": "0.000000800064",
+      "prompt": "0.00000024999988",
+      "completion": "0.000000999999888",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -2814,8 +2813,8 @@
       "instruct_type": "deepseek-v3.1"
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000008",
+      "prompt": "0.00000024999988",
+      "completion": "0.000000999999888",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3022,8 +3021,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.0000001999188",
-      "completion": "0.000000800064",
+      "prompt": "0.00000024999988",
+      "completion": "0.000000999999888",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3077,8 +3076,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000001703012",
-      "completion": "0.0000000681536",
+      "prompt": "0.000000013043472",
+      "completion": "0.0000000521739072",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3230,8 +3229,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.0000000259154",
-      "completion": "0.000000103712",
+      "prompt": "0.00000003260868",
+      "completion": "0.000000130434768",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3574,8 +3573,8 @@
       "instruct_type": "none"
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000008",
+      "prompt": "0.00000024999988",
+      "completion": "0.000000999999888",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -4361,8 +4360,8 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.00000001",
-      "completion": "0.0000000100008",
+      "prompt": "0.00000002",
+      "completion": "0.0000000358695612",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -4461,8 +4460,8 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.0000000481286",
-      "completion": "0.000000192608",
+      "prompt": "0.00000003532607",
+      "completion": "0.000000141304332",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -4562,8 +4561,8 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.0000000666396",
-      "completion": "0.000000266688",
+      "prompt": "0.00000006521736",
+      "completion": "0.000000260869536",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -5015,53 +5014,6 @@
     ]
   },
   {
-    "id": "infermatic/mn-inferor-12b",
-    "canonical_slug": "infermatic/mn-inferor-12b",
-    "hugging_face_id": "Infermatic/MN-12B-Inferor-v0.0",
-    "name": "Infermatic: Mistral Nemo Inferor 12B",
-    "created": 1731464428,
-    "description": "Inferor 12B is a merge of top roleplay models, expert on immersive narratives and storytelling.\n\nThis model was merged using the [Model Stock](https://arxiv.org/abs/2403.19522) merge method using [anthracite-org/magnum-v4-12b](https://openrouter.ai/anthracite-org/magnum-v4-72b) as a base.\n",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": "mistral"
-    },
-    "pricing": {
-      "prompt": "0.0000006",
-      "completion": "0.000001",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ]
-  },
-  {
     "id": "inflection/inflection-3-pi",
     "canonical_slug": "inflection/inflection-3-pi",
     "hugging_face_id": null,
@@ -5282,6 +5234,57 @@
       "temperature",
       "top_a",
       "top_k",
+      "top_p"
+    ]
+  },
+  {
+    "id": "meituan/longcat-flash-chat",
+    "canonical_slug": "meituan/longcat-flash-chat",
+    "hugging_face_id": "meituan-longcat/LongCat-Flash-Chat",
+    "name": "Meituan: LongCat Flash Chat",
+    "created": 1757427658,
+    "description": "LongCat-Flash-Chat is a large-scale Mixture-of-Experts (MoE) model with 560B total parameters, of which 18.6B–31.3B (≈27B on average) are dynamically activated per input. It introduces a shortcut-connected MoE design to reduce communication overhead and achieve high throughput while maintaining training stability through advanced scaling strategies such as hyperparameter transfer, deterministic computation, and multi-stage optimization.\n\nThis release, LongCat-Flash-Chat, is a non-thinking foundation model optimized for conversational and agentic tasks. It supports long context windows up to 128K tokens and shows competitive performance across reasoning, coding, instruction following, and domain benchmarks, with particular strengths in tool use and complex multi-step interactions.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.00000075",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
       "top_p"
     ]
   },
@@ -6396,8 +6399,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.0000001999188",
-      "completion": "0.000000800064",
+      "prompt": "0.00000024999988",
+      "completion": "0.000000999999888",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -6636,8 +6639,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -6648,7 +6649,6 @@
       "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ]
   },
@@ -7100,8 +7100,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000001999188",
-      "completion": "0.0000000800064",
+      "prompt": "0.000000035869548",
+      "completion": "0.0000001434782448",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -7878,8 +7878,8 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.00000001",
-      "completion": "0.0000000400032",
+      "prompt": "0.000000017934774",
+      "completion": "0.0000000717391224",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8074,8 +8074,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000001999188",
-      "completion": "0.0000000800064",
+      "prompt": "0.00000003804346",
+      "completion": "0.000000152173896",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8177,8 +8177,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000001999188",
-      "completion": "0.0000000800064",
+      "prompt": "0.00000003804346",
+      "completion": "0.000000152173896",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8789,8 +8789,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000002962",
-      "completion": "0.0000011853",
+      "prompt": "0.0000003804346",
+      "completion": "0.00000152173896",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8894,8 +8894,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000002498985",
-      "completion": "0.000000100008",
+      "prompt": "0.00000006249997",
+      "completion": "0.000000249999972",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9270,8 +9270,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000009329544",
-      "completion": "0.0000003733632",
+      "prompt": "0.000000127173852",
+      "completion": "0.0000005086955952",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9475,8 +9475,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000001999188",
-      "completion": "0.000000800064",
+      "prompt": "0.00000024999988",
+      "completion": "0.000000999999888",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9528,8 +9528,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000009329544",
-      "completion": "0.0000003733632",
+      "prompt": "0.000000127173852",
+      "completion": "0.0000005086955952",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9710,12 +9710,12 @@
     ]
   },
   {
-    "id": "nvidia/llama-3.3-nemotron-super-49b-v1",
-    "canonical_slug": "nvidia/llama-3.3-nemotron-super-49b-v1",
-    "hugging_face_id": "nvidia/Llama-3_3-Nemotron-Super-49B-v1",
-    "name": "NVIDIA: Llama 3.3 Nemotron Super 49B v1",
-    "created": 1744119494,
-    "description": "Llama-3.3-Nemotron-Super-49B-v1 is a large language model (LLM) optimized for advanced reasoning, conversational interactions, retrieval-augmented generation (RAG), and tool-calling tasks. Derived from Meta's Llama-3.3-70B-Instruct, it employs a Neural Architecture Search (NAS) approach, significantly enhancing efficiency and reducing memory requirements. This allows the model to support a context length of up to 128K tokens and fit efficiently on single high-performance GPUs, such as NVIDIA H200.\n\nNote: you must include `detailed thinking on` in the system prompt to enable reasoning. Please see [Usage Recommendations](https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1#quick-start-and-usage-recommendations) for more.",
+    "id": "nvidia/nemotron-nano-9b-v2",
+    "canonical_slug": "nvidia/nemotron-nano-9b-v2",
+    "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+    "name": "NVIDIA: Nemotron Nano 9B V2",
+    "created": 1757106807,
+    "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and tasks by first generating a reasoning trace and then concluding with a final response. \n\nThe model's reasoning capabilities can be controlled via a system prompt. If the user prefers the model to provide its final answer without intermediate reasoning traces, it can be configured to do so.",
     "context_length": 131072,
     "architecture": {
       "modality": "text->text",
@@ -9729,8 +9729,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000013",
-      "completion": "0.0000004",
+      "prompt": "0.00000004",
+      "completion": "0.00000016",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9744,23 +9744,27 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
+      "include_reasoning",
       "max_tokens",
+      "min_p",
       "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ]
   },
   {
-    "id": "nvidia/nemotron-nano-9b-v2",
+    "id": "nvidia/nemotron-nano-9b-v2:free",
     "canonical_slug": "nvidia/nemotron-nano-9b-v2",
     "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-    "name": "NVIDIA: Nemotron Nano 9B V2",
+    "name": "NVIDIA: Nemotron Nano 9B V2 (free)",
     "created": 1757106807,
     "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and tasks by first generating a reasoning trace and then concluding with a final response. \n\nThe model's reasoning capabilities can be controlled via a system prompt. If the user prefers the model to provide its final answer without intermediate reasoning traces, it can be configured to do so.",
     "context_length": 128000,
@@ -12216,53 +12220,6 @@
     ]
   },
   {
-    "id": "pygmalionai/mythalion-13b",
-    "canonical_slug": "pygmalionai/mythalion-13b",
-    "hugging_face_id": "PygmalionAI/mythalion-13b",
-    "name": "Pygmalion: Mythalion 13B",
-    "created": 1693612800,
-    "description": "A blend of the new Pygmalion-13b and MythoMax. #merge",
-    "context_length": 4096,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama2",
-      "instruct_type": "alpaca"
-    },
-    "pricing": {
-      "prompt": "0.0000007",
-      "completion": "0.0000011",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ]
-  },
-  {
     "id": "qwen/qwen-2.5-72b-instruct",
     "canonical_slug": "qwen/qwen-2.5-72b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-72B-Instruct",
@@ -12282,8 +12239,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.0000000518308",
-      "completion": "0.000000207424",
+      "prompt": "0.00000006521736",
+      "completion": "0.000000260869536",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12432,8 +12389,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.0000000499797",
-      "completion": "0.000000200016",
+      "prompt": "0.00000006",
+      "completion": "0.00000015",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12441,7 +12398,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12805,8 +12762,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000001999188",
-      "completion": "0.0000000800064",
+      "prompt": "0.000000035869548",
+      "completion": "0.0000001434782448",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12908,8 +12865,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000000999594",
-      "completion": "0.000000400032",
+      "prompt": "0.00000024999988",
+      "completion": "0.000000999999888",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13165,8 +13122,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000077968332",
-      "completion": "0.00000031202496",
+      "prompt": "0.0000000974999532",
+      "completion": "0.00000038999995632",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13218,8 +13175,8 @@
       "instruct_type": "qwen3"
     },
     "pricing": {
-      "prompt": "0.000000077968332",
-      "completion": "0.00000031202496",
+      "prompt": "0.0000000974999532",
+      "completion": "0.00000038999995632",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13327,8 +13284,8 @@
       "instruct_type": "qwen3"
     },
     "pricing": {
-      "prompt": "0.00000001999188",
-      "completion": "0.0000000800064",
+      "prompt": "0.000000035869548",
+      "completion": "0.0000001434782448",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13382,8 +13339,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000000518308",
-      "completion": "0.000000207424",
+      "prompt": "0.00000007065214",
+      "completion": "0.000000282608664",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13434,8 +13391,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000000713",
-      "completion": "0.0000002852",
+      "prompt": "0.00000008967387",
+      "completion": "0.000000358695612",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13539,8 +13496,8 @@
       "instruct_type": "qwen3"
     },
     "pricing": {
-      "prompt": "0.000000017992692",
-      "completion": "0.00000007200576",
+      "prompt": "0.0000000322825932",
+      "completion": "0.00000012913042032",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13743,8 +13700,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000008",
+      "prompt": "0.00000024999988",
+      "completion": "0.000000999999888",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13796,8 +13753,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000000518308",
-      "completion": "0.000000207424",
+      "prompt": "0.00000007065214",
+      "completion": "0.000000282608664",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -14383,8 +14340,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000001999188",
-      "completion": "0.0000000800064",
+      "prompt": "0.000000035869548",
+      "completion": "0.0000001434782448",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -14869,8 +14826,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000000481286",
-      "completion": "0.000000192608",
+      "prompt": "0.000000039130416",
+      "completion": "0.0000001565217216",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -15067,8 +15024,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000001999188",
-      "completion": "0.0000000800064",
+      "prompt": "0.000000035869548",
+      "completion": "0.0000001434782448",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -15118,8 +15075,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000001999188",
-      "completion": "0.000000800064",
+      "prompt": "0.00000024999988",
+      "completion": "0.000000999999888",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -15755,8 +15712,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000032986602",
-      "completion": "0.0000013201056",
+      "prompt": "0.000000412499802",
+      "completion": "0.0000016499998152",
       "request": "0",
       "image": "0",
       "web_search": "0",
