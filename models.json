@@ -8490,8 +8490,8 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.00000008",
-      "completion": "0.00000024",
+      "prompt": "0.0000004",
+      "completion": "0.0000004",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9581,8 +9581,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000012",
-      "completion": "0.0000003",
+      "prompt": "0.0000006",
+      "completion": "0.0000006",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -14395,7 +14395,7 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000002",
+      "prompt": "0.00000004",
       "completion": "0.00000005",
       "request": "0",
       "image": "0",
