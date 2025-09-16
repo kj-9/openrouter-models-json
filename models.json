@@ -1190,7 +1190,9 @@
       "stop",
       "temperature",
       "tool_choice",
-      "tools"
+      "tools",
+      "top_k",
+      "top_p"
     ]
   },
   {
@@ -1621,6 +1623,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
       "top_p"
@@ -1865,53 +1868,6 @@
       "response_format",
       "stop",
       "structured_outputs",
-      "temperature",
-      "top_k",
-      "top_p"
-    ]
-  },
-  {
-    "id": "cognitivecomputations/dolphin-mixtral-8x22b",
-    "canonical_slug": "cognitivecomputations/dolphin-mixtral-8x22b",
-    "hugging_face_id": "cognitivecomputations/dolphin-2.9.2-mixtral-8x22b",
-    "name": "Dolphin 2.9.2 Mixtral 8x22B 🐬",
-    "created": 1717804800,
-    "description": "Dolphin 2.9 is designed for instruction following, conversational, and coding. This model is a finetune of [Mixtral 8x22B Instruct](/models/mistralai/mixtral-8x22b-instruct). It features a 64k context length and was fine-tuned with a 16k sequence length using ChatML templates.\n\nThis model is a successor to [Dolphin Mixtral 8x7B](/models/cognitivecomputations/dolphin-mixtral-8x7b).\n\nThe model is uncensored and is stripped of alignment and bias. It requires an external alignment layer for ethical use. Users are cautioned to use this highly compliant model responsibly, as detailed in a blog post about uncensored models at [erichartford.com/uncensored-models](https://erichartford.com/uncensored-models).\n\n#moe #uncensored",
-    "context_length": 16000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0.0000009",
-      "completion": "0.0000009",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 16000,
-      "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
       "temperature",
       "top_k",
       "top_p"
@@ -2855,7 +2811,7 @@
     "name": "DeepSeek: DeepSeek V3.1 (free)",
     "created": 1755779628,
     "description": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates. It extends the DeepSeek-V3 base with a two-phase long-context training process, reaching up to 128K tokens, and uses FP8 microscaling for efficient inference. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)\n\nThe model improves tool use, code generation, and reasoning efficiency, achieving performance comparable to DeepSeek-R1 on difficult benchmarks while responding more quickly. It supports structured tool calling, code agents, and search agents, making it suitable for research, coding, and agentic workflows. \n\nIt succeeds the [DeepSeek V3-0324](/deepseek/deepseek-chat-v3-0324) model and performs well on a variety of tasks.",
-    "context_length": 64000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2876,7 +2832,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 64000,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": true
     },
@@ -5751,7 +5707,7 @@
     "name": "Meta: Llama 3.2 3B Instruct",
     "created": 1727222400,
     "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it supports eight languages, including English, Spanish, and Hindi, and is adaptable for additional languages.\n\nTrained on 9 trillion tokens, the Llama 3.2 3B model excels in instruction-following, complex reasoning, and tool use. Its balanced performance makes it ideal for applications needing accuracy and efficiency in text generation across multilingual settings.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
-    "context_length": 131072,
+    "context_length": 16384,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5764,15 +5720,15 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.000000012",
-      "completion": "0.000000024",
+      "prompt": "0.00000002",
+      "completion": "0.00000002",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 16384,
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
@@ -5908,8 +5864,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.000000038",
-      "completion": "0.00000012",
+      "prompt": "0.000000012",
+      "completion": "0.000000036",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -5917,7 +5873,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -8660,6 +8616,7 @@
       "include_reasoning",
       "reasoning",
       "response_format",
+      "structured_outputs",
       "temperature",
       "top_k",
       "top_p"
@@ -9431,7 +9388,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -11041,7 +10998,7 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0",
-      "web_search": "0",
+      "web_search": "0.01",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000125"
     },
@@ -11131,7 +11088,7 @@
       "completion": "0.000002",
       "request": "0",
       "image": "0",
-      "web_search": "0",
+      "web_search": "0.01",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000025"
     },
@@ -11587,7 +11544,7 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0.00153",
-      "web_search": "0",
+      "web_search": "0.01",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000005"
     },
@@ -11722,7 +11679,7 @@
       "completion": "0.00008",
       "request": "0",
       "image": "0.0153",
-      "web_search": "0",
+      "web_search": "0.01",
       "internal_reasoning": "0"
     },
     "top_provider": {
@@ -11768,7 +11725,7 @@
       "completion": "0.0000044",
       "request": "0",
       "image": "0.0008415",
-      "web_search": "0",
+      "web_search": "0.01",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000275"
     },
@@ -11815,7 +11772,7 @@
       "completion": "0.0000044",
       "request": "0",
       "image": "0.0008415",
-      "web_search": "0",
+      "web_search": "0.01",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000275"
     },
@@ -11834,6 +11791,58 @@
       "structured_outputs",
       "tool_choice",
       "tools"
+    ]
+  },
+  {
+    "id": "opengvlab/internvl3-78b",
+    "canonical_slug": "opengvlab/internvl3-78b",
+    "hugging_face_id": "OpenGVLab/InternVL3-78B",
+    "name": "OpenGVLab: InternVL3 78B",
+    "created": 1757962555,
+    "description": "The InternVL3 series is an advanced multimodal large language model (MLLM). Compared to InternVL 2.5, InternVL3 demonstrates stronger multimodal perception and reasoning capabilities. \n\nIn addition, InternVL3 is benchmarked against the Qwen2.5 Chat models, whose pre-trained base models serve as the initialization for its language component. Benefiting from Native Multimodal Pre-Training, the InternVL3 series surpasses the Qwen2.5 series in overall text performance.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000003260868",
+      "completion": "0.000000130434768",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_logprobs",
+      "top_p"
     ]
   },
   {
@@ -13457,6 +13466,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -13511,6 +13521,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -13847,8 +13858,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000007065214",
-      "completion": "0.000000282608664",
+      "prompt": "0.00000007",
+      "completion": "0.00000028",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13856,7 +13867,7 @@
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 262144,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -13871,6 +13882,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -14019,6 +14031,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -14073,6 +14086,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -14619,53 +14633,6 @@
     ]
   },
   {
-    "id": "sophosympatheia/midnight-rose-70b",
-    "canonical_slug": "sophosympatheia/midnight-rose-70b",
-    "hugging_face_id": "sophosympatheia/Midnight-Rose-70B-v2.0.3",
-    "name": "Midnight Rose 70B",
-    "created": 1711065600,
-    "description": "A merge with a complex family tree, this model was crafted for roleplaying and storytelling. Midnight Rose is a successor to Rogue Rose and Aurora Nights and improves upon them both. It wants to produce lengthy output by default and is the best creative writing merge produced so far by sophosympatheia.\n\nDescending from earlier versions of Midnight Rose and [Wizard Tulu Dolphin 70B](https://huggingface.co/sophosympatheia/Wizard-Tulu-Dolphin-70B-v1.0), it inherits the best qualities of each.",
-    "context_length": 4096,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama2",
-      "instruct_type": "airoboros"
-    },
-    "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000008",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 2048,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ]
-  },
-  {
     "id": "stepfun-ai/step3",
     "canonical_slug": "stepfun-ai/step3",
     "hugging_face_id": "stepfun-ai/step3",
@@ -14704,6 +14671,7 @@
       "include_reasoning",
       "reasoning",
       "response_format",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -14801,6 +14769,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
       "top_logprobs",
@@ -15103,53 +15072,6 @@
       "temperature",
       "tool_choice",
       "tools",
-      "top_k",
-      "top_p"
-    ]
-  },
-  {
-    "id": "thudm/glm-4-32b",
-    "canonical_slug": "thudm/glm-4-32b-0414",
-    "hugging_face_id": "THUDM/GLM-4-32B-0414",
-    "name": "THUDM: GLM 4 32B",
-    "created": 1744920915,
-    "description": "GLM-4-32B-0414 is a 32B bilingual (Chinese-English) open-weight language model optimized for code generation, function calling, and agent-style tasks. Pretrained on 15T of high-quality and reasoning-heavy data, it was further refined using human preference alignment, rejection sampling, and reinforcement learning. The model excels in complex reasoning, artifact generation, and structured output tasks, achieving performance comparable to GPT-4o and DeepSeek-V3-0324 across several benchmarks.",
-    "context_length": 32000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000055",
-      "completion": "0.00000166",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32000,
-      "max_completion_tokens": 32000,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
       "top_k",
       "top_p"
     ]
