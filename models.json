@@ -1245,6 +1245,54 @@
     ]
   },
   {
+    "id": "arcee-ai/afm-4.5b",
+    "canonical_slug": "arcee-ai/afm-4.5b",
+    "hugging_face_id": "arcee-ai/AFM-4.5B",
+    "name": "Arcee AI: AFM 4.5B",
+    "created": 1758040484,
+    "description": "AFM-4.5B is a 4.5 billion parameter instruction-tuned language model developed by Arcee AI. The model was pretrained on approximately 8 trillion tokens, including 6.5 trillion tokens of general data and 1.5 trillion tokens with an emphasis on mathematical reasoning and code generation. ",
+    "context_length": 65536,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000004",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 65536,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_p"
+    ]
+  },
+  {
     "id": "arcee-ai/coder-large",
     "canonical_slug": "arcee-ai/coder-large",
     "hugging_face_id": "",
@@ -1451,8 +1499,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.000000017934774",
-      "completion": "0.0000000717391224",
+      "prompt": "0.00000002",
+      "completion": "0.00000007",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -1749,8 +1797,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000002006688",
-      "completion": "0.00000080267549538462",
+      "prompt": "0.00000016",
+      "completion": "0.00000065",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -1893,8 +1941,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000000271739",
-      "completion": "0.00000010869564",
+      "prompt": "0.00000003",
+      "completion": "0.00000011",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -1991,8 +2039,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000001333333333333",
-      "completion": "0.0000000347826048",
+      "prompt": "0.00000001",
+      "completion": "0.00000003",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3032,8 +3080,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.000000013043472",
-      "completion": "0.0000000521739072",
+      "prompt": "0.00000001",
+      "completion": "0.00000005",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3185,8 +3233,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000003260868",
-      "completion": "0.000000130434768",
+      "prompt": "0.00000003",
+      "completion": "0.00000013",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3326,7 +3374,7 @@
     "name": "DeepSeek: R1 Distill Qwen 14B",
     "created": 1738193940,
     "description": "DeepSeek R1 Distill Qwen 14B is a distilled large language model based on [Qwen 2.5 14B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). It outperforms OpenAI's o1-mini across various benchmarks, achieving new state-of-the-art results for dense models.\n\nOther benchmark results include:\n\n- AIME 2024 pass@1: 69.7\n- MATH-500 pass@1: 93.9\n- CodeForces Rating: 1481\n\nThe model leverages fine-tuning from DeepSeek R1's outputs, enabling competitive performance comparable to larger frontier models.",
-    "context_length": 64000,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -3347,8 +3395,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 64000,
-      "max_completion_tokens": 32000,
+      "context_length": 32768,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3365,57 +3413,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_p"
-    ]
-  },
-  {
-    "id": "deepseek/deepseek-r1-distill-qwen-14b:free",
-    "canonical_slug": "deepseek/deepseek-r1-distill-qwen-14b",
-    "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
-    "name": "DeepSeek: R1 Distill Qwen 14B (free)",
-    "created": 1738193940,
-    "description": "DeepSeek R1 Distill Qwen 14B is a distilled large language model based on [Qwen 2.5 14B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). It outperforms OpenAI's o1-mini across various benchmarks, achieving new state-of-the-art results for dense models.\n\nOther benchmark results include:\n\n- AIME 2024 pass@1: 69.7\n- MATH-500 pass@1: 93.9\n- CodeForces Rating: 1481\n\nThe model leverages fine-tuning from DeepSeek R1's outputs, enabling competitive performance comparable to larger frontier models.",
-    "context_length": 64000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": "deepseek-r1"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 64000,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_logprobs",
       "top_p"
     ]
   },
@@ -4316,8 +4313,8 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.00000002",
-      "completion": "0.0000000358695612",
+      "prompt": "0.00000001",
+      "completion": "0.00000002",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -4416,8 +4413,8 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.00000003532607",
-      "completion": "0.000000141304332",
+      "prompt": "0.00000004",
+      "completion": "0.00000014",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -4517,8 +4514,8 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.00000006521736",
-      "completion": "0.000000260869536",
+      "prompt": "0.00000007",
+      "completion": "0.00000026",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -7056,8 +7053,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000035869548",
-      "completion": "0.0000001434782448",
+      "prompt": "0.00000004",
+      "completion": "0.00000014",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -7834,8 +7831,8 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.000000017934774",
-      "completion": "0.0000000717391224",
+      "prompt": "0.00000002",
+      "completion": "0.00000004",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -7843,7 +7840,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 128000,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -8030,8 +8027,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000003804346",
-      "completion": "0.000000152173896",
+      "prompt": "0.00000004",
+      "completion": "0.00000015",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8133,8 +8130,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000003804346",
-      "completion": "0.000000152173896",
+      "prompt": "0.00000004",
+      "completion": "0.00000015",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8746,8 +8743,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000003804346",
-      "completion": "0.00000152173896",
+      "prompt": "0.00000038",
+      "completion": "0.00000152",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8851,8 +8848,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000006249997",
-      "completion": "0.000000249999972",
+      "prompt": "0.00000003",
+      "completion": "0.00000012",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9227,8 +9224,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000127173852",
-      "completion": "0.0000005086955952",
+      "prompt": "0.00000013",
+      "completion": "0.00000051",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9485,8 +9482,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000127173852",
-      "completion": "0.0000005086955952",
+      "prompt": "0.00000013",
+      "completion": "0.0000004",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9609,55 +9606,6 @@
       "max_tokens",
       "presence_penalty",
       "reasoning",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-    ]
-  },
-  {
-    "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
-    "canonical_slug": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
-    "hugging_face_id": "nvidia/Llama-3_1-Nemotron-Ultra-253B-v1",
-    "name": "NVIDIA: Llama 3.1 Nemotron Ultra 253B v1 (free)",
-    "created": 1744115059,
-    "description": "Llama-3.1-Nemotron-Ultra-253B-v1 is a large language model (LLM) optimized for advanced reasoning, human-interactive chat, retrieval-augmented generation (RAG), and tool-calling tasks. Derived from Meta’s Llama-3.1-405B-Instruct, it has been significantly customized using Neural Architecture Search (NAS), resulting in enhanced efficiency, reduced memory usage, and improved inference latency. The model supports a context length of up to 128K tokens and can operate efficiently on an 8x NVIDIA H100 node.\n\nNote: you must include `detailed thinking on` in the system prompt to enable reasoning. Please see [Usage Recommendations](https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1#quick-start-and-usage-recommendations) for more.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
       "seed",
       "stop",
       "temperature",
@@ -10329,7 +10277,7 @@
       "completion": "0.000008",
       "request": "0",
       "image": "0",
-      "web_search": "0",
+      "web_search": "0.01",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000005"
     },
@@ -10383,7 +10331,7 @@
       "completion": "0.0000016",
       "request": "0",
       "image": "0",
-      "web_search": "0",
+      "web_search": "0.01",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000001"
     },
@@ -10437,7 +10385,7 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
-      "web_search": "0",
+      "web_search": "0.01",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000025"
     },
@@ -11814,8 +11762,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000003260868",
-      "completion": "0.000000130434768",
+      "prompt": "0.00000003",
+      "completion": "0.00000013",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12250,8 +12198,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.00000006521736",
-      "completion": "0.000000260869536",
+      "prompt": "0.00000007",
+      "completion": "0.00000026",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12865,8 +12813,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000035869548",
-      "completion": "0.0000001434782448",
+      "prompt": "0.00000004",
+      "completion": "0.00000014",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12968,8 +12916,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000024999988",
-      "completion": "0.000000999999888",
+      "prompt": "0.00000012",
+      "completion": "0.0000005",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13225,8 +13173,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000000974999532",
-      "completion": "0.00000038999995632",
+      "prompt": "0.0000001",
+      "completion": "0.00000039",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13278,8 +13226,8 @@
       "instruct_type": "qwen3"
     },
     "pricing": {
-      "prompt": "0.0000000974999532",
-      "completion": "0.00000038999995632",
+      "prompt": "0.0000001",
+      "completion": "0.00000039",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13387,8 +13335,8 @@
       "instruct_type": "qwen3"
     },
     "pricing": {
-      "prompt": "0.000000035869548",
-      "completion": "0.0000001434782448",
+      "prompt": "0.00000004",
+      "completion": "0.00000014",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13442,8 +13390,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000007065214",
-      "completion": "0.000000282608664",
+      "prompt": "0.00000007",
+      "completion": "0.00000028",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13495,8 +13443,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000008967387",
-      "completion": "0.000000358695612",
+      "prompt": "0.00000009",
+      "completion": "0.0000003",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13504,7 +13452,7 @@
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -13601,8 +13549,8 @@
       "instruct_type": "qwen3"
     },
     "pricing": {
-      "prompt": "0.0000000322825932",
-      "completion": "0.00000012913042032",
+      "prompt": "0.00000003",
+      "completion": "0.00000013",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13867,7 +13815,7 @@
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14007,8 +13955,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000009782604",
-      "completion": "0.000000391304304",
+      "prompt": "0.0000001",
+      "completion": "0.00000039",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -14060,8 +14008,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000009782604",
-      "completion": "0.000000391304304",
+      "prompt": "0.0000001",
+      "completion": "0.00000039",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -14554,8 +14502,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000035869548",
-      "completion": "0.0000001434782448",
+      "prompt": "0.00000004",
+      "completion": "0.00000014",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -14959,7 +14907,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -14995,8 +14942,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000039130416",
-      "completion": "0.0000001565217216",
+      "prompt": "0.00000004",
+      "completion": "0.00000016",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -15060,7 +15007,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -15146,8 +15092,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.000000035869548",
-      "completion": "0.0000001434782448",
+      "prompt": "0.00000004",
+      "completion": "0.00000014",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -15377,101 +15323,6 @@
       "temperature",
       "top_a",
       "top_k",
-      "top_p"
-    ]
-  },
-  {
-    "id": "x-ai/grok-2-1212",
-    "canonical_slug": "x-ai/grok-2-1212",
-    "hugging_face_id": "",
-    "name": "xAI: Grok 2 1212",
-    "created": 1734232814,
-    "description": "Grok 2 1212 introduces significant enhancements to accuracy, instruction adherence, and multilingual support, making it a powerful and flexible choice for developers seeking a highly steerable, intelligent model.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Grok",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000002",
-      "completion": "0.00001",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-    ]
-  },
-  {
-    "id": "x-ai/grok-2-vision-1212",
-    "canonical_slug": "x-ai/grok-2-vision-1212",
-    "hugging_face_id": "",
-    "name": "xAI: Grok 2 Vision 1212",
-    "created": 1734237338,
-    "description": "Grok 2 Vision 1212 advances image-based AI with stronger visual comprehension, refined instruction-following, and multilingual support. From object recognition to style analysis, it empowers developers to build more intuitive, visually aware applications. Its enhanced steerability and reasoning establish a robust foundation for next-generation image solutions.\n\nTo read more about this model, check out [xAI's announcement](https://x.ai/blog/grok-1212).",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Grok",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000002",
-      "completion": "0.00001",
-      "request": "0",
-      "image": "0.0036",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "top_logprobs",
       "top_p"
     ]
   },
@@ -15834,8 +15685,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000412499802",
-      "completion": "0.0000016499998152",
+      "prompt": "0.00000041",
+      "completion": "0.00000165",
       "request": "0",
       "image": "0",
       "web_search": "0",
