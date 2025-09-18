@@ -2859,7 +2859,7 @@
     "name": "DeepSeek: DeepSeek V3.1 (free)",
     "created": 1755779628,
     "description": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates. It extends the DeepSeek-V3 base with a two-phase long-context training process, reaching up to 128K tokens, and uses FP8 microscaling for efficient inference. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)\n\nThe model improves tool use, code generation, and reasoning efficiency, achieving performance comparable to DeepSeek-R1 on difficult benchmarks while responding more quickly. It supports structured tool calling, code agents, and search agents, making it suitable for research, coding, and agentic workflows. \n\nIt succeeds the [DeepSeek V3-0324](/deepseek/deepseek-chat-v3-0324) model and performs well on a variety of tasks.",
-    "context_length": 32768,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2880,9 +2880,9 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
+      "context_length": 163840,
       "max_completion_tokens": null,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -3025,8 +3025,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000024999988",
-      "completion": "0.000000999999888",
+      "prompt": "0.0000004",
+      "completion": "0.00000175",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -5210,8 +5210,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.00000075",
+      "prompt": "0.00000012",
+      "completion": "0.0000006",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -5219,7 +5219,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -6648,7 +6648,10 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_p"
     ]
@@ -9482,8 +9485,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000013",
-      "completion": "0.0000004",
+      "prompt": "0.00000011",
+      "completion": "0.00000038",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -10942,13 +10945,13 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000125",
-      "completion": "0.00001",
+      "prompt": "0.000000625",
+      "completion": "0.000005",
       "request": "0",
       "image": "0",
-      "web_search": "0.01",
+      "web_search": "0.005",
       "internal_reasoning": "0",
-      "input_cache_read": "0.000000125"
+      "input_cache_read": "0.0000000625"
     },
     "top_provider": {
       "context_length": 400000,
@@ -11111,7 +11114,7 @@
     "name": "OpenAI: gpt-oss-120b",
     "created": 1754414231,
     "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward pass and is optimized to run on a single H100 GPU with native MXFP4 quantization. The model supports configurable reasoning depth, full chain-of-thought access, and native tool use, including function calling, browsing, and structured output generation.",
-    "context_length": 131000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -11124,16 +11127,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000072",
-      "completion": "0.00000028",
+      "prompt": "0.00000005",
+      "completion": "0.00000025",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131000,
-      "max_completion_tokens": 131000,
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12916,8 +12919,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000012",
-      "completion": "0.0000005",
+      "prompt": "0.00000007",
+      "completion": "0.00000028",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13174,7 +13177,7 @@
     },
     "pricing": {
       "prompt": "0.0000001",
-      "completion": "0.00000039",
+      "completion": "0.0000001",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13182,7 +13185,7 @@
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 262144,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -13252,6 +13255,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -13335,8 +13339,8 @@
       "instruct_type": "qwen3"
     },
     "pricing": {
-      "prompt": "0.00000004",
-      "completion": "0.00000014",
+      "prompt": "0.00000006",
+      "completion": "0.00000022",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13443,8 +13447,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000009",
-      "completion": "0.0000003",
+      "prompt": "0.00000008",
+      "completion": "0.00000029",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13452,7 +13456,7 @@
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 262144,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -13753,8 +13757,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000024999988",
-      "completion": "0.000000999999888",
+      "prompt": "0.00000022",
+      "completion": "0.00000095",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13836,6 +13840,97 @@
       "tools",
       "top_k",
       "top_logprobs",
+      "top_p"
+    ]
+  },
+  {
+    "id": "qwen/qwen3-coder-flash",
+    "canonical_slug": "qwen/qwen3-coder-flash",
+    "hugging_face_id": "",
+    "name": "Qwen: Qwen3 Coder Flash",
+    "created": 1758115536,
+    "description": "Qwen3 Coder Flash is Alibaba's fast and cost efficient version of their proprietary Qwen3 Coder Plus. It is a powerful coding agent model specializing in autonomous programming via tool calling and environment interaction, combining coding proficiency with versatile general-purpose abilities.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000015",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.00000008"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "presence_penalty",
+      "response_format",
+      "seed",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ]
+  },
+  {
+    "id": "qwen/qwen3-coder-plus",
+    "canonical_slug": "qwen/qwen3-coder-plus",
+    "hugging_face_id": "",
+    "name": "Qwen: Qwen3 Coder Plus",
+    "created": 1758115194,
+    "description": "Qwen3 Coder Plus is Alibaba's proprietary version of the Open Source Qwen3 Coder 480B A35B. It is a powerful coding agent model specializing in autonomous programming via tool calling and environment interaction, combining coding proficiency with versatile general-purpose abilities.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000005",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.0000001"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "presence_penalty",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
       "top_p"
     ]
   },
@@ -13956,7 +14051,7 @@
     },
     "pricing": {
       "prompt": "0.0000001",
-      "completion": "0.00000039",
+      "completion": "0.0000008",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -14009,7 +14104,7 @@
     },
     "pricing": {
       "prompt": "0.0000001",
-      "completion": "0.00000039",
+      "completion": "0.0000008",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -14236,57 +14331,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_p"
-    ]
-  },
-  {
-    "id": "rekaai/reka-flash-3:free",
-    "canonical_slug": "rekaai/reka-flash-3",
-    "hugging_face_id": "RekaAI/reka-flash-3",
-    "name": "Reka: Flash 3 (free)",
-    "created": 1741812813,
-    "description": "Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka. It excels at general chat, coding tasks, instruction-following, and function calling. Featuring a 32K context length and optimized through reinforcement learning (RLOO), it provides competitive performance comparable to proprietary models within a smaller parameter footprint. Ideal for low-latency, local, or on-device deployments, Reka Flash 3 is compact, supports efficient quantization (down to 11GB at 4-bit precision), and employs explicit reasoning tags (\"<reasoning>\") to indicate its internal thought process.\n\nReka Flash 3 is primarily an English model with limited multilingual understanding capabilities. The model weights are released under the Apache 2.0 license.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_logprobs",
       "top_p"
     ]
   },
@@ -15711,6 +15755,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
