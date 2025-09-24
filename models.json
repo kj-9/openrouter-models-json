@@ -2167,52 +2167,6 @@
     ]
   },
   {
-    "id": "cohere/command",
-    "canonical_slug": "cohere/command",
-    "hugging_face_id": null,
-    "name": "Cohere: Command",
-    "created": 1710374400,
-    "description": "Command is an instruction-following conversational model that performs language tasks with high quality, more reliably and with a longer context than our base generative models.\n\nUse of this model is subject to Cohere's [Usage Policy](https://docs.cohere.com/docs/usage-policy) and [SaaS Agreement](https://cohere.com/saas-agreement).",
-    "context_length": 4096,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Cohere",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000002",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 4000,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "top_k",
-      "top_p"
-    ]
-  },
-  {
     "id": "cohere/command-a",
     "canonical_slug": "cohere/command-a-03-2025",
     "hugging_face_id": "CohereForAI/c4ai-command-a-03-2025",
@@ -2259,100 +2213,6 @@
     ]
   },
   {
-    "id": "cohere/command-r",
-    "canonical_slug": "cohere/command-r",
-    "hugging_face_id": null,
-    "name": "Cohere: Command R",
-    "created": 1710374400,
-    "description": "Command-R is a 35B parameter model that performs conversational language tasks at a higher quality, more reliably, and with a longer context than previous models. It can be used for complex workflows like code generation, retrieval augmented generation (RAG), tool use, and agents.\n\nRead the launch post [here](https://txt.cohere.com/command-r/).\n\nUse of this model is subject to Cohere's [Usage Policy](https://docs.cohere.com/docs/usage-policy) and [SaaS Agreement](https://cohere.com/saas-agreement).",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Cohere",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.0000015",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 4000,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tools",
-      "top_k",
-      "top_p"
-    ]
-  },
-  {
-    "id": "cohere/command-r-03-2024",
-    "canonical_slug": "cohere/command-r-03-2024",
-    "hugging_face_id": null,
-    "name": "Cohere: Command R (03-2024)",
-    "created": 1709341200,
-    "description": "Command-R is a 35B parameter model that performs conversational language tasks at a higher quality, more reliably, and with a longer context than previous models. It can be used for complex workflows like code generation, retrieval augmented generation (RAG), tool use, and agents.\n\nRead the launch post [here](https://txt.cohere.com/command-r/).\n\nUse of this model is subject to Cohere's [Usage Policy](https://docs.cohere.com/docs/usage-policy) and [SaaS Agreement](https://cohere.com/saas-agreement).",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Cohere",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.0000015",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 4000,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tools",
-      "top_k",
-      "top_p"
-    ]
-  },
-  {
     "id": "cohere/command-r-08-2024",
     "canonical_slug": "cohere/command-r-08-2024",
     "hugging_face_id": null,
@@ -2374,100 +2234,6 @@
     "pricing": {
       "prompt": "0.00000015",
       "completion": "0.0000006",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 4000,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tools",
-      "top_k",
-      "top_p"
-    ]
-  },
-  {
-    "id": "cohere/command-r-plus",
-    "canonical_slug": "cohere/command-r-plus",
-    "hugging_face_id": null,
-    "name": "Cohere: Command R+",
-    "created": 1712188800,
-    "description": "Command R+ is a new, 104B-parameter LLM from Cohere. It's useful for roleplay, general consumer usecases, and Retrieval Augmented Generation (RAG).\n\nIt offers multilingual support for ten key languages to facilitate global business operations. See benchmarks and the launch post [here](https://txt.cohere.com/command-r-plus-microsoft-azure/).\n\nUse of this model is subject to Cohere's [Usage Policy](https://docs.cohere.com/docs/usage-policy) and [SaaS Agreement](https://cohere.com/saas-agreement).",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Cohere",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000003",
-      "completion": "0.000015",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 4000,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tools",
-      "top_k",
-      "top_p"
-    ]
-  },
-  {
-    "id": "cohere/command-r-plus-04-2024",
-    "canonical_slug": "cohere/command-r-plus-04-2024",
-    "hugging_face_id": null,
-    "name": "Cohere: Command R+ (04-2024)",
-    "created": 1712016000,
-    "description": "Command R+ is a new, 104B-parameter LLM from Cohere. It's useful for roleplay, general consumer usecases, and Retrieval Augmented Generation (RAG).\n\nIt offers multilingual support for ten key languages to facilitate global business operations. See benchmarks and the launch post [here](https://txt.cohere.com/command-r-plus-microsoft-azure/).\n\nUse of this model is subject to Cohere's [Usage Policy](https://docs.cohere.com/docs/usage-policy) and [SaaS Agreement](https://cohere.com/saas-agreement).",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Cohere",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000003",
-      "completion": "0.000015",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3901,9 +3667,9 @@
     "id": "google/gemini-2.5-flash-image-preview",
     "canonical_slug": "google/gemini-2.5-flash-image-preview",
     "hugging_face_id": "",
-    "name": "Google: Gemini 2.5 Flash Image Preview",
+    "name": "Gemini 2.5 Flash Image (Nano Banana)",
     "created": 1756218977,
-    "description": "Gemini 2.5 Flash Image Preview, AKA Nano Banana is a state of the art image generation model with contextual understanding. It is capable of image generation, edits, and multi-turn conversations.",
+    "description": "Gemini 2.5 Flash Image Preview, a.k.a. \"Nano Banana,\" is a state of the art image generation model with contextual understanding. It is capable of image generation, edits, and multi-turn conversations.",
     "context_length": 32768,
     "architecture": {
       "modality": "text+image->text+image",
@@ -5916,8 +5682,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.000000012",
-      "completion": "0.000000036",
+      "prompt": "0.00000004",
+      "completion": "0.00000012",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9203,6 +8969,55 @@
     ]
   },
   {
+    "id": "nousresearch/deephermes-3-llama-3-8b-preview",
+    "canonical_slug": "nousresearch/deephermes-3-llama-3-8b-preview",
+    "hugging_face_id": "NousResearch/DeepHermes-3-Llama-3-8B-Preview",
+    "name": "Nous: DeepHermes 3 Llama 3 8B Preview",
+    "created": 1740719372,
+    "description": "DeepHermes 3 Preview is the latest version of our flagship Hermes series of LLMs by Nous Research, and one of the first models in the world to unify Reasoning (long chains of thought that improve answer accuracy) and normal LLM response modes into one model. We have also improved LLM annotation, judgement, and function calling.\n\nDeepHermes 3 Preview is one of the first LLM models to unify both \"intuitive\", traditional mode responses and long chain of thought reasoning responses into a single model, toggled by a system prompt.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000001",
+      "completion": "0.00000005",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+    ]
+  },
+  {
     "id": "nousresearch/deephermes-3-llama-3-8b-preview:free",
     "canonical_slug": "nousresearch/deephermes-3-llama-3-8b-preview",
     "hugging_face_id": "NousResearch/DeepHermes-3-Llama-3-8B-Preview",
@@ -11055,6 +10870,58 @@
       "response_format",
       "seed",
       "structured_outputs"
+    ]
+  },
+  {
+    "id": "openai/gpt-5-codex",
+    "canonical_slug": "openai/gpt-5-codex",
+    "hugging_face_id": "",
+    "name": "OpenAI: GPT-5 Codex",
+    "created": 1758643403,
+    "description": "GPT-5-Codex is a specialized version of GPT-5 optimized for software engineering and coding workflows. It is designed for both interactive development sessions and long, independent execution of complex engineering tasks. The model supports building projects from scratch, feature development, debugging, large-scale refactoring, and code review. Compared to GPT-5, Codex is more steerable, adheres closely to developer instructions, and produces cleaner, higher-quality code outputs. Reasoning effort can be adjusted with the `reasoning.effort` parameter. Read the [docs here](https://openrouter.ai/docs/use-cases/reasoning-tokens#reasoning-effort-level)\n\nCodex integrates into developer environments including the CLI, IDE extensions, GitHub, and cloud tasks. It adapts reasoning effort dynamically—providing fast responses for small tasks while sustaining extended multi-hour runs for large projects. The model is trained to perform structured code reviews, catching critical flaws by reasoning over dependencies and validating behavior against tests. It also supports multimodal inputs such as images or screenshots for UI development and integrates tool use for search, dependency installation, and environment setup. Codex is intended specifically for agentic coding applications.",
+    "context_length": 400000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "GPT",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000125",
+      "completion": "0.00001",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.000000125"
+    },
+    "top_provider": {
+      "context_length": 400000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "top_logprobs"
     ]
   },
   {
@@ -12969,8 +12836,8 @@
       "instruct_type": "qwen3"
     },
     "pricing": {
-      "prompt": "0.00000006",
-      "completion": "0.00000024",
+      "prompt": "0.00000004",
+      "completion": "0.00000014",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12978,7 +12845,7 @@
     },
     "top_provider": {
       "context_length": 40960,
-      "max_completion_tokens": 40960,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -13130,8 +12997,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000001",
-      "completion": "0.0000001",
+      "prompt": "0.00000009",
+      "completion": "0.0000006",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13139,7 +13006,7 @@
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -13847,7 +13714,7 @@
     "canonical_slug": "qwen/qwen3-coder-plus",
     "hugging_face_id": "",
     "name": "Qwen: Qwen3 Coder Plus",
-    "created": 1758115194,
+    "created": 1758662707,
     "description": "Qwen3 Coder Plus is Alibaba's proprietary version of the Open Source Qwen3 Coder 480B A35B. It is a powerful coding agent model specializing in autonomous programming via tool calling and environment interaction, combining coding proficiency with versatile general-purpose abilities.",
     "context_length": 128000,
     "architecture": {
@@ -13944,7 +13811,7 @@
     "canonical_slug": "qwen/qwen3-max",
     "hugging_face_id": "",
     "name": "Qwen: Qwen3 Max",
-    "created": 1757076567,
+    "created": 1758662808,
     "description": "Qwen3-Max is an updated release built on the Qwen3 series, offering major improvements in reasoning, instruction following, multilingual support, and long-tail knowledge coverage compared to the January 2025 version. It delivers higher accuracy in math, coding, logic, and science tasks, follows complex instructions in Chinese and English more reliably, reduces hallucinations, and produces higher-quality responses for open-ended Q&A, writing, and conversation. The model supports over 100 languages with stronger translation and commonsense reasoning, and is optimized for retrieval-augmented generation (RAG) and tool calling, though it does not include a dedicated “thinking” mode.",
     "context_length": 256000,
     "architecture": {
@@ -14089,6 +13956,102 @@
       "tools",
       "top_k",
       "top_logprobs",
+      "top_p"
+    ]
+  },
+  {
+    "id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "canonical_slug": "qwen/qwen3-vl-235b-a22b-instruct",
+    "hugging_face_id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+    "name": "Qwen: Qwen3 VL 235B A22B Instruct",
+    "created": 1758668687,
+    "description": "Qwen3-VL-235B-A22B Instruct is an open-weight multimodal model that unifies strong text generation with visual understanding across images and video. The Instruct model targets general vision-language use (VQA, document parsing, chart/table extraction, multilingual OCR). The series emphasizes robust perception (recognition of diverse real-world and synthetic categories), spatial understanding (2D/3D grounding), and long-form visual comprehension, with competitive results on public multimodal benchmarks for both perception and reasoning.\n\nBeyond analysis, Qwen3-VL supports agentic interaction and tool use: it can follow complex instructions over multi-image, multi-turn dialogues; align text to video timelines for precise temporal queries; and operate GUI elements for automation tasks. The models also enable visual coding workflows—turning sketches or mockups into code and assisting with UI debugging—while maintaining strong text-only performance comparable to the flagship Qwen3 language models. This makes Qwen3-VL suitable for production scenarios spanning document AI, multilingual OCR, software/UI assistance, spatial/embodied tasks, and research on vision-language agents.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": "qwen3"
+    },
+    "pricing": {
+      "prompt": "0.0000007",
+      "completion": "0.0000028",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ]
+  },
+  {
+    "id": "qwen/qwen3-vl-235b-a22b-thinking",
+    "canonical_slug": "qwen/qwen3-vl-235b-a22b-thinking",
+    "hugging_face_id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+    "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+    "created": 1758668690,
+    "description": "Qwen3-VL-235B-A22B Thinking is a multimodal model that unifies strong text generation with visual understanding across images and video. The Thinking model is optimized for multimodal reasoning in STEM and math. The series emphasizes robust perception (recognition of diverse real-world and synthetic categories), spatial understanding (2D/3D grounding), and long-form visual comprehension, with competitive results on public multimodal benchmarks for both perception and reasoning.\n\nBeyond analysis, Qwen3-VL supports agentic interaction and tool use: it can follow complex instructions over multi-image, multi-turn dialogues; align text to video timelines for precise temporal queries; and operate GUI elements for automation tasks. The models also enable visual coding workflows, turning sketches or mockups into code and assisting with UI debugging, while maintaining strong text-only performance comparable to the flagship Qwen3 language models. This makes Qwen3-VL suitable for production scenarios spanning document AI, multilingual OCR, software/UI assistance, spatial/embodied tasks, and research on vision-language agents.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": "qwen3"
+    },
+    "pricing": {
+      "prompt": "0.0000007",
+      "completion": "0.0000084",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
       "top_p"
     ]
   },
