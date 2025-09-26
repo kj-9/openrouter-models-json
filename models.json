@@ -3374,7 +3374,7 @@
     "name": "DeepSeek: DeepSeek V3.1 Terminus",
     "created": 1758548275,
     "description": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent capabilities, further optimizing the model's performance in coding and search agents. It is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes. It extends the DeepSeek-V3 base with a two-phase long-context training process, reaching up to 128K tokens, and uses FP8 microscaling for efficient inference. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)\n\nThe model improves tool use, code generation, and reasoning efficiency, achieving performance comparable to DeepSeek-R1 on difficult benchmarks while responding more quickly. It supports structured tool calling, code agents, and search agents, making it suitable for research, coding, and agentic workflows. ",
-    "context_length": 131072,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -3395,8 +3395,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 65536,
+      "context_length": 163840,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3812,6 +3812,107 @@
     ]
   },
   {
+    "id": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "canonical_slug": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "hugging_face_id": "",
+    "name": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
+    "created": 1758819686,
+    "description": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance across common benchmarks compared to earlier Flash models. By default, \"thinking\" (i.e. multi-pass reasoning) is disabled to prioritize speed, but developers can enable it via the [Reasoning API parameter](https://openrouter.ai/docs/use-cases/reasoning-tokens) to selectively trade off cost for intelligence. ",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "file",
+        "image",
+        "text",
+        "audio"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000004",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ]
+  },
+  {
+    "id": "google/gemini-2.5-flash-preview-09-2025",
+    "canonical_slug": "google/gemini-2.5-flash-preview-09-2025",
+    "hugging_face_id": "",
+    "name": "Google: Gemini 2.5 Flash Preview 09-2025",
+    "created": 1758820178,
+    "description": "Gemini 2.5 Flash Preview September 2025 Checkpoint is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater accuracy and nuanced context handling. \n\nAdditionally, Gemini 2.5 Flash is configurable through the \"max tokens for reasoning\" parameter, as described in the documentation (https://openrouter.ai/docs/use-cases/reasoning-tokens#max-tokens-for-reasoning).",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "file",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000025",
+      "request": "0",
+      "image": "0.001238",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.000000075",
+      "input_cache_write": "0.0000003833"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ]
+  },
+  {
     "id": "google/gemini-2.5-pro",
     "canonical_slug": "google/gemini-2.5-pro",
     "hugging_face_id": "",
@@ -3968,56 +4069,6 @@
     ]
   },
   {
-    "id": "google/gemini-flash-1.5",
-    "canonical_slug": "google/gemini-flash-1.5",
-    "hugging_face_id": null,
-    "name": "Google: Gemini 1.5 Flash ",
-    "created": 1715644800,
-    "description": "Gemini 1.5 Flash is a foundation model that performs well at a variety of multimodal tasks such as visual understanding, classification, summarization, and creating content from image, audio and video. It's adept at processing visual and text inputs such as photographs, documents, infographics, and screenshots.\n\nGemini 1.5 Flash is designed for high-volume, high-frequency tasks where cost and latency matter. On most common tasks, Flash achieves comparable quality to other Gemini Pro models at a significantly reduced cost. Flash is well-suited for applications like chat assistants and on-demand content generation where speed and scale matter.\n\nUsage of Gemini is subject to Google's [Gemini Terms of Use](https://ai.google.dev/terms).\n\n#multimodal",
-    "context_length": 1000000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Gemini",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000000075",
-      "completion": "0.0000003",
-      "request": "0",
-      "image": "0.00004",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.00000001875",
-      "input_cache_write": "0.0000001583"
-    },
-    "top_provider": {
-      "context_length": 1000000,
-      "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-    ]
-  },
-  {
     "id": "google/gemini-flash-1.5-8b",
     "canonical_slug": "google/gemini-flash-1.5-8b",
     "hugging_face_id": null,
@@ -4049,54 +4100,6 @@
     },
     "top_provider": {
       "context_length": 1000000,
-      "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-    ]
-  },
-  {
-    "id": "google/gemini-pro-1.5",
-    "canonical_slug": "google/gemini-pro-1.5",
-    "hugging_face_id": null,
-    "name": "Google: Gemini 1.5 Pro",
-    "created": 1712620800,
-    "description": "Google's latest multimodal model, supports image and video[0] in text or chat prompts.\n\nOptimized for language tasks including:\n\n- Code generation\n- Text generation\n- Text editing\n- Problem solving\n- Recommendations\n- Information extraction\n- Data extraction or generation\n- AI agents\n\nUsage of Gemini is subject to Google's [Gemini Terms of Use](https://ai.google.dev/terms).\n\n* [0]: Video input is not available through OpenRouter at this time.",
-    "context_length": 2000000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Gemini",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000125",
-      "completion": "0.000005",
-      "request": "0",
-      "image": "0.0006575",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 2000000,
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
@@ -15450,6 +15453,56 @@
     ]
   },
   {
+    "id": "x-ai/grok-4-fast",
+    "canonical_slug": "x-ai/grok-4-fast",
+    "hugging_face_id": "",
+    "name": "xAI: Grok 4 Fast",
+    "created": 1758240090,
+    "description": "Grok 4 Fast is xAI's latest multimodal model with SOTA cost-efficiency and a 2M token context window. It comes in two flavors: non-reasoning and reasoning. Read more about the model on xAI's [news post](http://x.ai/news/grok-4-fast). Reasoning can be enabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)\n\nPrompts and completions may be used by xAI or OpenRouter to improve future models.",
+    "context_length": 2000000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Grok",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.0000005",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.00000005"
+    },
+    "top_provider": {
+      "context_length": 2000000,
+      "max_completion_tokens": 30000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+    ]
+  },
+  {
     "id": "x-ai/grok-4-fast:free",
     "canonical_slug": "x-ai/grok-4-fast",
     "hugging_face_id": "",
@@ -15609,8 +15662,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000041",
-      "completion": "0.00000165",
+      "prompt": "0.0000004",
+      "completion": "0.0000016",
       "request": "0",
       "image": "0",
       "web_search": "0",
