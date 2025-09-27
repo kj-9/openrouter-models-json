@@ -48,7 +48,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "agentica-org/deepcoder-14b-preview:free",
@@ -99,7 +100,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "ai21/jamba-large-1.7",
@@ -142,7 +144,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "ai21/jamba-mini-1.7",
@@ -185,7 +188,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "aion-labs/aion-1.0",
@@ -226,7 +230,8 @@
       "reasoning",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "aion-labs/aion-1.0-mini",
@@ -267,7 +272,8 @@
       "reasoning",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "aion-labs/aion-rp-llama-3.1-8b",
@@ -306,7 +312,8 @@
       "max_tokens",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "alfredpros/codellama-7b-instruct-solidity",
@@ -352,7 +359,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "alibaba/tongyi-deepresearch-30b-a3b",
@@ -375,7 +383,7 @@
     },
     "pricing": {
       "prompt": "0.00000009",
-      "completion": "0.00000045",
+      "completion": "0.0000004",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -388,16 +396,28 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "frequency_penalty",
       "include_reasoning",
       "max_tokens",
+      "min_p",
+      "presence_penalty",
       "reasoning",
+      "repetition_penalty",
       "response_format",
+      "seed",
+      "stop",
       "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
+      "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "allenai/molmo-7b-d",
@@ -445,7 +465,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "allenai/olmo-2-0325-32b-instruct",
@@ -492,7 +513,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "alpindale/goliath-120b",
@@ -542,7 +564,8 @@
       "top_a",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "amazon/nova-lite-v1",
@@ -585,7 +608,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "amazon/nova-micro-v1",
@@ -627,7 +651,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "amazon/nova-pro-v1",
@@ -670,7 +695,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "anthracite-org/magnum-v2-72b",
@@ -717,7 +743,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "anthracite-org/magnum-v4-72b",
@@ -765,7 +792,8 @@
       "top_a",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "anthropic/claude-3-haiku",
@@ -811,7 +839,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "anthropic/claude-3-opus",
@@ -857,7 +886,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "anthropic/claude-3.5-haiku",
@@ -903,7 +933,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "anthropic/claude-3.5-haiku-20241022",
@@ -950,7 +981,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "anthropic/claude-3.5-sonnet",
@@ -997,7 +1029,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "anthropic/claude-3.5-sonnet-20240620",
@@ -1044,7 +1077,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "anthropic/claude-3.7-sonnet",
@@ -1093,7 +1127,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "anthropic/claude-3.7-sonnet:thinking",
@@ -1140,7 +1175,8 @@
       "temperature",
       "tool_choice",
       "tools"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "anthropic/claude-opus-4",
@@ -1189,7 +1225,12 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "anthropic/claude-opus-4.1",
@@ -1238,7 +1279,12 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "anthropic/claude-sonnet-4",
@@ -1287,7 +1333,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "arcee-ai/afm-4.5b",
@@ -1335,7 +1382,12 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "arcee-ai/coder-large",
@@ -1381,7 +1433,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "arcee-ai/maestro-reasoning",
@@ -1427,7 +1480,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "arcee-ai/spotlight",
@@ -1474,7 +1528,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "arcee-ai/virtuoso-large",
@@ -1522,7 +1577,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "arliai/qwq-32b-arliai-rpr-v1",
@@ -1573,7 +1629,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "arliai/qwq-32b-arliai-rpr-v1:free",
@@ -1624,7 +1681,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "baidu/ernie-4.5-21b-a3b",
@@ -1671,7 +1729,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "baidu/ernie-4.5-300b-a47b",
@@ -1720,7 +1779,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "baidu/ernie-4.5-vl-28b-a3b",
@@ -1770,7 +1830,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "baidu/ernie-4.5-vl-424b-a47b",
@@ -1820,7 +1881,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "bytedance/seed-oss-36b-instruct",
@@ -1871,7 +1933,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "bytedance/ui-tars-1.5-7b",
@@ -1919,7 +1982,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
@@ -1964,7 +2028,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "cognitivecomputations/dolphin3.0-mistral-24b",
@@ -2013,7 +2078,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "cognitivecomputations/dolphin3.0-mistral-24b:free",
@@ -2062,7 +2128,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "cognitivecomputations/dolphin3.0-r1-mistral-24b",
@@ -2113,7 +2180,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
@@ -2164,7 +2232,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "cohere/command-a",
@@ -2210,7 +2279,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "cohere/command-r-08-2024",
@@ -2257,7 +2327,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "cohere/command-r-plus-08-2024",
@@ -2304,7 +2375,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "cohere/command-r7b-12-2024",
@@ -2350,7 +2422,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepcogito/cogito-v2-preview-deepseek-671b",
@@ -2398,7 +2471,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepcogito/cogito-v2-preview-llama-109b-moe",
@@ -2449,7 +2523,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-chat",
@@ -2502,7 +2577,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-chat-v3-0324",
@@ -2555,7 +2631,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-chat-v3-0324:free",
@@ -2606,7 +2683,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-chat-v3.1",
@@ -2661,7 +2739,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-chat-v3.1:free",
@@ -2712,7 +2791,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-prover-v2",
@@ -2759,7 +2839,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-r1",
@@ -2814,7 +2895,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-r1-0528",
@@ -2869,7 +2951,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-r1-0528-qwen3-8b",
@@ -2920,7 +3003,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-r1-0528-qwen3-8b:free",
@@ -2971,7 +3055,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-r1-0528:free",
@@ -3022,7 +3107,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-r1-distill-llama-70b",
@@ -3076,7 +3162,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-r1-distill-llama-70b:free",
@@ -3127,7 +3214,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-r1-distill-llama-8b",
@@ -3176,7 +3264,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-r1-distill-qwen-14b",
@@ -3225,7 +3314,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-r1-distill-qwen-32b",
@@ -3276,7 +3366,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-r1:free",
@@ -3316,7 +3407,8 @@
       "max_tokens",
       "reasoning",
       "temperature"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-v3.1-base",
@@ -3365,7 +3457,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "deepseek/deepseek-v3.1-terminus",
@@ -3419,7 +3512,12 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "eleutherai/llemma_7b",
@@ -3465,7 +3563,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemini-2.0-flash-001",
@@ -3516,7 +3615,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemini-2.0-flash-exp:free",
@@ -3561,7 +3661,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemini-2.0-flash-lite-001",
@@ -3609,7 +3710,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemini-2.5-flash",
@@ -3661,7 +3763,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemini-2.5-flash-image-preview",
@@ -3705,7 +3808,12 @@
       "structured_outputs",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "google/gemini-2.5-flash-lite",
@@ -3757,7 +3865,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemini-2.5-flash-lite-preview-06-17",
@@ -3809,7 +3918,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemini-2.5-flash-lite-preview-09-2025",
@@ -3859,7 +3969,12 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "google/gemini-2.5-flash-preview-09-2025",
@@ -3910,7 +4025,12 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "google/gemini-2.5-pro",
@@ -3962,7 +4082,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemini-2.5-pro-preview",
@@ -4014,7 +4135,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemini-2.5-pro-preview-05-06",
@@ -4066,7 +4188,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemini-flash-1.5-8b",
@@ -4116,7 +4239,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemma-2-27b-it",
@@ -4160,7 +4284,8 @@
       "structured_outputs",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemma-2-9b-it",
@@ -4210,7 +4335,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemma-2-9b-it:free",
@@ -4259,7 +4385,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemma-3-12b-it",
@@ -4311,7 +4438,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemma-3-12b-it:free",
@@ -4361,7 +4489,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemma-3-27b-it",
@@ -4413,7 +4542,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemma-3-27b-it:free",
@@ -4465,7 +4595,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemma-3-4b-it",
@@ -4513,7 +4644,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemma-3-4b-it:free",
@@ -4556,7 +4688,8 @@
       "structured_outputs",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemma-3n-e2b-it:free",
@@ -4600,7 +4733,8 @@
       "stop",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemma-3n-e4b-it",
@@ -4646,7 +4780,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "google/gemma-3n-e4b-it:free",
@@ -4690,7 +4825,8 @@
       "stop",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "gryphe/mythomax-l2-13b",
@@ -4740,7 +4876,8 @@
       "top_a",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "inception/mercury",
@@ -4787,7 +4924,12 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "inception/mercury-coder",
@@ -4834,7 +4976,12 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "inflection/inflection-3-pi",
@@ -4874,7 +5021,8 @@
       "stop",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "inflection/inflection-3-productivity",
@@ -4914,7 +5062,8 @@
       "stop",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "liquid/lfm-3b",
@@ -4960,7 +5109,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "liquid/lfm-7b",
@@ -4997,20 +5147,17 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "mancer/weaver",
@@ -5058,7 +5205,8 @@
       "top_a",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meituan/longcat-flash-chat",
@@ -5109,7 +5257,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-3-70b-instruct",
@@ -5161,7 +5310,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-3-8b-instruct",
@@ -5211,7 +5361,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-3.1-405b",
@@ -5260,7 +5411,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-3.1-405b-instruct",
@@ -5313,7 +5465,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-3.1-70b-instruct",
@@ -5366,7 +5519,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-3.1-8b-instruct",
@@ -5419,7 +5573,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-3.2-11b-vision-instruct",
@@ -5470,7 +5625,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-3.2-1b-instruct",
@@ -5520,7 +5676,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-3.2-3b-instruct",
@@ -5573,7 +5730,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-3.2-3b-instruct:free",
@@ -5616,7 +5774,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-3.2-90b-vision-instruct",
@@ -5664,7 +5823,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-3.3-70b-instruct",
@@ -5717,7 +5877,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-3.3-70b-instruct:free",
@@ -5765,7 +5926,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-3.3-8b-instruct:free",
@@ -5810,7 +5972,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-4-maverick",
@@ -5864,7 +6027,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-4-maverick:free",
@@ -5910,7 +6074,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-4-scout",
@@ -5919,7 +6084,7 @@
     "name": "Meta: Llama 4 Scout",
     "created": 1743881519,
     "description": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input (text and image) and multilingual output (text and code) across 12 supported languages. Designed for assistant-style interaction and visual reasoning, Scout uses 16 experts per forward pass and features a context length of 10 million tokens, with a training corpus of ~40 trillion tokens.\n\nBuilt for high efficiency and local or commercial deployment, Llama 4 Scout incorporates early fusion for seamless modality integration. It is instruction-tuned for use in multilingual chat, captioning, and image understanding tasks. Released under the Llama 4 Community License, it was last trained on data up to August 2024 and launched publicly on April 5, 2025.",
-    "context_length": 1048576,
+    "context_length": 327680,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -5936,13 +6101,13 @@
       "prompt": "0.00000008",
       "completion": "0.0000003",
       "request": "0",
-      "image": "0",
+      "image": "0.0003342",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 1048576,
-      "max_completion_tokens": 1048576,
+      "context_length": 327680,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -5964,7 +6129,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-4-scout:free",
@@ -6010,7 +6176,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-guard-2-8b",
@@ -6056,7 +6223,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-guard-3-8b",
@@ -6106,7 +6274,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "meta-llama/llama-guard-4-12b",
@@ -6155,7 +6324,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "microsoft/mai-ds-r1",
@@ -6206,7 +6376,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "microsoft/mai-ds-r1:free",
@@ -6257,7 +6428,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "microsoft/phi-3-medium-128k-instruct",
@@ -6298,7 +6470,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "microsoft/phi-3-mini-128k-instruct",
@@ -6339,7 +6512,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "microsoft/phi-3.5-mini-128k-instruct",
@@ -6380,7 +6554,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "microsoft/phi-4",
@@ -6428,7 +6603,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "microsoft/phi-4-multimodal-instruct",
@@ -6479,7 +6655,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "microsoft/phi-4-reasoning-plus",
@@ -6528,7 +6705,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "microsoft/wizardlm-2-8x22b",
@@ -6576,7 +6754,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "minimax/minimax-01",
@@ -6616,7 +6795,8 @@
       "max_tokens",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "minimax/minimax-m1",
@@ -6668,7 +6848,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "mistralai/codestral-2501",
@@ -6715,7 +6896,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/codestral-2508",
@@ -6762,7 +6946,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/devstral-medium",
@@ -6809,7 +6996,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/devstral-small",
@@ -6859,7 +7049,10 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/devstral-small-2505",
@@ -6912,7 +7105,10 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/devstral-small-2505:free",
@@ -6963,7 +7159,10 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/magistral-medium-2506",
@@ -7012,7 +7211,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/magistral-medium-2506:thinking",
@@ -7061,7 +7263,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/magistral-small-2506",
@@ -7110,7 +7315,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/ministral-3b",
@@ -7155,7 +7363,10 @@
       "structured_outputs",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/ministral-8b",
@@ -7202,7 +7413,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-7b-instruct",
@@ -7252,7 +7466,10 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-7b-instruct-v0.1",
@@ -7301,7 +7518,10 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-7b-instruct-v0.3",
@@ -7351,7 +7571,10 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-7b-instruct:free",
@@ -7400,7 +7623,10 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-large",
@@ -7447,7 +7673,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-large-2407",
@@ -7494,7 +7723,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-large-2411",
@@ -7541,7 +7773,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-medium-3",
@@ -7589,7 +7824,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-medium-3.1",
@@ -7637,7 +7875,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-nemo",
@@ -7690,7 +7931,10 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-nemo:free",
@@ -7739,7 +7983,10 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-saba",
@@ -7786,7 +8033,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-small",
@@ -7833,7 +8083,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-small-24b-instruct-2501",
@@ -7886,7 +8139,10 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-small-24b-instruct-2501:free",
@@ -7935,7 +8191,10 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-small-3.1-24b-instruct",
@@ -7989,7 +8248,10 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-small-3.1-24b-instruct:free",
@@ -8043,7 +8305,10 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-small-3.2-24b-instruct",
@@ -8097,7 +8362,10 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-small-3.2-24b-instruct:free",
@@ -8150,7 +8418,10 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mistral-tiny",
@@ -8197,7 +8468,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mixtral-8x22b-instruct",
@@ -8249,7 +8523,10 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/mixtral-8x7b-instruct",
@@ -8299,7 +8576,10 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/pixtral-12b",
@@ -8353,7 +8633,10 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "mistralai/pixtral-large-2411",
@@ -8401,7 +8684,10 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.3
+    }
   },
   {
     "id": "moonshotai/kimi-dev-72b",
@@ -8445,7 +8731,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "moonshotai/kimi-dev-72b:free",
@@ -8496,7 +8783,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "moonshotai/kimi-k2",
@@ -8549,7 +8837,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "moonshotai/kimi-k2-0905",
@@ -8558,7 +8847,7 @@
     "name": "MoonshotAI: Kimi K2 0905",
     "created": 1757021147,
     "description": "Kimi K2 0905 is the September update of [Kimi K2 0711](moonshotai/kimi-k2). It is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It supports long-context inference up to 256k tokens, extended from the previous 128k.\n\nThis update improves agentic coding with higher accuracy and better generalization across scaffolds, and enhances frontend coding with more aesthetic and functional outputs for web, 3D, and related tasks. Kimi K2 is optimized for agentic capabilities, including advanced tool use, reasoning, and code synthesis. It excels across coding (LiveCodeBench, SWE-bench), reasoning (ZebraLogic, GPQA), and tool-use (Tau2, AceBench) benchmarks. The model is trained with a novel stack incorporating the MuonClip optimizer for stable large-scale MoE training.",
-    "context_length": 262144,
+    "context_length": 98304,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8571,15 +8860,15 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000038",
-      "completion": "0.00000152",
+      "prompt": "0.0000003",
+      "completion": "0.00000135",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 262144,
+      "context_length": 98304,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -8602,7 +8891,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "moonshotai/kimi-k2:free",
@@ -8642,7 +8932,8 @@
       "seed",
       "stop",
       "temperature"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "moonshotai/kimi-vl-a3b-thinking",
@@ -8694,7 +8985,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "moonshotai/kimi-vl-a3b-thinking:free",
@@ -8746,7 +9038,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "morph/morph-v3-fast",
@@ -8785,7 +9078,8 @@
       "max_tokens",
       "stop",
       "temperature"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "morph/morph-v3-large",
@@ -8824,7 +9118,8 @@
       "max_tokens",
       "stop",
       "temperature"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "neversleep/llama-3-lumimaid-70b",
@@ -8870,7 +9165,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "neversleep/llama-3.1-lumimaid-8b",
@@ -8920,7 +9216,8 @@
       "top_a",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "neversleep/noromaid-20b",
@@ -8970,7 +9267,8 @@
       "top_a",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "nousresearch/deephermes-3-llama-3-8b-preview",
@@ -9019,7 +9317,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "nousresearch/deephermes-3-llama-3-8b-preview:free",
@@ -9068,7 +9367,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "nousresearch/deephermes-3-mistral-24b-preview",
@@ -9119,7 +9419,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "nousresearch/hermes-2-pro-llama-3-8b",
@@ -9128,7 +9429,7 @@
     "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
     "created": 1716768000,
     "description": "Hermes 2 Pro is an upgraded, retrained version of Nous Hermes 2, consisting of an updated and cleaned version of the OpenHermes 2.5 Dataset, as well as a newly introduced Function Calling and JSON Mode dataset developed in-house.",
-    "context_length": 131072,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -9142,22 +9443,21 @@
     },
     "pricing": {
       "prompt": "0.000000025",
-      "completion": "0.00000004",
+      "completion": "0.00000008",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "context_length": 32768,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -9168,9 +9468,9 @@
       "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "nousresearch/hermes-3-llama-3.1-405b",
@@ -9192,8 +9492,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000008",
+      "prompt": "0.000001",
+      "completion": "0.000001",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9201,7 +9501,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9220,7 +9520,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "nousresearch/hermes-3-llama-3.1-70b",
@@ -9229,7 +9530,7 @@
     "name": "Nous: Hermes 3 70B Instruct",
     "created": 1723939200,
     "description": "Hermes 3 is a generalist language model with many improvements over [Hermes 2](/models/nousresearch/nous-hermes-2-mistral-7b-dpo), including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.\n\nHermes 3 70B is a competitive, if not superior finetune of the [Llama-3.1 70B foundation model](/models/meta-llama/llama-3.1-70b-instruct), focused on aligning LLMs to the user, with powerful steering capabilities and control given to the end user.\n\nThe Hermes 3 series builds and expands on the Hermes 2 set of capabilities, including more powerful and reliable function calling and structured output capabilities, generalist assistant capabilities, and improved code generation skills.",
-    "context_length": 131072,
+    "context_length": 65000,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -9242,7 +9543,7 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.00000012",
+      "prompt": "0.0000003",
       "completion": "0.0000003",
       "request": "0",
       "image": "0",
@@ -9250,8 +9551,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "context_length": 65000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9273,7 +9574,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "nousresearch/hermes-4-405b",
@@ -9326,7 +9628,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "nousresearch/hermes-4-70b",
@@ -9379,7 +9682,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "nvidia/llama-3.1-nemotron-70b-instruct",
@@ -9429,7 +9733,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
@@ -9478,7 +9783,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "nvidia/nemotron-nano-9b-v2",
@@ -9529,7 +9835,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "nvidia/nemotron-nano-9b-v2:free",
@@ -9571,7 +9878,8 @@
       "structured_outputs",
       "tool_choice",
       "tools"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/chatgpt-4o-latest",
@@ -9620,7 +9928,8 @@
       "temperature",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/codex-mini",
@@ -9666,7 +9975,8 @@
       "structured_outputs",
       "tool_choice",
       "tools"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-3.5-turbo",
@@ -9716,7 +10026,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-3.5-turbo-0613",
@@ -9766,7 +10077,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-3.5-turbo-16k",
@@ -9816,7 +10128,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-3.5-turbo-instruct",
@@ -9864,7 +10177,8 @@
       "temperature",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4",
@@ -9914,7 +10228,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4-0314",
@@ -9964,7 +10279,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4-1106-preview",
@@ -10014,7 +10330,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4-turbo",
@@ -10065,7 +10382,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4-turbo-preview",
@@ -10115,7 +10433,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4.1",
@@ -10169,7 +10488,8 @@
       "top_logprobs",
       "top_p",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4.1-mini",
@@ -10223,7 +10543,8 @@
       "top_logprobs",
       "top_p",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4.1-nano",
@@ -10276,7 +10597,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4o",
@@ -10330,7 +10652,8 @@
       "top_logprobs",
       "top_p",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4o-2024-05-13",
@@ -10383,7 +10706,8 @@
       "top_logprobs",
       "top_p",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4o-2024-08-06",
@@ -10437,7 +10761,8 @@
       "top_logprobs",
       "top_p",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4o-2024-11-20",
@@ -10491,7 +10816,8 @@
       "top_logprobs",
       "top_p",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4o-audio-preview",
@@ -10543,7 +10869,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4o-mini",
@@ -10597,7 +10924,8 @@
       "top_logprobs",
       "top_p",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4o-mini-2024-07-18",
@@ -10651,7 +10979,8 @@
       "top_logprobs",
       "top_p",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4o-mini-search-preview",
@@ -10691,7 +11020,8 @@
       "response_format",
       "structured_outputs",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4o-search-preview",
@@ -10731,7 +11061,8 @@
       "response_format",
       "structured_outputs",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-4o:extended",
@@ -10784,7 +11115,8 @@
       "top_logprobs",
       "top_p",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-5",
@@ -10831,7 +11163,12 @@
       "structured_outputs",
       "tool_choice",
       "tools"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "openai/gpt-5-chat",
@@ -10874,7 +11211,8 @@
       "response_format",
       "seed",
       "structured_outputs"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-5-codex",
@@ -10926,7 +11264,12 @@
       "tool_choice",
       "tools",
       "top_logprobs"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "openai/gpt-5-mini",
@@ -10973,7 +11316,8 @@
       "structured_outputs",
       "tool_choice",
       "tools"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-5-nano",
@@ -11020,7 +11364,8 @@
       "structured_outputs",
       "tool_choice",
       "tools"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-oss-120b",
@@ -11075,7 +11420,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": null
   },
   {
     "id": "openai/gpt-oss-120b:free",
@@ -11117,7 +11463,8 @@
       "seed",
       "stop",
       "temperature"
-    ]
+    ],
+    "default_parameters": null
   },
   {
     "id": "openai/gpt-oss-20b",
@@ -11172,7 +11519,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/gpt-oss-20b:free",
@@ -11215,7 +11563,8 @@
       "structured_outputs",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/o1",
@@ -11260,7 +11609,8 @@
       "structured_outputs",
       "tool_choice",
       "tools"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/o1-mini",
@@ -11299,7 +11649,8 @@
     "supported_parameters": [
       "max_tokens",
       "seed"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/o1-mini-2024-09-12",
@@ -11338,7 +11689,8 @@
     "supported_parameters": [
       "max_tokens",
       "seed"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/o1-pro",
@@ -11382,7 +11734,8 @@
       "response_format",
       "seed",
       "structured_outputs"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/o3",
@@ -11429,7 +11782,8 @@
       "structured_outputs",
       "tool_choice",
       "tools"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/o3-mini",
@@ -11473,7 +11827,8 @@
       "structured_outputs",
       "tool_choice",
       "tools"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/o3-mini-high",
@@ -11517,7 +11872,8 @@
       "structured_outputs",
       "tool_choice",
       "tools"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/o3-pro",
@@ -11563,7 +11919,8 @@
       "structured_outputs",
       "tool_choice",
       "tools"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/o4-mini",
@@ -11610,7 +11967,8 @@
       "structured_outputs",
       "tool_choice",
       "tools"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openai/o4-mini-high",
@@ -11657,7 +12015,8 @@
       "structured_outputs",
       "tool_choice",
       "tools"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "opengvlab/internvl3-78b",
@@ -11709,7 +12068,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "openrouter/auto",
@@ -11740,7 +12100,8 @@
       "is_moderated": false
     },
     "per_request_limits": null,
-    "supported_parameters": []
+    "supported_parameters": [],
+    "default_parameters": {}
   },
   {
     "id": "perplexity/r1-1776",
@@ -11784,7 +12145,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "perplexity/sonar",
@@ -11828,7 +12190,8 @@
       "top_k",
       "top_p",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "perplexity/sonar-deep-research",
@@ -11873,7 +12236,8 @@
       "top_k",
       "top_p",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "perplexity/sonar-pro",
@@ -11917,7 +12281,8 @@
       "top_k",
       "top_p",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "perplexity/sonar-reasoning",
@@ -11962,7 +12327,8 @@
       "top_k",
       "top_p",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "perplexity/sonar-reasoning-pro",
@@ -12008,7 +12374,8 @@
       "top_k",
       "top_p",
       "web_search_options"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen-2.5-72b-instruct",
@@ -12060,7 +12427,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen-2.5-72b-instruct:free",
@@ -12109,7 +12477,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen-2.5-7b-instruct",
@@ -12158,7 +12527,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen-2.5-coder-32b-instruct",
@@ -12208,7 +12578,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen-2.5-coder-32b-instruct:free",
@@ -12257,7 +12628,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen-2.5-vl-7b-instruct",
@@ -12309,7 +12681,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen-max",
@@ -12354,7 +12727,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen-plus",
@@ -12399,7 +12773,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen-plus-2025-07-28",
@@ -12444,7 +12819,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen-plus-2025-07-28:thinking",
@@ -12491,7 +12867,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen-turbo",
@@ -12536,7 +12913,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen-vl-max",
@@ -12579,7 +12957,8 @@
       "seed",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen-vl-plus",
@@ -12622,7 +13001,8 @@
       "seed",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen2.5-vl-32b-instruct",
@@ -12674,7 +13054,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen2.5-vl-32b-instruct:free",
@@ -12725,7 +13106,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen2.5-vl-72b-instruct",
@@ -12775,7 +13157,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen2.5-vl-72b-instruct:free",
@@ -12818,7 +13201,8 @@
       "seed",
       "temperature",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-14b",
@@ -12873,7 +13257,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-14b:free",
@@ -12924,7 +13309,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-235b-a22b",
@@ -12979,7 +13365,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-235b-a22b-2507",
@@ -13032,7 +13419,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -13087,7 +13475,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-235b-a22b:free",
@@ -13142,7 +13531,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-30b-a3b",
@@ -13197,7 +13587,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-30b-a3b-instruct-2507",
@@ -13250,7 +13641,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-30b-a3b-thinking-2507",
@@ -13305,7 +13697,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-30b-a3b:free",
@@ -13356,7 +13749,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-32b",
@@ -13411,7 +13805,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-4b:free",
@@ -13460,7 +13855,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-8b",
@@ -13509,7 +13905,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-8b:free",
@@ -13560,7 +13957,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-coder",
@@ -13613,7 +14011,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-coder-30b-a3b-instruct",
@@ -13666,7 +14065,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-coder-flash",
@@ -13711,7 +14111,12 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "qwen/qwen3-coder-plus",
@@ -13757,7 +14162,12 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "qwen/qwen3-coder:free",
@@ -13808,7 +14218,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-max",
@@ -13853,7 +14264,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-next-80b-a3b-instruct",
@@ -13906,7 +14318,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-next-80b-a3b-thinking",
@@ -13961,7 +14374,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "qwen/qwen3-vl-235b-a22b-instruct",
@@ -14015,7 +14429,12 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "qwen/qwen3-vl-235b-a22b-thinking",
@@ -14069,7 +14488,12 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.8,
+      "top_p": 0.95,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "qwen/qwq-32b",
@@ -14124,7 +14548,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "raifle/sorcererlm-8x22b",
@@ -14171,7 +14596,52 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
+  },
+  {
+    "id": "relace/relace-apply-3",
+    "canonical_slug": "relace/relace-apply-3",
+    "hugging_face_id": "",
+    "name": "Relace: Relace Apply 3",
+    "created": 1758891572,
+    "description": "Relace Apply 3 is a specialized code-patching LLM that merges AI-suggested edits straight into your source files. It can apply updates from GPT-4o, Claude, and others into your files at 7,500 tokens/sec on average.\n\n\nThe model requires the prompt to be in the following format: \n<code>${originalCode}</code>\\n<update>${updateSnippet}</update>\n\n\nLearn more about this model in their [documentation](https://docs.relace.ai/api-reference/instant-apply/apply)",
+    "context_length": 256000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000085",
+      "completion": "0.00000125",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 256000,
+      "max_completion_tokens": 128000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "seed",
+      "stop"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "sao10k/l3-euryale-70b",
@@ -14218,7 +14688,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "sao10k/l3-lunaris-8b",
@@ -14266,7 +14737,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "sao10k/l3.1-euryale-70b",
@@ -14315,7 +14787,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "sao10k/l3.3-euryale-70b",
@@ -14363,7 +14836,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "shisa-ai/shisa-v2-llama3.3-70b",
@@ -14412,7 +14886,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "shisa-ai/shisa-v2-llama3.3-70b:free",
@@ -14461,7 +14936,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "stepfun-ai/step3",
@@ -14508,7 +14984,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "switchpoint/router",
@@ -14552,7 +15029,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "tencent/hunyuan-a13b-instruct",
@@ -14605,7 +15083,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "tencent/hunyuan-a13b-instruct:free",
@@ -14656,7 +15135,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "thedrummer/anubis-70b-v1.1",
@@ -14705,7 +15185,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "thedrummer/anubis-pro-105b-v1",
@@ -14752,7 +15233,60 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
+  },
+  {
+    "id": "thedrummer/cydonia-24b-v4.1",
+    "canonical_slug": "thedrummer/cydonia-24b-v4.1",
+    "hugging_face_id": "thedrummer/cydonia-24b-v4.1",
+    "name": "TheDrummer: Cydonia 24B V4.1",
+    "created": 1758931878,
+    "description": "Creative writing model based on Mistral Small 3.2 24B",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.0000005",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "thedrummer/rocinante-12b",
@@ -14803,7 +15337,8 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "thedrummer/skyfall-36b-v2",
@@ -14852,7 +15387,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "thedrummer/unslopnemo-12b",
@@ -14898,7 +15434,8 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "thudm/glm-4.1v-9b-thinking",
@@ -14948,7 +15485,8 @@
       "temperature",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "thudm/glm-z1-32b",
@@ -14999,7 +15537,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "tngtech/deepseek-r1t-chimera",
@@ -15050,7 +15589,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "tngtech/deepseek-r1t-chimera:free",
@@ -15101,7 +15641,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "tngtech/deepseek-r1t2-chimera:free",
@@ -15152,7 +15693,8 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "undi95/remm-slerp-l2-13b",
@@ -15202,7 +15744,8 @@
       "top_a",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "x-ai/grok-3",
@@ -15252,7 +15795,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "x-ai/grok-3-beta",
@@ -15301,7 +15845,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "x-ai/grok-3-mini",
@@ -15351,7 +15896,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "x-ai/grok-3-mini-beta",
@@ -15400,7 +15946,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "x-ai/grok-4",
@@ -15450,7 +15997,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "x-ai/grok-4-fast",
@@ -15458,7 +16006,7 @@
     "hugging_face_id": "",
     "name": "xAI: Grok 4 Fast",
     "created": 1758240090,
-    "description": "Grok 4 Fast is xAI's latest multimodal model with SOTA cost-efficiency and a 2M token context window. It comes in two flavors: non-reasoning and reasoning. Read more about the model on xAI's [news post](http://x.ai/news/grok-4-fast). Reasoning can be enabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)\n\nPrompts and completions may be used by xAI or OpenRouter to improve future models.",
+    "description": "Grok 4 Fast is xAI's latest multimodal model with SOTA cost-efficiency and a 2M token context window. It comes in two flavors: non-reasoning and reasoning. Read more about the model on xAI's [news post](http://x.ai/news/grok-4-fast). Reasoning can be enabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)\n\nPrompts and completions on Grok 4 Fast Free may be used by xAI or OpenRouter to improve future models.",
     "context_length": 2000000,
     "architecture": {
       "modality": "text+image->text",
@@ -15500,7 +16048,12 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "x-ai/grok-4-fast:free",
@@ -15508,7 +16061,7 @@
     "hugging_face_id": "",
     "name": "xAI: Grok 4 Fast (free)",
     "created": 1758240090,
-    "description": "Grok 4 Fast is xAI's latest multimodal model with SOTA cost-efficiency and a 2M token context window. It comes in two flavors: non-reasoning and reasoning. Read more about the model on xAI's [news post](http://x.ai/news/grok-4-fast). Reasoning can be enabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)\n\nPrompts and completions may be used by xAI or OpenRouter to improve future models.",
+    "description": "Grok 4 Fast is xAI's latest multimodal model with SOTA cost-efficiency and a 2M token context window. It comes in two flavors: non-reasoning and reasoning. Read more about the model on xAI's [news post](http://x.ai/news/grok-4-fast). Reasoning can be enabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)\n\nPrompts and completions on Grok 4 Fast Free may be used by xAI or OpenRouter to improve future models.",
     "context_length": 2000000,
     "architecture": {
       "modality": "text+image->text",
@@ -15549,7 +16102,12 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "x-ai/grok-code-fast-1",
@@ -15599,7 +16157,8 @@
       "tools",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {}
   },
   {
     "id": "z-ai/glm-4-32b",
@@ -15640,7 +16199,12 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.75,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "z-ai/glm-4.5",
@@ -15696,7 +16260,12 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.75,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "z-ai/glm-4.5-air",
@@ -15742,7 +16311,12 @@
       "tool_choice",
       "tools",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.75,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "z-ai/glm-4.5-air:free",
@@ -15795,7 +16369,12 @@
       "top_k",
       "top_logprobs",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.75,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "z-ai/glm-4.5v",
@@ -15847,6 +16426,11 @@
       "tools",
       "top_k",
       "top_p"
-    ]
+    ],
+    "default_parameters": {
+      "temperature": 0.75,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   }
 ]
