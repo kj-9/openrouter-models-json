@@ -2751,7 +2751,7 @@
     "name": "DeepSeek: DeepSeek V3.1 (free)",
     "created": 1755779628,
     "description": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates. It extends the DeepSeek-V3 base with a two-phase long-context training process, reaching up to 128K tokens, and uses FP8 microscaling for efficient inference. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)\n\nThe model improves tool use, code generation, and reasoning efficiency, achieving performance comparable to DeepSeek-R1 on difficult benchmarks while responding more quickly. It supports structured tool calling, code agents, and search agents, making it suitable for research, coding, and agentic workflows. \n\nIt succeeds the [DeepSeek V3-0324](/deepseek/deepseek-chat-v3-0324) model and performs well on a variety of tasks.",
-    "context_length": 163840,
+    "context_length": 163800,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2772,9 +2772,9 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 163840,
+      "context_length": 163800,
       "max_completion_tokens": null,
-      "is_moderated": false
+      "is_moderated": true
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -8800,7 +8800,7 @@
     "name": "MoonshotAI: Kimi K2 0905",
     "created": 1757021147,
     "description": "Kimi K2 0905 is the September update of [Kimi K2 0711](moonshotai/kimi-k2). It is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It supports long-context inference up to 256k tokens, extended from the previous 128k.\n\nThis update improves agentic coding with higher accuracy and better generalization across scaffolds, and enhances frontend coding with more aesthetic and functional outputs for web, 3D, and related tasks. Kimi K2 is optimized for agentic capabilities, including advanced tool use, reasoning, and code synthesis. It excels across coding (LiveCodeBench, SWE-bench), reasoning (ZebraLogic, GPQA), and tool-use (Tau2, AceBench) benchmarks. The model is trained with a novel stack incorporating the MuonClip optimizer for stable large-scale MoE training.",
-    "context_length": 98304,
+    "context_length": 262144,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8813,15 +8813,15 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000003",
-      "completion": "0.00000135",
+      "prompt": "0.0000004",
+      "completion": "0.00000225",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 98304,
+      "context_length": 262144,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -9000,7 +9000,7 @@
     "hugging_face_id": "",
     "name": "Morph: Morph V3 Fast",
     "created": 1751910002,
-    "description": "Morph's fastest apply model for code edits. 4500+ tokens/sec with 96% accuracy for rapid code transformations.",
+    "description": "Morph's fastest apply model for code edits. ~10,500 tokens/sec with 96% accuracy for rapid code transformations.\n\nThe model requires the prompt to be in the following format: \n<instruction>{instruction}</instruction>\n<code>{initial_code}</code>\n<update>{edit_snippet}</update>\n\nZero Data Retention is enabled for Morph. Learn more about this model in their [documentation](https://docs.morphllm.com/quickstart)",
     "context_length": 81920,
     "architecture": {
       "modality": "text->text",
@@ -9014,8 +9014,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000009",
-      "completion": "0.0000019",
+      "prompt": "0.0000008",
+      "completion": "0.0000012",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -9032,7 +9032,11 @@
       "stop",
       "temperature"
     ],
-    "default_parameters": {}
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "morph/morph-v3-large",
@@ -9040,7 +9044,7 @@
     "hugging_face_id": "",
     "name": "Morph: Morph V3 Large",
     "created": 1751910858,
-    "description": "Morph's high-accuracy apply model for complex code edits. 2000+ tokens/sec with 98% accuracy for precise code transformations.",
+    "description": "Morph's high-accuracy apply model for complex code edits. ~4,500 tokens/sec with 98% accuracy for precise code transformations.\n\nThe model requires the prompt to be in the following format: \n<instruction>{instruction}</instruction>\n<code>{initial_code}</code>\n<update>{edit_snippet}</update>\n\nZero Data Retention is enabled for Morph. Learn more about this model in their [documentation](https://docs.morphllm.com/quickstart)",
     "context_length": 81920,
     "architecture": {
       "modality": "text->text",
@@ -9072,7 +9076,11 @@
       "stop",
       "temperature"
     ],
-    "default_parameters": {}
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "neversleep/llama-3-lumimaid-70b",
@@ -14558,7 +14566,7 @@
     "hugging_face_id": "",
     "name": "Relace: Relace Apply 3",
     "created": 1758891572,
-    "description": "Relace Apply 3 is a specialized code-patching LLM that merges AI-suggested edits straight into your source files. It can apply updates from GPT-4o, Claude, and others into your files at 7,500 tokens/sec on average.\n\n\nThe model requires the prompt to be in the following format: \n<code>${originalCode}</code>\\n<update>${updateSnippet}</update>\n\n\nLearn more about this model in their [documentation](https://docs.relace.ai/api-reference/instant-apply/apply)",
+    "description": "Relace Apply 3 is a specialized code-patching LLM that merges AI-suggested edits straight into your source files. It can apply updates from GPT-4o, Claude, and others into your files at 7,500 tokens/sec on average.\n\nThe model requires the prompt to be in the following format: \n<instruction>{instruction}</instruction>\n<code>{initial_code}</code>\n<update>{edit_snippet}</update>\n\nZero Data Retention is enabled for Relace. Learn more about this model in their [documentation](https://docs.relace.ai/api-reference/instant-apply/apply)",
     "context_length": 256000,
     "architecture": {
       "modality": "text->text",
