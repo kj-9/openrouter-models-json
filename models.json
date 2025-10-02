@@ -420,6 +420,64 @@
     }
   },
   {
+    "id": "alibaba/tongyi-deepresearch-30b-a3b:free",
+    "canonical_slug": "alibaba/tongyi-deepresearch-30b-a3b",
+    "hugging_face_id": "Alibaba-NLP/Tongyi-DeepResearch-30B-A3B",
+    "name": "Tongyi DeepResearch 30B A3B (free)",
+    "created": 1758210804,
+    "description": "Tongyi DeepResearch is an agentic large language model developed by Tongyi Lab, with 30 billion total parameters activating only 3 billion per token. It's optimized for long-horizon, deep information-seeking tasks and delivers state-of-the-art performance on benchmarks like Humanity's Last Exam, BrowserComp, BrowserComp-ZH, WebWalkerQA, GAIA, xbench-DeepSearch, and FRAMES. This makes it superior for complex agentic search, reasoning, and multi-step problem-solving compared to prior models.\n\nThe model includes a fully automated synthetic data pipeline for scalable pre-training, fine-tuning, and reinforcement learning. It uses large-scale continual pre-training on diverse agentic data to boost reasoning and stay fresh. It also features end-to-end on-policy RL with a customized Group Relative Policy Optimization, including token-level gradients and negative sample filtering for stable training. The model supports ReAct for core ability checks and an IterResearch-based 'Heavy' mode for max performance through test-time scaling. It's ideal for advanced research agents, tool use, and heavy inference workflows.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
+  },
+  {
     "id": "allenai/molmo-7b-d",
     "canonical_slug": "allenai/molmo-7b-d-0924",
     "hugging_face_id": "allenai/Molmo-7B-D-0924",
@@ -488,8 +546,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.0000015",
+      "prompt": "0.0000002",
+      "completion": "0.00000035",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -5295,6 +5353,46 @@
       "instruct_type": null
     },
     "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.00000075",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "top_p"
+    ],
+    "default_parameters": {}
+  },
+  {
+    "id": "meituan/longcat-flash-chat:free",
+    "canonical_slug": "meituan/longcat-flash-chat",
+    "hugging_face_id": "meituan-longcat/LongCat-Flash-Chat",
+    "name": "Meituan: LongCat Flash Chat (free)",
+    "created": 1757427658,
+    "description": "LongCat-Flash-Chat is a large-scale Mixture-of-Experts (MoE) model with 560B total parameters, of which 18.6B–31.3B (≈27B on average) are dynamically activated per input. It introduces a shortcut-connected MoE design to reduce communication overhead and achieve high throughput while maintaining training stability through advanced scaling strategies such as hyperparameter transfer, deterministic computation, and multi-stage optimization.\n\nThis release, LongCat-Flash-Chat, is a non-thinking foundation model optimized for conversational and agentic tasks. It supports long context windows up to 128K tokens and shows competitive performance across reasoning, coding, instruction following, and domain benchmarks, with particular strengths in tool use and complex multi-step interactions.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
       "prompt": "0",
       "completion": "0",
       "request": "0",
@@ -5316,8 +5414,10 @@
       "min_p",
       "presence_penalty",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -11625,12 +11725,22 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "frequency_penalty",
       "include_reasoning",
+      "logit_bias",
+      "logprobs",
       "max_tokens",
+      "min_p",
+      "presence_penalty",
       "reasoning",
+      "repetition_penalty",
       "response_format",
+      "seed",
+      "stop",
       "structured_outputs",
       "temperature",
+      "top_k",
+      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -14512,7 +14622,7 @@
     "name": "Qwen: Qwen3 VL 235B A22B Thinking",
     "created": 1758668690,
     "description": "Qwen3-VL-235B-A22B Thinking is a multimodal model that unifies strong text generation with visual understanding across images and video. The Thinking model is optimized for multimodal reasoning in STEM and math. The series emphasizes robust perception (recognition of diverse real-world and synthetic categories), spatial understanding (2D/3D grounding), and long-form visual comprehension, with competitive results on public multimodal benchmarks for both perception and reasoning.\n\nBeyond analysis, Qwen3-VL supports agentic interaction and tool use: it can follow complex instructions over multi-image, multi-turn dialogues; align text to video timelines for precise temporal queries; and operate GUI elements for automation tasks. The models also enable visual coding workflows, turning sketches or mockups into code and assisting with UI debugging, while maintaining strong text-only performance comparable to the flagship Qwen3 language models. This makes Qwen3-VL suitable for production scenarios spanning document AI, multilingual OCR, software/UI assistance, spatial/embodied tasks, and research on vision-language agents.",
-    "context_length": 131072,
+    "context_length": 65536,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -14526,16 +14636,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000003",
-      "completion": "0.000003",
+      "prompt": "0.0000005",
+      "completion": "0.0000035",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 32768,
+      "context_length": 65536,
+      "max_completion_tokens": 65536,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -15643,6 +15753,58 @@
     "top_provider": {
       "context_length": 163840,
       "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+    ],
+    "default_parameters": {}
+  },
+  {
+    "id": "tngtech/deepseek-r1t2-chimera",
+    "canonical_slug": "tngtech/deepseek-r1t2-chimera",
+    "hugging_face_id": "tngtech/DeepSeek-TNG-R1T2-Chimera",
+    "name": "TNG: DeepSeek R1T2 Chimera",
+    "created": 1751986985,
+    "description": "DeepSeek-TNG-R1T2-Chimera is the second-generation Chimera model from TNG Tech. It is a 671 B-parameter mixture-of-experts text-generation model assembled from DeepSeek-AI’s R1-0528, R1, and V3-0324 checkpoints with an Assembly-of-Experts merge. The tri-parent design yields strong reasoning performance while running roughly 20 % faster than the original R1 and more than 2× faster than R1-0528 under vLLM, giving a favorable cost-to-intelligence trade-off. The checkpoint supports contexts up to 60 k tokens in standard use (tested to ~130 k) and maintains consistent <think> token behaviour, making it suitable for long-context analysis, dialogue and other open-ended generation tasks.",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "DeepSeek",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000025",
+      "completion": "0.000001",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
+      "max_completion_tokens": 163840,
       "is_moderated": false
     },
     "per_request_limits": null,
