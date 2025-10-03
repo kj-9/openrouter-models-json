@@ -1264,7 +1264,7 @@
       "completion": "0.000075",
       "request": "0",
       "image": "0.024",
-      "web_search": "0.01",
+      "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000015",
       "input_cache_write": "0.00001875"
@@ -1272,7 +1272,7 @@
     "top_provider": {
       "context_length": 200000,
       "max_completion_tokens": 32000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -1318,7 +1318,7 @@
       "completion": "0.000075",
       "request": "0",
       "image": "0.024",
-      "web_search": "0.01",
+      "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000015",
       "input_cache_write": "0.00001875"
@@ -1326,7 +1326,7 @@
     "top_provider": {
       "context_length": 200000,
       "max_completion_tokens": 32000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -1430,7 +1430,7 @@
     "top_provider": {
       "context_length": 1000000,
       "max_completion_tokens": 64000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -3944,7 +3944,7 @@
     "id": "google/gemini-2.5-flash-image-preview",
     "canonical_slug": "google/gemini-2.5-flash-image-preview",
     "hugging_face_id": "",
-    "name": "Gemini 2.5 Flash Image (Nano Banana)",
+    "name": "Google: Gemini 2.5 Flash Image Preview (Nano Banana)",
     "created": 1756218977,
     "description": "Gemini 2.5 Flash Image Preview, a.k.a. \"Nano Banana,\" is a state of the art image generation model with contextual understanding. It is capable of image generation, edits, and multi-turn conversations.",
     "context_length": 32768,
@@ -4518,7 +4518,7 @@
     "name": "Google: Gemma 3 12B",
     "created": 1741902625,
     "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3 12B is the second largest in the family of Gemma 3 models after [Gemma 3 27B](google/gemma-3-27b-it)",
-    "context_length": 96000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -4533,15 +4533,15 @@
     },
     "pricing": {
       "prompt": "0.00000004",
-      "completion": "0.00000014",
+      "completion": "0.00000013",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 96000,
-      "max_completion_tokens": 96000,
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -11593,49 +11593,6 @@
     "default_parameters": null
   },
   {
-    "id": "openai/gpt-oss-120b:free",
-    "canonical_slug": "openai/gpt-oss-120b",
-    "hugging_face_id": "openai/gpt-oss-120b",
-    "name": "OpenAI: gpt-oss-120b (free)",
-    "created": 1754414231,
-    "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward pass and is optimized to run on a single H100 GPU with native MXFP4 quantization. The model supports configurable reasoning depth, full chain-of-thought access, and native tool use, including function calling, browsing, and structured output generation.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "GPT",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "seed",
-      "stop",
-      "temperature"
-    ],
-    "default_parameters": null
-  },
-  {
     "id": "openai/gpt-oss-20b",
     "canonical_slug": "openai/gpt-oss-20b",
     "hugging_face_id": "openai/gpt-oss-20b",
@@ -12663,7 +12620,7 @@
     "id": "qwen/qwen-2.5-7b-instruct",
     "canonical_slug": "qwen/qwen-2.5-7b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-7B-Instruct",
-    "name": "Qwen2.5 7B Instruct",
+    "name": "Qwen: Qwen2.5 7B Instruct",
     "created": 1729036800,
     "description": "Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:\n\n- Significantly more knowledge and has greatly improved capabilities in coding and mathematics, thanks to our specialized expert models in these domains.\n\n- Significant improvements in instruction following, generating long texts (over 8K tokens), understanding structured data (e.g, tables), and generating structured outputs especially JSON. More resilient to the diversity of system prompts, enhancing role-play implementation and condition-setting for chatbots.\n\n- Long-context Support up to 128K tokens and can generate up to 8K tokens.\n\n- Multilingual support for over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
     "context_length": 65536,
@@ -12707,7 +12664,11 @@
       "top_k",
       "top_p"
     ],
-    "default_parameters": {}
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "qwen/qwen-2.5-coder-32b-instruct",
@@ -16636,8 +16597,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000006",
-      "completion": "0.000002",
+      "prompt": "0.0000005",
+      "completion": "0.00000175",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -16645,7 +16606,7 @@
     },
     "top_provider": {
       "context_length": 202752,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 202752,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -16653,6 +16614,7 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
+      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -16665,6 +16627,7 @@
       "tool_choice",
       "tools",
       "top_k",
+      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
