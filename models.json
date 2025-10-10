@@ -1846,7 +1846,65 @@
       "top_k",
       "top_p"
     ],
-    "default_parameters": {}
+    "default_parameters": {
+      "temperature": 0.8,
+      "top_p": 0.8,
+      "frequency_penalty": null
+    }
+  },
+  {
+    "id": "baidu/ernie-4.5-21b-a3b-thinking",
+    "canonical_slug": "baidu/ernie-4.5-21b-a3b-thinking",
+    "hugging_face_id": "baidu/ERNIE-4.5-21B-A3B-Thinking",
+    "name": "Baidu: ERNIE 4.5 21B A3B Thinking",
+    "created": 1760048887,
+    "description": "ERNIE-4.5-21B-A3B-Thinking is Baidu's upgraded lightweight MoE model, refined to boost reasoning depth and quality for top-tier performance in logical puzzles, math, science, coding, text generation, and expert-level academic benchmarks.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000007",
+      "completion": "0.00000028",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "baidu/ernie-4.5-300b-a47b",
@@ -3108,8 +3166,6 @@
       "seed",
       "stop",
       "temperature",
-      "tool_choice",
-      "tools",
       "top_k",
       "top_logprobs",
       "top_p"
@@ -3164,56 +3220,6 @@
       "temperature",
       "top_k",
       "top_logprobs",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
-    "id": "deepseek/deepseek-r1-distill-llama-8b",
-    "canonical_slug": "deepseek/deepseek-r1-distill-llama-8b",
-    "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
-    "name": "DeepSeek: R1 Distill Llama 8B",
-    "created": 1738937718,
-    "description": "DeepSeek R1 Distill Llama 8B is a distilled large language model based on [Llama-3.1-8B-Instruct](/meta-llama/llama-3.1-8b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across multiple benchmarks, including:\n\n- AIME 2024 pass@1: 50.4\n- MATH-500 pass@1: 89.1\n- CodeForces Rating: 1205\n\nThe model leverages fine-tuning from DeepSeek R1's outputs, enabling competitive performance comparable to larger frontier models.\n\nHugging Face: \n- [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) \n- [DeepSeek-R1-Distill-Llama-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B)   |",
-    "context_length": 32000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": "deepseek-r1"
-    },
-    "pricing": {
-      "prompt": "0.00000004",
-      "completion": "0.00000004",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32000,
-      "max_completion_tokens": 32000,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
       "top_p"
     ],
     "default_parameters": {}
@@ -5843,8 +5849,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.00000004",
-      "completion": "0.00000012",
+      "prompt": "0.00000013",
+      "completion": "0.00000039",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -5852,7 +5858,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 120000,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14418,6 +14424,120 @@
       "temperature": 0.8,
       "top_p": 0.95,
       "frequency_penalty": null
+    }
+  },
+  {
+    "id": "qwen/qwen3-vl-30b-a3b-instruct",
+    "canonical_slug": "qwen/qwen3-vl-30b-a3b-instruct",
+    "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+    "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+    "created": 1759794476,
+    "description": "Qwen3-VL-30B-A3B-Instruct is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Instruct variant optimizes instruction-following for general multimodal tasks. It excels in perception of real-world/synthetic categories, 2D/3D spatial grounding, and long-form visual comprehension, achieving competitive multimodal benchmark results. For agentic use, it handles multi-image multi-turn instructions, video timeline alignments, GUI automation, and visual coding from sketches to debugged UI. Text performance matches flagship Qwen3 models, suiting document AI, OCR, UI assistance, spatial tasks, and agent research.",
+    "context_length": 262144,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.000001",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 262144,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 0.7,
+      "top_p": 0.8
+    }
+  },
+  {
+    "id": "qwen/qwen3-vl-30b-a3b-thinking",
+    "canonical_slug": "qwen/qwen3-vl-30b-a3b-thinking",
+    "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
+    "name": "Qwen: Qwen3 VL 30B A3B Thinking",
+    "created": 1759794479,
+    "description": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels in perception of real-world/synthetic categories, 2D/3D spatial grounding, and long-form visual comprehension, achieving competitive multimodal benchmark results. For agentic use, it handles multi-image multi-turn instructions, video timeline alignments, GUI automation, and visual coding from sketches to debugged UI. Text performance matches flagship Qwen3 models, suiting document AI, OCR, UI assistance, spatial tasks, and agent research.",
+    "context_length": 262144,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.000001",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 262144,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 0.8,
+      "top_p": 0.95
     }
   },
   {
