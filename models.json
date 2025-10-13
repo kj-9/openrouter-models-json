@@ -1476,8 +1476,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000001",
-      "completion": "0.0000004",
+      "prompt": "0.000000048",
+      "completion": "0.00000015",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -4937,6 +4937,63 @@
       "temperature": 0,
       "top_p": null,
       "frequency_penalty": null
+    }
+  },
+  {
+    "id": "inclusionai/ling-1t",
+    "canonical_slug": "inclusionai/ling-1t",
+    "hugging_face_id": "inclusionAI/Ling-1T",
+    "name": "inclusionAI: Ling-1T",
+    "created": 1760316076,
+    "description": "Ling-1T is a trillion-parameter open-weight large language model developed by inclusionAI and released under the MIT license. It represents the first flagship non-thinking model in the Ling 2.0 series, built around a sparse-activation architecture with roughly 50 billion active parameters per token. The model supports up to 128 K tokens of context and emphasizes efficient reasoning through an “Evolutionary Chain-of-Thought (Evo-CoT)” training strategy.\n\nPre-trained on more than 20 trillion reasoning-dense tokens, Ling-1T achieves strong results across code generation, mathematics, and logical reasoning benchmarks while maintaining high inference efficiency. It employs FP8 mixed-precision training, MoE routing with QK normalization, and MTP layers for compositional reasoning stability. The model also introduces LPO (Linguistics-unit Policy Optimization) for post-training alignment, enhancing sentence-level semantic control.\n\nLing-1T can perform complex text generation, multilingual reasoning, and front-end code synthesis with a focus on both functionality and aesthetics.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000003",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "frequency_penalty": 1.05
     }
   },
   {
@@ -16621,6 +16678,7 @@
       "temperature",
       "tool_choice",
       "tools",
+      "top_a",
       "top_k",
       "top_logprobs",
       "top_p"
