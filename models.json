@@ -9492,7 +9492,7 @@
     "name": "Nous: Hermes 3 70B Instruct",
     "created": 1723939200,
     "description": "Hermes 3 is a generalist language model with many improvements over [Hermes 2](/models/nousresearch/nous-hermes-2-mistral-7b-dpo), including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.\n\nHermes 3 70B is a competitive, if not superior finetune of the [Llama-3.1 70B foundation model](/models/meta-llama/llama-3.1-70b-instruct), focused on aligning LLMs to the user, with powerful steering capabilities and control given to the end user.\n\nThe Hermes 3 series builds and expands on the Hermes 2 set of capabilities, including more powerful and reliable function calling and structured output capabilities, generalist assistant capabilities, and improved code generation skills.",
-    "context_length": 65000,
+    "context_length": 65536,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -9513,7 +9513,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 65000,
+      "context_length": 65536,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -11813,6 +11813,66 @@
     "default_parameters": {}
   },
   {
+    "id": "openai/o3-deep-research",
+    "canonical_slug": "openai/o3-deep-research-2025-06-26",
+    "hugging_face_id": "",
+    "name": "OpenAI: o3 Deep Research",
+    "created": 1760129661,
+    "description": "o3-deep-research is OpenAI's advanced model for deep research, designed to tackle complex, multi-step research tasks.\n\nNote: This model always uses the 'web_search' tool which adds additional cost.",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "GPT",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00001",
+      "completion": "0.00004",
+      "request": "0",
+      "image": "0.00765",
+      "web_search": "0.01",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.0000025"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 100000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
+  },
+  {
     "id": "openai/o3-mini",
     "canonical_slug": "openai/o3-mini-2025-01-31",
     "hugging_face_id": "",
@@ -11998,6 +12058,66 @@
     "default_parameters": {}
   },
   {
+    "id": "openai/o4-mini-deep-research",
+    "canonical_slug": "openai/o4-mini-deep-research-2025-06-26",
+    "hugging_face_id": "",
+    "name": "OpenAI: o4 Mini Deep Research",
+    "created": 1760129642,
+    "description": "o4-mini-deep-research is OpenAI's faster, more affordable deep research model—ideal for tackling complex, multi-step research tasks.\n\nNote: This model always uses the 'web_search' tool which adds additional cost.",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "GPT",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000008",
+      "request": "0",
+      "image": "0.00153",
+      "web_search": "0.01",
+      "internal_reasoning": "0",
+      "input_cache_read": "0.0000005"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 100000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
+  },
+  {
     "id": "openai/o4-mini-high",
     "canonical_slug": "openai/o4-mini-high-2025-04-16",
     "hugging_face_id": "",
@@ -12128,51 +12248,6 @@
     },
     "per_request_limits": null,
     "supported_parameters": [],
-    "default_parameters": {}
-  },
-  {
-    "id": "perplexity/r1-1776",
-    "canonical_slug": "perplexity/r1-1776",
-    "hugging_face_id": "perplexity-ai/r1-1776",
-    "name": "Perplexity: R1 1776",
-    "created": 1740004929,
-    "description": "R1 1776 is a version of DeepSeek-R1 that has been post-trained to remove censorship constraints related to topics restricted by the Chinese government. The model retains its original reasoning capabilities while providing direct responses to a wider range of queries. R1 1776 is an offline chat model that does not use the perplexity search subsystem.\n\nThe model was tested on a multilingual dataset of over 1,000 examples covering sensitive topics to measure its likelihood of refusal or overly filtered responses. [Evaluation Results](https://cdn-uploads.huggingface.co/production/uploads/675c8332d01f593dc90817f5/GiN2VqC5hawUgAGJ6oHla.png) Its performance on math and reasoning benchmarks remains similar to the base R1 model. [Reasoning Performance](https://cdn-uploads.huggingface.co/production/uploads/675c8332d01f593dc90817f5/n4Z9Byqp2S7sKUvCvI40R.png)\n\nRead more on the [Blog Post](https://perplexity.ai/hub/blog/open-sourcing-r1-1776)",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "DeepSeek",
-      "instruct_type": "deepseek-r1"
-    },
-    "pricing": {
-      "prompt": "0.000002",
-      "completion": "0.000008",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
     "default_parameters": {}
   },
   {
@@ -12514,7 +12589,7 @@
     "name": "Qwen: Qwen2.5 7B Instruct",
     "created": 1729036800,
     "description": "Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:\n\n- Significantly more knowledge and has greatly improved capabilities in coding and mathematics, thanks to our specialized expert models in these domains.\n\n- Significant improvements in instruction following, generating long texts (over 8K tokens), understanding structured data (e.g, tables), and generating structured outputs especially JSON. More resilient to the diversity of system prompts, enhancing role-play implementation and condition-setting for chatbots.\n\n- Long-context Support up to 128K tokens and can generate up to 8K tokens.\n\n- Multilingual support for over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
-    "context_length": 65536,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -12535,8 +12610,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 65536,
-      "max_completion_tokens": null,
+      "context_length": 32768,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12550,7 +12625,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_k",
       "top_p"
@@ -14598,7 +14672,7 @@
     },
     "pricing": {
       "prompt": "0.00000029",
-      "completion": "0.000001",
+      "completion": "0.00000099",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -14606,7 +14680,7 @@
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14687,6 +14761,109 @@
     ],
     "default_parameters": {
       "temperature": 0.8,
+      "top_p": 0.95
+    }
+  },
+  {
+    "id": "qwen/qwen3-vl-8b-instruct",
+    "canonical_slug": "qwen/qwen3-vl-8b-instruct",
+    "hugging_face_id": "Qwen/Qwen3-VL-8B-Instruct",
+    "name": "Qwen: Qwen3 VL 8B Instruct",
+    "created": 1760463308,
+    "description": "Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interleaved-MRoPE for long-horizon temporal reasoning, DeepStack for fine-grained visual-text alignment, and text-timestamp alignment for precise event localization.\n\nThe model supports a native 256K-token context window, extensible to 1M tokens, and handles both static and dynamic media inputs for tasks like document parsing, visual question answering, spatial reasoning, and GUI control. It achieves text understanding comparable to leading LLMs while expanding OCR coverage to 32 languages and enhancing robustness under varied visual conditions.",
+    "context_length": 262144,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000018",
+      "completion": "0.00000069",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "presence_penalty",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "frequency_penalty": null
+    }
+  },
+  {
+    "id": "qwen/qwen3-vl-8b-thinking",
+    "canonical_slug": "qwen/qwen3-vl-8b-thinking",
+    "hugging_face_id": "Qwen/Qwen3-VL-8B-Thinking",
+    "name": "Qwen: Qwen3 VL 8B Thinking",
+    "created": 1760463746,
+    "description": "Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences. It integrates enhanced multimodal alignment and long-context processing (native 256K, expandable to 1M tokens) for tasks such as scientific visual analysis, causal inference, and mathematical reasoning over image or video inputs.\n\nCompared to the Instruct edition, the Thinking version introduces deeper visual-language fusion and deliberate reasoning pathways that improve performance on long-chain logic tasks, STEM problem-solving, and multi-step video understanding. It achieves stronger temporal grounding via Interleaved-MRoPE and timestamp-aware embeddings, while maintaining robust OCR, multilingual comprehension, and text generation on par with large text-only LLMs.",
+    "context_length": 256000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000018",
+      "completion": "0.0000021",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 256000,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 1,
       "top_p": 0.95
     }
   },
@@ -16597,7 +16774,8 @@
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.00000011"
     },
     "top_provider": {
       "context_length": 65536,
