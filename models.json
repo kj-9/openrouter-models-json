@@ -35,10 +35,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -46,7 +43,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -87,10 +83,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -98,7 +91,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -454,11 +446,9 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
+      "reasoning",
       "repetition_penalty",
       "response_format",
       "seed",
@@ -468,7 +458,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -854,7 +843,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_a",
       "top_k",
@@ -1789,18 +1777,16 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -1841,10 +1827,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -1852,7 +1835,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -1898,6 +1880,8 @@
       "seed",
       "stop",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_p"
     ],
@@ -2051,6 +2035,8 @@
       "seed",
       "stop",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_p"
     ],
@@ -2097,6 +2083,7 @@
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
       "temperature",
@@ -2235,17 +2222,15 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -2285,17 +2270,13 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "seed",
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -2592,12 +2573,12 @@
     "default_parameters": {}
   },
   {
-    "id": "deepcogito/cogito-v2-preview-llama-405B",
-    "canonical_slug": "deepcogito/cogito-v2-preview-llama-405B",
+    "id": "deepcogito/cogito-v2-preview-llama-405b",
+    "canonical_slug": "deepcogito/cogito-v2-preview-llama-405b",
     "hugging_face_id": "deepcogito/cogito-v2-preview-llama-405B",
     "name": "Deep Cogito: Cogito V2 Preview Llama 405B",
-    "created": 1756831149,
-    "description": "Cogito v2 405B is a dense hybrid reasoning model that combines direct answering capabilities with advanced self-reflection. It represents a significant step toward frontier intelligence with dense architecture delivering performance competitive with leading closed models. This advanced reasoning system combines policy improvement with massive scale for exceptional capabilities.",
+    "created": 1760709933,
+    "description": "Cogito v2 405B is a dense hybrid reasoning model that combines direct answering capabilities with advanced self-reflection. It represents a significant step toward frontier intelligence with dense architecture delivering performance competitive with leading closed models. This advanced reasoning system combines policy improvement with massive scale for exceptional capabilities.\n",
     "context_length": 32768,
     "architecture": {
       "modality": "text->text",
@@ -2799,6 +2780,7 @@
       "max_tokens",
       "min_p",
       "presence_penalty",
+      "reasoning",
       "repetition_penalty",
       "response_format",
       "seed",
@@ -2848,10 +2830,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "seed",
@@ -2860,7 +2839,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -3157,17 +3135,17 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -3208,10 +3186,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -3219,7 +3194,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -3260,10 +3234,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -3271,7 +3242,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -3313,7 +3283,6 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -3322,9 +3291,11 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -3366,7 +3337,6 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -3376,7 +3346,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -3423,8 +3392,10 @@
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
       "top_p"
@@ -3516,10 +3487,19 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "frequency_penalty",
       "include_reasoning",
       "max_tokens",
+      "presence_penalty",
       "reasoning",
-      "temperature"
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_p"
     ],
     "default_parameters": {}
   },
@@ -3559,8 +3539,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -3574,7 +3552,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -4447,7 +4424,6 @@
       "logit_bias",
       "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "response_format",
@@ -4496,17 +4472,13 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "seed",
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -4548,7 +4520,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -4559,7 +4530,6 @@
       "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -4653,6 +4623,8 @@
       "stop",
       "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_logprobs",
       "top_p"
@@ -4695,10 +4667,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "response_format",
@@ -4707,7 +4676,6 @@
       "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -4748,8 +4716,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -4759,7 +4725,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -5122,6 +5087,60 @@
       "instruct_type": null
     },
     "pricing": {
+      "prompt": "0.0000004",
+      "completion": "0.000002",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "max_tokens",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "frequency_penalty": 1.05
+    }
+  },
+  {
+    "id": "inclusionai/ring-1t",
+    "canonical_slug": "inclusionai/ring-1t",
+    "hugging_face_id": "inclusionAI/Ring-1T",
+    "name": "inclusionAI: Ring 1T",
+    "created": 1760384099,
+    "description": "Ring-1T has undergone continued scaling with large-scale verifiable reward reinforcement learning (RLVR) training, further unlocking the natural language reasoning capabilities of the trillion-parameter foundation model. Through RLHF training, the model's general abilities have also been refined, making this release of Ring-1T more balanced in performance across various tasks.\n\nRing-1T adopts the Ling 2.0 architecture and is trained on the Ling-1T-base foundation model, which contains 1 trillion total parameters with 50 billion activated parameters, supporting a context window of up to 128K tokens.",
+    "context_length": 131072,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
       "prompt": "0.00000057",
       "completion": "0.00000228",
       "request": "0",
@@ -5137,21 +5156,14 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
+      "include_reasoning",
+      "reasoning",
       "response_format",
-      "seed",
-      "stop",
       "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -5380,7 +5392,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "top_a",
       "top_k",
@@ -5464,10 +5475,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "response_format",
@@ -5478,7 +5486,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -5527,6 +5534,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -6586,18 +6594,16 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -6638,10 +6644,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -6649,7 +6652,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -6872,10 +6874,7 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
-      "tool_choice",
-      "tools",
       "top_k",
       "top_p"
     ],
@@ -7365,10 +7364,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "seed",
@@ -7377,7 +7373,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -8004,7 +7999,7 @@
     "name": "Mistral Large 2411",
     "created": 1731978685,
     "description": "Mistral Large 2 2411 is an update of [Mistral Large 2](/mistralai/mistral-large) released together with [Pixtral Large 2411](/mistralai/pixtral-large-2411)\n\nIt provides a significant upgrade on the previous [Mistral Large 24.07](/mistralai/mistral-large-2407), with notable improvements in long context understanding, a new system prompt, and more accurate function calling.",
-    "context_length": 131072,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8025,7 +8020,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 32768,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -8185,7 +8180,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -8240,17 +8234,13 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "seed",
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -8393,7 +8383,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -8406,7 +8395,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -8448,17 +8436,13 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "seed",
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -8501,8 +8485,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -8515,7 +8497,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -8558,10 +8539,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "response_format",
@@ -8572,7 +8550,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -8616,7 +8593,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -8629,7 +8605,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -8672,10 +8647,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "seed",
@@ -8685,7 +8657,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -9039,10 +9010,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -9050,7 +9018,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -9433,17 +9400,17 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -9483,17 +9450,13 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "seed",
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -9534,18 +9497,18 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -9742,12 +9705,13 @@
       "logit_bias",
       "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -9796,12 +9760,13 @@
       "logit_bias",
       "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -11511,7 +11476,7 @@
     "hugging_face_id": "",
     "name": "OpenAI: GPT-5 Image Mini",
     "created": 1760624583,
-    "description": "GPT-5 Image Mini combines OpenAI's GPT-5 Mini with state-of-the-art image generation capabilities. It provides the same instruction-following and safety-tuning benefits as GPT-5, but with reduced latency and cost. This natively multimodal model incorporates GPT Image 1 Mini's superior instruction following, text rendering, and detailed image editing, making it ideal for applications that require both efficient text processing and high-quality visual creation at scale.",
+    "description": "GPT-5 Image Mini combines OpenAI's advanced language capabilities, powered by [GPT-5 Mini](https://openrouter.ai/openai/gpt-5-mini), with GPT Image 1 Mini for efficient image generation. This natively multimodal model features superior instruction following, text rendering, and detailed image editing with reduced latency and cost. It excels at high-quality visual creation while maintaining strong text understanding, making it ideal for applications that require both efficient image generation and text processing at scale.",
     "context_length": 400000,
     "architecture": {
       "modality": "text+image->text+image",
@@ -11861,10 +11826,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -11873,8 +11835,9 @@
       "stop",
       "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -12487,10 +12450,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "response_format",
@@ -12499,7 +12459,6 @@
       "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -12809,6 +12768,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -12853,17 +12813,13 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "seed",
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -12965,6 +12921,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
       "top_logprobs",
@@ -13007,17 +12964,13 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "seed",
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -13540,10 +13493,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "response_format",
@@ -13551,7 +13501,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -13598,8 +13547,10 @@
       "min_p",
       "presence_penalty",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
       "top_logprobs",
@@ -13743,10 +13694,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -13754,7 +13702,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -13855,6 +13802,7 @@
       "max_tokens",
       "min_p",
       "presence_penalty",
+      "reasoning",
       "repetition_penalty",
       "response_format",
       "seed",
@@ -13961,10 +13909,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -13976,7 +13921,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -14075,7 +14019,6 @@
       "logit_bias",
       "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "response_format",
@@ -14130,7 +14073,6 @@
       "logit_bias",
       "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -14183,10 +14125,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -14194,7 +14133,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -14389,10 +14327,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -14400,7 +14335,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -14445,6 +14379,7 @@
       "max_tokens",
       "min_p",
       "presence_penalty",
+      "reasoning",
       "repetition_penalty",
       "response_format",
       "seed",
@@ -14649,10 +14584,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "seed",
@@ -14661,7 +14593,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -14860,7 +14791,6 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -14874,7 +14804,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -14921,7 +14850,6 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -14935,7 +14863,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -15355,6 +15282,8 @@
       "seed",
       "stop",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_p"
     ],
@@ -15500,6 +15429,8 @@
       "stop",
       "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_p"
     ],
@@ -15589,17 +15520,15 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -15639,17 +15568,13 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "seed",
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -15783,10 +15708,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -15796,7 +15718,6 @@
       "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -15837,10 +15758,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -15848,7 +15766,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -16041,16 +15958,16 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -16187,18 +16104,16 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -16239,18 +16154,16 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -16291,10 +16204,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -16302,7 +16212,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -16343,18 +16252,18 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -16395,10 +16304,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -16406,7 +16312,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -17024,21 +16929,18 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -17091,8 +16993,10 @@
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
