@@ -2083,7 +2083,6 @@
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
       "temperature",
@@ -7061,7 +7060,6 @@
       "repetition_penalty",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -7999,7 +7997,7 @@
     "name": "Mistral Large 2411",
     "created": 1731978685,
     "description": "Mistral Large 2 2411 is an update of [Mistral Large 2](/mistralai/mistral-large) released together with [Pixtral Large 2411](/mistralai/pixtral-large-2411)\n\nIt provides a significant upgrade on the previous [Mistral Large 24.07](/mistralai/mistral-large-2407), with notable improvements in long context understanding, a new system prompt, and more accurate function calling.",
-    "context_length": 32768,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8020,7 +8018,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -8733,8 +8731,8 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.0000009",
-      "completion": "0.0000009",
+      "prompt": "0.000002",
+      "completion": "0.000006",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8748,11 +8746,8 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "presence_penalty",
-      "repetition_penalty",
       "response_format",
       "seed",
       "stop",
@@ -8760,8 +8755,6 @@
       "temperature",
       "tool_choice",
       "tools",
-      "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -12867,7 +12860,10 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_p"
     ],
@@ -14964,15 +14960,8 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
       "reasoning",
-      "repetition_penalty",
       "response_format",
-      "seed",
-      "stop",
       "structured_outputs",
       "temperature",
       "tool_choice",
@@ -15331,6 +15320,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
       "top_p"
