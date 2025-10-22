@@ -1014,9 +1014,7 @@
       "request": "0",
       "image": "0.0048",
       "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.0000003",
-      "input_cache_write": "0.00000375"
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 200000,
@@ -2316,6 +2314,7 @@
       "stop",
       "structured_outputs",
       "temperature",
+      "tool_choice",
       "tools",
       "top_k",
       "top_p"
@@ -2364,6 +2363,7 @@
       "stop",
       "structured_outputs",
       "temperature",
+      "tool_choice",
       "tools",
       "top_k",
       "top_p"
@@ -2667,8 +2667,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -2681,7 +2679,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -2796,7 +2793,7 @@
     "name": "DeepSeek: DeepSeek V3.1",
     "created": 1755779628,
     "description": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates. It extends the DeepSeek-V3 base with a two-phase long-context training process, reaching up to 128K tokens, and uses FP8 microscaling for efficient inference. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)\n\nThe model improves tool use, code generation, and reasoning efficiency, achieving performance comparable to DeepSeek-R1 on difficult benchmarks while responding more quickly. It supports structured tool calling, code agents, and search agents, making it suitable for research, coding, and agentic workflows. \n\nIt succeeds the [DeepSeek V3-0324](/deepseek/deepseek-chat-v3-0324) model and performs well on a variety of tasks.",
-    "context_length": 163840,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2817,8 +2814,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 163840,
-      "max_completion_tokens": 163840,
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -4375,8 +4372,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "presence_penalty",
       "repetition_penalty",
@@ -4386,7 +4381,6 @@
       "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -4567,7 +4561,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -4580,7 +4573,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -5669,7 +5661,7 @@
     "name": "Meta: Llama 3.1 8B Instruct",
     "created": 1721692800,
     "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-    "context_length": 131072,
+    "context_length": 16384,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5690,7 +5682,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 16384,
       "max_completion_tokens": 16384,
       "is_moderated": false
     },
@@ -6027,7 +6019,7 @@
     "name": "Meta: Llama 3.3 70B Instruct (free)",
     "created": 1733506137,
     "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperforms many of the available open source and closed chat models on common industry benchmarks.\n\nSupported languages: English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.\n\n[Model Card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md)",
-    "context_length": 65536,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -6048,8 +6040,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 65536,
-      "max_completion_tokens": null,
+      "context_length": 131072,
+      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -6402,7 +6394,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -6412,7 +6403,6 @@
       "stop",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -7216,8 +7206,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -7230,7 +7218,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -9499,8 +9486,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -9508,9 +9493,9 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -9605,8 +9590,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "presence_penalty",
       "reasoning",
@@ -9619,7 +9602,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -9660,8 +9642,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "presence_penalty",
       "reasoning",
@@ -9674,7 +9654,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -9766,16 +9745,14 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "presence_penalty",
       "reasoning",
-      "seed",
-      "stop",
+      "repetition_penalty",
+      "response_format",
+      "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -12367,6 +12344,55 @@
     "default_parameters": {}
   },
   {
+    "id": "openrouter/andromeda-alpha",
+    "canonical_slug": "openrouter/andromeda-alpha",
+    "hugging_face_id": "",
+    "name": "Andromeda Alpha",
+    "created": 1761076994,
+    "description": "This is a smaller reasoning model that has been trained to be really good at image and visual understanding. This is a cloaked model provided to the community to gather feedback.\n\nNote: All prompts and output are logged to improve the provider’s model and its product and services. Please do not upload any personal, confidential, or otherwise sensitive information. This is a trial use only. Do not use for production or business-critical systems.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 128000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
+  },
+  {
     "id": "openrouter/auto",
     "canonical_slug": "openrouter/auto",
     "hugging_face_id": null,
@@ -13295,17 +13321,13 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "presence_penalty",
+      "repetition_penalty",
       "response_format",
-      "seed",
-      "stop",
       "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -13402,7 +13424,6 @@
       "max_tokens",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
       "temperature",
@@ -13465,50 +13486,6 @@
     "default_parameters": {}
   },
   {
-    "id": "qwen/qwen2.5-vl-72b-instruct:free",
-    "canonical_slug": "qwen/qwen2.5-vl-72b-instruct",
-    "hugging_face_id": "Qwen/Qwen2.5-VL-72B-Instruct",
-    "name": "Qwen: Qwen2.5 VL 72B Instruct (free)",
-    "created": 1738410311,
-    "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 2048,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "temperature",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
     "id": "qwen/qwen3-14b",
     "canonical_slug": "qwen/qwen3-14b-04-28",
     "hugging_face_id": "Qwen/Qwen3-14B",
@@ -13545,7 +13522,6 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -13559,7 +13535,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -13786,7 +13761,7 @@
     "name": "Qwen: Qwen3 235B A22B (free)",
     "created": 1745875757,
     "description": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass. It supports seamless switching between a \"thinking\" mode for complex reasoning, math, and code tasks, and a \"non-thinking\" mode for general conversational efficiency. The model demonstrates strong reasoning ability, multilingual support (100+ languages and dialects), advanced instruction-following, and agent tool-calling capabilities. It natively handles a 32K token context window and extends up to 131K tokens using YaRN-based scaling.",
-    "context_length": 131072,
+    "context_length": 40960,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -13807,7 +13782,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
+      "context_length": 40960,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -13882,7 +13857,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -13922,8 +13896,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "presence_penalty",
       "repetition_penalty",
@@ -13935,7 +13907,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -13976,8 +13947,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "presence_penalty",
       "reasoning",
@@ -13990,7 +13959,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -14079,7 +14047,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
       "logprobs",
       "max_tokens",
       "min_p",
@@ -14335,8 +14302,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -14349,7 +14314,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -16780,8 +16744,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "presence_penalty",
       "reasoning",
@@ -16794,7 +16756,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
