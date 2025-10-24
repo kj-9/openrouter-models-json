@@ -1015,7 +1015,9 @@
       "request": "0",
       "image": "0.0048",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.0000003",
+      "input_cache_write": "0.00000375"
     },
     "top_provider": {
       "context_length": 200000,
@@ -3359,7 +3361,7 @@
     "name": "DeepSeek: R1 Distill Qwen 32B",
     "created": 1738194830,
     "description": "DeepSeek R1 Distill Qwen 32B is a distilled large language model based on [Qwen 2.5 32B](https://huggingface.co/Qwen/Qwen2.5-32B), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). It outperforms OpenAI's o1-mini across various benchmarks, achieving new state-of-the-art results for dense models.\\n\\nOther benchmark results include:\\n\\n- AIME 2024 pass@1: 72.6\\n- MATH-500 pass@1: 94.3\\n- CodeForces Rating: 1691\\n\\nThe model leverages fine-tuning from DeepSeek R1's outputs, enabling competitive performance comparable to larger frontier models.",
-    "context_length": 131072,
+    "context_length": 32768,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -3372,16 +3374,16 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000027",
-      "completion": "0.00000027",
+      "prompt": "0.00000029",
+      "completion": "0.00000029",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 16384,
+      "context_length": 32768,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3389,7 +3391,6 @@
       "frequency_penalty",
       "include_reasoning",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -5301,6 +5302,104 @@
       "max_tokens",
       "stop",
       "temperature",
+      "top_p"
+    ],
+    "default_parameters": {}
+  },
+  {
+    "id": "liquid/lfm-2.2-6b",
+    "canonical_slug": "liquid/lfm-2.2-6b",
+    "hugging_face_id": "LiquidAI/LFM2-2.6B",
+    "name": "LiquidAI/LFM2-2.6B",
+    "created": 1760970889,
+    "description": "LFM2 is a new generation of hybrid models developed by Liquid AI, specifically designed for edge AI and on-device deployment. It sets a new standard in terms of quality, speed, and memory efficiency.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.0000001",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
+  },
+  {
+    "id": "liquid/lfm2-8b-a1b",
+    "canonical_slug": "liquid/lfm2-8b-a1b",
+    "hugging_face_id": "LiquidAI/LFM2-8B-A1B",
+    "name": "LiquidAI/LFM2-8B-A1B",
+    "created": 1760970984,
+    "description": "Model created via inbox interface",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.0000001",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
       "top_p"
     ],
     "default_parameters": {}
@@ -7537,7 +7636,7 @@
     "name": "Mistral: Ministral 8B",
     "created": 1729123200,
     "description": "Ministral 8B is an 8B parameter model featuring a unique interleaved sliding-window attention pattern for faster, memory-efficient inference. Designed for edge use cases, it supports up to 128k context length and excels in knowledge and reasoning tasks. It outperforms peers in the sub-10B category, making it perfect for low-latency, privacy-first applications.",
-    "context_length": 128000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -7558,7 +7657,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -8458,7 +8557,7 @@
     "name": "Mistral: Mistral Small 3.1 24B (free)",
     "created": 1742238937,
     "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and vision tasks, including image analysis, programming, mathematical reasoning, and multilingual support across dozens of languages. Equipped with an extensive 128k token context window and optimized for efficient local inference, it supports use cases such as conversational agents, function calling, long-document comprehension, and privacy-sensitive deployments. The updated version is [Mistral Small 3.2](mistralai/mistral-small-3.2-24b-instruct)",
-    "context_length": 128000,
+    "context_length": 96000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -8480,8 +8579,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": null,
+      "context_length": 96000,
+      "max_completion_tokens": 96000,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -10638,21 +10737,12 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "presence_penalty",
       "response_format",
       "seed",
-      "stop",
       "structured_outputs",
-      "temperature",
       "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p",
-      "web_search_options"
+      "tools"
     ],
     "default_parameters": {}
   },
@@ -10693,21 +10783,12 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "presence_penalty",
       "response_format",
       "seed",
-      "stop",
       "structured_outputs",
-      "temperature",
       "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p",
-      "web_search_options"
+      "tools"
     ],
     "default_parameters": {}
   },
@@ -10748,20 +10829,12 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "presence_penalty",
       "response_format",
       "seed",
-      "stop",
       "structured_outputs",
-      "temperature",
       "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
+      "tools"
     ],
     "default_parameters": {}
   },
@@ -11361,7 +11434,7 @@
       "completion": "0.00001",
       "request": "0",
       "image": "0",
-      "web_search": "0",
+      "web_search": "0.01",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000125"
     },
@@ -11674,7 +11747,7 @@
       "completion": "0.00012",
       "request": "0",
       "image": "0",
-      "web_search": "0",
+      "web_search": "0.01",
       "internal_reasoning": "0"
     },
     "top_provider": {
@@ -12980,7 +13053,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14839,7 +14912,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000014",
+      "prompt": "0.00000015",
       "completion": "0.0000012",
       "request": "0",
       "image": "0",
@@ -14848,7 +14921,7 @@
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 262144,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -15102,6 +15175,61 @@
     }
   },
   {
+    "id": "qwen/qwen3-vl-32b-instruct",
+    "canonical_slug": "qwen/qwen3-vl-32b-instruct",
+    "hugging_face_id": "Qwen/Qwen3-VL-32B-Instruct",
+    "name": "Qwen: Qwen3 VL 32B Instruct",
+    "created": 1761231332,
+    "description": "Qwen3-VL-32B-Instruct is a large-scale multimodal vision-language model designed for high-precision understanding and reasoning across text, images, and video. With 32 billion parameters, it combines deep visual perception with advanced text comprehension, enabling fine-grained spatial reasoning, document and scene analysis, and long-horizon video understanding.Robust OCR in 32 languages, and enhanced multimodal fusion through Interleaved-MRoPE and DeepStack architectures. Optimized for agentic interaction and visual tool use, Qwen3-VL-32B delivers state-of-the-art performance for complex real-world multimodal tasks.",
+    "context_length": 262144,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000035",
+      "completion": "0.0000011",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 262144,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
+  },
+  {
     "id": "qwen/qwen3-vl-8b-instruct",
     "canonical_slug": "qwen/qwen3-vl-8b-instruct",
     "hugging_face_id": "Qwen/Qwen3-VL-8B-Instruct",
@@ -15138,6 +15266,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
+      "logit_bias",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -16911,7 +17040,7 @@
     },
     "pricing": {
       "prompt": "0.00000035",
-      "completion": "0.0000015",
+      "completion": "0.00000155",
       "request": "0",
       "image": "0",
       "web_search": "0",
