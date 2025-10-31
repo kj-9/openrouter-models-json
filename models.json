@@ -9077,6 +9077,60 @@
     }
   },
   {
+    "id": "mistralai/voxtral-small-24b-2507",
+    "canonical_slug": "mistralai/voxtral-small-24b-2507",
+    "hugging_face_id": "mistralai/Voxtral-Small-24B-2507",
+    "name": "Mistral: Voxtral Small 24B 2507",
+    "created": 1761835144,
+    "description": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance. It excels at speech transcription, translation and audio understanding. Input audio is priced at $100 per million seconds.",
+    "context_length": 32000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text",
+        "audio"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Mistral",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000003",
+      "request": "0",
+      "image": "0",
+      "audio": "0.0001",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "max_tokens",
+      "presence_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 0.2,
+      "top_p": 0.95,
+      "frequency_penalty": null
+    }
+  },
+  {
     "id": "moonshotai/kimi-dev-72b",
     "canonical_slug": "moonshotai/kimi-dev-72b",
     "hugging_face_id": "moonshotai/Kimi-Dev-72B",
@@ -12748,6 +12802,60 @@
     "default_parameters": {}
   },
   {
+    "id": "openai/text-embedding-3-large",
+    "canonical_slug": "openai/text-embedding-3-large",
+    "hugging_face_id": "",
+    "name": "OpenAI: Text Embedding 3 Large",
+    "created": 1761862866,
+    "description": "text-embedding-3-large is OpenAI's most capable embedding model for both english and non-english tasks. Embeddings are a numerical representation of text that can be used to measure the relatedness between two pieces of text. Embeddings are useful for search, clustering, recommendations, anomaly detection, and classification tasks.",
+    "context_length": 8192,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text",
+        "embeddings"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000013",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 8192,
+      "max_completion_tokens": null,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_logprobs",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
+  },
+  {
     "id": "opengvlab/internvl3-78b",
     "canonical_slug": "opengvlab/internvl3-78b",
     "hugging_face_id": "OpenGVLab/InternVL3-78B",
@@ -12963,6 +13071,58 @@
       "web_search_options"
     ],
     "default_parameters": {}
+  },
+  {
+    "id": "perplexity/sonar-pro-search",
+    "canonical_slug": "perplexity/sonar-pro-search",
+    "hugging_face_id": "",
+    "name": "Perplexity: Sonar Pro Search",
+    "created": 1761854366,
+    "description": "Exclusively available on the OpenRouter API, Sonar Pro's new Pro Search mode is Perplexity's most advanced agentic search system. It is designed for deeper reasoning and analysis. Pricing is based on tokens plus $18 per thousand requests. This model powers the Pro Search mode on the Perplexity platform.\n\nSonar Pro Search adds autonomous, multi-step reasoning to Sonar Pro. So, instead of just one query + synthesis, it plans and executes entire research workflows using tools.",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000003",
+      "completion": "0.000015",
+      "request": "0.018",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 8000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_p",
+      "web_search_options"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "perplexity/sonar-reasoning",
@@ -17421,7 +17581,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000006",
+      "prompt": "0.00000045",
       "completion": "0.0000019",
       "request": "0",
       "image": "0",
