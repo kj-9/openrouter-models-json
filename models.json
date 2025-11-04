@@ -749,54 +749,6 @@
     "default_parameters": {}
   },
   {
-    "id": "anthracite-org/magnum-v2-72b",
-    "canonical_slug": "anthracite-org/magnum-v2-72b",
-    "hugging_face_id": "anthracite-org/magnum-v2-72b",
-    "name": "Magnum v2 72B",
-    "created": 1727654400,
-    "description": "From the maker of [Goliath](https://openrouter.ai/models/alpindale/goliath-120b), Magnum 72B is the seventh in a family of models designed to achieve the prose quality of the Claude 3 models, notably Opus & Sonnet.\n\nThe model is based on [Qwen2 72B](https://openrouter.ai/models/qwen/qwen-2-72b-instruct) and trained with 55 million tokens of highly curated roleplay (RP) data.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0.000003",
-      "completion": "0.000003",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
     "id": "anthracite-org/magnum-v4-72b",
     "canonical_slug": "anthracite-org/magnum-v4-72b",
     "hugging_face_id": "anthracite-org/magnum-v4-72b",
@@ -9802,7 +9754,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -11911,7 +11862,11 @@
       "top_k",
       "top_p"
     ],
-    "default_parameters": {}
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "openai/gpt-oss-20b:free",
@@ -11963,7 +11918,11 @@
       "top_k",
       "top_p"
     ],
-    "default_parameters": {}
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "openai/gpt-oss-safeguard-20b",
@@ -12508,60 +12467,6 @@
       "tools"
     ],
     "default_parameters": {}
-  },
-  {
-    "id": "openai/text-embedding-3-large",
-    "canonical_slug": "openai/text-embedding-3-large",
-    "hugging_face_id": "",
-    "name": "OpenAI: Text Embedding 3 Large",
-    "created": 1761862866,
-    "description": "text-embedding-3-large is OpenAI's most capable embedding model for both english and non-english tasks. Embeddings are a numerical representation of text that can be used to measure the relatedness between two pieces of text. Embeddings are useful for search, clustering, recommendations, anomaly detection, and classification tasks.",
-    "context_length": 8192,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text",
-        "embeddings"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000013",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 8192,
-      "max_completion_tokens": null,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "top_logprobs",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": null,
-      "top_p": null,
-      "frequency_penalty": null
-    }
   },
   {
     "id": "opengvlab/internvl3-78b",
@@ -14913,7 +14818,7 @@
     "name": "Qwen: Qwen3 VL 235B A22B Instruct",
     "created": 1758668687,
     "description": "Qwen3-VL-235B-A22B Instruct is an open-weight multimodal model that unifies strong text generation with visual understanding across images and video. The Instruct model targets general vision-language use (VQA, document parsing, chart/table extraction, multilingual OCR). The series emphasizes robust perception (recognition of diverse real-world and synthetic categories), spatial understanding (2D/3D grounding), and long-form visual comprehension, with competitive results on public multimodal benchmarks for both perception and reasoning.\n\nBeyond analysis, Qwen3-VL supports agentic interaction and tool use: it can follow complex instructions over multi-image, multi-turn dialogues; align text to video timelines for precise temporal queries; and operate GUI elements for automation tasks. The models also enable visual coding workflows—turning sketches or mockups into code and assisting with UI debugging—while maintaining strong text-only performance comparable to the flagship Qwen3 language models. This makes Qwen3-VL suitable for production scenarios spanning document AI, multilingual OCR, software/UI assistance, spatial/embodied tasks, and research on vision-language agents.",
-    "context_length": 131072,
+    "context_length": 262144,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -14935,8 +14840,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 4000,
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -15029,7 +14934,7 @@
     "name": "Qwen: Qwen3 VL 30B A3B Instruct",
     "created": 1759794476,
     "description": "Qwen3-VL-30B-A3B-Instruct is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Instruct variant optimizes instruction-following for general multimodal tasks. It excels in perception of real-world/synthetic categories, 2D/3D spatial grounding, and long-form visual comprehension, achieving competitive multimodal benchmark results. For agentic use, it handles multi-image multi-turn instructions, video timeline alignments, GUI automation, and visual coding from sketches to debugged UI. Text performance matches flagship Qwen3 models, suiting document AI, OCR, UI assistance, spatial tasks, and agent research.",
-    "context_length": 0,
+    "context_length": 262144,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -15051,8 +14956,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 0,
-      "max_completion_tokens": 4000,
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null,
