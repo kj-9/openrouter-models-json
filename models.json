@@ -2973,8 +2973,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000003",
-      "completion": "0.00000011",
+      "prompt": "0.00000002",
+      "completion": "0.0000001",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -5642,7 +5642,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -5650,12 +5649,10 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -14593,7 +14590,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logprobs",
       "max_tokens",
       "presence_penalty",
       "reasoning",
@@ -14606,7 +14602,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -14813,7 +14808,11 @@
       "top_k",
       "top_p"
     ],
-    "default_parameters": {}
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "qwen/qwen3-vl-235b-a22b-instruct",
