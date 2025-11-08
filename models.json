@@ -1422,7 +1422,9 @@
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.0000003",
+      "input_cache_write": "0.00000375"
     },
     "top_provider": {
       "context_length": 1000000,
@@ -2564,7 +2566,7 @@
     },
     "pricing": {
       "prompt": "0.0000003",
-      "completion": "0.00000085",
+      "completion": "0.0000012",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3745,7 +3747,8 @@
         "file",
         "image",
         "text",
-        "audio"
+        "audio",
+        "video"
       ],
       "output_modalities": [
         "text"
@@ -3782,7 +3785,11 @@
       "tools",
       "top_p"
     ],
-    "default_parameters": {}
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "google/gemini-2.5-flash-image",
@@ -3893,10 +3900,11 @@
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
-        "file",
-        "image",
         "text",
-        "audio"
+        "image",
+        "file",
+        "audio",
+        "video"
       ],
       "output_modalities": [
         "text"
@@ -3933,7 +3941,11 @@
       "tools",
       "top_p"
     ],
-    "default_parameters": {}
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "google/gemini-2.5-flash-lite-preview-06-17",
@@ -4000,10 +4012,11 @@
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
-        "file",
-        "image",
         "text",
-        "audio"
+        "image",
+        "file",
+        "audio",
+        "video"
       ],
       "output_modalities": [
         "text"
@@ -4058,7 +4071,8 @@
         "image",
         "file",
         "text",
-        "audio"
+        "audio",
+        "video"
       ],
       "output_modalities": [
         "text"
@@ -4113,10 +4127,11 @@
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
-        "file",
-        "image",
         "text",
-        "audio"
+        "image",
+        "file",
+        "audio",
+        "video"
       ],
       "output_modalities": [
         "text"
@@ -4153,7 +4168,11 @@
       "tools",
       "top_p"
     ],
-    "default_parameters": {}
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "google/gemini-2.5-pro-preview",
@@ -4222,7 +4241,8 @@
         "text",
         "image",
         "file",
-        "audio"
+        "audio",
+        "video"
       ],
       "output_modalities": [
         "text"
@@ -4259,7 +4279,11 @@
       "tools",
       "top_p"
     ],
-    "default_parameters": {}
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "google/gemma-2-27b-it",
@@ -6239,7 +6263,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -6252,7 +6275,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -8976,7 +8998,7 @@
     "name": "MoonshotAI: Kimi K2 0711",
     "created": 1752263252,
     "description": "Kimi K2 Instruct is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It is optimized for agentic capabilities, including advanced tool use, reasoning, and code synthesis. Kimi K2 excels across a broad range of benchmarks, particularly in coding (LiveCodeBench, SWE-bench), reasoning (ZebraLogic, GPQA), and tool-use (Tau2, AceBench) tasks. It supports long-context inference up to 128K tokens and is designed with a novel training stack that includes the MuonClip optimizer for stable large-scale MoE training.",
-    "context_length": 63000,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -8989,16 +9011,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000014",
-      "completion": "0.00000249",
+      "prompt": "0.0000005",
+      "completion": "0.0000024",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 63000,
-      "max_completion_tokens": 63000,
+      "context_length": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
