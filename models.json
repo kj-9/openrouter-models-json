@@ -1331,7 +1331,9 @@
       "include_reasoning",
       "max_tokens",
       "reasoning",
+      "response_format",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -1435,7 +1437,9 @@
       "include_reasoning",
       "max_tokens",
       "reasoning",
+      "response_format",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -3599,7 +3603,8 @@
         "text",
         "image",
         "file",
-        "audio"
+        "audio",
+        "video"
       ],
       "output_modalities": [
         "text"
@@ -3635,7 +3640,11 @@
       "tools",
       "top_p"
     ],
-    "default_parameters": {}
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "google/gemini-2.0-flash-exp:free",
@@ -3697,7 +3706,8 @@
         "text",
         "image",
         "file",
-        "audio"
+        "audio",
+        "video"
       ],
       "output_modalities": [
         "text"
@@ -3730,7 +3740,11 @@
       "tools",
       "top_p"
     ],
-    "default_parameters": {}
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "google/gemini-2.5-flash",
@@ -9550,7 +9564,7 @@
     "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
     "created": 1716768000,
     "description": "Hermes 2 Pro is an upgraded, retrained version of Nous Hermes 2, consisting of an updated and cleaned version of the OpenHermes 2.5 Dataset, as well as a newly introduced Function Calling and JSON Mode dataset developed in-house.",
-    "context_length": 32768,
+    "context_length": 8192,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -9571,8 +9585,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
+      "context_length": 8192,
+      "max_completion_tokens": 2048,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12005,13 +12019,13 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000015",
-      "completion": "0.000006",
+      "prompt": "0.00000025",
+      "completion": "0.000002",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0",
-      "input_cache_read": "0.000000375"
+      "input_cache_read": "0.000000025"
     },
     "top_provider": {
       "context_length": 400000,
@@ -12061,8 +12075,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0",
-      "completion": "0",
+      "prompt": "0.00000004",
+      "completion": "0.0000004",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12070,7 +12084,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14257,7 +14271,6 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -14271,7 +14284,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {}
@@ -17284,7 +17296,7 @@
     "name": "Z.AI: GLM 4.6 (exacto)",
     "created": 1759235576,
     "description": "Compared with GLM-4.5, this generation brings several key improvements:\n\nLonger context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex agentic tasks.\nSuperior coding performance: The model achieves higher scores on code benchmarks and demonstrates better real-world performance in applications such as Claude Code、Cline、Roo Code and Kilo Code, including improvements in generating visually polished front-end pages.\nAdvanced reasoning: GLM-4.6 shows a clear improvement in reasoning performance and supports tool use during inference, leading to stronger overall capability.\nMore capable agents: GLM-4.6 exhibits stronger performance in tool using and search-based agents, and integrates more effectively within agent frameworks.\nRefined writing: Better aligns with human preferences in style and readability, and performs more naturally in role-playing scenarios.",
-    "context_length": 204800,
+    "context_length": 202752,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -17297,16 +17309,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000006",
-      "completion": "0.0000022",
+      "prompt": "0.00000045",
+      "completion": "0.0000019",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 204800,
-      "max_completion_tokens": 131072,
+      "context_length": 202752,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -17314,6 +17326,7 @@
       "frequency_penalty",
       "include_reasoning",
       "max_tokens",
+      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
