@@ -1037,54 +1037,6 @@
     "default_parameters": {}
   },
   {
-    "id": "anthropic/claude-3.5-sonnet-20240620",
-    "canonical_slug": "anthropic/claude-3.5-sonnet-20240620",
-    "hugging_face_id": null,
-    "name": "Anthropic: Claude 3.5 Sonnet (2024-06-20)",
-    "created": 1718841600,
-    "description": "Claude 3.5 Sonnet delivers better-than-Opus capabilities, faster-than-Sonnet speeds, at the same Sonnet prices. Sonnet is particularly good at:\n\n- Coding: Autonomously writes, edits, and runs code with reasoning and troubleshooting\n- Data science: Augments human data science expertise; navigates unstructured data while using multiple tools for insights\n- Visual processing: excelling at interpreting charts, graphs, and images, accurately transcribing text to derive insights beyond just the text alone\n- Agentic tasks: exceptional tool use, making it great at agentic tasks (i.e. complex, multi-step problem solving tasks that require engaging with other systems)\n\nFor the latest version (2024-10-23), check out [Claude 3.5 Sonnet](/anthropic/claude-3.5-sonnet).\n\n#multimodal",
-    "context_length": 200000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Claude",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000003",
-      "completion": "0.000015",
-      "request": "0",
-      "image": "0.0048",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.0000003",
-      "input_cache_write": "0.00000375"
-    },
-    "top_provider": {
-      "context_length": 200000,
-      "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
     "id": "anthropic/claude-3.7-sonnet",
     "canonical_slug": "anthropic/claude-3-7-sonnet-20250219",
     "hugging_face_id": "",
@@ -6145,52 +6097,6 @@
     "default_parameters": {}
   },
   {
-    "id": "meta-llama/llama-3.3-8b-instruct:free",
-    "canonical_slug": "meta-llama/llama-3.3-8b-instruct",
-    "hugging_face_id": "",
-    "name": "Meta: Llama 3.3 8B Instruct (free)",
-    "created": 1747230154,
-    "description": "A lightweight and ultra-fast variant of Llama 3.3 70B, for use when quick response times are needed most.",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama3",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 4028,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "repetition_penalty",
-      "response_format",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
     "id": "meta-llama/llama-4-maverick",
     "canonical_slug": "meta-llama/llama-4-maverick-17b-128e-instruct",
     "hugging_face_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
@@ -6244,53 +6150,6 @@
     "default_parameters": {}
   },
   {
-    "id": "meta-llama/llama-4-maverick:free",
-    "canonical_slug": "meta-llama/llama-4-maverick-17b-128e-instruct",
-    "hugging_face_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
-    "name": "Meta: Llama 4 Maverick (free)",
-    "created": 1743881822,
-    "description": "Llama 4 Maverick 17B Instruct (128E) is a high-capacity multimodal language model from Meta, built on a mixture-of-experts (MoE) architecture with 128 experts and 17 billion active parameters per forward pass (400B total). It supports multilingual text and image input, and produces multilingual text and code output across 12 supported languages. Optimized for vision-language tasks, Maverick is instruction-tuned for assistant-like behavior, image reasoning, and general-purpose multimodal interaction.\n\nMaverick features early fusion for native multimodality and a 1 million token context window. It was trained on a curated mixture of public, licensed, and Meta-platform data, covering ~22 trillion tokens, with a knowledge cutoff in August 2024. Released on April 5, 2025 under the Llama 4 Community License, Maverick is suited for research and commercial applications requiring advanced multimodal understanding and high model throughput.",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama4",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 4028,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "repetition_penalty",
-      "response_format",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
     "id": "meta-llama/llama-4-scout",
     "canonical_slug": "meta-llama/llama-4-scout-17b-16e-instruct",
     "hugging_face_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
@@ -6334,53 +6193,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
-    "id": "meta-llama/llama-4-scout:free",
-    "canonical_slug": "meta-llama/llama-4-scout-17b-16e-instruct",
-    "hugging_face_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
-    "name": "Meta: Llama 4 Scout (free)",
-    "created": 1743881519,
-    "description": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input (text and image) and multilingual output (text and code) across 12 supported languages. Designed for assistant-style interaction and visual reasoning, Scout uses 16 experts per forward pass and features a context length of 10 million tokens, with a training corpus of ~40 trillion tokens.\n\nBuilt for high efficiency and local or commercial deployment, Llama 4 Scout incorporates early fusion for seamless modality integration. It is instruction-tuned for use in multilingual chat, captioning, and image understanding tasks. Released under the Llama 4 Community License, it was last trained on data up to August 2024 and launched publicly on April 5, 2025.",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama4",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 128000,
-      "max_completion_tokens": 4028,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "repetition_penalty",
-      "response_format",
       "structured_outputs",
       "temperature",
       "tool_choice",
@@ -9873,8 +9685,8 @@
       "instruct_type": "llama3"
     },
     "pricing": {
-      "prompt": "0.0000006",
-      "completion": "0.0000006",
+      "prompt": "0.0000012",
+      "completion": "0.0000012",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12910,6 +12722,102 @@
     "per_request_limits": null,
     "supported_parameters": [],
     "default_parameters": {}
+  },
+  {
+    "id": "openrouter/sherlock-dash-alpha",
+    "canonical_slug": "openrouter/sherlock-dash-alpha",
+    "hugging_face_id": "",
+    "name": "Sherlock Dash Alpha",
+    "created": 1763228989,
+    "description": "This is a cloaked model provided to the community to gather feedback. A frontier non-reasoning model that excels at tool calling, with a 1.8M context window and multimodal support.\n\n**Note:** All prompts and completions for this model are logged by the provider and may be used to improve the model.",
+    "context_length": 1840000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 1840000,
+      "max_completion_tokens": 64000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "response_format",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+    ],
+    "default_parameters": {
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "frequency_penalty": null
+    }
+  },
+  {
+    "id": "openrouter/sherlock-think-alpha",
+    "canonical_slug": "openrouter/sherlock-think-alpha",
+    "hugging_face_id": "",
+    "name": "Sherlock Think Alpha",
+    "created": 1763228986,
+    "description": "This is a cloaked model provided to the community to gather feedback. A frontier reasoning model that excels at tool calling, with a 1.8M context window and multimodal support.\n\n**Note:** All prompts and completions for this model are logged by the provider and may be used to improve the model.",
+    "context_length": 1840000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 1840000,
+      "max_completion_tokens": 64000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+    ],
+    "default_parameters": {
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "perplexity/sonar",
