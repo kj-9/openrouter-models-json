@@ -2874,8 +2874,8 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.0000004",
-      "completion": "0.00000175",
+      "prompt": "0.0000002",
+      "completion": "0.0000045",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3204,9 +3204,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -4453,16 +4451,16 @@
       "instruct_type": "gemma"
     },
     "pricing": {
-      "prompt": "0.00000009",
-      "completion": "0.00000016",
+      "prompt": "0.00000007",
+      "completion": "0.0000005",
       "request": "0",
-      "image": "0.0000256",
+      "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -4966,106 +4964,6 @@
     ],
     "default_parameters": {
       "temperature": 0,
-      "top_p": null,
-      "frequency_penalty": null
-    }
-  },
-  {
-    "id": "inclusionai/ling-1t",
-    "canonical_slug": "inclusionai/ling-1t",
-    "hugging_face_id": "inclusionAI/Ling-1T",
-    "name": "inclusionAI: Ling-1T",
-    "created": 1760316076,
-    "description": "Ling-1T is a trillion-parameter open-weight large language model developed by inclusionAI and released under the MIT license. It represents the first flagship non-thinking model in the Ling 2.0 series, built around a sparse-activation architecture with roughly 50 billion active parameters per token. The model supports up to 128 K tokens of context and emphasizes efficient reasoning through an “Evolutionary Chain-of-Thought (Evo-CoT)” training strategy.\n\nPre-trained on more than 20 trillion reasoning-dense tokens, Ling-1T achieves strong results across code generation, mathematics, and logical reasoning benchmarks while maintaining high inference efficiency. It employs FP8 mixed-precision training, MoE routing with QK normalization, and MTP layers for compositional reasoning stability. The model also introduces LPO (Linguistics-unit Policy Optimization) for post-training alignment, enhancing sentence-level semantic control.\n\nLing-1T can perform complex text generation, multilingual reasoning, and front-end code synthesis with a focus on both functionality and aesthetics.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000057",
-      "completion": "0.00000228",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "response_format",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": null,
-      "top_p": null,
-      "frequency_penalty": null
-    }
-  },
-  {
-    "id": "inclusionai/ring-1t",
-    "canonical_slug": "inclusionai/ring-1t",
-    "hugging_face_id": "inclusionAI/Ring-1T",
-    "name": "inclusionAI: Ring 1T",
-    "created": 1760384099,
-    "description": "Ring-1T has undergone continued scaling with large-scale verifiable reward reinforcement learning (RLVR) training, further unlocking the natural language reasoning capabilities of the trillion-parameter foundation model. Through RLHF training, the model's general abilities have also been refined, making this release of Ring-1T more balanced in performance across various tasks.\n\nRing-1T adopts the Ling 2.0 architecture and is trained on the Ling-1T-base foundation model, which contains 1 trillion total parameters with 50 billion activated parameters, supporting a context window of up to 128K tokens.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000057",
-      "completion": "0.00000228",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "reasoning",
-      "response_format",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": null,
       "top_p": null,
       "frequency_penalty": null
     }
@@ -8986,8 +8884,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000055",
-      "completion": "0.00000225",
+      "prompt": "0.0000005",
+      "completion": "0.0000025",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8995,7 +8893,7 @@
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 262144,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9087,7 +8985,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000003",
+      "prompt": "0.0000005",
       "completion": "0.0000006",
       "request": "0",
       "image": "0",
@@ -11745,6 +11643,8 @@
       "seed",
       "stop",
       "structured_outputs",
+      "tool_choice",
+      "tools",
       "top_logprobs"
     ],
     "default_parameters": {
@@ -15084,7 +14984,7 @@
     "name": "Qwen: Qwen3 VL 235B A22B Instruct",
     "created": 1758668687,
     "description": "Qwen3-VL-235B-A22B Instruct is an open-weight multimodal model that unifies strong text generation with visual understanding across images and video. The Instruct model targets general vision-language use (VQA, document parsing, chart/table extraction, multilingual OCR). The series emphasizes robust perception (recognition of diverse real-world and synthetic categories), spatial understanding (2D/3D grounding), and long-form visual comprehension, with competitive results on public multimodal benchmarks for both perception and reasoning.\n\nBeyond analysis, Qwen3-VL supports agentic interaction and tool use: it can follow complex instructions over multi-image, multi-turn dialogues; align text to video timelines for precise temporal queries; and operate GUI elements for automation tasks. The models also enable visual coding workflows—turning sketches or mockups into code and assisting with UI debugging—while maintaining strong text-only performance comparable to the flagship Qwen3 language models. This makes Qwen3-VL suitable for production scenarios spanning document AI, multilingual OCR, software/UI assistance, spatial/embodied tasks, and research on vision-language agents.",
-    "context_length": 262144,
+    "context_length": 131072,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -15098,16 +14998,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000022",
-      "completion": "0.00000088",
+      "prompt": "0.00000021",
+      "completion": "0.0000019",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 262144,
-      "max_completion_tokens": null,
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null,
