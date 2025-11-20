@@ -2405,6 +2405,61 @@
     }
   },
   {
+    "id": "deepcogito/cogito-v2.1-671b",
+    "canonical_slug": "deepcogito/cogito-v2.1-671b-20251118",
+    "hugging_face_id": "",
+    "name": "Deep Cogito: Cogito v2.1 671B",
+    "created": 1763071233,
+    "description": "Cogito v2.1 671B MoE represents one of the strongest open models globally, matching performance of frontier closed and open models. This model is trained using self play with reinforcement learning to reach state-of-the-art performance on multiple categories (instruction following, coding, longer queries and creative writing). This advanced system demonstrates significant progress toward scalable superintelligence through policy improvement.",
+    "context_length": 128000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000125",
+      "completion": "0.00000125",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
+  },
+  {
     "id": "deepseek/deepseek-chat",
     "canonical_slug": "deepseek/deepseek-chat-v3",
     "hugging_face_id": "deepseek-ai/DeepSeek-V3",
@@ -8744,8 +8799,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.0000025",
+      "prompt": "0.00000045",
+      "completion": "0.00000235",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8753,7 +8808,7 @@
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12484,102 +12539,6 @@
     "default_parameters": {}
   },
   {
-    "id": "openrouter/sherlock-dash-alpha",
-    "canonical_slug": "openrouter/sherlock-dash-alpha",
-    "hugging_face_id": "",
-    "name": "Sherlock Dash Alpha",
-    "created": 1763228989,
-    "description": "This is a cloaked model provided to the community to gather feedback. A frontier non-reasoning model that excels at tool calling, with a 1.8M context window and multimodal support.\n\n**Note:** All prompts and completions for this model are logged by the provider and may be used to improve the model.",
-    "context_length": 1840000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 1840000,
-      "max_completion_tokens": 64000,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "response_format",
-      "structured_outputs",
-      "tool_choice",
-      "tools"
-    ],
-    "default_parameters": {
-      "temperature": 0.7,
-      "top_p": 0.95,
-      "frequency_penalty": null
-    }
-  },
-  {
-    "id": "openrouter/sherlock-think-alpha",
-    "canonical_slug": "openrouter/sherlock-think-alpha",
-    "hugging_face_id": "",
-    "name": "Sherlock Think Alpha",
-    "created": 1763228986,
-    "description": "This is a cloaked model provided to the community to gather feedback. A frontier reasoning model that excels at tool calling, with a 1.8M context window and multimodal support.\n\n**Note:** All prompts and completions for this model are logged by the provider and may be used to improve the model.",
-    "context_length": 1840000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 1840000,
-      "max_completion_tokens": 64000,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "structured_outputs",
-      "tool_choice",
-      "tools"
-    ],
-    "default_parameters": {
-      "temperature": 0.7,
-      "top_p": 0.95,
-      "frequency_penalty": null
-    }
-  },
-  {
     "id": "perplexity/sonar",
     "canonical_slug": "perplexity/sonar",
     "hugging_face_id": "",
@@ -14462,7 +14421,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "response_format",
@@ -16516,7 +16474,7 @@
     "hugging_face_id": "",
     "name": "xAI: Grok 4 Fast",
     "created": 1758240090,
-    "description": "Grok 4 Fast is xAI's latest multimodal model with SOTA cost-efficiency and a 2M token context window. It comes in two flavors: non-reasoning and reasoning. Read more about the model on xAI's [news post](http://x.ai/news/grok-4-fast). Reasoning can be enabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
+    "description": "Grok 4 Fast is xAI's latest multimodal model with SOTA cost-efficiency and a 2M token context window. It comes in two flavors: non-reasoning and reasoning. Read more about the model on xAI's [news post](http://x.ai/news/grok-4-fast).\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
     "context_length": 2000000,
     "architecture": {
       "modality": "text+image->text",
@@ -16553,6 +16511,59 @@
       "response_format",
       "seed",
       "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
+  },
+  {
+    "id": "x-ai/grok-4.1-fast",
+    "canonical_slug": "x-ai/grok-4.1-fast",
+    "hugging_face_id": "",
+    "name": "xAI: Grok 4.1 Fast",
+    "created": 1763587502,
+    "description": "Grok 4.1 Fast is xAI's best agentic tool calling model that shines in real-world use cases like customer support and deep research. 2M context window.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
+    "context_length": 2000000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Grok",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 2000000,
+      "max_completion_tokens": 30000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "seed",
       "temperature",
       "tool_choice",
       "tools",
