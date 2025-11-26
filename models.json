@@ -5222,7 +5222,7 @@
     },
     "top_provider": {
       "context_length": 256000,
-      "max_completion_tokens": 32000,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -8885,7 +8885,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -9375,8 +9374,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.00000059",
+      "prompt": "0.00000005",
+      "completion": "0.0000002",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -12803,7 +12802,7 @@
       "structured_outputs"
     ],
     "default_parameters": {
-      "temperature": null,
+      "temperature": 0.0645,
       "top_p": null,
       "frequency_penalty": null
     }
@@ -13227,13 +13226,9 @@
       "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
-      "tool_choice",
-      "tools",
       "top_k",
       "top_p"
     ],
@@ -13263,8 +13258,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.00000004",
-      "completion": "0.00000016",
+      "prompt": "0.00000003",
+      "completion": "0.00000011",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -14826,8 +14821,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000004",
+      "prompt": "0.00000038",
+      "completion": "0.00000153",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -14835,7 +14830,7 @@
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 262144,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -16790,60 +16785,6 @@
     "default_parameters": {
       "temperature": null,
       "top_p": null,
-      "frequency_penalty": null
-    }
-  },
-  {
-    "id": "x-ai/grok-4.1-fast",
-    "canonical_slug": "x-ai/grok-4.1-fast",
-    "hugging_face_id": "",
-    "name": "xAI: Grok 4.1 Fast",
-    "created": 1763587502,
-    "description": "Grok 4.1 Fast is xAI's best agentic tool calling model that shines in real-world use cases like customer support and deep research. 2M context window.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
-    "context_length": 2000000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Grok",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 2000000,
-      "max_completion_tokens": 30000,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "seed",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": 0.7,
-      "top_p": 0.95,
       "frequency_penalty": null
     }
   },
