@@ -440,7 +440,7 @@
     },
     "pricing": {
       "prompt": "0.0000003",
-      "completion": "0.00000045",
+      "completion": "0.00000055",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -448,7 +448,7 @@
     },
     "top_provider": {
       "context_length": 65536,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -1774,54 +1774,6 @@
     "default_parameters": {}
   },
   {
-    "id": "arliai/qwq-32b-arliai-rpr-v1:free",
-    "canonical_slug": "arliai/qwq-32b-arliai-rpr-v1",
-    "hugging_face_id": "ArliAI/QwQ-32B-ArliAI-RpR-v1",
-    "name": "ArliAI: QwQ 32B RpR v1 (free)",
-    "created": 1744555982,
-    "description": "QwQ-32B-ArliAI-RpR-v1 is a 32B parameter model fine-tuned from Qwen/QwQ-32B using a curated creative writing and roleplay dataset originally developed for the RPMax series. It is designed to maintain coherence and reasoning across long multi-turn conversations by introducing explicit reasoning steps per dialogue turn, generated and refined using the base model itself.\n\nThe model was trained using RS-QLORA+ on 8K sequence lengths and supports up to 128K context windows (with practical performance around 32K). It is optimized for creative roleplay and dialogue generation, with an emphasis on minimizing cross-context repetition while preserving stylistic diversity.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": "deepseek-r1"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
     "id": "baidu/ernie-4.5-21b-a3b",
     "canonical_slug": "baidu/ernie-4.5-21b-a3b",
     "hugging_face_id": "baidu/ERNIE-4.5-21B-A3B-PT",
@@ -2701,17 +2653,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000216",
-      "completion": "0.000000896",
+      "prompt": "0.0000002",
+      "completion": "0.00000088",
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.000000135"
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 163840,
-      "max_completion_tokens": 163840,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -2733,54 +2684,6 @@
       "tools",
       "top_k",
       "top_logprobs",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
-    "id": "deepseek/deepseek-chat-v3-0324:free",
-    "canonical_slug": "deepseek/deepseek-chat-v3-0324",
-    "hugging_face_id": "deepseek-ai/DeepSeek-V3-0324",
-    "name": "DeepSeek: DeepSeek V3 0324 (free)",
-    "created": 1742824755,
-    "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.\n\nIt succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well on a variety of tasks.",
-    "context_length": 163840,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "DeepSeek",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 163840,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
       "top_p"
     ],
     "default_parameters": {}
@@ -3053,106 +2956,6 @@
     }
   },
   {
-    "id": "deepseek/deepseek-r1-0528-qwen3-8b:free",
-    "canonical_slug": "deepseek/deepseek-r1-0528-qwen3-8b",
-    "hugging_face_id": "deepseek-ai/deepseek-r1-0528-qwen3-8b",
-    "name": "DeepSeek: DeepSeek R1 0528 Qwen3 8B (free)",
-    "created": 1748538543,
-    "description": "DeepSeek-R1-0528 is a lightly upgraded release of DeepSeek R1 that taps more compute and smarter post-training tricks, pushing its reasoning and inference to the brink of flagship models like O3 and Gemini 2.5 Pro.\nIt now tops math, programming, and logic leaderboards, showcasing a step-change in depth-of-thought.\nThe distilled variant, DeepSeek-R1-0528-Qwen3-8B, transfers this chain-of-thought into an 8 B-parameter form, beating standard Qwen3 8B by +10 pp and tying the 235 B “thinking” giant on AIME 2024.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": "deepseek-r1"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": null,
-      "top_p": null,
-      "frequency_penalty": null
-    }
-  },
-  {
-    "id": "deepseek/deepseek-r1-0528:free",
-    "canonical_slug": "deepseek/deepseek-r1-0528",
-    "hugging_face_id": "deepseek-ai/DeepSeek-R1-0528",
-    "name": "DeepSeek: R1 0528 (free)",
-    "created": 1748455170,
-    "description": "May 28th update to the [original DeepSeek R1](/deepseek/deepseek-r1) Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model.",
-    "context_length": 163840,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "DeepSeek",
-      "instruct_type": "deepseek-r1"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 163840,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
     "id": "deepseek/deepseek-r1-distill-llama-70b",
     "canonical_slug": "deepseek/deepseek-r1-distill-llama-70b",
     "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
@@ -3248,7 +3051,6 @@
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
-      "seed",
       "stop",
       "temperature",
       "top_k",
@@ -3344,56 +3146,6 @@
       "include_reasoning",
       "max_tokens",
       "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
-    "id": "deepseek/deepseek-r1:free",
-    "canonical_slug": "deepseek/deepseek-r1",
-    "hugging_face_id": "deepseek-ai/DeepSeek-R1",
-    "name": "DeepSeek: R1 (free)",
-    "created": 1737381095,
-    "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model & [technical report](https://api-docs.deepseek.com/news/news250120).\n\nMIT licensed: Distill & commercialize freely!",
-    "context_length": 163840,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "DeepSeek",
-      "instruct_type": "deepseek-r1"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 163840,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
@@ -3812,6 +3564,7 @@
       "completion": "0.0000025",
       "request": "0",
       "image": "0.001238",
+      "audio": "0.000001",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000003",
@@ -4667,10 +4420,8 @@
       "repetition_penalty",
       "response_format",
       "seed",
-      "stop",
       "structured_outputs",
       "temperature",
-      "top_k",
       "top_p"
     ],
     "default_parameters": {}
@@ -6441,54 +6192,6 @@
     "default_parameters": {}
   },
   {
-    "id": "microsoft/mai-ds-r1:free",
-    "canonical_slug": "microsoft/mai-ds-r1",
-    "hugging_face_id": "microsoft/MAI-DS-R1",
-    "name": "Microsoft: MAI DS R1 (free)",
-    "created": 1745194100,
-    "description": "MAI-DS-R1 is a post-trained variant of DeepSeek-R1 developed by the Microsoft AI team to improve the model’s responsiveness on previously blocked topics while enhancing its safety profile. Built on top of DeepSeek-R1’s reasoning foundation, it integrates 110k examples from the Tulu-3 SFT dataset and 350k internally curated multilingual safety-alignment samples. The model retains strong reasoning, coding, and problem-solving capabilities, while unblocking a wide range of prompts previously restricted in R1.\n\nMAI-DS-R1 demonstrates improved performance on harm mitigation benchmarks and maintains competitive results across general reasoning tasks. It surpasses R1-1776 in satisfaction metrics for blocked queries and reduces leakage in harmful content categories. The model is based on a transformer MoE architecture and is suitable for general-purpose use cases, excluding high-stakes domains such as legal, medical, or autonomous systems.",
-    "context_length": 163840,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "DeepSeek",
-      "instruct_type": "deepseek-r1"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 163840,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
     "id": "microsoft/phi-3-medium-128k-instruct",
     "canonical_slug": "microsoft/phi-3-medium-128k-instruct",
     "hugging_face_id": "microsoft/Phi-3-medium-128k-instruct",
@@ -8030,54 +7733,6 @@
     }
   },
   {
-    "id": "mistralai/mistral-nemo:free",
-    "canonical_slug": "mistralai/mistral-nemo",
-    "hugging_face_id": "mistralai/Mistral-Nemo-Instruct-2407",
-    "name": "Mistral: Mistral Nemo (free)",
-    "created": 1721347200,
-    "description": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.\n\nThe model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi.\n\nIt supports function calling and is released under the Apache 2.0 license.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": "mistral"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 128000,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": 0.3
-    }
-  },
-  {
     "id": "mistralai/mistral-saba",
     "canonical_slug": "mistralai/mistral-saba-2502",
     "hugging_face_id": "",
@@ -8232,54 +7887,6 @@
     }
   },
   {
-    "id": "mistralai/mistral-small-24b-instruct-2501:free",
-    "canonical_slug": "mistralai/mistral-small-24b-instruct-2501",
-    "hugging_face_id": "mistralai/Mistral-Small-24B-Instruct-2501",
-    "name": "Mistral: Mistral Small 3 (free)",
-    "created": 1738255409,
-    "description": "Mistral Small 3 is a 24B-parameter language model optimized for low-latency performance across common AI tasks. Released under the Apache 2.0 license, it features both pre-trained and instruction-tuned versions designed for efficient local deployment.\n\nThe model achieves 81% accuracy on the MMLU benchmark and performs competitively with larger models like Llama 3.3 70B and Qwen 32B, while operating at three times the speed on equivalent hardware. [Read the blog post about the model here.](https://mistral.ai/news/mistral-small-3/)",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": 0.3
-    }
-  },
-  {
     "id": "mistralai/mistral-small-3.1-24b-instruct",
     "canonical_slug": "mistralai/mistral-small-3.1-24b-instruct-2503",
     "hugging_face_id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
@@ -8339,7 +7946,7 @@
     "name": "Mistral: Mistral Small 3.1 24B (free)",
     "created": 1742238937,
     "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and vision tasks, including image analysis, programming, mathematical reasoning, and multilingual support across dozens of languages. Equipped with an extensive 128k token context window and optimized for efficient local inference, it supports use cases such as conversational agents, function calling, long-document comprehension, and privacy-sensitive deployments. The updated version is [Mistral Small 3.2](mistralai/mistral-small-3.2-24b-instruct)",
-    "context_length": 96000,
+    "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -8361,8 +7968,8 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 96000,
-      "max_completion_tokens": 96000,
+      "context_length": 128000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -8370,9 +7977,7 @@
       "frequency_penalty",
       "max_tokens",
       "presence_penalty",
-      "repetition_penalty",
       "response_format",
-      "seed",
       "stop",
       "structured_outputs",
       "temperature",
@@ -8427,58 +8032,6 @@
       "presence_penalty",
       "repetition_penalty",
       "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": 0.3
-    }
-  },
-  {
-    "id": "mistralai/mistral-small-3.2-24b-instruct:free",
-    "canonical_slug": "mistralai/mistral-small-3.2-24b-instruct-2506",
-    "hugging_face_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
-    "name": "Mistral: Mistral Small 3.2 24B (free)",
-    "created": 1750443016,
-    "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on WildBench and Arena Hard, reduces infinite generations, and delivers gains in tool use and structured output tasks.\n\nIt supports image and text inputs with structured outputs, function/tool calling, and strong performance across coding (HumanEval+, MBPP), STEM (MMLU, MATH, GPQA), and vision benchmarks (ChartQA, DocVQA).",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
       "seed",
       "stop",
       "structured_outputs",
@@ -13141,52 +12694,6 @@
     "default_parameters": {}
   },
   {
-    "id": "qwen/qwen-2.5-72b-instruct:free",
-    "canonical_slug": "qwen/qwen-2.5-72b-instruct",
-    "hugging_face_id": "Qwen/Qwen2.5-72B-Instruct",
-    "name": "Qwen2.5 72B Instruct (free)",
-    "created": 1726704000,
-    "description": "Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:\n\n- Significantly more knowledge and has greatly improved capabilities in coding and mathematics, thanks to our specialized expert models in these domains.\n\n- Significant improvements in instruction following, generating long texts (over 8K tokens), understanding structured data (e.g, tables), and generating structured outputs especially JSON. More resilient to the diversity of system prompts, enhancing role-play implementation and condition-setting for chatbots.\n\n- Long-context Support up to 128K tokens and can generate up to 8K tokens.\n\n- Multilingual support for over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
     "id": "qwen/qwen-2.5-7b-instruct",
     "canonical_slug": "qwen/qwen-2.5-7b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-7B-Instruct",
@@ -13282,52 +12789,6 @@
       "seed",
       "stop",
       "structured_outputs",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
-    "id": "qwen/qwen-2.5-coder-32b-instruct:free",
-    "canonical_slug": "qwen/qwen-2.5-coder-32b-instruct",
-    "hugging_face_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
-    "name": "Qwen2.5 Coder 32B Instruct (free)",
-    "created": 1731368400,
-    "description": "Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5:\n\n- Significantly improvements in **code generation**, **code reasoning** and **code fixing**. \n- A more comprehensive foundation for real-world applications such as **Code Agents**. Not only enhancing coding capabilities but also maintaining its strengths in mathematics and general competencies.\n\nTo read more about its evaluation results, check out [Qwen 2.5 Coder's blog](https://qwenlm.github.io/blog/qwen2.5-coder-family/).",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": "chatml"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
       "temperature",
       "top_k",
       "top_p"
@@ -13817,53 +13278,6 @@
     "default_parameters": {}
   },
   {
-    "id": "qwen/qwen2.5-vl-32b-instruct:free",
-    "canonical_slug": "qwen/qwen2.5-vl-32b-instruct",
-    "hugging_face_id": "Qwen/Qwen2.5-VL-32B-Instruct",
-    "name": "Qwen: Qwen2.5 VL 32B Instruct (free)",
-    "created": 1742839838,
-    "description": "Qwen2.5-VL-32B is a multimodal vision-language model fine-tuned through reinforcement learning for enhanced mathematical reasoning, structured outputs, and visual problem-solving capabilities. It excels at visual analysis tasks, including object recognition, textual interpretation within images, and precise event localization in extended videos. Qwen2.5-VL-32B demonstrates state-of-the-art performance across multimodal benchmarks such as MMMU, MathVista, and VideoMME, while maintaining strong reasoning and clarity in text-based tasks like MMLU, mathematical problem-solving, and code generation.",
-    "context_length": 16384,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 16384,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
     "id": "qwen/qwen2.5-vl-72b-instruct",
     "canonical_slug": "qwen/qwen2.5-vl-72b-instruct",
     "hugging_face_id": "Qwen/Qwen2.5-VL-72B-Instruct",
@@ -13962,54 +13376,6 @@
       "temperature",
       "tool_choice",
       "tools",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
-    "id": "qwen/qwen3-14b:free",
-    "canonical_slug": "qwen/qwen3-14b-04-28",
-    "hugging_face_id": "Qwen/Qwen3-14B",
-    "name": "Qwen: Qwen3 14B (free)",
-    "created": 1745876478,
-    "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for tasks like math, programming, and logical inference, and a \"non-thinking\" mode for general-purpose conversation. The model is fine-tuned for instruction-following, agent tool use, creative writing, and multilingual tasks across 100+ languages and dialects. It natively handles 32K token contexts and can extend to 131K tokens using YaRN-based scaling.",
-    "context_length": 40960,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen3",
-      "instruct_type": "qwen3"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 40960,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
       "top_k",
       "top_p"
     ],
@@ -14187,7 +13553,7 @@
     "name": "Qwen: Qwen3 235B A22B (free)",
     "created": 1745875757,
     "description": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass. It supports seamless switching between a \"thinking\" mode for complex reasoning, math, and code tasks, and a \"non-thinking\" mode for general conversational efficiency. The model demonstrates strong reasoning ability, multilingual support (100+ languages and dialects), advanced instruction-following, and agent tool-calling capabilities. It natively handles a 32K token context window and extends up to 131K tokens using YaRN-based scaling.",
-    "context_length": 40960,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -14208,7 +13574,7 @@
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 40960,
+      "context_length": 131072,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -14219,9 +13585,7 @@
       "max_tokens",
       "presence_penalty",
       "reasoning",
-      "repetition_penalty",
       "response_format",
-      "seed",
       "stop",
       "structured_outputs",
       "temperature",
@@ -14382,54 +13746,6 @@
       "temperature",
       "tool_choice",
       "tools",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
-    "id": "qwen/qwen3-30b-a3b:free",
-    "canonical_slug": "qwen/qwen3-30b-a3b-04-28",
-    "hugging_face_id": "Qwen/Qwen3-30B-A3B",
-    "name": "Qwen: Qwen3 30B A3B (free)",
-    "created": 1745878604,
-    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique ability to switch seamlessly between a thinking mode for complex reasoning and a non-thinking mode for efficient dialogue ensures versatile, high-quality performance.\n\nSignificantly outperforming prior models like QwQ and Qwen2.5, Qwen3 delivers superior mathematics, coding, commonsense reasoning, creative writing, and interactive dialogue capabilities. The Qwen3-30B-A3B variant includes 30.5 billion parameters (3.3 billion activated), 48 layers, 128 experts (8 activated per task), and supports up to 131K token contexts with YaRN, setting a new standard among open-source models.",
-    "context_length": 40960,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen3",
-      "instruct_type": "qwen3"
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 40960,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
       "top_k",
       "top_p"
     ],
@@ -15951,7 +15267,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000065",
+      "prompt": "0.00000075",
       "completion": "0.000001",
       "request": "0",
       "image": "0",
@@ -16426,6 +15742,118 @@
       "top_p"
     ],
     "default_parameters": {}
+  },
+  {
+    "id": "tngtech/tng-r1t-chimera",
+    "canonical_slug": "tngtech/tng-r1t-chimera",
+    "hugging_face_id": null,
+    "name": "TNG: R1T Chimera",
+    "created": 1764184161,
+    "description": "TNG-R1T-Chimera is an experimental LLM with a faible for creative storytelling and character interaction. It is a derivate of the original TNG/DeepSeek-R1T-Chimera released in April 2025 and is available exclusively via Chutes and OpenRouter.\n\nCharacteristics and improvements include:\n\nWe think that it has a creative and pleasant personality.\nIt has a preliminary EQ-Bench3 value of about 1305.\nIt is quite a bit more intelligent than the original, albeit a slightly slower.\nIt is much more think-token consistent, i.e. reasoning and answer blocks are properly delineated.\nTool calling is much improved.\n\nTNG Tech, the model authors, ask that users follow the careful guidelines that Microsoft has created for their \"MAI-DS-R1\" DeepSeek-based model. These guidelines are available on Hugging Face (https://huggingface.co/microsoft/MAI-DS-R1).",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
+      "max_completion_tokens": 163840,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
+  },
+  {
+    "id": "tngtech/tng-r1t-chimera:free",
+    "canonical_slug": "tngtech/tng-r1t-chimera",
+    "hugging_face_id": null,
+    "name": "TNG: R1T Chimera (free)",
+    "created": 1764184161,
+    "description": "TNG-R1T-Chimera is an experimental LLM with a faible for creative storytelling and character interaction. It is a derivate of the original TNG/DeepSeek-R1T-Chimera released in April 2025 and is available exclusively via Chutes and OpenRouter.\n\nCharacteristics and improvements include:\n\nWe think that it has a creative and pleasant personality.\nIt has a preliminary EQ-Bench3 value of about 1305.\nIt is quite a bit more intelligent than the original, albeit a slightly slower.\nIt is much more think-token consistent, i.e. reasoning and answer blocks are properly delineated.\nTool calling is much improved.\n\nTNG Tech, the model authors, ask that users follow the careful guidelines that Microsoft has created for their \"MAI-DS-R1\" DeepSeek-based model. These guidelines are available on Hugging Face (https://huggingface.co/microsoft/MAI-DS-R1).",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
+      "max_completion_tokens": 163840,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "undi95/remm-slerp-l2-13b",
