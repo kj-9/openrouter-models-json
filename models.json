@@ -2646,7 +2646,8 @@
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.000000135"
     },
     "top_provider": {
       "context_length": 163840,
@@ -16561,7 +16562,8 @@
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0",
-      "input_cache_read": "0.00000011"
+      "input_cache_read": "0.000000088",
+      "input_cache_write": "0"
     },
     "top_provider": {
       "context_length": 65536,
