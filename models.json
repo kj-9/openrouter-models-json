@@ -408,10 +408,10 @@
     "default_parameters": {}
   },
   {
-    "id": "allenai/olmo-3-32b-think",
+    "id": "allenai/olmo-3-32b-think:free",
     "canonical_slug": "allenai/olmo-3-32b-think-20251121",
     "hugging_face_id": "allenai/Olmo-3-32B-Think",
-    "name": "AllenAI: Olmo 3 32B Think",
+    "name": "AllenAI: Olmo 3 32B Think (free)",
     "created": 1763758276,
     "description": "Olmo 3 32B Think is a large-scale, 32-billion-parameter model purpose-built for deep reasoning, complex logic chains and advanced instruction-following scenarios. Its capacity enables strong performance on demanding evaluation tasks and highly nuanced conversational reasoning. Developed by Ai2 under the Apache 2.0 license, Olmo 3 32B Think embodies the Olmo initiative’s commitment to openness, offering full transparency across weights, code and training methodology.",
     "context_length": 65536,
@@ -427,8 +427,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000003",
-      "completion": "0.00000055",
+      "prompt": "0",
+      "completion": "0",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -626,6 +626,110 @@
       "top_p"
     ],
     "default_parameters": {}
+  },
+  {
+    "id": "amazon/nova-2-lite-v1",
+    "canonical_slug": "amazon/nova-2-lite-v1",
+    "hugging_face_id": "",
+    "name": "Amazon: Nova 2 Lite",
+    "created": 1764696672,
+    "description": "Nova 2 Lite is a fast, cost-effective reasoning model for everyday workloads that can process text, images, and videos to generate text. \n\nNova 2 Lite demonstrates standout capabilities in processing documents, extracting information from videos, generating code, providing accurate grounded answers, and automating multi-step agentic workflows.",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Nova",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000025",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": null,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
+  },
+  {
+    "id": "amazon/nova-2-lite-v1:free",
+    "canonical_slug": "amazon/nova-2-lite-v1",
+    "hugging_face_id": "",
+    "name": "Amazon: Nova 2 Lite (free)",
+    "created": 1764696672,
+    "description": "Nova 2 Lite is a fast, cost-effective reasoning model for everyday workloads that can process text, images, and videos to generate text. \n\nNova 2 Lite demonstrates standout capabilities in processing documents, extracting information from videos, generating code, providing accurate grounded answers, and automating multi-step agentic workflows.",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Nova",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "seed",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "amazon/nova-lite-v1",
@@ -1663,7 +1767,7 @@
   {
     "id": "arcee-ai/trinity-mini",
     "canonical_slug": "arcee-ai/trinity-mini-20251201",
-    "hugging_face_id": "",
+    "hugging_face_id": "arcee-ai/Trinity-Mini",
     "name": "Arcee AI: Trinity Mini",
     "created": 1764601720,
     "description": "Trinity Mini is a 26B-parameter (3B active) sparse mixture-of-experts language model featuring 128 experts with 8 active per token. Engineered for efficient reasoning over long contexts (131k) with robust function calling and multi-step agent workflows.",
@@ -1720,7 +1824,7 @@
   {
     "id": "arcee-ai/trinity-mini:free",
     "canonical_slug": "arcee-ai/trinity-mini-20251201",
-    "hugging_face_id": "",
+    "hugging_face_id": "arcee-ai/Trinity-Mini",
     "name": "Arcee AI: Trinity Mini (free)",
     "created": 1764601720,
     "description": "Trinity Mini is a 26B-parameter (3B active) sparse mixture-of-experts language model featuring 128 experts with 8 active per token. Engineered for efficient reasoning over long contexts (131k) with robust function calling and multi-step agent workflows.",
@@ -7679,6 +7783,59 @@
     }
   },
   {
+    "id": "mistralai/mistral-large-2512",
+    "canonical_slug": "mistralai/mistral-large-2512",
+    "hugging_face_id": "",
+    "name": "Mistral: Mistral Large 3 2512",
+    "created": 1764624472,
+    "description": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
+    "context_length": 262144,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Mistral",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000005",
+      "completion": "0.0000015",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "max_tokens",
+      "presence_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 0.0645,
+      "top_p": null,
+      "frequency_penalty": null
+    }
+  },
+  {
     "id": "mistralai/mistral-medium-3",
     "canonical_slug": "mistralai/mistral-medium-3",
     "hugging_face_id": "",
@@ -12412,53 +12569,6 @@
     "per_request_limits": null,
     "supported_parameters": [],
     "default_parameters": {}
-  },
-  {
-    "id": "openrouter/bert-nebulon-alpha",
-    "canonical_slug": "openrouter/bert-nebulon-alpha",
-    "hugging_face_id": "",
-    "name": "Bert-Nebulon Alpha",
-    "created": 1764005058,
-    "description": "This is a cloaked model provided to the community to gather feedback. A general-purpose multimodal model (text/image in, text out) designed for reliability, long-context comprehension, and adaptive logic. It is engineered for production-grade assistants, retrieval-augmented systems, science workloads, and complex agentic workflows.\n\n**Note:** All prompts and completions for this model are logged by the provider and may be used to improve the model.",
-    "context_length": 256000,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 256000,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "response_format",
-      "structured_outputs",
-      "tool_choice",
-      "tools"
-    ],
-    "default_parameters": {
-      "temperature": 0.0645,
-      "top_p": null,
-      "frequency_penalty": null
-    }
   },
   {
     "id": "perplexity/sonar",
