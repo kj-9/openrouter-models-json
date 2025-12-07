@@ -2911,7 +2911,7 @@
     "name": "DeepSeek: DeepSeek V3.1",
     "created": 1755779628,
     "description": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates. It extends the DeepSeek-V3 base with a two-phase long-context training process, reaching up to 128K tokens, and uses FP8 microscaling for efficient inference. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)\n\nThe model improves tool use, code generation, and reasoning efficiency, achieving performance comparable to DeepSeek-R1 on difficult benchmarks while responding more quickly. It supports structured tool calling, code agents, and search agents, making it suitable for research, coding, and agentic workflows. \n\nIt succeeds the [DeepSeek V3-0324](/deepseek/deepseek-chat-v3-0324) model and performs well on a variety of tasks.",
-    "context_length": 163840,
+    "context_length": 131072,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2924,16 +2924,16 @@
       "instruct_type": "deepseek-v3.1"
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000008",
+      "prompt": "0",
+      "completion": "0",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 163840,
-      "max_completion_tokens": 163840,
+      "context_length": 131072,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3589,7 +3589,7 @@
     },
     "top_provider": {
       "context_length": 163840,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 65536,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3601,8 +3601,10 @@
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
       "top_logprobs",
@@ -12705,42 +12707,6 @@
     "per_request_limits": null,
     "supported_parameters": [],
     "default_parameters": {}
-  },
-  {
-    "id": "openrouter/bodybuilder",
-    "canonical_slug": "openrouter/bodybuilder",
-    "hugging_face_id": "",
-    "name": "Body Builder",
-    "created": 1764903653,
-    "description": "Transform your natural language requests into structured OpenRouter API request objects. Describe what you want to accomplish with AI models, and Body Builder will construct the appropriate API calls. Example: \"count to 10 using gemini and opus.\"\n\nThis is useful for creating multi-model requests, custom model routers, or programmatic generation of API calls from human descriptions.",
-    "context_length": 128000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Router",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "-1",
-      "completion": "-1"
-    },
-    "top_provider": {
-      "context_length": null,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [],
-    "default_parameters": {
-      "temperature": null,
-      "top_p": null,
-      "frequency_penalty": null
-    }
   },
   {
     "id": "perplexity/sonar",
