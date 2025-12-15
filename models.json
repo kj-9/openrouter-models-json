@@ -4717,6 +4717,8 @@
       "stop",
       "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_p"
     ],
     "default_parameters": {}
@@ -6381,48 +6383,6 @@
       "temperature",
       "top_k",
       "top_p"
-    ],
-    "default_parameters": {}
-  },
-  {
-    "id": "meta-llama/llama-guard-4-12b:free",
-    "canonical_slug": "meta-llama/llama-guard-4-12b",
-    "hugging_face_id": "meta-llama/Llama-Guard-4-12B",
-    "name": "Meta: Llama Guard 4 12B (free)",
-    "created": 1745975193,
-    "description": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM inputs (prompt classification) and in LLM responses (response classification). It acts as an LLM—generating text in its output that indicates whether a given prompt or response is safe or unsafe, and if unsafe, it also lists the content categories violated.\n\nLlama Guard 4 was aligned to safeguard against the standardized MLCommons hazards taxonomy and designed to support multimodal Llama 4 capabilities. Specifically, it combines features from previous Llama Guard models, providing content moderation for English and multiple supported languages, along with enhanced capabilities to handle mixed text-and-image prompts, including multiple images. Additionally, Llama Guard 4 is integrated into the Llama Moderations API, extending robust safety classification to text and images.",
-    "context_length": 262144,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 262144,
-      "max_completion_tokens": null,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "seed",
-      "stop",
-      "temperature"
     ],
     "default_parameters": {}
   },
