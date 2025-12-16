@@ -3415,7 +3415,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000025",
+      "prompt": "0.00000024",
       "completion": "0.00000038",
       "request": "0",
       "image": "0",
@@ -3482,12 +3482,11 @@
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.000000168"
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 163840,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 65536,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -6806,7 +6805,7 @@
     "name": "MiniMax: MiniMax M2",
     "created": 1761252093,
     "description": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows. With 10 billion activated parameters (230 billion total), it delivers near-frontier intelligence across general reasoning, tool use, and multi-step task execution while maintaining low latency and deployment efficiency.\n\nThe model excels in code generation, multi-file editing, compile-run-fix loops, and test-validated repair, showing strong results on SWE-Bench Verified, Multi-SWE-Bench, and Terminal-Bench. It also performs competitively in agentic evaluations such as BrowseComp and GAIA, effectively handling long-horizon planning, retrieval, and recovery from execution errors.\n\nBenchmarked by [Artificial Analysis](https://artificialanalysis.ai/models/minimax-m2), MiniMax-M2 ranks among the top open-source models for composite intelligence, spanning mathematics, science, and instruction-following. Its small activation footprint enables fast inference, high concurrency, and improved unit economics, making it well-suited for large-scale agents, developer assistants, and reasoning-driven applications that require responsiveness and cost efficiency.\n\nTo avoid degrading this model's performance, MiniMax highly recommends preserving reasoning between turns. Learn more about using reasoning_details to pass back reasoning in our [docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#preserving-reasoning-blocks).",
-    "context_length": 262144,
+    "context_length": 196608,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -6819,17 +6818,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000254",
-      "completion": "0.00000102",
+      "prompt": "0.0000002",
+      "completion": "0.000001",
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.000000127"
+      "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 262144,
-      "max_completion_tokens": null,
+      "context_length": 196608,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9654,6 +9652,55 @@
       "top_p"
     ],
     "default_parameters": null
+  },
+  {
+    "id": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "canonical_slug": "nvidia/nemotron-3-nano-30b-a3b",
+    "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+    "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
+    "created": 1765731275,
+    "description": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems.\n\nThe model is fully open with open-weights, datasets and recipes so developers can easily\ncustomize, optimize, and deploy the model on their infrastructure for maximum privacy and\nsecurity.\n\nNote: All prompts and output are logged to improve the provider's model and its product and services. Please do not upload any personal, confidential, or otherwise sensitive information. This is a trial use only. Do not use for production or business-critical systems",
+    "context_length": 256000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 256000,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "seed",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    }
   },
   {
     "id": "nvidia/nemotron-nano-12b-v2-vl",
@@ -12806,9 +12853,9 @@
     "id": "openrouter/bodybuilder",
     "canonical_slug": "openrouter/bodybuilder",
     "hugging_face_id": "",
-    "name": "Body Builder",
+    "name": "Body Builder (beta)",
     "created": 1764903653,
-    "description": "Transform your natural language requests into structured OpenRouter API request objects. Describe what you want to accomplish with AI models, and Body Builder will construct the appropriate API calls. Example: \"count to 10 using gemini and opus.\"\n\nThis is useful for creating multi-model requests, custom model routers, or programmatic generation of API calls from human descriptions.",
+    "description": "Transform your natural language requests into structured OpenRouter API request objects. Describe what you want to accomplish with AI models, and Body Builder will construct the appropriate API calls. Example: \"count to 10 using gemini and opus.\"\n\nThis is useful for creating multi-model requests, custom model routers, or programmatic generation of API calls from human descriptions.\n\n**BETA NOTICE**: Body Builder is in beta, and currently free. Pricing and functionality may change in the future.",
     "context_length": 128000,
     "architecture": {
       "modality": "text->text",
@@ -17158,12 +17205,14 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000004",
-      "completion": "0.00000175",
+      "prompt": "0.00000038",
+      "completion": "0.00000169",
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0.00000006",
+      "input_cache_write": "0"
     },
     "top_provider": {
       "context_length": 202752,
