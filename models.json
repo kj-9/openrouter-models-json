@@ -191,8 +191,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.0000002",
+      "prompt": "0.0000008",
+      "completion": "0.0000016",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -3462,18 +3462,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000024",
+      "prompt": "0.00000026",
       "completion": "0.00000038",
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.00000002",
-      "input_cache_write": "0"
+      "internal_reasoning": "0"
     },
     "top_provider": {
       "context_length": 163840,
-      "max_completion_tokens": 163840,
+      "max_completion_tokens": 65536,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -5567,8 +5565,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.00000075",
+      "prompt": "0.0000002",
+      "completion": "0.0000008",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -6998,6 +6996,55 @@
     "default_parameters": {
       "temperature": 1,
       "top_p": 0.95,
+      "frequency_penalty": null
+    }
+  },
+  {
+    "id": "minimax/minimax-m2.1",
+    "canonical_slug": "minimax/minimax-m2.1",
+    "hugging_face_id": "MiniMaxAI/MiniMax-M2.1",
+    "name": "MiniMax: MiniMax M2.1",
+    "created": 1766454997,
+    "description": "MiniMax-M2.1 is a lightweight, state-of-the-art large language model optimized for coding, agentic workflows, and modern application development. With only 10 billion activated parameters, it delivers a major jump in real-world capability while maintaining exceptional latency, scalability, and cost efficiency.\n\nCompared to its predecessor, M2.1 delivers cleaner, more concise outputs and faster perceived response times. It shows leading multilingual coding performance across major systems and application languages, achieving 49.4% on Multi-SWE-Bench and 72.5% on SWE-Bench Multilingual, and serves as a versatile agent “brain” for IDEs, coding tools, and general-purpose assistance.\n\nTo avoid degrading this model's performance, MiniMax highly recommends preserving reasoning between turns. Learn more about using reasoning_details to pass back reasoning in our [docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#preserving-reasoning-blocks).",
+    "context_length": 204800,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 204800,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 1,
+      "top_p": 0.9,
       "frequency_penalty": null
     }
   },
@@ -9864,7 +9911,7 @@
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 262144,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -9879,6 +9926,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -13484,8 +13532,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.00000007",
-      "completion": "0.00000026",
+      "prompt": "0.00000012",
+      "completion": "0.00000039",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -13493,7 +13541,7 @@
     },
     "top_provider": {
       "context_length": 32768,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14164,8 +14212,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000003",
-      "completion": "0.00000013",
+      "prompt": "0.00000007",
+      "completion": "0.00000026",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -17698,6 +17746,65 @@
     "default_parameters": {
       "temperature": 0.8,
       "top_p": 0.6,
+      "frequency_penalty": null
+    }
+  },
+  {
+    "id": "z-ai/glm-4.7",
+    "canonical_slug": "z-ai/glm-4.7-20251222",
+    "hugging_face_id": "zai-org/GLM-4.7",
+    "name": "Z.AI: GLM 4.7",
+    "created": 1766378014,
+    "description": "GLM-4.7 is Z.AI’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while delivering more natural conversational experiences and superior front-end aesthetics.",
+    "context_length": 202752,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000044",
+      "completion": "0.00000174",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0",
+      "input_cache_read": "0"
+    },
+    "top_provider": {
+      "context_length": 202752,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 1,
+      "top_p": 0.95,
       "frequency_penalty": null
     }
   }
