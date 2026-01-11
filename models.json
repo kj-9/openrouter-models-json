@@ -316,10 +316,10 @@
     }
   },
   {
-    "id": "allenai/molmo-2-8b",
+    "id": "allenai/molmo-2-8b:free",
     "canonical_slug": "allenai/molmo-2-8b-20260109",
     "hugging_face_id": "allenai/Molmo2-8B",
-    "name": "AllenAI: Molmo2 8B",
+    "name": "AllenAI: Molmo2 8B (free)",
     "created": 1767996672,
     "description": "Molmo2-8B is an open vision-language model developed by the Allen Institute for AI (Ai2) as part of the Molmo2 family, supporting image, video, and multi-image understanding and grounding. It is based on Qwen3-8B and uses SigLIP 2 as its vision backbone, outperforming other open-weight, open-data models on short videos, counting, and captioning, while remaining competitive on long-video tasks.",
     "context_length": 36864,
@@ -4782,6 +4782,7 @@
     "supported_parameters": [
       "max_tokens",
       "seed",
+      "stop",
       "temperature",
       "top_p"
     ],
@@ -4886,7 +4887,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -4985,7 +4985,7 @@
       "max_tokens",
       "response_format",
       "seed",
-      "structured_outputs",
+      "stop",
       "temperature",
       "top_p"
     ],
