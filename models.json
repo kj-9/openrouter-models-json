@@ -1317,7 +1317,7 @@
       "completion": "0.000005",
       "request": "0",
       "image": "0",
-      "web_search": "0",
+      "web_search": "0.01",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000001",
       "input_cache_write": "0.00000125"
@@ -1596,7 +1596,7 @@
       "completion": "0.000015",
       "request": "0",
       "image": "0.0048",
-      "web_search": "0",
+      "web_search": "0.01",
       "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
       "input_cache_write": "0.00000375"
@@ -3939,6 +3939,7 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
+      "audio": "0.0000003",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000001",
@@ -3998,6 +3999,7 @@
       "completion": "0.0000004",
       "request": "0",
       "image": "0",
+      "audio": "0.0000003",
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000001",
@@ -4005,7 +4007,7 @@
     },
     "top_provider": {
       "context_length": 1048576,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 65535,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -5320,7 +5322,7 @@
     "id": "liquid/lfm-2.2-6b",
     "canonical_slug": "liquid/lfm-2.2-6b",
     "hugging_face_id": "LiquidAI/LFM2-2.6B",
-    "name": "LiquidAI/LFM2-2.6B",
+    "name": "LiquidAI: LFM2-2.6B",
     "created": 1760970889,
     "description": "LFM2 is a new generation of hybrid models developed by Liquid AI, specifically designed for edge AI and on-device deployment. It sets a new standard in terms of quality, speed, and memory efficiency.",
     "context_length": 32768,
@@ -5369,12 +5371,118 @@
     "expiration_date": null
   },
   {
+    "id": "liquid/lfm-2.5-1.2b-instruct:free",
+    "canonical_slug": "liquid/lfm-2.5-1.2b-instruct-20260120",
+    "hugging_face_id": "LiquidAI/LFM2.5-1.2B-Instruct",
+    "name": "LiquidAI: LFM2.5-1.2B-Instruct (free)",
+    "created": 1768927521,
+    "description": "LFM2.5-1.2B-Instruct is a compact, high-performance instruction-tuned model built for fast on-device AI. It delivers strong chat quality in a 1.2B parameter footprint, with efficient edge inference and broad runtime support.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    },
+    "expiration_date": null
+  },
+  {
+    "id": "liquid/lfm-2.5-1.2b-thinking:free",
+    "canonical_slug": "liquid/lfm-2.5-1.2b-thinking-20260120",
+    "hugging_face_id": "LiquidAI/LFM2.5-1.2B-Thinking",
+    "name": "LiquidAI: LFM2.5-1.2B-Thinking (free)",
+    "created": 1768927527,
+    "description": "LFM2.5-1.2B-Thinking is a lightweight reasoning-focused model optimized for agentic tasks, data extraction, and RAG—while still running comfortably on edge devices. It supports long context (up to 32K tokens) and is designed to provide higher-quality “thinking” responses in a small 1.2B model.",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    },
+    "expiration_date": null
+  },
+  {
     "id": "liquid/lfm2-8b-a1b",
     "canonical_slug": "liquid/lfm2-8b-a1b",
     "hugging_face_id": "LiquidAI/LFM2-8B-A1B",
-    "name": "LiquidAI/LFM2-8B-A1B",
+    "name": "LiquidAI: LFM2-8B-A1B",
     "created": 1760970984,
-    "description": "Model created via inbox interface",
+    "description": "LFM2-8B-A1B is an efficient on-device Mixture-of-Experts (MoE) model from Liquid AI’s LFM2 family, built for fast, high-quality inference on edge hardware. It uses 8.3B total parameters with only ~1.5B active per token, delivering strong performance while keeping compute and memory usage low—making it ideal for phones, tablets, and laptops.",
     "context_length": 32768,
     "architecture": {
       "modality": "text->text",
@@ -5413,7 +5521,11 @@
       "top_k",
       "top_p"
     ],
-    "default_parameters": {},
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    },
     "expiration_date": null
   },
   {
@@ -6198,7 +6310,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -6211,7 +6322,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {},
@@ -6877,7 +6987,7 @@
       "top_p": null,
       "frequency_penalty": null
     },
-    "expiration_date": null
+    "expiration_date": "2026-01-27"
   },
   {
     "id": "mistralai/devstral-medium",
@@ -7735,13 +7845,14 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
       "max_tokens",
+      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "response_format",
@@ -8990,8 +9101,8 @@
       "instruct_type": "chatml"
     },
     "pricing": {
-      "prompt": "0.000000025",
-      "completion": "0.00000008",
+      "prompt": "0.00000014",
+      "completion": "0.00000014",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -8999,7 +9110,7 @@
     },
     "top_provider": {
       "context_length": 8192,
-      "max_completion_tokens": 2048,
+      "max_completion_tokens": 8192,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14051,8 +14162,6 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -14066,7 +14175,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -14935,7 +15043,7 @@
     "name": "Qwen: Qwen3 VL 235B A22B Thinking",
     "created": 1758668690,
     "description": "Qwen3-VL-235B-A22B Thinking is a multimodal model that unifies strong text generation with visual understanding across images and video. The Thinking model is optimized for multimodal reasoning in STEM and math. The series emphasizes robust perception (recognition of diverse real-world and synthetic categories), spatial understanding (2D/3D grounding), and long-form visual comprehension, with competitive results on public multimodal benchmarks for both perception and reasoning.\n\nBeyond analysis, Qwen3-VL supports agentic interaction and tool use: it can follow complex instructions over multi-image, multi-turn dialogues; align text to video timelines for precise temporal queries; and operate GUI elements for automation tasks. The models also enable visual coding workflows, turning sketches or mockups into code and assisting with UI debugging, while maintaining strong text-only performance comparable to the flagship Qwen3 language models. This makes Qwen3-VL suitable for production scenarios spanning document AI, multilingual OCR, software/UI assistance, spatial/embodied tasks, and research on vision-language agents.",
-    "context_length": 131072,
+    "context_length": 262144,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -14949,16 +15057,16 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000098",
-      "completion": "0.00000395",
+      "prompt": "0.00000045",
+      "completion": "0.0000035",
       "request": "0",
       "image": "0",
       "web_search": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 32768,
+      "context_length": 262144,
+      "max_completion_tokens": 262144,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14969,9 +15077,13 @@
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_p"
     ],
