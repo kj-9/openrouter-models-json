@@ -1059,10 +1059,6 @@
     "pricing": {
       "prompt": "0.00000025",
       "completion": "0.00000125",
-      "request": "0",
-      "image": "0.0004",
-      "web_search": "0",
-      "internal_reasoning": "0",
       "input_cache_read": "0.00000003",
       "input_cache_write": "0.0000003"
     },
@@ -1315,10 +1311,7 @@
     "pricing": {
       "prompt": "0.000001",
       "completion": "0.000005",
-      "request": "0",
-      "image": "0",
       "web_search": "0.01",
-      "internal_reasoning": "0",
       "input_cache_read": "0.0000001",
       "input_cache_write": "0.00000125"
     },
@@ -1482,10 +1475,7 @@
     "pricing": {
       "prompt": "0.000005",
       "completion": "0.000025",
-      "request": "0",
-      "image": "0",
       "web_search": "0.01",
-      "internal_reasoning": "0",
       "input_cache_read": "0.0000005",
       "input_cache_write": "0.00000625"
     },
@@ -1594,10 +1584,7 @@
     "pricing": {
       "prompt": "0.000003",
       "completion": "0.000015",
-      "request": "0",
-      "image": "0.0048",
       "web_search": "0.01",
-      "internal_reasoning": "0",
       "input_cache_read": "0.0000003",
       "input_cache_write": "0.00000375"
     },
@@ -2217,7 +2204,9 @@
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0"
     },
     "top_provider": {
       "context_length": 262144,
@@ -2231,6 +2220,7 @@
       "max_tokens",
       "reasoning",
       "response_format",
+      "stop",
       "structured_outputs",
       "temperature",
       "tool_choice",
@@ -2271,11 +2261,13 @@
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0"
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -2285,6 +2277,7 @@
       "max_tokens",
       "reasoning",
       "response_format",
+      "stop",
       "structured_outputs",
       "temperature",
       "tool_choice",
@@ -3673,7 +3666,7 @@
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.000000025",
-      "input_cache_write": "0.0000000833"
+      "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -3943,7 +3936,7 @@
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000001",
-      "input_cache_write": "0.0000000833"
+      "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -4003,7 +3996,7 @@
       "web_search": "0",
       "internal_reasoning": "0",
       "input_cache_read": "0.00000001",
-      "input_cache_write": "0.0000000833"
+      "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -4062,8 +4055,8 @@
       "audio": "0.000001",
       "web_search": "0",
       "internal_reasoning": "0",
-      "input_cache_read": "0.000000075",
-      "input_cache_write": "0.0000000833"
+      "input_cache_read": "0.00000003",
+      "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -16543,6 +16536,53 @@
     "expiration_date": null
   },
   {
+    "id": "writer/palmyra-x5",
+    "canonical_slug": "writer/palmyra-x5-20250428",
+    "hugging_face_id": "",
+    "name": "Writer: Palmyra X5",
+    "created": 1769003823,
+    "description": "Palmyra X5 is Writer's most advanced model, purpose-built for building and scaling AI agents across the enterprise. It delivers industry-leading speed and efficiency on context windows up to 1 million tokens, powered by a novel transformer architecture and hybrid attention mechanisms. This enables faster inference and expanded memory for processing large volumes of enterprise data, critical for scaling AI agents.",
+    "context_length": 1040000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000006",
+      "completion": "0.000006",
+      "request": "0",
+      "image": "0",
+      "web_search": "0",
+      "internal_reasoning": "0"
+    },
+    "top_provider": {
+      "context_length": 1040000,
+      "max_completion_tokens": 8192,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    },
+    "expiration_date": null
+  },
+  {
     "id": "x-ai/grok-3",
     "canonical_slug": "x-ai/grok-3",
     "hugging_face_id": "",
@@ -17080,7 +17120,7 @@
       "top_p": 0.95,
       "frequency_penalty": null
     },
-    "expiration_date": null
+    "expiration_date": "2026-01-26"
   },
   {
     "id": "z-ai/glm-4-32b",
@@ -17633,12 +17673,14 @@
       "frequency_penalty",
       "include_reasoning",
       "max_tokens",
+      "min_p",
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
