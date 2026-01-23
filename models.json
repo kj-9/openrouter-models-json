@@ -285,7 +285,7 @@
     },
     "pricing": {
       "prompt": "0.00000009",
-      "completion": "0.0000004",
+      "completion": "0.00000045",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -298,21 +298,14 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "frequency_penalty",
       "include_reasoning",
       "max_tokens",
-      "min_p",
-      "presence_penalty",
       "reasoning",
-      "repetition_penalty",
       "response_format",
-      "seed",
-      "stop",
       "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
-      "top_k",
       "top_p"
     ],
     "default_parameters": {
@@ -2634,7 +2627,7 @@
       "top_p"
     ],
     "default_parameters": {},
-    "expiration_date": null
+    "expiration_date": "2026-02-04"
   },
   {
     "id": "deepcogito/cogito-v2-preview-llama-405b",
@@ -2692,7 +2685,7 @@
       "top_p": null,
       "frequency_penalty": null
     },
-    "expiration_date": null
+    "expiration_date": "2026-02-04"
   },
   {
     "id": "deepcogito/cogito-v2-preview-llama-70b",
@@ -2750,7 +2743,7 @@
       "top_p": null,
       "frequency_penalty": null
     },
-    "expiration_date": null
+    "expiration_date": "2026-02-04"
   },
   {
     "id": "deepcogito/cogito-v2.1-671b",
@@ -3660,13 +3653,11 @@
     "pricing": {
       "prompt": "0.0000001",
       "completion": "0.0000004",
-      "request": "0",
-      "image": "0.0000258",
+      "image": "0.0000001",
       "audio": "0.0000007",
-      "web_search": "0",
-      "internal_reasoning": "0",
+      "internal_reasoning": "0.0000004",
       "input_cache_read": "0.000000025",
-      "input_cache_write": "0.00000008333333333333334"
+      "input_cache_write": "0.00000008333333333333333"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -3690,7 +3681,7 @@
       "top_p": null,
       "frequency_penalty": null
     },
-    "expiration_date": null
+    "expiration_date": "2026-03-31"
   },
   {
     "id": "google/gemini-2.0-flash-exp:free",
@@ -3713,12 +3704,13 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
+      "prompt": "0.0000001",
+      "completion": "0.0000004",
+      "image": "0.0000001",
+      "audio": "0.0000007",
+      "internal_reasoning": "0.0000004",
+      "input_cache_read": "0.000000025",
+      "input_cache_write": "0.00000008333333333333333"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -3765,10 +3757,9 @@
     "pricing": {
       "prompt": "0.000000075",
       "completion": "0.0000003",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
+      "image": "0.000000075",
+      "audio": "0.000000075",
+      "internal_reasoning": "0.0000003"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -3820,13 +3811,11 @@
     "pricing": {
       "prompt": "0.0000003",
       "completion": "0.0000025",
-      "request": "0",
-      "image": "0.001238",
+      "image": "0.0000003",
       "audio": "0.000001",
-      "web_search": "0",
-      "internal_reasoning": "0",
+      "internal_reasoning": "0.0000025",
       "input_cache_read": "0.00000003",
-      "input_cache_write": "0.00000008333333333333334"
+      "input_cache_write": "0.00000008333333333333333"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -3878,10 +3867,11 @@
     "pricing": {
       "prompt": "0.0000003",
       "completion": "0.0000025",
-      "request": "0",
-      "image": "0.001238",
-      "web_search": "0",
-      "internal_reasoning": "0"
+      "image": "0.0000003",
+      "audio": "0.000001",
+      "internal_reasoning": "0.0000025",
+      "input_cache_read": "0.00000003",
+      "input_cache_write": "0.00000008333333333333333"
     },
     "top_provider": {
       "context_length": 32768,
@@ -3930,13 +3920,11 @@
     "pricing": {
       "prompt": "0.0000001",
       "completion": "0.0000004",
-      "request": "0",
-      "image": "0",
+      "image": "0.0000001",
       "audio": "0.0000003",
-      "web_search": "0",
-      "internal_reasoning": "0",
+      "internal_reasoning": "0.0000004",
       "input_cache_read": "0.00000001",
-      "input_cache_write": "0.00000008333333333333334"
+      "input_cache_write": "0.00000008333333333333333"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -3990,13 +3978,11 @@
     "pricing": {
       "prompt": "0.0000001",
       "completion": "0.0000004",
-      "request": "0",
-      "image": "0",
+      "image": "0.0000001",
       "audio": "0.0000003",
-      "web_search": "0",
-      "internal_reasoning": "0",
+      "internal_reasoning": "0.0000004",
       "input_cache_read": "0.00000001",
-      "input_cache_write": "0.00000008333333333333334"
+      "input_cache_write": "0.00000008333333333333333"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -4050,13 +4036,11 @@
     "pricing": {
       "prompt": "0.0000003",
       "completion": "0.0000025",
-      "request": "0",
-      "image": "0.001238",
+      "image": "0.0000003",
       "audio": "0.000001",
-      "web_search": "0",
-      "internal_reasoning": "0",
+      "internal_reasoning": "0.0000025",
       "input_cache_read": "0.00000003",
-      "input_cache_write": "0.00000008333333333333334"
+      "input_cache_write": "0.00000008333333333333333"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -4110,10 +4094,9 @@
     "pricing": {
       "prompt": "0.00000125",
       "completion": "0.00001",
-      "request": "0",
-      "image": "0.00516",
-      "web_search": "0",
-      "internal_reasoning": "0",
+      "image": "0.00000125",
+      "audio": "0.00000125",
+      "internal_reasoning": "0.00001",
       "input_cache_read": "0.000000125",
       "input_cache_write": "0.000000375"
     },
@@ -4168,11 +4151,10 @@
     "pricing": {
       "prompt": "0.00000125",
       "completion": "0.00001",
-      "request": "0",
-      "image": "0.00516",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.00000031",
+      "image": "0.00000125",
+      "audio": "0.00000125",
+      "internal_reasoning": "0.00001",
+      "input_cache_read": "0.000000125",
       "input_cache_write": "0.000000375"
     },
     "top_provider": {
@@ -4223,11 +4205,10 @@
     "pricing": {
       "prompt": "0.00000125",
       "completion": "0.00001",
-      "request": "0",
-      "image": "0.00516",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.00000031",
+      "image": "0.00000125",
+      "audio": "0.00000125",
+      "internal_reasoning": "0.00001",
+      "input_cache_read": "0.000000125",
       "input_cache_write": "0.000000375"
     },
     "top_provider": {
@@ -4282,12 +4263,11 @@
     "pricing": {
       "prompt": "0.0000005",
       "completion": "0.000003",
-      "request": "0",
-      "image": "0",
+      "image": "0.0000005",
       "audio": "0.000001",
-      "web_search": "0",
-      "internal_reasoning": "0",
-      "input_cache_read": "0.00000005"
+      "internal_reasoning": "0.000003",
+      "input_cache_read": "0.00000005",
+      "input_cache_write": "0.00000008333333333333333"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -4339,10 +4319,11 @@
     "pricing": {
       "prompt": "0.000002",
       "completion": "0.000012",
-      "request": "0",
-      "image": "0.067",
-      "web_search": "0",
-      "internal_reasoning": "0"
+      "image": "0.000002",
+      "audio": "0.000002",
+      "internal_reasoning": "0.000012",
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000000375"
     },
     "top_provider": {
       "context_length": 65536,
@@ -4394,10 +4375,9 @@
     "pricing": {
       "prompt": "0.000002",
       "completion": "0.000012",
-      "request": "0",
-      "image": "0.008256",
-      "web_search": "0",
-      "internal_reasoning": "0",
+      "image": "0.000002",
+      "audio": "0.000002",
+      "internal_reasoning": "0.000012",
       "input_cache_read": "0.0000002",
       "input_cache_write": "0.000000375"
     },
@@ -4593,9 +4573,8 @@
     "pricing": {
       "prompt": "0",
       "completion": "0",
-      "request": "0",
       "image": "0",
-      "web_search": "0",
+      "audio": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
@@ -4799,9 +4778,8 @@
     "pricing": {
       "prompt": "0",
       "completion": "0",
-      "request": "0",
       "image": "0",
-      "web_search": "0",
+      "audio": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
@@ -4843,9 +4821,8 @@
     "pricing": {
       "prompt": "0",
       "completion": "0",
-      "request": "0",
       "image": "0",
-      "web_search": "0",
+      "audio": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
@@ -4937,9 +4914,8 @@
     "pricing": {
       "prompt": "0",
       "completion": "0",
-      "request": "0",
       "image": "0",
-      "web_search": "0",
+      "audio": "0",
       "internal_reasoning": "0"
     },
     "top_provider": {
