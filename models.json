@@ -285,7 +285,7 @@
     },
     "pricing": {
       "prompt": "0.00000009",
-      "completion": "0.00000045",
+      "completion": "0.0000004",
       "request": "0",
       "image": "0",
       "web_search": "0",
@@ -298,14 +298,21 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "frequency_penalty",
       "include_reasoning",
       "max_tokens",
+      "min_p",
+      "presence_penalty",
       "reasoning",
+      "repetition_penalty",
       "response_format",
+      "seed",
+      "stop",
       "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
+      "top_k",
       "top_p"
     ],
     "default_parameters": {
@@ -3657,7 +3664,7 @@
       "audio": "0.0000007",
       "internal_reasoning": "0.0000004",
       "input_cache_read": "0.000000025",
-      "input_cache_write": "0.00000008333333333333333"
+      "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -3710,7 +3717,7 @@
       "audio": "0.0000007",
       "internal_reasoning": "0.0000004",
       "input_cache_read": "0.000000025",
-      "input_cache_write": "0.00000008333333333333333"
+      "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -3729,7 +3736,7 @@
       "top_p"
     ],
     "default_parameters": {},
-    "expiration_date": "2026-02-06"
+    "expiration_date": "2026-03-03"
   },
   {
     "id": "google/gemini-2.0-flash-lite-001",
@@ -3783,7 +3790,7 @@
       "top_p": null,
       "frequency_penalty": null
     },
-    "expiration_date": "2026-02-06"
+    "expiration_date": "2026-03-03"
   },
   {
     "id": "google/gemini-2.5-flash",
@@ -3815,7 +3822,7 @@
       "audio": "0.000001",
       "internal_reasoning": "0.0000025",
       "input_cache_read": "0.00000003",
-      "input_cache_write": "0.00000008333333333333333"
+      "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -3871,7 +3878,7 @@
       "audio": "0.000001",
       "internal_reasoning": "0.0000025",
       "input_cache_read": "0.00000003",
-      "input_cache_write": "0.00000008333333333333333"
+      "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
       "context_length": 32768,
@@ -3924,7 +3931,7 @@
       "audio": "0.0000003",
       "internal_reasoning": "0.0000004",
       "input_cache_read": "0.00000001",
-      "input_cache_write": "0.00000008333333333333333"
+      "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -3982,7 +3989,7 @@
       "audio": "0.0000003",
       "internal_reasoning": "0.0000004",
       "input_cache_read": "0.00000001",
-      "input_cache_write": "0.00000008333333333333333"
+      "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -4040,7 +4047,7 @@
       "audio": "0.000001",
       "internal_reasoning": "0.0000025",
       "input_cache_read": "0.00000003",
-      "input_cache_write": "0.00000008333333333333333"
+      "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -4267,7 +4274,7 @@
       "audio": "0.000001",
       "internal_reasoning": "0.000003",
       "input_cache_read": "0.00000005",
-      "input_cache_write": "0.00000008333333333333333"
+      "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -6767,15 +6774,17 @@
     },
     "pricing": {
       "prompt": "0.00000027",
-      "completion": "0.00000112",
+      "completion": "0.0000011",
       "request": "0",
       "image": "0",
       "web_search": "0",
-      "internal_reasoning": "0"
+      "internal_reasoning": "0",
+      "input_cache_read": "0",
+      "input_cache_write": "0"
     },
     "top_provider": {
       "context_length": 196608,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 196608,
       "is_moderated": false
     },
     "per_request_limits": null,
