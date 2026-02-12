@@ -1724,21 +1724,15 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
       "max_tokens",
-      "min_p",
-      "presence_penalty",
       "reasoning",
-      "repetition_penalty",
       "response_format",
       "stop",
       "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
-      "top_k",
       "top_p"
     ],
     "default_parameters": {
@@ -5941,7 +5935,7 @@
     "name": "WizardLM-2 8x22B",
     "created": 1713225600,
     "description": "WizardLM-2 8x22B is Microsoft AI's most advanced Wizard model. It demonstrates highly competitive performance compared to leading proprietary models, and it consistently outperforms all existing state-of-the-art opensource models.\n\nIt is an instruct finetune of [Mixtral 8x22B](/models/mistralai/mixtral-8x22b).\n\nTo read more about the model release, [click here](https://wizardlm.github.io/WizardLM2/).\n\n#moe",
-    "context_length": 65536,
+    "context_length": 65535,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -5954,22 +5948,20 @@
       "instruct_type": "vicuna"
     },
     "pricing": {
-      "prompt": "0.00000048",
-      "completion": "0.00000048"
+      "prompt": "0.00000062",
+      "completion": "0.00000062"
     },
     "top_provider": {
-      "context_length": 65536,
-      "max_completion_tokens": 16384,
+      "context_length": 65535,
+      "max_completion_tokens": 8000,
       "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
       "temperature",
@@ -6466,53 +6458,6 @@
     "expiration_date": null
   },
   {
-    "id": "mistralai/ministral-3b",
-    "canonical_slug": "mistralai/ministral-3b",
-    "hugging_face_id": null,
-    "name": "Mistral: Ministral 3B",
-    "created": 1729123200,
-    "description": "Ministral 3B is a 3B parameter model optimized for on-device and edge computing. It excels in knowledge, commonsense reasoning, and function-calling, outperforming larger models like Mistral 7B on most benchmarks. Supporting up to 128k context length, it’s ideal for orchestrating agentic workflows and specialist tasks with efficient inference.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000004",
-      "completion": "0.00000004"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": 0.3
-    },
-    "expiration_date": null
-  },
-  {
     "id": "mistralai/ministral-3b-2512",
     "canonical_slug": "mistralai/ministral-3b-2512",
     "hugging_face_id": "mistralai/Ministral-3-3B-Instruct-2512",
@@ -6559,53 +6504,6 @@
       "temperature": 0.3,
       "top_p": null,
       "frequency_penalty": null
-    },
-    "expiration_date": null
-  },
-  {
-    "id": "mistralai/ministral-8b",
-    "canonical_slug": "mistralai/ministral-8b",
-    "hugging_face_id": null,
-    "name": "Mistral: Ministral 8B",
-    "created": 1729123200,
-    "description": "Ministral 8B is an 8B parameter model featuring a unique interleaved sliding-window attention pattern for faster, memory-efficient inference. Designed for edge use cases, it supports up to 128k context length and excels in knowledge and reasoning tasks. It outperforms peers in the sub-10B category, making it perfect for low-latency, privacy-first applications.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000001",
-      "completion": "0.0000001"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": 0.3
     },
     "expiration_date": null
   },
@@ -7471,53 +7369,6 @@
     "expiration_date": null
   },
   {
-    "id": "mistralai/mistral-tiny",
-    "canonical_slug": "mistralai/mistral-tiny",
-    "hugging_face_id": null,
-    "name": "Mistral Tiny",
-    "created": 1704844800,
-    "description": "Note: This model is being deprecated. Recommended replacement is the newer [Ministral 8B](/mistral/ministral-8b)\n\nThis model is currently powered by Mistral-7B-v0.2, and incorporates a \"better\" fine-tuning than [Mistral 7B](/models/mistralai/mistral-7b-instruct-v0.1), inspired by community work. It's best used for large batch processing tasks where cost is a significant factor but reasoning capabilities are not crucial.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000025",
-      "completion": "0.00000025"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": 0.3
-    },
-    "expiration_date": null
-  },
-  {
     "id": "mistralai/mixtral-8x22b-instruct",
     "canonical_slug": "mistralai/mixtral-8x22b-instruct",
     "hugging_face_id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
@@ -7651,13 +7502,9 @@
       "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
-      "tool_choice",
-      "tools",
       "top_k",
       "top_p"
     ],
@@ -8006,8 +7853,10 @@
       "logprobs",
       "max_tokens",
       "min_p",
+      "parallel_tool_calls",
       "presence_penalty",
       "reasoning",
+      "reasoning_effort",
       "repetition_penalty",
       "response_format",
       "seed",
@@ -12101,56 +11950,6 @@
     "expiration_date": null
   },
   {
-    "id": "openrouter/pony-alpha",
-    "canonical_slug": "openrouter/pony-alpha",
-    "hugging_face_id": "",
-    "name": "Pony Alpha",
-    "created": 1770393855,
-    "description": "Pony is a cutting-edge foundation model with strong performance in coding, agentic workflows, reasoning, and roleplay, making it well suited for hands-on coding and real-world use.\n\n**Note:** All prompts and completions for this model are logged by the provider and may be used to improve the model.",
-    "context_length": 200000,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0",
-      "completion": "0",
-      "request": "0",
-      "image": "0",
-      "web_search": "0",
-      "internal_reasoning": "0"
-    },
-    "top_provider": {
-      "context_length": 200000,
-      "max_completion_tokens": 131000,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "structured_outputs",
-      "temperature",
-      "tools",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": 1,
-      "top_p": 0.95,
-      "frequency_penalty": null
-    },
-    "expiration_date": null
-  },
-  {
     "id": "perplexity/sonar",
     "canonical_slug": "perplexity/sonar",
     "hugging_face_id": "",
@@ -13014,8 +12813,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -13026,7 +12823,6 @@
       "structured_outputs",
       "temperature",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {},
@@ -13631,7 +13427,6 @@
       "max_tokens",
       "min_p",
       "presence_penalty",
-      "reasoning",
       "repetition_penalty",
       "response_format",
       "seed",
@@ -14006,7 +13801,7 @@
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 32768,
+      "max_completion_tokens": 65536,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14312,8 +14107,7 @@
     },
     "pricing": {
       "prompt": "0.00000015",
-      "completion": "0.0000006",
-      "input_cache_read": "0.000000075"
+      "completion": "0.0000006"
     },
     "top_provider": {
       "context_length": 262144,
@@ -14323,8 +14117,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -14337,7 +14129,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -14964,6 +14755,53 @@
       "top_p"
     ],
     "default_parameters": {},
+    "expiration_date": null
+  },
+  {
+    "id": "stepfun/step-3.5-flash",
+    "canonical_slug": "stepfun/step-3.5-flash",
+    "hugging_face_id": "stepfun-ai/Step-3.5-Flash",
+    "name": "StepFun: Step 3.5 Flash",
+    "created": 1769728337,
+    "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token. It is a reasoning model that is incredibly speed efficient even at long contexts.",
+    "context_length": 256000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000003",
+      "input_cache_read": "0.00000002"
+    },
+    "top_provider": {
+      "context_length": 256000,
+      "max_completion_tokens": 256000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "stop",
+      "temperature",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    },
     "expiration_date": null
   },
   {
@@ -16181,7 +16019,7 @@
     "id": "z-ai/glm-4-32b",
     "canonical_slug": "z-ai/glm-4-32b-0414",
     "hugging_face_id": "",
-    "name": "Z.AI: GLM 4 32B ",
+    "name": "Z.ai: GLM 4 32B ",
     "created": 1753376617,
     "description": "GLM 4 32B is a cost-effective foundation language model.\n\nIt can efficiently perform complex tasks and has significantly enhanced capabilities in tool use, online search, and code-related intelligent tasks.\n\nIt is made by the same lab behind the thudm models.",
     "context_length": 128000,
@@ -16224,7 +16062,7 @@
     "id": "z-ai/glm-4.5",
     "canonical_slug": "z-ai/glm-4.5",
     "hugging_face_id": "zai-org/GLM-4.5",
-    "name": "Z.AI: GLM 4.5",
+    "name": "Z.ai: GLM 4.5",
     "created": 1753471347,
     "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications. It leverages a Mixture-of-Experts (MoE) architecture and supports a context length of up to 128k tokens. GLM-4.5 delivers significantly enhanced capabilities in reasoning, code generation, and agent alignment. It supports a hybrid inference mode with two options, a \"thinking mode\" designed for complex reasoning and tool use, and a \"non-thinking mode\" optimized for instant responses. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)",
     "context_length": 131072,
@@ -16278,7 +16116,7 @@
     "id": "z-ai/glm-4.5-air",
     "canonical_slug": "z-ai/glm-4.5-air",
     "hugging_face_id": "zai-org/GLM-4.5-Air",
-    "name": "Z.AI: GLM 4.5 Air",
+    "name": "Z.ai: GLM 4.5 Air",
     "created": 1753471258,
     "description": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications. Like GLM-4.5, it adopts the Mixture-of-Experts (MoE) architecture but with a more compact parameter size. GLM-4.5-Air also supports hybrid inference modes, offering a \"thinking mode\" for advanced reasoning and tool use, and a \"non-thinking mode\" for real-time interaction. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)",
     "context_length": 131072,
@@ -16332,7 +16170,7 @@
     "id": "z-ai/glm-4.5-air:free",
     "canonical_slug": "z-ai/glm-4.5-air",
     "hugging_face_id": "zai-org/GLM-4.5-Air",
-    "name": "Z.AI: GLM 4.5 Air (free)",
+    "name": "Z.ai: GLM 4.5 Air (free)",
     "created": 1753471258,
     "description": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications. Like GLM-4.5, it adopts the Mixture-of-Experts (MoE) architecture but with a more compact parameter size. GLM-4.5-Air also supports hybrid inference modes, offering a \"thinking mode\" for advanced reasoning and tool use, and a \"non-thinking mode\" for real-time interaction. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)",
     "context_length": 131072,
@@ -16377,7 +16215,7 @@
     "id": "z-ai/glm-4.5v",
     "canonical_slug": "z-ai/glm-4.5v",
     "hugging_face_id": "zai-org/GLM-4.5V",
-    "name": "Z.AI: GLM 4.5V",
+    "name": "Z.ai: GLM 4.5V",
     "created": 1754922288,
     "description": "GLM-4.5V is a vision-language foundation model for multimodal agent applications. Built on a Mixture-of-Experts (MoE) architecture with 106B parameters and 12B activated parameters, it achieves state-of-the-art results in video understanding, image Q&A, OCR, and document parsing, with strong gains in front-end web coding, grounding, and spatial reasoning. It offers a hybrid inference mode: a \"thinking mode\" for deep reasoning and a \"non-thinking mode\" for fast responses. Reasoning behavior can be toggled via the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)",
     "context_length": 65536,
@@ -16432,7 +16270,7 @@
     "id": "z-ai/glm-4.6",
     "canonical_slug": "z-ai/glm-4.6",
     "hugging_face_id": "",
-    "name": "Z.AI: GLM 4.6",
+    "name": "Z.ai: GLM 4.6",
     "created": 1759235576,
     "description": "Compared with GLM-4.5, this generation brings several key improvements:\n\nLonger context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex agentic tasks.\nSuperior coding performance: The model achieves higher scores on code benchmarks and demonstrates better real-world performance in applications such as Claude Code、Cline、Roo Code and Kilo Code, including improvements in generating visually polished front-end pages.\nAdvanced reasoning: GLM-4.6 shows a clear improvement in reasoning performance and supports tool use during inference, leading to stronger overall capability.\nMore capable agents: GLM-4.6 exhibits stronger performance in tool using and search-based agents, and integrates more effectively within agent frameworks.\nRefined writing: Better aligns with human preferences in style and readability, and performs more naturally in role-playing scenarios.",
     "context_length": 202752,
@@ -16491,7 +16329,7 @@
     "id": "z-ai/glm-4.6:exacto",
     "canonical_slug": "z-ai/glm-4.6",
     "hugging_face_id": "",
-    "name": "Z.AI: GLM 4.6 (exacto)",
+    "name": "Z.ai: GLM 4.6 (exacto)",
     "created": 1759235576,
     "description": "Compared with GLM-4.5, this generation brings several key improvements:\n\nLonger context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex agentic tasks.\nSuperior coding performance: The model achieves higher scores on code benchmarks and demonstrates better real-world performance in applications such as Claude Code、Cline、Roo Code and Kilo Code, including improvements in generating visually polished front-end pages.\nAdvanced reasoning: GLM-4.6 shows a clear improvement in reasoning performance and supports tool use during inference, leading to stronger overall capability.\nMore capable agents: GLM-4.6 exhibits stronger performance in tool using and search-based agents, and integrates more effectively within agent frameworks.\nRefined writing: Better aligns with human preferences in style and readability, and performs more naturally in role-playing scenarios.",
     "context_length": 204800,
@@ -16545,7 +16383,7 @@
     "id": "z-ai/glm-4.6v",
     "canonical_slug": "z-ai/glm-4.6-20251208",
     "hugging_face_id": "zai-org/GLM-4.6V",
-    "name": "Z.AI: GLM 4.6V",
+    "name": "Z.ai: GLM 4.6V",
     "created": 1765207462,
     "description": "GLM-4.6V is a large multimodal model designed for high-fidelity visual understanding and long-context reasoning across images, documents, and mixed media. It supports up to 128K tokens, processes complex page layouts and charts directly as visual inputs, and integrates native multimodal function calling to connect perception with downstream tool execution. The model also enables interleaved image-text generation and UI reconstruction workflows, including screenshot-to-HTML synthesis and iterative visual editing.",
     "context_length": 131072,
@@ -16602,9 +16440,9 @@
     "id": "z-ai/glm-4.7",
     "canonical_slug": "z-ai/glm-4.7-20251222",
     "hugging_face_id": "zai-org/GLM-4.7",
-    "name": "Z.AI: GLM 4.7",
+    "name": "Z.ai: GLM 4.7",
     "created": 1766378014,
-    "description": "GLM-4.7 is Z.AI’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while delivering more natural conversational experiences and superior front-end aesthetics.",
+    "description": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while delivering more natural conversational experiences and superior front-end aesthetics.",
     "context_length": 202752,
     "architecture": {
       "modality": "text->text",
@@ -16662,7 +16500,7 @@
     "id": "z-ai/glm-4.7-flash",
     "canonical_slug": "z-ai/glm-4.7-flash-20260119",
     "hugging_face_id": "zai-org/GLM-4.7-Flash",
-    "name": "Z.AI: GLM 4.7 Flash",
+    "name": "Z.ai: GLM 4.7 Flash",
     "created": 1768833913,
     "description": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning, and tool collaboration, and has achieved leading performance among open-source models of the same size on several current public benchmark leaderboards.",
     "context_length": 202752,
@@ -16691,6 +16529,61 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 1,
+      "top_p": 0.95,
+      "frequency_penalty": null
+    },
+    "expiration_date": null
+  },
+  {
+    "id": "z-ai/glm-5",
+    "canonical_slug": "z-ai/glm-5-20260211",
+    "hugging_face_id": "zai-org/GLM-5",
+    "name": "Z.ai: GLM 5",
+    "created": 1770829182,
+    "description": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows. Built for expert developers, it delivers production-grade performance on large-scale programming tasks, rivaling leading closed-source models. With advanced agentic planning, deep backend reasoning, and iterative self-correction, GLM-5 moves beyond code generation to full-system construction and autonomous execution.",
+    "context_length": 202752,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.0000032"
+    },
+    "top_provider": {
+      "context_length": 202752,
+      "max_completion_tokens": 202752,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
       "max_tokens",
       "min_p",
       "presence_penalty",
