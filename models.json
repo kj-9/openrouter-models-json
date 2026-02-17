@@ -1090,7 +1090,7 @@
       "top_p": null,
       "frequency_penalty": null
     },
-    "expiration_date": null
+    "expiration_date": "2026-05-05"
   },
   {
     "id": "anthropic/claude-3.7-sonnet:thinking",
@@ -3035,13 +3035,13 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000025",
+      "prompt": "0.00000026",
       "completion": "0.00000038",
-      "input_cache_read": "0.000000125"
+      "input_cache_read": "0.00000013"
     },
     "top_provider": {
       "context_length": 163840,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -6241,12 +6241,13 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000002",
-      "completion": "0.000001"
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000029"
     },
     "top_provider": {
       "context_length": 196608,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -7855,13 +7856,12 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000045",
-      "completion": "0.0000022",
-      "input_cache_read": "0.000000225"
+      "prompt": "0.00000023",
+      "completion": "0.000003"
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 65535,
+      "max_completion_tokens": 262144,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14409,6 +14409,107 @@
     "expiration_date": null
   },
   {
+    "id": "qwen/qwen3.5-397b-a17b",
+    "canonical_slug": "qwen/qwen3.5-397b-a17b-20260216",
+    "hugging_face_id": "Qwen/Qwen3.5-397B-A17B",
+    "name": "Qwen: Qwen3.5 397B A17B",
+    "created": 1771223018,
+    "description": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. It delivers state-of-the-art performance comparable to leading-edge models across a wide range of tasks, including language understanding, logical reasoning, code generation, agent-based tasks, image understanding, video understanding, and graphical user interface (GUI) interactions. With its robust code-generation and agent capabilities, the model exhibits strong generalization across diverse agent.",
+    "context_length": 262144,
+    "architecture": {
+      "modality": "text+image+video->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000006",
+      "completion": "0.0000036"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "frequency_penalty": null
+    },
+    "expiration_date": null
+  },
+  {
+    "id": "qwen/qwen3.5-plus-02-15",
+    "canonical_slug": "qwen/qwen3.5-plus-20260216",
+    "hugging_face_id": "",
+    "name": "Qwen: Qwen3.5 Plus 2026-02-15",
+    "created": 1771229416,
+    "description": "The Qwen3.5 native vision-language series Plus models are built on a hybrid architecture that integrates linear attention mechanisms with sparse mixture-of-experts models, achieving higher inference efficiency. In a variety of task evaluations, the 3.5 series consistently demonstrates performance on par with state-of-the-art leading models. Compared to the 3 series, these models show a leap forward in both pure-text and multimodal capabilities.",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+video->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000004",
+      "completion": "0.0000024"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "frequency_penalty": null
+    },
+    "expiration_date": null
+  },
+  {
     "id": "qwen/qwq-32b",
     "canonical_slug": "qwen/qwq-32b",
     "hugging_face_id": "Qwen/QwQ-32B",
@@ -16487,7 +16588,7 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000075",
+      "prompt": "0.0000003",
       "completion": "0.00000255"
     },
     "top_provider": {
