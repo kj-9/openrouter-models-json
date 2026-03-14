@@ -5669,13 +5669,9 @@
       "min_p",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
-      "tool_choice",
-      "tools",
       "top_k",
       "top_p"
     ],
@@ -14182,6 +14178,7 @@
     "supported_parameters": [
       "frequency_penalty",
       "logit_bias",
+      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -14194,6 +14191,7 @@
       "tool_choice",
       "tools",
       "top_k",
+      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -14754,7 +14752,7 @@
     "name": "Qwen: Qwen3.5-9B",
     "created": 1773152396,
     "description": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language design with early fusion of multimodal tokens, allowing the model to process and reason across text and images within the same context.",
-    "context_length": 262144,
+    "context_length": 256000,
     "architecture": {
       "modality": "text+image+video->text",
       "input_modalities": [
@@ -14769,11 +14767,11 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000001",
+      "prompt": "0.00000005",
       "completion": "0.00000015"
     },
     "top_provider": {
-      "context_length": 262144,
+      "context_length": 256000,
       "max_completion_tokens": null,
       "is_moderated": false
     },
@@ -14782,6 +14780,7 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
+      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -14794,6 +14793,7 @@
       "tool_choice",
       "tools",
       "top_k",
+      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
