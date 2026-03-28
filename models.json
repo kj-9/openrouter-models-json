@@ -5045,6 +5045,64 @@
     "expiration_date": null
   },
   {
+    "id": "kwaipilot/kat-coder-pro-v2",
+    "canonical_slug": "kwaipilot/kat-coder-pro-v2-20260327",
+    "hugging_face_id": "",
+    "name": "Kwaipilot: KAT-Coder-Pro V2",
+    "created": 1774649310,
+    "description": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier versions, with a focus on large-scale production environments, multi-system coordination, and seamless integration across modern software stacks, while also supporting web aesthetics generation to produce production-grade landing pages and presentation decks.",
+    "context_length": 256000,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.00000006"
+    },
+    "top_provider": {
+      "context_length": 256000,
+      "max_completion_tokens": 80000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "knowledge_cutoff": null,
+    "expiration_date": null
+  },
+  {
     "id": "liquid/lfm-2-24b-a2b",
     "canonical_slug": "liquid/lfm-2-24b-a2b-20260224",
     "hugging_face_id": "LiquidAI/LFM2-24B-A2B",
