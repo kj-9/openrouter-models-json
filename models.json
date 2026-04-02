@@ -1698,6 +1698,57 @@
     "expiration_date": "2026-04-10"
   },
   {
+    "id": "arcee-ai/trinity-large-thinking",
+    "canonical_slug": "arcee-ai/trinity-large-thinking",
+    "hugging_face_id": "arcee-ai/Trinity-Large-Thinking",
+    "name": "Arcee AI: Trinity Large Thinking",
+    "created": 1775058318,
+    "description": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. It is free in open claw for the first five days. Launch video: https://youtu.be/Gc82AXLa0Rg?si=4RLn6WBz33qT--B7",
+    "context_length": 262144,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000025",
+      "completion": "0.0000009",
+      "input_cache_read": "0.00000006"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 80000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 0.3,
+      "top_p": 0.8,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "knowledge_cutoff": null,
+    "expiration_date": null
+  },
+  {
     "id": "arcee-ai/trinity-mini",
     "canonical_slug": "arcee-ai/trinity-mini-20251201",
     "hugging_face_id": "arcee-ai/Trinity-Mini",
@@ -3631,7 +3682,7 @@
     },
     "top_provider": {
       "context_length": 1048576,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 65535,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -5003,7 +5054,7 @@
       "frequency_penalty": null
     },
     "knowledge_cutoff": "2025-01-31",
-    "expiration_date": null
+    "expiration_date": "2026-04-15"
   },
   {
     "id": "inflection/inflection-3-pi",
@@ -6516,9 +6567,9 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000016",
-      "completion": "0.0000011",
-      "input_cache_read": "0.00000008"
+      "prompt": "0.00000012",
+      "completion": "0.000001",
+      "input_cache_read": "0.00000006"
     },
     "top_provider": {
       "context_length": 196608,
@@ -7499,7 +7550,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -7508,8 +7558,6 @@
       "seed",
       "stop",
       "temperature",
-      "tool_choice",
-      "tools",
       "top_k",
       "top_p"
     ],
@@ -8103,9 +8151,9 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000042",
-      "completion": "0.0000022",
-      "input_cache_read": "0.00000021"
+      "prompt": "0.0000004",
+      "completion": "0.00000199",
+      "input_cache_read": "0.0000002"
     },
     "top_provider": {
       "context_length": 262144,
@@ -15261,7 +15309,7 @@
     "expiration_date": null
   },
   {
-    "id": "reka/reka-edge",
+    "id": "rekaai/reka-edge",
     "canonical_slug": "rekaai/reka-edge-2603",
     "hugging_face_id": "RekaAI/reka-edge-2603",
     "name": "Reka Edge",
@@ -15319,7 +15367,7 @@
     "id": "rekaai/reka-flash-3",
     "canonical_slug": "rekaai/reka-flash-3",
     "hugging_face_id": "RekaAI/reka-flash-3",
-    "name": "Reka: Flash 3",
+    "name": "Reka Flash 3",
     "created": 1741812813,
     "description": "Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka. It excels at general chat, coding tasks, instruction-following, and function calling. Featuring a 32K context length and optimized through reinforcement learning (RLOO), it provides competitive performance comparable to proprietary models within a smaller parameter footprint. Ideal for low-latency, local, or on-device deployments, Reka Flash 3 is compact, supports efficient quantization (down to 11GB at 4-bit precision), and employs explicit reasoning tags (\"<reasoning>\") to indicate its internal thought process.\n\nReka Flash 3 is primarily an English model with limited multilingual understanding capabilities. The model weights are released under the Apache 2.0 license.",
     "context_length": 65536,
@@ -17571,6 +17619,59 @@
       "tool_choice",
       "tools",
       "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 1,
+      "top_p": 0.95,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "knowledge_cutoff": null,
+    "expiration_date": null
+  },
+  {
+    "id": "z-ai/glm-5v-turbo",
+    "canonical_slug": "z-ai/glm-5v-turbo-20260401",
+    "hugging_face_id": "",
+    "name": "Z.ai: GLM 5V Turbo",
+    "created": 1775061458,
+    "description": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding, and task execution, and works seamlessly with agents to complete the full loop of “perceive → plan → execute“.",
+    "context_length": 202752,
+    "architecture": {
+      "modality": "text+image+video->text",
+      "input_modalities": [
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000012",
+      "completion": "0.000004",
+      "input_cache_read": "0.00000024"
+    },
+    "top_provider": {
+      "context_length": 202752,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "temperature",
+      "tool_choice",
+      "tools",
       "top_p"
     ],
     "default_parameters": {
