@@ -1695,7 +1695,7 @@
       "repetition_penalty": null
     },
     "knowledge_cutoff": null,
-    "expiration_date": "2026-04-10"
+    "expiration_date": null
   },
   {
     "id": "arcee-ai/trinity-large-thinking",
@@ -1717,20 +1717,27 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000025",
-      "completion": "0.0000009",
-      "input_cache_read": "0.00000006"
+      "prompt": "0.00000022",
+      "completion": "0.00000085"
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 80000,
+      "max_completion_tokens": 262144,
       "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "frequency_penalty",
       "include_reasoning",
+      "logit_bias",
       "max_tokens",
+      "presence_penalty",
       "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -1844,7 +1851,7 @@
       "frequency_penalty": null
     },
     "knowledge_cutoff": null,
-    "expiration_date": null
+    "expiration_date": "2026-04-10"
   },
   {
     "id": "arcee-ai/virtuoso-large",
@@ -4715,6 +4722,64 @@
     "expiration_date": null
   },
   {
+    "id": "google/gemma-4-31b-it",
+    "canonical_slug": "google/gemma-4-31b-it-20260402",
+    "hugging_face_id": "google/gemma-4-31B-it",
+    "name": "Google: Gemma 4 31B",
+    "created": 1775148486,
+    "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function calling, and multilingual support across 140+ languages. Strong on coding, reasoning, and document understanding tasks. Apache 2.0 license.",
+    "context_length": 262144,
+    "architecture": {
+      "modality": "text+image+video->text",
+      "input_modalities": [
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000014",
+      "completion": "0.0000004"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 1,
+      "top_p": 0.95,
+      "top_k": 64,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "knowledge_cutoff": null,
+    "expiration_date": null
+  },
+  {
     "id": "google/lyria-3-clip-preview",
     "canonical_slug": "google/lyria-3-clip-preview-20260330",
     "hugging_face_id": null,
@@ -5245,55 +5310,6 @@
     "expiration_date": null
   },
   {
-    "id": "liquid/lfm-2.2-6b",
-    "canonical_slug": "liquid/lfm-2.2-6b",
-    "hugging_face_id": "LiquidAI/LFM2-2.6B",
-    "name": "LiquidAI: LFM2-2.6B",
-    "created": 1760970889,
-    "description": "LFM2 is a new generation of hybrid models developed by Liquid AI, specifically designed for edge AI and on-device deployment. It sets a new standard in terms of quality, speed, and memory efficiency.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000001",
-      "completion": "0.00000002"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": null,
-      "top_p": null,
-      "frequency_penalty": null
-    },
-    "knowledge_cutoff": null,
-    "expiration_date": null
-  },
-  {
     "id": "liquid/lfm-2.5-1.2b-instruct:free",
     "canonical_slug": "liquid/lfm-2.5-1.2b-instruct-20260120",
     "hugging_face_id": "LiquidAI/LFM2.5-1.2B-Instruct",
@@ -5378,55 +5394,6 @@
       "min_p",
       "presence_penalty",
       "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": null,
-      "top_p": null,
-      "frequency_penalty": null
-    },
-    "knowledge_cutoff": null,
-    "expiration_date": null
-  },
-  {
-    "id": "liquid/lfm2-8b-a1b",
-    "canonical_slug": "liquid/lfm2-8b-a1b",
-    "hugging_face_id": "LiquidAI/LFM2-8B-A1B",
-    "name": "LiquidAI: LFM2-8B-A1B",
-    "created": 1760970984,
-    "description": "LFM2-8B-A1B is an efficient on-device Mixture-of-Experts (MoE) model from Liquid AI’s LFM2 family, built for fast, high-quality inference on edge hardware. It uses 8.3B total parameters with only ~1.5B active per token, delivering strong performance while keeping compute and memory usage low—making it ideal for phones, tablets, and laptops.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000001",
-      "completion": "0.00000002"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
       "repetition_penalty",
       "seed",
       "stop",
@@ -6567,9 +6534,9 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000012",
+      "prompt": "0.000000118",
       "completion": "0.000001",
-      "input_cache_read": "0.00000006"
+      "input_cache_read": "0.000000059"
     },
     "top_provider": {
       "context_length": 196608,
@@ -8151,9 +8118,9 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000004",
-      "completion": "0.00000199",
-      "input_cache_read": "0.0000002"
+      "prompt": "0.0000003827",
+      "completion": "0.000001909",
+      "input_cache_read": "0.00000019135"
     },
     "top_provider": {
       "context_length": 262144,
@@ -11599,6 +11566,7 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
+      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -11613,6 +11581,7 @@
       "tool_choice",
       "tools",
       "top_k",
+      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -15213,17 +15182,19 @@
     "expiration_date": null
   },
   {
-    "id": "qwen/qwen3.6-plus-preview:free",
-    "canonical_slug": "qwen/qwen3.6-plus-preview",
+    "id": "qwen/qwen3.6-plus:free",
+    "canonical_slug": "qwen/qwen3.6-plus-04-02",
     "hugging_face_id": "",
-    "name": "Qwen: Qwen3.6 Plus Preview (free)",
-    "created": 1774891569,
-    "description": "Qwen 3.6 Plus Preview is the next-generation evolution of the Qwen Plus series, featuring an advanced hybrid architecture that improves efficiency and scalability. It delivers stronger reasoning and more reliable agentic behavior compared to the 3.5 series. In benchmarks, it performs at or above leading state-of-the-art models. Designed as a flagship preview, it excels in agentic coding, front-end development, and complex problem-solving.\n\nNote: The model collects prompt and completion data that can be used to improve the model. ",
+    "name": "Qwen: Qwen3.6 Plus (free)",
+    "created": 1775133557,
+    "description": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it delivers major gains in agentic coding, front-end development, and overall reasoning, with a significantly improved “vibe coding” experience. The model excels at complex tasks such as 3D scenes, games, and repository-level problem solving, achieving a 78.8 score on SWE-bench Verified. It represents a substantial leap in both pure-text and multimodal capabilities, performing at the level of leading state-of-the-art models.",
     "context_length": 1000000,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+image+video->text",
       "input_modalities": [
-        "text"
+        "text",
+        "image",
+        "video"
       ],
       "output_modalities": [
         "text"
@@ -15237,7 +15208,7 @@
     },
     "top_provider": {
       "context_length": 1000000,
-      "max_completion_tokens": 32000,
+      "max_completion_tokens": 65536,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -15255,11 +15226,11 @@
       "top_p"
     ],
     "default_parameters": {
-      "temperature": 1,
-      "top_p": 1,
+      "temperature": null,
+      "top_p": null,
       "top_k": null,
       "frequency_penalty": null,
-      "presence_penalty": 0,
+      "presence_penalty": null,
       "repetition_penalty": null
     },
     "knowledge_cutoff": null,
