@@ -4722,6 +4722,63 @@
     "expiration_date": null
   },
   {
+    "id": "google/gemma-4-26b-a4b-it",
+    "canonical_slug": "google/gemma-4-26b-a4b-it-20260403",
+    "hugging_face_id": "google/gemma-4-26B-A4B-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "created": 1775227989,
+    "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at a fraction of the compute cost. Supports multimodal input including text, images, and video (up to 60s at 1fps). Features a 256K token context window, native function calling, configurable thinking/reasoning mode, and structured output support. Released under Apache 2.0.",
+    "context_length": 262144,
+    "architecture": {
+      "modality": "text+image+video->text",
+      "input_modalities": [
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Gemma",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000013",
+      "completion": "0.0000004"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 262144,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 1,
+      "top_p": 0.95,
+      "top_k": 64
+    },
+    "knowledge_cutoff": null,
+    "expiration_date": null
+  },
+  {
     "id": "google/gemma-4-31b-it",
     "canonical_slug": "google/gemma-4-31b-it-20260402",
     "hugging_face_id": "google/gemma-4-31B-it",
@@ -4739,7 +4796,7 @@
       "output_modalities": [
         "text"
       ],
-      "tokenizer": "Gemini",
+      "tokenizer": "Gemma",
       "instruct_type": null
     },
     "pricing": {
@@ -4765,6 +4822,8 @@
       "stop",
       "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_p"
     ],
@@ -6535,7 +6594,7 @@
     },
     "pricing": {
       "prompt": "0.000000118",
-      "completion": "0.000001",
+      "completion": "0.00000099",
       "input_cache_read": "0.000000059"
     },
     "top_provider": {
@@ -8119,12 +8178,12 @@
     },
     "pricing": {
       "prompt": "0.0000003827",
-      "completion": "0.000001909",
-      "input_cache_read": "0.00000019135"
+      "completion": "0.00000172",
+      "input_cache_read": "0.0000001935"
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 65535,
+      "max_completion_tokens": 262144,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -13499,6 +13558,7 @@
       "tool_choice",
       "tools",
       "top_k",
+      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {},
@@ -17407,6 +17467,7 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
+      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -17420,6 +17481,7 @@
       "tool_choice",
       "tools",
       "top_k",
+      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
