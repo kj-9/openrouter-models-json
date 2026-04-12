@@ -951,8 +951,8 @@
     },
     "top_provider": {
       "context_length": 200000,
-      "max_completion_tokens": 64000,
-      "is_moderated": false
+      "max_completion_tokens": 128000,
+      "is_moderated": true
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -969,7 +969,10 @@
     "default_parameters": {
       "temperature": null,
       "top_p": null,
-      "frequency_penalty": null
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
     },
     "knowledge_cutoff": "2024-10-31",
     "expiration_date": "2026-05-05",
@@ -1024,7 +1027,10 @@
     "default_parameters": {
       "temperature": null,
       "top_p": null,
-      "frequency_penalty": null
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
     },
     "knowledge_cutoff": "2024-10-31",
     "expiration_date": "2026-05-05",
@@ -1120,7 +1126,7 @@
     "top_provider": {
       "context_length": 200000,
       "max_completion_tokens": 32000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -1137,7 +1143,10 @@
     "default_parameters": {
       "temperature": null,
       "top_p": null,
-      "frequency_penalty": null
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
     },
     "knowledge_cutoff": "2025-01-31",
     "expiration_date": null,
@@ -1176,7 +1185,7 @@
     "top_provider": {
       "context_length": 200000,
       "max_completion_tokens": 32000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -1195,7 +1204,10 @@
     "default_parameters": {
       "temperature": null,
       "top_p": null,
-      "frequency_penalty": null
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
     },
     "knowledge_cutoff": "2025-01-31",
     "expiration_date": null,
@@ -1390,7 +1402,7 @@
     "name": "Anthropic: Claude Sonnet 4",
     "created": 1747930371,
     "description": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability. Achieving state-of-the-art performance on SWE-bench (72.7%),...",
-    "context_length": 200000,
+    "context_length": 1000000,
     "architecture": {
       "modality": "text+image+file->text",
       "input_modalities": [
@@ -1412,9 +1424,9 @@
       "input_cache_write": "0.00000375"
     },
     "top_provider": {
-      "context_length": 200000,
+      "context_length": 1000000,
       "max_completion_tokens": 64000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -1431,7 +1443,10 @@
     "default_parameters": {
       "temperature": null,
       "top_p": null,
-      "frequency_penalty": null
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
     },
     "knowledge_cutoff": "2025-01-31",
     "expiration_date": null,
@@ -4943,7 +4958,6 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "presence_penalty",
       "reasoning",
@@ -4956,7 +4970,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -5058,7 +5071,6 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "presence_penalty",
       "reasoning",
@@ -5071,7 +5083,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -7136,13 +7147,21 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
+      "frequency_penalty",
       "include_reasoning",
       "max_tokens",
+      "min_p",
+      "presence_penalty",
       "reasoning",
+      "repetition_penalty",
       "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
+      "top_k",
       "top_p"
     ],
     "default_parameters": {
@@ -8135,7 +8154,7 @@
     "name": "Mistral: Mistral Small 3.1 24B",
     "created": 1742238937,
     "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and...",
-    "context_length": 131072,
+    "context_length": 128000,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -8149,13 +8168,12 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000003",
-      "completion": "0.00000011",
-      "input_cache_read": "0.000000015"
+      "prompt": "0.00000035",
+      "completion": "0.00000056"
     },
     "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "context_length": 128000,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -8164,10 +8182,7 @@
       "max_tokens",
       "presence_penalty",
       "repetition_penalty",
-      "response_format",
       "seed",
-      "stop",
-      "structured_outputs",
       "temperature",
       "top_k",
       "top_p"
@@ -8580,7 +8595,6 @@
       "logit_bias",
       "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "repetition_penalty",
       "response_format",
@@ -10246,13 +10260,12 @@
     "pricing": {
       "prompt": "0.000002",
       "completion": "0.000008",
-      "web_search": "0.01",
       "input_cache_read": "0.0000005"
     },
     "top_provider": {
       "context_length": 1047576,
-      "max_completion_tokens": 32768,
-      "is_moderated": true
+      "max_completion_tokens": null,
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -10398,13 +10411,12 @@
     },
     "pricing": {
       "prompt": "0.0000025",
-      "completion": "0.00001",
-      "input_cache_read": "0.00000125"
+      "completion": "0.00001"
     },
     "top_provider": {
       "context_length": 128000,
       "max_completion_tokens": 16384,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -10460,7 +10472,7 @@
     "top_provider": {
       "context_length": 128000,
       "max_completion_tokens": 4096,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -10689,7 +10701,7 @@
     "top_provider": {
       "context_length": 128000,
       "max_completion_tokens": 16384,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -10938,13 +10950,12 @@
     "pricing": {
       "prompt": "0.00000125",
       "completion": "0.00001",
-      "web_search": "0.01",
       "input_cache_read": "0.000000125"
     },
     "top_provider": {
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -11278,13 +11289,12 @@
     "pricing": {
       "prompt": "0.00000005",
       "completion": "0.0000004",
-      "web_search": "0.01",
-      "input_cache_read": "0.000000005"
+      "input_cache_read": "0.00000001"
     },
     "top_provider": {
       "context_length": 400000,
-      "max_completion_tokens": 128000,
-      "is_moderated": true
+      "max_completion_tokens": null,
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -11389,13 +11399,12 @@
     "pricing": {
       "prompt": "0.00000125",
       "completion": "0.00001",
-      "web_search": "0.01",
-      "input_cache_read": "0.000000125"
+      "input_cache_read": "0.00000013"
     },
     "top_provider": {
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -11612,12 +11621,12 @@
     "pricing": {
       "prompt": "0.00000025",
       "completion": "0.000002",
-      "input_cache_read": "0.000000025"
+      "input_cache_read": "0.00000003"
     },
     "top_provider": {
       "context_length": 400000,
-      "max_completion_tokens": 100000,
-      "is_moderated": true
+      "max_completion_tokens": 128000,
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -11669,13 +11678,12 @@
     "pricing": {
       "prompt": "0.00000175",
       "completion": "0.000014",
-      "web_search": "0.01",
       "input_cache_read": "0.000000175"
     },
     "top_provider": {
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -11727,13 +11735,12 @@
     "pricing": {
       "prompt": "0.00000175",
       "completion": "0.000014",
-      "web_search": "0.01",
       "input_cache_read": "0.000000175"
     },
     "top_provider": {
       "context_length": 128000,
-      "max_completion_tokens": 16384,
-      "is_moderated": true
+      "max_completion_tokens": 32000,
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -11779,13 +11786,12 @@
     "pricing": {
       "prompt": "0.00000175",
       "completion": "0.000014",
-      "web_search": "0.01",
       "input_cache_read": "0.000000175"
     },
     "top_provider": {
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -12007,7 +12013,7 @@
     "top_provider": {
       "context_length": 1050000,
       "max_completion_tokens": 128000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -12065,7 +12071,7 @@
     "top_provider": {
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -12123,7 +12129,7 @@
     "top_provider": {
       "context_length": 400000,
       "max_completion_tokens": 128000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -12180,7 +12186,7 @@
     "top_provider": {
       "context_length": 1050000,
       "max_completion_tokens": 128000,
-      "is_moderated": true
+      "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
@@ -16919,7 +16925,8 @@
     },
     "pricing": {
       "prompt": "0.0000003",
-      "completion": "0.0000005"
+      "completion": "0.0000005",
+      "input_cache_read": "0.00000015"
     },
     "top_provider": {
       "context_length": 131072,
