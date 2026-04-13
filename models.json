@@ -3009,13 +3009,13 @@
       "instruct_type": "deepseek-r1"
     },
     "pricing": {
-      "prompt": "0.00000045",
+      "prompt": "0.0000005",
       "completion": "0.00000215",
-      "input_cache_read": "0.000000225"
+      "input_cache_read": "0.00000035"
     },
     "top_provider": {
       "context_length": 163840,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3390,54 +3390,6 @@
     "expiration_date": null,
     "links": {
       "details": "/api/v1/models/deepseek/deepseek-v3.2-speciale-20251201/endpoints"
-    }
-  },
-  {
-    "id": "eleutherai/llemma_7b",
-    "canonical_slug": "eleutherai/llemma_7b",
-    "hugging_face_id": "EleutherAI/llemma_7b",
-    "name": "EleutherAI: Llemma 7b",
-    "created": 1744643225,
-    "description": "Llemma 7B is a language model for mathematics. It was initialized with Code Llama 7B weights, and trained on the Proof-Pile-2 for 200B tokens. Llemma models are particularly strong at...",
-    "context_length": 4096,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": "code-llama"
-    },
-    "pricing": {
-      "prompt": "0.0000008",
-      "completion": "0.0000012"
-    },
-    "top_provider": {
-      "context_length": 4096,
-      "max_completion_tokens": 4096,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {},
-    "knowledge_cutoff": "2023-04-30",
-    "expiration_date": null,
-    "links": {
-      "details": "/api/v1/models/eleutherai/llemma_7b/endpoints"
     }
   },
   {
@@ -7088,7 +7040,7 @@
     },
     "top_provider": {
       "context_length": 196608,
-      "max_completion_tokens": 196608,
+      "max_completion_tokens": 8192,
       "is_moderated": true
     },
     "per_request_limits": null,
@@ -7123,7 +7075,7 @@
     "name": "MiniMax: MiniMax M2.7",
     "created": 1773836697,
     "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
-    "context_length": 204800,
+    "context_length": 196608,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -7138,17 +7090,19 @@
     "pricing": {
       "prompt": "0.0000003",
       "completion": "0.0000012",
-      "input_cache_read": "0.00000006"
+      "input_cache_read": "0.000000059"
     },
     "top_provider": {
-      "context_length": 204800,
-      "max_completion_tokens": 131072,
+      "context_length": 196608,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
+      "logit_bias",
+      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -7162,6 +7116,7 @@
       "tool_choice",
       "tools",
       "top_k",
+      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -12531,7 +12486,7 @@
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": 8192,
       "is_moderated": true
     },
     "per_request_limits": null,
@@ -14947,13 +14902,13 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000012",
-      "completion": "0.00000075",
-      "input_cache_read": "0.00000006"
+      "prompt": "0.00000015",
+      "completion": "0.0000008",
+      "input_cache_read": "0.00000012"
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 65536,
+      "max_completion_tokens": 262144,
       "is_moderated": false
     },
     "per_request_limits": null,
