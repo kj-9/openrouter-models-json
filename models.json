@@ -4764,8 +4764,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000002",
-      "completion": "0.00000004"
+      "prompt": "0.00000006",
+      "completion": "0.00000012"
     },
     "top_provider": {
       "context_length": 32768,
@@ -6393,6 +6393,49 @@
     }
   },
   {
+    "id": "meta-llama/llama-guard-4-12b:free",
+    "canonical_slug": "meta-llama/llama-guard-4-12b",
+    "hugging_face_id": "meta-llama/Llama-Guard-4-12B",
+    "name": "Meta: Llama Guard 4 12B (free)",
+    "created": 1745975193,
+    "description": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM...",
+    "context_length": 163840,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    },
+    "top_provider": {
+      "context_length": 163840,
+      "max_completion_tokens": 65000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "max_tokens",
+      "seed",
+      "temperature",
+      "top_p"
+    ],
+    "default_parameters": {},
+    "knowledge_cutoff": "2024-08-31",
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/meta-llama/llama-guard-4-12b/endpoints"
+    }
+  },
+  {
     "id": "microsoft/phi-4",
     "canonical_slug": "microsoft/phi-4",
     "hugging_face_id": "microsoft/phi-4",
@@ -6732,7 +6775,6 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -6746,7 +6788,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -8357,8 +8398,6 @@
     "per_request_limits": null,
     "supported_parameters": [
       "frequency_penalty",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
       "presence_penalty",
       "repetition_penalty",
@@ -8370,7 +8409,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {},
