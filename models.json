@@ -3558,9 +3558,9 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000174",
-      "completion": "0.00000348",
-      "input_cache_read": "0.000000145"
+      "prompt": "0.000000435",
+      "completion": "0.00000087",
+      "input_cache_read": "0.00000003625"
     },
     "top_provider": {
       "context_length": 1048576,
@@ -3571,16 +3571,13 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
       "logprobs",
       "max_tokens",
-      "min_p",
       "presence_penalty",
       "reasoning",
-      "repetition_penalty",
       "response_format",
+      "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -3665,7 +3662,7 @@
     "name": "Google: Gemini 2.0 Flash",
     "created": 1738769413,
     "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). It...",
-    "context_length": 1048576,
+    "context_length": 1000000,
     "architecture": {
       "modality": "text+image+file+audio+video->text",
       "input_modalities": [
@@ -3692,7 +3689,7 @@
       "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
-      "context_length": 1048576,
+      "context_length": 1000000,
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
@@ -15008,8 +15005,7 @@
     },
     "pricing": {
       "prompt": "0.00000022",
-      "completion": "0.000001",
-      "input_cache_read": "0.000000022"
+      "completion": "0.0000018"
     },
     "top_provider": {
       "context_length": 262144,
