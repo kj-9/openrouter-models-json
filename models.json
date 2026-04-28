@@ -1051,7 +1051,10 @@
     "default_parameters": {
       "temperature": null,
       "top_p": null,
-      "frequency_penalty": null
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
     },
     "knowledge_cutoff": null,
     "expiration_date": null,
@@ -3571,13 +3574,17 @@
     "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
+      "logit_bias",
       "logprobs",
       "max_tokens",
+      "min_p",
       "presence_penalty",
       "reasoning",
+      "repetition_penalty",
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -3662,7 +3669,7 @@
     "name": "Google: Gemini 2.0 Flash",
     "created": 1738769413,
     "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). It...",
-    "context_length": 1048576,
+    "context_length": 1000000,
     "architecture": {
       "modality": "text+image+file+audio+video->text",
       "input_modalities": [
@@ -3689,7 +3696,7 @@
       "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
-      "context_length": 1048576,
+      "context_length": 1000000,
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
@@ -4260,7 +4267,10 @@
     "default_parameters": {
       "temperature": null,
       "top_p": null,
-      "frequency_penalty": null
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
     },
     "knowledge_cutoff": null,
     "expiration_date": null,
@@ -4505,7 +4515,10 @@
     "default_parameters": {
       "temperature": null,
       "top_p": null,
-      "frequency_penalty": null
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
     },
     "knowledge_cutoff": null,
     "expiration_date": null,
@@ -8054,12 +8067,12 @@
       "instruct_type": "mistral"
     },
     "pricing": {
-      "prompt": "0.00000001",
-      "completion": "0.00000003"
+      "prompt": "0.00000002",
+      "completion": "0.00000004"
     },
     "top_provider": {
       "context_length": 131072,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 16384,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -12397,6 +12410,7 @@
     "per_request_limits": null,
     "supported_parameters": [
       "include_reasoning",
+      "max_completion_tokens",
       "max_tokens",
       "reasoning",
       "response_format",
@@ -16413,6 +16427,57 @@
     }
   },
   {
+    "id": "qwen/qwen3.5-plus-20260420",
+    "canonical_slug": "qwen/qwen3.5-plus-20260420",
+    "hugging_face_id": null,
+    "name": "Qwen: Qwen3.5 Plus 2026-04-20",
+    "created": 1777261368,
+    "description": "Qwen3.5 Plus (April 2026) is a large-scale multimodal language model from Alibaba. It accepts text, image, and video input and produces text output, with a 1M token context window. This...",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+video->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000004",
+      "completion": "0.0000024"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {},
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/qwen/qwen3.5-plus-20260420/endpoints"
+    }
+  },
+  {
     "id": "qwen/qwen3.6-27b",
     "canonical_slug": "qwen/qwen3.6-27b-20260422",
     "hugging_face_id": "Qwen/Qwen3.6-27B",
@@ -16434,9 +16499,9 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000195",
-      "completion": "0.00000156",
-      "input_cache_read": "0.0000000975"
+      "prompt": "0.0000005",
+      "completion": "0.000002",
+      "input_cache_read": "0.00000025"
     },
     "top_provider": {
       "context_length": 262144,
@@ -16537,6 +16602,58 @@
     "expiration_date": null,
     "links": {
       "details": "/api/v1/models/qwen/qwen3.6-35b-a3b-20260415/endpoints"
+    }
+  },
+  {
+    "id": "qwen/qwen3.6-flash",
+    "canonical_slug": "qwen/qwen3.6-flash",
+    "hugging_face_id": null,
+    "name": "Qwen: Qwen3.6 Flash",
+    "created": 1777261362,
+    "description": "Qwen3.6 Flash is a fast, efficient language model from Alibaba's Qwen 3.6 series. It supports text, image, and video input with a 1M token context window. Tiered pricing kicks in...",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+video->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000025",
+      "completion": "0.0000015",
+      "input_cache_write": "0.0000003125"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {},
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/qwen/qwen3.6-flash/endpoints"
     }
   },
   {
@@ -19405,6 +19522,66 @@
     }
   },
   {
+    "id": "~anthropic/claude-haiku-latest",
+    "canonical_slug": "~anthropic/claude-haiku-latest",
+    "hugging_face_id": null,
+    "name": "Anthropic Claude Haiku Latest",
+    "created": 1777318492,
+    "description": "This model always redirects to the latest model in the Anthropic Claude Haiku family.",
+    "context_length": 200000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Router",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000005",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.00000125"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 64000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/~anthropic/claude-haiku-latest/endpoints"
+    }
+  },
+  {
     "id": "~anthropic/claude-opus-latest",
     "canonical_slug": "~anthropic/claude-opus-latest",
     "hugging_face_id": "",
@@ -19460,6 +19637,384 @@
     "expiration_date": null,
     "links": {
       "details": "/api/v1/models/~anthropic/claude-opus-latest/endpoints"
+    }
+  },
+  {
+    "id": "~anthropic/claude-sonnet-latest",
+    "canonical_slug": "~anthropic/claude-sonnet-latest",
+    "hugging_face_id": null,
+    "name": "Anthropic Claude Sonnet Latest",
+    "created": 1777318368,
+    "description": "This model always redirects to the latest model in the Anthropic Claude Sonnet family.",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Router",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000003",
+      "completion": "0.000015",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000003",
+      "input_cache_write": "0.00000375"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/~anthropic/claude-sonnet-latest/endpoints"
+    }
+  },
+  {
+    "id": "~google/gemini-flash-latest",
+    "canonical_slug": "~google/gemini-flash-latest",
+    "hugging_face_id": null,
+    "name": "Google Gemini Flash Latest",
+    "created": 1777318398,
+    "description": "This model always redirects to the latest model in the Google Gemini Flash family.",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image+file+audio+video->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "file",
+        "audio",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Router",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000005",
+      "completion": "0.000003",
+      "image": "0.0000005",
+      "audio": "0.000001",
+      "web_search": "0.014",
+      "internal_reasoning": "0.000003",
+      "input_cache_read": "0.00000005",
+      "input_cache_write": "0.00000008333333333333334"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/~google/gemini-flash-latest/endpoints"
+    }
+  },
+  {
+    "id": "~google/gemini-pro-latest",
+    "canonical_slug": "~google/gemini-pro-latest",
+    "hugging_face_id": null,
+    "name": "Google Gemini Pro Latest",
+    "created": 1777318451,
+    "description": "This model always redirects to the latest model in the Google Gemini Pro family.",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image+file+audio+video->text",
+      "input_modalities": [
+        "audio",
+        "file",
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Router",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000012",
+      "image": "0.000002",
+      "audio": "0.000002",
+      "web_search": "0.014",
+      "internal_reasoning": "0.000012",
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000000375"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/~google/gemini-pro-latest/endpoints"
+    }
+  },
+  {
+    "id": "~moonshotai/kimi-latest",
+    "canonical_slug": "~moonshotai/kimi-latest",
+    "hugging_face_id": null,
+    "name": "MoonshotAI Kimi Latest",
+    "created": 1777318428,
+    "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
+    "context_length": 256000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Router",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000007448",
+      "completion": "0.000004655",
+      "input_cache_read": "0.0000001463"
+    },
+    "top_provider": {
+      "context_length": 256000,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "parallel_tool_calls",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/~moonshotai/kimi-latest/endpoints"
+    }
+  },
+  {
+    "id": "~openai/gpt-latest",
+    "canonical_slug": "~openai/gpt-latest",
+    "hugging_face_id": null,
+    "name": "OpenAI GPT Latest",
+    "created": 1777318334,
+    "description": "This model always redirects to the latest model in the OpenAI GPT family.",
+    "context_length": 1050000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Router",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000005",
+      "completion": "0.00003",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000005"
+    },
+    "top_provider": {
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/~openai/gpt-latest/endpoints"
+    }
+  },
+  {
+    "id": "~openai/gpt-mini-latest",
+    "canonical_slug": "~openai/gpt-mini-latest",
+    "hugging_face_id": null,
+    "name": "OpenAI GPT Mini Latest",
+    "created": 1777318471,
+    "description": "This model always redirects to the latest model in the OpenAI GPT Mini family.",
+    "context_length": 400000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Router",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000075",
+      "completion": "0.0000045",
+      "web_search": "0.01",
+      "input_cache_read": "0.000000075"
+    },
+    "top_provider": {
+      "context_length": 400000,
+      "max_completion_tokens": 128000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "knowledge_cutoff": "2025-08-31",
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/~openai/gpt-mini-latest/endpoints"
     }
   }
 ]
