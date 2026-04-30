@@ -5627,7 +5627,7 @@
       "repetition_penalty": null
     },
     "knowledge_cutoff": null,
-    "expiration_date": "2026-04-30",
+    "expiration_date": "2026-05-07",
     "links": {
       "details": "/api/v1/models/inclusionai/ling-2.6-1t-20260423/endpoints"
     }
@@ -8376,51 +8376,6 @@
     "expiration_date": null,
     "links": {
       "details": "/api/v1/models/mistralai/mistral-small-3.2-24b-instruct-2506/endpoints"
-    }
-  },
-  {
-    "id": "mistralai/mistral-small-creative",
-    "canonical_slug": "mistralai/mistral-small-creative-20251216",
-    "hugging_face_id": null,
-    "name": "Mistral: Mistral Small Creative",
-    "created": 1765908653,
-    "description": "Mistral Small Creative is an experimental small model designed for creative writing, narrative generation, roleplay and character-driven dialogue, general-purpose instruction following, and conversational agents.",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000001",
-      "completion": "0.0000003",
-      "input_cache_read": "0.00000001"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": null,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "tool_choice",
-      "tools"
-    ],
-    "default_parameters": {
-      "temperature": 0.3,
-      "top_p": 0.95,
-      "frequency_penalty": null
-    },
-    "knowledge_cutoff": null,
-    "expiration_date": "2026-04-30",
-    "links": {
-      "details": "/api/v1/models/mistralai/mistral-small-creative-20251216/endpoints"
     }
   },
   {
@@ -12049,7 +12004,7 @@
     "pricing": {
       "prompt": "0.00000175",
       "completion": "0.000014",
-      "web_search": "0.1",
+      "web_search": "0.01",
       "input_cache_read": "0.000000175"
     },
     "top_provider": {
