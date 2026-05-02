@@ -16714,7 +16714,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "created": 1777255064,
     "description": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs...",
-    "context_length": 256000,
+    "context_length": 262144,
     "architecture": {
       "modality": "text+image+video->text",
       "input_modalities": [
@@ -16729,12 +16729,12 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000325",
-      "completion": "0.00000325"
+      "prompt": "0.00000032",
+      "completion": "0.0000032"
     },
     "top_provider": {
-      "context_length": 256000,
-      "max_completion_tokens": 65536,
+      "context_length": 262144,
+      "max_completion_tokens": 81920,
       "is_moderated": false
     },
     "per_request_limits": null,
