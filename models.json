@@ -392,60 +392,6 @@
     }
   },
   {
-    "id": "alpindale/goliath-120b",
-    "canonical_slug": "alpindale/goliath-120b",
-    "hugging_face_id": "alpindale/goliath-120b",
-    "name": "Goliath 120B",
-    "created": 1699574400,
-    "description": "A large LLM created by combining two fine-tuned Llama 70B models into one 120B model. Combines Xwin and Euryale. Credits to - [@chargoddard](https://huggingface.co/chargoddard) for developing the framework used to merge...",
-    "context_length": 6144,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Llama2",
-      "instruct_type": "airoboros"
-    },
-    "pricing": {
-      "prompt": "0.00000375",
-      "completion": "0.0000075"
-    },
-    "top_provider": {
-      "context_length": 6144,
-      "max_completion_tokens": 1024,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "top_a",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-    ],
-    "default_parameters": {},
-    "supported_voices": null,
-    "knowledge_cutoff": "2023-12-31",
-    "expiration_date": null,
-    "links": {
-      "details": "/api/v1/models/alpindale/goliath-120b/endpoints"
-    }
-  },
-  {
     "id": "amazon/nova-2-lite-v1",
     "canonical_slug": "amazon/nova-2-lite-v1",
     "hugging_face_id": "",
@@ -854,10 +800,11 @@
     "description": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4’s performance...",
     "context_length": 200000,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text+image+file->text",
       "input_modalities": [
+        "text",
         "image",
-        "text"
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -1099,10 +1046,11 @@
     "description": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks. It is built for agents that operate across entire workflows rather than single prompts, making it especially effective...",
     "context_length": 1000000,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text+image+file->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -1162,10 +1110,11 @@
     "description": "Fast-mode variant of [Opus 4.6](/anthropic/claude-opus-4.6) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
     "context_length": 1000000,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text+image+file->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -1223,10 +1172,11 @@
     "description": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on...",
     "context_length": 1000000,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text+image+file->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -1404,10 +1354,11 @@
     "description": "Sonnet 4.6 is Anthropic's most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work. It excels at iterative development, complex codebase navigation, end-to-end project management with...",
     "context_length": 1000000,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text+image+file->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -1665,7 +1616,7 @@
     "hugging_face_id": "arcee-ai/Trinity-Large-Thinking",
     "name": "Arcee AI: Trinity Large Thinking",
     "created": 1775058318,
-    "description": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si=4RLn6WBz33qT--B7",
+    "description": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si=4RLn6WBz33qT--B7...",
     "context_length": 262144,
     "architecture": {
       "modality": "text->text",
@@ -1701,6 +1652,60 @@
       "seed",
       "stop",
       "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": 0.3,
+      "top_p": 0.8,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/arcee-ai/trinity-large-thinking/endpoints"
+    }
+  },
+  {
+    "id": "arcee-ai/trinity-large-thinking:free",
+    "canonical_slug": "arcee-ai/trinity-large-thinking",
+    "hugging_face_id": "arcee-ai/Trinity-Large-Thinking",
+    "name": "Arcee AI: Trinity Large Thinking (free)",
+    "created": 1775058318,
+    "description": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si=4RLn6WBz33qT--B7...",
+    "context_length": 262144,
+    "architecture": {
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 80000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
       "temperature",
       "tool_choice",
       "tools",
@@ -2887,7 +2892,7 @@
     "name": "DeepSeek: DeepSeek V3.1",
     "created": 1755779628,
     "description": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates. It extends the DeepSeek-V3 base with a two-phase long-context...",
-    "context_length": 32768,
+    "context_length": 163840,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -2900,12 +2905,13 @@
       "instruct_type": "deepseek-v3.1"
     },
     "pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.00000075"
+      "prompt": "0.00000021",
+      "completion": "0.00000079",
+      "input_cache_read": "0.00000013"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": 7168,
+      "context_length": 163840,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3605,7 +3611,7 @@
     "name": "Google: Gemini 2.0 Flash",
     "created": 1738769413,
     "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). It...",
-    "context_length": 1000000,
+    "context_length": 1048576,
     "architecture": {
       "modality": "text+image+file+audio+video->text",
       "input_modalities": [
@@ -3632,7 +3638,7 @@
       "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
-      "context_length": 1000000,
+      "context_length": 1048576,
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
@@ -5012,8 +5018,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000013",
-      "completion": "0.00000038"
+      "prompt": "0.00000012",
+      "completion": "0.00000037"
     },
     "top_provider": {
       "context_length": 262144,
@@ -8869,7 +8875,7 @@
     "name": "MoonshotAI: Kimi K2.6",
     "created": 1776699402,
     "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust, and Go, and...",
-    "context_length": 262144,
+    "context_length": 32768,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -8883,13 +8889,13 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000075",
+      "prompt": "0.00000074",
       "completion": "0.0000035",
-      "input_cache_read": "0.00000015"
+      "input_cache_read": "0.00000025"
     },
     "top_provider": {
-      "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "context_length": 32768,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -14400,7 +14406,7 @@
     "default_parameters": {},
     "supported_voices": null,
     "knowledge_cutoff": "2025-03-31",
-    "expiration_date": null,
+    "expiration_date": "2026-05-13",
     "links": {
       "details": "/api/v1/models/qwen/qwen-max-2025-01-25/endpoints"
     }
@@ -14605,7 +14611,7 @@
     "default_parameters": {},
     "supported_voices": null,
     "knowledge_cutoff": "2025-03-31",
-    "expiration_date": null,
+    "expiration_date": "2026-05-13",
     "links": {
       "details": "/api/v1/models/qwen/qwen-turbo-2024-11-01/endpoints"
     }
@@ -14657,7 +14663,7 @@
     },
     "supported_voices": null,
     "knowledge_cutoff": "2025-03-31",
-    "expiration_date": null,
+    "expiration_date": "2026-05-13",
     "links": {
       "details": "/api/v1/models/qwen/qwen-vl-max-2025-01-25/endpoints"
     }
@@ -14704,7 +14710,7 @@
     "default_parameters": {},
     "supported_voices": null,
     "knowledge_cutoff": "2025-03-31",
-    "expiration_date": null,
+    "expiration_date": "2026-05-13",
     "links": {
       "details": "/api/v1/models/qwen/qwen-vl-plus/endpoints"
     }
@@ -19751,13 +19757,13 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000105",
-      "completion": "0.0000035",
-      "input_cache_read": "0.000000525"
+      "prompt": "0.00000098",
+      "completion": "0.00000308",
+      "input_cache_read": "0.000000182"
     },
     "top_provider": {
       "context_length": 202752,
-      "max_completion_tokens": 65535,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -19865,10 +19871,11 @@
     "description": "This model always redirects to the latest model in the Anthropic Claude Haiku family.",
     "context_length": 200000,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text+image+file->text",
       "input_modalities": [
+        "text",
         "image",
-        "text"
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -19926,10 +19933,11 @@
     "description": "This model always redirects to the latest model in the Claude Opus family.",
     "context_length": 1000000,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text+image+file->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -19985,10 +19993,11 @@
     "description": "This model always redirects to the latest model in the Anthropic Claude Sonnet family.",
     "context_length": 1000000,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text+image+file->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -20180,7 +20189,7 @@
     "name": "MoonshotAI Kimi Latest",
     "created": 1777318428,
     "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
-    "context_length": 262144,
+    "context_length": 32768,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -20194,13 +20203,13 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000075",
+      "prompt": "0.00000074",
       "completion": "0.0000035",
-      "input_cache_read": "0.00000015"
+      "input_cache_read": "0.00000025"
     },
     "top_provider": {
-      "context_length": 262144,
-      "max_completion_tokens": 16384,
+      "context_length": 32768,
+      "max_completion_tokens": 32768,
       "is_moderated": false
     },
     "per_request_limits": null,
