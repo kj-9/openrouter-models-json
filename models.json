@@ -1224,6 +1224,66 @@
     }
   },
   {
+    "id": "anthropic/claude-opus-4.7-fast",
+    "canonical_slug": "anthropic/claude-4.7-opus-fast-20260512",
+    "hugging_face_id": null,
+    "name": "Anthropic: Claude Opus 4.7 (Fast)",
+    "created": 1778613011,
+    "description": "Fast-mode variant of [Opus 4.7](/anthropic/claude-opus-4.7) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00003",
+      "completion": "0.00015",
+      "web_search": "0.01",
+      "input_cache_read": "0.000003",
+      "input_cache_write": "0.0000375"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4.7-opus-fast-20260512/endpoints"
+    }
+  },
+  {
     "id": "anthropic/claude-sonnet-4",
     "canonical_slug": "anthropic/claude-4-sonnet-20250522",
     "hugging_face_id": "",
@@ -7268,12 +7328,12 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000299",
+      "prompt": "0.00000028",
       "completion": "0.0000012"
     },
     "top_provider": {
       "context_length": 196608,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -8823,8 +8883,8 @@
     },
     "pricing": {
       "prompt": "0.0000004",
-      "completion": "0.00000198",
-      "input_cache_read": "0.00000005"
+      "completion": "0.0000019",
+      "input_cache_read": "0.00000009"
     },
     "top_provider": {
       "context_length": 262144,
@@ -8875,7 +8935,7 @@
     "name": "MoonshotAI: Kimi K2.6",
     "created": 1776699402,
     "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust, and Go, and...",
-    "context_length": 32768,
+    "context_length": 262142,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -8894,8 +8954,8 @@
       "input_cache_read": "0.00000025"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": 32768,
+      "context_length": 262142,
+      "max_completion_tokens": 262142,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -13795,6 +13855,63 @@
     }
   },
   {
+    "id": "perceptron/perceptron-mk1",
+    "canonical_slug": "perceptron/perceptron-mk1-20260512",
+    "hugging_face_id": null,
+    "name": "Perceptron: Perceptron Mk1",
+    "created": 1778597029,
+    "description": "Perceptron Mk1 (Mark One) is Perceptron's highest-quality vision-language model for video and embodied reasoning.** It accepts image and video inputs paired with natural language queries, and produces detailed visual understanding...",
+    "context_length": 32768,
+    "architecture": {
+      "modality": "text+image+video->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.0000015"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": 8192,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/perceptron/perceptron-mk1-20260512/endpoints"
+    }
+  },
+  {
     "id": "perplexity/sonar",
     "canonical_slug": "perplexity/sonar",
     "hugging_face_id": "",
@@ -14364,54 +14481,6 @@
     }
   },
   {
-    "id": "qwen/qwen-max",
-    "canonical_slug": "qwen/qwen-max-2025-01-25",
-    "hugging_face_id": "",
-    "name": "Qwen: Qwen-Max ",
-    "created": 1738402289,
-    "description": "Qwen-Max, based on Qwen2.5, provides the best inference performance among [Qwen models](/qwen), especially for complex multi-step tasks. It's a large-scale MoE model that has been pretrained on over 20 trillion...",
-    "context_length": 32768,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000104",
-      "completion": "0.00000416",
-      "input_cache_read": "0.000000208"
-    },
-    "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-    ],
-    "default_parameters": {},
-    "supported_voices": null,
-    "knowledge_cutoff": "2025-03-31",
-    "expiration_date": "2026-05-13",
-    "links": {
-      "details": "/api/v1/models/qwen/qwen-max-2025-01-25/endpoints"
-    }
-  },
-  {
     "id": "qwen/qwen-plus",
     "canonical_slug": "qwen/qwen-plus-2025-01-25",
     "hugging_face_id": "",
@@ -14566,153 +14635,6 @@
     "expiration_date": null,
     "links": {
       "details": "/api/v1/models/qwen/qwen-plus-2025-07-28/endpoints"
-    }
-  },
-  {
-    "id": "qwen/qwen-turbo",
-    "canonical_slug": "qwen/qwen-turbo-2024-11-01",
-    "hugging_face_id": "",
-    "name": "Qwen: Qwen-Turbo",
-    "created": 1738410974,
-    "description": "Qwen-Turbo, based on Qwen2.5, is a 1M context model that provides fast speed and low cost, suitable for simple tasks.",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000000325",
-      "completion": "0.00000013",
-      "input_cache_read": "0.0000000065"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-    ],
-    "default_parameters": {},
-    "supported_voices": null,
-    "knowledge_cutoff": "2025-03-31",
-    "expiration_date": "2026-05-13",
-    "links": {
-      "details": "/api/v1/models/qwen/qwen-turbo-2024-11-01/endpoints"
-    }
-  },
-  {
-    "id": "qwen/qwen-vl-max",
-    "canonical_slug": "qwen/qwen-vl-max-2025-01-25",
-    "hugging_face_id": "",
-    "name": "Qwen: Qwen VL Max",
-    "created": 1738434304,
-    "description": "Qwen VL Max is a visual understanding model with 7500 tokens context length. It excels in delivering optimal performance for a broader spectrum of complex tasks.\n",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000052",
-      "completion": "0.00000208"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 32768,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": null,
-      "top_p": null,
-      "frequency_penalty": null
-    },
-    "supported_voices": null,
-    "knowledge_cutoff": "2025-03-31",
-    "expiration_date": "2026-05-13",
-    "links": {
-      "details": "/api/v1/models/qwen/qwen-vl-max-2025-01-25/endpoints"
-    }
-  },
-  {
-    "id": "qwen/qwen-vl-plus",
-    "canonical_slug": "qwen/qwen-vl-plus",
-    "hugging_face_id": "",
-    "name": "Qwen: Qwen VL Plus",
-    "created": 1738731255,
-    "description": "Qwen's Enhanced Large Visual Language Model. Significantly upgraded for detailed recognition capabilities and text recognition abilities, supporting ultra-high pixel resolutions up to millions of pixels and extreme aspect ratios for...",
-    "context_length": 131072,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.0000001365",
-      "completion": "0.0000004095",
-      "input_cache_read": "0.0000000273"
-    },
-    "top_provider": {
-      "context_length": 131072,
-      "max_completion_tokens": 8192,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "temperature",
-      "top_p"
-    ],
-    "default_parameters": {},
-    "supported_voices": null,
-    "knowledge_cutoff": "2025-03-31",
-    "expiration_date": "2026-05-13",
-    "links": {
-      "details": "/api/v1/models/qwen/qwen-vl-plus/endpoints"
     }
   },
   {
@@ -16512,8 +16434,7 @@
     },
     "pricing": {
       "prompt": "0.00000039",
-      "completion": "0.00000234",
-      "input_cache_read": "0.000000195"
+      "completion": "0.00000234"
     },
     "top_provider": {
       "context_length": 262144,
@@ -19757,13 +19678,13 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000098",
-      "completion": "0.00000308",
-      "input_cache_read": "0.000000182"
+      "prompt": "0.00000105",
+      "completion": "0.0000035",
+      "input_cache_read": "0.000000525"
     },
     "top_provider": {
       "context_length": 202752,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 65535,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -20189,7 +20110,7 @@
     "name": "MoonshotAI Kimi Latest",
     "created": 1777318428,
     "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
-    "context_length": 32768,
+    "context_length": 262142,
     "architecture": {
       "modality": "text+image->text",
       "input_modalities": [
@@ -20208,8 +20129,8 @@
       "input_cache_read": "0.00000025"
     },
     "top_provider": {
-      "context_length": 32768,
-      "max_completion_tokens": 32768,
+      "context_length": 262142,
+      "max_completion_tokens": 262142,
       "is_moderated": false
     },
     "per_request_limits": null,
