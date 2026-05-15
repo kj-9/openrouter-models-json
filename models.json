@@ -2197,10 +2197,10 @@
     }
   },
   {
-    "id": "baidu/qianfan-ocr-fast:free",
+    "id": "baidu/qianfan-ocr-fast",
     "canonical_slug": "baidu/qianfan-ocr-fast-20260420",
     "hugging_face_id": "",
-    "name": "Baidu: Qianfan-OCR-Fast (free)",
+    "name": "Baidu: Qianfan-OCR-Fast",
     "created": 1776707472,
     "description": "Qianfan-OCR-Fast is a domain-specific multimodal large model purpose-built for OCR. By leveraging specialized OCR training data while preserving versatile multimodal intelligence, it provides a powerful performance upgrade over Qianfan-OCR.",
     "context_length": 65536,
@@ -2217,8 +2217,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0",
-      "completion": "0"
+      "prompt": "0.00000068",
+      "completion": "0.00000281"
     },
     "top_provider": {
       "context_length": 65536,
@@ -2979,7 +2979,6 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -2993,7 +2992,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {},
@@ -3548,7 +3546,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash (free)",
     "created": 1777000666,
     "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
-    "context_length": 256000,
+    "context_length": 1048576,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -3565,8 +3563,8 @@
       "completion": "0"
     },
     "top_provider": {
-      "context_length": 256000,
-      "max_completion_tokens": 256000,
+      "context_length": 1048576,
+      "max_completion_tokens": 384000,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -3721,7 +3719,7 @@
     "name": "Google: Gemini 2.0 Flash",
     "created": 1738769413,
     "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). It...",
-    "context_length": 1000000,
+    "context_length": 1048576,
     "architecture": {
       "modality": "text+image+file+audio+video->text",
       "input_modalities": [
@@ -3748,7 +3746,7 @@
       "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
-      "context_length": 1000000,
+      "context_length": 1048576,
       "max_completion_tokens": 8192,
       "is_moderated": false
     },
@@ -5638,9 +5636,9 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000008",
-      "completion": "0.00000024",
-      "input_cache_read": "0.000000016"
+      "prompt": "0.00000001",
+      "completion": "0.00000003",
+      "input_cache_read": "0.000000002"
     },
     "top_provider": {
       "context_length": 262144,
@@ -7378,12 +7376,12 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000028",
+      "prompt": "0.000000279",
       "completion": "0.0000012"
     },
     "top_provider": {
       "context_length": 196608,
-      "max_completion_tokens": null,
+      "max_completion_tokens": 131072,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -7432,9 +7430,10 @@
     "description": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](https://mistral.ai/news/codestral-25-08)",
     "context_length": 256000,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+file->text",
       "input_modalities": [
-        "text"
+        "text",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -7485,9 +7484,10 @@
     "description": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring...",
     "context_length": 262144,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+file->text",
       "input_modalities": [
-        "text"
+        "text",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -7540,9 +7540,10 @@
     "description": "Devstral Medium is a high-performance code generation and agentic reasoning model developed jointly by Mistral AI and All Hands AI. Positioned as a step up from Devstral Small, it achieves...",
     "context_length": 131072,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+file->text",
       "input_modalities": [
-        "text"
+        "text",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -7593,9 +7594,10 @@
     "description": "Devstral Small 1.1 is a 24B parameter open-weight language model for software engineering agents, developed by Mistral AI in collaboration with All Hands AI. Finetuned from Mistral Small 3.1 and...",
     "context_length": 131072,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+file->text",
       "input_modalities": [
-        "text"
+        "text",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -7872,9 +7874,10 @@
     "description": "This is Mistral AI's flagship model, Mistral Large 2 (version `mistral-large-2407`). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](https://mistral.ai/news/mistral-large-2407/)....",
     "context_length": 128000,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+file->text",
       "input_modalities": [
-        "text"
+        "text",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -7925,9 +7928,10 @@
     "description": "This is Mistral AI's flagship model, Mistral Large 2 (version mistral-large-2407). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](https://mistral.ai/news/mistral-large-2407/)....",
     "context_length": 131072,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+file->text",
       "input_modalities": [
-        "text"
+        "text",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -7978,9 +7982,10 @@
     "description": "Mistral Large 2 2411 is an update of [Mistral Large 2](/mistralai/mistral-large) released together with [Pixtral Large 2411](/mistralai/pixtral-large-2411) It provides a significant upgrade on the previous [Mistral Large 24.07](/mistralai/mistral-large-2407), with notable...",
     "context_length": 131072,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+file->text",
       "input_modalities": [
-        "text"
+        "text",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -8031,10 +8036,11 @@
     "description": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
     "context_length": 262144,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text+image+file->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -8087,10 +8093,11 @@
     "description": "Mistral Medium 3 is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8× lower cost...",
     "context_length": 131072,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text+image+file->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -8141,10 +8148,11 @@
     "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex...",
     "context_length": 262144,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text+image+file->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -8201,10 +8209,11 @@
     "description": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances...",
     "context_length": 131072,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text+image+file->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -8313,9 +8322,10 @@
     "description": "Mistral Saba is a 24B-parameter language model specifically designed for the Middle East and South Asia, delivering accurate and contextually relevant responses while maintaining efficient performance. Trained on curated regional...",
     "context_length": 32768,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+file->text",
       "input_modalities": [
-        "text"
+        "text",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -8591,9 +8601,10 @@
     "description": "Mistral's official instruct fine-tuned version of [Mixtral 8x22B](/models/mistralai/mixtral-8x22b). It uses 39B active parameters out of 141B, offering unparalleled cost efficiency for its size. Its strengths include: - strong math, coding,...",
     "context_length": 65536,
     "architecture": {
-      "modality": "text->text",
+      "modality": "text+file->text",
       "input_modalities": [
-        "text"
+        "text",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -8644,10 +8655,11 @@
     "description": "Pixtral Large is a 124B parameter, open-weight, multimodal model built on top of [Mistral Large 2](/mistralai/mistral-large-2411). The model is able to understand documents, charts and natural images. The model is...",
     "context_length": 131072,
     "architecture": {
-      "modality": "text+image->text",
+      "modality": "text+image+file->text",
       "input_modalities": [
         "text",
-        "image"
+        "image",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -8698,10 +8710,11 @@
     "description": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance. It excels at speech transcription, translation and audio understanding. Input audio...",
     "context_length": 32000,
     "architecture": {
-      "modality": "text+audio->text",
+      "modality": "text+file+audio->text",
       "input_modalities": [
         "text",
-        "audio"
+        "audio",
+        "file"
       ],
       "output_modalities": [
         "text"
@@ -8999,8 +9012,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000074",
-      "completion": "0.0000035",
+      "prompt": "0.00000073",
+      "completion": "0.00000349",
       "input_cache_read": "0.00000025"
     },
     "top_provider": {
@@ -14759,7 +14772,7 @@
       "instruct_type": "qwen3"
     },
     "pricing": {
-      "prompt": "0.00000006",
+      "prompt": "0.0000001",
       "completion": "0.00000024"
     },
     "top_provider": {
@@ -16484,7 +16497,8 @@
     },
     "pricing": {
       "prompt": "0.00000039",
-      "completion": "0.00000234"
+      "completion": "0.00000234",
+      "input_cache_read": "0.000000195"
     },
     "top_provider": {
       "context_length": 262144,
@@ -16731,8 +16745,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000004",
-      "completion": "0.0000024"
+      "prompt": "0.0000003",
+      "completion": "0.0000018"
     },
     "top_provider": {
       "context_length": 1000000,
@@ -16913,9 +16927,9 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000025",
-      "completion": "0.0000015",
-      "input_cache_write": "0.0000003125"
+      "prompt": "0.0000001875",
+      "completion": "0.000001125",
+      "input_cache_write": "0.000000234375"
     },
     "top_provider": {
       "context_length": 1000000,
@@ -19617,7 +19631,6 @@
       "frequency_penalty",
       "include_reasoning",
       "logit_bias",
-      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -19631,7 +19644,6 @@
       "tool_choice",
       "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
     ],
     "default_parameters": {
@@ -19729,13 +19741,13 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000105",
-      "completion": "0.0000035",
-      "input_cache_read": "0.000000525"
+      "prompt": "0.00000098",
+      "completion": "0.00000308",
+      "input_cache_read": "0.000000182"
     },
     "top_provider": {
       "context_length": 202752,
-      "max_completion_tokens": 65535,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -20175,8 +20187,8 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000074",
-      "completion": "0.0000035",
+      "prompt": "0.00000073",
+      "completion": "0.00000349",
       "input_cache_read": "0.00000025"
     },
     "top_provider": {
