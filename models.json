@@ -4725,6 +4725,73 @@
     }
   },
   {
+    "id": "google/gemini-3.5-flash",
+    "canonical_slug": "google/gemini-3.5-flash-20260519",
+    "hugging_face_id": null,
+    "name": "Google: Gemini 3.5 Flash",
+    "created": 1779193800,
+    "description": "Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly optimized for coding proficiency and parallel agentic execution...",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image+file+audio+video->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Gemini",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000015",
+      "completion": "0.000009",
+      "image": "0.0000015",
+      "audio": "0.000003",
+      "web_search": "0.014",
+      "internal_reasoning": "0.000009",
+      "input_cache_read": "0.00000015",
+      "input_cache_write": "0.00000008333333333333334"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": "2025-01-01",
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/google/gemini-3.5-flash-20260519/endpoints"
+    }
+  },
+  {
     "id": "google/gemma-2-27b-it",
     "canonical_slug": "google/gemma-2-27b-it",
     "hugging_face_id": "google/gemma-2-27b-it",
@@ -13880,14 +13947,7 @@
       "top_k",
       "top_p"
     ],
-    "default_parameters": {
-      "temperature": null,
-      "top_p": null,
-      "top_k": null,
-      "frequency_penalty": null,
-      "presence_penalty": null,
-      "repetition_penalty": null
-    },
+    "default_parameters": null,
     "supported_voices": null,
     "knowledge_cutoff": null,
     "expiration_date": null,
@@ -16454,13 +16514,12 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000014",
-      "completion": "0.000001",
-      "input_cache_read": "0.00000005"
+      "prompt": "0.000000139",
+      "completion": "0.000001"
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 81920,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -19011,6 +19070,7 @@
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
       "temperature",
@@ -19286,7 +19346,7 @@
     "name": "Z.ai: GLM 5.1",
     "created": 1775578025,
     "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...",
-    "context_length": 202752,
+    "context_length": 202800,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -19299,13 +19359,12 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.00000098",
-      "completion": "0.00000308",
-      "input_cache_read": "0.000000182"
+      "prompt": "0",
+      "completion": "0"
     },
     "top_provider": {
-      "context_length": 202752,
-      "max_completion_tokens": null,
+      "context_length": 202800,
+      "max_completion_tokens": 202800,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -19603,9 +19662,9 @@
       "input_modalities": [
         "text",
         "image",
+        "video",
         "file",
-        "audio",
-        "video"
+        "audio"
       ],
       "output_modalities": [
         "text"
@@ -19614,13 +19673,13 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.0000005",
-      "completion": "0.000003",
-      "image": "0.0000005",
-      "audio": "0.000001",
+      "prompt": "0.0000015",
+      "completion": "0.000009",
+      "image": "0.0000015",
+      "audio": "0.000003",
       "web_search": "0.014",
-      "internal_reasoning": "0.000003",
-      "input_cache_read": "0.00000005",
+      "internal_reasoning": "0.000009",
+      "input_cache_read": "0.00000015",
       "input_cache_write": "0.00000008333333333333334"
     },
     "top_provider": {
@@ -19651,7 +19710,7 @@
       "repetition_penalty": null
     },
     "supported_voices": null,
-    "knowledge_cutoff": null,
+    "knowledge_cutoff": "2025-01-01",
     "expiration_date": null,
     "links": {
       "details": "/api/v1/models/~google/gemini-flash-latest/endpoints"
