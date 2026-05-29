@@ -1097,7 +1097,7 @@
     },
     "supported_voices": null,
     "knowledge_cutoff": null,
-    "expiration_date": null,
+    "expiration_date": "2026-06-29",
     "links": {
       "details": "/api/v1/models/anthropic/claude-4.6-opus-fast-20260407/endpoints"
     }
@@ -1220,6 +1220,126 @@
     "expiration_date": null,
     "links": {
       "details": "/api/v1/models/anthropic/claude-4.7-opus-fast-20260512/endpoints"
+    }
+  },
+  {
+    "id": "anthropic/claude-opus-4.8",
+    "canonical_slug": "anthropic/claude-4.8-opus-20260528",
+    "hugging_face_id": null,
+    "name": "Anthropic: Claude Opus 4.8",
+    "created": 1779905091,
+    "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.000005",
+      "completion": "0.000025",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000005",
+      "input_cache_write": "0.00000625"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4.8-opus-20260528/endpoints"
+    }
+  },
+  {
+    "id": "anthropic/claude-opus-4.8-fast",
+    "canonical_slug": "anthropic/claude-4.8-opus-fast-20260528",
+    "hugging_face_id": null,
+    "name": "Anthropic: Claude Opus 4.8 (Fast)",
+    "created": 1779913703,
+    "description": "Fast-mode variant of [Opus 4.8](/anthropic/claude-opus-4.8) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 4.8.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.00001",
+      "completion": "0.00005",
+      "web_search": "0.01",
+      "input_cache_read": "0.000001",
+      "input_cache_write": "0.0000125"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/anthropic/claude-4.8-opus-fast-20260528/endpoints"
     }
   },
   {
@@ -1983,63 +2103,6 @@
     "expiration_date": null,
     "links": {
       "details": "/api/v1/models/baidu/ernie-4.5-vl-424b-a47b/endpoints"
-    }
-  },
-  {
-    "id": "baidu/qianfan-ocr-fast",
-    "canonical_slug": "baidu/qianfan-ocr-fast-20260420",
-    "hugging_face_id": "",
-    "name": "Baidu: Qianfan-OCR-Fast",
-    "created": 1776707472,
-    "description": "Qianfan-OCR-Fast is a domain-specific multimodal large model purpose-built for OCR. By leveraging specialized OCR training data while preserving versatile multimodal intelligence, it provides a powerful performance upgrade over Qianfan-OCR.",
-    "context_length": 65536,
-    "architecture": {
-      "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Other",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00000068",
-      "completion": "0.00000281"
-    },
-    "top_provider": {
-      "context_length": 65536,
-      "max_completion_tokens": 28672,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": null,
-      "top_p": null,
-      "top_k": null,
-      "frequency_penalty": null,
-      "presence_penalty": null,
-      "repetition_penalty": null
-    },
-    "supported_voices": null,
-    "knowledge_cutoff": null,
-    "expiration_date": "2026-05-28",
-    "links": {
-      "details": "/api/v1/models/baidu/qianfan-ocr-fast-20260420/endpoints"
     }
   },
   {
@@ -3203,65 +3266,6 @@
     "expiration_date": null,
     "links": {
       "details": "/api/v1/models/deepseek/deepseek-v3.2-exp/endpoints"
-    }
-  },
-  {
-    "id": "deepseek/deepseek-v3.2-speciale",
-    "canonical_slug": "deepseek/deepseek-v3.2-speciale-20251201",
-    "hugging_face_id": "deepseek-ai/DeepSeek-V3.2-Speciale",
-    "name": "DeepSeek: DeepSeek V3.2 Speciale",
-    "created": 1764594837,
-    "description": "DeepSeek-V3.2-Speciale is a high-compute variant of DeepSeek-V3.2 optimized for maximum reasoning and agentic performance. It builds on DeepSeek Sparse Attention (DSA) for efficient long-context processing, then scales post-training reinforcement learning...",
-    "context_length": 163840,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "DeepSeek",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.000000287",
-      "completion": "0.000000431",
-      "input_cache_read": "0.000000058"
-    },
-    "top_provider": {
-      "context_length": 163840,
-      "max_completion_tokens": 163840,
-      "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "top_k",
-      "top_p"
-    ],
-    "default_parameters": {
-      "temperature": 1,
-      "top_p": 0.95,
-      "frequency_penalty": null
-    },
-    "supported_voices": null,
-    "knowledge_cutoff": null,
-    "expiration_date": null,
-    "links": {
-      "details": "/api/v1/models/deepseek/deepseek-v3.2-speciale-20251201/endpoints"
     }
   },
   {
@@ -5069,6 +5073,7 @@
       "reasoning",
       "response_format",
       "seed",
+      "stop",
       "temperature",
       "tool_choice",
       "tools",
@@ -7185,7 +7190,7 @@
     "name": "MiniMax: MiniMax M2.5 (free)",
     "created": 1770908502,
     "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1...",
-    "context_length": 262144,
+    "context_length": 204800,
     "architecture": {
       "modality": "text->text",
       "input_modalities": [
@@ -7202,7 +7207,7 @@
       "completion": "0"
     },
     "top_provider": {
-      "context_length": 262144,
+      "context_length": 196608,
       "max_completion_tokens": 8192,
       "is_moderated": true
     },
@@ -17587,13 +17592,77 @@
     "default_parameters": {
       "temperature": null,
       "top_p": null,
-      "frequency_penalty": null
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
     },
     "supported_voices": null,
     "knowledge_cutoff": null,
     "expiration_date": null,
     "links": {
       "details": "/api/v1/models/stepfun/step-3.5-flash/endpoints"
+    }
+  },
+  {
+    "id": "stepfun/step-3.7-flash",
+    "canonical_slug": "stepfun/step-3.7-flash-20260528",
+    "hugging_face_id": null,
+    "name": "StepFun: Step 3.7 Flash",
+    "created": 1779985069,
+    "description": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B parameters...",
+    "context_length": 256000,
+    "architecture": {
+      "modality": "text+image+video->text",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.00000115",
+      "input_cache_read": "0.00000004"
+    },
+    "top_provider": {
+      "context_length": 256000,
+      "max_completion_tokens": 256000,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tools",
+      "top_logprobs",
+      "top_p"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/stepfun/step-3.7-flash-20260528/endpoints"
     }
   },
   {
@@ -17711,13 +17780,13 @@
       "instruct_type": null
     },
     "pricing": {
-      "prompt": "0.000000066",
-      "completion": "0.00000026",
-      "input_cache_read": "0.000000029"
+      "prompt": "0.000000063",
+      "completion": "0.00000021",
+      "input_cache_read": "0.000000021"
     },
     "top_provider": {
       "context_length": 262144,
-      "max_completion_tokens": 262144,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -18485,7 +18554,7 @@
     },
     "supported_voices": null,
     "knowledge_cutoff": null,
-    "expiration_date": null,
+    "expiration_date": "2026-05-31",
     "links": {
       "details": "/api/v1/models/xiaomi/mimo-v2-omni-20260318/endpoints"
     }
@@ -18543,7 +18612,7 @@
     },
     "supported_voices": null,
     "knowledge_cutoff": null,
-    "expiration_date": null,
+    "expiration_date": "2026-05-31",
     "links": {
       "details": "/api/v1/models/xiaomi/mimo-v2-pro-20260318/endpoints"
     }
@@ -18800,7 +18869,8 @@
     },
     "pricing": {
       "prompt": "0.000000125",
-      "completion": "0.00000084"
+      "completion": "0.00000085",
+      "input_cache_read": "0.00000006"
     },
     "top_provider": {
       "context_length": 131070,
