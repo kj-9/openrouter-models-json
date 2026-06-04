@@ -6873,7 +6873,7 @@
   {
     "id": "minimax/minimax-m3",
     "canonical_slug": "minimax/minimax-m3-20260531",
-    "hugging_face_id": "MiniMaxAI/MiniMax-M3",
+    "hugging_face_id": "",
     "name": "MiniMax: MiniMax M3",
     "created": 1780245374,
     "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
@@ -6903,7 +6903,6 @@
     },
     "per_request_limits": null,
     "supported_parameters": [
-      "frequency_penalty",
       "include_reasoning",
       "max_tokens",
       "reasoning",
@@ -6911,7 +6910,6 @@
       "temperature",
       "tool_choice",
       "tools",
-      "top_k",
       "top_p"
     ],
     "default_parameters": {
@@ -9572,59 +9570,6 @@
     "expiration_date": null,
     "links": {
       "details": "/api/v1/models/openai/gpt-4/endpoints"
-    }
-  },
-  {
-    "id": "openai/gpt-4-0314",
-    "canonical_slug": "openai/gpt-4-0314",
-    "hugging_face_id": null,
-    "name": "OpenAI: GPT-4 (older v0314)",
-    "created": 1685232000,
-    "description": "GPT-4-0314 is the first version of GPT-4 released, with a context length of 8,192 tokens, and was supported until June 14. Training data: up to Sep 2021.",
-    "context_length": 8191,
-    "architecture": {
-      "modality": "text->text",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "GPT",
-      "instruct_type": null
-    },
-    "pricing": {
-      "prompt": "0.00003",
-      "completion": "0.00006"
-    },
-    "top_provider": {
-      "context_length": 8191,
-      "max_completion_tokens": 4096,
-      "is_moderated": true
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-    ],
-    "default_parameters": {},
-    "supported_voices": null,
-    "knowledge_cutoff": "2021-09-30",
-    "expiration_date": null,
-    "links": {
-      "details": "/api/v1/models/openai/gpt-4-0314/endpoints"
     }
   },
   {
@@ -16419,6 +16364,61 @@
     }
   },
   {
+    "id": "qwen/qwen3.7-plus",
+    "canonical_slug": "qwen/qwen3.7-plus-20260602",
+    "hugging_face_id": null,
+    "name": "Qwen: Qwen3.7 Plus",
+    "created": 1780491783,
+    "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its...",
+    "context_length": 1000000,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000004",
+      "completion": "0.0000016",
+      "input_cache_read": "0.00000008",
+      "input_cache_write": "0.0000005"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+    ],
+    "default_parameters": {},
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/qwen/qwen3.7-plus-20260602/endpoints"
+    }
+  },
+  {
     "id": "rekaai/reka-edge",
     "canonical_slug": "rekaai/reka-edge-2603",
     "hugging_face_id": "RekaAI/reka-edge-2603",
@@ -18510,12 +18510,12 @@
     },
     "pricing": {
       "prompt": "0.0000006",
-      "completion": "0.00000208",
+      "completion": "0.00000192",
       "input_cache_read": "0.00000012"
     },
     "top_provider": {
       "context_length": 202752,
-      "max_completion_tokens": 16384,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -18639,7 +18639,7 @@
     },
     "top_provider": {
       "context_length": 202752,
-      "max_completion_tokens": 131072,
+      "max_completion_tokens": null,
       "is_moderated": false
     },
     "per_request_limits": null,
@@ -18650,10 +18650,8 @@
       "logprobs",
       "max_tokens",
       "min_p",
-      "parallel_tool_calls",
       "presence_penalty",
       "reasoning",
-      "reasoning_effort",
       "repetition_penalty",
       "response_format",
       "seed",
